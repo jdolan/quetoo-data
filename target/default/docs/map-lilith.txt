@@ -1,0 +1,295 @@
+In The Arms of Lilith -- a map for Quetoo  by spirit
+
+
+GENEREAL MAP DATA
+==================
+
+MAP NAME     : lilith
+
+LONGNAME     : The arms of Lilith
+
+ARCHIVE NAME : map-lilith.pak
+
+VERSION      : late beta
+
+GAME TYPE    : tourney (1vs1)
+
+TEXTURES     : * clockwork, hh3lights and hh3broken texture sets by rorshach
+                 http://rorshach.cottages.polycount.com
+
+	           * few textures were taken from the nexus6 tremulous map, textures by evil lair and the tremulous team
+                 http://www.tremulous.net/
+                 http://evillair.net/
+
+               * skybox made by me (spirit)
+	             http://maps.sp1r1t.org/skyboxes/
+
+SOUNDS       : * taken from the q2w edition of map-torn (torn glory) by card0
+
+BASE         : none (new map from scratch)
+
+RELEASE DATE : ? (added to Quetoo svn on 18-SEPT-2008)
+
+
+
+
+TRIVIA
+=======
+
+STUFF USED   : * qeradiant 1.50 (compiled from svn) -- http://www.qeradiant.com/
+               * q2wmap, pak -- http://www.quetoo.net/
+               * debian gnu/linux -- http://www.debian.org/
+               * q2wscripts -- http://maps.sp1r1t.org/stuff/
+	           * coffee
+
+BUILD TIME   : many hours during the summer of 2008
+
+FILE SIZE    : > 20 MB
+
+BRUSHES      : > 22100
+
+ENTITIES     : > 50 (> 270 including entity lights)
+
+
+
+
+GAMEPLAY
+=========
+
+WEAPONS      : 2 RL, SSG, RG, LG, HB, GL
+
+ITEMS        : 2 JA, CA, BA, MH
+
+
+
+
+
+INSTALLATION AND HOW TO PLAY
+=============================
+
+INSTALL:
+
+		* Q2W: You should not need to install the map because it is a part of Quetoo.
+
+                Quake II players:
+                You need the Quake II edition of this map, spirit2dm2. Get it from my website.
+
+
+PLAY:
+               * You can load the map using the Quetoo in-game console: 'map lilith'
+
+               * You can also start it from the command line of your OS: 'quetoo +map lilith'
+
+               * To start a simple server do sth like this: 'quetoo +set dedicated 1 +map lilith'
+
+               * To play the map on public q2w servers, cast a vote for it: 'vote map lilith'
+
+
+
+AUTHOR INFO
+============
+
+NAME         : spirit
+
+CONTACT      : see http://www.sp1r1t.org/contact/ or http://www.airrocket.net
+
+WWW          : http://maps.sp1r1t.org
+
+
+
+
+THANKS & CREDITS
+==================
+
+* RUST Gamedesign and quake2.com for many mapping tutorials and the quake 2 workshop
+  RUST - http://www.gamedesign.net/node/11
+  Quake2.com - http://www.quake2.com/qworkshop/
+
+* The Quake II Cafe - http://leray.proboards34.com
+
+* Rorshach, Evillair, Lunaran and the trem team for their great texture work
+
+* id Software and the guys at qeradiant.com for Quake 2 and the Radiant editor
+  id - http://www.idsoftware.com
+  qeradiant - http://www.qeradiant.com
+
+* The Quetoo team for play testing, comments, suggestions, talk and quetoo
+  http://www.quetoo.net
+  irc://chat.freenode.net/quetoo
+
+* Some friends for testing the map with me, you know who you are. Special thanks go to
+  henneck for playing the early & ugly alpha versions against me.
+
+* The sounds were taken from the q2w edition of map-torn by card0.
+
+* Skeleton md3 model by Gollum, based on a model by Kenneth Scott
+
+* Last but not least, the person who gave this map its name.
+
+
+
+
+
+
+Copyright / Permissions
+========================
+
+    lilith.map -- a map for Quetoo / Quake 2
+    Copyright (C) 2008 Tim 'spirit' S. -- http://www.sp1r1t.org/contact/
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+Note that the GPL only applies to my work (the .map-file), the textures were made
+by Rorshach, Evillair and the tremulous team and are released under a different license (see THANKS & CREDITS).
+
+See map-lilith.license.txt for the full license of this map.
+
+
+
+Version history
+================
+
+changes alpha1 => ... => alpha4:
+
+* moved CA to top of crate
+* moved crates around
+* added second RL
+* removed MG, moved CG around
+* added rocket ammo
+* added some brushes and minor texture changes
+* changed water depths
+* made BA -> ledge jump a bit easier
+* added upper JA
+* many changes to worldspwan
+* lowered RG ledge to allow jumping there from below MH
+* removed RG ammo and SG
+* compiled with 'q2wmap -bsp -vis -rad maps/lilith.map'
+
+
+changes alpha4 => alpha5:
+
+* removed bars at HB
+* teleporter catwalk is wider by 32u
+* teleporter frame is now MIST
+* moved upper JA a bit to make the spot easier and faster to navigate
+* changed water depth at BA
+* added MIST border around drop-down above GL
+* clipped stairs at tele exit (below MH)
+* added drop-down from upper RL to YA to make upper way to YA even faster
+* updated worldspawn
+* compiled with 'q2wmap -bsp -vis -rad maps/lilith.map'
+
+
+changes alpha5 => ... => alpha8:
+
+* tons of details, lights and lighting added
+* replaced CG with LG (lightning gun, q2w only)
+* removed adrenaline, 2x more large health
+* moved lower JA to former adrenaline position, clipped old JA spot
+* improved lighting at BA (less colors)
+* tons of clipping
+* converted all jpg textures to tga (win32 SDL_image bug)
+* added many pipes
+* retextured upper level (got rid of ugly concrete texture)
+* clipped stairs at YA and BA
+* 8u stairs at YA
+* compiled with 'q2wmap -bsp -vis -rad maps/lilith.map'
+
+
+changes alpha8 => beta1:
+
+* even more texturing and lighting, all rooms are textured and lighting is done
+* improved YA room, added MG, tons of clipping at YA
+* added lights at the ceiling
+* various improvements to the materials, coronas for many of the lights
+* removed meterial scripts that are no longer in use
+* replaced e1u1/sky with common/white to get rid of the warning message at compile time
+* replaced all NULL textures with common/white for the same reason (text editor, find & replace)
+* lightmap scaling in worldspawn (light_scale 0.8)
+* added bullets (MG ammo) near upper JA
+* moved lower RL nearer to tele to make it easier to grab coming from the barrels
+* moved ammo below YA into the path of the player
+* lowered light levels in upper part
+* added hanging wires above MH
+* new skybox
+* hinting
+* compiled with 'q2wmap -bsp -vis -rad maps/lilith.map'
+
+
+changes beta1 => beta2:
+
+* added many small lights in the floor
+* made tons of things I forgot earlier detail
+* various adjustments to lighting, including lm scaling of the whole map
+* added another dm start position
+* removed stair clipping (jdolan's idea)
+* added location file (.loc)
+* added various ambient sounds via misc_emit and target_speaker entities
+* compiled with 'q2wmap -bsp -vis -rad maps/lilith.map'
+
+
+changes beta2 => beta3:
+
+* added lamp at bars near upper RL
+* fixed texture bug in YA room
+* moved LG back a bit to prevent players grabbing it from below
+* light_scale is now 0.6 (worldspawn)
+* more lamps near BA 
+* added red lights at BA pipes (ceiling)
+* lights at stair leading from SSG to upper JA
+* wall lights above tele exit (below MH)
+* uses new q2w-specific bsp format (new q2wmap default, not baseq2 compatible! use "q2wmap -legacy ..." at compile time to force the old format!)
+* compiled with 'q2wmap -t2 -bsp -vis -rad -extra maps/lilith.map'
+
+
+* changes beta3 => .. => beta3c:
+
+* added small health between YA and BA (where the floor is broken)
+* added scaffolding at central column and at ceiling
+* recompiled (multiple times) with newer q2wmap versions due to strange bugs, HOM effects and purple walls everywhere
+* compiled with 'q2wmap -t2 -bsp -vis -rad maps/lilith.map'
+
+
+* changes beta3c => beta4:
+
+* removed scaffolding at central column and at ceiling
+* ahhh, blood everywhere! (weapon markers)
+* removed pipes between towers above the map
+* replaced skybox
+* removed weather effects (rain)
+* added lamp at central column
+* fixed tiny texture bug below SSG
+* added the skeleton model at MH
+* added lights at YA, relit YA room
+* relit the corridor from HB to upper RL
+* added lights at BA, relit BA area
+* moved 2x small health at BA
+* moved rocket ammo at BA, added cells
+* reduced sun_light from 300 to 100 to fit the skybox
+* this baby is ready for svn now
+* compiled with 'q2wmap -t2 -bsp -vis -rad maps/lilith.map'
+
+
+TODO list
+==========
+
+* steam emitters
+* drink even more coffee
+* what about the thunder sounds with the new skybox?
+
+
+
+

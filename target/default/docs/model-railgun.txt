@@ -1,0 +1,7 @@
+2016 Changes by Panjoo
+
+- model moved up and rescaled according to its world.cfg values
+
+- adjusted the view & link values to reposition and/or scale the model (this still needs tweaking)
+
+(- added a 'dummy' world.cfg to make sure it wouldn't use the old cfg during testing)

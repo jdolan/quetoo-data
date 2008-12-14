@@ -1,0 +1,52 @@
+---------------------------------------------------------------
+***************************************************************
+Map  Name:  "Stress Fractures" jstress.bsp DM level for Quake 2
+   by Jester
+
+Contact:         j-spot@planetquake.com
+     
+Version 9-4-05
+***************************************************************
+---------------------------------------------------------------
+
+Credit
+
+* I USE QERADIANT
+* ID SOFTWARE FOR MAKING QUAKE 2. 
+* ARCGHRAD http://www.planetquake.com/arghrad/ 
+* WIZ, PANZER, BOB, MARIC, SHERM, FLASH, AND SNAKE FOR HELPING ME TEST AND SUCH. MARIC FOR THE HELP AND THE SOUNDS, YOU STILL DA MAN! 
+ 
+*** 
+
+*GAMEPLAY INFO*
+
+ Single Player :  NO
+ Deathmatch :  YES FOR 2 - 8 PLAYERS
+ Base System:  AN OLD PC
+
+*BUILD INFO*
+
+ Build Time:    AROUND A MONTH OR SO
+ Utilities Used:    QERADIANT, ARGHRAD
+
+ Build Machine(s):  same as above
+ Final Compile Machine:         "    "      "
+ QBSP3 :                  14  SECONDS
+ QVIS3 :                  1 1/2 HOURS
+ ArghRAD :                10  MINUTES
+ Known Bugs:              NO!
+
+*INSTALLATION*
+
+      YOU SHOULD UNZIP THIS TO YOUR BASEQ2 DIR.
+      
+*COPYRIGHT/PERMISSIONS*
+
+"jstress & Stress Fractures" is Copyright (c) 2005 by Jester
+Quake 2 is Copyright (c) 1997 by ID Software Inc.  All rights reserved.
+The Quake 2 logo and likenesses are trademarks of ID Software Inc.
+All artwork including 3D models, textures, and skins is the exclusive
+property of ID software.  
+
+
+*Legal notes ; DON'T STEAL MY MAP PLEASE

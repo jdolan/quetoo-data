@@ -1,0 +1,85 @@
+
+
+!-!-! Unzip this zip file into your Quake2 directory. The files will be automatically placed into their
+      sub-directories !-!-!
+
+
+=========================================================
+:13/10/2002:   :Torn Glory: :card2dm1: 
+=========================================================
+
+Map & author info.
+
+
+Author:            :Dan 'CardO' Shannon
+e-mail:            :cardo@planetquake.com
+URL:               :www.planetquake.com/cardo
+
+Game:              :Quake 2
+Map title:         :Torn Glory	
+BSP title:         :card2dm1
+Players:           :1v1, 3-4 ffa (Duel mod recommended)
+weapons:           :2 RL, 1 RG, 1 CG, 1 GL 
+Powerups:          :Megahealth, Combat Armour, Flak Jacket
+
+Info:              :My attempt at a Q2 duel map; plays fast, looks nice. Ideal for settling personal                        differences upclose and personal. Set in a decaying outpost on the phobos moon. It                      has see endless wear and tear from battles and invasion throughout decades of past                      war. Not the kind of place to set up camp and expect to survive the night.                                                            
+
+Other maps:        :danzdm1 - Endless Fury .......... Q1DM
+		   :carddm1 - Attack Vector ......... Q1DM
+		   :carddm2 - Stinger ............... Q1DM	
+
+
+Build info.
+
+
+Editor used:       :Worldcraft 1.6a
+Build time:	   :Over a year. woah, crazy i know! about 14 months. 
+		    
+New textures?:     :Hell yeah! well they've been used in a couple of Q2 maps already, but that's only  
+		    because i've been building this map for centuries :) The textures themselves were  
+                    converted from Lunaran's lun3dm3 map by Biff Debris and were first used (other than                     Lun's map) in this map! It was originally part of a map pak by Biff Debris, Kona and                     myself. Friction was in and out of the pak ;)
+ 
+Additional notes:  :If you have an nvidia geforce card then i recommend using 'gl_modulate 2.5' to                          brighten the map and quake2 upto a playable standard.
+
+		    If you have problems with the skybox working properly, make sure you have 8-bit                         textures turned off in your video settings. Alternatively type 'sky space1' for a                       standard Id space look.
+
+
+Thanks! - To everyone who's seen and commented on my map in one way or another, be it in a complimentary
+          or critical way; it all helps in the end ;) 
+
+        - Biff for converting Lun's sweet textures, adding to them, and putting up with me endlessly              complaining at you. You truly are one cool dude! (http://www.planetquake.com/biff)                       
+        - Ged for taking the mass amount of beatdowns that i provided you with. I know you love the               pain! booya! Also he helped more than anyone in the playtesting of the map, it probably                 wouldn't be what it is without you in one way or another. 
+ 
+	- Id software for Quake 2
+
+	- #terrafusion for the steady production of p!mps, slappers and newbies
+
+	- The others who helped me without question. Friction, nanoSpawn, Kona, than, metlslime, Vigil,           Vondur and the rest. The list is probably endless ;)
+        
+        - Lunaran for the use of his excellent Lundoom texture set. 
+
+
+Copyright / permissions: 
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD or any other
+electronic format that is sold for money without my explicit written permission! This includes
+magazine cover CDs. Please ask me first!!
+
+You MAY distribute this file through any electronic network (internet, FTP, local BBS, etc),
+provided you include this file and leave the zip file intact.
+
+
+Please enjoy :D
+
+
+
+.. can ya find the secret?
+
+
+
+..DanZ
+		
+

@@ -1,0 +1,7 @@
+{
+	material #models/weapons/blaster/skin
+	bump 1.0
+	hardness 2.0
+	parallax 0.0
+	specular 10.0
+}

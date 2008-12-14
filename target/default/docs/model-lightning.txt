@@ -1,0 +1,22 @@
+Lightning Gun weapon model
+By broar
+
+These models and textures are licensed under the GNU Public License.
+See default/docs/gnu.txt for the full license text.
+
+
+Files:
+* models/weapons/lightning/lightning.blend
+* models/weapons/lightning/tris.md3
+* models/weapons/lightning/skin.tga
+* pics/w_lightning.tga
+
+2016 Changes by Panjoo
+
+- new normalmap + skin_glow
+- model moved up and rescaled according to its world.cfg values
+
+- made skin darker (using the original psd) 
+	- made skin less gritty/grungy so it looks more like smooth metal
+	- changed some details
+	- adjusted the view & link values to reposition and/or scale the model (this still needs tweaking)

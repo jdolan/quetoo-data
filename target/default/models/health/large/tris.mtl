@@ -1,0 +1,26 @@
+newmtl Material1
+Ka 0.0392157 0.152941 0.0352941
+Kd 0.0352941 0.396078 0
+Ks 0 0 0
+Ns 127
+newmtl Material2
+Ka 0.380392 0.380392 0.380392
+Kd 1 1 1
+Ks 0 0 0
+Ns 127
+newmtl Material3
+Ka 0.152941 0.0509804 0
+Kd 0.576471 0 0.129412
+Ks 0 0 0
+Ns 127
+newmtl Material4
+Ka 0.152941 0.145098 0.0745098
+Kd 0.811765 0.588235 0
+Ks 0 0 0
+Ns 127
+newmtl Material5
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+Ns 0
+map_Kd skin.tga

@@ -1,0 +1,89 @@
+{
+	material aghast/city4_1
+	bump 3.0
+	parallax 2.0
+	hardness 0.8
+	specular 3.0
+}
+{
+	material aghast/cop1_1
+	bump 2.0
+	hardness 2.0
+}
+{
+	material aghast/cop1_7
+	bump 2.0
+	hardness 1.5
+}
+{
+	material aghast/fire_0
+	{
+		texture aghast/fire_0
+		anim 3 10
+	}
+	{
+		lightmap
+	}
+}
+{
+	material aghast/ground1_5
+	bump 2.0
+	parallax 3.0
+	hardness 0.8
+}
+{
+	material aghast/light1_1a
+	bump 2.0
+	parallax 2.0
+	hardness 8.0
+	specular 5.0
+	{
+		flare 0
+	}
+}
+{
+	material aghast/light1_7
+	hardness 2.0
+	specular 2.0
+	{
+		flare 0
+	}
+}
+{
+	material aghast/rock4_1
+	bump 2.0
+	hardness 1.1
+	specular 3.0
+}
+{
+	material aghast/tele_top
+	hardness 2.0
+	specular 5.0
+}
+{
+	material aghast/wizmet1_2
+	bump 40.0
+	hardness 2.0
+	parallax 2.0
+}
+{
+	material aghast/wmet2_4
+	bump 3.0
+	hardness 2.0
+	parallax 5.0
+}
+{
+	material aghast/wmet4_7
+	bump 2.0
+	hardness 2.5
+}
+{
+	material aghast/wswamp1_4
+	parallax 1.5
+	hardness 0.8
+}
+{
+	material aghast/wswamp2_1
+	parallax 1.5
+	hardness 0.8
+}

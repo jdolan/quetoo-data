@@ -1,0 +1,33 @@
+___________________
+Place Of Two Deaths
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Game			: Quake 3 Arena
+Map Title		: Place Of Two Deaths (by sst13)
+Map Filename		: 13place.bsp
+Relase Date		: 29. May 2003
+
+Author			: Stefan Scholz "aka sst13 / [FDK]Railraver"
+e-Mail			: sst13@gmx.de
+Author Homepage		: http://www.sst13.de
+
+Description		: Remake of Quake1 DM1
+
+Player			: 2-4
+Gametypes		: FFA , Tourney , Team Deathmatch
+Botsupport		: Yes
+
+New Textures		: Yes , modified original Textures
+New Shaders		: Yes
+New Sounds		: No
+New Models		: Branch (by Nathan Silvers)
+			  Fernbig (by Nathan Silvers)
+			  Nateivy1 (by Nathan Silvers)
+			  Pent_Switch_W (by sst13)
+			  Ranger_Statue (By QkennyQ created from Q3 original)
+
+
+Editor(s) used		: Q3Radiant v2.02 , Q3Map Explorer , NPhernos MD3 Compiler , Milkshape 3D 1.5.7
+Compile Machine		: TB/1000 with 256 MBram
+Compile Time		: 70 min
+
+Credits			: id Software , PQ Editig Forum , zi-lan Members , all Quake Zockers...

@@ -1,0 +1,935 @@
+/*QUAKED ammo_bullets (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Bullets for the Machinegun.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/ammo/bullets/tris.md3"
+*/
+
+/*QUAKED ammo_bolts (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Bolts for the Lightning.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/ammo/bolts/tris.md3"
+*/
+
+/*QUAKED ammo_cells (.4 .7 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Cells for the Hyperblaster.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/ammo/cells/tris.md3"
+*/
+
+/*QUAKED ammo_grenades (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Grenades for the Grenade Launcher.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/ammo/grenades/tris.md3"
+*/
+
+/*QUAKED ammo_nukes (.4 1 .5) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Nukes for the BFG10K.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/ammo/nukes/tris.md3"
+*/
+
+/*QUAKED ammo_rockets (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Rockets for the Rocket Launcher.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/ammo/rockets/tris.md3"
+*/
+
+/*QUAKED ammo_shells (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Shells for the Shotgun and Super Shotgun.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/ammo/shells/tris.md3"
+*/
+
+/*QUAKED ammo_slugs (.1 .1 .8) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Slugs for the Railgun.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/ammo/slugs/tris.md3"
+*/
+
+/*QUAKED func_areaportal (0 0 0) ?
+ A non-visible object indicating disjoint areas in the world that should be combined when this entity is used. These are typically enclosed inside door brushes to toggle visibility of the rooms they separate.
+  
+ -------- Keys --------
+ targetname : The target name of this entity if it is to be triggered.
+*/
+
+/*QUAKED func_button (0 .5 .8) ?
+ When a button is touched by a player, it moves in the direction set by the "angle" key, triggers all its targets, stays pressed by the amount of time set by the "wait" key, then returns to its original position where it can be operated again.
+  
+ -------- Keys --------
+ angle : Determines the direction in which the button will move (up = -1, down = -2).
+ target : All entities with a matching target name will be triggered.
+ speed : Speed of the button's displacement (default 40).
+ wait : Number of seconds the button stays pressed (default 1, -1 = indefinitely).
+ lip : Lip remaining at end of move (default 4 units).
+ health : If set, the button must be killed instead of touched to use.
+ targetname : The target name of this entity if it is to be triggered.
+*/
+
+/*QUAKED func_conveyor (0 .5 .8) ? start_on toggle
+ Conveyors are stationary brushes that move what's on them. The brush should be have a surface with at least one current content enabled.
+  
+ -------- Keys --------
+ speed : The speed at which objects on the conveyor are moved (default 100).
+ targetname : The target name of this entity if it is to be triggered.
+  
+ -------- Spawn flags --------
+ start_on : The conveyor will be active immediately.
+ toggle : The conveyor is toggled each time it is used.
+*/
+
+/*QUAKED func_door (0 .5 .8) ? start_open toggle
+ A sliding door. By default, doors open when a player walks close to them.
+  
+ -------- Keys --------
+ message : An optional string printed when the door is first touched.
+ angle : Determines the opening direction of the door (up = -1, down = -2).
+ health : If set, door must take damage to open.
+ speed : The speed with which the door opens (default 100).
+ wait : wait before returning (3 default, -1 = never return).
+ lip : The lip remaining at end of move (default 8 units).
+ dmg : The damage inflicted on players who block the door as it closes (default 2).
+ targetname : The target name of this entity if it is to be triggered.
+  
+ -------- Spawn flags --------
+ start_open : The door to moves to its destination when spawned, and operates in reverse.
+ toggle : The door will wait in both the start and end states for a trigger event.
+*/
+
+/*QUAKED func_door_rotating (0 .5 .8) ? start_open toggle reverse x_axis y_axis
+ A door which rotates about an origin on its Z axis. By default, doors open when a player walks close to them.
+  
+ -------- Keys --------
+ message : An optional string printed when the door is first touched.
+ health : If set, door must take damage to open.
+ speed : The speed with which the door opens (default 100).
+ wait : wait before returning (3 default, -1 = never return).
+ lip : The lip remaining at end of move (default 8 units).
+ dmg : The damage inflicted on players who block the door as it closes (default 2).
+ targetname : The target name of this entity if it is to be triggered.
+  
+ -------- Spawn flags --------
+ start_open : The door to moves to its destination when spawned, and operates in reverse.
+ toggle : The door will wait in both the start and end states for a trigger event.
+ reverse : The door will rotate in the opposite (negative) direction along its axis.
+ x_axis : The door will rotate along its X axis.
+ y_axis : The door will rotate along its Y axis.
+*/
+ 
+/*QUAKED func_door_secret (0 .5 .8) ? always_shoot 1st_left 1st_down
+ A secret door which opens when shot, or when targeted. The door first slides
+ back, and then to the side.
+
+ -------- Keys --------
+ angle : The angle at which the door opens.
+ message : An optional string printed when the door is first touched.
+ health : If set, door must take damage to open.
+ speed : The speed with which the door opens (default 100).
+ wait : wait before returning (3 default, -1 = never return).
+ dmg : The damage inflicted on players who block the door as it closes (default 2).
+ targetname : The target name of this entity if it is to be triggered.
+
+ -------- Spawn flags --------
+ always_shoot : The door will open when shot, even if it is targeted.
+ first_left : The door will first slide to the left.
+ first_down : The door will first slide down.
+*/
+
+/*QUAKED func_group (.4 .8 .4) ?
+ Groups brushes together in Radiant for convenience. When the map is compiled, these entities are merged back into worldspawn.
+  
+ -------- Notes --------
+ Use g to select all brushes in a group. Use TAB to navigate through the individual brushes of a selected group.
+*/
+
+/*QUAKED func_plat (0 .5 .8) ? low_trigger
+ Rising platform the player can ride to reach higher places. Platforms must be placed in the raised position, so they will operate and be lit correctly, but they spawn in the lowered position. If the platform is the target of a trigger or button, it will start out disabled and in the extended position.
+  
+ -------- Keys --------
+ speed : The speed with which the platform moves (default 200).
+ accel : The platform acceleration (default 500).
+ lip : The lip remaining at end of move (default 8 units).
+ height : If set, this will determine the extent of the platform's movement, rather than implicitly using the platform's height.
+ targetname : The target name of this entity if it is to be triggered.
+  
+ -------- Spawn flags --------
+ low_trigger : If set, the touch field for this platform will only exist at the lower position.
+*/
+
+/*QUAKED func_rotating (0 .5 .8) ? start_on reverse x_axis y_axis touch_pain stop
+ Solid entity that rotates continuously. Rotates on the Z axis by default and requires an origin brush. It will always start on in the game and is not targetable.
+  
+ -------- Keys --------
+ speed : The speed at which the entity rotates (default 100).
+ dmg : The damage to inflict to players who touch or block the entity (default 2).
+ targetname : The target name of this entity if it is to be triggered.
+  
+ -------- Spawn flags --------
+ start_on : The entity will spawn rotating.
+ reverse : Will cause the entity to rotate in the opposite direction.
+ x_axis : Rotate on the X axis.
+ y_axis : Rotate on the Y axis.
+ touch_pain : If set, any interaction with the entity will inflict damage to the player.
+ stop : If set and the entity is blocked, the entity will stop rotating.
+*/
+
+/*QUAKED func_timer (0.3 0.1 0.6) (-8 -8 -8) (8 8 8) start_on
+ Time delay trigger that will continuously fire its targets after a preset time delay. The time delay can also be randomized. When triggered, the timer will toggle on/off.
+  
+ -------- Keys --------
+ wait : Delay in seconds between each triggering of all targets (default 1).
+ random : Random time variance in seconds added to "wait" delay (default 0.5 * wait).
+ delay :  Additional delay before the first firing when start_on (default 0).
+ targetname : The target name of this entity if it is to be triggered.
+  
+ -------- Spawn flags --------
+ start_on : If set, the timer will begin firing once spawned.
+*/
+
+/*QUAKED func_train (0 .5 .8) ? start_on toggle block_stops
+ Trains are moving solids that players can ride along a series of path_corners. The origin of each corner specifies the lower bounding point of the train at that corner. If the train is the target of a button or trigger, it will not begin moving until activated.
+  
+ -------- Keys --------
+ speed : The speed with which the train moves (default 100).
+ dmg : The damage inflicted on players who block the train (default 2).
+ noise : The looping sound to play while the train is in motion.
+ targetname : The target name of this entity if it is to be triggered.
+  
+ -------- Spawn flags --------
+ start_on : If set, the train will begin moving once spawned.
+ toggle : If set, the train will start or stop each time it is activated.
+ block_stops : When blocked, stop moving and inflict no damage.
+*/
+
+/*QUAKED func_wall (0 .5 .8) ? triggered toggle start_on
+ A solid that may spawn into existence via trigger.
+  
+ -------- Keys --------
+ targetname : The target name of this entity if it is to be triggered.
+  
+ -------- Spawn flags --------
+ triggered : The wall is inhibited until triggered, at which point it appears and kills everything in its way.
+ toggle : The wall may be triggered off and on.
+ start_on : The wall will initially be present, but can be toggled off.
+*/
+
+/*QUAKED func_water(0 .5 .8) ? start_open
+ A movable water brush, which must be targeted to operate.
+  
+ -------- Keys --------
+ angle : Determines the opening direction (up = -1, down = -2)
+ speed : The speed at which the water moves (default 25).
+ wait : Delay in seconds before returning to the initial position (default -1).
+ lip : Lip remaining at end of move (default 0 units).
+ targetname : The target name of this entity if it is to be triggered.
+  
+ -------- Spawn flags ---------
+ start_open : If set, causes the water to move to its destination when spawned and operate in reverse.
+*/
+
+/*QUAKED info_null (.2 .3 .2) (-4 -4 -4) (4 4 4)
+ A positional target for spotlights, etc. These are inhibited in the game and are only useful to the editor and BSP compiler.
+  
+ -------- Keys --------
+ targetname : The target name of this entity.
+*/
+
+/*QUAKED info_notnull (0 .5 0) (-4 -4 -4) (4 4 4)
+ A positional target for other entities. Unlike info_null, these are available in the game and can be targeted by other entities (e.g. info_player_intermission).
+  
+ -------- Keys --------
+ targetname : The target name of this entity.
+*/
+
+/*QUAKED info_player_start (1 0 0) (-16 -16 -24) (16 16 32)
+ Single player spawn point.
+  
+ -------- Keys --------
+ angle : The angle at which the player will face when spawned.
+*/
+
+/*QUAKED info_player_deathmatch (1 0 1) (-16 -16 -24) (16 16 32)
+ Deathmatch spawn point.
+  
+ -------- Keys --------
+ angle : The angle at which the player will face when spawned.
+*/
+
+/*QUAKED info_player_intermission (1 0 1) (-16 -16 -24) (16 16 32)
+ Camera for intermission screen between matches.
+  
+ -------- Keys --------
+ angles : The "pitch yaw roll" angles for the camera (e.g. 20 270 0).
+ target : The target name of an info_notnull as an alternate way to set the camera angles.
+*/
+
+/*QUAKED info_player_team1 (0 0 1) (-16 -16 -24) (16 16 32)
+ Player spawn point for blue team in teams or CTF gameplay.
+  
+ -------- Keys --------
+ angle : The angle at which the player will face when spawned.
+*/
+
+/*QUAKED info_player_team2 (1 0 0) (-16 -16 -24) (16 16 32)
+ Player spawn point for red team in teams or CTF gameplay.
+  
+ -------- Keys --------
+ angle : The angle at which the player will face when spawned.
+*/
+
+/*QUAKED item_adrenaline (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Adrenaline (=100).
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/powerups/adren/tris.obj"
+*/
+
+/*QUAKED item_armor_body (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Body armor (+200).
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/armor/body/tris.md3"
+*/
+
+/*QUAKED item_armor_combat (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Combat armor (+100).
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/armor/combat/tris.md3"
+*/
+
+/*QUAKED item_armor_jacket (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Jacket armor (+50).
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/armor/jacket/tris.md3"
+*/
+
+/*QUAKED item_armor_shard (.1 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Shard armor (+3).
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/armor/shard/tris.md3"
+*/
+
+/*QUAKED item_flag_team1 (.2 .2 1) (-16 -16 -24) (16 16 32) triggered no_touch hover
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/ctf/flag1/tris.md3"
+*/
+
+/*QUAKED item_flag_team2 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/ctf/flag2/tris.md3"
+*/
+
+/*QUAKED item_health (.8 .8 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Health (+15).
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/health/medium/tris.obj"
+*/
+
+/*QUAKED item_health_large (1 0 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Large health (+25).
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/health/large/tris.obj"
+*/
+
+/*QUAKED item_health_mega (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Mega health (+75).
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/health/mega/tris.obj"
+*/
+
+/*QUAKED item_health_small (.3 1 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Small health (+3).
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/health/small/tris.obj"
+*/
+
+/*QUAKED item_quad (.2 .4 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Quad damage.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/powerups/quad/tris.md3"
+*/
+
+/*QUAKED light (0 1 0) (-8 -8 -8) (8 8 8)
+ Point light source.
+  
+ -------- Keys --------
+ light : Light radius (default 300).
+ _color : Light color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
+*/
+
+/*QUAKED light_spot (0 1 0) (-8 -8 -8) (8 8 8)
+ Directional light source.
+  
+ -------- Keys --------
+ light : Light radius (default 300).
+ _color : Light color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
+ _cone : Spotlight cone diameter (default 10).
+ _angle : Spotlight direction (up = -1, down = -2, yaw = positive value).
+*/
+
+/*QUAKED misc_teleporter (1 0 0) (-32 -32 -24) (32 32 -16) ? ? no_effects
+ Warps players who touch this entity to the targeted misc_teleporter_dest entity.
+  
+ -------- Spawn flags --------
+ ?
+ ?
+ no_effects : Suppress the default teleporter particle effects.
+*/
+
+/*QUAKED misc_teleporter_dest (1 0 0) (-32 -32 -24) (32 32 -16)
+ Teleport destination for misc_teleporters.
+  
+ -------- Keys --------
+ angle : Direction in which player will look when teleported.
+ targetname : The target name of this entity.
+*/
+
+/*QUAKED misc_emit (.8 .8 0) (-8 -8 -8) (8 8 8) light sparks steam flames corona sound model
+ Client-side emission of particles, ambient sounds, light flashes, and static models.
+  
+ -------- Keys --------
+ angles : The angles of orientation for particles emissions and static models.
+ velocity : The directional vector for steam emissions.
+ color : The color for particles, light flashes, and coronas.
+ hz : The emission rate, in events-per-second.
+ drift : The factor of randomized drift applied to the emission rate.
+ radius : The radius for coronas and light flashes.
+ count : The number of particles to emit per event.
+ scale : The scale for a static model.
+ sound : The sound sample to accompany events.
+ attenuation : The sound attenuation, -1 for global.
+ flags : Determines emit type.
+ model : The static model name, e.g. trees/mytree.
+  
+ -------- Spawn flags --------
+ light : Emit a light flash.
+ sparks : Emit sparks.
+ steam : Emit steam.
+ flames : Emit flames.
+ corona : Emit a corona.
+ sound : Emit a sound.
+ model : Emit a model.
+*/
+
+/*QUAKED misc_fireball (1 .3 .1) (-6 -6 -6) (6 6 6)
+ Spawns an intermittent fireball that damages players. These are typically used above lava traps for ambiance.
+
+ -------- Keys --------
+ angles : The angles at which the fireball will fly (default randomized).
+ dmg : The damage inflicted to entities that touch the fireball (default 4).
+ random : Random time variance in seconds added to "wait" delay (default 0.5 * wait).
+ speed : The speed at which the fireball will fly (default 600.0).
+ wait : The interval in seconds between fireball emissions (default 5.0).
+*/
+
+/*QUAKED misc_model (.8 .8 0) (-8 -8 -8) (8 8 8)
+ Client-side emission of static models (non-interactive map objects).
+  
+ -------- Keys --------
+ angles : The angles of orientation for the models.
+ scale : The scale for a static model.
+ model : The static model name, e.g. trees/mytree.
+*/
+
+/*QUAKED path_corner (.7 .3 0) (-8 -8 -8) (8 8 8) teleport
+ Path corner for func_trains.
+  
+ -------- Keys --------
+ target : The next corner in the path.
+ pathtarget : An entity to be used by this path corner when the train targets us.
+ targetname : The target name of this entity.
+  
+ -------- Spawn flags --------
+ teleport : If set, this path corner teleports the train as soon as it is selected.
+*/
+
+/*QUAKED target_light (0 1 0) (-8 -8 -8) (8 8 8) start_on toggle
+ Emits a user-defined light when used. Lights can cycle between two colors,
+ and also be toggled on and off.
+
+ -------- Keys --------
+ colors : The color(s) to cycle through (1 - 255 paletted, "red", "green", etc..)
+ delay : The delay before activating, in seconds (default 0).
+ dmg : The radius of the light in units.
+ targetname : The target name of this entity.
+ wait : If specified, an additional cycle will fire after this interval.
+
+ -------- Spawn flags --------
+ start_on : The light starts on, with the first configured color.
+ toggle : The light will include an off state in its cycle.
+
+ -------- Notes --------
+ Use this entity to add switched lights (toggle). Use the wait key to synchronize
+ color cycles with other entities.
+*/
+
+/*QUAKED target_speaker (1 0 0) (-8 -8 -8) (8 8 8) loop_on loop_off
+ Plays a sound each time it is used, or in loop if requested.
+  
+ -------- Keys --------
+ noise : The name of the sample to play, e.g. voices/haunting.
+ attenuation : The attenuation level; higher levels drop off more quickly (default 1):
+   -1 : No attenuation, send the sound to the entire level.
+    1 : Normal attenuation, hearable to all those in PHS of entity.
+    2 : Idle attenuation, hearable only by those near to entity. 
+    3 : Static attenuation, hearable only by those very close to entity.
+ targetname : The target name of this entity.
+ 
+ -------- Spawn flags --------
+ loop_on : The sound can be toggled, and will play in loop until used.
+ loop_off : The sound can be toggled, and will begin playing when used.
+   
+ -------- Notes --------
+ Use this entity only when a sound must be triggered by another entity. For
+ all other ambient sounds, use misc_emit.
+*/
+
+/*QUAKED target_string (0 0 1) (-8 -8 -8) (8 8 8)
+ Displays a center-printed message to the player when used.
+  
+ -------- Keys --------
+ message : The message to display.
+ targetname : The target name of this entity.
+*/
+
+/*QUAKED trigger_multiple (.5 .5 .5) ? triggered shootable
+ Triggers multiple targets at fixed intervals.
+  
+ -------- Keys --------
+ delay : Delay in seconds between activation and firing of targets (default 0).
+ wait : Interval in seconds between activations (default 0.2).
+ message : An optional string to display when activated.
+ target : The name of the entity or team to use on activation.
+ killtarget : The name of the entity or team to kill on activation.
+ targetname : The target name of this entity if it is to be triggered.
+  
+ -------- Spawn flags --------
+ triggered : If set, this trigger must be targeted before it will activate.
+ shootable : If set, this trigger will fire when projectiles touch it.
+*/
+
+/*QUAKED trigger_once (.5 .5 .5) ? triggered
+ Triggers multiple targets once.
+  
+ -------- Keys --------
+ delay : Delay in seconds between activation and firing of targets (default 0).
+ message : An optional string to display when activated.
+ target : The name of the entity or team to use on activation.
+ killtarget : The name of the entity or team to kill on activation.
+ targetname : The target name of this entity if it is to be triggered.
+  
+ -------- Spawn flags --------
+ triggered : If set, this trigger must be targeted before it will activate.
+*/
+
+/*QUAKED trigger_relay (.5 .5 .5) (-8 -8 -8) (8 8 8)
+ A trigger that can not be touched, but must be triggered by another entity.
+  
+ -------- Keys --------
+ delay : The delay in seconds between activation and firing of targets (default 0).
+ message : An optional string to display when activated.
+ target : The name of the entity or team to use on activation.
+ killtarget : The name of the entity or team to kill on activation.
+ targetname : The target name of this entity.
+*/
+
+/*QUAKED trigger_always (.5 .5 .5) (-8 -8 -8) (8 8 8)
+ Triggers targets once at level spawn.
+   
+ -------- Keys --------
+ delay : The delay in seconds between activation and firing of targets (default 0.2).
+ message : An optional message to display when this trigger fires.
+ target : The name of the entity or team to use on activation.
+ kill_target : The name of the entity or team to kill on activation.
+*/
+
+/*QUAKED trigger_push (.5 .5 .5) ? push_once push_effects
+ Pushes the player in any direction. These are commonly used to make jump pads to send the player upwards. Using the angles key, you can project the player in any direction using "pitch yaw roll."
+  
+ -------- Keys --------
+ angles : The direction to push the player in "pitch yaw roll" notation (e.g. -80 270 0).
+ speed : The speed with which to push the player (default 100).
+  
+ -------- Spawn flags --------
+ push_once : If set, the pusher is freed after it is used once.
+ push_effects : If set, emit particle effects to indicate that a pusher is here.
+*/
+
+/*QUAKED trigger_teleporter (1 0 0) ?
+ Touching this will warp players to the targeted misc_teleporter_dest entity. This is the brush form of misc_teleporter.
+  
+ -------- Keys --------
+ target : The target name of a misc_teleporter_dest.
+*/
+
+/*QUAKED trigger_hurt (.5 .5 .5) ? start_off toggle ? no_protection slow
+ Any player that touches this will be hurt by "dmg" points of damage every 100ms (very fast).
+  
+ -------- Keys --------
+ dmg : The damage done every 100ms to any player who touches this entity (default 2).
+ targetname : The target name of this entity, if it is to be triggered.
+  
+ -------- Spawn flags --------
+ start_off : If set, this entity must be activated before it will hurt players.
+ toggle : If set, this entity is toggled each time it is activated.
+ ?
+ no_protection : If set, armor will not be used to absorb damage inflicted by this entity.
+ slow : Decreases the damage rate to once per second.
+*/
+
+/*QUAKED trigger_exec (0 1 0) ?
+ Executes a console command or script file when activated.
+  
+ -------- Keys --------
+ command : The console command(s) to execute.
+ script : The script file (.cfg) to execute.
+ delay : The delay in seconds between activation and execution of the commands.
+*/
+
+/*QUAKED weapon_blaster (.8 .8 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Blaster.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/weapons/shotgun/tris.obj"
+*/
+
+/*QUAKED weapon_shotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Shotgun.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/weapons/shotgun/tris.obj"
+*/
+
+/*QUAKED weapon_supershotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Super shotgun.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/weapons/supershotgun/tris.obj"
+*/
+
+/*QUAKED weapon_machinegun (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Machinegun.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/weapons/machinegun/tris.obj"
+*/
+
+/*QUAKED weapon_grenadelauncher (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Grenade Launcher.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/weapons/grenadelauncher/tris.obj"
+*/
+
+/*QUAKED weapon_rocketlauncher (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Rocket Launcher.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/weapons/rocketlauncher/tris.md3"
+*/
+
+/*QUAKED weapon_hyperblaster (.4 .7 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Hyperblaster.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/weapons/hyperblaster/tris.md3"
+*/
+
+/*QUAKED weapon_lightning (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Lightning.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/weapons/lightning/tris.md3"
+*/
+
+/*QUAKED weapon_railgun (.1 .1 .8) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ Railgun.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/weapons/railgun/tris.obj"
+*/
+
+/*QUAKED weapon_bfg (.4 1 .5) (-16 -16 -16) (16 16 16) triggered no_touch hover
+ BFG10K.
+  
+ -------- Keys --------
+ team : The team name for alternating item spawns.
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/weapons/bfg/tris.md3"
+*/
+
+/*QUAKED worldspawn (0 0 0) ?
+ The worldspawn entity defines global conditions and behavior for the entire level. All brushes not belonging to an explicit entity implicitly belong to worldspawn.
+  
+ -------- Keys --------
+ message : The map title.
+ sky : The sky environment map (default unit1_).
+ ambient_light : The ambient light level (e.g. 0.14 0.11 0.12).
+ sun_light : Sun light intensity, a single scalar value 0 - 255.
+ sun_color : Sun light color (e.g. 0.8 0.4 0.7).
+ sun_angles : Sun light angles as "pitch yaw roll" (e.g. 85 225 0).
+ brightness : Global light scale, a single positive scalar value (e.g. 1.125).
+ saturation : Global light saturation, a single positive scalar value (e.g. 0.9).
+ contrast : Global light contrast, a single positive scalar value (e.g. 1.17).
+ weather : Weather effects, one of "none, rain, snow" followed optionally by "fog r g b."
+ gravity : Gravity for the level (default 800).
+ gameplay : The gameplay mode, one of "deathmatch, instagib, arena."
+ teams : Enables and enforces teams play (enabled = 1, auto-balance = 2).
+ ctf : Enables CTF play (enabled = 1, auto-balance = 2).
+ match : Enables match play (round-based elimination with warmup) (enabled = 1).
+ fraglimit : The frag limit (default 20).
+ roundlimit : The round limit (default 20).
+ capturelimit : The capture limit (default 8).
+ timelimit : The time limit in minutes (default 20).
+ give : A comma-delimited item string to give each player on spawn.
+*/

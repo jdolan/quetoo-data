@@ -1,0 +1,40 @@
+Title                   : Under Pressure
+                          
+Filename                : frdm3.bsp
+ 
+Author                  : Ville Nieminen a.k.a. Friction
+
+Email Address           : vjniemin@hit.fi
+			  
+Description             : DM Q2 map
+                           		
+Other Levels by Author  : frdm1.bsp : The Three Falls
+                          frdm2.bsp : The Exposure
+
+Thanks to               : Clan MC for enduring my ramblings about layout problems
+                          All who betatested frdm3. You know who you are :)
+                          Id Software for best games ever
+                          You for downloading frdm3
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : 1vs1, 2vs2 or 3-5 player FFA. 6 is pushing the limits.
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+Demos Replaced          : No
+
+Base                    : New level from scratch
+Editor(s) used          : QERadiant, Geoffrey DeWans Bsp and Vis, Arghrad.
+Known Bugs              : For some reason, the teleports wont telefrag players. This causes players
+			  to stuck inside eachothers. They can still shoot the enemy though :)
+                            
+Build Time              : Way too long
+Texture Wad used        : Quake2 textures
+Compile machine         : C563a, 128Mb RAM
+Compile time            : 2min 5s 
+
+Legal Stuff             : Who reads this stuff anyways? Just contact me if you want to
+                          use this map for something else than putting it on a server.

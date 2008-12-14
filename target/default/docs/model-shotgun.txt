@@ -1,0 +1,12 @@
+2016 Changes by Panjoo
+
+- new normalmap
+- model moved up and rescaled according to its world.cfg values
+
+- model looked weird in 1st person. Only thing that worked was completely do away with the upper part of the barrel top...
+- which also meant a modified skin-mesh and a new skin altogether. 
+- skin looked too sharp and gritty to resemble metal texture, this new one looks more metallic and shiny
+
+- adjusted the view & link values to reposition and/or scale the model (this still needs tweaking)
+
+(- added a 'dummy' world.cfg to make sure it wouldn't use the old cfg during testing)

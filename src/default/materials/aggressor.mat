@@ -1,0 +1,176 @@
+{
+	material aggressor/ceil1_22a
+	bump 4.0
+	hardness 2.0
+	parallax 1.0
+	specular 1.0
+	{
+		flare 0
+	}
+}
+{
+	material aggressor/ceil1_34
+	bump 4.0
+	hardness 2.0
+	parallax 1.0
+	specular 1.0
+	{
+		flare 0
+	}
+}
+{
+	material aggressor/drk_brnbrick
+	bump 30.0
+	hardness 1.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material aggressor/e6c_floor
+	bump 8.0
+	hardness 2.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material aggressor/e6l_stepedge
+	bump 10.0
+	hardness 1.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material aggressor/e7beam01
+	bump 1.0
+	hardness 2.0
+	parallax 1.0
+	specular 10.0
+}
+{
+	material aggressor/e7beam02
+	bump 1.0
+	hardness 2.0
+	parallax 1.0
+	specular 10.0
+}
+{
+	material aggressor/e7bmtrim
+	bump 8.0
+	hardness 1.0
+	parallax 2.0
+	specular 1.0
+}
+{
+	material aggressor/e7bmtrim3
+	bump 1.0
+	hardness 2.0
+	parallax 1.0
+	specular 10.0
+}
+{
+	material aggressor/e7bmtrim4
+	bump 1.0
+	hardness 2.0
+	parallax 1.0
+	specular 10.0
+}
+{
+	material aggressor/e7brickfloor01
+	bump 4.0
+	hardness 1.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material aggressor/e7brnmetal
+	bump 1.0
+	hardness 2.0
+	parallax 1.0
+	specular 10.0
+}
+{
+	material aggressor/e7panelwood
+	bump 5.0
+	hardness 0.5
+	parallax 1.0
+	specular 1.0
+}
+{
+	material aggressor/e7panelwood2
+	bump 5.0
+	hardness 0.5
+	parallax 1.0
+	specular 1.0
+}
+{
+	material aggressor/e7sbrickfloor
+	bump 20.0
+	hardness 1.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material aggressor/e7trim01
+	bump 1.0
+	hardness 5.0
+	parallax 1.0
+	specular 10.0
+}
+{
+	material aggressor/e7trim02
+	bump 1.0
+	hardness 5.0
+	parallax 1.0
+	specular 10.0
+}
+{
+	material aggressor/e7walldesign01
+	bump 14.0
+	hardness 1.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material aggressor/e7walldesign01b
+	bump 14.0
+	hardness 1.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material aggressor/e8_rlight
+	bump 3.0
+	hardness 2.0
+	parallax 4.0
+	specular 4.0
+	{
+		flare 0
+		scale 1.5
+	}
+}
+{
+	material aggressor/floorfx
+	{
+		texture aggressor/floorfx_fx
+		blend GL_SRC_ALPHA GL_ONE
+		stretch 0.5 1.0
+		pulse 1.0
+		color 0.3 0.3 0.3
+	}
+}
+
+{
+	material aggressor/pool3d_3e
+	bump 1.0
+	hardness 1.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material aggressor/steel_bev
+	bump 1.0
+	hardness 8.0
+	parallax 1.0
+	specular 8.0
+}
+

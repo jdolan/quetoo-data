@@ -1,0 +1,262 @@
+{
+	material necro/barrel_rst_sign
+	bump 3.0
+	hardness 3.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material necro/barrel_rst_top
+	bump 3.0
+	hardness 3.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material necro/beatoldpavment
+	bump 3.0
+	hardness 1.5
+	parallax 0.0
+	specular 1.5
+}
+{
+	material necro/ceil1_22a
+	bump 1.0
+	hardness 10.0
+	parallax 1.0
+	specular 3.0
+	{
+		flare 1
+	}
+}
+{
+	material necro/chapellepilier
+	bump 3.0
+	hardness 1.0
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/concrete01dirt
+	bump 3.0
+	hardness 1.0
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/conmetal_wall02
+	bump 2.0
+	hardness 3.0
+	parallax 0.0
+	specular 5.0
+}
+{
+	material necro/cradsewers01
+	bump 2.0
+	hardness 1.5
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/cradsewers02a
+	bump 2.0
+	hardness 1.5
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/cradsewers02b
+	bump 2.0
+	hardness 1.5
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/cradsewers02c
+	bump 2.0
+	hardness 1.5
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/cradsewers02d
+	bump 2.0
+	hardness 1.5
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/cradsewersbricks01
+	bump 3.0
+	hardness 1.5
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/decayfloorhvtile
+	bump 2.0
+	hardness 1.0
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/decaywall01
+	bump 2.0
+	hardness 2.0
+	parallax 0.0
+	specular 3.0
+}
+{
+	material necro/eclatpav
+	bump 3.0
+	hardness 1.0
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/ex_floor_mtl_grate_01
+	bump 1.0
+	hardness 8.0
+	parallax 0.0
+	specular 16.0
+}
+{
+	material necro/floorsidew1b
+	bump 2.0
+	hardness 1.5
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/floorsidew1trim
+	bump 2.0
+	hardness 1.5
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/floorsidew2b
+	bump 2.0
+	hardness 1.5
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/glue1
+	bump 1.0
+	hardness 2.0
+	parallax 0.0
+	specular 4.0
+}
+{
+	material necro/glue2
+	bump 1.0
+	hardness 4.0
+	parallax 1.0
+	specular 6.0
+}
+{
+	material necro/grate1
+	bump 1.0
+	hardness 8.0
+	parallax 0.0
+	specular 16.0
+}
+{
+	material necro/hh3_m_light03
+	bump 1.0
+	hardness 8.0
+	parallax 1.0
+	specular 8.0
+}
+{
+	material necro/hh3_ms_light01
+	bump 1.0
+	hardness 8.0
+	parallax 1.0
+	specular 2.0
+}
+{
+	material necro/mech1
+	bump 1.5
+	hardness 5.0
+	parallax 0.0
+	specular 4.0
+}
+{
+	material necro/panel128_1
+	bump 2.0
+	hardness 7.0
+	parallax 0.0
+	specular 4.0
+}
+{
+	material necro/panel128_6a
+	bump 2.0
+	hardness 7.0
+	parallax 0.0
+	specular 4.0
+}
+{
+	material necro/panel64_1
+	bump 2.0
+	hardness 7.0
+	parallax 0.0
+	specular 4.0
+}
+{
+	material necro/panel64_2
+	bump 2.0
+	hardness 7.0
+	parallax 0.0
+	specular 4.0
+}
+{
+	material necro/panel64_5
+	bump 2.0
+	hardness 7.0
+	parallax 0.0
+	specular 4.0
+}
+{
+	material necro/pk01_pan_wall02a1
+	bump 2.0
+	hardness 6.0
+	parallax 0.0
+	specular 6.0
+}
+{
+	material necro/sewers01
+	bump 4.0
+	hardness 1.0
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/sewerswall01a
+	bump 2.0
+	hardness 1.5
+	parallax 0.0
+	specular 2.0
+}
+{
+	material necro/streetwall
+	bump 3.0
+	hardness 2.0
+	parallax 0.0
+	specular 4.0
+}
+{
+	material necro/tuyauxrust
+	bump 2.0
+	hardness 1.0
+	parallax 0.0
+	specular 1.0
+}
+{
+	material necro/u_lamp4
+	bump 1.0
+	hardness 8.0
+	parallax 0.0
+	specular 1.0
+}

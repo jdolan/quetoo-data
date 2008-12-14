@@ -1,0 +1,26 @@
+Made by me, driven by you?
+
+Author : Kevin 'Rorshach' Johnstone (k.johnstone@discreetmonsters.com)
+webs : www.3dpalette.com/~rorshach [current] - www.quakefiles.com/rorshach [old]
+
+Usage : Place the PK3 file in Quake3/Baseq3 folder, load in Q3R texture window
+
+Info : I made this texture set for Headhunters3 (http://tarot.telefragged.com/hh3).
+They are for everyones use. The hope of seeing the work i did become a building
+block for the community to make some levels with a 'different' style is what has
+made me release them.
+
+I look foward to seeing what you all make. They can be used by any individual or
+Mod/ TC / clan etc as long as its not to make money. If you want to make money or
+enter a competition with a large prize im afraid thats a no no unless you want
+to split the prize with me.
+
+Understand??
+
+Request: Many of these textures have alpha channels. IF you produce good shaders
+for use with these, please send me a copy when finalised so that they also may
+be shared around for the benefit of the community.
+
+Cheers,
+r.
+

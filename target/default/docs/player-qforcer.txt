@@ -1,0 +1,57 @@
+April 27th, 2005
+================================================================
+Model Name              : QForcer
+installation directory  : quake3/baseq3/tabun_qforcer.pk3
+Author	     		: Tabun
+Sounds			: [none yet, anyone fancy a go?]
+Email Address           : tabun@planetquake.com
+Website URL		: http://www.tabun.nl [and] http://www.wireheadstudios.org/generations
+Model description       : 
+
+	This is the Q3 version of my interpretation of a Quake enemy: The Enforcer. It was made from scratch,
+	and is an ODE to the original, not an attack or attempt to do injustice. Believe it or not, this fellow was
+	my favourite enemy in that game :]
+
+
+Add. Credits/Thanks     :
+	
+	To Good Old P. Steed, for sharing his .bip files. Couldn't have done the animation as 
+	quickly or smoothly without 'em. Also, his Thinking Outside of The Box was great for refreshing
+	that long-lost Physique knowledge ;]
+
+
+================================================================
+* Play Information *
+
+New Sounds              : NO
+CTF Skins               : YES
+LODS			: NO
+
+
+* Construction *
+Poly Count              : 1345
+Vert Count              : 721
+Skin Count              : 1 (plus red and blue versions)
+Base info               : All made from scratch, excepting the animations, which are based
+			  on Steeds .bips.
+
+Software used           : 3D Studio max, Photoshop, Npherno's toolkit
+Known Bugs              : [none so far]
+Build/Animation time    : A week or two, off and on.
+
+
+* Copyright / Permissions *
+
+QUAKE(R) and QUAKE III(R) are registered trademarks of
+id Software, Inc.
+
+I'm sure this character is protected by said trademarks or I.P. laws, so be sure not
+to use it for anything before checking with both me and id Software.
+
+You know the drill. Don't use without asking, don't edit without begging,
+and don't even think of re-releasing anywhere without my explicit permission.
+
+================================================================
+
+Greets,
+                   Tabun

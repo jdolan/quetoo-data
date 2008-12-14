@@ -1,0 +1,9 @@
+2016 Changes by Panjoo
+
+- designed new model from scratch
+- designed new skin from scratch
+- new normalmap + skin_glow
+
+- adjusted the view & link values to reposition and/or scale the model (this still needs tweaking)
+
+(- added a 'dummy' world.cfg to make sure it wouldn't use the old cfg during testing)

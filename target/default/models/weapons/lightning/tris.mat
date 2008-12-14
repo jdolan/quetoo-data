@@ -1,0 +1,13 @@
+{
+	material #models/weapons/lightning/skin
+	bump 2.5
+	hardness 2.5
+	parallax 0.0
+	specular 10.0
+	{
+		texture #models/weapons/lightning/skin_glow
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 1.75
+	}
+}
+

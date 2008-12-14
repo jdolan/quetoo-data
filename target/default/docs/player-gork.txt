@@ -1,0 +1,29 @@
+Unzip and put gork.pk3 in your quake3arena/baseq3/ folder.
+
+If you're having trouble using the model in multiplayer games, make sure the server is not set to "pure".
+
+<March. 2001>
+
+
+================================================================
+
+================================================================
+Model Name:		Gork 	
+Model:			Nemes|s 	<www.wolfblade.com><nemesis@lightwolf.com>
+Animation:		Nemes|s 	"
+Skins:			Nemes|s 	"
+Sound:			Nemes|s 	"
+
+Story: 
+He is Gork God of the Orks. What more is there to say?
+
+================================================================
+
+================================================================
+
+
+
+* Copyright / Permissions *
+QUAKE(R) and QUAKE III Arena(R) are registered trademarks of id Software, Inc.
+
+This model may be freely distributed in any form, UNALTERED.  Which means, you can't pull the readme file out of the zip, or add your own stuff to it and pass it along.

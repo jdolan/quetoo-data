@@ -1,0 +1,12 @@
+{
+	material #models/weapons/rocketlauncher/skin
+	bump 2.5
+	hardness 2.5
+	parallax 0.0
+	specular 8.0
+	{
+		texture #models/weapons/rocketlauncher/skin_glow
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.75
+	}
+}

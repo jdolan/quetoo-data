@@ -1,0 +1,7 @@
+{
+	material #models/weapons/machinegun/skin
+	bump 2.5
+	hardness 2.5
+	parallax 0.0
+	specular 8.0
+}

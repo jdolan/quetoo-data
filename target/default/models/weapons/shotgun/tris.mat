@@ -1,0 +1,7 @@
+{
+	material #models/weapons/shotgun/skin
+	bump 3.5
+	hardness 2.5
+	parallax 0.0
+	specular 10.0
+}

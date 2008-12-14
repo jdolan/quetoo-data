@@ -1,0 +1,38 @@
+================================================================
+Title                   : AeroWalk
+Filename                : aeroq2.bsp
+Date of Release         : April 11, 1998
+Author                  : Mattias Konradsson
+Nick                    : Preacher
+Email Address           : preacher@fragzone.se
+Website			: http://www.planetquake.com/leveled/
+Description             : mediumsized level made with 1on1 in mind.
+			 
+================================================================
+
+* Play Information *
+Game                    : Quake II
+Single Player           : No
+Cooperative 2-4 Player  : No  
+Deathmatch 2-8 Player   : That's the plan.
+Difficulty Settings     : Nope
+New Textures            : Yes
+Exit			: Nope
+Intermission Camera	: Yes
+
+* Construction *
+ 
+Editor(s) used          : WorldCraft
+other compile tools	: Archrad, errr, I mean Arghrad,  :) 
+Credits			: Jeff Yost , Scotty, Argh , Magicman , Malekyth, briggsy 
+			 all the people on #quake.se and #level_design. 
+
+						
+			 And to all other  ppl who I forgot
+			 because I feed my brain with coca-cola
+			 instead of vitamins.
+			
+================================================================
+
+
+

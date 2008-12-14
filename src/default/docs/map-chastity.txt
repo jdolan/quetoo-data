@@ -1,0 +1,71 @@
+TITLE                   : The Chastity Belt Duel
+BSP NAME                : q2rjalt2.bsp // q2rdm2 (both)
+AUTHOR                  : JaLisk0
+DATE                    : 5 14 2001 //updated 6-26-01
+TYPE                    : Tourney
+EMAIL ADDRESS           : jalisk0@terra.es
+WEBSITE URL	            : http://jalisko.quakeshit.com
+ALTERNATIVE WEBSITE URL	: http://www.jalisko.es.vg
+
+--------------------------------------------------------------------------------
+* INSTALLATION *
+--------------------------------------------------------------------------------
+Take a look into the directory of the mod where you are going to play this map, or inside baseq for playing it with all mods. Find a free pak spot (pak names are into the range pak0.pak to pak9.pak, find a pakX.pak not being used), rename the pak_jalt2.pak to your free pak spot (pak6.pak as example) and put it into the directory.
+
+To launch the map type "map q2rjalt2" or "map q2rdm2" at the console. Both are valid.
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Dueling map for Quake 2.
+
+--------------------------------------------------------------------------------
+DEATHMATCH              : YES, two players. :P
+TEAM DEATHMATCH         : ONE per TEAM
+SUGGESTED PLAYER LOAD   : 2
+GAMEMODE				: This is a DUELING map!
+DIFFICULTY SETTINGS     : Who's your opponnent?
+NEW TEXTURES            : Yes
+NEW SOUNDS              : No
+NEW MODELS	            : No
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+EDITOR(S) USED          : Quark
+OTHER UTILITIES USED    : Photoshop, Editpad, Graphic Converter
+KNOWN BUGS              : ....
+COMPILE MACHINE         : Blank0's Atolon.
+TIME					: a lot!
+
+
+--------------------------------------------------------------------------------
+I'm looking for demos in my maps for my website. If you record a demo on this map, please, let me know where I can download it.
+--------------------------------------------------------------------------------  
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+TESTING: Ander for q2 layout, Blanko *q3sux* for trying everything, Orz, clicli, and many other from #Quakekult. Those at LVL-beta who commented out, and those others at #promode who commented even more. Musashi, Sven and eveyone at the nice Q2 beta testing forums at Musashi's website. Thanks to Nogame for taking the work of making the Quake2Revival pak, and try to revitalize Quake2 at every posible manner.
+
+Special Thanx to Blank0 for being my compiler. He has something to say you: "Q3SUX, Q3SUX, Q3SUX....My Athlon Roolz".
+
+TEXTURES: I used some textures in this map from RORSCHACH, Evil_Lair, Than, and Undulation. And built my texture-set using as base 4 textures from this guys (so it's not so mine).
+--------------------------------------------------------------------------------
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+Authors MAY use the textures into the jalisko directory for whatever they want.
+
+Authors MAY use the bot deffinitions into the pk3 for whatever they want.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Quake III Arena (C) 1999 id Software. All rights reserved.
+Quake III Team Arena (C) 2000 id Software. All rights reserved.

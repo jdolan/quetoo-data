@@ -1,0 +1,65 @@
+# This is the default name rotation configuration.  On Linux or BSD,
+# you should copy this to ~/.quake2world/default and edit it there.
+
+{
+	name edge
+	title "The Edge"
+}
+{
+	name tokays
+	title "Tokays Towers"
+}
+{
+	name fragpipe
+	title "The Frag Pipe"
+}
+{
+	name hallways
+	title "Lost Hallways"
+}
+{
+	name pits
+	title "The Pits"
+}
+{
+	name lavatomb
+	title "Lava Tomb"
+}
+{
+	name slimyplace
+	title "The Slimy Place"
+}
+{
+	name warehouse
+	title "The Warehouse"
+}
+{
+	name darkzone
+	title "The Dark Zone"
+}
+{
+	name fractures
+	title "Stress Fractures"
+}
+{
+	name gehenna
+	title "Gehenna"
+}
+{
+	name lilith
+	title "In The Arms of Lilith"
+}
+{
+	name torn
+	title "Torn Glory"
+}
+{
+	name trial
+	title "Trial by Error"
+}
+{
+	name wake
+	title "Penumbral Wake"
+}
+
+# End of file

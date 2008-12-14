@@ -1,0 +1,21 @@
+Ammo Box Textures
+By Noel Cower
+
+These textures are licensed under the Creative Commons
+Attribution-Noncommercial-No Derivative Works 3.0 United States license:
+	http://creativecommons.org/licenses/by-nc-nd/3.0/us/
+
+This license applies to the following files:
+
+	* default/models/ammo/cells/skin.tga
+	* default/models/ammo/cells/skin.psd
+	* default/models/ammo/rockets/skin.tga
+	* default/models/ammo/rockets/skin.psd
+	* default/models/ammo/shells/skin.tga
+	* default/models/ammo/shells/skin.psd
+	* default/models/ammo/grenades/skin.tga
+	* default/models/ammo/grenades/skin.psd
+	* default/models/ammo/slugs/skin.tga
+	* default/models/ammo/slugs/skin.psd
+	* default/models/ammo/bullets/skin.tga
+	* default/models/ammo/bullets/skin.psd

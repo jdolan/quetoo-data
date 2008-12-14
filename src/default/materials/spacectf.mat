@@ -1,0 +1,262 @@
+{
+	material spacectf/bluebeam
+	{
+		texture spacectf/bluebeam
+		pulse 1.0
+	}
+}
+{
+	material spacectf/cyanbeam
+	{
+		texture spacectf/cyanbeam
+		pulse 1.0
+	}
+}
+{
+	material spacectf/greenbeam
+	{
+		texture spacectf/greenbeam
+		pulse 1.0
+	}
+}
+{
+	material spacectf/orangebeam
+	{
+		texture spacectf/orangebeam
+		pulse 1.0
+	}
+}
+{
+	material spacectf/redbeam
+	{
+		texture spacectf/redbeam
+		pulse 1.0
+	}
+}
+{
+	material spacectf/whitebeam
+	{
+		texture spacectf/whitebeam
+		pulse 1.0
+	}
+}
+
+{
+	material spacectf/yellowbeam
+	{
+		texture spacectf/yellowbeam
+		pulse 1.0
+	}
+}
+{
+	material spacectf/glass
+	{
+		envmap spacectf/glass
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material spacectf/r_trim_17
+	bump 3.0
+	hardness 2.0
+	parallax 1.0
+	specular 8.0
+}
+{
+	material spacectf/u_floor3
+	bump 2.0
+	hardness 1.5
+	parallax 1.0
+	specular 2.5
+}
+{
+	material spacectf/u_floor3_pad_6
+	{
+		texture spacectf/u_floor3_pad_7b_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	bump 2.0
+	hardness 1.5
+	parallax 1.0
+	specular 2.5
+}
+{
+	material spacectf/u_floor3_pad_6_red
+	{
+		texture spacectf/u_floor3_pad_6_red_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	bump 2.0
+	hardness 1.5
+	parallax 1.0
+	specular 2.5
+}
+{
+	material spacectf/u_floor3_pad_7b
+	{
+		texture spacectf/u_floor3_pad_7b_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	bump 2.0
+	hardness 1.5
+	parallax 1.0
+	specular 2.5
+}
+{
+	material spacectf/u_floor3_pad_7b_red
+	{
+		texture spacectf/u_floor3_pad_7b_red_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	bump 2.0
+	hardness 1.5
+	parallax 1.0
+	specular 2.5
+}
+{
+	material spacectf/u_floor_pan3
+	bump 1.0
+	hardness 3.0
+	parallax 1.0
+	specular 12.0
+}
+{
+	material spacectf/u_floor_pan4_l
+	{
+		texture spacectf/u_floor_pan4_l_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	bump 2.0
+	hardness 1.5
+	parallax 1.0
+	specular 2.5
+}
+{
+	material spacectf/u_floor_pan4_l_red
+	{
+		texture spacectf/u_floor_pan4_l_red_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	bump 2.0
+	hardness 1.5
+	parallax 1.0
+	specular 2.5
+}
+{
+	material spacectf/u_py1_blue
+	bump 1.0
+	hardness 2.0
+	parallax 1.0
+	specular 1.0
+	{
+		texture spacectf/u_py1_blue_glow
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.4
+	}
+	{
+		flare 0
+		color 0.0 0.0 1.0
+	}
+}
+{
+	material spacectf/u_py1_red
+	bump 1.0
+	hardness 2.0
+	parallax 1.0
+	specular 1.0
+	{
+		texture spacectf/u_py1_red_glow
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.4
+	}
+	{
+		flare 0
+		color 1.0 0.0 0.0
+	}
+}
+{
+	material spacectf/u_thinline1
+	bump 2.0
+	hardness 2.0
+	parallax 2.0
+	specular 8.0
+}
+{
+	material spacectf/u_trlightline_blue
+	{
+		texture spacectf/u_trlightline_blue_blend
+		pulse 0.2
+		scroll.s 0.1
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	bump 2.0
+	hardness 1.0
+	parallax 1.0
+	specular 5.0
+}
+{
+	material spacectf/u_trlightline_red
+	{
+		texture spacectf/u_trlightline_red_blend
+		pulse 0.2
+		scroll.s 0.1
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	bump 2.0
+	hardness 1.0
+	parallax 1.0
+	specular 5.0
+}
+{
+	material spacectf/ubase4
+	bump 1.0
+	hardness 2.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material spacectf/ubase_trim447
+	bump 2.0
+	hardness 1.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material spacectf/u_lamplong1b_blue
+	{
+		texture spacectf/u_lamplong1b_blue_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare 0
+		color 0.3 0.3 1.0
+	}
+	bump 2.0
+	hardness 1.5
+	parallax 1.0
+	specular 4.0
+}
+
+{
+	material spacectf/u_lamplong1b_red
+	{
+		texture spacectf/u_lamplong1b_red_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare 0
+		color 1.0 0.3 0.3
+	}
+	bump 2.0
+	hardness 1.5
+	parallax 1.0
+	specular 4.0
+}
