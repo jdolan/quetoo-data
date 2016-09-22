@@ -134,6 +134,7 @@
  speed : Speed of the button's displacement (default 40).
  wait : Number of seconds the button stays pressed (default 1, -1 = indefinitely).
  lip : Lip remaining at end of move (default 4 units).
+ sounds : The sound set for the button (0 default, -1 silent).
  health : If set, the button must be killed instead of touched to use.
  targetname : The target name of this entity if it is to be triggered.
 */
@@ -160,6 +161,7 @@
  speed : The speed with which the door opens (default 100).
  wait : wait before returning (3 default, -1 = never return).
  lip : The lip remaining at end of move (default 8 units).
+ sounds : The sound set for the door (0 default, 1 stone, -1 silent).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
  targetname : The target name of this entity if it is to be triggered.
   
@@ -178,6 +180,7 @@
  wait : wait before returning (3 default, -1 = never return).
  lip : The lip remaining at end of move (default 8 units).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
+ sounds : The sound set for the door (0 default, 1 stone, -1 silent).
  targetname : The target name of this entity if it is to be triggered.
   
  -------- Spawn flags --------
@@ -222,6 +225,7 @@
  accel : The platform acceleration (default 500).
  lip : The lip remaining at end of move (default 8 units).
  height : If set, this will determine the extent of the platform's movement, rather than implicitly using the platform's height.
+ sounds : The sound set for the platform (0 default, 1 stone, -1 silent).
  targetname : The target name of this entity if it is to be triggered.
   
  -------- Spawn flags --------
