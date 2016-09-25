@@ -1,0 +1,12 @@
+{
+	material #models/armor/shard/skin
+	bump 4.0
+	hardness 2.5
+	parallax 0.0
+	specular 8.0
+	{
+		texture #models/armor/shard/skin_glow
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 1.5
+	}
+}
