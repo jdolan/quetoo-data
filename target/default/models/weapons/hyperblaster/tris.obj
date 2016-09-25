@@ -1898,7 +1898,7 @@ vn 0.000000 -0.585446 0.810712
 # 348 normals
 
 g hyperpowaz
-usemtl Material01
+usemtl hyperskin
 s 1
 f 1/1/1 2/2/2 3/3/3
 f 4/4/4 5/5/5 3/3/3
