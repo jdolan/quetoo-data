@@ -42,6 +42,10 @@
 	title "Stress Fractures"
 }
 {
+	name gym
+	title "Gym Nastium"
+}
+{
 	name gehenna
 	title "Gehenna"
 }
