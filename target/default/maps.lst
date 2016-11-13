@@ -1,5 +1,5 @@
 # This is the default name rotation configuration.  On Linux or BSD,
-# you should copy this to ~/.quake2world/default and edit it there.
+# you should copy this to ~/.quetoo/default and edit it there.
 
 {
 	name edge
