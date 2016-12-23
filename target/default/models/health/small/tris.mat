@@ -1,0 +1,7 @@
+{
+	material #models/health/small/skin
+	bump 2.3
+	hardness 2.5
+	parallax 0.0
+	specular 5.0
+}

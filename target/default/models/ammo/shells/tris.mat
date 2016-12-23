@@ -1,0 +1,7 @@
+{
+	material #models/ammo/shells/skin
+	bump 1.5
+	hardness 4.0
+	parallax 0.0
+	specular 5.0
+}
