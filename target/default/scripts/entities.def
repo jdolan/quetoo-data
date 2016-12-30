@@ -380,7 +380,7 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
   
  -------- Radiant config --------
- model="models/armor/body/tris.md3"
+ model="models/armor/body/tris.obj"
 */
 
 /*QUAKED item_armor_combat (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
@@ -395,7 +395,7 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
   
  -------- Radiant config --------
- model="models/armor/combat/tris.md3"
+ model="models/armor/combat/tris.obj"
 */
 
 /*QUAKED item_armor_jacket (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
@@ -410,7 +410,7 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
   
  -------- Radiant config --------
- model="models/armor/jacket/tris.md3"
+ model="models/armor/jacket/tris.obj"
 */
 
 /*QUAKED item_armor_shard (.1 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
@@ -425,7 +425,7 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
   
  -------- Radiant config --------
- model="models/armor/shard/tris.md3"
+ model="models/armor/shard/tris.obj"
 */
 
 /*QUAKED item_flag_team1 (.2 .2 1) (-16 -16 -24) (16 16 32) triggered no_touch hover
@@ -436,7 +436,7 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
   
  -------- Radiant config --------
- model="models/ctf/flag1/tris.md3"
+ model="models/ctf/flag1/tris.obj"
 */
 
 /*QUAKED item_flag_team2 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
@@ -447,7 +447,7 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
   
  -------- Radiant config --------
- model="models/ctf/flag2/tris.md3"
+ model="models/ctf/flag2/tris.obj"
 */
 
 /*QUAKED item_health (.8 .8 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
@@ -522,7 +522,7 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
   
  -------- Radiant config --------
- model="models/powerups/quad/tris.md3"
+ model="models/powerups/quad/tris.obj"
 */
 
 /*QUAKED light (0 1 0) (-8 -8 -8) (8 8 8)
@@ -849,7 +849,7 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
   
  -------- Radiant config --------
- model="models/weapons/rocketlauncher/tris.md3"
+ model="models/weapons/rocketlauncher/tris.obj"
 */
 
 /*QUAKED weapon_hyperblaster (.4 .7 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
@@ -864,7 +864,7 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
   
  -------- Radiant config --------
- model="models/weapons/hyperblaster/tris.md3"
+ model="models/weapons/hyperblaster/tris.obj"
 */
 
 /*QUAKED weapon_lightning (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover
@@ -879,7 +879,7 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
   
  -------- Radiant config --------
- model="models/weapons/lightning/tris.md3"
+ model="models/weapons/lightning/tris.obj"
 */
 
 /*QUAKED weapon_railgun (.1 .1 .8) (-16 -16 -16) (16 16 16) triggered no_touch hover
@@ -909,7 +909,7 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
   
  -------- Radiant config --------
- model="models/weapons/bfg/tris.md3"
+ model="models/weapons/bfg/tris.obj"
 */
 
 /*QUAKED worldspawn (0 0 0) ?
