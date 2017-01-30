@@ -353,6 +353,13 @@
  angle : The angle at which the player will face when spawned.
 */
 
+/*QUAKED G_info_player_team_any (1 0 0) (-16 -16 -24) (16 16 32)
+ Player spawn point for any team in teams or CTF gameplay.
+
+ -------- Keys --------
+ angle : The angle at which the player will face when spawned.
+*/
+
 /*QUAKED item_adrenaline (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
  Adrenaline (=100).
   
