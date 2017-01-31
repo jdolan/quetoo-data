@@ -14,7 +14,6 @@
 // either on Discord or Email.
 // Discord: QuakeRanger#4190 - Steam: http://steamcommunity.com/id/quakeranger/
 
-
 //Appearflags
 @baseclass = Appearflags [
 	spawnflags(Flags) =
@@ -32,14 +31,13 @@
 	color(0 255 0) = Triggers []
 
 //BaseClass Weapons
-
 @BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) offset(0 0 16) bobparms( 100 0 0 ) = Weapons 
 [
 	team(string) : "Team"
 ]
 
 //Weapons 
-
+//TODO Fix studio models.
 @PointClass base(Weapons) studio("") = weapon_shotgun : "Shotgun" []
 @PointClass base(Weapons) studio("") = weapon_supershotgun : "Super shotgun" []
 @PointClass base(Weapons) studio("") = weapon_machinegun : "Machinegun" []
@@ -52,30 +50,24 @@
 @PointClass base(Weapons) studio("") = weapon_blaster : "Blaster" []
 @PointClass base(Weapons) studio("") = weapon_lightning : "Lightning" []
 
-
-
 //BaseClass Ammo
-
 @BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) offset(0 0 16) = Ammo 
 [
 	team(string) : "Team"
 ]
 
 //Ammo
+//TODO Fix studio models.
+@PointClass base(Ammo) studio("") = ammo_shells : "Shotgun ammo" []
+@PointClass base(Ammo) studio("") = ammo_bullets : "Machine/Chain gun Ammo" []
+@PointClass base(Ammo) studio("") = ammo_cells : "Blaster Ammo" []
+@PointClass base(Ammo) studio("") = ammo_grenades : "Grenades Ammo" []
+@PointClass base(Ammo) studio("") = ammo_rockets : "Rockets" []
+@PointClass base(Ammo) studio("") = ammo_slugs : "Rail gun Ammo" []
+@PointClass base(Ammo) studio("") = ammo_nukes : "BFG Ammo" []
+@PointClass base(Ammo) studio("") = ammo_bolts : "Lightning Ammo" []
 
-@PointClass base(Ammo) studio("models/ammo/shells/tris.md3") = ammo_shells : "Shotgun ammo" []
-@PointClass base(Ammo) studio("models/ammo/bullets/tris.md3") = ammo_bullets : "Machine/Chain gun Ammo" []
-@PointClass base(Ammo) studio("models/ammo/cells/tris.md3") = ammo_cells : "Blaster Ammo" []
-@PointClass base(Ammo) studio("models/ammo/grenades/tris.md3") = ammo_grenades : "Grenades Ammo" []
-@PointClass base(Ammo) studio("models/ammo/rockets/tris.md3") = ammo_rockets : "Rockets" []
-@PointClass base(Ammo) studio("models/ammo/slugs/tris.md3") = ammo_slugs : "Rail gun Ammo" []
-@PointClass base(Ammo) studio("models/ammo/nukes/tris.md3") = ammo_nukes : "BFG Ammo" []
-@PointClass base(Ammo) studio("models/ammo/bolts/tris.md3") = ammo_bolts : "Lightning Ammo" []
-
-//
 //func entities
-//
-
 @PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_areaportal : "func_areaportal"
 [
 	targetname(string) : "Target Name"
@@ -140,7 +132,6 @@
 	sounds(integer) : "Sound (0, 1 stone, -1 silent)"
 	targetname(string) : "Target Name"
 ]
-
 
 @PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_door_secret : "func_door_secret"
 [
@@ -241,10 +232,7 @@
 	targetname(string) : "Target Name"
 ]
 
-//
 //Info entities
-//
-
 @PointClass base(Appearflags, Target) color(0 0 255) size(-32 -32 -24, 32 32 -16) = info_null : "info_null"
 [
 	targetname(string) : "Target Name"
@@ -259,7 +247,6 @@
 [
 	angle(integer) : "Angle"
 ]
-
 
 @PointClass base(Appearflags, Target) color(0 0 255) size(-32 -32 -24, 32 32 -16) = info_player_intermission : "info_player_intermission"
 [
@@ -277,33 +264,29 @@
 	angle(integer) : "Angle"
 ]
 
-
 //BaseClass Items
-
 @BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) offset(0 0 16) = Items 
 [
 	team(string) : "Team"
 ]
 @BaseClass base(Items) bobparms( 100 0 0 ) = ItemsBob []
 
-//
 //TODO - Add Spawn Flags for Items.
-//
-@PointClass base(ItemsBob) studio("models/powerups/adren/tris.obj") = item_adrenaline : "adrenaline" []
-@PointClass base(ItemsBob) studio("models/armor/body/tris.obj") = item_armor_body : "Body armor +200" []
-@PointClass base(ItemsBob) studio("models/armor/combat/tris.obj") = item_armor_combat : "Combat armor +100" []
-@PointClass base(ItemsBob) studio("models/armor/jacket/tris.obj") = item_armor_jacket : "Jacket armor +50" []
-@PointClass base(ItemsBob) studio("models/armor/shard/tris.obj") = item_armor_shard : "Armor shard +3" []
-@PointClass base(Items) studio("models/health/medium/tris.obj") = item_health : "+15 health" []
-@PointClass base(Items) studio("models/health/small/tris.obj") = item_health_small : "+3 health" []
-@PointClass base(Items) studio("models/health/large/tris.obj") = item_health_large : "+25 health" []
-@PointClass base(Items) studio("models/health/mega/tris.obj") = item_health_mega : "+75 health" []
-@PointClass base(ItemsBob) studio("models/powerups/quad/tris.obj") = item_quad : "Quad damage" []
-@PointClass base(ItemsBob) studio("models/ctf/flag1/tris.obj") = item_flag_team1 : "Team 1 Flag" []
-@PointClass base(ItemsBob) studio("models/ctf/flag2/tris.obj") = item_flag_team2 : "Team 2 Flag" []
+//TODO Fix studio models.
+@PointClass base(ItemsBob) studio("") = item_adrenaline : "adrenaline" []
+@PointClass base(ItemsBob) studio("") = item_armor_body : "Body armor +200" []
+@PointClass base(ItemsBob) studio("") = item_armor_combat : "Combat armor +100" []
+@PointClass base(ItemsBob) studio("") = item_armor_jacket : "Jacket armor +50" []
+@PointClass base(ItemsBob) studio("") = item_armor_shard : "Armor shard +3" []
+@PointClass base(Items) studio("") = item_health : "+15 health" []
+@PointClass base(Items) studio("") = item_health_small : "+3 health" []
+@PointClass base(Items) studio("") = item_health_large : "+25 health" []
+@PointClass base(Items) studio("") = item_health_mega : "+75 health" []
+@PointClass base(ItemsBob) studio("") = item_quad : "Quad damage" []
+@PointClass base(ItemsBob) studio("") = item_flag_team1 : "Team 1 Flag" []
+@PointClass base(ItemsBob) studio("") = item_flag_team2 : "Team 2 Flag" []
 
 //Light Entities
-
 @PointClass base(Appearflags, Target) color(0 255 0) size(-32 -32 -24, 32 32 -16) = light : "light"
 [
 	light(integer) : "Light Radius"
@@ -380,9 +363,7 @@
 	model(string) : "Static Model Name"
 ]
 
-
 //Path Corner
-
 @PointClass base(Appearflags, Targetname) flags(Path) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "path_corner"
 [
 	spawnflags(Flags) =
@@ -394,10 +375,7 @@
 	targetname(string) : "Target Name"
 ]
 
-
-
 //Target entities
-
 @PointClass base(Appearflags, Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_light : "target_light"
 [
 	spawnflags(Flags) =
@@ -437,7 +415,6 @@
 ]
 
 //Triggers
-
 @PointClass base(Appearflags, Targetname) color(128 128 128) = trigger_relay : "Relay trigger"
 [
 	delay(integer) : "Delay in Seconds" : 0
@@ -475,7 +452,6 @@
 	
 ]
 
-
 @SolidClass base(trigger_relay) = trigger_once : "Single fire trigger"
 [
 	spawnflags(Flags) =
@@ -500,7 +476,6 @@
 	speed(integer) : "Speed of push" : 100
 ]
 
-
 //trigger_teleporter needs to be revised. 1/31/2017
 @SolidClass base(Appearflags, Target) color(0 255 00) = trigger_teleporter : "misc_teleporter_dest"
 [
@@ -522,9 +497,7 @@
 	targetname(string) : "Target Name"
 ]
 
-
 // World Spawn
-
 @SolidClass = worldspawn : "World entity"
 [
 	message(string) : "Map Title"
