@@ -1,27 +1,22 @@
+// Quetoo Forge Game Data File (.fgd)
 //
-// Quetoo game definition file (.fgd)
-// for J.A.C.K. Volatile Development Kit (Jackhammer) 
-// http://jack.hlfx.ru/en/ - Version: 1.1.1064
-//
-//  -AND-
-//
-// Trenchbroom - http://kristianduske.com/trenchbroom/
-//
-// FGD Written by: Quake Ranger - rogue.sergeant@gmail.com
-//
-// NOTES: Some areas can be optimized and improved still.
-// if you do notice any issues or bugs please feel free to get a hold of me.
-// either on Discord or Email.
-// Discord: QuakeRanger#4190 - Steam: http://steamcommunity.com/id/quakeranger/
+// FGD Written by: David "Quake Ranger" Cluett
+// Contact: rogue.sergeant@gmail.com - Discord: QuakeRanger#4190 - Steam: http://steamcommunity.com/id/quakeranger/
+// FGD Stable Release Build: 1022
+// 
+// TO-DO:
+// - Finish declaring studio("model dir") for weapon_ item_ and ammo_
+// - Sort team(string) function
+// - Full Trenchbroom compatibility (Q2, Q3)
 
 //Appearflags
 @baseclass = Appearflags [
 	spawnflags(Flags) =
 	[
-		256 : "Not in Easy" : 0
-		512 : "Not in Normal" : 0
-		1024 : "Not in Hard" : 0
-		2048 : "Not in Deathmatch" : 0
+		256 : "Not in Easy (Not Used)" : 0
+		512 : "Not in Normal (Not Used)" : 0
+		1024 : "Not in Hard (Not Used)" : 0
+		2048 : "Not in Deathmatch (Not Used)" : 0
 	]
 ]
 
@@ -38,17 +33,115 @@
 
 //Weapons 
 //TODO Fix studio models.
-@PointClass base(Weapons) studio("") = weapon_shotgun : "Shotgun" []
-@PointClass base(Weapons) studio("") = weapon_supershotgun : "Super shotgun" []
-@PointClass base(Weapons) studio("") = weapon_machinegun : "Machinegun" []
-@PointClass base(Weapons) studio("")= weapon_chaingun : "Chain gun" []
-@PointClass base(Weapons) studio("") = weapon_grenadelauncher : "Grenade launcher" []
-@PointClass base(Weapons) studio("") = weapon_rocketlauncher : "Rocket launcher" []
-@PointClass base(Weapons) studio("") = weapon_hyperblaster : "Hyperblaster" []
-@PointClass base(Weapons) studio("") = weapon_railgun : "Rail gun" []
-@PointClass base(Weapons) studio("") = weapon_bfg : "Big Freakin Gun!" []
-@PointClass base(Weapons) studio("") = weapon_blaster : "Blaster" []
-@PointClass base(Weapons) studio("") = weapon_lightning : "Lightning" []
+@PointClass base(Weapons) studio("") = weapon_shotgun : "Shotgun"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_supershotgun : "Super shotgun"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_machinegun : "Machinegun"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("")= weapon_chaingun : "Chain gun"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_grenadelauncher : "Grenade launcher"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_rocketlauncher : "Rocket launcher"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_hyperblaster : "Hyperblaster"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_railgun : "Rail gun"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_bfg : "Big Freakin Gun!"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_blaster : "Blaster"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_lightning : "Lightning"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
 
 //BaseClass Ammo
 @BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) offset(0 0 16) = Ammo 
@@ -58,14 +151,85 @@
 
 //Ammo
 //TODO Fix studio models.
-@PointClass base(Ammo) studio("") = ammo_shells : "Shotgun ammo" []
-@PointClass base(Ammo) studio("") = ammo_bullets : "Machine/Chain gun Ammo" []
-@PointClass base(Ammo) studio("") = ammo_cells : "Blaster Ammo" []
-@PointClass base(Ammo) studio("") = ammo_grenades : "Grenades Ammo" []
-@PointClass base(Ammo) studio("") = ammo_rockets : "Rockets" []
-@PointClass base(Ammo) studio("") = ammo_slugs : "Rail gun Ammo" []
-@PointClass base(Ammo) studio("") = ammo_nukes : "BFG Ammo" []
-@PointClass base(Ammo) studio("") = ammo_bolts : "Lightning Ammo" []
+@PointClass base(Ammo) studio("") = ammo_shells : "Shotgun ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_bullets : "Machine/Chain gun Ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_cells : "Blaster Ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_grenades : "Grenades Ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_rockets : "Rockets"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_slugs : "Rail Gun Ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_nukes : "BFG Ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_bolts : "Lightning Ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
 
 //func entities
 @PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_areaportal : "func_areaportal"
@@ -73,7 +237,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_button : "func_button"
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_button : "func_button"
 [
 	angle(integer) : "Angle"
 	target(string) : "Target(s) Name"
@@ -85,7 +249,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_conveyor : "func_conveyor"
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_conveyor : "func_conveyor"
 [
 	spawnflags(Flags) =
 	[
@@ -96,7 +260,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_door : "func_door"
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door : "func_door"
 [
 	spawnflags(Flags) =
 	[
@@ -113,7 +277,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_door_rotating : "func_door_rotating"
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door_rotating : "func_door_rotating"
 [
 	spawnflags(Flags) =
 	[
@@ -133,7 +297,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_door_secret : "func_door_secret"
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door_secret : "func_door_secret"
 [
 	spawnflags(Flags) =
 	[
@@ -150,9 +314,9 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_group : "func_group" []
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_group : "func_group" []
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_plat : "func_plat"
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_plat : "func_plat"
 [
 	spawnflags(Flags) =
 	[
@@ -166,7 +330,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_rotating : "func_rotating"
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_rotating : "func_rotating"
 [
 	spawnflags(Flags) =
 	[
@@ -182,7 +346,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_timer : "func_timer"
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_timer : "func_timer"
 [
 	spawnflags(Flags) =
 	[
@@ -194,7 +358,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_train : "func_train"
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_train : "func_train"
 [
 	spawnflags(Flags) =
 	[
@@ -208,7 +372,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_wall : "func_wall"
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_wall : "func_wall"
 [
 	spawnflags(Flags) =
 	[
@@ -219,7 +383,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_water : "func_water"
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_water : "func_water"
 [
 	spawnflags(Flags) =
 	[
@@ -233,33 +397,38 @@
 ]
 
 //Info entities
-@PointClass base(Appearflags, Target) color(0 0 255) size(-32 -32 -24, 32 32 -16) = info_null : "info_null"
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_null : "info_null"
 [
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 0 255) size(-32 -32 -24, 32 32 -16) = info_notnull : "info_notnull"
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_notnull : "info_notnull"
 [
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 0 255) size(-32 -32 -24, 32 32 -16) = info_player_start : "info_player_start"
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_start : "info_player_start"
 [
 	angle(integer) : "Angle"
 ]
 
-@PointClass base(Appearflags, Target) color(0 0 255) size(-32 -32 -24, 32 32 -16) = info_player_intermission : "info_player_intermission"
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_deathmatch : "info_player_deathmatch"
+[
+	angle(integer) : "Angle"
+]
+
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_intermission : "info_player_intermission"
 [
 	angles(integer) : "Angles"
 	target(string) : "Target (info_notnull)"
 ]
 
-@PointClass base(Appearflags, Target) color(0 0 255) size(-32 -32 -24, 32 32 -16) = info_player_team1 : "info_player_team1"
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_team1 : "info_player_team1"
 [
 	angle(integer) : "Angle"
 ]
 
-@PointClass base(Appearflags, Target) color(0 0 255) size(-32 -32 -24, 32 32 -16) = info_player_team2 : "info_player_team2"
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_team2 : "info_player_team2"
 [
 	angle(integer) : "Angle"
 ]
@@ -271,29 +440,135 @@
 ]
 @BaseClass base(Items) bobparms( 100 0 0 ) = ItemsBob []
 
-//TODO - Add Spawn Flags for Items.
 //TODO Fix studio models.
-@PointClass base(ItemsBob) studio("") = item_adrenaline : "adrenaline" []
-@PointClass base(ItemsBob) studio("") = item_armor_body : "Body armor +200" []
-@PointClass base(ItemsBob) studio("") = item_armor_combat : "Combat armor +100" []
-@PointClass base(ItemsBob) studio("") = item_armor_jacket : "Jacket armor +50" []
-@PointClass base(ItemsBob) studio("") = item_armor_shard : "Armor shard +3" []
-@PointClass base(Items) studio("") = item_health : "+15 health" []
-@PointClass base(Items) studio("") = item_health_small : "+3 health" []
-@PointClass base(Items) studio("") = item_health_large : "+25 health" []
-@PointClass base(Items) studio("") = item_health_mega : "+75 health" []
-@PointClass base(ItemsBob) studio("") = item_quad : "Quad damage" []
-@PointClass base(ItemsBob) studio("") = item_flag_team1 : "Team 1 Flag" []
-@PointClass base(ItemsBob) studio("") = item_flag_team2 : "Team 2 Flag" []
+@PointClass base(ItemsBob) studio("") = item_adrenaline : "adrenaline" 
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_armor_body : "Body armor +200"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_armor_combat : "Combat armor +100"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_armor_jacket : "Jacket armor +50" 
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_armor_shard : "Armor shard +3"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Items) studio("") = item_health : "+15 health"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Items) studio("") = item_health_small : "+3 health"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Items) studio("") = item_health_large : "+25 health"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Items) studio("") = item_health_mega : "+75 health"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_quad : "Quad damage"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_flag_team1 : "Team 1 Flag"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_flag_team2 : "Team 2 Flag"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
 
 //Light Entities
-@PointClass base(Appearflags, Target) color(0 255 0) size(-32 -32 -24, 32 32 -16) = light : "light"
+@PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = light : "light"
 [
 	light(integer) : "Light Radius"
 	_color(color1) : "Light Color"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 0) size(-32 -32 -24, 32 32 -16) = light_spot : "light_spot"
+@PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = light_spot : "light_spot"
 [
 	light(integer) : "Light Radius"
 	_color(color1) : "Light Color"
@@ -301,10 +576,9 @@
 	_angle(integer) : "Angle"
 ]
 
-
 //Misc Entities
 
-@PointClass base(Appearflags, Target) color(0 255 0) size(-32 -32 -24, 32 32 -16) = misc_teleporter : "misc_teleporter"
+@PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = misc_teleporter : "misc_teleporter"
 [
 	spawnflags(Flags) =
 	[
@@ -314,14 +588,13 @@
 	]
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 0) size(-32 -32 -24, 32 32 -16) = misc_teleporter_dest : "misc_teleporter_dest"
+@PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = misc_teleporter_dest : "misc_teleporter_dest"
 [
 	angle(integer) : "Angle"
 	targetname(string) : "Target Name"
 ]
 
-//misc_emit to be revised...
-@PointClass base(Appearflags, Target) color(255 255 0) size(-8 -8 -8, 8 8 8) = misc_emit : "misc_emit"
+@PointClass base(Appearflags, Target) color(255 255 0) size(-16 -16 -16, 16 16 16) = misc_emit : "misc_emit"
 [
 	spawnflags(Flags) =
 	[
@@ -476,7 +749,6 @@
 	speed(integer) : "Speed of push" : 100
 ]
 
-//trigger_teleporter needs to be revised. 1/31/2017
 @SolidClass base(Appearflags, Target) color(0 255 00) = trigger_teleporter : "misc_teleporter_dest"
 [
 	target(string) : "misc_teleporter_dest"
@@ -505,12 +777,10 @@
 	ambient_light(float) : "Ambient Light Level (Float Value)"
 	sun_light(integer) : "Sun Light Intensity, scalar value 0 - 255"
 	sun_color(color1) : "Sun Light Color (e.g. 0.8 0.4 0.7)"
-//note implementation of sun_angles//
-	sun_angles(string) : "Sun Light Angles"
+	sun_angles(integer) : "Sun Light Angles"
 	brightness(float) : "Global Light Scale"
 	saturation(float) : "Global Light Saturation)"
 	contrast(float) : "Global Light Contrast"
-//note implementation of weather  values = none, rain, snow//
 	weather(string) : "Weather Effects"
 	gravity(integer) : "Gravity (default 800)" : 800
 	gameplay(string) : "deathmatch, instagib, arena" : deathmatch
@@ -522,7 +792,6 @@
 	roundlimit(integer) : "Round Limit" : 20
 	capturelimit(integer) : "Capture Limit" : 20
 	timelimit(integer) : "Time Limit (Minutes)" : 20
-//note give implementation
 	give(string) : "give"
 	
 ]
