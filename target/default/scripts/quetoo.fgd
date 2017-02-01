@@ -2,12 +2,12 @@
 //
 // FGD Written by: David "Quake Ranger" Cluett
 // Contact: rogue.sergeant@gmail.com - Discord: QuakeRanger#4190 - Steam: http://steamcommunity.com/id/quakeranger/
-// FGD Stable Release Build: 1022
+// FGD Stable Release Build: 1030
 // 
 // TO-DO:
-// - Finish declaring studio("model dir") for weapon_ item_ and ammo_
-// - Sort team(string) function
-// - Full Trenchbroom compatibility (Q2, Q3)
+// - Optimize and Functionality.
+// 
+// 
 
 //Appearflags
 @baseclass = Appearflags [
@@ -32,7 +32,6 @@
 ]
 
 //Weapons 
-//TODO Fix studio models.
 @PointClass base(Weapons) studio("") = weapon_shotgun : "Shotgun"
 [
 	spawnflags(Flags) =
@@ -150,7 +149,6 @@
 ]
 
 //Ammo
-//TODO Fix studio models.
 @PointClass base(Ammo) studio("") = ammo_shells : "Shotgun ammo"
 [
 	spawnflags(Flags) =
@@ -232,12 +230,12 @@
 ]
 
 //func entities
-@PointClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_areaportal : "func_areaportal"
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_areaportal : "func_areaportal"
 [
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_button : "func_button"
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_button : "func_button"
 [
 	angle(integer) : "Angle"
 	target(string) : "Target(s) Name"
@@ -249,7 +247,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_conveyor : "func_conveyor"
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_conveyor : "func_conveyor"
 [
 	spawnflags(Flags) =
 	[
@@ -260,7 +258,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door : "func_door"
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door : "func_door"
 [
 	spawnflags(Flags) =
 	[
@@ -277,7 +275,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door_rotating : "func_door_rotating"
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door_rotating : "func_door_rotating"
 [
 	spawnflags(Flags) =
 	[
@@ -297,7 +295,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door_secret : "func_door_secret"
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door_secret : "func_door_secret"
 [
 	spawnflags(Flags) =
 	[
@@ -314,9 +312,9 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_group : "func_group" []
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_group : "func_group" []
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_plat : "func_plat"
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_plat : "func_plat"
 [
 	spawnflags(Flags) =
 	[
@@ -330,7 +328,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_rotating : "func_rotating"
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_rotating : "func_rotating"
 [
 	spawnflags(Flags) =
 	[
@@ -358,7 +356,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_train : "func_train"
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_train : "func_train"
 [
 	spawnflags(Flags) =
 	[
@@ -372,7 +370,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_wall : "func_wall"
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_wall : "func_wall"
 [
 	spawnflags(Flags) =
 	[
@@ -383,7 +381,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_water : "func_water"
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_water : "func_water"
 [
 	spawnflags(Flags) =
 	[
@@ -440,7 +438,6 @@
 ]
 @BaseClass base(Items) bobparms( 100 0 0 ) = ItemsBob []
 
-//TODO Fix studio models.
 @PointClass base(ItemsBob) studio("") = item_adrenaline : "adrenaline" 
 [
 	spawnflags(Flags) =
