@@ -745,7 +745,7 @@
 		1 : "push_once" : 0
 		2 : "push_effects" : 0
 	]
-	angles(string) : "Direction (Pitch, Yaw, Roll)" : 0
+	angles(integer) : "Direction (Pitch, Yaw, Roll)" : 0
 	speed(integer) : "Speed of push" : 100
 ]
 
@@ -783,7 +783,7 @@
 	contrast(float) : "Global Light Contrast"
 	weather(string) : "Weather Effects"
 	gravity(integer) : "Gravity (default 800)" : 800
-	gameplay(string) : "deathmatch, instagib, arena" : deathmatch
+	gameplay(string) : "deathmatch, instagib, arena"
 	hook(integer) : "Grappling Hook (1 = on)" : 0
 	teams(integer) : "Team Play" : 0
 	ctf(integer) : "CTF" : 0
