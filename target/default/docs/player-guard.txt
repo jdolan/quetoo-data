@@ -1,0 +1,62 @@
+September 23th, 2006
+================================================================
+Model Name              : Strogg Guard
+Installation directory  : quake3/baseq3/tabun_q2guard.pk3
+Author	     		: Tabun
+Sounds			: Yes (from Q2, edited by Phoenix)
+Email Address           : tabun@planetquake.com
+Website URL		: http://www.tabun.nl  [and]  http://www.wireheadstudios.org/
+Model description       : 
+
+	This is a Q3 version of my interpretation of a Quake 2 enemy: The (light) guard. The model (like virtually
+	all my work), was made from scratch. It is dedicated to the joy that was, and is, Quake 2. This model is
+	intended as an ode to the original, and not an attack or attempt to do anyone injustice. 
+
+
+Add. Credits/Thanks     :
+
+	id Software, for making the brilliant game that still inspires us to make cool stuff.
+	
+	To Good Old P. Steed, for his Thinking Outside of The Box, where I learnt my first basics on modelling and
+	animating for Q3.
+
+	Phoenix, for testing the model, and editing bots and a good set of sound-files.
+	Scalliano, for making a good bot-base and thinking up many lines of cheesy bot-chat.
+
+
+================================================================
+* Play Information *
+
+New Sounds              : YES
+CTF Skins               : YES
+Bot File		: YES
+LODS			: NO
+
+
+* Construction *
+Poly Count              : 1850	(444 + 972 + 434  (head, torso, legs)) 
+Vert Count              : 956 	(243 + 494 + 219)
+Skin Count              : 6 (including red, blue and green versions)
+Base info               : All made from scratch. Some animations were based on Steeds .bips, but heavily tweaked.
+			  Death animations entirely from scratch.
+
+Software used           : 3D Studio max, Photoshop, Npherno's toolkit
+Known Bugs              : [none so far]
+Build/Animation time    : Three weeks or so, off and on.
+
+
+* Copyright / Permissions *
+
+QUAKE II(R) and QUAKE III(R) are registered trademarks of
+id Software, Inc.
+
+I'm sure this character is protected by said trademarks or I.P. laws, so be sure not
+to use it for anything before checking with me and/or id Software.
+
+You know the drill. Don't use without asking, don't edit without begging,
+and don't even think of re-releasing anywhere without my explicit permission.
+
+================================================================
+
+Cheers,
+                   Tabun
