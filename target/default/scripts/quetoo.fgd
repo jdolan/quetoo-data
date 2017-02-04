@@ -6,8 +6,6 @@
 // 
 // TO-DO:
 // - Optimize and Functionality.
-// 
-// 
 
 //Appearflags
 @baseclass = Appearflags [
@@ -389,7 +387,7 @@
 	]
 	angle(integer) : "Angle"
 	speed(integer) : "Speed"
-	wait(integer) : "wait"
+	wait(integer) : "Wait"
 	lip(integer) : "Lip"
 	targetname(string) : "Target Name"
 ]
@@ -574,7 +572,6 @@
 ]
 
 //Misc Entities
-
 @PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = misc_teleporter : "misc_teleporter"
 [
 	spawnflags(Flags) =
