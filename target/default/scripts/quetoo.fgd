@@ -20,11 +20,11 @@
 
 @baseclass = Targetname [ targetname(target_source) : "Name" ]
 @baseclass = Target [ target(target_destination) : "Target" ]
-@baseclass base(Appearflags) flags(Angle) size(-16 -16 -24, 16 16 32) offset(0 0 24) 
+@baseclass base(Appearflags)  size(-16 -16 -24, 16 16 32)
 	color(0 255 0) = Triggers []
 
 //BaseClass Weapons
-@BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) offset(0 0 16) bobparms( 100 0 0 ) = Weapons 
+@BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) = Weapons 
 [
 	team(string) : "Team"
 ]
@@ -141,7 +141,7 @@
 ]
 
 //BaseClass Ammo
-@BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) offset(0 0 16) = Ammo 
+@BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) = Ammo 
 [
 	team(string) : "Team"
 ]
@@ -228,12 +228,12 @@
 ]
 
 //func entities
-@SolidClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_areaportal : "func_areaportal"
+@SolidClass base(Appearflags, Target) color(0 255 255) = func_areaportal : "func_areaportal"
 [
 	targetname(string) : "Target Name"
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_button : "func_button"
+@SolidClass base(Appearflags, Target) color(0 255 255) = func_button : "func_button"
 [
 	angle(integer) : "Angle"
 	target(string) : "Target(s) Name"
@@ -245,7 +245,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_conveyor : "func_conveyor"
+@SolidClass base(Appearflags, Target) color(0 255 255) = func_conveyor : "func_conveyor"
 [
 	spawnflags(Flags) =
 	[
@@ -256,7 +256,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door : "func_door"
+@SolidClass base(Appearflags, Target) color(0 255 255) = func_door : "func_door"
 [
 	spawnflags(Flags) =
 	[
@@ -273,7 +273,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door_rotating : "func_door_rotating"
+@SolidClass base(Appearflags, Target) color(0 255 255) = func_door_rotating : "func_door_rotating"
 [
 	spawnflags(Flags) =
 	[
@@ -293,7 +293,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door_secret : "func_door_secret"
+@SolidClass base(Appearflags, Target) color(0 255 255) = func_door_secret : "func_door_secret"
 [
 	spawnflags(Flags) =
 	[
@@ -310,9 +310,9 @@
 	targetname(string) : "Target Name"
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_group : "func_group" []
+@SolidClass base(Appearflags, Target) color(0 255 255) = func_group : "func_group" []
 
-@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_plat : "func_plat"
+@SolidClass base(Appearflags, Target) color(0 255 255) = func_plat : "func_plat"
 [
 	spawnflags(Flags) =
 	[
@@ -326,7 +326,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_rotating : "func_rotating"
+@SolidClass base(Appearflags, Target) color(0 255 255) = func_rotating : "func_rotating"
 [
 	spawnflags(Flags) =
 	[
@@ -354,7 +354,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_train : "func_train"
+@SolidClass base(Appearflags, Target) color(0 255 255) = func_train : "func_train"
 [
 	spawnflags(Flags) =
 	[
@@ -368,7 +368,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_wall : "func_wall"
+@SolidClass base(Appearflags, Target) color(0 255 255) = func_wall : "func_wall"
 [
 	spawnflags(Flags) =
 	[
@@ -379,7 +379,7 @@
 	targetname(string) : "Target Name"
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_water : "func_water"
+@SolidClass base(Appearflags, Target) color(0 255 255) = func_water : "func_water"
 [
 	spawnflags(Flags) =
 	[
@@ -430,11 +430,11 @@
 ]
 
 //BaseClass Items
-@BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) offset(0 0 16) = Items 
+@BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) = Items 
 [
 	team(string) : "Team"
 ]
-@BaseClass base(Items) bobparms( 100 0 0 ) = ItemsBob []
+@BaseClass base(Items) = ItemsBob []
 
 @PointClass base(ItemsBob) studio("") = item_adrenaline : "adrenaline" 
 [
@@ -560,13 +560,13 @@
 @PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = light : "light"
 [
 	light(integer) : "Light Radius"
-	_color(color1) : "Light Color"
+	_color(string) : "Light Color - R G B"
 ]
 
 @PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = light_spot : "light_spot"
 [
 	light(integer) : "Light Radius"
-	_color(color1) : "Light Color"
+	_color(string) : "Light Color - R G B"
 	_cone(integer) : "Light Cone"
 	_angle(integer) : "Angle"
 ]
@@ -602,7 +602,7 @@
 	]
 	angles(integer) : "Angles"
 	velocity(integer) : "Velocity"
-	color(color1) : "Color"
+	color(string) : "Color - R G B"
 	hz(integer) : "Emission Rate"
 	drift(integer) : "Drift"
 	radius(integer) : "Radius"
@@ -631,7 +631,7 @@
 ]
 
 //Path Corner
-@PointClass base(Appearflags, Targetname) flags(Path) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "path_corner"
+@PointClass base(Appearflags, Targetname) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "path_corner"
 [
 	spawnflags(Flags) =
 	[
@@ -650,7 +650,7 @@
 		1 : "start_on" : 0
 		2 : "toggle" : 0
 	]
-	colors(color1) : "Color"
+	colors(string) : "Color - R G B"
 	delay(integer) : "Delay"
 	dmg(integer) : "Radius"
 	targetname(string) : "Target Name"
@@ -767,10 +767,10 @@
 @SolidClass = worldspawn : "World entity"
 [
 	message(string) : "Map Title"
-	sky(sky) : "Sky Environment Map (default unit1_)"
+	sky(string) : "Sky Environment Map (default unit1_)"
 	ambient_light(float) : "Ambient Light Level (Float Value)"
 	sun_light(integer) : "Sun Light Intensity, scalar value 0 - 255"
-	sun_color(color1) : "Sun Light Color (e.g. 0.8 0.4 0.7)"
+	sun_color(string) : "Sun Light Color (e.g. 0.8 0.4 0.7)"
 	sun_angles(integer) : "Sun Light Angles"
 	brightness(float) : "Global Light Scale"
 	saturation(float) : "Global Light Saturation)"
