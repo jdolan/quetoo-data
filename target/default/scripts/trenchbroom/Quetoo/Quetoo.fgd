@@ -1,0 +1,791 @@
+// Quetoo Forge Game Data File (.fgd)
+//
+// FGD Written by: David "Quake Ranger" Cluett
+// Contact: rogue.sergeant@gmail.com - Discord: QuakeRanger#4190 - Steam: http://steamcommunity.com/id/quakeranger/
+// FGD Stable Release Build: 1030
+// 
+// TO-DO:
+// - Optimize and Functionality.
+
+//Appearflags
+@baseclass = Appearflags [
+	spawnflags(Flags) =
+	[
+		256 : "Not in Easy (Not Used)" : 0
+		512 : "Not in Normal (Not Used)" : 0
+		1024 : "Not in Hard (Not Used)" : 0
+		2048 : "Not in Deathmatch (Not Used)" : 0
+	]
+]
+
+@baseclass = Targetname [ targetname(target_source) : "Name" ]
+@baseclass = Target [ target(target_destination) : "Target" ]
+@baseclass base(Appearflags) flags(Angle) size(-16 -16 -24, 16 16 32) offset(0 0 24) 
+	color(0 255 0) = Triggers []
+
+//BaseClass Weapons
+@BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) offset(0 0 16) bobparms( 100 0 0 ) = Weapons 
+[
+	team(string) : "Team"
+]
+
+//Weapons 
+@PointClass base(Weapons) studio("") = weapon_shotgun : "Shotgun"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_supershotgun : "Super shotgun"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_machinegun : "Machinegun"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("")= weapon_chaingun : "Chain gun"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_grenadelauncher : "Grenade launcher"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_rocketlauncher : "Rocket launcher"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_hyperblaster : "Hyperblaster"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_railgun : "Rail gun"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_bfg : "Big Freakin Gun!"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_blaster : "Blaster"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Weapons) studio("") = weapon_lightning : "Lightning"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+//BaseClass Ammo
+@BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) offset(0 0 16) = Ammo 
+[
+	team(string) : "Team"
+]
+
+//Ammo
+@PointClass base(Ammo) studio("") = ammo_shells : "Shotgun ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_bullets : "Machine/Chain gun Ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_cells : "Blaster Ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_grenades : "Grenades Ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_rockets : "Rockets"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_slugs : "Rail Gun Ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_nukes : "BFG Ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Ammo) studio("") = ammo_bolts : "Lightning Ammo"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+//func entities
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-32 -32 -24, 32 32 -16) = func_areaportal : "func_areaportal"
+[
+	targetname(string) : "Target Name"
+]
+
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_button : "func_button"
+[
+	angle(integer) : "Angle"
+	target(string) : "Target(s) Name"
+	speed(integer) : "Speed"
+	wait(integer) : "Wait"
+	lip(integer) : "Lip"
+	sounds(integer) : "Sound (0, 1 stone, -1 silent)"
+	health(integer) : "Health (Door takes DMG to open)"
+	targetname(string) : "Target Name"
+]
+
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_conveyor : "func_conveyor"
+[
+	spawnflags(Flags) =
+	[
+		1 : "start_open" : 0
+		2 : "toggle" : 0
+	]
+	speed(integer) : "Speed"
+	targetname(string) : "Target Name"
+]
+
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door : "func_door"
+[
+	spawnflags(Flags) =
+	[
+		1 : "start_open" : 0
+		2 : "toggle" : 0
+	]
+	message(string) : "Message"
+	angle(integer) : "Angle"
+	health(integer) : "Health (Door takes DMG to open)"
+	speed(integer) : "Speed"
+	wait(integer) : "Wait"
+	lip(integer) : "Lip"
+	dmg(integer) : "Damage"
+	targetname(string) : "Target Name"
+]
+
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door_rotating : "func_door_rotating"
+[
+	spawnflags(Flags) =
+	[
+		1 : "start_open" : 0
+		2 : "toggle" : 0
+		4 : "reverse" : 0
+		8 : "x_axis" : 0
+		16 : "y_axis" : 0
+	]
+	message(string) : "Message"
+	health(integer) : "Health (Door takes DMG to open)"
+	speed(integer) : "Speed"
+	wait(integer) : "Wait"
+	lip(integer) : "Lip"
+	dmg(integer) : "Damage"
+	sounds(integer) : "Sound (0, 1 stone, -1 silent)"
+	targetname(string) : "Target Name"
+]
+
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_door_secret : "func_door_secret"
+[
+	spawnflags(Flags) =
+	[
+		1 : "always_shoot" : 0
+		2 : "first_left" : 0
+		4 : "first_down" : 0
+	]
+	angle(integer) : "Angle"
+	message(string) : "Message"
+	health(integer) : "Health (Door takes DMG to open)"
+	speed(integer) : "Speed"
+	wait(integer) : "Wait"
+	dmg(integer) : "Damage"
+	targetname(string) : "Target Name"
+]
+
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_group : "func_group" []
+
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_plat : "func_plat"
+[
+	spawnflags(Flags) =
+	[
+		1 : "low_trigger" : 0
+	]
+	speed(integer) : "Speed"
+	accel(integer) : "Acceleration"
+	lip(integer) : "Lip"
+	height(integer) : "Height"
+	sounds(integer) : "Sound (0, 1 stone, -1 silent)"
+	targetname(string) : "Target Name"
+]
+
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_rotating : "func_rotating"
+[
+	spawnflags(Flags) =
+	[
+		1 : "start_on" : 0
+		2 : "reverse" : 0
+		4 : "x_axis" : 0
+		8 : "y_axis" : 0
+		16 : "touch_pain" : 0
+		32 : "stop" : 0
+	]
+	speed(integer) : "Speed"
+	dmg(integer) : "Damage"
+	targetname(string) : "Target Name"
+]
+
+@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_timer : "func_timer"
+[
+	spawnflags(Flags) =
+	[
+		1 : "start_on" : 0
+	]
+	wait(integer) : "Wait"
+	random(integer) : "Random"
+	delay(integer) : "delay"
+	targetname(string) : "Target Name"
+]
+
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_train : "func_train"
+[
+	spawnflags(Flags) =
+	[
+		1 : "start_on" : 0
+		2 : "toggle" : 0
+		4 : "block_stops" : 0
+	]
+	dmg(integer) : "Damage"
+	speed(integer) : "Speed"
+	noise(string) : "Noise File"
+	targetname(string) : "Target Name"
+]
+
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_wall : "func_wall"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "toggle" : 0
+		4 : "start_on" : 0
+	]
+	targetname(string) : "Target Name"
+]
+
+@SolidClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_water : "func_water"
+[
+	spawnflags(Flags) =
+	[
+		1 : "start_open" : 0
+	]
+	angle(integer) : "Angle"
+	speed(integer) : "Speed"
+	wait(integer) : "Wait"
+	lip(integer) : "Lip"
+	targetname(string) : "Target Name"
+]
+
+//Info entities
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_null : "info_null"
+[
+	targetname(string) : "Target Name"
+]
+
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_notnull : "info_notnull"
+[
+	targetname(string) : "Target Name"
+]
+
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_start : "info_player_start"
+[
+	angle(integer) : "Angle"
+]
+
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_deathmatch : "info_player_deathmatch"
+[
+	angle(integer) : "Angle"
+]
+
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_intermission : "info_player_intermission"
+[
+	angles(integer) : "Angles"
+	target(string) : "Target (info_notnull)"
+]
+
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_team1 : "info_player_team1"
+[
+	angle(integer) : "Angle"
+]
+
+@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_team2 : "info_player_team2"
+[
+	angle(integer) : "Angle"
+]
+
+//BaseClass Items
+@BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) offset(0 0 16) = Items 
+[
+	team(string) : "Team"
+]
+@BaseClass base(Items) bobparms( 100 0 0 ) = ItemsBob []
+
+@PointClass base(ItemsBob) studio("") = item_adrenaline : "adrenaline" 
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_armor_body : "Body armor +200"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_armor_combat : "Combat armor +100"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_armor_jacket : "Jacket armor +50" 
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_armor_shard : "Armor shard +3"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Items) studio("") = item_health : "+15 health"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Items) studio("") = item_health_small : "+3 health"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Items) studio("") = item_health_large : "+25 health"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(Items) studio("") = item_health_mega : "+75 health"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_quad : "Quad damage"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_flag_team1 : "Team 1 Flag"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+@PointClass base(ItemsBob) studio("") = item_flag_team2 : "Team 2 Flag"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+]
+
+//Light Entities
+@PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = light : "light"
+[
+	light(integer) : "Light Radius"
+	_color(color1) : "Light Color"
+]
+
+@PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = light_spot : "light_spot"
+[
+	light(integer) : "Light Radius"
+	_color(color1) : "Light Color"
+	_cone(integer) : "Light Cone"
+	_angle(integer) : "Angle"
+]
+
+//Misc Entities
+@PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = misc_teleporter : "misc_teleporter"
+[
+	spawnflags(Flags) =
+	[
+		1 : "?" : 0
+		2 : "?" : 0
+		4 : "no_effects" : 0
+	]
+]
+
+@PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = misc_teleporter_dest : "misc_teleporter_dest"
+[
+	angle(integer) : "Angle"
+	targetname(string) : "Target Name"
+]
+
+@PointClass base(Appearflags, Target) color(255 255 0) size(-16 -16 -16, 16 16 16) = misc_emit : "misc_emit"
+[
+	spawnflags(Flags) =
+	[
+		1 : "light" : 0
+		2 : "sparks" : 0
+		4 : "steam" : 0
+		8 : "flames" : 0
+		16 : "corona" : 0
+		32 : "sound" : 0
+		64 : "model" : 0
+	]
+	angles(integer) : "Angles"
+	velocity(integer) : "Velocity"
+	color(color1) : "Color"
+	hz(integer) : "Emission Rate"
+	drift(integer) : "Drift"
+	radius(integer) : "Radius"
+	count(integer) : "Count"
+	scale(integer) : "Scale"
+	sound(string) : "Sound File"
+	attenuation(integer) : "Attenuation"
+	wait(integer) : "Wait"
+	model(string) : "Static Model"
+]
+
+@PointClass base(Appearflags, Target) color(.8 .8 0) size(-8 -8 -8, 8 8 8) = misc_fireball : "misc_fireball"
+[
+	angles(integer) : "Angles"
+	dmg(integer) : "Damage"
+	random(integer) : "Random"
+	speed(integer) : "Speed"
+	wait(integer) : "Wait"
+]
+
+@PointClass base(Appearflags, Target) color(.8 .8 0) size(-8 -8 -8, 8 8 8) = misc_model : "misc_model"
+[
+	angles(integer) : "Angles"
+	scale(integer) : "Scale"
+	model(string) : "Static Model Name"
+]
+
+//Path Corner
+@PointClass base(Appearflags, Targetname) flags(Path) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "path_corner"
+[
+	spawnflags(Flags) =
+	[
+		1 : "teleport" : 0
+	]
+	target(string) : "Next path target"
+	pathtarget(string) : "Event to trigger"
+	targetname(string) : "Target Name"
+]
+
+//Target entities
+@PointClass base(Appearflags, Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_light : "target_light"
+[
+	spawnflags(Flags) =
+	[
+		1 : "start_on" : 0
+		2 : "toggle" : 0
+	]
+	colors(color1) : "Color"
+	delay(integer) : "Delay"
+	dmg(integer) : "Radius"
+	targetname(string) : "Target Name"
+	wait(integer) : "Wait"
+]
+
+@PointClass base(Appearflags, Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_speaker : "target_speaker"
+[
+	spawnflags(Flags) =
+	[
+		1 : "loop_on" : 0
+		2 : "loop_off" : 0
+	]
+	noise(string) : "Name of Sound"
+	attenuation(choices) : "Attenuation Level" : 0 =
+	[
+		-1 : "No attenuation, send the sound to the entire level."
+		1 : "Normal attenuation, hearable to all those in PHS of entity."
+		2 : "Idle attenuation, hearable only by those near to entity."
+		3 : "Static attenuation, hearable only by those very close to entity."
+	]
+	targetname(string) : "Target Name"
+]
+
+@PointClass base(Appearflags, Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_string : "target_string"
+[
+	message(string) : "Message"
+	targetname(string) : "Target Name"
+]
+
+//Triggers
+@PointClass base(Appearflags, Targetname) color(128 128 128) = trigger_relay : "Relay trigger"
+[
+	delay(integer) : "Delay in Seconds" : 0
+	message(string) : "String to Display"
+	target(string) : "Triggering Entity or Team"
+	killtarget(string) : "Entity or Team to Kill"
+	targetname(string) : "Target Name"
+]
+
+@PointClass base(Appearflags, Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = trigger_always : "Always triggers" 
+[
+	killtarget(string) : "Kill Target"
+	delay(integer) : "Time before triggering"
+]
+
+//trigger_exec needs to be revised. 1/31/2017
+@PointClass base(Target, Triggers) color(128 128 128) = trigger_exec : "Execute" 
+[
+	commands(string) : "Console CMD"
+	script(string) : ".cfg to execute"
+	delay(integer) : "Delay in Seconds"
+]
+
+@SolidClass base(Appearflags, Targetname) color(128 128 128) = trigger_hurt : "Hurts on touch"
+[
+	spawnflags(Flags) =
+	[
+		1 : "start_off" : 0
+		2 : "toggle" : 0
+		4 : "no_protection" : 0
+		8 : "slow" : 0
+	]
+	dmg(integer) : "Damage" : 5
+	targetname(string) : "Target Name"
+	
+]
+
+@SolidClass base(trigger_relay) = trigger_once : "Single fire trigger"
+[
+	spawnflags(Flags) =
+	[
+		4 : "triggered" : 0
+	]
+	delay(integer) : "Delay in Seconds" : 0
+	message(string) : "String to Display"
+	target(string) : "Triggering Entity or Team"
+	killtarget(string) : "Entity or Team to Kill"
+	targetname(string) : "Target Name"
+]
+
+@SolidClass base(Appearflags) color(128 128 128) = trigger_push : "Push trigger"
+[
+	spawnflags(Flags) =
+	[
+		1 : "push_once" : 0
+		2 : "push_effects" : 0
+	]
+	angles(integer) : "Direction (Pitch, Yaw, Roll)" : 0
+	speed(integer) : "Speed of push" : 100
+]
+
+@SolidClass base(Appearflags, Target) color(0 255 00) = trigger_teleporter : "misc_teleporter_dest"
+[
+	target(string) : "misc_teleporter_dest"
+]
+
+@SolidClass base(trigger_once) = trigger_multiple : "Multiple fire trigger"
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "shootable" : 0
+	]
+	delay(integer) : "Delay in Seconds" : 0
+	wait(float) : "Interval in Seconds"
+	message(string) : "String to Display"
+	target(string) : "Triggering Entity or Team"
+	killtarget(string) : "Entity or Team to Kill"
+	targetname(string) : "Target Name"
+]
+
+// World Spawn
+@SolidClass = worldspawn : "World entity"
+[
+	message(string) : "Map Title"
+	sky(sky) : "Sky Environment Map (default unit1_)"
+	ambient_light(float) : "Ambient Light Level (Float Value)"
+	sun_light(integer) : "Sun Light Intensity, scalar value 0 - 255"
+	sun_color(color1) : "Sun Light Color (e.g. 0.8 0.4 0.7)"
+	sun_angles(integer) : "Sun Light Angles"
+	brightness(float) : "Global Light Scale"
+	saturation(float) : "Global Light Saturation)"
+	contrast(float) : "Global Light Contrast"
+	weather(string) : "Weather Effects"
+	gravity(integer) : "Gravity (default 800)" : 800
+	gameplay(string) : "deathmatch, instagib, arena"
+	hook(integer) : "Grappling Hook (1 = on)" : 0
+	teams(integer) : "Team Play" : 0
+	ctf(integer) : "CTF" : 0
+	match(integer) : "Match Play" : 0
+	fraglimit(integer) : "Frag Limit" : 20
+	roundlimit(integer) : "Round Limit" : 20
+	capturelimit(integer) : "Capture Limit" : 20
+	timelimit(integer) : "Time Limit (Minutes)" : 20
+	give(string) : "give"
+	
+]
