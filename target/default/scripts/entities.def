@@ -340,15 +340,29 @@
 */
 
 /*QUAKED info_player_team1 (0 0 1) (-16 -16 -24) (16 16 32)
- Player spawn point for blue team in teams or CTF gameplay.
+ Player spawn point for red team in teams or CTF gameplay.
   
  -------- Keys --------
  angle : The angle at which the player will face when spawned.
 */
 
 /*QUAKED info_player_team2 (1 0 0) (-16 -16 -24) (16 16 32)
- Player spawn point for red team in teams or CTF gameplay.
+ Player spawn point for blue team in teams or CTF gameplay.
   
+ -------- Keys --------
+ angle : The angle at which the player will face when spawned.
+*/
+
+/*QUAKED info_player_team3 (1 0 0) (-16 -16 -24) (16 16 32)
+ Player spawn point for green team in teams or CTF gameplay.
+
+ -------- Keys --------
+ angle : The angle at which the player will face when spawned.
+*/
+
+/*QUAKED info_player_team4 (1 0 0) (-16 -16 -24) (16 16 32)
+ Player spawn point for orange team in teams or CTF gameplay.
+
  -------- Keys --------
  angle : The angle at which the player will face when spawned.
 */
@@ -455,6 +469,28 @@
   
  -------- Radiant config --------
  model="models/ctf/flag2/tris.obj"
+*/
+
+/*QUAKED item_flag_team3 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/ctf/flag3/tris.obj"
+*/
+
+/*QUAKED item_flag_team4 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
+  
+ -------- Spawn flags --------
+ triggered : Item will not appear until triggered.
+ no_touch : Item will interact as solid instead of being picked up by player.
+ hover : Item will spawn where it was placed in the map and won't drop the floor.
+  
+ -------- Radiant config --------
+ model="models/ctf/flag4/tris.obj"
 */
 
 /*QUAKED item_health (.8 .8 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
@@ -937,6 +973,7 @@
  gameplay : The gameplay mode, one of "deathmatch, instagib, arena."
  hook : Enables the grappling hook (unset for gameplay default, 0 = disabled, 1 = enabled)."
  teams : Enables and enforces teams play (enabled = 1, auto-balance = 2).
+ num_teams : Enforces number of teams (disabled = -1, must be between 2 and 4)
  ctf : Enables CTF play (enabled = 1, auto-balance = 2).
  match : Enables match play (round-based elimination with warmup) (enabled = 1).
  fraglimit : The frag limit (default 20).
