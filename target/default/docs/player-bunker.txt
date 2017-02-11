@@ -1,0 +1,56 @@
+2-8-03
+================================================================
+Model Name              	: Bunker
+installation directory  	: quake3/baseq3/md3-bunker.pk3
+Model Author       		: Brian (BoBo the seal) Jones
+Skin Author 		: Brian (BoBo the seal) Jones, Dark Horizon, qubism, bmer, MoP
+Animations		: martinez
+Sounds			: Vorrik
+Email Address           	: bobo@ritual.com
+Website URL		: www.bobotheseal.com
+Model description       	: 
+
+A few of us here at Ritual thought it would be fun to see if we could do a quick Quake 3 model
+that would relatively stay true to the specs of Quake 3. Problem is we never seem to have the time.
+So we decided to challenge ourselves to get the skinning, animations, exportation and public
+release all done in one day. We also thought it would be fun to give the public the opportunity
+to participate. Hence the 24 hour Q3 challenge!
+
+
+Dedication   		: We would like to dedicate this model to Kenneth Scott of id software.
+	       		He is an inspiration to us all.
+
+Thanks to              	 : Thanks to the entire modding community for making
+			the 24 Hour Q3 Challenge so much fun!!!!!!!
+================================================================
+New Sounds              	: <YES>
+CTF Skins               	: <YES>
+LODS			: <YES>
+Poly Count            	: <LOD1 - 1196 polys>
+			: <LOD2 - 1012 polys>
+			: <LOD3 - 801 polys>
+Skin Count              	: <6 Skins>
+Base info               	: <All new animations!!!! YAY!!!!! AND BOTS!!!!>
+Software used             	: <Max 4.29, Photoshop>
+Known Bugs              	: <Don't call DH a bug!!! Nah, I realized I forgot to LOD the pouches.>
+
+BUILD/ANIMATION TIME    	: <24 HOURS!!!!!!>
+
+
+* How to use this model *
+
+Copy the md3-bunker.pk3 to your baseq3 folder in your Quake III directory.
+
+* Copyright / Permissions *
+
+QUAKE(R) and QUAKE II(R) and QUAKE III(R) are registered trademarks of
+id Software, Inc.
+
+Bunker, HAX, Fidget, Rustee, Anger, and Be are copyright to their respective artists.
+
+This Quake III replacemant model  may be electronically distributed only at 
+NO CHARGE to the recipient in its current state, MUST 
+include this .txt file, and may NOT be modified IN 
+ANY WAY. UNDER NO CIRCUMSTANCES IS THIS MODEL TO BE 
+DISTRIBUTED ON CD-ROM WITHOUT PRIOR WRITTEN PERMISSION.
+
