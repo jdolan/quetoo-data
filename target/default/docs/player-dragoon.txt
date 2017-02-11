@@ -1,0 +1,44 @@
+
+<09/23/00>
+================================================================
+Model Name              : Dragoon
+installation directory  : /baseq3/players/Dragoon
+Author                  : Sergeant Science
+Skin Author 		: Crash, Firestarter
+Email Address           : Giga-Flare@planetquake.com.com
+
+Model description       : Dragoon. Bitchin anime style mech. Long live Masamune Shirow.
+
+
+Other info              : <OTHER STUFF>
+
+Additional Credits to   : id Software, q3 bot designer
+
+Thanks to               : my man at kungfoolin. Crash, Firestarter. Skinning sensationalists.
+================================================================
+* Play Information *
+
+New Sounds              : NO
+CTF Skins               : YES
+
+
+* Construction *
+Poly Count              : 1050 polys
+Vert Count              : 640 Verts
+Skin Count              : 3 DM, 2 CTF
+Base                    : new
+Editor used             : Max r3, photoshop 5.0, q3 bot designer
+Build/Animation time    : few weeks on and off
+
+
+* How to use this model *
+
+drop the dragoon.pk3 into your baseq3 dir.
+
+* Copyright / Permissions *
+
+QUAKE(R) and QUAKE II(R) are registered trademarks of id Software, Inc.
+
+
+Known bugs		: Frequently does not appear in model select screen. For solutions, view readmeFIRST.txt
+			  in the q3mdl-dragoon.zip
