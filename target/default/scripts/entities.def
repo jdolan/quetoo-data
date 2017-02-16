@@ -58,7 +58,7 @@
  model="models/ammo/grenades/tris.md3"
 */
 
-/*QUAKED ammo_nukes (.4 1 .5) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_nukes (.3 .9 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover
  Nukes for the BFG10K.
   
  -------- Keys --------
@@ -88,7 +88,7 @@
  model="models/ammo/rockets/tris.md3"
 */
 
-/*QUAKED ammo_shells (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_shells (.8 .4 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
  Shells for the Shotgun and Super Shotgun.
   
  -------- Keys --------
@@ -339,35 +339,35 @@
  target : The target name of an info_notnull as an alternate way to set the camera angles.
 */
 
-/*QUAKED info_player_team1 (0 0 1) (-16 -16 -24) (16 16 32)
+/*QUAKED info_player_team1 (1 0 0) (-16 -16 -24) (16 16 32)
  Player spawn point for red team in teams or CTF gameplay.
   
  -------- Keys --------
  angle : The angle at which the player will face when spawned.
 */
 
-/*QUAKED info_player_team2 (1 0 0) (-16 -16 -24) (16 16 32)
+/*QUAKED info_player_team2 (0 0 1) (-16 -16 -24) (16 16 32)
  Player spawn point for blue team in teams or CTF gameplay.
   
  -------- Keys --------
  angle : The angle at which the player will face when spawned.
 */
 
-/*QUAKED info_player_team3 (1 0 0) (-16 -16 -24) (16 16 32)
+/*QUAKED info_player_team3 (0 1 0) (-16 -16 -24) (16 16 32)
  Player spawn point for green team in teams or CTF gameplay.
 
  -------- Keys --------
  angle : The angle at which the player will face when spawned.
 */
 
-/*QUAKED info_player_team4 (1 0 0) (-16 -16 -24) (16 16 32)
+/*QUAKED info_player_team4 (1 .5 .2) (-16 -16 -24) (16 16 32)
  Player spawn point for orange team in teams or CTF gameplay.
 
  -------- Keys --------
  angle : The angle at which the player will face when spawned.
 */
 
-/*QUAKED G_info_player_team_any (1 0 0) (-16 -16 -24) (16 16 32)
+/*QUAKED info_player_team_any (1 0 0) (-16 -16 -24) (16 16 32)
  Player spawn point for any team in teams or CTF gameplay.
 
  -------- Keys --------
@@ -449,7 +449,7 @@
  model="models/armor/shard/tris.obj"
 */
 
-/*QUAKED item_flag_team1 (.2 .2 1) (-16 -16 -24) (16 16 32) triggered no_touch hover
+/*QUAKED item_flag_team1 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
   
  -------- Spawn flags --------
  triggered : Item will not appear until triggered.
@@ -460,7 +460,7 @@
  model="models/ctf/flag1/tris.obj"
 */
 
-/*QUAKED item_flag_team2 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
+/*QUAKED item_flag_team2 (.2 .2 1) (-16 -16 -24) (16 16 32) triggered no_touch hover
   
  -------- Spawn flags --------
  triggered : Item will not appear until triggered.
@@ -471,7 +471,7 @@
  model="models/ctf/flag2/tris.obj"
 */
 
-/*QUAKED item_flag_team3 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
+/*QUAKED item_flag_team3 (.2 1 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
   
  -------- Spawn flags --------
  triggered : Item will not appear until triggered.
@@ -482,7 +482,7 @@
  model="models/ctf/flag3/tris.obj"
 */
 
-/*QUAKED item_flag_team4 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
+/*QUAKED item_flag_team4 (1 .5 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
   
  -------- Spawn flags --------
  triggered : Item will not appear until triggered.
@@ -805,7 +805,7 @@
  delay : The delay in seconds between activation and execution of the commands.
 */
 
-/*QUAKED weapon_blaster (.8 .8 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_blaster (1 1 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
  Blaster.
   
  -------- Keys --------
@@ -817,10 +817,10 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
   
  -------- Radiant config --------
- model="models/weapons/shotgun/tris.obj"
+ model="models/weapons/blaster/tris.obj"
 */
 
-/*QUAKED weapon_shotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_shotgun (.8 .4 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
  Shotgun.
   
  -------- Keys --------
@@ -835,7 +835,7 @@
  model="models/weapons/shotgun/tris.obj"
 */
 
-/*QUAKED weapon_supershotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_supershotgun (.8 .4 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
  Super shotgun.
   
  -------- Keys --------
@@ -940,7 +940,7 @@
  model="models/weapons/railgun/tris.obj"
 */
 
-/*QUAKED weapon_bfg (.4 1 .5) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_bfg (.3 .9 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover
  BFG10K.
   
  -------- Keys --------
