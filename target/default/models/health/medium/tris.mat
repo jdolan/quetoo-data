@@ -1,7 +1,7 @@
 {
 	material #models/health/medium/skin
-	bump 2.3
+	bump 2.0
 	hardness 2.5
 	parallax 0.0
-	specular 5.0
+	specular 4.0
 }

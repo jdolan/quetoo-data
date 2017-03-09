@@ -1,7 +1,7 @@
 {
 	material #models/armor/body/skin
-	bump 3.0
-	hardness 9.0
+	bump 2.0
+	hardness 3.0
 	parallax 0.0
-	specular 12.0
+	specular 7.0
 }
