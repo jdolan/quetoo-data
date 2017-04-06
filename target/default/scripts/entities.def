@@ -151,7 +151,7 @@
  toggle : The conveyor is toggled each time it is used.
 */
 
-/*QUAKED func_door (0 .5 .8) ? start_open toggle
+/*QUAKED func_door (0 .5 .8) ? start_open reverse x x x toggle
  A sliding door. By default, doors open when a player walks close to them.
   
  -------- Keys --------
@@ -170,7 +170,7 @@
  toggle : The door will wait in both the start and end states for a trigger event.
 */
 
-/*QUAKED func_door_rotating (0 .5 .8) ? start_open toggle reverse x_axis y_axis
+/*QUAKED func_door_rotating (0 .5 .8) ? start_open reverse x x x toggle x_axis y_axis
  A door which rotates about an origin on its Z axis. By default, doors open when a player walks close to them.
   
  -------- Keys --------

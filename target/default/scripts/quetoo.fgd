@@ -261,7 +261,7 @@
 	spawnflags(Flags) =
 	[
 		1 : "start_open" : 0
-		2 : "toggle" : 0
+		32 : "toggle" : 0
 	]
 	message(string) : "Message"
 	angle(integer) : "Angle"
@@ -278,10 +278,10 @@
 	spawnflags(Flags) =
 	[
 		1 : "start_open" : 0
-		2 : "toggle" : 0
-		4 : "reverse" : 0
-		8 : "x_axis" : 0
-		16 : "y_axis" : 0
+		2 : "reverse" : 0
+		32 : "toggle" : 0
+		64 : "x_axis" : 0
+		128 : "y_axis" : 0
 	]
 	message(string) : "Message"
 	health(integer) : "Health (Door takes DMG to open)"
