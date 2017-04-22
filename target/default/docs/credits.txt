@@ -1,77 +1,73 @@
 // This file is very much a work-in-progress
 // Feel free to ask to have your name added here
 // If you find a mistake or typo, please report or fix it
-// Names are sorted alphabetically by their primary role
+// Names are sorted by their importance for members or alphabetical for contributors
 // Each name should only appear once by their most important contribution
 
-"Jay 'jdolan' Dolan" "Project lead, Maintainer"
-"'Panjoo'" "Creative lead, Maps, Models, Textures"
+"----------[ Current members ]----------" "" ""
+"" "" ""
 
-"" ""
+"Jay 'jdolan' Dolan" "Project lead, Core maintainer" "jaydolan.com"
+"DJ 'Panjoo' Bloot" "Design lead, Mapper" "panjoo.tastyspleen.net"
+"Jonathan 'Paril' Barkley" "Core maintainer" "planetminecraft.com/member/paril"
+"Anthony Webb" "Music, Sound artist" "anthonywebbmusic.com"
+"'KaadmY'" "Developer, Mapper, Artist" "github.com/kaadmy"
+"Joe 'claire' Reid" "Developer" "github.com/jar3817"
 
-"'Paril'" "Maintainer"
+"" "" ""
+"----------[ Retired members ]----------" "" ""
+"" "" ""
 
-"" ""
+"Michael 'wickedshell' du Breuil" "Developer" "github.com/WickedShell"
+"Coşku 'tapir' Baş" "Maintainer" "gitlab.com/u/tapir/projects"
+"Antti 'Karvajalka' Lahti" "Artist" "karvajalka.satgnu.net"
+"Tim 'spirit' Schäfer" "Mapper" "rcmd.org/spirit"
+"Steve 'Jester' Veihl" "Mapper" "j-spot.backshooters.net"
+"Michael 'Thorn' Rodenhurst" "Artist" ""
+"Noel 'Nilium' Cower" "Developer, Artist" "spifftastic.net"
+"Marcel 'maci' Wysocki" "Infrastructure" ""
+"Roland Shaw" "Music" "rolandshaw.com"
+"Dan 'CardO' Shannon (planetquake.com/cardo)" "Mapper" ""
+"Georges 'TRaK' Grondin" "Mapper, Artist" ""
+"Pawel 'ShadoW' Chrapka" "Mapper" ""
+"Stijn 'Ingar' Buys" "Developer, Mapper" "ingar.satgnu.net"
+"Juha 'jhaa' Merilä" "Artist" "juha.puusilma.net"
 
-"'KaadmY'" "Developer, Models"
-"'tapir'" "Developer"
+"" "" ""
+"----------[ Special thanks ]----------" "" ""
+"" "" ""
 
-"" ""
+"Forest 'LordHavoc' Hale" "" ""
+"Eduardo 'mitomon' Pecina" "" ""
+"Martin 'mattn' Gerhardy" "" ""
+"Chris 'The Bunny' Dillman" "" ""
+"Mads 'Madsy' Elvheim" "" ""
+"Tom 'keres' Havlik" "" ""
+"Dale 'supa_user' Blount" "" ""
+"Stephan 'stereo84' Reiter" "" ""
 
-"Anthony Webb (http://anthonywebbmusic.com/)" "Music, Sounds"
-"Red Devil (https://offworldrecordings.bandcamp.com/)" "Music"
-"Roland Shaw (rolandshawsound@hotmail.com)" "Music"
+"" "" ""
+"----------[ Contributors ]----------" "" ""
+"" "" ""
 
-"" ""
-
-"'Nemes|s'" "Player models, Player skins, Player animations"
-
-"'Tabun' (http://www.tabun.nl)" "Player models, Player skins, Player animations"
-
-"Brian 'BoBo the seal' Jones (www.bobotheseal.com)" "Player models"
-"'Seargant Science' (Giga-Flare@planetquake.com.com)" "Player models"
-
-"'bmer'" "Player skins"
-"'Crash'" "Player skins"
-"'Dark Horizon'" "Player skins"
-"'Firestarter'" "Player skins"
-"'MoP'" "Player skins"
-"'qubism'" "Player skins"
-
-"'martinez'" "Player animations"
-
-"" ""
-
-"Dan 'CardO' Shannon (www.planetquake.com/cardo)" "Maps"
-"'Jester' (j-spot@planetquake.com)" "Maps"
-"Mattias 'Preacher' Konradsson (http://planetquake.com/leveled/)" "Maps"
-"'spirit' (http://sp1r1t.org/contact/)" "Maps"
-
-"" ""
-
-"'broar'" "Models"
-"'BuzzardBait'" "Models"
-"Juha 'jhaa' Merilä (http://juha.puusilma.net)" "Models"
-"Noel Cower" "Models"
-
-"" ""
-
-"Yves 'evil lair Allaire' (http://evillair.net)" "Textures"
-"Jan 'Stannum' van der Weg (http://janvanderweg.com/)" "Textures"
-"Kevin 'rorshach' Johnstone (www.3dpalette.com/~rorschach)" "Textures"
-"Matt 'Lunaran' Breit (http://lunaran.com)" "Textures"
-"Philip Klevstav (www.philipk.net)" "Textures"
-"Quake Revitalization Project (http://facelift.quuakedev.com)" "Textures"
-"Requiem Modding Team (http://www.modrequiem.net)" "Textures"
-"'Speedy' (www.planetquake.com/speedy)" "Textures"
-
-"" ""
-
-"'KaBal' (http://www.planetquake.com/kabalarena/)" "Skies"
-"'Mighty Pete' (http://www.geocities.com/petes-oasis)" "Skies"
-"'Sock' (http://www.planetquake.com/simland/)" "Skies"
-
-"" ""
-
-"FreeSound.org" "Sounds"
-"'RagDoll485' (http://soundbible.com/1791-Torture.html)" "Sounds"
+"Brian 'BoBo the seal' Jones" "Player models" "bobotheseal.com"
+"'broar'" "Artist" ""
+"'BuzzardBait'" "Artist" ""
+"FreeSound.org" "Sound artist" ""
+"Jan 'Stannum' van der Weg" "Artist" "janvanderweg.com"
+"'KaBal'" "Skies" "planetquake.com/kabalarena"
+"Kevin 'rorshach' Johnstone" "Artist" "3dpalette.com/~rorschach"
+"Matt 'Lunaran' Breit" "Artist" "lunaran.com"
+"Mattias 'Preacher' Konradsson" "Mapper" "planetquake.com/leveled"
+"'Mighty Pete'" "Skies" "geocities.com/petes-oasis"
+"'Nemes|s'" "Player models" "wolfblade.com"
+"Philip Klevstav" "Artist" "philipk.net"
+"Quake Revitalization Project" "Artist" "facelift.quakedev.com"
+"'RagDoll485'" "Sound artist" "soundbible.com/1791-Torture.html"
+"Red Devil" "Music" "offworldrecordings.bandcamp.com"
+"Requiem Modding Team" "Artist" "modrequiem.net"
+"'Seargant Science'" "Player models" "Giga-Flare@planetquake.com"
+"'Sock'" "Skies" "planetquake.com/simland"
+"'Speedy'" "Artist" "planetquake.com/speedy"
+"'Tabun'" "Player models" "tabun.nl"
+"Yves 'evil lair' Allaire" "Artist" "evillair.net"
