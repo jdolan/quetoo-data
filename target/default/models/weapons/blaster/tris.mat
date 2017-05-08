@@ -1,9 +1,9 @@
 {
 	material #models/weapons/blaster/skin
-	bump 1.0
-	hardness 2.0
+	bump 2.0
+	hardness 3.0
 	parallax 0.0
-	specular 10.0
+	specular 8.0
 	{
 		texture #models/weapons/blaster/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
