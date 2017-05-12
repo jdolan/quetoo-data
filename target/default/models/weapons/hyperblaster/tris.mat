@@ -1,7 +1,7 @@
 {
 	material #models/weapons/hyperblaster/skin
-	bump 1.4
-	hardness 2.0
+	bump 2.0
+	hardness 1.8
 	parallax 0.0
 	specular 8.0
 	{
