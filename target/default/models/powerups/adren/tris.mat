@@ -1,0 +1,12 @@
+{
+	material #models/powerups/adren/skin
+	bump 2.5
+	hardness 3.0
+	parallax 0.0
+	specular 6.0
+	{
+		texture #models/powerups/adren/skin_glow
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 1
+	}
+}
