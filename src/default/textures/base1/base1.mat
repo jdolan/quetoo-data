@@ -1,0 +1,72 @@
+{
+	material base1/base1_m01f01
+	normalmap base1/base1_m01f01_n
+	bump 0.3
+	hardness 3
+	specular 1.5
+	parallax 0.075
+}
+{
+	material base1/base1_m01f02
+	normalmap base1/base1_m01f02_n
+	bump 0.5
+	hardness 3
+	specular 1.5
+	parallax 0.35
+}
+{
+	material base1/base1_m01t03
+	normalmap base1/base1_m01t03_n
+	bump 0.5
+	hardness 3
+	specular 1.5
+	parallax 0.35
+}
+{
+	material base1/base1_m01f03
+	normalmap base1/base1_m01f03_n
+	bump 0.5
+	hardness 3
+	specular 1.5
+	parallax 0.35
+}
+{
+	material base1/base1_m01g01
+	normalmap base1/base1_m01g01_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01t01
+	normalmap base1/base1_m01t01_n
+	bump 0.8
+	hardness 3
+	specular 1.5
+	parallax 1
+}
+{
+	material base1/base1_m01t02
+	normalmap base1/base1_m01t02_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01w01
+	normalmap base1/base1_m01w01_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01w02
+	normalmap base1/base1_m01w01_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
