@@ -15,14 +15,6 @@
 	parallax 0.35
 }
 {
-	material base1/base1_m01t03
-	normalmap base1/base1_m01t03_n
-	bump 0.5
-	hardness 3
-	specular 1.5
-	parallax 0.35
-}
-{
 	material base1/base1_m01f03
 	normalmap base1/base1_m01f03_n
 	bump 0.5
@@ -55,6 +47,14 @@
 	parallax 0.7
 }
 {
+	material base1/base1_m01t03
+	normalmap base1/base1_m01t03_n
+	bump 0.5
+	hardness 3
+	specular 1.5
+	parallax 0.35
+}
+{
 	material base1/base1_m01w01
 	normalmap base1/base1_m01w01_n
 	bump 1
@@ -69,4 +69,28 @@
 	hardness 3
 	specular 1.5
 	parallax 0.7
+}
+{
+	material base1/base1_m01x01
+	normalmap base1/base1_m01x01_n
+	bump 0.5
+	hardness 5
+	specular 1
+	parallax 0.5
+}
+{
+	material outdoors1/redrock_01
+	normalmap outdoors1/redrock_01_n
+	bump 0.5
+	hardness 1
+	specular 2
+	parallax 1
+}
+{
+	material outdoors1/rocks_jagged_01
+	normalmap outdoors1/rocks_jagged_01_n
+	bump 1
+	hardness 1
+	specular 2
+	parallax 1
 }
