@@ -17,9 +17,9 @@
 {
 	material base1/base1_m01f03
 	normalmap base1/base1_m01f03_n
-	bump 0.5
-	hardness 3
-	specular 1.5
+	bump 0.17
+	hardness 2.5
+	specular 0.6
 	parallax 0.35
 }
 {
@@ -55,6 +55,22 @@
 	parallax 0.35
 }
 {
+	material base1/base1_m01t04
+	normalmap base1/base1_m01t04_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01t05
+	normalmap base1/base1_m01t05_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
 	material base1/base1_m01w01
 	normalmap base1/base1_m01w01_n
 	bump 1
@@ -71,6 +87,86 @@
 	parallax 0.7
 }
 {
+	material base1/base1_m01w03
+	normalmap base1/base1_m01w03_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01w04
+	normalmap base1/base1_m01w04_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01w05
+	normalmap base1/base1_m01w05_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01w06
+	normalmap base1/base1_m01w06_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01w07
+	normalmap base1/base1_m01w07_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01w10
+	normalmap base1/base1_m01w10_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01w11
+	normalmap base1/base1_m01w11_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01w12
+	normalmap base1/base1_m01w12_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01w20
+	normalmap base1/base1_m01w20_n
+	bump 1
+	hardness 3
+	specular 1.5
+	parallax 0.7
+}
+{
+	material base1/base1_m01w30
+	normalmap base1/base1_m01w30_n
+	bump 0.5
+	hardness 3
+	specular 1.5
+	parallax 0.25
+}
+{
 	material base1/base1_m01x01
 	normalmap base1/base1_m01x01_n
 	bump 0.5
@@ -79,18 +175,79 @@
 	parallax 0.5
 }
 {
-	material outdoors1/redrock_01
-	normalmap outdoors1/redrock_01_n
-	bump 0.5
-	hardness 1
-	specular 2
+	material base1/base1_m01x02
+	normalmap base1/base1_m01x02_n
+	bump 0.7
+	hardness 3.25
+	specular 1.55
+	parallax 0.5
+}
+{
+	material base1/base1_m01x03
+	normalmap base1/base1_m01x03_n
+	bump 0.6
+	hardness 3.5
+	specular 1.2
+	parallax 0
+}
+{
+	material base1/base1_r01_f01
+	normalmap base1/base1_r01_f01_n
+	bump 1
+	hardness 2
+	specular 1.5
 	parallax 1
 }
 {
-	material outdoors1/rocks_jagged_01
-	normalmap outdoors1/rocks_jagged_01_n
+	material base1/base1_r01_f02
+	normalmap base1/base1_r01_f02_n
+	bump 1
+	hardness 2.5
+	specular 0.4
+	parallax 0.25
+}
+{
+	material common/caulk
 	bump 1
 	hardness 1
-	specular 2
+	specular 1
 	parallax 1
+}
+{
+	material common/clip
+	bump 1
+	hardness 1
+	specular 1
+	parallax 1
+}
+{
+	material common/sky
+	bump 1
+	hardness 1
+	specular 1
+	parallax 1
+}
+{
+	material fire/horizontal01
+	bump 1
+	hardness 1
+	specular 1
+	parallax 1
+	{
+		texture fire/horizontal0
+		blend GL_ONE GL_ONE_MINUS_SRC_COLOR
+		anim 32 30
+	}
+}
+{
+	material fire/radial
+	bump 1
+	hardness 1
+	specular 1
+	parallax 1
+	{
+		texture fire/radial0
+		blend GL_ONE GL_ONE_MINUS_SRC_COLOR
+		anim 32 30
+	}
 }
