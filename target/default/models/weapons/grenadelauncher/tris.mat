@@ -1,12 +1,12 @@
 {
 	material #models/weapons/grenadelauncher/skin
-	bump 1.6
+	bump 0
 	hardness 1.5
 	parallax 0.0
 	specular 9.0
-	{
-		texture #models/weapons/grenadelauncher/skin_glow
+	{	
+texture #models/weapons/grenadelauncher/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
-		pulse 1.0
+		pulse 0.75
 	}
 }
