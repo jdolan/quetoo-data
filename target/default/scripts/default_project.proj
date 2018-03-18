@@ -96,10 +96,10 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
   <key name="cont16" value="Area Portal" />
   <key name="cont17" value="Player Clip"/>
   <key name="cont18" value="AI Clip" />
-  <key name="cont19" value="Current 0��" />
-  <key name="cont20" value="Current 90��" />
-  <key name="cont21" value="Current 180��" />
-  <key name="cont22" value="Current 270��" />
+  <key name="cont19" value="Current 0" />
+  <key name="cont20" value="Current 90" />
+  <key name="cont21" value="Current 180" />
+  <key name="cont22" value="Current 270" />
   <key name="cont23" value="Current Up" />
   <key name="cont24" value="Current Down" />
   <key name="cont25" value="Origin" />
