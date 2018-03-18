@@ -1,6 +1,16 @@
+textures/common/botclip
+{
+	qer_trans 0.40
+}
+
 textures/common/caulk
 {
 	qer_trans 0.40
+}
+
+textures/common/clear
+{
+	qer_trans 0.80
 }
 
 textures/common/clip
@@ -14,6 +24,16 @@ textures/common/ladder
 }
 
 textures/common/hint
+{
+	qer_trans 0.40
+}
+
+textures/common/monsterclip
+{
+	qer_trans 0.40
+}
+
+textures/common/nodraw
 {
 	qer_trans 0.40
 }
