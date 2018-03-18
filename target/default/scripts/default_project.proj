@@ -23,23 +23,27 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
 
   <key name="bsp_Quemap BSP, Fast VIS"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -vis -fast $"/>
+	# -bsp -vis --fast $"/>
 
-  <key name="bsp_Quemap BSP, Fast VIS, Light"
+  <key name="bsp_Quemap BSP, Fast VIS, Simple Light"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -vis -fast -light $"/>
+	# -bsp -vis --fast -light $"/>
 
-  <key name="bsp_Quemap BSP, Full VIS, Extra Light"
+  <key name="bsp_Quemap BSP, Full VIS, Medium Light"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -vis -light -extra $"/>
+	# -bsp -vis --fast -light $"/>
+
+  <key name="bsp_Quemap BSP, Full VIS, Best Light"
+    value="! &quot;$TEMPLATEexecpath/quemap&quot;
+	# -bsp -vis -light --antialias --indirect $"/>
 
   <key name="bsp_Quemap Entities"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -onlyents $"/>
+	# -bsp --onlyents $"/>
 
   <key name="bsp_Quemap Relight"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -onlyents -light $"/>
+	# -bsp --onlyents -light $"/>
 
   <!-- Surface and contents keys used by the idTech2 Shaders API -->
   <key name="surf1" value="Light" />
