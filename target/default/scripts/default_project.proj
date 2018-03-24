@@ -75,7 +75,7 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
   <key name="surf27" value="" />
   <key name="surf28" value="" />
   <key name="surf29" value="" />
-  <key name="surf30" value="" />
+  <key name="surf30" value="Debug Luxels" />
   <key name="surf31" value="" />
   <key name="surf32" value="" />
   <key name="cont1" value="Solid" />
