@@ -1,5 +1,5 @@
 [![Build Status](http://ci.quetoo.org/buildStatus/icon?job=Quetoo-Linux-x86_64)](http://ci.quetoo.org/job/Quetoo-Linux-x86_64/)
-[![Mixed License](https://img.shields.io/badge/license-Mixed%20License-yellowgreen.svg)](http://quetoo.org/books/documentation/licensing)
+[![CC-BY-SA License](https://img.shields.io/badge/license-CC--BY--SA-brightgreen.svg)](LICENSE.md)
 ![This software is BETA](https://img.shields.io/badge/development_stage-BETA-yellowgreen.svg)
 
 # Quetoo BETA Game Data
