@@ -32,6 +32,9 @@
 	name darkzone
 }
 {
+	name omf
+}
+{
 	name fractures
 }
 {
@@ -48,6 +51,9 @@
 }
 {
 	name torn
+}
+{
+	name turbo
 }
 {
 	name trial
