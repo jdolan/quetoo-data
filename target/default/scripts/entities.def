@@ -591,8 +591,9 @@
 
  -------- Keys --------
  light : Light radius (default 300).
+ target : The name of the entity to target to resolve the light direction.
  _color : Light color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
- _cone : Spotlight cone diameter (default 10).
+ _cone : Spotlight attenuation cone width, in degrees (default 22.5).
  _angle : Spotlight direction (up = -1, down = -2, yaw = positive value).
 */
 
