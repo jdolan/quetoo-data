@@ -1,0 +1,325 @@
+{
+	material torn/baselt_c
+	normalmap torn/baselt_c_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+	surface light
+	light 180.0
+	{
+		texture torn/baselt_cfx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material torn/barrel
+	normalmap torn/barrel_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/ceil1_2
+	normalmap torn/ceil1_2_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+	surface light
+	light 200.0
+	{
+		texture torn/ceil1_2fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare 2
+		scale.s 0.75
+		scale.t 0.75
+	}
+}
+{
+	material torn/concrete0dark
+	normalmap torn/concrete0dark_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/dmetsupport1
+	normalmap torn/dmetsupport1_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/floor1
+	normalmap torn/floor1_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/floor1stripe
+	normalmap torn/floor1_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/floor2
+	normalmap torn/floor2_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/floorfx
+	surface material
+	{
+		texture torn/floorfx_fx
+		blend GL_SRC_ALPHA GL_ONE
+		stretch 0.5 1.0
+		pulse 1.0
+		color 0.3 0.3 0.3
+	}
+}
+{
+	material torn/lite1
+	normalmap torn/lite1_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+	surface light
+	light 64.0
+	{
+		texture torn/lite1fx
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.0 1.0 1.0 0.2
+		pulse 24
+	}
+	{
+		flare 0
+	}
+}
+{
+	material torn/metglu
+	normalmap torn/metglu_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 0.0
+}
+{
+	material torn/metglu2
+	normalmap torn/metglu2_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 0.8
+}
+{
+	material torn/metpan1
+	normalmap torn/metpan1_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/metpan1r
+	normalmap torn/metpan1r_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/metpan2
+	normalmap torn/metpan2_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1/0
+}
+{
+	material torn/metpan3
+	normalmap torn/metpan3_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/metpan4
+	normalmap torn/metpan4_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/metpan5
+	normalmap torn/metpan5_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/metpan_caution
+	normalmap torn/metpan_caution_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/metpan_caution2
+	normalmap torn/metpan_caution_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/metpan_lite1
+	normalmap torn/metpan_lite1_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+	surface light
+	light 150.0
+	{
+		texture torn/metpan_lite1fx
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.0 1.0 1.0 0.2
+		pulse 24
+	}
+}
+{
+	material torn/q1comp2
+	normalmap torn/q1comp2_nm
+	bump 1.0
+	hardness 8.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/q1comp4
+	normalmap torn/q1comp4_nm
+	bump 1.0
+	hardness 8.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/q1comp6
+	normalmap torn/q1comp6_nm
+	bump 1.0
+	hardness 8.0
+	specular 1.0
+	parallax 1.0
+	{
+		texture torn/q1comp6fx0
+		blend GL_SRC_ALPHA GL_ONE
+		anim 5 0.7
+		lightmap
+	}
+}
+{
+	material torn/q1comp6_
+	normalmap torn/q1comp6__nm
+	bump 1.0
+	hardness 8.0
+	specular 1.0
+	parallax 1.0
+	{
+		texture torn/q1comp6fx1
+		blend GL_SRC_ALPHA GL_ONE
+		anim 4 0.3
+		lightmap
+	}
+}
+{
+	material torn/q1comp7
+	normalmap torn/q1comp7_nm
+	bump 1.0
+	hardness 8.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/stain_chemical1
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+	surface light
+	light 80
+}
+{
+	material torn/stain_dirt2
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+	surface light
+	light 20
+}
+{
+	material torn/stair1
+	normalmap torn/stair1_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/star6
+	normalmap torn/star6_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/starb2a
+	normalmap torn/starb2a_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/starc
+	normalmap torn/starc_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 3.0
+}
+{
+	material torn/stard
+	normalmap torn/stard_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
+{
+	material torn/xpiplun1a
+	normalmap torn/xpiplun1a_nm
+	bump 1.0
+	hardness 1.0
+	specular 1.0
+	parallax 1.0
+}
