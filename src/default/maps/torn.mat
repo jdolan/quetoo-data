@@ -197,7 +197,7 @@
 	specular 1.0
 	parallax 1.0
 	surface light
-	light 150.0
+	light 120.0
 	{
 		texture torn/metpan_lite1fx
 		blend GL_SRC_ALPHA GL_ONE
