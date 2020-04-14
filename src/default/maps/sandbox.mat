@@ -1,0 +1,219 @@
+{
+	material common/caulk
+}
+
+{
+	material common/black
+}
+
+{
+	material common/sky
+}
+
+{
+	material common/ladder
+}
+
+{
+	material sandbox/grid
+	bump 1.0
+	hardness 0.5
+	specular 2.0
+	parallax 0.5
+}
+
+{
+	material sandbox/dark
+	bump 1.0
+	hardness 0.5
+	specular 2.0
+	parallax 0.5
+}
+
+{
+	material sandbox/trim
+	bump 1.0
+	hardness 0.5
+	specular 2.0
+	parallax 0.5
+}
+
+{
+	material sandbox/water
+	bump 1.0
+	hardness 0.5
+	specular 2.0
+	parallax 0.5
+}
+
+{
+	material sandbox/quetoologo
+	bump 1.2
+	hardness 4.0
+	specular 6.0
+	parallax 0.3
+}
+
+{
+	material sandbox/red_alpha_90
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/red_alpha_60
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/red_alpha_30
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/green_alpha_90
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/green_alpha_60
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/green_alpha_30
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/blue_alpha_90
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/blue_alpha_60
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/blue_alpha_30
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/magenta_alpha_90
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/magenta_alpha_60
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/magenta_alpha_30
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+
+{
+	material sandbox/yellow_alpha_90
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/yellow_alpha_60
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/yellow_alpha_30
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+
+{
+	material sandbox/cyan_alpha_90
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/cyan_alpha_60
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
+
+{
+	material sandbox/cyan_alpha_30
+	bump 1.0
+	hardness 0.5
+	specular 1.0
+	parallax 0.0
+	surface blend_33 blend_66
+}
