@@ -5,6 +5,7 @@
 "message" "Tokay`s Towers"
 "sky" "tokays/grave256_"
 "ambient" "0.1342 0.1188 0.11"
+"brightness" "3"
 // brush 0
 {
 ( 1672 0 112 ) ( 1688 0 112 ) ( 1672 -128 112 ) common/caulk 0 0 0 0.500000 0.500000 
