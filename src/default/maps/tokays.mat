@@ -1,6 +1,5 @@
 {
 	material tokays/bed3_3
-	normalmap tokays/bed3_3_nm
 	bump 1.1
 	hardness 1.9
 	specular 2.5
@@ -8,7 +7,6 @@
 }
 {
 	material tokays/bed4_1
-	normalmap tokays/bed4_1_nm
 	bump 2.0
 	hardness 4.6
 	specular 6.2
@@ -16,7 +14,6 @@
 }
 {
 	material tokays/ceil1_28
-	normalmap tokays/ceil1_28_nm
 	bump 3.0
 	hardness 2.0
 	specular 0.5
@@ -27,32 +24,30 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		flare 2
+		flare 0
 		scale.s 0.75 scale.t 0.5
 		color 0.8 0.73 0.6
 	}
 }
 {
 	material tokays/ceil1_aqua
-	normalmap tokays/ceil1_aqua_nm
 	bump 3.0
 	hardness 2.0
 	specular 0.5
 	parallax 2.0
 	light 180
 	{
-		texture tokays/ceil1_aquafx
+		material tokays/ceil1_aquafx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		flare 2
+		flare 0
 		scale.s 0.75 scale.t 0.5
 		color 0.2 0.9 0.45
 	}
 }
 {
 	material tokays/fmet1_2
-	normalmap tokays/fmet1_2_nm
 	bump 1.1
 	hardness 1.7
 	specular 2.0
@@ -60,7 +55,6 @@
 }
 {
 	material tokays/fmet2_3
-	normalmap tokays/fmet2_3_nm
 	bump 1.1
 	hardness 3.2
 	specular 2.0
@@ -68,7 +62,6 @@
 }
 {
 	material tokays/fmet3_5
-	normalmap tokays/fmet3_5_nm
 	bump 3.0
 	hardness 3.0
 	specular 5.0
@@ -81,7 +74,6 @@
 }
 {
 	material tokays/metal2_1
-	normalmap tokays/metal2_1_nm
 	bump 1.5
 	hardness 1.5
 	specular 2.0
@@ -89,7 +81,6 @@
 }
 {
 	material tokays/metal13_1
-	normalmap tokays/metal13_1_nm
 	bump 1.2
 	hardness 1.5
 	specular 2.0
@@ -97,7 +88,6 @@
 }
 {
 	material tokays/metal14_1
-	normalmap tokays/metal14_1_nm
 	bump 1.1
 	hardness 2.2
 	specular 2.0
@@ -105,7 +95,6 @@
 }
 {
 	material tokays/metal15_2
-	normalmap tokays/metal15_2_nm
 	bump 2.0
 	hardness 1.8
 	specular 3.0
@@ -113,7 +102,6 @@
 }
 {
 	material tokays/metal16_2
-	normalmap tokays/metal16_2_nm
 	bump 1.5
 	hardness 1.8
 	specular 3.0
@@ -121,7 +109,6 @@
 }
 {
 	material tokays/metal16trim
-	normalmap tokays/metal16trim_nm
 	bump 1.6
 	hardness 3.0
 	specular 3.0
@@ -129,7 +116,6 @@
 }
 {
 	material tokays/metal17_1
-	normalmap tokays/metal17_1_nm
 	bump 1.2
 	hardness 1.3
 	specular 3.6
@@ -137,7 +123,6 @@
 }
 {
 	material tokays/metal17_2
-	normalmap tokays/metal17_2_nm
 	bump 1.2
 	hardness 1.3
 	specular 4.0
@@ -145,7 +130,6 @@
 }
 {
 	material tokays/metal20_1
-	normalmap tokays/metal20_1_nm
 	bump 0.8
 	hardness 2.0
 	specular 2.0
@@ -153,7 +137,6 @@
 }
 {
 	material tokays/metal20_2
-	normalmap tokays/metal20_2_nm
 	bump 0.8
 	hardness 2.0
 	specular 2.0
@@ -161,7 +144,6 @@
 }
 {
 	material tokays/metal21_1
-	normalmap tokays/metal21_1_nm
 	bump 1.2
 	hardness 1.3
 	specular 4.0
@@ -169,7 +151,6 @@
 }
 {
 	material tokays/metal21_2
-	normalmap tokays/metal21_2_nm
 	bump 1.2
 	hardness 1.3
 	specular 4.0
@@ -177,7 +158,6 @@
 }
 {
 	material tokays/metal21_2trim
-	normalmap tokays/metal21_2trim_nm
 	bump 1.2
 	hardness 2.0
 	specular 1.5
@@ -185,7 +165,6 @@
 }
 {
 	material tokays/metal21_2lamp
-	normalmap tokays/metal21_2lamp_nm
 	bump 1.2
 	hardness 1.3
 	specular 4.0
@@ -198,7 +177,6 @@
 }
 {
 	material tokays/metal23_3
-	normalmap tokays/metal23_3_nm
 	bump 1.3
 	hardness 2.8
 	specular 3.7
@@ -206,7 +184,6 @@
 }
 {
 	material tokays/ringu
-	normalmap tokays/ringu_nm
 	bump 1.0
 	hardness 2.5
 	specular 4.0
@@ -214,7 +191,6 @@
 }
 {
 	material tokays/stflr1_3
-	normalmap tokays/stflr1_3_nm
 	bump 0.5
 	hardness 3.3
 	specular 2.0
@@ -222,7 +198,6 @@
 }
 {
 	material tokays/stflr1_4
-	normalmap tokays/stflr1_4_nm
 	bump 2.5
 	hardness 5.0
 	specular 7.5
@@ -230,7 +205,6 @@
 }
 {
 	material tokays/troof4_2
-	normalmap tokays/troof4_2_nm
 	bump 0.6
 	hardness 3.0
 	specular 3.0
@@ -238,7 +212,6 @@
 }
 {
 	material tokays/troof4_5
-	normalmap tokays/troof4_5_nm
 	bump 0.6
 	hardness 3.0
 	specular 3.0
@@ -246,6 +219,7 @@
 }
 {
 	material tokays/water2
+	surface blend_66
 	warp 1
 	{
 		texture tokays/water2fx
@@ -264,7 +238,6 @@
 }
 {
 	material tokays/yellow1_4
-	normalmap tokays/yellow1_4_nm
 	bump 1.0
 	hardness 4.0
 	specular 3.0
