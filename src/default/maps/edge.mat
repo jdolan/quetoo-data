@@ -354,7 +354,7 @@
 	parallax 1.5
 	{
 		texture edge/mossyrockies
-		terrain 1132.0 1200.0
+		terrain 0.0 256.0
 		dirtmap 0.7
 	}
 }
@@ -373,6 +373,10 @@
 	hardness 2.0
 	specular 2.4
 	parallax 0.8
+}
+{
+	material edge/supergrass
+	surface alpha_test
 }
 {
 	material edge/walldeco
