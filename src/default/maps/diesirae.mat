@@ -1,471 +1,471 @@
 {
 	material aggressor/ceil1_34
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material common/caulk
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material common/clip
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material common/hint
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material common/tele2
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material common/trigger
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material common/white
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ceil1_22a
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/e8xgirder
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/eX_lightpanel_01
-	bump 4.0
+	roughness 4.0
 	hardness 2.0
 	parallax 1.0
-	specular 8.0
+	specularity 8.0
 	{
 		flare 0
 	}
 }
 {
 	material diesirae/eX_rndfloor_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/eX_trim_baseboard_02
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_clangfloor_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_clangfloor_01b
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_cretebase_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_cretebase_03_dark
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_cretefloor_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_cretefloor_01b
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_cretewall_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_cretewall_02
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_cretewall_03
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_cretewall_03b
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_deswall_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_floor_grate03
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_floor_grate_03
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_floor_mtl_grate_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_floor_mtl_wrn_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_floor_tile_03
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_metalplate_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_metalsupp01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_metalwall02
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_mtl_bigplate_04
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_mtl_bigplate_04b
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_mtl_panel_02
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_mtl_panel_03
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_mtl_panel_04
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_q2_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_q2_01b
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_q2_01c
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_q2_01d
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_rndfloor_02
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_rplates_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_trim_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_trim_baseboard
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_trim_baseboard_02
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_trim_psimple_04
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_trim_psimple_05
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_wall_01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_wall_01b
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_wall_b01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_wall_bigrib_02
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_wall_bplate_06
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_wall_panel_05
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_wall_panels_08b
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/ex_wall_pipe
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/exmetal_plate01b
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/exmetal_plate01c
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/exmetalbase01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/exmetalbase03
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/exmetalbase04
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/exmetalbase06rust
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/exmetalfloor02
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/exmetalrib01
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material diesirae/u_lamp4
-	bump 4.0
+	roughness 4.0
 	hardness 2.0
 	parallax 1.0
-	specular 8.0
+	specularity 8.0
 	{
 		flare 0
 	}
 }
 {
 	material e1u1-hires/ceil1_4
-	bump 4.0
+	roughness 4.0
 	hardness 2.0
 	parallax 1.0
-	specular 8.0
+	specularity 8.0
 	{
 		flare 0
 	}
 }
 {
 	material lilith/fence
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }

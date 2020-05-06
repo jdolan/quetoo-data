@@ -1,8 +1,8 @@
 {
 	material torn/baselt_c
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 	light 180.0
 	{
@@ -12,16 +12,16 @@
 }
 {
 	material torn/barrel
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/ceil1_2
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 	light 200.0
 	{
@@ -34,37 +34,37 @@
 }
 {
 	material torn/concrete0dark
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/dmetsupport1
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/floor1
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/floor1stripe
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/floor2
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
@@ -80,9 +80,9 @@
 }
 {
 	material torn/lite1
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 	light 64.0
 	{
@@ -97,80 +97,80 @@
 }
 {
 	material torn/metglu
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 0.0
 }
 {
 	material torn/metglu2
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 0.8
 }
 {
 	material torn/metpan1
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/metpan1r
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/metpan2
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1/0
 }
 {
 	material torn/metpan3
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/metpan4
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/metpan5
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/metpan_caution
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/metpan_caution2
 	normalmap torn/metpan_caution_nm
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/metpan_lite1
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 	light 120.0
 	{
@@ -182,23 +182,23 @@
 }
 {
 	material torn/q1comp2
-	bump 1.0
+	roughness 1.0
 	hardness 8.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/q1comp4
-	bump 1.0
+	roughness 1.0
 	hardness 8.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/q1comp6
-	bump 1.0
+	roughness 1.0
 	hardness 8.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 	{
 		texture torn/q1comp6fx0
@@ -209,9 +209,9 @@
 }
 {
 	material torn/q1comp6_
-	bump 1.0
+	roughness 1.0
 	hardness 8.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 	{
 		texture torn/q1comp6fx1
@@ -222,66 +222,66 @@
 }
 {
 	material torn/q1comp7
-	bump 1.0
+	roughness 1.0
 	hardness 8.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/stain_chemical1
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 	light 80
 }
 {
 	material torn/stain_dirt2
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 	light 20
 }
 {
 	material torn/stair1
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/star6
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/starb2a
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/starc
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 3.0
 }
 {
 	material torn/stard
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }
 {
 	material torn/xpiplun1a
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
-	specular 1.0
+	specularity 1.0
 	parallax 1.0
 }

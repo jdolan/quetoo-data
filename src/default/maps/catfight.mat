@@ -1,96 +1,96 @@
 {
 	material catfight/e8_base1_noise
-	bump 800.0
+	roughness 800.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.5
+	specularity 1.5
 }
 {
 	material catfight/e8crete03_dark
-	bump 4.0
+	roughness 4.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material catfight/e8crete03b_dark
-	bump 8.0
+	roughness 8.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material catfight/e8crete03c_dark
-	bump 2.0
+	roughness 2.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material catfight/e8cretefloor01b
-	bump 2.0
+	roughness 2.0
 	hardness 3.0
 	parallax 1.5
-	specular 1.0
+	specularity 1.0
 }
 {
 	material catfight/payne_fish
-	bump 4.0
+	roughness 4.0
 	hardness 1.5
 	parallax 1.0
-	specular 8.0
+	specularity 8.0
 }
 {
 	material catfight/payne_fish_mirrored
-	bump 4.0
+	roughness 4.0
 	hardness 1.5
 	parallax 1.0
-	specular 8.0
+	specularity 8.0
 }
 {
 	material catfight/red
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 	{
 		flare 0
 	}
 }
 {
 	material catfight/snow_m
-	bump 6.0
+	roughness 6.0
 	hardness 1.5
 	parallax 1.0
-	specular 2.0
+	specularity 2.0
 }
 {
 	material catfight/u_45deg2
-	bump 20.0
+	roughness 20.0
 	hardness 1.5
 	parallax 1.0
-	specular 2.0
+	specularity 2.0
 }
 {
 	material catfight/u_floor
-	bump 2.0
+	roughness 2.0
 	hardness 2.0
 	parallax 1.0
-	specular 4.0
+	specularity 4.0
 }
 {
 	material catfight/u_gr8_6
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 }
 {
 	material catfight/u_lamp1
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 	{
 		texture catfight/u_lamp_blend
 		blend GL_SRC_ALPHA GL_ONE
@@ -100,10 +100,10 @@
 }
 {
 	material catfight/u_lamp3
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 	{
 		flare 0
 		color 1.0 1.0 1.0
@@ -111,10 +111,10 @@
 }
 {
 	material catfight/u_lamp4
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 	{
 		flare 0
 		color 1.0 1.0 1.0
@@ -122,20 +122,20 @@
 }
 {
 	material catfight/u_lamp4_blue
-	bump 1.0
+	roughness 1.0
 	hardness 1.0
 	parallax 1.0
-	specular 1.0
+	specularity 1.0
 	{
 		flare 0
 	}
 }
 {
 	material catfight/u_lamplong1b
-	bump 1.0
+	roughness 1.0
 	hardness 2.0
 	parallax 1.0
-	specular 2.0
+	specularity 2.0
 	{
 		texture catfight/u_lamplong1b_fx
 		pulse 1.0
@@ -146,100 +146,100 @@
 }
 {
 	material catfight/u_pan1
-	bump 30.0
+	roughness 30.0
 	hardness 1.0
 	parallax 1.0
-	specular 10.0
+	specularity 10.0
 }
 {
 	material catfight/u_pan12_or2_qlogo
-	bump 10.0
+	roughness 10.0
 	hardness 3.0
 	parallax 1.0
-	specular 20.0
+	specularity 20.0
 }
 {
 	material catfight/u_pan12_or_qlogo
-	bump 10.0
+	roughness 10.0
 	hardness 3.0
 	parallax 1.0
-	specular 20.0
+	specularity 20.0
 }
 {
 	material catfight/u_pan1_grid1
-	bump 30.0
+	roughness 30.0
 	hardness 1.0
 	parallax 1.0
-	specular 10.0
+	specularity 10.0
 }
 {
 	material catfight/u_pan_6
-	bump 30.0
+	roughness 30.0
 	hardness 1.0
 	parallax 1.0
-	specular 10.0
+	specularity 10.0
 }
 {
 	material catfight/ubase4b
-	bump 30.0
+	roughness 30.0
 	hardness 1.0
 	parallax 1.0
-	specular 10.0
+	specularity 10.0
 }
 {
 	material catfight/ubase6
-	bump 30.0
+	roughness 30.0
 	hardness 1.0
 	parallax 1.0
-	specular 10.0
+	specularity 10.0
 }
 {
 	material catfight/ubase_pan1b
-	bump 30.0
+	roughness 30.0
 	hardness 1.0
 	parallax 1.0
-	specular 10.0
+	specularity 10.0
 }
 {
 	material catfight/ubase_pan1b_fish1
-	bump 30.0
+	roughness 30.0
 	hardness 1.0
 	parallax 1.0
-	specular 10.0
+	specularity 10.0
 }
 {
 	material catfight/ubase_pan1b_fish2
-	bump 30.0
+	roughness 30.0
 	hardness 1.0
 	parallax 1.0
-	specular 10.0
+	specularity 10.0
 }
 {
 	material catfight/ubase_pan1b_lcd
-	bump 30.0
+	roughness 30.0
 	hardness 1.0
 	parallax 1.0
-	specular 10.0
+	specularity 10.0
 }
 {
 	material catfight/ubase_pan1b_satgnu
-	bump 30.0
+	roughness 30.0
 	hardness 1.0
 	parallax 1.0
-	specular 10.0
+	specularity 10.0
 }
 {
 	material catfight/ubase_pan2
-	bump 30.0
+	roughness 30.0
 	hardness 1.0
 	parallax 1.0
-	specular 10.0
+	specularity 10.0
 }
 {
 	material catfight/ubase_pan4
-	bump 30.0
+	roughness 30.0
 	hardness 1.0
 	parallax 1.0
-	specular 10.0
+	specularity 10.0
 }
 

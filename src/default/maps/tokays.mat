@@ -1,22 +1,22 @@
 {
 	material tokays/bed3_3
-	bump 1.1
+	roughness 1.1
 	hardness 1.9
-	specular 2.5
+	specularity 2.5
 	parallax 0.5
 }
 {
 	material tokays/bed4_1
-	bump 2.0
+	roughness 2.0
 	hardness 4.6
-	specular 6.2
+	specularity 6.2
 	parallax 2.0
 }
 {
 	material tokays/ceil1_28
-	bump 3.0
+	roughness 3.0
 	hardness 2.0
-	specular 0.5
+	specularity 0.5
 	parallax 2.0
 	light 180
 	{
@@ -31,9 +31,9 @@
 }
 {
 	material tokays/ceil1_aqua
-	bump 3.0
+	roughness 3.0
 	hardness 2.0
-	specular 0.5
+	specularity 0.5
 	parallax 2.0
 	light 180
 	{
@@ -48,23 +48,23 @@
 }
 {
 	material tokays/fmet1_2
-	bump 1.1
+	roughness 1.1
 	hardness 1.7
-	specular 2.0
+	specularity 2.0
 	parallax 0.0
 }
 {
 	material tokays/fmet2_3
-	bump 1.1
+	roughness 1.1
 	hardness 3.2
-	specular 2.0
+	specularity 2.0
 	parallax 1.2
 }
 {
 	material tokays/fmet3_5
-	bump 3.0
+	roughness 3.0
 	hardness 3.0
-	specular 5.0
+	specularity 5.0
 	parallax 0.6
 	light 100
 	{
@@ -74,100 +74,100 @@
 }
 {
 	material tokays/metal2_1
-	bump 1.5
+	roughness 1.5
 	hardness 1.5
-	specular 2.0
+	specularity 2.0
 	parallax 0.6
 }
 {
 	material tokays/metal13_1
-	bump 1.2
+	roughness 1.2
 	hardness 1.5
-	specular 2.0
+	specularity 2.0
 	parallax 0.7
 }
 {
 	material tokays/metal14_1
-	bump 1.1
+	roughness 1.1
 	hardness 2.2
-	specular 2.0
+	specularity 2.0
 	parallax 0.7
 }
 {
 	material tokays/metal15_2
-	bump 2.0
+	roughness 2.0
 	hardness 1.8
-	specular 3.0
+	specularity 3.0
 	parallax 0.8
 }
 {
 	material tokays/metal16_2
-	bump 1.5
+	roughness 1.5
 	hardness 1.8
-	specular 3.0
+	specularity 3.0
 	parallax 0.8
 }
 {
 	material tokays/metal16trim
-	bump 1.6
+	roughness 1.6
 	hardness 3.0
-	specular 3.0
+	specularity 3.0
 	parallax 0.5
 }
 {
 	material tokays/metal17_1
-	bump 1.2
+	roughness 1.2
 	hardness 1.3
-	specular 3.6
+	specularity 3.6
 	parallax 1.0
 }
 {
 	material tokays/metal17_2
-	bump 1.2
+	roughness 1.2
 	hardness 1.3
-	specular 4.0
+	specularity 4.0
 	parallax 1.0
 }
 {
 	material tokays/metal20_1
-	bump 0.8
+	roughness 0.8
 	hardness 2.0
-	specular 2.0
+	specularity 2.0
 	parallax 0.4
 }
 {
 	material tokays/metal20_2
-	bump 0.8
+	roughness 0.8
 	hardness 2.0
-	specular 2.0
+	specularity 2.0
 	parallax 0.4
 }
 {
 	material tokays/metal21_1
-	bump 1.2
+	roughness 1.2
 	hardness 1.3
-	specular 4.0
+	specularity 4.0
 	parallax 0.7
 }
 {
 	material tokays/metal21_2
-	bump 1.2
+	roughness 1.2
 	hardness 1.3
-	specular 4.0
+	specularity 4.0
 	parallax 0.7
 }
 {
 	material tokays/metal21_2trim
-	bump 1.2
+	roughness 1.2
 	hardness 2.0
-	specular 1.5
+	specularity 1.5
 	parallax 1.2
 }
 {
 	material tokays/metal21_2lamp
-	bump 1.2
+	roughness 1.2
 	hardness 1.3
-	specular 4.0
+	specularity 4.0
 	parallax 1.2
 	light 150
 	{
@@ -177,44 +177,44 @@
 }
 {
 	material tokays/metal23_3
-	bump 1.3
+	roughness 1.3
 	hardness 2.8
-	specular 3.7
+	specularity 3.7
 	parallax 0.2
 }
 {
 	material tokays/ringu
-	bump 1.0
+	roughness 1.0
 	hardness 2.5
-	specular 4.0
+	specularity 4.0
 	parallax 0.5
 }
 {
 	material tokays/stflr1_3
-	bump 0.5
+	roughness 0.5
 	hardness 3.3
-	specular 2.0
+	specularity 2.0
 	parallax 0.0
 }
 {
 	material tokays/stflr1_4
-	bump 2.5
+	roughness 2.5
 	hardness 5.0
-	specular 7.5
+	specularity 7.5
 	parallax 0.8
 }
 {
 	material tokays/troof4_2
-	bump 0.6
+	roughness 0.6
 	hardness 3.0
-	specular 3.0
+	specularity 3.0
 	parallax 0.4
 }
 {
 	material tokays/troof4_5
-	bump 0.6
+	roughness 0.6
 	hardness 3.0
-	specular 3.0
+	specularity 3.0
 	parallax 0.4
 }
 {
@@ -238,8 +238,8 @@
 }
 {
 	material tokays/yellow1_4
-	bump 1.0
+	roughness 1.0
 	hardness 4.0
-	specular 3.0
+	specularity 3.0
 	parallax 0.3
 }

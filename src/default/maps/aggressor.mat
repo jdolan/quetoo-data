@@ -1,8 +1,8 @@
 {
 	material aggressor/ceil1_22a
-	bump 1
+	roughness 1
 	hardness 2
-	specular 1
+	specularity 1
 	parallax 0.5
 	{
 		flare 0
@@ -10,9 +10,9 @@
 }
 {
 	material aggressor/ceil1_34
-	bump 1
+	roughness 1
 	hardness 2
-	specular 1
+	specularity 1
 	parallax 0.5
 	{
 		flare 0
@@ -20,128 +20,128 @@
 }
 {
 	material aggressor/drk_brnbrick
-	bump 1.03004
+	roughness 1.03004
 	hardness 3.00429
-	specular 4.03433
+	specularity 4.03433
 	parallax 0
 }
 {
 	material aggressor/e6c_floor
-	bump 1
+	roughness 1
 	hardness 2
-	specular 1
+	specularity 1
 	parallax 0.5
 }
 {
 	material aggressor/e6l_stepedge
-	bump 1
+	roughness 1
 	hardness 1
-	specular 1
+	specularity 1
 	parallax 0.5
 }
 {
 	material aggressor/e7beam01
-	bump 1
+	roughness 1
 	hardness 3.51931
-	specular 2.48927
+	specularity 2.48927
 	parallax 0.5
 }
 {
 	material aggressor/e7beam02
-	bump 1
+	roughness 1
 	hardness 2
-	specular 10
+	specularity 10
 	parallax 0.5
 }
 {
 	material aggressor/e7bmtrim
-	bump 1
+	roughness 1
 	hardness 1
-	specular 1
+	specularity 1
 	parallax 2
 }
 {
 	material aggressor/e7bmtrim3
-	bump 1
+	roughness 1
 	hardness 2
-	specular 10
+	specularity 10
 	parallax 0.5
 }
 {
 	material aggressor/e7bmtrim4
-	bump 1
+	roughness 1
 	hardness 2
-	specular 10
+	specularity 10
 	parallax 0.5
 }
 {
 	material aggressor/e7brickfloor01
-	bump 1.97425
+	roughness 1.97425
 	hardness 3.5
-	specular 3.3
+	specularity 3.3
 	parallax 1.0
 }
 {
 	material aggressor/e7brnmetal
-	bump 1.0
+	roughness 1.0
 	hardness 2.3
-	specular 4.5
+	specularity 4.5
 	parallax 0
 }
 {
 	material aggressor/e7panelwood
-	bump 0
+	roughness 0
 	hardness 3.6
-	specular 0.6
+	specularity 0.6
 	parallax 0
 }
 {
 	material aggressor/e7panelwood2
-	bump 1
+	roughness 1
 	hardness 0.5
-	specular 1
+	specularity 1
 	parallax 0.5
 }
 {
 	material aggressor/e7sbrickfloor
-	bump 1.03004
+	roughness 1.03004
 	hardness 1.97425
-	specular 1.45923
+	specularity 1.45923
 	parallax 0
 }
 {
 	material aggressor/e7trim01
-	bump 1
+	roughness 1
 	hardness 5
-	specular 10
+	specularity 10
 	parallax 0.5
 }
 {
 	material aggressor/e7trim02
-	bump 1
+	roughness 1
 	hardness 5
-	specular 10
+	specularity 10
 	parallax 0.5
 }
 {
 	material aggressor/e7walldesign01
-	bump 1
+	roughness 1
 	hardness 1
-	specular 1
+	specularity 1
 	parallax 0.5
 }
 {
 	material aggressor/e7walldesign01b
-	bump 1.03004
+	roughness 1.03004
 	hardness 0.772532
-	specular 2.48927
+	specularity 2.48927
 	parallax 0.343348
 }
 {
 	material aggressor/e8_rlight
-	bump 1
+	roughness 1
 	hardness 2
-	specular 4
+	specularity 4
 	parallax 4
 	{
 		flare 0
@@ -149,9 +149,9 @@
 }
 {
 	material aggressor/floorfx
-	bump 1
+	roughness 1
 	hardness 1
-	specular 1
+	specularity 1
 	parallax 1
 	{
 		texture aggressor/floorfx_fx
@@ -163,43 +163,43 @@
 }
 {
 	material aggressor/pool3d_3e
-	bump 1
+	roughness 1
 	hardness 1
-	specular 1
+	specularity 1
 	parallax 0.5
 }
 {
 	material aggressor/steel_bev
-	bump 1
+	roughness 1
 	hardness 8
-	specular 8
+	specularity 8
 	parallax 0.5
 }
 {
 	material common/caulk
-	bump 1
+	roughness 1
 	hardness 1
-	specular 1
+	specularity 1
 	parallax 1
 }
 {
 	material common/clip
-	bump 1
+	roughness 1
 	hardness 1
-	specular 1
+	specularity 1
 	parallax 1
 }
 {
 	material common/hint
-	bump 1
+	roughness 1
 	hardness 1
-	specular 1
+	specularity 1
 	parallax 1
 }
 {
 	material common/white
-	bump 1
+	roughness 1
 	hardness 1
-	specular 1
+	specularity 1
 	parallax 1
 }
