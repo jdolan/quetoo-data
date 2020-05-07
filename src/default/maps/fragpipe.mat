@@ -1,0 +1,279 @@
+{
+	material fragpipe/brlava
+	surface light
+	light 100
+	{
+		texture fragpipe/brlava1
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s 0.02
+	}
+	{
+		texture fragpipe/brlava1
+		blend GL_ONE GL_ONE
+		scroll.t 0.02
+	}
+}
+{
+	material fragpipe/btactmach0
+	roughness 1.4
+	hardness 1.4
+	specularity 1.0
+	parallax 1.0
+		{
+		texture fragpipe/btactmach0fx1
+		blend GL_SRC_ALPHA GL_ONE
+		anim 2 0
+		}
+}
+{
+	material fragpipe/ceil1_4
+	roughness 3.0
+	hardness 2.0
+	specularity 0.5
+	parallax 2.0
+	surface light
+	light 240
+	{
+		texture fragpipe/ceil1_4fx
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 4
+	}
+	{
+		flare 2
+		color 0.8 0.6 0.35
+	}
+}
+{
+	material fragpipe/color1_1
+	roughness 2.0
+	hardness 1.5
+	specularity 1.4
+	parallax 0.5
+}
+{
+	material fragpipe/color1_3
+	roughness 1.2
+	hardness 1.5
+	specularity 2.0
+	parallax 0.7
+}
+{
+	material fragpipe/dr02_2
+	roughness 1.3
+	hardness 3.3
+	specularity 2.7
+	parallax 0.7
+}
+{
+	material fragpipe/floor1_3
+	roughness 1.4
+	hardness 1.5
+	specularity 1.0
+	parallax 0.4
+}
+{
+	material fragpipe/floor3_1
+	roughness 1.0
+	hardness 2.5
+	specularity 1.5
+	parallax 0.3
+}
+{
+	material fragpipe/ggrat12_2
+	normalmap fragpipe/grate2_7_nm
+	roughness 0.8
+	hardness 1.5
+	specularity 1.8
+	parallax 0.7
+}
+{
+	material fragpipe/ggrat12_2heat
+	normalmap fragpipe/grate2_7_nm
+	roughness 0.8
+	hardness 1.5
+	specularity 1.8
+	parallax 0.7
+		{
+		texture fragpipe/glowedge256
+		blend GL_SRC_ALPHA GL_ONE
+		}
+}
+{
+	material fragpipe/grate1_1
+	roughness 1.0
+	hardness 2.0
+	specularity 1.0
+	parallax 1.0
+}
+{
+	material fragpipe/grate1_5
+	roughness 2.0
+	hardness 1.8
+	specularity 1.0
+	parallax 0.5
+}
+{
+	material fragpipe/grate2_7
+	roughness 0.8
+	hardness 1.5
+	specularity 1.8
+	parallax 0.7
+}
+{
+	material fragpipe/grate2_7heat
+	normalmap fragpipe/grate2_7_nm
+	roughness 0.8
+	hardness 1.5
+	specularity 1.8
+	parallax 0.7
+		{
+		texture fragpipe/glowedge256
+		blend GL_SRC_ALPHA GL_ONE
+		}
+}
+{
+	material fragpipe/grate2_7low
+	roughness 0.8
+	hardness 1.5
+	specularity 1.8
+	parallax 0.7
+		{
+		texture fragpipe/glowlavalow
+		blend GL_SRC_ALPHA GL_ONE
+		}
+}
+{
+	material fragpipe/grate2_7down
+	roughness 0.8
+	hardness 1.5
+	specularity 1.8
+	parallax 0.7
+		{
+		texture fragpipe/glowlavadown
+		blend GL_SRC_ALPHA GL_ONE
+		}
+}
+{
+	material fragpipe/metal14_1
+	roughness 4.0
+	hardness 2.5
+	specularity 1.2
+	parallax 0.0
+}
+{
+	material fragpipe/metal14_1edge
+	roughness 4.0
+	hardness 2.5
+	specularity 1.2
+	parallax 0.0
+}
+{
+	material fragpipe/metal2_1
+	roughness 2.0
+	hardness 2.5
+	specularity 1.0
+	parallax 0.2
+}
+{
+	material fragpipe/metal3_1
+	roughness 0.8
+	hardness 1.8
+	specularity 2.0
+	parallax 1.0
+}
+{
+	material fragpipe/metal3_2
+	roughness 0.8
+	hardness 1.8
+	specularity 2.0
+	parallax 1.0
+}
+{
+	material fragpipe/metal3_3
+	roughness 0.8
+	hardness 1.8
+	specularity 2.0
+	parallax 1.0
+}
+{
+	material fragpipe/metal3_3q2decal
+	roughness 1.0
+	hardness 1.8
+	specularity 2.0
+	parallax 1.0
+}
+{
+	material fragpipe/metal3_4
+	roughness 1.5
+	hardness 3.3
+	specularity 0.8
+	parallax 0.2
+}
+{
+	material fragpipe/metal_subslime
+	roughness 1.5
+	hardness 2.0
+	specularity 2.6
+	parallax 1.0
+}
+{
+	material fragpipe/metl_floor
+	roughness 1.5
+	hardness 1.2
+	specularity 0.8
+	parallax 0.2
+}
+{
+	material fragpipe/sewer_bars
+	roughness 2.5
+	hardness 3.0
+	specularity 1.0
+	parallax 0.8
+}
+{
+	material fragpipe/wbasic1_4
+	roughness 0.8
+	hardness 1.5
+	specularity 1.5
+	parallax 1.0
+}
+{
+	material fragpipe/metalbase2
+	roughness 3.5
+	hardness 1.8
+	specularity 0.7
+	parallax 0.7
+}
+{
+	material fragpipe/metl12_1
+	roughness 1.8
+	hardness 1.0
+	specularity 1.0
+	parallax 1.0
+}
+{
+	material fragpipe/slime
+	surface light
+	light 80
+	{
+		texture fragpipe/slimefx
+		blend GL_SRC_ALPHA GL_ONE
+		scale.s 0.85 scale.t 0.85
+		scroll.t 0.04
+	}
+}
+{
+	material fragpipe/steps
+	roughness 1.5
+	hardness 3.0
+	specularity 1.8
+	parallax 1.0
+}
+{
+	material fragpipe/subslimebotm
+	normalmap fragpipe/metl_floor_nm
+	roughness 2.0
+	hardness 1.2
+	specularity 0.8
+	parallax 0.7
+}
