@@ -1,0 +1,178 @@
+{
+	material rygel/light3_3
+	normalmap rygel/light3_3_norm
+    surface "light"
+    light 310
+    {
+		texture rygel/light3_3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare 1
+		scale.s 0.75
+		scale.t 0.75
+	}
+}
+{
+	material rygel/light3_8
+	normalmap rygel/light3_8_norm
+    surface "light"
+    light 275
+    {
+		texture rygel/light3_8_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare 1
+		scale.s 0.75
+		scale.t 0.75
+	}
+}
+{
+	material rygel/light1_3
+	normalmap rygel/light1_3_norm
+    surface "light"
+    light 64
+    {
+		texture rygel/light1_3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material aghast/light1_1a
+    normalmap aghast/light1_1a_nm
+    surface "light"
+    light 225
+    {
+		texture aghast/light1_1afx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare 2
+		scale.s 0.75
+		scale.t 0.75
+	}
+}
+{
+    material rygel/tlight01_1
+    normalmap rygel/tlight01_1_norm
+    surface "light"
+    light 64
+    {
+		texture rygel/tlight01_1_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/lite_fart3
+    normalmap rygel/lite_fart3_norm
+    surface "light"
+    light 200
+    {
+		texture rygel/lite_fart3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare 2
+		scale.s 0.75
+		scale.t 0.75
+	}
+}
+{
+	material rygel/rune_a
+    normalmap rygel/rune_a_norm
+    surface "light"
+    light 64
+    {
+		texture rygel/rune_a_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/twall1_5
+    normalmap rygel/twall1_5_norm
+    {
+		texture rygel/twall1_5_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/city2_5
+    normalmap rygel/city2_5_norm
+}
+{
+	material rygel/city2_6
+    normalmap rygel/city2_6_norm
+}
+{
+	material rygel/city2_7
+    normalmap rygel/city2_7_norm
+}
+{
+	material rygel/cop1_1
+    normalmap rygel/cop1_1_norm
+}
+{
+	material rygel/cop1_2
+    normalmap rygel/cop1_2_norm
+}
+{
+	material rygel/cop1_7
+    normalmap rygel/cop1_7_norm
+}
+{
+	material rygel/cop2_2
+    normalmap rygel/cop2_2_norm
+}
+{
+	material rygel/metal4_7
+    normalmap rygel/metal4_7_norm
+}
+{
+	material rygel/metal4_8
+    normalmap rygel/metal4_8_norm
+}
+{
+	material rygel/wswamp1_4
+    normalmap rygel/wswamp1_4_norm
+}
+
+
+
+{
+	material darkzone/#teleport
+    normalmap darkzone/#teleport_norm
+    surface "light"
+	light 80.0
+	{
+		texture darkzone/#teleport_gloss
+        color 1 1 1 0.75
+		warp 1 1
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+    material aghast/brown_water
+    surface "light"
+	light 80.0
+    {
+		texture aghast/brown_water
+		warp 0.5 0.5
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material turbo/padbase
+    normalmap turbo/padbase_nm
+    surface "light"
+    light 64
+    {
+		texture turbo/padfx3
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare 2
+		scale.s 0.5
+		scale.t 0.5
+	}
+}
