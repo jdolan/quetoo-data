@@ -123,6 +123,7 @@
 {
 	material rygel/cop2_2
     normalmap rygel/cop2_2_norm
+    surface "phong"
 }
 {
 	material rygel/metal4_7
