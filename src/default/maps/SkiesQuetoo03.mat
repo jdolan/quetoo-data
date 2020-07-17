@@ -1,8 +1,7 @@
 {
 	material rygel/light3_3
 	normalmap rygel/light3_3_norm
-    surface "light"
-    light 310
+    light 315
     {
 		texture rygel/light3_3_luma
 		blend GL_SRC_ALPHA GL_ONE
@@ -16,7 +15,6 @@
 {
 	material rygel/light3_8
 	normalmap rygel/light3_8_norm
-    surface "light"
     light 275
     {
 		texture rygel/light3_8_luma
@@ -29,34 +27,26 @@
 	}
 }
 {
+	material rygel/light1_2
+	normalmap rygel/light1_2_norm
+    light 64
+    {
+		texture rygel/light1_2_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
 	material rygel/light1_3
 	normalmap rygel/light1_3_norm
-    surface "light"
-    light 64
+    light 125
     {
 		texture rygel/light1_3_luma
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	material aghast/light1_1a
-    normalmap aghast/light1_1a_nm
-    surface "light"
-    light 225
-    {
-		texture aghast/light1_1afx
-		blend GL_SRC_ALPHA GL_ONE
-	}
-	{
-		flare 2
-		scale.s 0.75
-		scale.t 0.75
-	}
-}
-{
     material rygel/tlight01_1
     normalmap rygel/tlight01_1_norm
-    surface "light"
     light 64
     {
 		texture rygel/tlight01_1_luma
@@ -66,7 +56,6 @@
 {
 	material rygel/lite_fart3
     normalmap rygel/lite_fart3_norm
-    surface "light"
     light 200
     {
 		texture rygel/lite_fart3_luma
@@ -79,10 +68,23 @@
 	}
 }
 {
+	material rygel/light1_5
+    normalmap rygel/light1_5_norm
+    light 200
+    {
+		texture rygel/light1_5_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare 2
+		scale.s 0.75
+		scale.t 0.75
+	}
+}
+{
 	material rygel/rune_a
     normalmap rygel/rune_a_norm
-    surface "light"
-    light 64
+    light 80
     {
 		texture rygel/rune_a_luma
 		blend GL_SRC_ALPHA GL_ONE
@@ -109,16 +111,27 @@
     normalmap rygel/city2_7_norm
 }
 {
+	material rygel/city4_8
+    normalmap rygel/city4_8_norm
+    bump 2.0
+	specular 0.5
+	parallax 1.0
+	hardness 0.5
+}
+{
 	material rygel/cop1_1
     normalmap rygel/cop1_1_norm
+    surface "phong"
 }
 {
 	material rygel/cop1_2
     normalmap rygel/cop1_2_norm
+    surface "phong"
 }
 {
 	material rygel/cop1_7
     normalmap rygel/cop1_7_norm
+    surface "phong"
 }
 {
 	material rygel/cop2_2
@@ -136,15 +149,23 @@
 {
 	material rygel/wswamp1_4
     normalmap rygel/wswamp1_4_norm
+    bump 2.0
+	specular 0.25
+	parallax 1.0
+	hardness 0.45
 }
-
-
-
+{
+    material aghast/wswamp2_1
+    normalmap aghast/wswamp2_1_nm
+    bump 2.0
+	specular 0.2
+	parallax 1.0
+	hardness 0.2
+}
 {
 	material darkzone/#teleport
     normalmap darkzone/#teleport_norm
-    surface "light"
-	light 80.0
+    light 64
 	{
 		texture darkzone/#teleport_gloss
         color 1 1 1 0.75
@@ -154,8 +175,11 @@
 }
 {
     material aghast/brown_water
-    surface "light"
-	light 80.0
+    light 64
+    bump 1.0
+	specular 0.2
+	parallax 1.0
+	hardness 0.0
     {
 		texture aghast/brown_water
 		warp 0.5 0.5
@@ -165,15 +189,19 @@
 {
 	material turbo/padbase
     normalmap turbo/padbase_nm
-    surface "light"
-    light 64
+    light 80
     {
 		texture turbo/padfx3
 		blend GL_SRC_ALPHA GL_ONE
 	}
+    {
+        texture turbo/padfx-iris3
+        pulse 0.5
+    }
 	{
 		flare 2
 		scale.s 0.5
 		scale.t 0.5
 	}
 }
+
