@@ -68,7 +68,7 @@
 	specularity 0.5
 	parallax 2.0
 	surface light
-	light 200.0
+	light 220.0
 	{
 		texture edge/ceil1_2fx
 		blend GL_SRC_ALPHA GL_ONE
@@ -87,7 +87,7 @@
 	specularity 0.5
 	parallax 2.0
 	surface light
-	light 200.0
+	light 220.0
 	{
 		texture edge/ceil1_4fx
 		blend GL_SRC_ALPHA GL_ONE
@@ -354,8 +354,8 @@
 	parallax 1.5
 	{
 		texture edge/mossyrockies
-		terrain 0.0 256.0
-		dirtmap 0.7
+		terrain -256.0 256.0
+		dirtmap 1.0
 	}
 }
 {
@@ -376,7 +376,7 @@
 }
 {
 	material edge/supergrass
-	surface alpha_test
+	surface blend_66
 }
 {
 	material edge/walldeco
