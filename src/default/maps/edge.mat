@@ -160,12 +160,7 @@
 	roughness 1.0
 	hardness 2.0
 	specularity 2.0
-	parallax 0.0
-		{
-		texture edge/ripple
-		blend GL_SRC_ALPHA GL_ONE
-		scroll.t 0.025
-		}
+	parallax 0.5
 }
 {
 	material edge/grate1_4
