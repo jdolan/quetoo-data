@@ -28,17 +28,17 @@ textures/common/hint
 	qer_trans 0.40
 }
 
-textures/common/monsterclip
-{
-	qer_trans 0.40
-}
-
 textures/common/nodraw
 {
 	qer_trans 0.40
 }
 
 textures/common/origin
+{
+	qer_trans 0.40
+}
+
+textures/common/skip
 {
 	qer_trans 0.40
 }
