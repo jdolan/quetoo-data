@@ -118,13 +118,6 @@
  model="models/ammo/slugs/tris.md3"
 */
 
-/*QUAKED func_areaportal (0 0 0) ?
- A non-visible object indicating disjoint areas in the world that should be combined when this entity is used. These are typically enclosed inside door brushes to toggle visibility of the rooms they separate.
-
- -------- Keys --------
- targetname : The target name of this entity if it is to be triggered.
-*/
-
 /*QUAKED func_button (0 .5 .8) ?
  When a button is touched by a player, it moves in the direction set by the "angle" key, triggers all its targets, stays pressed by the amount of time set by the "wait" key, then returns to its original position where it can be operated again.
 
