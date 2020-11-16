@@ -227,27 +227,31 @@
 	parallax 0
 }
 {
-	material pits/slime
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-	surface "light"
-	light 30
-	{
-		texture pits/slimefx
-		blend GL_SRC_ALPHA GL_ONE
-		scroll.t 0.04
-		scale.s 0.85
-		scale.t 0.85
-	}
-}
-{
 	material pits/slime0
 	roughness 1
 	hardness 1
 	specularity 1
 	parallax 1
+	surface "light blend_66"
+	light 60
+	{
+		texture pits/slimefx1
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s 0.01
+		scroll.t 0.02
+		scale.s 0.8
+		scale.t 0.75
+		warp 0.2 1
+	}
+	{
+		texture pits/slimefx2
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s -0.01
+		scroll.t -0.02
+		scale.s 0.9
+		scale.t 0.9
+		warp 0.2 1
+	}
 }
 {
 	material pits/stflr1_3
@@ -276,21 +280,21 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	surface "light"
-	light 20
 	{
 		texture pits/water6fx
 		blend GL_SRC_ALPHA GL_ONE
 		color 1 0.906086 0.513807 1
-		scroll.s -0.04
+		scroll.s -0.03
 		scale.s 0.85
 		scale.t 0.65
+		warp .3 1
 	}
 	{
 		texture pits/water6fx
 		blend GL_SRC_ALPHA GL_ONE
 		color 1 0.906086 0.513807 1
-		scroll.t 0.06
+		scroll.t -0.03
+		warp .3 1
 	}
 }
 {
