@@ -675,7 +675,7 @@
  teleport : If set, this path corner teleports the train as soon as it is selected.
 */
 
-/*QUAKED target_light (1 1 1) (-4 -4 -4) (4 4 4) start_on toggle
+/*QUAKED target_light (1 1 1) (-4 -4 -4) (4 4 4) start_on
  Emits a user-defined light when used. Lights can be chained with teams.
 
  -------- Keys --------
@@ -690,7 +690,7 @@
  start_on : The light will start on.
 
  -------- Notes --------
- Use this entity to add switched lights (toggle). Use the wait key to synchronize
+ Use this entity to add switched lights. Use the wait key to synchronize
  color cycles with other entities.
 */
 
