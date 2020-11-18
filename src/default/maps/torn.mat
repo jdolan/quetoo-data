@@ -42,12 +42,12 @@
 }
 {
 	material torn/baselt_c
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
+	roughness 3.59184
+	hardness 7.59184
+	specularity 1.14286
+	parallax 3.10204
 	surface "light"
-	light 180
+	light 200
 	{
 		texture torn/baselt_cfx
 		blend GL_SRC_ALPHA GL_ONE
@@ -58,7 +58,7 @@
 	roughness 2.61224
 	hardness 3.5102
 	specularity 1.63265
-	parallax 1.06122
+	parallax 7.83673
 	surface "light"
 	light 200
 	{
@@ -112,7 +112,7 @@
 	parallax 1
 	surface "material"
 	{
-		texture torn/floorfx_fx
+		texture torn/floorfx
 		blend GL_SRC_ALPHA GL_ONE
 		color 0.3 0.3 0.3 1
 		pulse 1
@@ -121,17 +121,15 @@
 }
 {
 	material torn/lite1
-	roughness 1
+	roughness 2.85714
 	hardness 1
 	specularity 1
-	parallax 1
+	parallax 3.18367
 	surface "light"
-	light 64
+	light 80
 	{
 		texture torn/lite1fx
 		blend GL_SRC_ALPHA GL_ONE
-		color 1 1 1 0.2
-		pulse 24
 	}
 	{
 		flare 1
@@ -176,7 +174,7 @@
 	material torn/metpan3
 	roughness 1
 	hardness 2.53061
-	specularity 2.77551
+	specularity 1.06122
 	parallax 3.02041
 }
 {
@@ -195,32 +193,33 @@
 }
 {
 	material torn/metpan_caution
-	roughness 1.55102
-	hardness 2.93878
+	roughness 4.73469
+	hardness 2.04082
 	specularity 3.02041
-	parallax 2.93878
+	parallax 1.95918
 }
 {
 	material torn/metpan_caution2
 	normalmap torn/metpan_caution_nm
-	roughness 1.14286
-	hardness 3.02041
-	specularity 0.979592
-	parallax 3.10204
+	roughness 0.979592
+	hardness 0.244898
+	specularity 6.69388
+	parallax 1.71429
 }
 {
 	material torn/metpan_lite1
 	roughness 1.79592
-	hardness 5.30612
-	specularity 1.46939
+	hardness 1.95918
+	specularity 0.571429
 	parallax 4.97959
 	surface "light"
-	light 120
+	light 200
 	{
 		texture torn/metpan_lite1fx
 		blend GL_SRC_ALPHA GL_ONE
-		color 1 1 1 0.2
-		pulse 24
+	}
+	{
+		flare 1
 	}
 }
 {
@@ -276,8 +275,8 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	surface "light"
-	light 80
+	surface "blend_33 blend_66 light"
+	light 60
 }
 {
 	material torn/stain_dirt1
@@ -285,6 +284,8 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	surface "blend_33 blend_66 light"
+	light 20
 }
 {
 	material torn/stain_dirt2
@@ -292,7 +293,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	surface "light"
+	surface "blend_33 blend_66 light"
 	light 20
 }
 {
@@ -332,8 +333,8 @@
 }
 {
 	material torn/xpiplun1a
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
+	roughness 0.979592
+	hardness 1.14286
+	specularity 1.22449
+	parallax 1.30612
 }
