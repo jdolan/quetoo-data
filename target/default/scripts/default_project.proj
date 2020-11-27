@@ -21,19 +21,19 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
 	# -bsp $"/>
 
-  <key name="bsp_Quemap BSP, Fast VIS"
+  <key name="bsp_Quemap BSP, Fast PVS, Direct Lighting"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -vis --fast $"/>
+	# -bsp -vis --fast -light --no-indirect $"/>
 
-  <key name="bsp_Quemap BSP, Fast VIS, Simple Light"
-    value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -vis --fast -light $"/>
-
-  <key name="bsp_Quemap BSP, Full VIS, Medium Light"
+  <key name="bsp_Quemap BSP, Fast PVS, Lighting"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
 	# -bsp -vis --fast -light $"/>
 
-  <key name="bsp_Quemap BSP, Full VIS, Best Light"
+  <key name="bsp_Quemap BSP, PVS, Lighting"
+    value="! &quot;$TEMPLATEexecpath/quemap&quot;
+	# -bsp -vis -light $"/>
+
+  <key name="bsp_Quemap BSP, PVS, Antialiased Lighting"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
 	# -bsp -vis -light --antialias --indirect $"/>
 
@@ -41,7 +41,7 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
 	# -bsp --onlyents $"/>
 
-  <key name="bsp_Quemap Relight"
+  <key name="bsp_Quemap Entities and Lighting"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
 	# -bsp --onlyents -light $"/>
 
@@ -52,7 +52,7 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
   <key name="surf4" value="Liquid" />
   <key name="surf5" value="33% Alpha" />
   <key name="surf6" value="66% Alpha" />
-  <key name="surf7" value="" />
+  <key name="surf7" value="100% Alpha" />
   <key name="surf8" value="No Draw" />
   <key name="surf9" value="Hint" />
   <key name="surf10" value="Skip" />
@@ -95,7 +95,7 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
   <key name="cont15" value="" />
   <key name="cont16" value="" />
   <key name="cont17" value="Player Clip"/>
-  <key name="cont18" value="Bot Clip" />
+  <key name="cont18" value="Monster Clip" />
   <key name="cont19" value="Current 0" />
   <key name="cont20" value="Current 90" />
   <key name="cont21" value="Current 180" />
