@@ -210,7 +210,7 @@
  Use g to select all brushes in a group. Use TAB to navigate through the individual brushes of a selected group.
 */
 
-/*QUAKED func_plat (0 .5 .8) ? low_trigger
+/*QUAKED func_plat (0 .5 .8) low_trigger
  Rising platform the player can ride to reach higher places. Platforms must be placed in the raised position, so they will operate and be lit correctly, but they spawn in the lowered position. If the platform is the target of a trigger or button, it will start out disabled and in the extended position.
 
  -------- Keys --------
@@ -604,59 +604,6 @@
  _size : Sun size, larger values yield more penumbrae (default 256).
 */
 
-/*QUAKED misc_teleporter (1 0 0) (-32 -32 -24) (32 32 -16) ? ? no_effects
- Warps players who touch this entity to the targeted misc_teleporter_dest entity.
-
- -------- Spawn flags --------
- ?
- ?
- no_effects : Suppress the default teleporter particle effects.
-*/
-
-/*QUAKED misc_teleporter_dest (1 0 0) (-32 -32 -24) (32 32 -16)
- Teleport destination for misc_teleporters.
-
- -------- Keys --------
- angle : Direction in which player will look when teleported.
- targetname : The target name of this entity.
-*/
-
-/*QUAKED misc_emit (.8 .8 0) (-8 -8 -8) (8 8 8) light sparks steam flames corona sound model
- Client-side emission of particles, ambient sounds, light flashes, and static models.
-
- -------- Keys --------
- angles : The angles of orientation for particles emissions and static models.
- velocity : The directional vector for steam emissions.
- color : The color for particles, light flashes, and coronas.
- hz : The emission rate, in events-per-second.
- drift : The factor of randomized drift applied to the emission rate.
- radius : The radius for coronas and light flashes.
- count : The number of particles to emit per event.
- scale : The scale for a static model.
- sound : The sound sample to accompany events.
- attenuation : The sound attenuation, -1 for global.
- model : The static model name, e.g. trees/mytree.
-
- -------- Spawn flags --------
- light : Emit a light flash.
- sparks : Emit sparks.
- steam : Emit steam.
- flames : Emit flames.
- corona : Emit a corona.
- sound : Emit a sound.
- model : Emit a model.
-*/
-
-/*QUAKED misc_flame (.8 .8 0) (-8 -8 -8) (8 8 8)
- Client-side flame emitter, useful for torches and ambience.
-
- -------- Keys --------.
- hz : The emission rate, in events-per-second.
- drift : The factor of randomized drift applied to the emission rate.
- radius : The flame radius (default 16).
-*/
-
-
 /*QUAKED misc_fireball (1 .3 .1) (-6 -6 -6) (6 6 6)
  Spawns an intermittent fireball that damages players. These are typically used above lava traps for ambiance.
 
@@ -668,13 +615,84 @@
  wait : The interval in seconds between fireball emissions (default 5.0).
 */
 
-/*QUAKED misc_model (.8 .8 0) (-8 -8 -8) (8 8 8)
- Client-side emission of static models (non-interactive map objects).
+/*QUAKED misc_flame (1 .7 .1) (-8 -8 -8) (8 8 8)
+ Client-side flame emitter, useful for torches and ambience.
+
+ -------- Keys --------.
+ hz : The emission rate, in events-per-second.
+ drift : The factor of randomized drift applied to the emission rate.
+ radius : The flame radius (default 16).
+*/
+
+/*QUAKED misc_fog (.7 .7 .7)
+ Fog volumes. When compiled, fog brushes are merged into the world. Fog volumes are processed during the lighting compile phase.
+
+ -------- Keys --------.
+ _color : Fog color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
+ density : The fog density (default 1).
+*/
+
+/*QUAKED misc_light (1 1 1) (-6 -6 -6) (6 6 6)
+ Client-side emission of dynamic lights. For switchable lights, use target_light.
+
+ -------- Keys --------
+ _color : The light color (default 1.0 1.0 1.0).
+ light : The radius of the light in units (default 300).
+ intensity : The light intensity (default 1).
+*/
+
+/*QUAKED misc_model (.2 .4 1) (-16 -16 -16) (16 16 16)
+ Client-side emission of static models (non-interactive map objects). These are useful for placing trees, torches, and other non-brush scenery.
 
  -------- Keys --------
  angles : The angles of orientation for the models.
  scale : The scale for a static model.
  model : The static model name, e.g. trees/mytree.
+*/
+
+/*QUAKED misc_sound (1 0 1) (-8 -8 -8) (8 8 8)
+ Client-side emission of ambient sounds.
+
+ -------- Keys --------
+ atten : The attenuation (0 = none, 1 = linear, 2 = exponential, 3 = cubic, default = 2).
+ hz : The emission rate, in events-per-second (default 0).
+ drift : The factor of randomized drift applied to the emission rate.
+ sound : The sound name, e.g. edge/wind.
+*/
+
+/*QUAKED misc_sparks (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Client-side emission of spark effects.
+
+ -------- Keys --------
+ _angle : Sparks direction (up = -1, down = -2, yaw = positive value).
+ hz : The emission rate, in events-per-second (default 0).
+ drift : The factor of randomized drift applied to the emission rate.
+ target : The name of the entity to target to resolve the sparks direction.
+*/
+
+/*QUAKED misc_steam (.8 .8 .8) (-8 -8 -8) (8 8 8)
+ Client-side emission of steam effects.
+
+ -------- Keys --------
+ _angle : Steam direction (up = -1, down = -2, yaw = positive value).
+ hz : The emission rate, in events-per-second (default 0).
+ drift : The factor of randomized drift applied to the emission rate.
+ target : The name of the entity to target to resolve the steam direction.
+*/
+
+/*QUAKED misc_teleporter (1 0 0) (-32 -32 -24) (32 32 -16) no_effects
+ Warps players who touch this entity to the targeted misc_teleporter_dest entity.
+
+ -------- Spawn flags --------
+ no_effects : Suppress the default teleporter particle effects.
+*/
+
+/*QUAKED misc_teleporter_dest (1 0 0) (-32 -32 -24) (32 32 -16)
+ Teleport destination for misc_teleporters.
+
+ -------- Keys --------
+ angle : Direction in which player will look when teleported.
+ targetname : The target name of this entity.
 */
 
 /*QUAKED path_corner (.7 .3 0) (-8 -8 -8) (8 8 8) teleport
@@ -726,7 +744,7 @@
 
  -------- Notes --------
  Use this entity only when a sound must be triggered by another entity. For
- all other ambient sounds, use misc_emit.
+ all other ambient sounds, use misc_sound.
 */
 
 /*QUAKED target_string (0 0 1) (-8 -8 -8) (8 8 8)
