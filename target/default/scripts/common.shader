@@ -1,19 +1,24 @@
-textures/common/botclip
-{
-	qer_trans 0.40
-}
-
 textures/common/caulk
 {
 	qer_trans 0.40
 }
 
-textures/common/clear
+textures/common/clip
 {
-	qer_trans 0.80
+	qer_trans 0.40
 }
 
-textures/common/clip
+textures/common/dust
+{
+	qer_trans 0.40
+}
+
+textures/common/fog
+{
+	qer_trans 0.40
+}
+
+textures/common/hint
 {
 	qer_trans 0.40
 }
@@ -23,7 +28,7 @@ textures/common/ladder
 	qer_trans 0.40
 }
 
-textures/common/hint
+textures/common/monsterclip
 {
 	qer_trans 0.40
 }
@@ -41,6 +46,11 @@ textures/common/origin
 textures/common/skip
 {
 	qer_trans 0.40
+}
+
+textures/common/sky
+{
+
 }
 
 textures/common/trigger
