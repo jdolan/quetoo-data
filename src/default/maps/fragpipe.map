@@ -1,6 +1,6 @@
 // entity 0
 {
-"fog_density" ".125"
+"fog_density" ".1"
 "fog_color" "0.684 0.492 .125"
 "classname" "worldspawn"
 "message" "The Frag Pipe"
@@ -12155,49 +12155,49 @@
 }
 // entity 63
 {
-"classname" "misc_emit"
+"classname" "misc_sound"
 "origin" "952 696 40"
 "sound" "fragpipe/lavamud"
 }
 // entity 64
 {
-"classname" "misc_emit"
+"classname" "misc_sound"
 "origin" "1128 456 24"
 "sound" "fragpipe/lavaflow2"
 }
 // entity 65
 {
-"classname" "misc_emit"
+"classname" "misc_sound"
 "origin" "416 1152 72"
 "sound" "fragpipe/lavamud"
 }
 // entity 66
 {
-"classname" "misc_emit"
+"classname" "misc_sound"
 "origin" "992 1112 48"
 "sound" "fragpipe/lavaflow2"
 }
 // entity 67
 {
-"classname" "misc_emit"
+"classname" "misc_sound"
 "origin" "1216 1024 48"
 "sound" "fragpipe/lavamud"
 }
 // entity 68
 {
-"classname" "misc_emit"
+"classname" "misc_sound"
 "origin" "216 592 160"
 "sound" "fragpipe/lavaflow2"
 }
 // entity 69
 {
-"classname" "misc_emit"
+"classname" "misc_sound"
 "origin" "792 448 24"
 "sound" "fragpipe/lavamud"
 }
 // entity 70
 {
-"classname" "misc_emit"
+"classname" "misc_sound"
 "origin" "1528 1352 88"
 "sound" "fragpipe/splashy_amb"
 }
@@ -13052,60 +13052,6 @@
 }
 // entity 80
 {
-"classname" "misc_emit"
-"angle" "-1"
-"radius" "92"
-"origin" "784 1280 16"
-"spawnflags" "1"
-"color" "1.00 0.26 0.00"
-"hz" "0.2"
-"drift" "0.25"
-}
-// entity 81
-{
-"classname" "misc_emit"
-"color" "1.00 0.26 0.00"
-"spawnflags" "1"
-"origin" "992 1104 16"
-"angle" "-1"
-"radius" "92"
-"hz" "0.2"
-"drift" "0.3"
-}
-// entity 82
-{
-"classname" "misc_emit"
-"drift" "0.25"
-"hz" "0.25"
-"color" "1.00 0.26 0.00"
-"spawnflags" "1"
-"origin" "704 992 16"
-"radius" "128"
-}
-// entity 83
-{
-"classname" "misc_emit"
-"hz" "0.1"
-"drift" "0.15"
-"color" "1.00 0.26 0.00"
-"origin" "1672 680 25"
-"spawnflags" "1"
-"radius" "72"
-"angle" "-1"
-}
-// entity 84
-{
-"classname" "misc_emit"
-"drift" "0.1"
-"hz" "0.2"
-"angle" "-1"
-"radius" "64"
-"spawnflags" "1"
-"origin" "1384 888 24"
-"color" "1.00 0.26 0.00"
-}
-// entity 85
-{
 "classname" "func_door"
 "lip" "16"
 "dmg" "1000"
@@ -13124,7 +13070,7 @@
 ( 112 1192 32 ) ( 112 1168 32 ) ( 144 1192 32 ) common/caulk -9 1 -90 0.281250 -0.250000 
 }
 }
-// entity 86
+// entity 81
 {
 "classname" "func_door"
 "angle" "-2"
@@ -13144,24 +13090,24 @@
 ( 608 1187 148 ) ( 640 1187 148 ) ( 640 1117 148 ) fragpipe/grate2_7 64 0 0 0.250000 0.250000 
 }
 }
-// entity 87
+// entity 82
 {
 "classname" "item_health"
 "angle" "90"
 "origin" "920 920 64"
 }
-// entity 88
+// entity 83
 {
 "classname" "item_health"
 "angle" "90"
 "origin" "920 880 64"
 }
-// entity 89
+// entity 84
 {
 "classname" "item_quad"
 "origin" "960 944 384"
 }
-// entity 90
+// entity 85
 {
 "classname" "func_train"
 "speed" "60"
@@ -13222,46 +13168,24 @@
 ( 9120 8736 96 ) ( 9120 -7648 96 ) ( -7264 -7648 96 ) fragpipe/floor3_1 -60 -62 0 0.275000 0.275000 
 }
 }
-// entity 91
+// entity 86
 {
 "classname" "weapon_shotgun"
 "origin" "960 256 312"
 }
-// entity 92
-{
-"classname" "misc_emit"
-"drift" "0.25"
-"hz" "0.1"
-"color" "1.00 0.26 0.00"
-"spawnflags" "1"
-"origin" "168.000000 608.000000 114.000000"
-"radius" "128"
-"angle" "-1.000000"
-}
-// entity 93
+// entity 87
 {
 "classname" "info_player_deathmatch"
 "angle" "180"
 "origin" "1176 288 72"
 }
-// entity 94
-{
-"classname" "misc_emit"
-"drift" "0.25"
-"hz" "0.1"
-"color" "1.00 0.26 0.00"
-"spawnflags" "1"
-"origin" "960 736 26"
-"radius" "128"
-"angle" "-1"
-}
-// entity 95
+// entity 88
 {
 "classname" "info_player_intermission"
 "origin" "264.000000 1232.000000 72.000000"
 "angle" "-50.000000"
 }
-// entity 96
+// entity 89
 {
 "classname" "trigger_relay"
 "origin" "384 1176 152"
@@ -13269,7 +13193,7 @@
 "target" "hurtrealbad"
 "delay" "1"
 }
-// entity 97
+// entity 90
 {
 "classname" "func_group"
 // brush 0
@@ -13283,15 +13207,6 @@
 }
 // brush 1
 {
-( 96 1280 112 ) ( 108 1280 112 ) ( 108 1248 176 ) common/clip -128 0 0 0.500000 0.500000 536936448 128 0
-( 96 1280 48 ) ( 108 1280 48 ) ( 108 1280 112 ) common/clip -128 0 0 0.500000 0.500000 536936448 128 0
-( 108 1276 160 ) ( 108 1276 48 ) ( 108 1244 160 ) common/clip -128 0 0 0.500000 0.500000 536936448 128 0
-( 108 1280 48 ) ( 96 1280 48 ) ( 96 1248 48 ) common/clip -128 0 0 0.500000 0.500000 536936448 128 0
-( 96 1248 48 ) ( 96 1248 160 ) ( 144 1248 48 ) common/clip -128 0 0 0.500000 0.500000 536936448 128 0
-( 92 1248 48 ) ( 92 1280 48 ) ( 92 1248 160 ) common/clip -128 0 0 0.500000 0.500000 536936448 128 0
-}
-// brush 2
-{
 ( 928 1008 48 ) ( 928 1008 176 ) ( 944 968 176 ) common/clip -32 0 0 0.500000 0.500000 65536 128 0
 ( 928 1008 176 ) ( 928 1008 48 ) ( 944 1008 48 ) common/clip 0 0 0 0.500000 0.500000 65536 128 0
 ( 952 968 48 ) ( 952 968 176 ) ( 944 1008 176 ) common/clip -32 0 0 0.500000 0.500000 65536 128 0
@@ -13299,7 +13214,7 @@
 ( 928 984 176 ) ( 928 1008 176 ) ( 944 1008 176 ) common/clip 0 32 0 0.500000 0.500000 65536 128 0
 ( 944 1008 48 ) ( 928 1008 48 ) ( 928 984 48 ) common/clip 0 32 0 0.500000 0.500000 65536 128 0
 }
-// brush 3
+// brush 2
 {
 ( 857 877 480 ) ( 840 867 480 ) ( 840 867 240 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 ( 871 834 240 ) ( 840 867 240 ) ( 854 827 240 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
@@ -13308,7 +13223,7 @@
 ( 871 834 480 ) ( 840 867 480 ) ( 857 877 480 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 ( 854 827 480 ) ( 840 867 240 ) ( 840 867 480 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 }
-// brush 4
+// brush 3
 {
 ( 828 956 314 ) ( 810 951 314 ) ( 810 951 240 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 ( 857 877 314 ) ( 840 867 240 ) ( 840 867 314 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
@@ -13317,7 +13232,7 @@
 ( 840 867 314 ) ( 810 951 314 ) ( 857 877 314 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 ( 840 867 314 ) ( 810 951 240 ) ( 810 951 314 ) common/clip 28 0 0 0.500000 0.500000 65536 128 0
 }
-// brush 5
+// brush 4
 {
 ( 928 64 80 ) ( 992 64 80 ) ( 992 0 80 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 ( 992 80 72 ) ( 992 96 -56 ) ( 992 80 -56 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
@@ -13326,7 +13241,7 @@
 ( 992 112 72 ) ( 928 112 72 ) ( 928 0 72 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 ( 928 0 48 ) ( 928 0 184 ) ( 992 0 48 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 }
-// brush 6
+// brush 5
 {
 ( 608 384 272 ) ( 320 384 272 ) ( 320 64 272 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 ( 320 64 288 ) ( 320 384 288 ) ( 608 384 288 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
@@ -13336,7 +13251,7 @@
 ( 320 432 272 ) ( 320 432 288 ) ( 320 92 288 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 ( 480 432 288 ) ( 480 432 272 ) ( 608 208 272 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 }
-// brush 7
+// brush 6
 {
 ( 608 1120 208 ) ( 203 1088 204 ) ( 193 1120 208 ) common/clip 0 0 0 0.500000 0.500000 65536 128 0
 ( 608 1120 192 ) ( 193 1120 208 ) ( 132 1120 192 ) common/clip 0 0 0 0.500000 0.500000 65536 128 0
@@ -13345,7 +13260,7 @@
 ( 608 1056 180 ) ( 203 1088 204 ) ( 608 1088 204 ) common/clip 0 0 0 0.500000 0.500000 65536 128 0
 ( 141 1056 180 ) ( 193 1120 208 ) ( 203 1088 204 ) common/clip 0 0 0 0.500000 0.500000 65536 128 0
 }
-// brush 8
+// brush 7
 {
 ( 480 732 240 ) ( 504 746 240 ) ( 504 732 240 ) common/clip 0 0 0 0.500000 0.500000 65536 128 0
 ( 510 752 224 ) ( 510 752 240 ) ( 480 736 240 ) common/clip 0 0 0 0.500000 0.500000 65536 128 0
@@ -13354,7 +13269,7 @@
 ( 510 732 240 ) ( 510 732 224 ) ( 480 732 240 ) common/clip 0 0 0 0.500000 0.500000 65536 128 0
 ( 480 736 224 ) ( 480 732 240 ) ( 480 732 224 ) common/clip 0 0 0 0.500000 0.500000 65536 128 0
 }
-// brush 9
+// brush 8
 {
 ( 812 1008 240 ) ( 797 993 480 ) ( 797 993 240 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 ( 828 956 480 ) ( 810 951 240 ) ( 810 951 480 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
@@ -13364,98 +13279,98 @@
 ( 797 993 480 ) ( 810 951 480 ) ( 810 951 240 ) common/clip 32 0 0 0.500000 0.500000 65536 128 0
 }
 }
-// entity 98
+// entity 91
 {
 "classname" "misc_fireball"
 "origin" "864 768 26"
 }
-// entity 99
+// entity 92
 {
 "classname" "misc_fireball"
 "origin" "1008 704 26"
 }
-// entity 100
+// entity 93
 {
 "classname" "misc_fireball"
 "origin" "800 432 26"
 }
-// entity 101
+// entity 94
 {
 "classname" "misc_fireball"
 "origin" "1136 448 26"
 }
-// entity 102
+// entity 95
 {
 "classname" "misc_fireball"
 "origin" "448 1312 18"
 }
-// entity 103
+// entity 96
 {
 "classname" "misc_fireball"
 "origin" "496 1232 42"
 "speed" "400"
 }
-// entity 104
+// entity 97
 {
 "classname" "misc_fireball"
 "origin" "448 1072 42"
 "speed" "400"
 }
-// entity 105
+// entity 98
 {
 "classname" "misc_fireball"
 "origin" "304 1232 42"
 "speed" "400"
 }
-// entity 106
+// entity 99
 {
 "classname" "misc_fireball"
 "origin" "160 736 114"
 "speed" "700"
 }
-// entity 107
+// entity 100
 {
 "classname" "misc_fireball"
 "origin" "192 496 114"
 "speed" "700"
 }
-// entity 108
+// entity 101
 {
 "classname" "misc_fireball"
 "origin" "464 160 242"
 "speed" "400"
 }
-// entity 109
+// entity 102
 {
 "classname" "misc_fireball"
 "speed" "400"
 "origin" "352 240 242"
 }
-// entity 110
+// entity 103
 {
 "classname" "misc_fireball"
 "speed" "400"
 "origin" "688 976 18"
 }
-// entity 111
+// entity 104
 {
 "classname" "misc_fireball"
 "speed" "700"
 "origin" "1160 1072 26"
 }
-// entity 112
+// entity 105
 {
 "classname" "misc_fireball"
 "origin" "1400 864 26"
 "speed" "700"
 }
-// entity 113
+// entity 106
 {
 "classname" "misc_fireball"
 "origin" "1672 736 26"
 "speed" "700"
 }
-// entity 114
+// entity 107
 {
 "classname" "func_water"
 "speed" "50"
@@ -13473,49 +13388,49 @@
 ( 600 1264 -71 ) ( 152 1264 -71 ) ( 152 1040 -71 ) fragpipe/brlava 0 0 0 0.500000 0.500000 8 0 0
 }
 }
-// entity 115
+// entity 108
 {
 "classname" "path_corner"
 "origin" "1474 1472 -30"
 "targetname" "t9"
 "target" "t10"
 }
-// entity 116
+// entity 109
 {
 "classname" "path_corner"
 "origin" "1474 1352 -30"
 "targetname" "t8"
 "target" "t9"
 }
-// entity 117
+// entity 110
 {
 "classname" "path_corner"
 "origin" "1468 1222 -30"
 "targetname" "t5"
 "target" "t6"
 }
-// entity 118
+// entity 111
 {
 "classname" "path_corner"
 "origin" "1548 1222 -30"
 "targetname" "t4"
 "target" "t5"
 }
-// entity 119
+// entity 112
 {
 "classname" "path_corner"
 "origin" "1656 1284 -30"
 "targetname" "t3"
 "target" "t4"
 }
-// entity 120
+// entity 113
 {
 "classname" "path_corner"
 "origin" "1656 1336 -30"
 "targetname" "t2"
 "target" "t3"
 }
-// entity 121
+// entity 114
 {
 "_color" "0 .8 0"
 "team" "light2"
@@ -13526,7 +13441,7 @@
 "spawnflags" "1"
 "origin" "384 992 58"
 }
-// entity 122
+// entity 115
 {
 "_color" "0 .8 0"
 "spawnflags" "1"
@@ -13537,7 +13452,7 @@
 "targetname" "button3"
 "wait" "5"
 }
-// entity 123
+// entity 116
 {
 "_color" "0 .8 0"
 "team" "light1"
@@ -13548,38 +13463,38 @@
 "targetname" "button1"
 "wait" "5"
 }
-// entity 124
+// entity 117
 {
 "classname" "trigger_relay"
 "target" "relays"
 "targetname" "button1"
 "origin" "670 1054 112"
 }
-// entity 125
+// entity 118
 {
 "classname" "trigger_relay"
 "target" "relays"
 "targetname" "button2"
 "origin" "384 992 78"
 }
-// entity 126
+// entity 119
 {
 "classname" "trigger_relay"
 "target" "relays"
 "targetname" "button3"
 "origin" "76 1054 112"
 }
-// entity 127
+// entity 120
 {
 "classname" "ammo_cells"
 "origin" "-46 1304 66"
 }
-// entity 128
+// entity 121
 {
 "classname" "ammo_shells"
 "origin" "-46 1256 66"
 }
-// entity 129
+// entity 122
 {
 "classname" "light_sun"
 "origin" "960 544 384"
@@ -13587,13 +13502,13 @@
 "_color" "1.0 0.8 0.4"
 "target" "sun"
 }
-// entity 130
+// entity 123
 {
 "classname" "info_null"
 "origin" "960 544 320"
 "targetname" "sun"
 }
-// entity 131
+// entity 124
 {
 "speed" "100"
 "dmg" "50"
@@ -13666,7 +13581,7 @@
 ( 1088 556 522 ) ( 1088 616 522 ) ( 1036 616 522 ) fragpipe/metal14_1 0 0 0 0.500000 0.500000 
 }
 }
-// entity 132
+// entity 125
 {
 "spawnflags" "19"
 "dmg" "50"
@@ -13739,7 +13654,7 @@
 ( 850 564 544 ) ( 850 556 544 ) ( 850 556 512 ) common/origin 0 56 0 0.500000 0.500000 285212672 128 0
 }
 }
-// entity 133
+// entity 126
 {
 "_color" ".8 0 0"
 "light" "48"
@@ -13748,7 +13663,7 @@
 "classname" "target_light"
 "team" "light3"
 }
-// entity 134
+// entity 127
 {
 "_color" ".8 0 0"
 "origin" "384 992 54"
@@ -13756,7 +13671,7 @@
 "light" "48"
 "team" "light2"
 }
-// entity 135
+// entity 128
 {
 "_color" ".8 0 0"
 "origin" "658 1054 88"
@@ -13764,7 +13679,7 @@
 "light" "48"
 "team" "light1"
 }
-// entity 136
+// entity 129
 {
 "classname" "func_wall"
 // brush 0
@@ -13777,7 +13692,7 @@
 ( 896 616 50 ) ( 896 504 50 ) ( 784 616 50 ) fragpipe/fanshade_fx 237 37 0 0.600000 0.600000 134217792 4144 0
 }
 }
-// entity 137
+// entity 130
 {
 "classname" "func_wall"
 // brush 0
@@ -13790,7 +13705,7 @@
 ( 1104 616 50 ) ( 1104 504 50 ) ( 992 616 50 ) fragpipe/fanshade_fx 145 37 0 0.600000 0.600000 134217792 4144 0
 }
 }
-// entity 138
+// entity 131
 {
 "target" "sun2"
 "_color" "1.0 0.8 0.4"
@@ -13798,13 +13713,13 @@
 "origin" "960 528 384"
 "classname" "light_sun"
 }
-// entity 139
+// entity 132
 {
 "targetname" "sun2"
 "origin" "1040 528 344"
 "classname" "info_null"
 }
-// entity 140
+// entity 133
 {
 "density" ".5"
 "classname" "misc_fog"
@@ -13854,7 +13769,7 @@
 ( 1312 900 96 ) ( 1312 900 -64 ) ( 1472 928 -64 ) common/fog 0 0 0 0.500000 0.500000 
 }
 }
-// entity 141
+// entity 134
 {
 "density" ".5"
 "classname" "misc_fog"
@@ -13869,7 +13784,7 @@
 ( 1024 1344 -72 ) ( 192 1344 -72 ) ( 192 1040 -72 ) common/fog 0 0 0 0.500000 0.500000 
 }
 }
-// entity 142
+// entity 135
 {
 "density" ".5"
 "classname" "misc_fog"
@@ -13884,7 +13799,7 @@
 ( -48 1248 -16 ) ( -96 1248 -16 ) ( -96 976 -16 ) common/fog 0 0 0 0.500000 0.500000 
 }
 }
-// entity 143
+// entity 136
 {
 "density" ".5"
 "classname" "misc_fog"
@@ -13899,7 +13814,7 @@
 ( 288 848 0 ) ( 128 848 0 ) ( 128 464 0 ) common/fog 0 0 0 0.500000 0.500000 
 }
 }
-// entity 144
+// entity 137
 {
 "density" ".5"
 "classname" "misc_fog"
@@ -13915,7 +13830,7 @@
 ( 576 432 160 ) ( 320 432 160 ) ( 320 80 160 ) common/fog 0 0 0 0.500000 0.500000 
 }
 }
-// entity 145
+// entity 138
 {
 "_color" "0 1 0"
 "density" ".5"
@@ -13941,7 +13856,7 @@
 ( 1472 1208 120 ) ( 1472 1208 -32 ) ( 1344 1272 -32 ) common/fog 0 0 0 0.500000 0.500000 
 }
 }
-// entity 146
+// entity 139
 {
 "_color" "1 0 0"
 "density" ".5"
