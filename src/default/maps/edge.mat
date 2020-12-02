@@ -343,8 +343,8 @@
 	material edge/metallight
 	normalmap edge/metallight_nm
 	roughness 1.46939
-	hardness 4.81633
-	specularity 2.04082
+	hardness 0.163265
+	specularity 1.46939
 	parallax 1.79592
 	surface "light"
 	light 180
