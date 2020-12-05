@@ -203,7 +203,7 @@
 	hardness 3.3
 	specularity 2
 	parallax 0
-	footsteps "metal2"
+	footsteps "metal_2"
 }
 {
 	material tokays/stflr1_4
