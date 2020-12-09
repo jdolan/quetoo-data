@@ -170,8 +170,8 @@
  message : An optional string printed when the door is first touched.
  health : If set, door must take damage to open.
  speed : The speed with which the door opens (default 100).
+ rotation : The rotation the door will open, in degrees (default 90).
  wait : wait before returning (3 default, -1 = never return).
- lip : The lip remaining at end of move (default 8 units).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
  sounds : The sound set for the door (0 default, 1 stone, -1 silent).
  targetname : The target name of this entity if it is to be triggered.
@@ -629,7 +629,9 @@
 
  -------- Keys --------.
  _color : Fog color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
- density : The fog density (default 1).
+ absorption : The fog absorption, or how much light color it absorbs (default .125).
+ density : The fog density, or thickness (default 1).
+ noise : The fog noise, or variation in density (default 0).
 */
 
 /*QUAKED misc_light (1 1 1) (-6 -6 -6) (6 6 6)
@@ -730,9 +732,9 @@
  Plays a sound each time it is used, or in loop if requested.
 
  -------- Keys --------
- noise : The name of the sample to play, e.g. voices/haunting.
- attenuation : The attenuation level; higher levels drop off more quickly (default 1):
-   -1 : No attenuation, send the sound to the entire level.
+ sound : The name of the sample to play, e.g. voices/haunting.
+ atten : The attenuation level; higher levels drop off more quickly (default 1):
+    0 : No attenuation, send the sound to the entire level.
     1 : Normal attenuation, hearable to all those in PHS of entity.
     2 : Idle attenuation, hearable only by those near to entity.
     3 : Static attenuation, hearable only by those very close to entity.
@@ -744,7 +746,7 @@
 
  -------- Notes --------
  Use this entity only when a sound must be triggered by another entity. For
- all other ambient sounds, use misc_sound.
+ ambient sounds, use the client-side version, misc_sound.
 */
 
 /*QUAKED target_string (0 0 1) (-8 -8 -8) (8 8 8)
@@ -811,7 +813,7 @@
 
  -------- Keys --------
  angles : The direction to push the player in "pitch yaw roll" notation (e.g. -80 270 0).
- noise : The sound effect to play when the player is pushed (default "world/jumppad").
+ sound : The sound effect to play when the player is pushed (default "world/jumppad").
  speed : The speed with which to push the player (default 100).
 
  -------- Spawn flags --------
@@ -1012,7 +1014,11 @@
  contrast : Global light contrast, a single positive scalar value (e.g. 1.17).
  radiosity : Global indirect light scale, a single positive scalar value (e.g. 1.675).
  patch_size : Surface light patch size (default 64).
- weather : Weather effects, one of "none, rain, snow" followed optionally by "fog r g b [start] [density]."
+ weather : Weather effects, one of "none, rain, snow."
+ fog_absorption : Global fog light absorption, or how much light color it absorbs (default .125).
+ fog_color : Global fog color, as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
+ fog_density : Global fog density, a single positive scalar value (default 1).
+ fog_noise : Global fog noise, a single positive scalar value (default 0).
  gravity : Gravity for the level (default 800).
  gameplay : The gameplay mode, one of "deathmatch, instagib, arena."
  hook : Enables the grappling hook (unset for gameplay default, 0 = disabled, 1 = enabled)."
