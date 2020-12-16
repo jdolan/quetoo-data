@@ -276,7 +276,7 @@
 	specularity 1
 	parallax 1
 	surface "blend_33 blend_66 light"
-	light 60
+	light 40
 }
 {
 	material torn/stain_dirt1
