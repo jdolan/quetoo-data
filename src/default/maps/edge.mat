@@ -504,6 +504,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	surface "blend_100"
 }
 {
 	material edge/worngrass
