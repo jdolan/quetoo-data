@@ -21,29 +21,17 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
 	# -bsp $"/>
 
-  <key name="bsp_Quemap BSP, Fast PVS, Direct Lighting"
+  <key name="bsp_Quemap Lighting"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -vis --fast -light --no-indirect $"/>
+	# -bsp -light $"/>
 
-  <key name="bsp_Quemap BSP, Fast PVS, Lighting"
+  <key name="bsp_Quemap Antialiased Lighting"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -vis --fast -light $"/>
-
-  <key name="bsp_Quemap BSP, PVS, Lighting"
-    value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -vis -light $"/>
-
-  <key name="bsp_Quemap BSP, PVS, Antialiased Lighting"
-    value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -vis -light --antialias --indirect $"/>
+	# -bsp -light --antialias $"/>
 
   <key name="bsp_Quemap Entities"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
 	# -bsp --onlyents $"/>
-
-  <key name="bsp_Quemap Entities and Lighting"
-    value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp --onlyents -light $"/>
 
   <!-- Surface and contents keys used by the idTech2 Shaders API -->
   <key name="surf1" value="Light" />
@@ -93,7 +81,7 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
   <key name="cont13" value="" />
   <key name="cont14" value="" />
   <key name="cont15" value="" />
-  <key name="cont16" value="" />
+  <key name="cont16" value="Occlusion Query" />
   <key name="cont17" value="Player Clip"/>
   <key name="cont18" value="Monster Clip" />
   <key name="cont19" value="Current 0" />
