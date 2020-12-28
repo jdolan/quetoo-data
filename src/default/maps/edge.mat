@@ -435,6 +435,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	surface "blend_100 decal"
 }
 {
 	material edge/tampon1
@@ -442,6 +443,8 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	surface "blend_100 decal"
+
 }
 {
 	material edge/tampon2
@@ -449,6 +452,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	surface "blend_100 decal"
 }
 {
 	material edge/walldeco

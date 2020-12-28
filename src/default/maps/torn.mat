@@ -110,7 +110,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	surface "material"
+	surface "blend_100 material decal"
 	{
 		texture torn/floorfx
 		blend GL_SRC_ALPHA GL_ONE
@@ -126,7 +126,7 @@
 	specularity 1
 	parallax 3.18367
 	surface "light"
-	light 80
+	light 120
 	{
 		texture torn/lite1fx
 		blend GL_SRC_ALPHA GL_ONE
@@ -275,7 +275,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	surface "blend_33 blend_66 light"
+	surface "blend_100 decal light"
 	light 40
 }
 {
@@ -284,7 +284,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	surface "blend_33 blend_66 light"
+	surface "blend_100 decal light"
 	light 20
 }
 {
@@ -293,7 +293,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	surface "blend_33 blend_66 light"
+	surface "blend_100 decal light"
 	light 20
 }
 {

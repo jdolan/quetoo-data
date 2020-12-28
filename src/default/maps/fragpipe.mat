@@ -104,7 +104,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	surface "blend_33 blend_66 material"
+	surface "blend_100 material decal"
 	{
 		texture fragpipe/fanshade_fx
 		rotate 0.25
