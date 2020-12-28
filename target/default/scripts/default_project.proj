@@ -47,7 +47,7 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
   <key name="surf11" value="Alpha Test" />
   <key name="surf12" value="Phong" />
   <key name="surf13" value="Material" />
-  <key name="surf14" value="No Weld" />
+  <key name="surf14" value="Decal" />
   <key name="surf15" value="" />
   <key name="surf16" value="" />
   <key name="surf17" value="" />
