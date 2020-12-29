@@ -206,6 +206,7 @@
 	hardness 2
 	specularity 2
 	parallax 0.5
+	surface blend_66
 }
 {
 	material edge/e8xgirder
