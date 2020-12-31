@@ -1,0 +1,205 @@
+{
+	material aggressor/ceil1_22a
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 0.5
+	{
+		flare 0
+	}
+}
+{
+	material aggressor/ceil1_34
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 0.5
+	{
+		flare 0
+	}
+}
+{
+	material aggressor/drk_brnbrick
+	roughness 1.03004
+	hardness 3.00429
+	specularity 4.03433
+	parallax 0
+}
+{
+	material aggressor/e6c_floor
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 0.5
+}
+{
+	material aggressor/e6l_stepedge
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 0.5
+}
+{
+	material aggressor/e7beam01
+	roughness 1
+	hardness 3.51931
+	specularity 2.48927
+	parallax 0.5
+}
+{
+	material aggressor/e7beam02
+	roughness 1
+	hardness 2
+	specularity 10
+	parallax 0.5
+}
+{
+	material aggressor/e7bmtrim
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 2
+}
+{
+	material aggressor/e7bmtrim3
+	roughness 1
+	hardness 2
+	specularity 10
+	parallax 0.5
+}
+{
+	material aggressor/e7bmtrim4
+	roughness 1
+	hardness 2
+	specularity 10
+	parallax 0.5
+}
+{
+	material aggressor/e7brickfloor01
+	roughness 1.97425
+	hardness 3.5
+	specularity 3.3
+	parallax 1.0
+}
+{
+	material aggressor/e7brnmetal
+	roughness 1.0
+	hardness 2.3
+	specularity 4.5
+	parallax 0
+}
+{
+	material aggressor/e7panelwood
+	roughness 0
+	hardness 3.6
+	specularity 0.6
+	parallax 0
+}
+{
+	material aggressor/e7panelwood2
+	roughness 1
+	hardness 0.5
+	specularity 1
+	parallax 0.5
+}
+{
+	material aggressor/e7sbrickfloor
+	roughness 1.03004
+	hardness 1.97425
+	specularity 1.45923
+	parallax 0
+}
+{
+	material aggressor/e7trim01
+	roughness 1
+	hardness 5
+	specularity 10
+	parallax 0.5
+}
+{
+	material aggressor/e7trim02
+	roughness 1
+	hardness 5
+	specularity 10
+	parallax 0.5
+}
+{
+	material aggressor/e7walldesign01
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 0.5
+}
+{
+	material aggressor/e7walldesign01b
+	roughness 1.03004
+	hardness 0.772532
+	specularity 2.48927
+	parallax 0.343348
+}
+{
+	material aggressor/e8_rlight
+	roughness 1
+	hardness 2
+	specularity 4
+	parallax 4
+	{
+		flare 0
+	}
+}
+{
+	material aggressor/floorfx
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	{
+		texture aggressor/floorfx_fx
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.3 0.3 0.3
+		pulse 1
+		stretch 0.5 1
+	}
+}
+{
+	material aggressor/pool3d_3e
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 0.5
+}
+{
+	material aggressor/steel_bev
+	roughness 1
+	hardness 8
+	specularity 8
+	parallax 0.5
+}
+{
+	material common/caulk
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/clip
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/hint
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/white
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}

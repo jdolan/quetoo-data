@@ -1,0 +1,262 @@
+{
+	material spacectf/bluebeam
+	{
+		texture spacectf/bluebeam
+		pulse 1.0
+	}
+}
+{
+	material spacectf/cyanbeam
+	{
+		texture spacectf/cyanbeam
+		pulse 1.0
+	}
+}
+{
+	material spacectf/greenbeam
+	{
+		texture spacectf/greenbeam
+		pulse 1.0
+	}
+}
+{
+	material spacectf/orangebeam
+	{
+		texture spacectf/orangebeam
+		pulse 1.0
+	}
+}
+{
+	material spacectf/redbeam
+	{
+		texture spacectf/redbeam
+		pulse 1.0
+	}
+}
+{
+	material spacectf/whitebeam
+	{
+		texture spacectf/whitebeam
+		pulse 1.0
+	}
+}
+
+{
+	material spacectf/yellowbeam
+	{
+		texture spacectf/yellowbeam
+		pulse 1.0
+	}
+}
+{
+	material spacectf/glass
+	{
+		envmap spacectf/glass
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material spacectf/r_trim_17
+	roughness 3.0
+	hardness 2.0
+	parallax 1.0
+	specularity 8.0
+}
+{
+	material spacectf/u_floor3
+	roughness 2.0
+	hardness 1.5
+	parallax 1.0
+	specularity 2.5
+}
+{
+	material spacectf/u_floor3_pad_6
+	{
+		texture spacectf/u_floor3_pad_7b_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	roughness 2.0
+	hardness 1.5
+	parallax 1.0
+	specularity 2.5
+}
+{
+	material spacectf/u_floor3_pad_6_red
+	{
+		texture spacectf/u_floor3_pad_6_red_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	roughness 2.0
+	hardness 1.5
+	parallax 1.0
+	specularity 2.5
+}
+{
+	material spacectf/u_floor3_pad_7b
+	{
+		texture spacectf/u_floor3_pad_7b_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	roughness 2.0
+	hardness 1.5
+	parallax 1.0
+	specularity 2.5
+}
+{
+	material spacectf/u_floor3_pad_7b_red
+	{
+		texture spacectf/u_floor3_pad_7b_red_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	roughness 2.0
+	hardness 1.5
+	parallax 1.0
+	specularity 2.5
+}
+{
+	material spacectf/u_floor_pan3
+	roughness 1.0
+	hardness 3.0
+	parallax 1.0
+	specularity 12.0
+}
+{
+	material spacectf/u_floor_pan4_l
+	{
+		texture spacectf/u_floor_pan4_l_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	roughness 2.0
+	hardness 1.5
+	parallax 1.0
+	specularity 2.5
+}
+{
+	material spacectf/u_floor_pan4_l_red
+	{
+		texture spacectf/u_floor_pan4_l_red_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	roughness 2.0
+	hardness 1.5
+	parallax 1.0
+	specularity 2.5
+}
+{
+	material spacectf/u_py1_blue
+	roughness 1.0
+	hardness 2.0
+	parallax 1.0
+	specularity 1.0
+	{
+		texture spacectf/u_py1_blue_glow
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.4
+	}
+	{
+		flare 0
+		color 0.0 0.0 1.0
+	}
+}
+{
+	material spacectf/u_py1_red
+	roughness 1.0
+	hardness 2.0
+	parallax 1.0
+	specularity 1.0
+	{
+		texture spacectf/u_py1_red_glow
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.4
+	}
+	{
+		flare 0
+		color 1.0 0.0 0.0
+	}
+}
+{
+	material spacectf/u_thinline1
+	roughness 2.0
+	hardness 2.0
+	parallax 2.0
+	specularity 8.0
+}
+{
+	material spacectf/u_trlightline_blue
+	{
+		texture spacectf/u_trlightline_blue_blend
+		pulse 0.2
+		scroll.s 0.1
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	roughness 2.0
+	hardness 1.0
+	parallax 1.0
+	specularity 5.0
+}
+{
+	material spacectf/u_trlightline_red
+	{
+		texture spacectf/u_trlightline_red_blend
+		pulse 0.2
+		scroll.s 0.1
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	roughness 2.0
+	hardness 1.0
+	parallax 1.0
+	specularity 5.0
+}
+{
+	material spacectf/ubase4
+	roughness 1.0
+	hardness 2.0
+	parallax 1.0
+	specularity 1.0
+}
+{
+	material spacectf/ubase_trim447
+	roughness 2.0
+	hardness 1.0
+	parallax 1.0
+	specularity 1.0
+}
+{
+	material spacectf/u_lamplong1b_blue
+	{
+		texture spacectf/u_lamplong1b_blue_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare 0
+		color 0.3 0.3 1.0
+	}
+	roughness 2.0
+	hardness 1.5
+	parallax 1.0
+	specularity 4.0
+}
+
+{
+	material spacectf/u_lamplong1b_red
+	{
+		texture spacectf/u_lamplong1b_red_blend
+		pulse 1.0
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare 0
+		color 1.0 0.3 0.3
+	}
+	roughness 2.0
+	hardness 1.5
+	parallax 1.0
+	specularity 4.0
+}

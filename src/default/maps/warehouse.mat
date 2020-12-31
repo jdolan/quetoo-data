@@ -1,0 +1,370 @@
+{
+	material common/caulk
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/clip
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/sky
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/trigger
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material warehouse/baseltwhite_c
+	roughness 1.2
+	hardness 2.8
+	specularity 0.7
+	parallax 1
+	surface "light"
+	light 200
+	{
+		texture warehouse/baseltwhite_cfx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material warehouse/conveyor
+	roughness 0.8
+	hardness 3.2
+	specularity 2.4
+	parallax 0.5
+	footsteps metal
+	{
+		texture warehouse/conveyor_belt
+		blend GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		scroll.t 0.78
+		scale.s 1
+		scale.t 1
+	}
+}
+{
+	material warehouse/crate_blue
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+}
+{
+	material warehouse/crate_green
+	normalmap warehouse/crate_blue_nm
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+}
+{
+	material warehouse/crate_red
+	normalmap warehouse/crate_blue_nm
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+}
+{
+	material warehouse/crate_yellow
+	normalmap warehouse/crate_blue_nm
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+}
+{
+	material warehouse/cratetop_blue
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+	footsteps metal
+}
+{
+	material warehouse/cratetop_green
+	normalmap warehouse/cratetop_blue_nm
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+	footsteps metal
+}
+{
+	material warehouse/cratetop_red
+	normalmap warehouse/cratetop_blue_nm
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+	footsteps metal
+}
+{
+	material warehouse/cratetop_yellow
+	normalmap warehouse/cratetop_blue_nm
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+	footsteps metal
+}
+{
+	material warehouse/fmetal1
+	roughness 1.2
+	hardness 1.5
+	specularity 1.5
+	parallax 1
+	footsteps metal
+}
+{
+	material warehouse/fmetal2
+	roughness 1.2
+	hardness 1.5
+	specularity 1.5
+	parallax 1
+	footsteps metal
+}
+{
+	material warehouse/fmetal3
+	normalmap warehouse/fmetal2_nm
+	roughness 1.2
+	hardness 1.55102
+	specularity 1.14286
+	parallax 2.04082
+}
+{
+	material warehouse/fmetalvent
+	roughness 1.2
+	hardness 2
+	specularity 1.6
+	parallax 1.5
+}
+{
+	material warehouse/greeble
+	roughness 0.8
+	hardness 2.4
+	specularity 2
+	parallax 0.2
+}
+{
+	material warehouse/light1
+	roughness 2
+	hardness 3
+	specularity 3
+	parallax 1
+	surface "light"
+	light 200
+	{
+		texture warehouse/light1_fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		color 0.5 0.478 0.685 1
+		flare 2
+	}
+}
+{
+	material warehouse/ltrim_blue
+	roughness 1
+	hardness 2
+	specularity 3
+	parallax 1
+	footsteps metal
+	{
+		texture warehouse/ltrim_blue_fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material warehouse/ltrim_orange
+	normalmap warehouse/ltrim_blue_nm
+	roughness 1
+	hardness 2
+	specularity 3
+	parallax 1
+	footsteps metal
+	{
+		texture warehouse/ltrim_orange_fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material warehouse/metal1_7
+	roughness 1.2
+	hardness 1.8
+	specularity 2
+	parallax 1.8
+}
+{
+	material warehouse/metal1_7b
+	normalmap warehouse/metal1_7_nm
+	roughness 1.2
+	hardness 1.8
+	specularity 2
+	parallax 1.8
+}
+{
+	material warehouse/metal4_2
+	roughness 2.44898
+	hardness 1.5
+	specularity 0.979592
+	parallax 0.979592
+}
+{
+	material warehouse/metal4_2a
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
+}
+{
+	material warehouse/metal4_2light
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
+	{
+		texture warehouse/metal4_2lightfx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material warehouse/metal5_1
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
+}
+{
+	material warehouse/metal6_2
+	normalmap warehouse/metal5_1_nm
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
+}
+{
+	material warehouse/metalbase03
+	roughness 1.2
+	hardness 1.5
+	specularity 2
+	parallax 0
+}
+{
+	material warehouse/metals_1
+	normalmap warehouse/metal4_2_nm
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
+}
+{
+	material warehouse/metals_1a
+	normalmap warehouse/metal4_2a_nm
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
+}
+{
+	material warehouse/metals_1b
+	normalmap warehouse/metal4_2a_nm
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
+}
+{
+	material warehouse/stair
+	roughness 0.8
+	hardness 2
+	specularity 2
+	parallax 1
+	footsteps metal
+}
+{
+	material warehouse/stairtrim
+	roughness 0.8
+	hardness 2
+	specularity 2
+	parallax 1
+}
+{
+	material warehouse/stroggwall1_256b
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material warehouse/subdr_bann
+	roughness 0.8
+	hardness 1
+	specularity 1
+	parallax 0.8
+}
+{
+	material warehouse/tampon1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material warehouse/treadplate
+	roughness 0.8
+	hardness 2
+	specularity 2
+	parallax 1
+	footsteps metal
+}
+{
+	material warehouse/trim6e
+	roughness 1.5
+	hardness 2.7
+	specularity 0.7
+	parallax 1
+	footsteps metal
+}
+{
+	material warehouse/trim_botm
+	normalmap warehouse/trim_plat_nm
+	roughness 1
+	hardness 2.5
+	specularity 1.7
+	parallax 1
+}
+{
+	material warehouse/trim_plat
+	normalmap warehouse/trim_plat_nm
+	roughness 1
+	hardness 2.5
+	specularity 1.7
+	parallax 1
+}
+{
+	material warehouse/venttrim
+	roughness 1
+	hardness 2
+	specularity 2.5
+	parallax 1
+}
+{
+	material warehouse/wmetl6_1
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+}

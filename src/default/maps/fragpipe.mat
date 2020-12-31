@@ -1,0 +1,346 @@
+{
+	material common/caulk
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/clip
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/origin
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/sky
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fragpipe/brlava
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	surface "light"
+	light 100
+	{
+		texture fragpipe/brlava1
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s 0.02
+		warp 0.125 0.25
+	}
+	{
+		texture fragpipe/brlava1
+		blend GL_ONE GL_ONE
+		scroll.t 0.02
+		warp 0.125 0.25
+	}
+}
+{
+	material fragpipe/btactmach0
+	roughness 1.4
+	hardness 1.4
+	specularity 1
+	parallax 1
+	{
+		texture fragpipe/btactmach0fx1
+		blend GL_SRC_ALPHA GL_ONE
+		anim 2 0
+	}
+}
+{
+	material fragpipe/ceil1_4
+	roughness 3
+	hardness 2
+	specularity 0.5
+	parallax 7.67347
+	surface "light"
+	light 220
+	{
+		texture fragpipe/ceil1_4fx
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 4
+	}
+	{
+		color 0.8 0.6 0.35 1
+		flare 2
+	}
+}
+{
+	material fragpipe/color1_1
+	roughness 2
+	hardness 1.5
+	specularity 1.4
+	parallax 0.979592
+}
+{
+	material fragpipe/color1_3
+	roughness 0.979592
+	hardness 4.2449
+	specularity 2
+	parallax 0.653061
+}
+{
+	material fragpipe/dr02_2
+	roughness 1.3
+	hardness 3.3
+	specularity 2.7
+	parallax 0.7
+}
+{
+	material fragpipe/fanshade_fx
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	surface "blend_100 material decal"
+	{
+		texture fragpipe/fanshade_fx
+		rotate 0.25
+		lightmap
+	}
+}
+{
+	material fragpipe/floor1_3
+	roughness 1.4
+	hardness 1.5
+	specularity 1
+	parallax 0.4
+}
+{
+	material fragpipe/floor3_1
+	roughness 0.653061
+	hardness 2.5
+	specularity 1.5
+	parallax 1.22449
+}
+{
+	material fragpipe/ggrat12_2
+	normalmap fragpipe/grate2_7_nm
+	roughness 1.38776
+	hardness 1.5
+	specularity 1.8
+	parallax 1.14286
+}
+{
+	material fragpipe/ggrat12_2heat
+	normalmap fragpipe/grate2_7_nm
+	roughness 1.06122
+	hardness 1.5
+	specularity 1.8
+	parallax 0.979592
+	{
+		texture fragpipe/glowedge256
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material fragpipe/grate1_5
+	roughness 2
+	hardness 1.8
+	specularity 1
+	parallax 1.46939
+}
+{
+	material fragpipe/grate2_7
+	roughness 0.979592
+	hardness 1.5
+	specularity 1.8
+	parallax 1.38776
+}
+{
+	material fragpipe/grate2_7down
+	roughness 0.8
+	hardness 1.5
+	specularity 1.8
+	parallax 0.7
+	{
+		texture fragpipe/glowlavadown
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material fragpipe/grate2_7heat
+	normalmap fragpipe/grate2_7_nm
+	roughness 0.8
+	hardness 1.5
+	specularity 1.8
+	parallax 0.7
+	{
+		texture fragpipe/glowedge256
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material fragpipe/grate2_7low
+	roughness 0.8
+	hardness 1.5
+	specularity 1.8
+	parallax 0.7
+	{
+		texture fragpipe/glowlavalow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material fragpipe/metal14_1
+	roughness 1.38776
+	hardness 2.5
+	specularity 1.2
+	parallax 0
+}
+{
+	material fragpipe/metal14_1edge
+	roughness 1.46939
+	hardness 2.5
+	specularity 1.2
+	parallax 0
+}
+{
+	material fragpipe/metal3_1
+	roughness 1.14286
+	hardness 1.8
+	specularity 2
+	parallax 0
+}
+{
+	material fragpipe/metal3_2
+	roughness 1.38776
+	hardness 1.8
+	specularity 2
+	parallax 0.979592
+}
+{
+	material fragpipe/metal3_3
+	roughness 0.8
+	hardness 1.8
+	specularity 2
+	parallax 1
+}
+{
+	material fragpipe/metal3_3q2decal
+	roughness 1
+	hardness 1.8
+	specularity 2
+	parallax 1.79592
+}
+{
+	material fragpipe/metal3_4
+	roughness 1.5
+	hardness 3.3
+	specularity 0.8
+	parallax 0.2
+}
+{
+	material fragpipe/metal_subslime
+	roughness 1.5
+	hardness 2
+	specularity 2.6
+	parallax 1
+	{
+		texture fragpipe/slime_glowedge
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material fragpipe/metalbase2
+	roughness 3.5
+	hardness 1.8
+	specularity 0.7
+	parallax 0.7
+}
+{
+	material fragpipe/metals_3
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fragpipe/metl12_1
+	roughness 1.8
+	hardness 1
+	specularity 1
+	parallax 1.63265
+}
+{
+	material fragpipe/metl_floor
+	roughness 1.5
+	hardness 1.2
+	specularity 0.8
+	parallax 0.2
+}
+{
+	material fragpipe/sewer_bars
+	roughness 2.5
+	hardness 3
+	specularity 1
+	parallax 0.979592
+}
+{
+	material fragpipe/slime0
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	surface "light blend_66"
+	light 80
+	{
+		texture fragpipe/slimefx1
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s 0.04
+		scroll.t 0.08
+		scale.s 0.8
+		scale.t 0.75
+		warp 0.5 0.5
+	}
+	{
+		texture fragpipe/slimefx2
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s 0.04
+		scroll.t -0.08
+		scale.s 0.9
+		scale.t 0.9
+		warp 0.5 0.5
+	}
+}
+{
+	material fragpipe/steps
+	roughness 1.5
+	hardness 3
+	specularity 1.8
+	parallax 0.897959
+}
+{
+	material fragpipe/subslimebotm
+	normalmap fragpipe/metl_floor_nm
+	roughness 2
+	hardness 1.2
+	specularity 0.8
+	parallax 0.7
+}
+{
+	material fragpipe/wbasic1_4
+	roughness 2.28571
+	hardness 1.5
+	specularity 1.5
+	parallax 1.46939
+}
+{
+	material fragpipe/wndow1_2
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}

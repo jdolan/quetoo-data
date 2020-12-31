@@ -1,0 +1,235 @@
+{
+	material devolver/base_01
+	roughness 15.0
+	hardness 1.5
+	parallax 1.0
+	specularity 2.0
+}
+{
+	material devolver/base_02
+	roughness 15.0
+	hardness 2.0
+	specularity 3.0
+}
+{
+	material devolver/base_03
+	roughness 15.0
+	hardness 3.0
+	parallax 1.0
+	specularity 4.0
+}
+{
+	material devolver/base_04
+	roughness 20.0
+	hardness 2.0
+	parallax 1.0
+	specularity 3.0
+}
+{
+	material devolver/bluebeam
+	{
+		texture devolver/bluebeam
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 1.0
+	}
+}
+{
+	material devolver/build_grill_01
+	roughness 6.0
+	hardness 1.7
+	parallax 1.0
+	specularity 6.0
+}
+{
+	material devolver/build_grill_03
+	roughness 8.0
+	hardness 1.5
+	parallax 1.0
+	specularity 4.0
+}
+{
+	material devolver/circuit
+	{
+		texture devolver/circuit.blend
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.25
+	}
+}
+{
+	material devolver/e6boltstrip
+	roughness 4.0
+	hardness 2.0
+	parallax 1.0
+	specularity 4.0
+}
+{
+	material devolver/e6boltstrip2
+	roughness 4.0
+	hardness 2.0
+	parallax 1.0
+	specularity 4.0
+}
+{
+	material devolver/e6bsegrtflr256
+	roughness 4.0
+	hardness 3.0
+	parallax 1.0
+	specularity 6.0
+}
+{
+	material devolver/e6panelgrill
+	roughness 4.0
+	hardness 2.0
+	parallax 1.5
+	specularity 8.0
+}
+{
+	material devolver/e6cyb0rpipes
+	roughness 10.0
+	hardness 1.5
+	parallax 2.0
+	specularity 4.0
+}
+{
+	material devolver/e8_mtlwall1
+	roughness 8.0
+	hardness 1.5
+	parallax 1.5
+	specularity 4.0
+}
+{
+	material devolver/e8_mtlwall1b
+	roughness 8.0
+	parallax 1.5
+	hardness 1.5
+	specularity 4.0
+}
+{
+	material devolver/e8xgirder
+	roughness 4.0
+	hardness 2.0
+	parallax 1.5
+	specularity 3.0
+}
+{
+	material devolver/floor_01
+	roughness 4.0
+	hardness 1.8
+	parallax 1.0
+	specularity 2.0
+}
+{
+	material devolver/glass
+	{
+		envmap devolver/glass
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material devolver/s128-03a
+	roughness 8.0
+	hardness 2.5
+	parallax 1.0
+	specularity 4.0
+}
+{
+	material devolver/tec_wallblock_02
+	roughness 4.0
+	hardness 2.0
+	parallax 1.5
+	specularity 4.0
+}
+{
+	material devolver/tec_wall_support
+	roughness 20.0
+	hardness 1.5
+	parallax 1.0
+	specularity 12.0
+}
+{
+	material devolver/tile-floor_01
+	roughness 8.0
+	hardness 2.0
+	parallax 1.0
+	specularity 4.0
+}
+{
+	material devolver/trak3_light1a
+	{
+		texture devolver/trak3_light1a.blend
+	}
+	{
+		flare 0
+	}
+}
+{
+	material devolver/small_trim_01_b
+	roughness 4.0
+	hardness 4.0
+	parallax 1.0
+	specularity 8.0
+}
+{
+	material devolver/tec_trim_02_a
+	roughness 4.0
+	hardness 4.0
+	parallax 1.0
+	specularity 8.0
+}
+{
+	material devolver/tec_wall_rough_01
+	roughness 6.0
+	hardness 1.5
+	parallax 1.0
+	specularity 4.0
+}
+{
+	material devolver/tec_wall_rough_04
+	roughness 6.0
+	hardness 1.5
+	parallax 1.0
+	specularity 4.0
+}
+{
+	material devolver/vertical_trim_01
+	roughness 8.0
+	hardness 3.0
+	parallax 1.5
+	specularity 8.0
+}
+{
+	material devolver/vertical_trim_02_a
+	roughness 4.0
+	hardness 4.0
+	parallax 1.5
+	specularity 12.0
+}
+{
+	material devolver/vertical_trim_02_b
+	roughness 4.0
+	hardness 4.0
+	parallax 1.5
+	specularity 12.0
+}
+{
+	material devolver/wall_support_02_a_base
+	roughness 8.0
+	hardness 2.0
+	parallax 1.0
+	specularity 8.0
+}
+{
+	material devolver/wall_support_04_a
+	roughness 10.0
+	hardness 2.0
+	parallax 1.0
+	specularity 6.0
+}
+{
+	material devolver/wall_support_05_b
+	roughness 10.0
+	hardness 1.5
+	parallax 1.0
+	specularity 12.0
+}
+

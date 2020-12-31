@@ -1,0 +1,88 @@
+{
+	material rygel-quake/#04water1
+	normalmap rygel-quake/#04water1_nm
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+	parallax 1.0
+}
+{
+	material rygel-quake/#teleport
+	normalmap rygel-quake/#teleport_nm
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+	parallax 1.0
+}
+{
+	material rygel-quake/city2_6
+	normalmap rygel-quake/city2_6_nm
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+	parallax 2.0
+}
+{
+	material rygel-quake/city2_7
+	normalmap rygel-quake/city2_7_nm
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+	parallax 1.0
+}
+{
+	material rygel-quake/city2_8
+	normalmap rygel-quake/city2_8_nm
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+	parallax 1.0
+}
+{
+	material rygel-quake/city4_2
+	normalmap rygel-quake/city4_2_nm
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+	parallax 1.0
+}
+{
+	material rygel-quake/cop1_1
+	normalmap rygel-quake/cop1_1_nm
+	roughness 1.0
+	hardness 3.0
+	specularity 2.0
+	parallax 0.0
+}
+{
+	material rygel-quake/cop1_7
+	normalmap rygel-quake/cop1_7_nm
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+	parallax 1.0
+}
+{
+	material rygel-quake/ground1_5
+	normalmap rygel-quake/ground1_5_nm
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+	parallax 1.0
+}
+{
+	material rygel-quake/metal4_4
+	normalmap rygel-quake/metal4_4_nm
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+	parallax 1.0
+}
+{
+	material rygel-quake/wmet4_8
+	normalmap rygel-quake/wmet4_8_nm
+	roughness 1.0
+	hardness 2.0
+	specularity 2.0
+	parallax 1.6
+}

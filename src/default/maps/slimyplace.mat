@@ -1,0 +1,298 @@
+{
+	material common/caulk
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/clip
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/fog
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/hint
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/skip
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/alienpuke
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	surface "blend_100 decal"
+}
+{
+	material slimyplace/btactmach0
+	roughness 1
+	hardness 4.5
+	specularity 1
+	parallax 1
+	{
+		texture slimyplace/btactmach0fx1
+		blend GL_SRC_ALPHA GL_ONE
+		anim 2 0
+	}
+}
+{
+	material slimyplace/ceil1_4
+	roughness 1
+	hardness 4.5
+	specularity 1
+	parallax 3
+	surface "light"
+	light 200
+	{
+		texture slimyplace/ceil1_4fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		color 0.8 0.6 0.35 1
+		scale.s 0.75
+		scale.t 0.75
+		flare 2
+	}
+}
+{
+	material slimyplace/ceil1_lime
+	normalmap slimyplace/ceil1_4_nm
+	roughness 1
+	hardness 4.5
+	specularity 1
+	parallax 3
+	surface "light"
+	light 180
+	{
+		texture slimyplace/ceil1_limefx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		color 0.7 0.8 0.5 1
+		scale.s 0.75
+		scale.t 0.75
+		flare 2
+	}
+}
+{
+	material slimyplace/floor2_7
+	roughness 1
+	hardness 2.8
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/fmet1_2
+	roughness 1
+	hardness 1.7
+	specularity 1
+	parallax 0
+}
+{
+	material slimyplace/grate1_4
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/grnx2_1
+	roughness 1
+	hardness 3
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/grnx2_2
+	roughness 1
+	hardness 3
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/grnx2_3
+	roughness 1
+	hardness 3
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/lead1_3
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 0
+}
+{
+	material slimyplace/metal15_2basic
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/metal15_2sml
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/metal16trim_g
+	roughness 1
+	hardness 2.5
+	specularity 1
+	parallax 0.4
+}
+{
+	material slimyplace/metal17_1
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/metal17_2
+	normalmap slimyplace/metal17_1_nm
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/metal1_1half
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/metal1_1side
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/metal2_1
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/metal_subslime
+	normalmap slimyplace/metal1_1_nm
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 1
+	{
+		texture slimyplace/slime_glowedge
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material slimyplace/ometal2_1
+	roughness 1
+	hardness 1.2
+	specularity 1
+	parallax 0.4
+}
+{
+	material slimyplace/ometal2_1sub
+	normalmap slimyplace/ometal2_1_nm
+	roughness 1
+	hardness 1.2
+	specularity 1
+	parallax 0.4
+	{
+		texture slimyplace/slime_glowedge
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material slimyplace/pilr01_3
+	roughness 1
+	hardness 2.5
+	specularity 1
+	parallax 0
+}
+{
+	material slimyplace/sewer2_bars
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+}
+{
+	material slimyplace/slime0
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	surface "light blend_66"
+	light 48
+	{
+		texture slimyplace/slimefx1
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s 0.04
+		scroll.t 0.08
+		scale.s 0.8
+		scale.t 0.75
+		warp 0.5 0.5
+	}
+	{
+		texture slimyplace/slimefx2
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s 0.04
+		scroll.t -0.08
+		scale.s 0.9
+		scale.t 0.9
+		warp 0.5 0.5
+	}
+}
+{
+	material slimyplace/subslimebotm
+	roughness 1
+	hardness 1.2
+	specularity 1
+	parallax 0.7
+}
+{
+	material slimyplace/wlight1g
+	roughness 1
+	hardness 3.5
+	specularity 1
+	parallax 1.2
+	surface "light"
+	light 300
+	{
+		texture slimyplace/wlight1gfx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		color 0.9043 0.7275 0.4012 1
+		scale.s 1.25
+		scale.t 1.25
+		flare 0
+	}
+}

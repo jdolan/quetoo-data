@@ -1,0 +1,245 @@
+{
+	material catfight/e8_base1_noise
+	roughness 800.0
+	hardness 1.0
+	parallax 1.0
+	specularity 1.5
+}
+{
+	material catfight/e8crete03_dark
+	roughness 4.0
+	hardness 1.0
+	parallax 1.0
+	specularity 1.0
+}
+{
+	material catfight/e8crete03b_dark
+	roughness 8.0
+	hardness 1.0
+	parallax 1.0
+	specularity 1.0
+}
+{
+	material catfight/e8crete03c_dark
+	roughness 2.0
+	hardness 1.0
+	parallax 1.0
+	specularity 1.0
+}
+{
+	material catfight/e8cretefloor01b
+	roughness 2.0
+	hardness 3.0
+	parallax 1.5
+	specularity 1.0
+}
+{
+	material catfight/payne_fish
+	roughness 4.0
+	hardness 1.5
+	parallax 1.0
+	specularity 8.0
+}
+{
+	material catfight/payne_fish_mirrored
+	roughness 4.0
+	hardness 1.5
+	parallax 1.0
+	specularity 8.0
+}
+{
+	material catfight/red
+	roughness 1.0
+	hardness 1.0
+	parallax 1.0
+	specularity 1.0
+	{
+		flare 0
+	}
+}
+{
+	material catfight/snow_m
+	roughness 6.0
+	hardness 1.5
+	parallax 1.0
+	specularity 2.0
+}
+{
+	material catfight/u_45deg2
+	roughness 20.0
+	hardness 1.5
+	parallax 1.0
+	specularity 2.0
+}
+{
+	material catfight/u_floor
+	roughness 2.0
+	hardness 2.0
+	parallax 1.0
+	specularity 4.0
+}
+{
+	material catfight/u_gr8_6
+	roughness 1.0
+	hardness 1.0
+	parallax 1.0
+	specularity 1.0
+}
+{
+	material catfight/u_lamp1
+	roughness 1.0
+	hardness 1.0
+	parallax 1.0
+	specularity 1.0
+	{
+		texture catfight/u_lamp_blend
+		blend GL_SRC_ALPHA GL_ONE
+		pulse .5
+	}
+
+}
+{
+	material catfight/u_lamp3
+	roughness 1.0
+	hardness 1.0
+	parallax 1.0
+	specularity 1.0
+	{
+		flare 0
+		color 1.0 1.0 1.0
+	}
+}
+{
+	material catfight/u_lamp4
+	roughness 1.0
+	hardness 1.0
+	parallax 1.0
+	specularity 1.0
+	{
+		flare 0
+		color 1.0 1.0 1.0
+	}
+}
+{
+	material catfight/u_lamp4_blue
+	roughness 1.0
+	hardness 1.0
+	parallax 1.0
+	specularity 1.0
+	{
+		flare 0
+	}
+}
+{
+	material catfight/u_lamplong1b
+	roughness 1.0
+	hardness 2.0
+	parallax 1.0
+	specularity 2.0
+	{
+		texture catfight/u_lamplong1b_fx
+		pulse 1.0
+	}
+	{
+		flare 0
+	}
+}
+{
+	material catfight/u_pan1
+	roughness 30.0
+	hardness 1.0
+	parallax 1.0
+	specularity 10.0
+}
+{
+	material catfight/u_pan12_or2_qlogo
+	roughness 10.0
+	hardness 3.0
+	parallax 1.0
+	specularity 20.0
+}
+{
+	material catfight/u_pan12_or_qlogo
+	roughness 10.0
+	hardness 3.0
+	parallax 1.0
+	specularity 20.0
+}
+{
+	material catfight/u_pan1_grid1
+	roughness 30.0
+	hardness 1.0
+	parallax 1.0
+	specularity 10.0
+}
+{
+	material catfight/u_pan_6
+	roughness 30.0
+	hardness 1.0
+	parallax 1.0
+	specularity 10.0
+}
+{
+	material catfight/ubase4b
+	roughness 30.0
+	hardness 1.0
+	parallax 1.0
+	specularity 10.0
+}
+{
+	material catfight/ubase6
+	roughness 30.0
+	hardness 1.0
+	parallax 1.0
+	specularity 10.0
+}
+{
+	material catfight/ubase_pan1b
+	roughness 30.0
+	hardness 1.0
+	parallax 1.0
+	specularity 10.0
+}
+{
+	material catfight/ubase_pan1b_fish1
+	roughness 30.0
+	hardness 1.0
+	parallax 1.0
+	specularity 10.0
+}
+{
+	material catfight/ubase_pan1b_fish2
+	roughness 30.0
+	hardness 1.0
+	parallax 1.0
+	specularity 10.0
+}
+{
+	material catfight/ubase_pan1b_lcd
+	roughness 30.0
+	hardness 1.0
+	parallax 1.0
+	specularity 10.0
+}
+{
+	material catfight/ubase_pan1b_satgnu
+	roughness 30.0
+	hardness 1.0
+	parallax 1.0
+	specularity 10.0
+}
+{
+	material catfight/ubase_pan2
+	roughness 30.0
+	hardness 1.0
+	parallax 1.0
+	specularity 10.0
+}
+{
+	material catfight/ubase_pan4
+	roughness 30.0
+	hardness 1.0
+	parallax 1.0
+	specularity 10.0
+}
+

@@ -21,41 +21,33 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
 	# -bsp $"/>
 
-  <key name="bsp_Quemap BSP, Fast VIS"
+  <key name="bsp_Quemap Lighting"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -vis -fast $"/>
+	# -bsp -light $"/>
 
-  <key name="bsp_Quemap BSP, Fast VIS, Light"
+  <key name="bsp_Quemap Antialiased Lighting"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -vis -fast -light $"/>
-
-  <key name="bsp_Quemap BSP, Full VIS, Extra Light"
-    value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -vis -light -extra $"/>
+	# -bsp -light --antialias $"/>
 
   <key name="bsp_Quemap Entities"
     value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -onlyents $"/>
-
-  <key name="bsp_Quemap Relight"
-    value="! &quot;$TEMPLATEexecpath/quemap&quot;
-	# -bsp -onlyents -light $"/>
+	# -bsp --onlyents $"/>
 
   <!-- Surface and contents keys used by the idTech2 Shaders API -->
   <key name="surf1" value="Light" />
   <key name="surf2" value="Slick" />
   <key name="surf3" value="Sky" />
-  <key name="surf4" value="Warp" />
+  <key name="surf4" value="Liquid" />
   <key name="surf5" value="33% Alpha" />
   <key name="surf6" value="66% Alpha" />
-  <key name="surf7" value="Flowing" />
+  <key name="surf7" value="100% Alpha" />
   <key name="surf8" value="No Draw" />
   <key name="surf9" value="Hint" />
   <key name="surf10" value="Skip" />
   <key name="surf11" value="Alpha Test" />
   <key name="surf12" value="Phong" />
   <key name="surf13" value="Material" />
-  <key name="surf14" value="" />
+  <key name="surf14" value="Decal" />
   <key name="surf15" value="" />
   <key name="surf16" value="" />
   <key name="surf17" value="" />
@@ -70,13 +62,13 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
   <key name="surf26" value="" />
   <key name="surf27" value="" />
   <key name="surf28" value="" />
-  <key name="surf29" value="" />
+  <key name="surf29" value="Debug Luxels" />
   <key name="surf30" value="" />
   <key name="surf31" value="" />
   <key name="surf32" value="" />
   <key name="cont1" value="Solid" />
   <key name="cont2" value="Window" />
-  <key name="cont3" value="Aux" />
+  <key name="cont3" value="" />
   <key name="cont4" value="Lava" />
   <key name="cont5" value="Slime" />
   <key name="cont6" value="Water" />
@@ -89,20 +81,20 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
   <key name="cont13" value="" />
   <key name="cont14" value="" />
   <key name="cont15" value="" />
-  <key name="cont16" value="Area Portal" />
+  <key name="cont16" value="Occlusion Query" />
   <key name="cont17" value="Player Clip"/>
-  <key name="cont18" value="AI Clip" />
-  <key name="cont19" value="Current 0��" />
-  <key name="cont20" value="Current 90��" />
-  <key name="cont21" value="Current 180��" />
-  <key name="cont22" value="Current 270��" />
+  <key name="cont18" value="Monster Clip" />
+  <key name="cont19" value="Current 0" />
+  <key name="cont20" value="Current 90" />
+  <key name="cont21" value="Current 180" />
+  <key name="cont22" value="Current 270" />
   <key name="cont23" value="Current Up" />
   <key name="cont24" value="Current Down" />
   <key name="cont25" value="Origin" />
-  <key name="cont26" value="Monster" />
-  <key name="cont27" value="Dead Monster" />
+  <key name="cont26" value="" />
+  <key name="cont27" value="" />
   <key name="cont28" value="Detail" />
-  <key name="cont29" value="Translucent" />
+  <key name="cont29" value="" />
   <key name="cont30" value="Ladder" />
 </project>
 

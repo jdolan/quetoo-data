@@ -25,41 +25,41 @@
 {
 	name warehouse
 }
-{
-	name aerowalk
-}
-{
-	name darkzone
-}
-{
-	name omf
-}
-{
-	name fractures
-}
-{
-	name grunt
-}
-{
-	name gym
-}
-{
-	name gehenna
-}
-{
-	name lilith
-}
+#{
+#	name aerowalk
+#}
+#{
+#	name darkzone
+#}
+#{
+#	name omf
+#}
+#{
+#	name fractures
+#}
+#{
+#	name grunt
+#}
+#{
+#	name gym
+#}
+#{
+#	name gehenna
+#}
+#{
+#	name lilith
+#}
 {
 	name torn
 }
-{
-	name turbo
-}
-{
-	name trial
-}
-{
-	name wake
-}
+#{
+#	name turbo
+#}
+#{
+#	name trial
+#}
+#{
+#	name wake
+#}
 
 # End of file
