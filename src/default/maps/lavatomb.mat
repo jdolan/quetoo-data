@@ -1,89 +1,98 @@
 {
 	material lavatomb/brlava
-	light 80
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	surface "blend_66 light"
+	light 96
 	{
 		texture lavatomb/brlava1
 		blend GL_SRC_ALPHA GL_ONE
-		scroll.s -0.02
+		scroll.s 0.02
+		warp 0.125 0.25
 	}
 	{
 		texture lavatomb/brlava1
 		blend GL_ONE GL_ONE
 		scroll.t 0.02
+		warp 0.125 0.25
 	}
 }
 {
 	material lavatomb/ceil1_4
-	roughness 3.0
-	hardness 2.0
+	roughness 3
+	hardness 2
 	specularity 0.5
-	parallax 2.0
-	light 240
+	parallax 2
+	light 140
 	{
 		texture lavatomb/ceil1_4fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
 		flare 2
+		scale.s 0.75
+		scale.t 0.75
 		color 0.8 0.6 0.35
 	}
 }
 {
 	material lavatomb/drag2_3
-	roughness 0.9
-	hardness 2.2
-	specularity 2.3
-	parallax 0.7
+	roughness 1.5
+	hardness 2.5
+	specularity 2.5
+	parallax 1.5
 }
 {
 	material lavatomb/drag3_3
-	roughness 0.9
-	hardness 2.2
-	specularity 2.3
-	parallax 0.7
+	roughness 1.5
+	hardness 2.5
+	specularity 2.5
+	parallax 1.5
 }
 {
 	material lavatomb/drag4_3
-	roughness 1.2
-	hardness 2.5
-	specularity 3.0
-	parallax 0.5
+	roughness 1.5
+	hardness 1.5
+	specularity 1.5
+	parallax 0.4
 }
 {
 	material lavatomb/flr1_1
-	roughness 1.0
+	roughness 1
 	hardness 2.8
 	specularity 1.5
-	parallax 0.3
+	parallax 1
 }
 {
 	material lavatomb/grate1_4
-	roughness 2.0
-	hardness 2.0
-	specularity 4.0
-	parallax 1.0
+	roughness 2
+	hardness 2
+	specularity 3
+	parallax 1
 }
 {
 	material lavatomb/palmet10_2
-	roughness 1.5
-	hardness 3.0
-	specularity 2.0
-	parallax 0.7
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
 }
 {
 	material lavatomb/palmet11_2
-	roughness 1.2
-	hardness 2.0
-	specularity 3.0
-	parallax 0.7
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
 }
 {
 	material lavatomb/palmet11_2-heat
 	normalmap lavatomb/palmet11_2_nm
-	roughness 1.2
-	hardness 2.0
-	specularity 3.0
-	parallax 0.7
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
 	{
 		texture lavatomb/glowedge
 		blend GL_SRC_ALPHA GL_ONE
@@ -91,10 +100,10 @@
 }
 {
 	material lavatomb/palmet11_2-heathalf
-	roughness 1.2
+	roughness 1
 	hardness 1.5
-	specularity 3.0
-	parallax 0.7
+	specularity 1.5
+	parallax 1
 	{
 		texture lavatomb/glowedge-half
 		blend GL_SRC_ALPHA GL_ONE
@@ -102,66 +111,66 @@
 }
 {
 	material lavatomb/palmet11_2sml
-	roughness 1.2
-	hardness 2.0
-	specularity 3.0
-	parallax 0.7
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
 }
 {
 	material lavatomb/palmet13_1
-	roughness 1.0
-	hardness 1.8
-	specularity 2.4
-	parallax 0.5
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
 }
 {
 	material lavatomb/palmet14_2
-	roughness 1.5
-	hardness 3.0
-	specularity 2.0
-	parallax 0.7
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
 }
 {
 	material lavatomb/palmet14_3
-	roughness 1.5
-	hardness 3.0
-	specularity 2.0
-	parallax 0.7
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
 }
 {
 	material lavatomb/palmet2_1
-	roughness 2.8
-	hardness 1.7
+	roughness 1.5
+	hardness 1.5
 	specularity 1.5
-	parallax 0.0
+	parallax 0.4
 }
 {
 	material lavatomb/palmet5_1
-	roughness 1.2
-	hardness 2.0
-	specularity 2.2
-	parallax 0.7
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
 }
 {
 	material lavatomb/palmet5_2
-	roughness 1.5
-	hardness 2.0
-	specularity 2.2
-	parallax 0.7
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 1
 }
 {
 	material lavatomb/pilr03_3
-	roughness 2.8
+	roughness 1
 	hardness 2.5
-	specularity 2.0
-	parallax 0.0
+	specularity 2
+	parallax 0
 }
 {
 	material lavatomb/pilr03_3-heat
-	roughness 2.0
-	hardness 1.5
-	specularity 3.0
-	parallax 0.0
+	roughness 1
+	hardness 2.5
+	specularity 2
+	parallax 0
 	{
 		texture lavatomb/pilr03_3-glowedge
 		blend GL_SRC_ALPHA GL_ONE
@@ -169,24 +178,24 @@
 }
 {
 	material lavatomb/pyramids
-	roughness 1.0
-	hardness 7.0
-	specularity 4.0
-	parallax 1.0
+	roughness 1
+	hardness 7
+	specularity 2
+	parallax 0.5
 }
 {
 	material lavatomb/rockies
-	roughness 1.1
-	hardness 1.0
-	specularity 0.6
-	parallax 1.5
+	roughness 1.5
+	hardness 0.7
+	specularity 1.5
+	parallax 1.2
 }
 {
 	material lavatomb/rockies-heat
-	roughness 1.1
-	hardness 1.0
-	specularity 0.3
-	parallax 1.5
+	roughness 1.5
+	hardness 0.7
+	specularity 1.5
+	parallax 1.2
 	{
 		texture lavatomb/glowedge512
 		blend GL_SRC_ALPHA GL_ONE
@@ -210,6 +219,6 @@
 	material lavatomb/worngrass-noblend
 	roughness 0.5
 	hardness 0.8
-	specularity 3.0
-	parallax 1.0
+	specularity 3
+	parallax 1
 }
