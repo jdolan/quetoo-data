@@ -604,6 +604,19 @@
  _size : Sun size, larger values yield more penumbrae (default 256).
 */
 
+/*QUAKED misc_dust (.8 .8 .7)
+ Dust volumes emit configurable sprites, like localized weather. These are useful for creating dust, bubbles, foam, mist, etc. These should be of contents mist.
+
+ -------- Keys --------.
+ density : The dust density (default 1).
+ sprite : The sprite image name (default "sprites/particle1").
+ sprite_color : The sprite HSVA color as 4 decimal values from 0.0 - 1.0 (default 0 0 1 1).
+ sprite_lifetime : The sprite lifetime, in milliseconds (default 3000).
+ sprite_size : The dust sprite size (default 2).
+ sprite_velocity : The dust sprite velocity (default 0 0 0).
+ sprite_velocity_random : The sprite velicity randomness multiplier (default 0 0 0).
+*/
+
 /*QUAKED misc_fireball (1 .3 .1) (-6 -6 -6) (6 6 6)
  Spawns an intermittent fireball that damages players. These are typically used above lava traps for ambiance.
 
@@ -625,7 +638,7 @@
 */
 
 /*QUAKED misc_fog (.7 .7 .7)
- Fog volumes. When compiled, fog brushes are merged into the world. Fog volumes are processed during the lighting compile phase.
+ Fog volumes. When compiled, fog brushes are merged into the world. These should be of contents mist. Fog volumes are processed during the lighting compile phase.
 
  -------- Keys --------.
  _color : Fog color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
