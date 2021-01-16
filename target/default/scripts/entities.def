@@ -645,6 +645,13 @@
  absorption : The fog absorption, or how much light color it absorbs (default .125).
  density : The fog density, or thickness (default 1).
  noise : The fog noise, or variation in density (default 0).
+ frequency : The simplex noise frequency - effectively the scale of the noise texture (default 32)
+ amplitude : The simplex noise amplitude - effectively the upper limit of noise values (default 1)
+ lacunarity : The simplex noise lacunarity - multiplier per-octave of frequency (default 2)
+ persistence : The simplex noise persistence - multiplier per-octave of amplitude (default 0.5)
+ octaves : The number of octaves to sample (default 5)
+ seed : The simplex noise permutation vector seed (default 0)
+ offset : An offset added to the noise calculation (default 0 0 0)
 */
 
 /*QUAKED misc_light (1 1 1) (-6 -6 -6) (6 6 6)
@@ -1032,6 +1039,13 @@
  fog_color : Global fog color, as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
  fog_density : Global fog density, a single positive scalar value (default 1).
  fog_noise : Global fog noise, a single positive scalar value (default 0).
+ fog_frequency : The global fog simplex noise frequency - effectively the scale of the noise texture (default 32)
+ fog_amplitude : The global fog simplex noise amplitude - effectively the upper limit of noise values (default 1)
+ fog_lacunarity : The global fog simplex noise lacunarity - multiplier per-octave of frequency (default 2)
+ fog_persistence : The global fog simplex noise persistence - multiplier per-octave of amplitude (default 0.5)
+ fog_octaves : The number of octaves to sample for global fog (default 5)
+ fog_seed : The global fog simplex noise permutation vector seed (default 0)
+ fog_offset : An offset added to the global fog noise calculation (default 0 0 0)
  gravity : Gravity for the level (default 800).
  gameplay : The gameplay mode, one of "deathmatch, instagib, arena."
  hook : Enables the grappling hook (unset for gameplay default, 0 = disabled, 1 = enabled)."
