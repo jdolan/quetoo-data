@@ -7,7 +7,7 @@
 "classname" "worldspawn"
 "fog_color" "0.996 0.741 0.200"
 "fog_density" ".1"
-"fog_noise" ".05"
+"fog_noise" ".0125"
 // brush 0
 {
 ( 224 -424 128 ) ( 224 -512 128 ) ( 240 -424 16 ) edge/metalb_rust -69 0 0 0.525000 0.500000 0 2048 0
@@ -21382,9 +21382,11 @@
 }
 // entity 134
 {
+"asbsorption" ".333"
+"noise" ".125"
 "classname" "misc_fog"
 "density" "1"
-"_color" ".2 .4 .2"
+"_color" "-0.7 -0.6 -0.8"
 // brush 0
 {
 ( -464 -728 -326 ) ( -848 -528 -326 ) ( -464 -528 -326 ) edge/duckw 312 60 15 0.500000 0.500000 32 32 0
