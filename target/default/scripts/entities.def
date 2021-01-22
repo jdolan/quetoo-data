@@ -261,7 +261,7 @@
  -------- Keys --------
  speed : The speed with which the train moves (default 100).
  dmg : The damage inflicted on players who block the train (default 2).
- noise : The looping sound to play while the train is in motion.
+ sound : The looping sound to play while the train is in motion.
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags --------
