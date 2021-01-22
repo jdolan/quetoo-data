@@ -1,6 +1,6 @@
 // entity 0
 {
-"sky" "miramar_"
+"sky" "miramar"
 "classname" "worldspawn"
 "message" "^2N^7o ^2B^7ackup - reimagined by clai^2r^7e"
 "ambient_light" "0.04 0.04 0.04"

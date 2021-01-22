@@ -10,7 +10,7 @@
 "brightness" "1.5"
 "contrast" "1.5"
 "saturation" "1.8"
-"sky" "aghast/aghast_"
+"sky" "aghast"
 // brush 0
 {
 ( 288 0 -48 ) ( 288 -64 -48 ) ( 224 -64 -48 ) aghast/wmet4_7 -32 0 0 0.5 0.5 134217728 0 0

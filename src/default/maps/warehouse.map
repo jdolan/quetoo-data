@@ -1,7 +1,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"sky" "warehouse/fractures_"
+"sky" "moonfull"
 "message" "WareHouse"
 "brightness" "3"
 "contrast" "1.1"

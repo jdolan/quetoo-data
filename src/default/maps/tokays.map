@@ -6,7 +6,7 @@
 "classname" "worldspawn"
 "weather" "rain"
 "message" "Tokay`s Towers"
-"sky" "tokays/grave256_"
+"sky" "atsea"
 "ambient" "0.1342 0.1188 0.11"
 "brightness" "3"
 // brush 0

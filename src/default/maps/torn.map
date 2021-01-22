@@ -7,7 +7,7 @@
 "fog_density" ".1"
 "ambient" "0.07 0.09 0.08"
 "weather" "rain"
-"sky" "torn/phobos"
+"sky" "phobos"
 "message" "^2T^7orn ^2G^7lory by ^2C^7ard^2O^0"
 "classname" "worldspawn"
 "brightness" "2.0"

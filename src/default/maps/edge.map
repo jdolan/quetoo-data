@@ -2,7 +2,7 @@
 {
 "ambient" "0.160 0.136 0.111"
 "brightness" "1.3"
-"sky" "edge/dragonheart"
+"sky" "dragonheart"
 "message" "The Edge"
 "classname" "worldspawn"
 "fog_color" "0.996 0.741 0.200"

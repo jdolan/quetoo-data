@@ -3,7 +3,7 @@
 "ambient" "0.13 0.10 0.06"
 "brightness" "2"
 "saturation" "1.3"
-"sky" "fragpipe/habp_"
+"sky" "habp"
 "message" "The Frag Pipe"
 "classname" "worldspawn"
 "fog_color" "0.684 0.492 .125"

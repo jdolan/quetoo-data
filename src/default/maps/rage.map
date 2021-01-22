@@ -2,7 +2,7 @@
 {
 "classname" "worldspawn"
 "message" "^1T^7he ^1R^7age by ^1z^7tn\n^7(ported by Panjoo)"
-"sky" "rage/moonfull_"
+"sky" "moonfull"
 "brightness" "4"
 "saturation" "1.6"
 "contrast" "1.1"

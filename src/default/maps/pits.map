@@ -8,7 +8,7 @@
 "saturation" "1.2"
 "contrast" "1.05"
 "brightness" "2"
-"sky" "pits/khaki_"
+"sky" "khaki"
 "classname" "worldspawn"
 // brush 0
 {

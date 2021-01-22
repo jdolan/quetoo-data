@@ -6,7 +6,7 @@
 "sun_angles" "10 110"
 "sun_color" "0.9 0.95 0.95"
 "ambient_light" "0.13 0.12 0.11"
-"sky" "aggressor/aggressor_"
+"sky" "moonfull"
 "contrast" "1.4"
 "saturation" "2.0"
 "brightness" "1.8"

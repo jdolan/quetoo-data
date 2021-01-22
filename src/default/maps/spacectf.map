@@ -2,7 +2,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"sky" "purple_chaos_"
+"sky" "purple_chaos"
 "ambient_light" ".2 .2 .2"
 "message" "^1S^7pace ^4CTF^7 for ^1Quake^72^4World^7"
 "give" "machinegun"
