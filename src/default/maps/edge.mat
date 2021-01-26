@@ -296,6 +296,7 @@
 	parallax 0
 	surface "light"
 	light 140
+	patch_size 8
 	{
 		texture edge/lightstripfx
 		blend GL_SRC_ALPHA GL_ONE
