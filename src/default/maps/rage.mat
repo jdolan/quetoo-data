@@ -49,7 +49,7 @@
 		color 0.8 0.73 0.6 1
 		scale.s 0.75
 		scale.t 0.5
-		flare 1
+		flare flare_1
 	}
 }
 {
@@ -240,7 +240,7 @@
 		color 0.953 0.902 0.8118 1
 		scale.s 0.5
 		scale.t 0.5
-		flare 0
+		flare flare_0
 	}
 }
 {
@@ -280,7 +280,7 @@
 		color 0.9043 0.7275 0.4012 1
 		scale.s 0.75
 		scale.t 0.75
-		flare 0
+		flare flare_0
 	}
 }
 {
@@ -300,6 +300,6 @@
 		color 0.953 0.902 0.8118 1
 		scale.s 0.75
 		scale.t 0.75
-		flare 0
+		flare flare_0
 	}
 }

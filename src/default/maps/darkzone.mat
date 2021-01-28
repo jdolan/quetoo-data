@@ -1,88 +1,98 @@
 {
-	material rygel-quake/#04water1
-	normalmap rygel-quake/#04water1_nm
-	roughness 1.0
+	material common/caulk
+	bump 1.0
 	hardness 1.0
-	specularity 1.0
 	parallax 1.0
+	specular 1.0
 }
 {
-	material rygel-quake/#teleport
-	normalmap rygel-quake/#teleport_nm
-	roughness 1.0
+	material common/clip
+	bump 1.0
 	hardness 1.0
-	specularity 1.0
 	parallax 1.0
+	specular 1.0
 }
 {
-	material rygel-quake/city2_6
-	normalmap rygel-quake/city2_6_nm
-	roughness 1.0
+	material common/sky
+	bump 1.0
 	hardness 1.0
-	specularity 1.0
-	parallax 2.0
-}
-{
-	material rygel-quake/city2_7
-	normalmap rygel-quake/city2_7_nm
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
 	parallax 1.0
+	specular 1.0
 }
 {
-	material rygel-quake/city2_8
-	normalmap rygel-quake/city2_8_nm
-	roughness 1.0
+	material darkzone/#04water1
+	bump 1.0
 	hardness 1.0
-	specularity 1.0
 	parallax 1.0
+	specular 1.0
 }
 {
-	material rygel-quake/city4_2
-	normalmap rygel-quake/city4_2_nm
-	roughness 1.0
+	material darkzone/#teleport
+	bump 1.0
 	hardness 1.0
-	specularity 1.0
 	parallax 1.0
+	specular 1.0
 }
 {
-	material rygel-quake/cop1_1
-	normalmap rygel-quake/cop1_1_nm
-	roughness 1.0
-	hardness 3.0
-	specularity 2.0
-	parallax 0.0
-}
-{
-	material rygel-quake/cop1_7
-	normalmap rygel-quake/cop1_7_nm
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-	parallax 1.0
-}
-{
-	material rygel-quake/ground1_5
-	normalmap rygel-quake/ground1_5_nm
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-	parallax 1.0
-}
-{
-	material rygel-quake/metal4_4
-	normalmap rygel-quake/metal4_4_nm
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-	parallax 1.0
-}
-{
-	material rygel-quake/wmet4_8
-	normalmap rygel-quake/wmet4_8_nm
-	roughness 1.0
+	material darkzone/city2_6
+	bump 1.0
 	hardness 2.0
-	specularity 2.0
-	parallax 1.6
+	parallax 2.0
+	specular 0.6
+}
+{
+	material darkzone/city2_7
+	bump 1.0
+	hardness 2.0
+	parallax 2.0
+	specular 0.6
+}
+{
+	material darkzone/city2_8
+	bump 1.0
+	hardness 2.0
+	parallax 2.0
+	specular 0.6
+}
+{
+	material darkzone/city4_2
+	bump 1.0
+	hardness 2.0
+	parallax 2.0
+	specular 0.6
+}
+{
+	material darkzone/cop1_1
+	bump 1.0
+	hardness 8.0
+	parallax 0.0
+	specular 1.0
+}
+{
+	material darkzone/cop1_7
+	bump 1.0
+	hardness 1.5
+	parallax 1.0
+	specular 1.0
+}
+{
+	material darkzone/ground1_5
+	bump 1.0
+	hardness 1.0
+	parallax 1.0
+	specular 1.0
+}
+{
+	material darkzone/metal4_4
+	bump 1.0
+	hardness 50.0
+	parallax 0.3
+	specular 4.0
+}
+{
+	material darkzone/wmet4_8
+	bump 1.0
+	hardness 40.0
+	parallax 1.0
+	specular 4.0
 }

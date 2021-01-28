@@ -57,17 +57,17 @@
 }
 {
 	material spacectf/r_trim_17
-	roughness 3.0
+	bump 3.0
 	hardness 2.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material spacectf/u_floor3
-	roughness 2.0
+	bump 2.0
 	hardness 1.5
 	parallax 1.0
-	specularity 2.5
+	specular 2.5
 }
 {
 	material spacectf/u_floor3_pad_6
@@ -76,10 +76,10 @@
 		pulse 1.0
 		blend GL_SRC_ALPHA GL_ONE
 	}
-	roughness 2.0
+	bump 2.0
 	hardness 1.5
 	parallax 1.0
-	specularity 2.5
+	specular 2.5
 }
 {
 	material spacectf/u_floor3_pad_6_red
@@ -88,10 +88,10 @@
 		pulse 1.0
 		blend GL_SRC_ALPHA GL_ONE
 	}
-	roughness 2.0
+	bump 2.0
 	hardness 1.5
 	parallax 1.0
-	specularity 2.5
+	specular 2.5
 }
 {
 	material spacectf/u_floor3_pad_7b
@@ -100,10 +100,10 @@
 		pulse 1.0
 		blend GL_SRC_ALPHA GL_ONE
 	}
-	roughness 2.0
+	bump 2.0
 	hardness 1.5
 	parallax 1.0
-	specularity 2.5
+	specular 2.5
 }
 {
 	material spacectf/u_floor3_pad_7b_red
@@ -112,17 +112,17 @@
 		pulse 1.0
 		blend GL_SRC_ALPHA GL_ONE
 	}
-	roughness 2.0
+	bump 2.0
 	hardness 1.5
 	parallax 1.0
-	specularity 2.5
+	specular 2.5
 }
 {
 	material spacectf/u_floor_pan3
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 12.0
+	specular 12.0
 }
 {
 	material spacectf/u_floor_pan4_l
@@ -131,10 +131,10 @@
 		pulse 1.0
 		blend GL_SRC_ALPHA GL_ONE
 	}
-	roughness 2.0
+	bump 2.0
 	hardness 1.5
 	parallax 1.0
-	specularity 2.5
+	specular 2.5
 }
 {
 	material spacectf/u_floor_pan4_l_red
@@ -143,49 +143,49 @@
 		pulse 1.0
 		blend GL_SRC_ALPHA GL_ONE
 	}
-	roughness 2.0
+	bump 2.0
 	hardness 1.5
 	parallax 1.0
-	specularity 2.5
+	specular 2.5
 }
 {
 	material spacectf/u_py1_blue
-	roughness 1.0
+	bump 1.0
 	hardness 2.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 	{
 		texture spacectf/u_py1_blue_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 0.4
 	}
 	{
-		flare 0
+		flare flare_0
 		color 0.0 0.0 1.0
 	}
 }
 {
 	material spacectf/u_py1_red
-	roughness 1.0
+	bump 1.0
 	hardness 2.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 	{
 		texture spacectf/u_py1_red_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 0.4
 	}
 	{
-		flare 0
+		flare flare_0
 		color 1.0 0.0 0.0
 	}
 }
 {
 	material spacectf/u_thinline1
-	roughness 2.0
+	bump 2.0
 	hardness 2.0
 	parallax 2.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material spacectf/u_trlightline_blue
@@ -195,10 +195,10 @@
 		scroll.s 0.1
 		blend GL_SRC_ALPHA GL_ONE
 	}
-	roughness 2.0
+	bump 2.0
 	hardness 1.0
 	parallax 1.0
-	specularity 5.0
+	specular 5.0
 }
 {
 	material spacectf/u_trlightline_red
@@ -208,24 +208,24 @@
 		scroll.s 0.1
 		blend GL_SRC_ALPHA GL_ONE
 	}
-	roughness 2.0
+	bump 2.0
 	hardness 1.0
 	parallax 1.0
-	specularity 5.0
+	specular 5.0
 }
 {
 	material spacectf/ubase4
-	roughness 1.0
+	bump 1.0
 	hardness 2.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material spacectf/ubase_trim447
-	roughness 2.0
+	bump 2.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material spacectf/u_lamplong1b_blue
@@ -235,13 +235,13 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		flare 0
+		flare flare_0
 		color 0.3 0.3 1.0
 	}
-	roughness 2.0
+	bump 2.0
 	hardness 1.5
 	parallax 1.0
-	specularity 4.0
+	specular 4.0
 }
 
 {
@@ -252,11 +252,11 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		flare 0
+		flare flare_0
 		color 1.0 0.3 0.3
 	}
-	roughness 2.0
+	bump 2.0
 	hardness 1.5
 	parallax 1.0
-	specularity 4.0
+	specular 4.0
 }

@@ -112,7 +112,7 @@
 		color 0.8 0.7 0.5 1
 		scale.s 0.75
 		scale.t 0.5
-		flare 2
+		flare flare_2
 	}
 }
 {
@@ -132,7 +132,7 @@
 		color 0.8 0.6 0.35 1
 		scale.s 0.75
 		scale.t 0.5
-		flare 2
+		flare flare_2
 	}
 }
 {
@@ -256,7 +256,7 @@
 		color 0.8 0.7 0.5 1
 		scale.s 0.75
 		scale.t 0.75
-		flare 2
+		flare flare_2
 	}
 }
 {
@@ -284,7 +284,7 @@
 		color 0.6 0.55 0.5 1
 		scale.s 0.75
 		scale.t 0.75
-		flare 0
+		flare flare_0
 	}
 }
 {
@@ -481,7 +481,7 @@
 		color 0.6 0.55 0.5 1
 		scale.s 0.75
 		scale.t 0.75
-		flare 0
+		flare flare_0
 	}
 }
 {
@@ -501,7 +501,7 @@
 		color 0.8 0.7 0.5 1
 		scale.s 0.75
 		scale.t 0.75
-		flare 0
+		flare flare_0
 	}
 }
 {
