@@ -2,7 +2,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"sky" "devolver/devolver_"
+"sky" "fractures"
 "ambient_light" "0.15 0.15 0.16"
 "message" "^1D^7evolver - by ^3TRaK"
 "contrast" "1.2"

@@ -3,7 +3,7 @@
 {
 "classname" "worldspawn"
 "message" "^4Cat^5fight^7 by ^4Lava ^5Croft"
-"sky" "atsea_"
+"sky" "atsea"
 "weather" "snow"
 "brightness" "0.5"
 "saturation" "1.5"

@@ -70,7 +70,7 @@
 		color 0.5 0 0 1
 		scale.s 0.5
 		scale.t 0.5
-		flare 2
+		flare flare_2
 	}
 }
 {
@@ -117,7 +117,7 @@
 		color 0.8 0.6 0.35 1
 		scale.s 0.75
 		scale.t 0.75
-		flare 2
+		flare flare_2
 	}
 }
 {

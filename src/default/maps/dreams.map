@@ -1,7 +1,7 @@
 {
 "message" "concrete dreams"
 "classname" "worldspawn"
-"sky" "snow"
+"sky" "miramar"
 // brush 0
 {
 ( 1072 -464 96 ) ( 1072 -624 96 ) ( 1088 -624 96 ) e2u3/green3_4 0 0 0 1 1 0 0 0

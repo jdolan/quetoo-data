@@ -261,7 +261,7 @@
  -------- Keys --------
  speed : The speed with which the train moves (default 100).
  dmg : The damage inflicted on players who block the train (default 2).
- noise : The looping sound to play while the train is in motion.
+ sound : The looping sound to play while the train is in motion.
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags --------
@@ -604,6 +604,19 @@
  _size : Sun size, larger values yield more penumbrae (default 256).
 */
 
+/*QUAKED misc_dust (.8 .8 .7)
+ Dust volumes emit configurable sprites, like localized weather. These are useful for creating dust, bubbles, foam, mist, etc. These should be of contents mist.
+
+ -------- Keys --------.
+ density : The dust density (default 1).
+ sprite : The sprite image name (default "sprites/particle1").
+ sprite_color : The sprite HSVA color as 4 decimal values from 0.0 - 1.0 (default 0 0 1 1).
+ sprite_lifetime : The sprite lifetime, in milliseconds (default 3000).
+ sprite_size : The dust sprite size (default 2).
+ sprite_velocity : The dust sprite velocity (default 0 0 0).
+ sprite_velocity_random : The sprite velicity randomness multiplier (default 0 0 0).
+*/
+
 /*QUAKED misc_fireball (1 .3 .1) (-6 -6 -6) (6 6 6)
  Spawns an intermittent fireball that damages players. These are typically used above lava traps for ambiance.
 
@@ -625,13 +638,20 @@
 */
 
 /*QUAKED misc_fog (.7 .7 .7)
- Fog volumes. When compiled, fog brushes are merged into the world. Fog volumes are processed during the lighting compile phase.
+ Fog volumes. When compiled, fog brushes are merged into the world. These should be of contents mist. Fog volumes are processed during the lighting compile phase.
 
  -------- Keys --------.
  _color : Fog color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
  absorption : The fog absorption, or how much light color it absorbs (default .125).
  density : The fog density, or thickness (default 1).
  noise : The fog noise, or variation in density (default 0).
+ frequency : The simplex noise frequency - effectively the scale of the noise texture (default 32)
+ amplitude : The simplex noise amplitude - effectively the upper limit of noise values (default 1)
+ lacunarity : The simplex noise lacunarity - multiplier per-octave of frequency (default 2)
+ persistence : The simplex noise persistence - multiplier per-octave of amplitude (default 0.5)
+ octaves : The number of octaves to sample (default 5)
+ seed : The simplex noise permutation vector seed (default 0)
+ offset : An offset added to the noise calculation (default 0 0 0)
 */
 
 /*QUAKED misc_light (1 1 1) (-6 -6 -6) (6 6 6)
@@ -1019,6 +1039,13 @@
  fog_color : Global fog color, as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
  fog_density : Global fog density, a single positive scalar value (default 1).
  fog_noise : Global fog noise, a single positive scalar value (default 0).
+ fog_frequency : The global fog simplex noise frequency - effectively the scale of the noise texture (default 32)
+ fog_amplitude : The global fog simplex noise amplitude - effectively the upper limit of noise values (default 1)
+ fog_lacunarity : The global fog simplex noise lacunarity - multiplier per-octave of frequency (default 2)
+ fog_persistence : The global fog simplex noise persistence - multiplier per-octave of amplitude (default 0.5)
+ fog_octaves : The number of octaves to sample for global fog (default 5)
+ fog_seed : The global fog simplex noise permutation vector seed (default 0)
+ fog_offset : An offset added to the global fog noise calculation (default 0 0 0)
  gravity : Gravity for the level (default 800).
  gameplay : The gameplay mode, one of "deathmatch, instagib, arena."
  hook : Enables the grappling hook (unset for gameplay default, 0 = disabled, 1 = enabled)."

@@ -172,7 +172,7 @@
 	}
 	{
 		color 0.5 0.478 0.685 1
-		flare 2
+		flare flare_2
 	}
 }
 {

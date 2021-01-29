@@ -20,6 +20,20 @@
 	parallax 1
 }
 {
+	material common/dust
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/fog
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
 	material common/origin
 	roughness 1
 	hardness 1
@@ -66,7 +80,7 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		flare 1
+		flare flare_1
 	}
 }
 {
@@ -132,7 +146,7 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		flare 1
+		flare flare_1
 	}
 }
 {
@@ -219,7 +233,7 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		flare 1
+		flare flare_1
 	}
 }
 {
@@ -275,7 +289,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	surface "blend_100 decal light"
+	surface "light blend_100 decal"
 	light 40
 }
 {
@@ -284,7 +298,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	surface "blend_100 decal light"
+	surface "light blend_100 decal"
 	light 20
 }
 {
@@ -293,7 +307,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	surface "blend_100 decal light"
+	surface "light blend_100 decal"
 	light 20
 }
 {
@@ -305,10 +319,10 @@
 }
 {
 	material torn/star6
-	roughness 1
-	hardness 1
+	roughness 2.44898
+	hardness 2.85714
 	specularity 1
-	parallax 1
+	parallax 2.12245
 }
 {
 	material torn/starb2a
@@ -326,10 +340,10 @@
 }
 {
 	material torn/stard
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
+	roughness 2.20408
+	hardness 2.77551
+	specularity 1.63265
+	parallax 1.38776
 }
 {
 	material torn/xpiplun1a
