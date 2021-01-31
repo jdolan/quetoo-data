@@ -80,7 +80,7 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		flare 1
+		flare flare_1
 	}
 }
 {
@@ -146,7 +146,7 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		flare 1
+		flare flare_1
 	}
 }
 {
@@ -233,7 +233,7 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		flare 1
+		flare flare_1
 	}
 }
 {

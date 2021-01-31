@@ -1,584 +1,584 @@
 {
 	material common/caulk
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material common/clip
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material common/hint
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material common/trigger
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material common/white
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material diesirae/ceil1_22a
-	roughness 4.0
+	bump 4.0
 	hardness 2.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 	{
-		flare 0
+		flare flare_0
 	}
 }
 {
 	material diesirae/ceilwhite1
-	roughness 4.0
+	bump 4.0
 	hardness 2.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 	{
-		flare 0
+		flare flare_0
 	}
 }
 {
 	material diesirae/e8xgirder
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material diesirae/ex_clangfloor_01b
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material diesirae/ex_cretebase_01
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material diesirae/ex_cretebase_03_dark
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material diesirae/ex_floor_mtl_grate_01
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material diesirae/ex_trim_01
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material diesirae/exmetalbase01
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material diesirae/exmetalbase04
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material diesirae/exmetalbase05rust
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material diesirae/exmetalfloor02
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material diesirae/pk01_1_d_red
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/ceilwhite1_r
-	roughness 4.0
+	bump 4.0
 	hardness 2.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 	{
-		flare 0
+		flare flare_0
 	}
 }
 {
 	material dimpact/glue1
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/grate1
-	roughness 3.0
+	bump 3.0
 	hardness 2.0
 	parallax 1.0
-	specularity 4.0
+	specular 4.0
 }
 {
 	material dimpact/hexflr2
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/light_1
-	roughness 4.0
+	bump 4.0
 	hardness 2.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 	{
-		flare 0
+		flare flare_0
 	}
 }
 
 {
 	material dimpact/light_flouro0
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/light_flouro0a
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/light_flouro1
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/light_flouro1_g
-	roughness 4.0
+	bump 4.0
 	hardness 2.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 	{
-		flare 0
+		flare flare_0
 	}
 }
 
 {
 	material dimpact/light_flouro1a
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/mech1
-	roughness 1.0
+	bump 1.0
 	hardness 2.0
 	parallax 1.0
-	specularity 4.0
+	specular 4.0
 }
 {
 	material dimpact/panel128_1
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel128_2
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel128_3
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel128_3b
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel128_4
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel128_5
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel128_6a
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel128_6b
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel128tri_1
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_0
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_1
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_2
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_2b
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_3
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_3b
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_5
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_5a
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_6
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_6b
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_7
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_7c
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/panel64_7d
-	roughness 1.0
+	bump 1.0
 	hardness 3.0
 	parallax 1.0
-	specularity 8.0
+	specular 8.0
 }
 {
 	material dimpact/pk01_floor01a
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_pan_floor01a
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_pan_floor02a
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_pan_floor02b
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_pan_trim01
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_pan_wall02a1
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_pan_wall02a2
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_pan_wall02b2
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_panel01a
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_roof01
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_shw_trim_01
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_shw_trim_01r
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_shw_wall_01r
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_thin_wall01b
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_thin_wall02b
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_trims01a
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_vent_wall01a
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_vent_wall01b
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_vent_wall02
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_vent_wall03
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_wall02a
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_wall02b
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_wall03a
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_wall03b
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_wall04a
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/pk01_wall04b
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/qcomp1
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/rock1
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material dimpact/support1
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }
 {
 	material torn/concrete0dark
-	roughness 1.0
+	bump 1.0
 	hardness 1.0
 	parallax 1.0
-	specularity 1.0
+	specular 1.0
 }

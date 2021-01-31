@@ -24,7 +24,7 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		flare 0
+		flare flare_0
 		scale.s 0.75 scale.t 0.75
 		color 0.8 0.73 0.6
 	}
@@ -42,7 +42,7 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		flare 0
+		flare flare_0
 		scale.s 0.75 scale.t 0.75
 		color 0.2 0.9 0.45
 	}
@@ -203,7 +203,7 @@
 	hardness 3.3
 	specularity 2
 	parallax 0
-	footsteps "metal_2"
+	footsteps metal
 }
 {
 	material tokays/stflr1_4
