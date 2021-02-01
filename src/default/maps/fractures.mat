@@ -1,0 +1,242 @@
+{
+	material common/caulk
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/clip
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/hint
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/origin
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/trigger
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/white
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/brick3_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/brick3_3
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/concrete10_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/concrete1_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/concrete1_16r
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/concrete3_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/concrete4_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/concrete5_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/floor1_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/floor3_2
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/ice1_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/light3_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	surface "light"
+	light 250
+	{
+		texture fractures/light3_1_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material fractures/light4_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	surface "light"
+	light 250
+	{
+		texture fractures/light4_1_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material fractures/light4_2
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	surface "light"
+	light 320
+	{
+		texture fractures/light4_2_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material fractures/support2_2
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/support3_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/trim1_7
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/trim1_7high
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/trim5_2
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/trim5_5
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/trim5_5r
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/wall1_18
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/wall1_5
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/wall1_6
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/wall7_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material fractures/wall9_9
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
