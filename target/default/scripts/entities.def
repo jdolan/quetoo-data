@@ -607,14 +607,24 @@
 /*QUAKED misc_dust (.8 .8 .7)
  Dust volumes emit configurable sprites, like localized weather. These are useful for creating dust, bubbles, foam, mist, etc. These should be of contents mist.
 
- -------- Keys --------.
- density : The dust density (default 1).
- sprite : The sprite image name (default "sprites/particle1").
- sprite_color : The sprite HSVA color as 4 decimal values from 0.0 - 1.0 (default 0 0 1 1).
- sprite_lifetime : The sprite lifetime, in milliseconds (default 3000).
- sprite_size : The dust sprite size (default 2).
- sprite_velocity : The dust sprite velocity (default 0 0 0).
- sprite_velocity_random : The sprite velicity randomness multiplier (default 0 0 0).
+ -------- Keys --------
+ acceleration : The sprite acceleration (default 0 0 0).
+ _color : The sprite HSVA color as 4 decimal values (default 0 0 1 1).
+ dir : The sprite directional axis (0 0 0 is billboard).
+ density : The sprite density (default 1).
+ _end_color : The sprite HSVA end color as 4 decimal values (default 0 0 0 0).
+ height : The sprite height. Setting this will cause size to be ignored (default 0).
+ lifetime : The sprite lifetime in seconds (default 10).
+ lighting : The sprite lighting scalar (default 1).
+ rotation : The sprite rotation in degrees (default 0).
+ rotation_velocity : The sprite rotation velocity in degrees per second (default 0).
+ _size : The sprite size (default 1).
+ size_velocity : The sprite size velocity (default 0).
+ size_acceleration : The sprite size acceleration (default 0).
+ softness : The sprite softness scalar (default 1).
+ sprite : The sprite image name (default "particle1").
+ velocity : The sprite velocity (default 0 0 0).
+ width : The sprite width. Setting this will cause size to be ignored (default 0).
 */
 
 /*QUAKED misc_fireball (1 .3 .1) (-6 -6 -6) (6 6 6)
@@ -690,6 +700,30 @@
  hz : The emission rate, in events-per-second (default 0).
  drift : The factor of randomized drift applied to the emission rate.
  target : The name of the entity to target to resolve the sparks direction.
+*/
+
+/*QUAKED misc_sprite (.6 .8 .6) (-8 -8 -8) (8, 8, 8)
+ Highly configurable client-side emission of sprites. These are useful for light volumes, blood dripping from walls, or anything else you can think of. If two instances of this entity are teamed, the game will emit randomized instances that mix the properties of both teammates.
+
+ -------- Keys --------
+ acceleration : The sprite acceleration (default 0 0 0).
+ _color : The sprite HSVA color as 4 decimal values (default 0 0 1 1).
+ dir : The sprite directional axis (0 0 0 is billboard).
+ density : The sprite density (default 1).
+ _end_color : The sprite HSVA end color as 4 decimal values (default 0 0 0 0).
+ height : The sprite height. Setting this will cause size to be ignored (default 0).
+ lifetime : The sprite lifetime in seconds (default 10).
+ lighting : The sprite lighting scalar (default 1).
+ rotation : The sprite rotation in degrees (default 0).
+ rotation_velocity : The sprite rotation velocity in degrees per second (default 0).
+ _size : The sprite size (default 1).
+ size_velocity : The sprite size velocity (default 0).
+ size_acceleration : The sprite size acceleration (default 0).
+ softness : The sprite softness scalar (default 1).
+ sprite : The sprite image name (default "particle1").
+ team : The team name, for emitting randomized sprites that mix properties.
+ velocity : The sprite velocity (default 0 0 0).
+ width : The sprite width. Setting this will cause size to be ignored (default 0).
 */
 
 /*QUAKED misc_steam (.8 .8 .8) (-8 -8 -8) (8 8 8)
