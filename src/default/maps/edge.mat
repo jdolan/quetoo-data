@@ -13,7 +13,21 @@
 	parallax 1
 }
 {
+	material common/fog
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
 	material common/hint
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	material common/occlude
 	roughness 1
 	hardness 1
 	specularity 1
@@ -66,9 +80,9 @@
 {
 	material edge/blum12_1
 	normalmap edge/blum12_1_nm
-	roughness 1.2
-	hardness 1.7
-	specularity 1.5
+	roughness 0.979592
+	hardness 0.816327
+	specularity 0.734694
 	parallax 2.12245
 }
 {
@@ -103,7 +117,7 @@
 	specularity 1.06122
 	parallax 6.44898
 	surface "light"
-	light 240
+	light 200
 	{
 		texture edge/ceil1_2fx
 		blend GL_SRC_ALPHA GL_ONE
@@ -123,7 +137,7 @@
 	specularity 1.14286
 	parallax 3.42857
 	surface "light"
-	light 240
+	light 200
 	{
 		texture edge/ceil1_4fx
 		blend GL_SRC_ALPHA GL_ONE
@@ -206,7 +220,7 @@
 	hardness 2
 	specularity 2
 	parallax 0.5
-	surface blend_66
+	surface "blend_66"
 }
 {
 	material edge/e8xgirder
@@ -218,9 +232,9 @@
 {
 	material edge/grate1_4
 	normalmap edge/grate1_4_nm
-	roughness 0.489796
-	hardness 4.65306
-	specularity 4
+	roughness 0.979592
+	hardness 0.979592
+	specularity 1.79592
 	parallax 0
 }
 {
@@ -262,10 +276,10 @@
 {
 	material edge/latticeroof
 	normalmap edge/latticeroof_nm
-	roughness 8
-	hardness 5.79592
-	specularity 1.22449
-	parallax 2.44898
+	roughness 1.63265
+	hardness 0.979592
+	specularity 0.408163
+	parallax 1.95918
 }
 {
 	material edge/light1_7
@@ -403,8 +417,7 @@
 	parallax 0.979592
 	{
 		texture edge/mossyrockies
-		terrain -256 256
-		dirtmap 1
+		dirtmap .33
 	}
 }
 {
@@ -446,7 +459,6 @@
 	specularity 1
 	parallax 1
 	surface "blend_100 decal"
-
 }
 {
 	material edge/tampon2
@@ -459,10 +471,10 @@
 {
 	material edge/walldeco
 	normalmap edge/walldeco_nm
-	roughness 1
-	hardness 2
+	roughness 2.61224
+	hardness 0.163265
 	specularity 3
-	parallax 0.6
+	parallax 0.979592
 }
 {
 	material edge/wlight1
@@ -506,10 +518,10 @@
 }
 {
 	material edge/wndow1dirt
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
+	roughness 0.979592
+	hardness 0.816327
+	specularity 0.489796
+	parallax 0.489796
 	surface "blend_100"
 }
 {
