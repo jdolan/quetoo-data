@@ -642,7 +642,8 @@
  Client-side flame emitter, useful for torches and ambience.
 
  -------- Keys --------.
- hz : The emission rate, in events-per-second.
+ hz : The emission rate, in events-per-second (default 10).
+ density : The flame density (default 1).
  drift : The factor of randomized drift applied to the emission rate.
  radius : The flame radius (default 16).
 */
