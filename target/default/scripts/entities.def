@@ -666,12 +666,15 @@
 */
 
 /*QUAKED misc_light (1 1 1) (-6 -6 -6) (6 6 6)
- Client-side emission of dynamic lights. For switchable lights, use target_light.
+ Client-side emission of styled dynamic lights. Light styles are specified as a string of characters, a-z. Each character defines a frame of animation, and each frame is 100ms long. For switchable lights, use target_light.
 
  -------- Keys --------
  _color : The light color (default 1.0 1.0 1.0).
- light : The radius of the light in units (default 300).
+ drift : The factor of randomized drift applied to the emission rate.
+ hz : The emission rate, in events-per-second (default 0).
  intensity : The light intensity (default 1).
+ light : The radius of the light in units (default 300).
+ style : The light style, a string of characters a-z that modulate the light intensity over time (default 'zzz').
 */
 
 /*QUAKED misc_model (.2 .4 1) (-16 -16 -16) (16 16 16)
@@ -688,8 +691,8 @@
 
  -------- Keys --------
  atten : The attenuation (0 = none, 1 = linear, 2 = exponential, 3 = cubic, default = 2).
- hz : The emission rate, in events-per-second (default 0).
  drift : The factor of randomized drift applied to the emission rate.
+ hz : The emission rate, in events-per-second (default 0).
  sound : The sound name, e.g. edge/wind.
 */
 
@@ -698,8 +701,8 @@
 
  -------- Keys --------
  _angle : Sparks direction (up = -1, down = -2, yaw = positive value).
- hz : The emission rate, in events-per-second (default 0).
  drift : The factor of randomized drift applied to the emission rate.
+ hz : The emission rate, in events-per-second (default 0).
  target : The name of the entity to target to resolve the sparks direction.
 */
 
@@ -709,10 +712,13 @@
  -------- Keys --------
  acceleration : The sprite acceleration (default 0 0 0).
  _color : The sprite HSVA color as 4 decimal values (default 0 0 1 1).
+ count : The count of sprites to emit per emission (default 1).
  dir : The sprite directional axis (0 0 0 is billboard).
  density : The sprite density (default 1).
+ drift : The factor of randomized drift applied to the emission rate (default .01).
  _end_color : The sprite HSVA end color as 4 decimal values (default 0 0 0 0).
  height : The sprite height. Setting this will cause size to be ignored (default 0).
+ hz : The emission rate, in events-per-second (default 10).
  lifetime : The sprite lifetime in seconds (default 10).
  lighting : The sprite lighting scalar (default 1).
  rotation : The sprite rotation in degrees (default 0).
@@ -731,10 +737,12 @@
  Client-side emission of steam effects.
 
  -------- Keys --------
- _angle : Steam direction (up = -1, down = -2, yaw = positive value).
- hz : The emission rate, in events-per-second (default 0).
- drift : The factor of randomized drift applied to the emission rate.
- target : The name of the entity to target to resolve the steam direction.
+ hz : The emission rate, in events-per-second (default 10).
+ drift : The factor of randomized drift applied to the emission rate (default .01).
+ size : The initial sprite size (default 32).
+ count : The count of sprites to emit per emission (default 1).
+ target : The name of the entity to target to resolve the steam direction and velocity.
+ velocity : The steam velocity (if not specified via target) (default 0 0 32).
 */
 
 /*QUAKED misc_teleporter (1 0 0) (-32 -32 -24) (32 32 -16) no_effects
