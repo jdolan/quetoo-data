@@ -1,0 +1,433 @@
+{
+	material common/caulk
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/clip
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/dust
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/hint
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/occlude
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/origin
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/skip
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/sky
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/trigger
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material gehenna/bigmet2_d
+	roughness 1
+	hardness 2
+	specularity 2
+	parallax 1.14286
+	bloom 1
+}
+{
+	material gehenna/brlava
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+	contents "lava"
+	surface "light blend_66"
+	light 100
+	{
+		texture gehenna/brlava1
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s 0.02
+		warp 0.125 0.25
+	}
+	{
+		texture gehenna/brlava1
+		blend GL_ONE GL_ONE
+		scroll.t 0.02
+		warp 0.125 0.25
+	}
+}
+{
+	material gehenna/clangfloor_01b_d
+	roughness 0.9
+	hardness 1.14286
+	specularity 1.8
+	parallax 0.979592
+	bloom 1
+}
+{
+	material gehenna/cretebase_01_d
+	roughness 2.36735
+	hardness 1.55102
+	specularity 0.5
+	parallax 0
+	bloom 1
+}
+{
+	material gehenna/cretebase_03_dark_d
+	normalmap gehenna/cretebase_01_nm
+	roughness 1.2
+	hardness 1.6
+	specularity 0.5
+	parallax 0
+	bloom 1
+}
+{
+	material gehenna/cretefloor_01_d
+	roughness 1.30612
+	hardness 1
+	specularity 0.5
+	parallax 0
+	bloom 1
+}
+{
+	material gehenna/cretefloor_01b_d
+	roughness 1.3
+	hardness 2
+	specularity 0.5
+	parallax 0
+	bloom 1
+}
+{
+	material gehenna/cretewall_01_d
+	roughness 2.12245
+	hardness 1.46939
+	specularity 0.5
+	parallax 2.44898
+	bloom 1
+}
+{
+	material gehenna/cretewall_02_d
+	roughness 1.30612
+	hardness 1.71429
+	specularity 0.5
+	parallax 1.22449
+	bloom 1
+}
+{
+	material gehenna/cretewall_03_d
+	roughness 2.61224
+	hardness 1.55102
+	specularity 0.489796
+	parallax 1.14286
+	bloom 0.979592
+}
+{
+	material gehenna/glass
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+	{
+		envmap gehenna/glass
+	}
+}
+{
+	material gehenna/glass2
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+	surface "light blend_100"
+	light 80
+	{
+		texture gehenna/plasma
+		scroll.s 1
+	}
+	{
+		texture gehenna/plasma2
+		scroll.s -1
+	}
+}
+{
+	material gehenna/glue1_d
+	roughness 2
+	hardness 2.12245
+	specularity 0
+	parallax 0
+	bloom 1
+}
+{
+	material gehenna/glue2_d
+	roughness 1
+	hardness 5
+	specularity 5
+	parallax 0
+	bloom 1.46939
+}
+{
+	material gehenna/grate1_d
+	roughness 2.04082
+	hardness 1.87755
+	specularity 1.5
+	parallax 1.22449
+	bloom 1
+}
+{
+	material gehenna/light2a
+	roughness 0.6
+	hardness 2.5
+	specularity 3
+	parallax 0.2
+	bloom 1
+	surface "light"
+	light 240
+	{
+		texture gehenna/light2a_fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare flare_1
+	}
+}
+{
+	material gehenna/light4
+	roughness 0.6
+	hardness 2.5
+	specularity 3
+	parallax 0
+	bloom 0.979592
+	surface "light"
+	light 200
+	{
+		texture gehenna/light4_fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare flare_2
+	}
+}
+{
+	material gehenna/mech1_d
+	roughness 5.71429
+	hardness 5.71429
+	specularity 4.65306
+	parallax 0.979592
+	bloom 0.979592
+}
+{
+	material gehenna/metalbase03_d
+	roughness 1.6
+	hardness 3
+	specularity 5.87755
+	parallax 0
+	bloom 1
+}
+{
+	material gehenna/mtl_wrn_01_d
+	roughness 1.2
+	hardness 2.12245
+	specularity 4
+	parallax 0
+	bloom 1
+}
+{
+	material gehenna/padbase
+	roughness 1.8
+	hardness 2
+	specularity 1.2
+	parallax 0.6
+	bloom 1
+	surface "alpha_test"
+	{
+		texture gehenna/padfx2
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		texture gehenna/padfx-iris2
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 2
+	}
+}
+{
+	material gehenna/panel128_1
+	roughness 1.5
+	hardness 2.8
+	specularity 2
+	parallax 0.4
+	bloom 1
+}
+{
+	material gehenna/panel64_1
+	roughness 1.5
+	hardness 2.8
+	specularity 2
+	parallax 0.979592
+	bloom 1
+}
+{
+	material gehenna/panel64_2
+	roughness 2
+	hardness 2.8
+	specularity 2
+	parallax 0.2
+	bloom 1
+}
+{
+	material gehenna/panel64_2b
+	roughness 2
+	hardness 2.8
+	specularity 2
+	parallax 1.14286
+	bloom 1
+}
+{
+	material gehenna/panel64_3b_d
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material gehenna/panel64_4_d
+	roughness 1.46939
+	hardness 1.71429
+	specularity 1
+	parallax 1.22449
+	bloom 1
+}
+{
+	material gehenna/panel64_5a_d
+	roughness 1.5
+	hardness 2.8
+	specularity 2
+	parallax 1.71429
+	bloom 1
+}
+{
+	material gehenna/panel64_6_d
+	roughness 1.55102
+	hardness 3.18367
+	specularity 3
+	parallax 0.979592
+	bloom 1
+}
+{
+	material gehenna/panel64_7b_d
+	roughness 1
+	hardness 4
+	specularity 3
+	parallax 0
+	bloom 1
+}
+{
+	material gehenna/panel64_7c_d
+	roughness 1
+	hardness 4
+	specularity 3
+	parallax 0
+	bloom 1
+}
+{
+	material gehenna/panel64_7d_d
+	roughness 1
+	hardness 4
+	specularity 4.2449
+	parallax 0.0816327
+	bloom 1
+}
+{
+	material gehenna/pipe1a
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material gehenna/pipefix
+	roughness 0.5
+	hardness 3.8
+	specularity 3
+	parallax 1.5
+	bloom 1
+}
+{
+	material gehenna/pipefixside
+	roughness 0.5
+	hardness 3.8
+	specularity 3
+	parallax 1.5
+	bloom 1
+}
+{
+	material gehenna/rock1_d
+	roughness 2.85714
+	hardness 1.87755
+	specularity 0.653061
+	parallax 0
+	bloom 1
+}
+{
+	material gehenna/wbasic1_7
+	roughness 0.8
+	hardness 1.5
+	specularity 1.5
+	parallax 0.5
+	bloom 1
+}
+{
+	material gehenna/wires1_d
+	roughness 2
+	hardness 3
+	specularity 1
+	parallax 0
+	bloom 1
+}
