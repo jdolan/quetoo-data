@@ -4,6 +4,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/clip
@@ -11,6 +12,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/fog
@@ -18,6 +20,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/hint
@@ -25,6 +28,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/occlude
@@ -32,6 +36,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/skip
@@ -39,6 +44,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/sky
@@ -46,6 +52,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material edge/baselt_c
@@ -54,6 +61,7 @@
 	hardness 2.8
 	specularity 0.5
 	parallax 1
+	bloom 1.46939
 	surface "light"
 	light 200
 	{
@@ -68,6 +76,7 @@
 	hardness 7
 	specularity 6
 	parallax 0.5
+	bloom 1
 }
 {
 	material edge/blum10_2
@@ -76,6 +85,7 @@
 	hardness 1.7
 	specularity 1.5
 	parallax 2.61224
+	bloom 1
 }
 {
 	material edge/blum12_1
@@ -84,6 +94,7 @@
 	hardness 0.816327
 	specularity 0.734694
 	parallax 2.12245
+	bloom 1
 }
 {
 	material edge/blum13_1
@@ -92,6 +103,7 @@
 	hardness 1.7
 	specularity 2
 	parallax 0
+	bloom 1
 }
 {
 	material edge/blume7_2
@@ -100,6 +112,7 @@
 	hardness 0.734694
 	specularity 0.979592
 	parallax 4.40816
+	bloom 1
 }
 {
 	material edge/brickfloor
@@ -108,6 +121,7 @@
 	hardness 2.5
 	specularity 2.7
 	parallax 0.979592
+	bloom 1
 }
 {
 	material edge/ceil1_2
@@ -116,6 +130,7 @@
 	hardness 2.36735
 	specularity 1.06122
 	parallax 6.44898
+	bloom 1.38776
 	surface "light"
 	light 200
 	{
@@ -136,6 +151,7 @@
 	hardness 2.61224
 	specularity 1.14286
 	parallax 3.42857
+	bloom 2.04082
 	surface "light"
 	light 200
 	{
@@ -156,6 +172,7 @@
 	hardness 3
 	specularity 3.5102
 	parallax 0.979592
+	bloom 0.163265
 }
 {
 	material edge/clangfloor_wrn
@@ -164,6 +181,7 @@
 	hardness 1.63265
 	specularity 3
 	parallax 0
+	bloom 1
 }
 {
 	material edge/cobweb
@@ -171,6 +189,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 0.408163
 	surface "blend_100"
 }
 {
@@ -180,6 +199,7 @@
 	hardness 2.5
 	specularity 1.2
 	parallax 0
+	bloom 0.326531
 }
 {
 	material edge/crate128
@@ -188,6 +208,7 @@
 	hardness 2
 	specularity 2.5
 	parallax 0.7
+	bloom 1
 }
 {
 	material edge/crate256rtc
@@ -196,6 +217,7 @@
 	hardness 2
 	specularity 2.5
 	parallax 2.44898
+	bloom 1
 }
 {
 	material edge/crate512
@@ -204,6 +226,7 @@
 	hardness 2
 	specularity 3.83673
 	parallax 6.44898
+	bloom 1
 }
 {
 	material edge/crate_top
@@ -212,6 +235,7 @@
 	hardness 3
 	specularity 2.1
 	parallax 0.7
+	bloom 1
 }
 {
 	material edge/duckw
@@ -220,6 +244,7 @@
 	hardness 2
 	specularity 2
 	parallax 0.5
+	bloom 1
 	surface "blend_66"
 }
 {
@@ -228,6 +253,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material edge/grate1_4
@@ -236,6 +262,7 @@
 	hardness 0.979592
 	specularity 1.79592
 	parallax 0
+	bloom 1
 }
 {
 	material edge/green3_2
@@ -244,6 +271,7 @@
 	hardness 1.4
 	specularity 1.5
 	parallax 1.95918
+	bloom 1
 }
 {
 	material edge/green3_3
@@ -252,6 +280,7 @@
 	hardness 1.4
 	specularity 1.5
 	parallax 1.79592
+	bloom 1
 }
 {
 	material edge/highlamp
@@ -260,6 +289,7 @@
 	hardness 2.28571
 	specularity 1.5
 	parallax 3.7551
+	bloom 1.87755
 	surface "light"
 	light 200
 	{
@@ -280,6 +310,7 @@
 	hardness 0.979592
 	specularity 0.408163
 	parallax 1.95918
+	bloom 1
 }
 {
 	material edge/light1_7
@@ -288,6 +319,7 @@
 	hardness 3
 	specularity 3.7
 	parallax 1
+	bloom 2.36735
 	surface "light"
 	light 180
 	{
@@ -308,6 +340,7 @@
 	hardness 3
 	specularity 0.734694
 	parallax 0
+	bloom 3.5102
 	surface "light"
 	light 140
 	patch_size 8
@@ -323,6 +356,7 @@
 	hardness 2.5
 	specularity 1.5
 	parallax 0.2
+	bloom 1
 }
 {
 	material edge/metal21_2
@@ -331,6 +365,7 @@
 	hardness 2
 	specularity 3
 	parallax 3.02041
+	bloom 0.489796
 }
 {
 	material edge/metalb_rust
@@ -339,6 +374,7 @@
 	hardness 1.4
 	specularity 1.5
 	parallax 0.8
+	bloom 1
 }
 {
 	material edge/metalbase1
@@ -347,6 +383,7 @@
 	hardness 0.897959
 	specularity 0.979592
 	parallax 0.0816327
+	bloom 1
 }
 {
 	material edge/metalbase2
@@ -355,6 +392,7 @@
 	hardness 2.5
 	specularity 3
 	parallax 0.3
+	bloom 1
 }
 {
 	material edge/metallight
@@ -363,6 +401,7 @@
 	hardness 0.163265
 	specularity 1.46939
 	parallax 1.79592
+	bloom 1.87755
 	surface "light"
 	light 180
 	{
@@ -377,6 +416,7 @@
 	hardness 2.8
 	specularity 2.2
 	parallax 1.79592
+	bloom 1
 }
 {
 	material edge/metals_2
@@ -384,6 +424,7 @@
 	hardness 4.81633
 	specularity 6.12245
 	parallax 2.12245
+	bloom 1
 }
 {
 	material edge/metals_2sml
@@ -392,6 +433,7 @@
 	hardness 2.3
 	specularity 2
 	parallax 1.87755
+	bloom 1
 }
 {
 	material edge/metl12_1
@@ -400,6 +442,7 @@
 	hardness 1.2
 	specularity 1.5
 	parallax 0.5
+	bloom 1
 }
 {
 	material edge/mossyrockies
@@ -407,6 +450,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 0.653061
 }
 {
 	material edge/rockies
@@ -415,9 +459,10 @@
 	hardness 3.26531
 	specularity 0.0816327
 	parallax 0.979592
+	bloom 1
 	{
 		texture edge/mossyrockies
-		dirtmap .33
+		dirtmap 0.33
 	}
 }
 {
@@ -427,6 +472,7 @@
 	hardness 3
 	specularity 0.816327
 	parallax 1
+	bloom 1
 }
 {
 	material edge/stepsbig
@@ -435,6 +481,7 @@
 	hardness 2
 	specularity 2.4
 	parallax 0.8
+	bloom 1
 }
 {
 	material edge/supergrass
@@ -442,6 +489,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	surface "alpha_test"
 }
 {
@@ -450,6 +498,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	surface "blend_100 decal"
 }
 {
@@ -458,6 +507,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	surface "blend_100 decal"
 }
 {
@@ -466,6 +516,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	surface "blend_100 decal"
 }
 {
@@ -475,6 +526,7 @@
 	hardness 0.163265
 	specularity 3
 	parallax 0.979592
+	bloom 1.87755
 }
 {
 	material edge/wlight1
@@ -483,6 +535,7 @@
 	hardness 3.2
 	specularity 2.8
 	parallax 7.67347
+	bloom 2.12245
 	surface "light"
 	light 220
 	{
@@ -503,6 +556,7 @@
 	hardness 3.26531
 	specularity 4.4898
 	parallax 3.02041
+	bloom 1.95918
 	surface "light"
 	light 180
 	{
@@ -522,6 +576,7 @@
 	hardness 0.816327
 	specularity 0.489796
 	parallax 0.489796
+	bloom 1
 	surface "blend_100"
 }
 {
@@ -531,6 +586,7 @@
 	hardness 0.4
 	specularity 1.22449
 	parallax 0
+	bloom 1
 	footsteps grass
 }
 {
@@ -540,4 +596,5 @@
 	hardness 0.163265
 	specularity 0
 	parallax 1.06122
+	bloom 0.653061
 }

@@ -4,13 +4,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-}
-{
-	material common/clear
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
+	bloom 1
 }
 {
 	material common/clip
@@ -18,6 +12,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/dust
@@ -25,6 +20,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/fog
@@ -32,6 +28,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/origin
@@ -39,6 +36,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/sky
@@ -46,6 +44,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material torn/barrel
@@ -53,6 +52,7 @@
 	hardness 2.28571
 	specularity 0.408163
 	parallax 0.979592
+	bloom 1
 }
 {
 	material torn/baselt_c
@@ -60,6 +60,7 @@
 	hardness 7.59184
 	specularity 1.14286
 	parallax 3.10204
+	bloom 1
 	surface "light"
 	light 200
 	{
@@ -73,6 +74,7 @@
 	hardness 3.5102
 	specularity 1.63265
 	parallax 7.83673
+	bloom 1.38776
 	surface "light"
 	light 200
 	{
@@ -89,6 +91,7 @@
 	hardness 1
 	specularity 2.12245
 	parallax 1.71429
+	bloom 1
 }
 {
 	material torn/dmetsupport1
@@ -96,6 +99,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material torn/floor1
@@ -103,6 +107,7 @@
 	hardness 3.02041
 	specularity 2.28571
 	parallax 1.22449
+	bloom 1
 }
 {
 	material torn/floor1stripe
@@ -110,6 +115,7 @@
 	hardness 1.87755
 	specularity 1.87755
 	parallax 1.38776
+	bloom 1
 }
 {
 	material torn/floor2
@@ -117,6 +123,7 @@
 	hardness 1.95918
 	specularity 0.489796
 	parallax 2.93878
+	bloom 1
 }
 {
 	material torn/floorfx
@@ -124,6 +131,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	surface "blend_100 material decal"
 	{
 		texture torn/floorfx
@@ -139,6 +147,7 @@
 	hardness 1
 	specularity 1
 	parallax 3.18367
+	bloom 2.44898
 	surface "light"
 	light 120
 	{
@@ -155,6 +164,7 @@
 	hardness 1
 	specularity 1
 	parallax 1.38776
+	bloom 1
 }
 {
 	material torn/metglu2
@@ -162,6 +172,7 @@
 	hardness 2.69388
 	specularity 1.87755
 	parallax 2.12245
+	bloom 1
 }
 {
 	material torn/metpan1
@@ -169,6 +180,7 @@
 	hardness 3.02041
 	specularity 3.02041
 	parallax 3.02041
+	bloom 1
 }
 {
 	material torn/metpan1r
@@ -176,6 +188,7 @@
 	hardness 3.10204
 	specularity 3.10204
 	parallax 3.02041
+	bloom 1
 }
 {
 	material torn/metpan2
@@ -183,6 +196,7 @@
 	hardness 3.10204
 	specularity 3.10204
 	parallax 3.02041
+	bloom 1
 }
 {
 	material torn/metpan3
@@ -190,6 +204,7 @@
 	hardness 2.53061
 	specularity 1.06122
 	parallax 3.02041
+	bloom 1
 }
 {
 	material torn/metpan4
@@ -197,6 +212,7 @@
 	hardness 3.02041
 	specularity 1
 	parallax 3.02041
+	bloom 1
 }
 {
 	material torn/metpan5
@@ -204,6 +220,7 @@
 	hardness 3.02041
 	specularity 3.02041
 	parallax 3.02041
+	bloom 1
 }
 {
 	material torn/metpan_caution
@@ -211,6 +228,7 @@
 	hardness 2.04082
 	specularity 3.02041
 	parallax 1.95918
+	bloom 1
 }
 {
 	material torn/metpan_caution2
@@ -219,6 +237,7 @@
 	hardness 0.244898
 	specularity 6.69388
 	parallax 1.71429
+	bloom 1
 }
 {
 	material torn/metpan_lite1
@@ -226,6 +245,7 @@
 	hardness 1.95918
 	specularity 0.571429
 	parallax 4.97959
+	bloom 2.12245
 	surface "light"
 	light 200
 	{
@@ -242,6 +262,7 @@
 	hardness 3.34694
 	specularity 3.18367
 	parallax 1.95918
+	bloom 1
 }
 {
 	material torn/q1comp4
@@ -249,6 +270,7 @@
 	hardness 8
 	specularity 1
 	parallax 2.61224
+	bloom 1
 }
 {
 	material torn/q1comp6
@@ -256,6 +278,7 @@
 	hardness 6.28571
 	specularity 2.04082
 	parallax 1.38776
+	bloom 1
 	{
 		texture torn/q1comp6fx0
 		blend GL_SRC_ALPHA GL_ONE
@@ -269,6 +292,7 @@
 	hardness 8
 	specularity 1
 	parallax 1
+	bloom 1
 	{
 		texture torn/q1comp6fx1
 		blend GL_SRC_ALPHA GL_ONE
@@ -282,6 +306,7 @@
 	hardness 8
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material torn/stain_chemical1
@@ -289,6 +314,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	surface "light blend_100 decal"
 	light 40
 }
@@ -298,6 +324,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	surface "light blend_100 decal"
 	light 20
 }
@@ -307,6 +334,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	surface "light blend_100 decal"
 	light 20
 }
@@ -316,6 +344,7 @@
 	hardness 2.12245
 	specularity 1
 	parallax 1.71429
+	bloom 1
 }
 {
 	material torn/star6
@@ -323,6 +352,7 @@
 	hardness 2.85714
 	specularity 1
 	parallax 2.12245
+	bloom 1
 }
 {
 	material torn/starb2a
@@ -330,6 +360,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material torn/starc
@@ -337,6 +368,7 @@
 	hardness 1.55102
 	specularity 1.63265
 	parallax 3.10204
+	bloom 1
 }
 {
 	material torn/stard
@@ -344,6 +376,7 @@
 	hardness 2.77551
 	specularity 1.63265
 	parallax 1.38776
+	bloom 1
 }
 {
 	material torn/xpiplun1a
@@ -351,4 +384,5 @@
 	hardness 1.14286
 	specularity 1.22449
 	parallax 1.30612
+	bloom 1
 }

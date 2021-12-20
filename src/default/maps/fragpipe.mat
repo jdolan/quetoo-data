@@ -4,6 +4,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/clip
@@ -11,6 +12,15 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
+}
+{
+	material common/fog
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
 }
 {
 	material common/origin
@@ -18,6 +28,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/sky
@@ -25,6 +36,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material fragpipe/brlava
@@ -32,6 +44,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 4.89796
 	surface "light"
 	light 100
 	{
@@ -53,6 +66,7 @@
 	hardness 1.4
 	specularity 1
 	parallax 1
+	bloom 5.14286
 	{
 		texture fragpipe/btactmach0fx1
 		blend GL_SRC_ALPHA GL_ONE
@@ -65,6 +79,7 @@
 	hardness 2
 	specularity 0.5
 	parallax 7.67347
+	bloom 3.67347
 	surface "light"
 	light 220
 	{
@@ -83,6 +98,7 @@
 	hardness 1.5
 	specularity 1.4
 	parallax 0.979592
+	bloom 1
 }
 {
 	material fragpipe/color1_3
@@ -90,6 +106,7 @@
 	hardness 4.2449
 	specularity 2
 	parallax 0.653061
+	bloom 1
 }
 {
 	material fragpipe/dr02_2
@@ -97,6 +114,7 @@
 	hardness 3.3
 	specularity 2.7
 	parallax 0.7
+	bloom 1
 }
 {
 	material fragpipe/fanshade_fx
@@ -104,6 +122,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	surface "blend_100 material decal"
 	{
 		texture fragpipe/fanshade_fx
@@ -117,6 +136,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 0.4
+	bloom 1
 }
 {
 	material fragpipe/floor3_1
@@ -124,6 +144,7 @@
 	hardness 2.5
 	specularity 1.5
 	parallax 1.22449
+	bloom 1
 }
 {
 	material fragpipe/ggrat12_2
@@ -132,6 +153,7 @@
 	hardness 1.5
 	specularity 1.8
 	parallax 1.14286
+	bloom 1
 }
 {
 	material fragpipe/ggrat12_2heat
@@ -140,6 +162,7 @@
 	hardness 1.5
 	specularity 1.8
 	parallax 0.979592
+	bloom 1
 	{
 		texture fragpipe/glowedge256
 		blend GL_SRC_ALPHA GL_ONE
@@ -151,6 +174,7 @@
 	hardness 1.8
 	specularity 1
 	parallax 1.46939
+	bloom 1
 }
 {
 	material fragpipe/grate2_7
@@ -158,6 +182,7 @@
 	hardness 1.5
 	specularity 1.8
 	parallax 1.38776
+	bloom 1
 }
 {
 	material fragpipe/grate2_7down
@@ -165,6 +190,7 @@
 	hardness 1.5
 	specularity 1.8
 	parallax 0.7
+	bloom 1.46939
 	{
 		texture fragpipe/glowlavadown
 		blend GL_SRC_ALPHA GL_ONE
@@ -177,6 +203,7 @@
 	hardness 1.5
 	specularity 1.8
 	parallax 0.7
+	bloom 1
 	{
 		texture fragpipe/glowedge256
 		blend GL_SRC_ALPHA GL_ONE
@@ -188,6 +215,7 @@
 	hardness 1.5
 	specularity 1.8
 	parallax 0.7
+	bloom 1
 	{
 		texture fragpipe/glowlavalow
 		blend GL_SRC_ALPHA GL_ONE
@@ -199,6 +227,7 @@
 	hardness 2.5
 	specularity 1.2
 	parallax 0
+	bloom 1
 }
 {
 	material fragpipe/metal14_1edge
@@ -206,6 +235,7 @@
 	hardness 2.5
 	specularity 1.2
 	parallax 0
+	bloom 1
 }
 {
 	material fragpipe/metal3_1
@@ -213,6 +243,7 @@
 	hardness 1.8
 	specularity 2
 	parallax 0
+	bloom 1
 }
 {
 	material fragpipe/metal3_2
@@ -220,6 +251,7 @@
 	hardness 1.8
 	specularity 2
 	parallax 0.979592
+	bloom 1
 }
 {
 	material fragpipe/metal3_3
@@ -227,6 +259,7 @@
 	hardness 1.8
 	specularity 2
 	parallax 1
+	bloom 1
 }
 {
 	material fragpipe/metal3_3q2decal
@@ -234,6 +267,7 @@
 	hardness 1.8
 	specularity 2
 	parallax 1.79592
+	bloom 1
 }
 {
 	material fragpipe/metal3_4
@@ -241,6 +275,7 @@
 	hardness 3.3
 	specularity 0.8
 	parallax 0.2
+	bloom 1
 }
 {
 	material fragpipe/metal_subslime
@@ -248,6 +283,7 @@
 	hardness 2
 	specularity 2.6
 	parallax 1
+	bloom 1
 	{
 		texture fragpipe/slime_glowedge
 		blend GL_SRC_ALPHA GL_ONE
@@ -259,6 +295,7 @@
 	hardness 1.8
 	specularity 0.7
 	parallax 0.7
+	bloom 1
 }
 {
 	material fragpipe/metals_3
@@ -266,6 +303,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material fragpipe/metl12_1
@@ -273,6 +311,7 @@
 	hardness 1
 	specularity 1
 	parallax 1.63265
+	bloom 1
 }
 {
 	material fragpipe/metl_floor
@@ -280,6 +319,7 @@
 	hardness 1.2
 	specularity 0.8
 	parallax 0.2
+	bloom 1
 }
 {
 	material fragpipe/sewer_bars
@@ -287,6 +327,7 @@
 	hardness 3
 	specularity 1
 	parallax 0.979592
+	bloom 1
 }
 {
 	material fragpipe/slime0
@@ -294,6 +335,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1.30612
 	surface "light blend_66"
 	light 80
 	{
@@ -321,6 +363,7 @@
 	hardness 3
 	specularity 1.8
 	parallax 0.897959
+	bloom 1
 }
 {
 	material fragpipe/subslimebotm
@@ -329,6 +372,7 @@
 	hardness 1.2
 	specularity 0.8
 	parallax 0.7
+	bloom 1
 }
 {
 	material fragpipe/wbasic1_4
@@ -336,6 +380,7 @@
 	hardness 1.5
 	specularity 1.5
 	parallax 1.46939
+	bloom 1
 }
 {
 	material fragpipe/wndow1_2
@@ -343,4 +388,5 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }

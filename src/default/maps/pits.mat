@@ -4,6 +4,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/clip
@@ -11,6 +12,15 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
+}
+{
+	material common/hint
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
 }
 {
 	material common/origin
@@ -18,6 +28,15 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
+}
+{
+	material common/skip
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
 }
 {
 	material common/sky
@@ -25,6 +44,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material pits/bed4_1
@@ -32,6 +52,7 @@
 	hardness 7
 	specularity 6
 	parallax 0.5
+	bloom 1
 }
 {
 	material pits/blume4_1
@@ -39,6 +60,7 @@
 	hardness 1.95918
 	specularity 0.489796
 	parallax 0.979592
+	bloom 1
 }
 {
 	material pits/blume6_1
@@ -46,6 +68,7 @@
 	hardness 2.04082
 	specularity 0.571429
 	parallax 0.979592
+	bloom 1
 }
 {
 	material pits/blume7_2
@@ -53,6 +76,7 @@
 	hardness 2
 	specularity 3
 	parallax 0.979592
+	bloom 1
 }
 {
 	material pits/blume9_2
@@ -60,6 +84,7 @@
 	hardness 3.2
 	specularity 3
 	parallax 0.7
+	bloom 1
 }
 {
 	material pits/btactmach0
@@ -67,6 +92,7 @@
 	hardness 4.5
 	specularity 2.5
 	parallax 0.7
+	bloom 1
 	{
 		texture pits/btactmach0fx1
 		blend GL_SRC_ALPHA GL_ONE
@@ -79,6 +105,7 @@
 	hardness 2.93878
 	specularity 0.979592
 	parallax 2
+	bloom 0.979592
 	surface "light"
 	light 220
 	{
@@ -99,6 +126,7 @@
 	hardness 2
 	specularity 0.5
 	parallax 2
+	bloom 2.12245
 	surface "light"
 	light 160
 	{
@@ -118,6 +146,7 @@
 	hardness 3.5
 	specularity 1.5
 	parallax 0.3
+	bloom 1
 }
 {
 	material pits/floor1_6
@@ -125,6 +154,7 @@
 	hardness 1.30612
 	specularity 1.5
 	parallax 1.46939
+	bloom 1
 }
 {
 	material pits/floor2_7
@@ -133,6 +163,7 @@
 	hardness 2.8
 	specularity 1.5
 	parallax 0.979592
+	bloom 1
 }
 {
 	material pits/green0_2
@@ -140,6 +171,7 @@
 	hardness 1.2
 	specularity 4
 	parallax 0.979592
+	bloom 1
 }
 {
 	material pits/green3_4
@@ -147,6 +179,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material pits/lead1_1
@@ -154,6 +187,7 @@
 	hardness 3.59184
 	specularity 3.18367
 	parallax 1.14286
+	bloom 1
 }
 {
 	material pits/lead1_2
@@ -161,6 +195,7 @@
 	hardness 2.1
 	specularity 3.5
 	parallax 0
+	bloom 1
 }
 {
 	material pits/metal14_1
@@ -168,6 +203,7 @@
 	hardness 2.5
 	specularity 2
 	parallax 0.5
+	bloom 1
 }
 {
 	material pits/metal16trim
@@ -175,6 +211,7 @@
 	hardness 2.5
 	specularity 1.5
 	parallax 0.2
+	bloom 1
 }
 {
 	material pits/metal17_1
@@ -182,6 +219,7 @@
 	hardness 2
 	specularity 1.87755
 	parallax 1
+	bloom 1
 }
 {
 	material pits/metal2_1
@@ -189,6 +227,7 @@
 	hardness 1.2
 	specularity 2
 	parallax 0.7
+	bloom 1
 }
 {
 	material pits/metal2_1_subslime
@@ -197,6 +236,7 @@
 	hardness 1.2
 	specularity 2
 	parallax 0
+	bloom 1
 }
 {
 	material pits/metals_1
@@ -204,6 +244,7 @@
 	hardness 0.979592
 	specularity 4
 	parallax 1
+	bloom 1
 }
 {
 	material pits/metl_floor
@@ -211,6 +252,7 @@
 	hardness 1.63265
 	specularity 0.571429
 	parallax 0
+	bloom 1
 }
 {
 	material pits/pyramids
@@ -218,6 +260,7 @@
 	hardness 7
 	specularity 4
 	parallax 1
+	bloom 1
 }
 {
 	material pits/rmetal6_1
@@ -225,6 +268,7 @@
 	hardness 2
 	specularity 3.2
 	parallax 0
+	bloom 1
 }
 {
 	material pits/slime0
@@ -232,6 +276,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	surface "light blend_66"
 	light 60
 	{
@@ -259,6 +304,7 @@
 	hardness 3.3
 	specularity 2
 	parallax 0
+	bloom 1
 }
 {
 	material pits/subslimebotm
@@ -266,6 +312,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material pits/tampon1
@@ -273,6 +320,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	surface "blend_100 decal"
 }
 {
@@ -281,6 +329,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	{
 		texture pits/water6fx
 		blend GL_SRC_ALPHA GL_ONE
@@ -288,14 +337,14 @@
 		scroll.s -0.03
 		scale.s 0.85
 		scale.t 0.65
-		warp .3 1
+		warp 0.3 1
 	}
 	{
 		texture pits/water6fx
 		blend GL_SRC_ALPHA GL_ONE
 		color 1 0.906086 0.513807 1
 		scroll.t -0.03
-		warp .3 1
+		warp 0.3 1
 	}
 }
 {
@@ -304,6 +353,7 @@
 	hardness 1.3
 	specularity 0.6
 	parallax 1.4
+	bloom 1
 }
 {
 	material pits/wgroove_dark
@@ -311,6 +361,7 @@
 	hardness 1.3
 	specularity 0.6
 	parallax 1.4
+	bloom 1
 }
 {
 	material pits/wlight1
@@ -318,6 +369,7 @@
 	hardness 3.2
 	specularity 2.8
 	parallax 1.7
+	bloom 1.63265
 	surface "light"
 	light 300
 	{

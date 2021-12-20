@@ -4,6 +4,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/clip
@@ -11,6 +12,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material common/fog
@@ -18,20 +20,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-}
-{
-	material common/hint
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-}
-{
-	material common/skip
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/alienpuke
@@ -39,6 +28,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1
 	surface "blend_100 decal"
 }
 {
@@ -47,6 +37,7 @@
 	hardness 4.5
 	specularity 1
 	parallax 1
+	bloom 4.32653
 	{
 		texture slimyplace/btactmach0fx1
 		blend GL_SRC_ALPHA GL_ONE
@@ -59,6 +50,7 @@
 	hardness 4.5
 	specularity 1
 	parallax 3
+	bloom 1.87755
 	surface "light"
 	light 200
 	{
@@ -79,6 +71,7 @@
 	hardness 4.5
 	specularity 1
 	parallax 3
+	bloom 0.571429
 	surface "light"
 	light 180
 	{
@@ -98,6 +91,7 @@
 	hardness 2.8
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/fmet1_2
@@ -105,6 +99,7 @@
 	hardness 1.7
 	specularity 1
 	parallax 0
+	bloom 1
 }
 {
 	material slimyplace/grate1_4
@@ -112,6 +107,7 @@
 	hardness 2
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/grnx2_1
@@ -119,6 +115,7 @@
 	hardness 3
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/grnx2_2
@@ -126,6 +123,7 @@
 	hardness 3
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/grnx2_3
@@ -133,6 +131,7 @@
 	hardness 3
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/lead1_3
@@ -140,6 +139,7 @@
 	hardness 2
 	specularity 1
 	parallax 0
+	bloom 1
 }
 {
 	material slimyplace/metal15_2basic
@@ -147,6 +147,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/metal15_2sml
@@ -154,6 +155,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/metal16trim_g
@@ -161,6 +163,7 @@
 	hardness 2.5
 	specularity 1
 	parallax 0.4
+	bloom 1
 }
 {
 	material slimyplace/metal17_1
@@ -168,6 +171,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/metal17_2
@@ -176,6 +180,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/metal1_1half
@@ -183,6 +188,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/metal1_1side
@@ -190,6 +196,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/metal2_1
@@ -197,6 +204,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/metal_subslime
@@ -205,6 +213,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 1
+	bloom 1
 	{
 		texture slimyplace/slime_glowedge
 		blend GL_SRC_ALPHA GL_ONE
@@ -216,6 +225,7 @@
 	hardness 1.2
 	specularity 1
 	parallax 0.4
+	bloom 1
 }
 {
 	material slimyplace/ometal2_1sub
@@ -224,6 +234,7 @@
 	hardness 1.2
 	specularity 1
 	parallax 0.4
+	bloom 1
 	{
 		texture slimyplace/slime_glowedge
 		blend GL_SRC_ALPHA GL_ONE
@@ -235,6 +246,7 @@
 	hardness 2.5
 	specularity 1
 	parallax 0
+	bloom 1
 }
 {
 	material slimyplace/sewer2_bars
@@ -242,6 +254,7 @@
 	hardness 2
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material slimyplace/slime0
@@ -249,6 +262,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	bloom 1.38776
 	surface "light blend_66"
 	light 48
 	{
@@ -276,6 +290,7 @@
 	hardness 1.2
 	specularity 1
 	parallax 0.7
+	bloom 1
 }
 {
 	material slimyplace/wlight1g
@@ -283,6 +298,7 @@
 	hardness 3.5
 	specularity 1
 	parallax 1.2
+	bloom 3.10204
 	surface "light"
 	light 300
 	{

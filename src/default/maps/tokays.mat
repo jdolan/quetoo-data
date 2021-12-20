@@ -1,9 +1,50 @@
 {
+	material common/caulk
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/clip
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/hint
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/skip
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/sky
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
 	material tokays/bed3_3
 	roughness 1.1
 	hardness 1.9
 	specularity 2.5
 	parallax 0.5
+	bloom 1
 }
 {
 	material tokays/bed4_1
@@ -11,6 +52,7 @@
 	hardness 4
 	specularity 5
 	parallax 1
+	bloom 1
 }
 {
 	material tokays/ceil1_28
@@ -18,15 +60,18 @@
 	hardness 4.5
 	specularity 1.2
 	parallax 3
+	bloom 1.95918
+	surface "light"
 	light 180
 	{
 		texture tokays/ceil1_28fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
+		color 0.8 0.73 0.6 1
+		scale.s 0.75
+		scale.t 0.75
 		flare flare_0
-		scale.s 0.75 scale.t 0.75
-		color 0.8 0.73 0.6
 	}
 }
 {
@@ -36,15 +81,18 @@
 	hardness 4.5
 	specularity 1.2
 	parallax 3
+	bloom 1
+	surface "light"
 	light 180
 	{
 		texture tokays/ceil1_aquafx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
+		color 0.2 0.9 0.45 1
+		scale.s 0.75
+		scale.t 0.75
 		flare flare_0
-		scale.s 0.75 scale.t 0.75
-		color 0.2 0.9 0.45
 	}
 }
 {
@@ -53,6 +101,7 @@
 	hardness 1.7
 	specularity 2
 	parallax 0
+	bloom 1
 }
 {
 	material tokays/fmet2_3
@@ -60,6 +109,7 @@
 	hardness 3.2
 	specularity 2
 	parallax 1.2
+	bloom 1
 }
 {
 	material tokays/fmet3_5
@@ -67,6 +117,8 @@
 	hardness 3
 	specularity 5
 	parallax 0.6
+	bloom 1
+	surface "light"
 	light 100
 	{
 		texture tokays/fmet3_5fx
@@ -79,6 +131,7 @@
 	hardness 1.5
 	specularity 2
 	parallax 1
+	bloom 1
 }
 {
 	material tokays/metal14_1
@@ -86,13 +139,7 @@
 	hardness 2.2
 	specularity 2
 	parallax 0.7
-}
-{
-	material tokays/metal14_1edge
-	roughness 1.5
-	hardness 2
-	specularity 1
-	parallax 1.5
+	bloom 1
 }
 {
 	material tokays/metal15_2
@@ -100,6 +147,7 @@
 	hardness 2
 	specularity 2
 	parallax 1
+	bloom 1
 }
 {
 	material tokays/metal16_2
@@ -107,6 +155,7 @@
 	hardness 2
 	specularity 2
 	parallax 1
+	bloom 1
 }
 {
 	material tokays/metal16trim
@@ -114,6 +163,7 @@
 	hardness 3
 	specularity 2.5
 	parallax 0.5
+	bloom 1
 }
 {
 	material tokays/metal17_1
@@ -121,6 +171,7 @@
 	hardness 2
 	specularity 1
 	parallax 1
+	bloom 1
 }
 {
 	material tokays/metal17_2
@@ -128,13 +179,7 @@
 	hardness 2
 	specularity 1.5
 	parallax 1
-}
-{
-	material tokays/metal2_1
-	roughness 1.2
-	hardness 1.5
-	specularity 2
-	parallax 1
+	bloom 1
 }
 {
 	material tokays/metal20_1
@@ -142,6 +187,7 @@
 	hardness 2
 	specularity 2
 	parallax 1
+	bloom 0.979592
 }
 {
 	material tokays/metal20_2
@@ -149,6 +195,15 @@
 	hardness 2
 	specularity 2
 	parallax 1
+	bloom 1
+}
+{
+	material tokays/metal20_3
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
 }
 {
 	material tokays/metal21_1
@@ -156,6 +211,7 @@
 	hardness 2
 	specularity 1.5
 	parallax 1
+	bloom 1
 }
 {
 	material tokays/metal21_2
@@ -163,13 +219,7 @@
 	hardness 2
 	specularity 1.5
 	parallax 1
-}
-{
-	material tokays/metal21_2trim
-	roughness 1.2
-	hardness 2
-	specularity 1.5
-	parallax 1.2
+	bloom 1
 }
 {
 	material tokays/metal21_2lamp
@@ -177,6 +227,8 @@
 	hardness 1.3
 	specularity 4
 	parallax 1.2
+	bloom 3.26531
+	surface "light"
 	light 150
 	{
 		texture tokays/metal21_2lampfx
@@ -184,11 +236,28 @@
 	}
 }
 {
+	material tokays/metal21_2trim
+	roughness 1.2
+	hardness 2
+	specularity 1.5
+	parallax 1.2
+	bloom 1
+}
+{
 	material tokays/metal23_3
 	roughness 1.5
 	hardness 2.8
 	specularity 1.5
 	parallax 1
+	bloom 1
+}
+{
+	material tokays/metal2_1
+	roughness 1.2
+	hardness 1.5
+	specularity 2
+	parallax 1
+	bloom 1
 }
 {
 	material tokays/ringu
@@ -196,6 +265,7 @@
 	hardness 2.5
 	specularity 4
 	parallax 0.5
+	bloom 1
 }
 {
 	material tokays/stflr1_3
@@ -203,6 +273,7 @@
 	hardness 3.3
 	specularity 2
 	parallax 0
+	bloom 1
 	footsteps metal
 }
 {
@@ -211,6 +282,15 @@
 	hardness 5
 	specularity 5.5
 	parallax 0.8
+	bloom 1
+}
+{
+	material tokays/stroggwall1_256
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
 }
 {
 	material tokays/troof4_2
@@ -218,6 +298,7 @@
 	hardness 4
 	specularity 1.5
 	parallax 1
+	bloom 1
 }
 {
 	material tokays/troof4_5
@@ -225,23 +306,31 @@
 	hardness 4
 	specularity 1.5
 	parallax 1
+	bloom 1
 }
 {
 	material tokays/water2
-	surface blend_66
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+	surface "blend_66"
 	{
 		texture tokays/water2fx
 		blend GL_SRC_ALPHA GL_ONE
-		color 0.483 0.508 0.527
-		scale.s 0.85 scale.t 0.65
+		color 0.483 0.508 0.527 1
 		scroll.t 0.04
+		scale.s 0.85
+		scale.t 0.65
 	}
 	{
 		texture tokays/water2fx
 		blend GL_SRC_ALPHA GL_ONE
-		color 0.483 0.508 0.527
-		scale.s 1.0 scale.t 0.75
+		color 0.483 0.508 0.527 1
 		scroll.s -0.06
+		scale.s 1
+		scale.t 0.75
 	}
 }
 {
@@ -250,4 +339,5 @@
 	hardness 4
 	specularity 3
 	parallax 0.3
+	bloom 1
 }
