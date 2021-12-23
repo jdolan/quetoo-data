@@ -1,98 +1,141 @@
 {
 	material common/caulk
-	bump 1.0
-	hardness 1.0
-	parallax 1.0
-	specular 1.0
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
 }
 {
 	material common/clip
-	bump 1.0
-	hardness 1.0
-	parallax 1.0
-	specular 1.0
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+}
+{
+	material common/fog
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
 }
 {
 	material common/sky
-	bump 1.0
-	hardness 1.0
-	parallax 1.0
-	specular 1.0
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
 }
 {
 	material darkzone/#04water1
-	bump 1.0
-	hardness 1.0
-	parallax 1.0
-	specular 1.0
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+	contents "water"
+	surface "blend_33"
+	{
+		texture darkzone/#04water1
+		warp 1 1
+	}
 }
 {
 	material darkzone/#teleport
-	bump 1.0
-	hardness 1.0
-	parallax 1.0
-	specular 1.0
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	bloom 1
+	contents "mist"
+	surface "light blend_33 material"
+	light 30
+	{
+		texture darkzone/#teleport
+		warp 1 1
+	}
 }
 {
 	material darkzone/city2_6
-	bump 1.0
-	hardness 2.0
-	parallax 2.0
-	specular 0.6
+	roughness 1.79592
+	hardness 2
+	specularity 0.6
+	parallax 1.71429
+	bloom 1.87755
 }
 {
 	material darkzone/city2_7
-	bump 1.0
-	hardness 2.0
-	parallax 2.0
-	specular 0.6
+	roughness 1
+	hardness 2
+	specularity 0.6
+	parallax 2
+	bloom 1
 }
 {
 	material darkzone/city2_8
-	bump 1.0
-	hardness 2.0
-	parallax 2.0
-	specular 0.6
+	roughness 2.44898
+	hardness 2
+	specularity 0.6
+	parallax 2
+	bloom 1
 }
 {
 	material darkzone/city4_2
-	bump 1.0
-	hardness 2.0
-	parallax 2.0
-	specular 0.6
+	roughness 3.67347
+	hardness 1.30612
+	specularity 0.489796
+	parallax 2.53061
+	bloom 1
 }
 {
 	material darkzone/cop1_1
-	bump 1.0
-	hardness 8.0
-	parallax 0.0
-	specular 1.0
+	roughness 1.63265
+	hardness 2.20408
+	specularity 1.38776
+	parallax 0.0816327
+	bloom 1.30612
 }
 {
 	material darkzone/cop1_7
-	bump 1.0
+	roughness 1
 	hardness 1.5
-	parallax 1.0
-	specular 1.0
+	specularity 1
+	parallax 1
+	bloom 1
 }
 {
 	material darkzone/ground1_5
-	bump 1.0
-	hardness 1.0
-	parallax 1.0
-	specular 1.0
+	roughness 1.22449
+	hardness 3.42857
+	specularity 1
+	parallax 3.02041
+	bloom 1.71429
+}
+{
+	material darkzone/metal1_3
+	roughness 1.79592
+	hardness 2.20408
+	specularity 2.04082
+	parallax 1.06122
+	bloom 2.85714
 }
 {
 	material darkzone/metal4_4
-	bump 1.0
-	hardness 50.0
-	parallax 0.3
-	specular 4.0
+	roughness 2.93878
+	hardness 1.55102
+	specularity 3.67347
+	parallax 1.46939
+	bloom 4.32653
 }
 {
 	material darkzone/wmet4_8
-	bump 1.0
-	hardness 40.0
-	parallax 1.0
-	specular 4.0
+	roughness 1.79592
+	hardness 2.77551
+	specularity 1.55102
+	parallax 1.14286
+	bloom 1
 }
