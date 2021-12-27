@@ -706,7 +706,7 @@
  target : The name of the entity to target to resolve the sparks direction.
 */
 
-/*QUAKED misc_sprite (.6 .8 .6) (-8 -8 -8) (8, 8, 8)
+/*QUAKED misc_sprite (.6 .8 .6) (-8 -8 -8) (8 8 8)
  Highly configurable client-side emission of sprites. These are useful for light volumes, blood dripping from walls, or anything else you can think of. If two instances of this entity are teamed, the game will emit randomized instances that mix the properties of both teammates.
 
  -------- Keys --------
