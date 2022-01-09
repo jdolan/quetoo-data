@@ -356,15 +356,15 @@
  angle : The angle at which the player will face when spawned.
 */
 
-/*QUAKED info_player_team3 (0 1 0) (-16 -16 -24) (16 16 32)
- Player spawn point for green team in teams or CTF gameplay.
+/*QUAKED info_player_team3 (1 1 0) (-16 -16 -24) (16 16 32)
+ Player spawn point for yellow team in teams or CTF gameplay.
 
  -------- Keys --------
  angle : The angle at which the player will face when spawned.
 */
 
-/*QUAKED info_player_team4 (1 .5 .2) (-16 -16 -24) (16 16 32)
- Player spawn point for orange team in teams or CTF gameplay.
+/*QUAKED info_player_team4 (0 1 0) (-16 -16 -24) (16 16 32)
+ Player spawn point for green team in teams or CTF gameplay.
 
  -------- Keys --------
  angle : The angle at which the player will face when spawned.
@@ -474,7 +474,7 @@
  model="models/ctf/flag2/tris.obj"
 */
 
-/*QUAKED item_flag_team3 (.2 1 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
+/*QUAKED item_flag_team3 (1 1 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
 
  -------- Spawn flags --------
  triggered : Item will not appear until triggered.
@@ -485,7 +485,7 @@
  model="models/ctf/flag3/tris.obj"
 */
 
-/*QUAKED item_flag_team4 (1 .5 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
+/*QUAKED item_flag_team4 (.2 1 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
 
  -------- Spawn flags --------
  triggered : Item will not appear until triggered.
@@ -642,9 +642,9 @@
  Client-side flame emitter, useful for torches and ambience.
 
  -------- Keys --------.
- hz : The emission rate, in events-per-second (default 10).
  density : The flame density (default 1).
  drift : The factor of randomized drift applied to the emission rate.
+ hz : The emission rate, in events-per-second (default 10).
  radius : The flame radius (default 16).
 */
 
