@@ -1,279 +1,242 @@
 // Quetoo Forge Game Data File (.fgd)
-//
-// FGD Written by: David "Quake Ranger" Cluett
-// Contact: rogue.sergeant@gmail.com - Discord: QuakeRanger#4190 - Steam: http://steamcommunity.com/id/quakeranger/
-// FGD Stable Release Build: 1030
-// 
-// TO-DO:
-// - Optimize and Functionality.
 
-//Appearflags
-@baseclass = Appearflags [
-	spawnflags(Flags) =
-	[
-		256 : "Not in Easy (Not Used)" : 0
-		512 : "Not in Normal (Not Used)" : 0
-		1024 : "Not in Hard (Not Used)" : 0
-		2048 : "Not in Deathmatch (Not Used)" : 0
-	]
+@BaseClass = Targetname [ 
+	targetname(target_source) : "The target name of this entity if it is to be triggered." 
 ]
 
-@baseclass = Targetname [ targetname(target_source) : "Name" ]
-@baseclass = Target [ target(target_destination) : "Target" ]
-@baseclass base(Appearflags)  size(-16 -16 -24, 16 16 32)
-	color(0 255 0) = Triggers []
+@BaseClass = Target [ 
+	target(target_destination) : "The entity to target." 
+]
 
-//BaseClass Weapons
-@BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) = Weapons 
+@BaseClass size(-16 -16 -24, 16 16 32) color(0 255 0) = Triggers [
+
+]
+
+@BaseClass color(76 76 255) size(-16 -16 -16, 16 16 16) = Item
+[
+	spawnflags(Flags) =
+	[
+		1 : "triggered" : 0
+		2 : "no_touch" : 0
+		4 : "hover" : 0
+	]
+	team(string) : "Team"
+]
+
+@PointClass base(Item) studio("") = item_adrenaline : "adrenaline" 
+[
+
+]
+
+@PointClass base(Item) color(255 0 0) studio("") = item_armor_body : "Body armor (+200)."
+[
+
+]
+
+@PointClass base(Item) color(255 255 0) studio("") = item_armor_combat : "Combat armor (+100)."
+[
+	
+]
+
+@PointClass base(Item) color(0 255 0) studio("") = item_armor_jacket : "Jacket armor (+50)." 
+[
+	
+]
+
+@PointClass base(Item) color(0 255 0) size(-4 -4 -6, 4 4 6) studio("") = item_armor_shard : "Shard armor (+3)."
+[
+	
+]
+
+@PointClass base(Item) color(200 200 0) size(-8 -8 -8, 8 8 8) studio("") = item_health : "Health (+15)."
+[
+	
+]
+
+@PointClass base(Item) color(40 255 40) size(-4 -4 6, 4 4 6) studio("") = item_health_small : "Small health (+3)."
+[
+	
+]
+
+@PointClass base(Item) color(255 100 100) studio("") = item_health_large : "Large health (+25)."
+[
+	
+]
+
+@PointClass base(Item) color(30 200 255) studio("") = item_health_mega : "Megahealth (+75)."
+[
+	
+]
+
+@PointClass base(Item) color(20 180 180) studio("") = item_quad : "Quad damage."
+[
+	
+]
+
+@PointClass base(Item) color(255 0 0) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team1 : "Red flag."
+[
+	
+]
+
+@PointClass base(Item) color(0 0 255) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team2 : "Blue flag."
+[
+	
+]
+
+@PointClass base(Item) color(255 255 0) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team3 : "Yellow flag."
+[
+	
+]
+
+@PointClass base(Item) color(0 0 255) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team4 : "Green flag."
+[
+	
+]
+
+@BaseClass base(Item) color(76 76 255) size(-16 -6 -6, 16 6 6) = Weapon
+[
+	team(string) : "The team name for alternating item spawns."
+]
+
+@PointClass base(Weapon) studio("") = weapon_shotgun : "Shotgun"
+[
+	
+]
+
+@PointClass base(Weapon) studio("") = weapon_supershotgun : "Super shotgun"
+[
+	
+]
+
+@PointClass base(Weapon) studio("") = weapon_machinegun : "Machinegun"
+[
+	
+]
+
+@PointClass base(Weapon) studio("")= weapon_chaingun : "Chain gun"
+[
+	
+]
+
+@PointClass base(Weapon) studio("") = weapon_grenadelauncher : "Grenade launcher"
+[
+	
+]
+
+@PointClass base(Weapon) studio("") = weapon_rocketlauncher : "Rocket launcher"
+[
+	
+]
+
+@PointClass base(Weapon) color(100 200 255) studio("") = weapon_hyperblaster : "Hyperblaster"
+[
+	
+]
+
+@PointClass base(Weapon) studio("") = weapon_railgun : "Rail gun"
+[
+	
+]
+
+@PointClass base(Weapon) studio("") = weapon_bfg : "Big Freakin Gun!"
+[
+	
+]
+
+@PointClass base(Weapon) studio("") = weapon_blaster : "Blaster"
+[
+	
+]
+
+@PointClass base(Weapon) studio("") = weapon_lightning : "Lightning"
+[
+	
+]
+
+@BaseClass base(Item) color(76 76 255) size(-8 -8 -8, 8 8 8) = Ammo 
 [
 	team(string) : "Team"
 ]
 
-//Weapons 
-@PointClass base(Weapons) studio("") = weapon_shotgun : "Shotgun"
+@PointClass base(Ammo) color(200 200 0) studio("") = ammo_shells : "Shells for the Shotgun and Super Shotgun."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
+	
 ]
 
-@PointClass base(Weapons) studio("") = weapon_supershotgun : "Super shotgun"
+@PointClass base(Ammo) color(255 255 0) studio("") = ammo_bullets : "Bullets for the machinegun."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
+	
 ]
 
-@PointClass base(Weapons) studio("") = weapon_machinegun : "Machinegun"
+@PointClass base(Ammo) color(100 200 255) studio("") = ammo_cells : "Cells for the Hyperblaster."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
+	
 ]
 
-@PointClass base(Weapons) studio("")= weapon_chaingun : "Chain gun"
+@PointClass base(Ammo) color(0 255 0) studio("") = ammo_grenades : "Grenades for the Grenade Launcher."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
+	
 ]
 
-@PointClass base(Weapons) studio("") = weapon_grenadelauncher : "Grenade launcher"
+@PointClass base(Ammo) color(200 0 0) studio("") = ammo_rockets : "Rockets for the Rocket Launcher."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
+	
 ]
 
-@PointClass base(Weapons) studio("") = weapon_rocketlauncher : "Rocket launcher"
+@PointClass base(Ammo) color(0 0 255) studio("") = ammo_slugs : "Slugs for the Railgun."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
+	
 ]
 
-@PointClass base(Weapons) studio("") = weapon_hyperblaster : "Hyperblaster"
+@PointClass base(Ammo) color(80 255 40) studio("") = ammo_nukes : "Nukes for the BFG10K."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
+	
 ]
 
-@PointClass base(Weapons) studio("") = weapon_railgun : "Rail gun"
+@PointClass base(Ammo) color(255 255 255) studio("") = ammo_bolts : "Bolts for the Lightning."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
+	
 ]
 
-@PointClass base(Weapons) studio("") = weapon_bfg : "Big Freakin Gun!"
+@SolidClass base(Targetname) color(0 255 255) = func_button : "When a button is touched by a player, it moves in the direction set by the 'angle' key, triggers all its targets, stays pressed by the amount of time set by the 'wait' key, then returns to its original position where it can be operated again."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Weapons) studio("") = weapon_blaster : "Blaster"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Weapons) studio("") = weapon_lightning : "Lightning"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-//BaseClass Ammo
-@BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) = Ammo 
-[
-	team(string) : "Team"
-]
-
-//Ammo
-@PointClass base(Ammo) studio("") = ammo_shells : "Shotgun ammo"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Ammo) studio("") = ammo_bullets : "Machine/Chain gun Ammo"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Ammo) studio("") = ammo_cells : "Blaster Ammo"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Ammo) studio("") = ammo_grenades : "Grenades Ammo"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Ammo) studio("") = ammo_rockets : "Rockets"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Ammo) studio("") = ammo_slugs : "Rail Gun Ammo"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Ammo) studio("") = ammo_nukes : "BFG Ammo"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Ammo) studio("") = ammo_bolts : "Lightning Ammo"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-//func entities
-@SolidClass base(Appearflags, Target) color(0 255 255) = func_areaportal : "func_areaportal"
-[
-	targetname(string) : "Target Name"
-]
-
-@SolidClass base(Appearflags, Target) color(0 255 255) = func_button : "func_button"
-[
-	angle(integer) : "Angle"
-	target(string) : "Target(s) Name"
+	angle(integer) : "Determines the direction in which the button will move (up = -1, down = -2)."
+	target(target_destination) : "All entities with a matching target name will be triggered."
 	speed(integer) : "Speed"
 	wait(integer) : "Wait"
 	lip(integer) : "Lip"
 	sounds(integer) : "Sound (0, 1 stone, -1 silent)"
 	health(integer) : "Health (Door takes DMG to open)"
-	targetname(string) : "Target Name"
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) = func_conveyor : "func_conveyor"
+@SolidClass base(Targetname) color(0 255 255) = func_conveyor : "Conveyors are stationary brushes that move what's on them. The brush should be have a surface with at least one current content enabled."
 [
 	spawnflags(Flags) =
 	[
 		1 : "start_open" : 0
 		2 : "toggle" : 0
 	]
-	speed(integer) : "Speed"
-	targetname(string) : "Target Name"
+	speed(integer) : "The speed at which objects on the conveyor are moved (default 100)." : 100
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) = func_door : "func_door"
+@SolidClass base(Targetname) color(0 255 255) = func_door : "A sliding door. By default, doors open when a player walks close to them."
 [
 	spawnflags(Flags) =
 	[
 		1 : "start_open" : 0
 		2 : "toggle" : 0
 	]
-	message(string) : "Message"
-	angle(integer) : "Angle"
-	health(integer) : "Health (Door takes DMG to open)"
-	speed(integer) : "Speed"
-	wait(integer) : "Wait"
-	lip(integer) : "Lip"
-	dmg(integer) : "Damage"
-	targetname(string) : "Target Name"
+	message(string) : "An optional string printed when the door is first touched."
+	angle(integer) : "Determines the opening direction of the door (up = -1, down = -2)."
+	health(integer) : "If set, door must take damage to open."
+	speed(integer) : "The speed with which the door opens (default 100)." : 100
+	wait(integer) : "Wait before returning (3 default, -1 = never return)."
+	lip(integer) : "The lip remaining at end of move (default 8 units)." : 8
+	dmg(integer) : "The damage inflicted on players who block the door as it closes (default 2)." : 2
+	sounds(integer) : "The sound set for the door (0 default, 1 stone, -1 silent)." : 0
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) = func_door_rotating : "func_door_rotating"
+@SolidClass base(Targetname) color(0 255 255) = func_door_rotating : "A door which rotates about an origin on its Z axis. By default, doors open when a player walks close to them."
 [
 	spawnflags(Flags) =
 	[
@@ -283,17 +246,16 @@
 		8 : "x_axis" : 0
 		16 : "y_axis" : 0
 	]
-	message(string) : "Message"
-	health(integer) : "Health (Door takes DMG to open)"
-	speed(integer) : "Speed"
-	wait(integer) : "Wait"
-	lip(integer) : "Lip"
-	dmg(integer) : "Damage"
-	sounds(integer) : "Sound (0, 1 stone, -1 silent)"
-	targetname(string) : "Target Name"
+	message(string) : "An optional string printed when the door is first touched."
+	health(integer) : "If set, door must take damage to open."
+	speed(integer) : "The speed with which the door opens (default 100)." : 100
+	rotation(integer) : "The rotation the door will open, in degrees (default 90).": 90
+	wait(integer) : "Wait before returning (3 default, -1 = never return)."
+	dmg(integer) : "The damage inflicted on players who block the door as it closes (default 2)." : 2
+	sounds(integer) : "The sound set for the door (0 default, 1 stone, -1 silent)." : 0
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) = func_door_secret : "func_door_secret"
+@SolidClass base(Targetname) color(0 255 255) = func_door_secret : "A secret door which opens when shot, or when targeted. The door first slides back, and then to the side."
 [
 	spawnflags(Flags) =
 	[
@@ -301,18 +263,19 @@
 		2 : "first_left" : 0
 		4 : "first_down" : 0
 	]
-	angle(integer) : "Angle"
-	message(string) : "Message"
-	health(integer) : "Health (Door takes DMG to open)"
-	speed(integer) : "Speed"
-	wait(integer) : "Wait"
-	dmg(integer) : "Damage"
-	targetname(string) : "Target Name"
+	angle(integer) : "The angle at which the door opens."
+	message(string) : "An optional string printed when the door is first touched."
+	health(integer) : "If set, door must take damage to open."
+	speed(integer) : "The speed with which the door opens (default 100)." : 100
+	wait(integer) : "Wait before returning (3 default, -1 = never return)."
+	dmg(integer) : "The damage inflicted on players who block the door as it closes (default 2)." : 2
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) = func_group : "func_group" []
+@SolidClass base(Target) color(0 255 255) = func_group : "Groups brushes together in Radiant for convenience. When the map is compiled, these entities are merged back into worldspawn." [
 
-@SolidClass base(Appearflags, Target) color(0 255 255) = func_plat : "func_plat"
+]
+
+@SolidClass base(Target) color(0 255 255) = func_plat : "func_plat"
 [
 	spawnflags(Flags) =
 	[
@@ -323,10 +286,10 @@
 	lip(integer) : "Lip"
 	height(integer) : "Height"
 	sounds(integer) : "Sound (0, 1 stone, -1 silent)"
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) = func_rotating : "func_rotating"
+@SolidClass base(Target) color(0 255 255) = func_rotating : "func_rotating"
 [
 	spawnflags(Flags) =
 	[
@@ -339,10 +302,10 @@
 	]
 	speed(integer) : "Speed"
 	dmg(integer) : "Damage"
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_timer : "func_timer"
+@PointClass base(Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_timer : "func_timer"
 [
 	spawnflags(Flags) =
 	[
@@ -351,10 +314,10 @@
 	wait(integer) : "Wait"
 	random(integer) : "Random"
 	delay(integer) : "delay"
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) = func_train : "func_train"
+@SolidClass base(Target) color(0 255 255) = func_train : "func_train"
 [
 	spawnflags(Flags) =
 	[
@@ -365,10 +328,10 @@
 	dmg(integer) : "Damage"
 	speed(integer) : "Speed"
 	noise(string) : "Noise File"
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) = func_wall : "func_wall"
+@SolidClass base(Target) color(0 255 255) = func_wall : "func_wall"
 [
 	spawnflags(Flags) =
 	[
@@ -376,10 +339,10 @@
 		2 : "toggle" : 0
 		4 : "start_on" : 0
 	]
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 255) = func_water : "func_water"
+@SolidClass base(Target) color(0 255 255) = func_water : "func_water"
 [
 	spawnflags(Flags) =
 	[
@@ -389,190 +352,78 @@
 	speed(integer) : "Speed"
 	wait(integer) : "Wait"
 	lip(integer) : "Lip"
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
-//Info entities
-@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_null : "info_null"
+@PointClass base(Target) color(0 180 0) size(-4 -4 -4, 4 4 4) = info_null : "A positional target for spotlights, etc. These are inhibited in the game and are only useful to the editor and BSP compiler."
 [
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
-@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_notnull : "info_notnull"
+@PointClass base(Target) color(0 180 180) size(-4 -4 -4, 4 4 4) = info_notnull : "A positional target for other entities. Unlike info_null, these are available in the game and can be targeted by other entities (e.g. info_player_intermission)."
 [
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
-@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_start : "info_player_start"
+@PointClass color(255 255 255) size(-16 -16 -24, 16 16 32) = info_player_start : "Single player spawn point."
 [
-	angle(integer) : "Angle"
+	angle(integer) : "The angle at which the player will face when spawned."
 ]
 
-@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_deathmatch : "info_player_deathmatch"
+@PointClass color(255 0 255) size(-16 -16 -24, 16 16 32) = info_player_deathmatch : "Deathmatch spawn point."
 [
-	angle(integer) : "Angle"
+	angle(integer) : "The angle at which the player will face when spawned."
 ]
 
-@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_intermission : "info_player_intermission"
+@PointClass base(Target) color(0 255 255) size(-16 -16 -24, 16 16 32) = info_player_intermission : "Camera for intermission screen between matches."
 [
-	angles(integer) : "Angles"
-	target(string) : "Target (info_notnull)"
+	angles(integer) : "The 'pitch yaw roll' angles for the camera (e.g. 20 270 0)."
 ]
 
-@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_team1 : "info_player_team1"
+@PointClass color(255 0 0) size(-16 -16 -24, 16 16 32) = info_player_team1 : "Player spawn point for red team in teams or CTF gameplay."
 [
-	angle(integer) : "Angle"
+	angle(integer) : "The angle at which the player will face when spawned."
 ]
 
-@PointClass base(Appearflags, Target) color(0 0 255) size(-16 -16 -16, 16 16 16) = info_player_team2 : "info_player_team2"
+@PointClass color(0 0 255) size(-16 -16 -24, 16 16 32) = info_player_team2 : "Player spawn point for blue team in teams or CTF gameplay."
 [
-	angle(integer) : "Angle"
+	angle(integer) : "The angle at which the player will face when spawned."
 ]
 
-//BaseClass Items
-@BaseClass base(Appearflags, Target) color(76 76 255) size(-16 -16 -16, 16 16 16) = Items 
+@PointClass color(255 255 0) size(-16 -16 -24, 16 16 32) = info_player_team3 : "Player spawn point for yellow team in teams or CTF gameplay."
 [
-	team(string) : "Team"
+	angle(integer) : "The angle at which the player will face when spawned."
 ]
-@BaseClass base(Items) = ItemsBob []
 
-@PointClass base(ItemsBob) studio("") = item_adrenaline : "adrenaline" 
+@PointClass color(0 255 0) size(-16 -16 -24, 16 16 32) = info_player_team4 : "Player spawn point for green team in teams or CTF gameplay."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
+	angle(integer) : "The angle at which the player will face when spawned."
 ]
 
-@PointClass base(ItemsBob) studio("") = item_armor_body : "Body armor +200"
+@PointClass base(Target) color(255 255 255) size(-8 -8 -8, 8 8 8) = light : "Point light source."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
+	light(integer) : "Light radius (default 300)." : 300
+	_color(color1) : "Light color as 3 decimal values from 0.0 - 1.0 (default 1 1 1)." : "1 1 1"
+	_size(integer) : "Spotlight size, to simulate area lights and cast penumbrae (default 16)." : 16
 ]
 
-@PointClass base(ItemsBob) studio("") = item_armor_combat : "Combat armor +100"
+@PointClass base(Target) color(200 255 255) size(-8 -8 -8, 8 8 8) = light_spot : "Point light source with attenuation cone."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
+	light(integer) : "Light radius (default 300)." : 300
+	_color(color1) : "Light color as 3 decimal values from 0.0 - 1.0 (default 1 1 1)." : "1 1 1"
+	_cone(integer) : "Spotlight attenuation cone width, in degrees (default 22.5)." : 22
+	_angle(integer) : "Spotlight direction (up = -1, down = -2, yaw = positive value)."
+	_size(integer) : "Spotlight size, to simulate area lights and cast penumbrae (default 16)." : 16
 ]
 
-@PointClass base(ItemsBob) studio("") = item_armor_jacket : "Jacket armor +50" 
+@PointClass base(Target) color(255 255 0) size(-16 -16 -16, 16 16 16) = light_sun : "Directional sun light source."
 [
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
+	light(integer) : "Sun light as an integer value from 0 - 255 (default 255)." : 255
+	_color(color1) : "Sun color as 3 decimal values from 0.0 - 1.0 (default 1 1 1)." : "1 1 1"
+	_size(integer) : "Sun size, to simulate area lights and cast penumbrae (default 16)." : 256
 ]
 
-@PointClass base(ItemsBob) studio("") = item_armor_shard : "Armor shard +3"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Items) studio("") = item_health : "+15 health"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Items) studio("") = item_health_small : "+3 health"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Items) studio("") = item_health_large : "+25 health"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(Items) studio("") = item_health_mega : "+75 health"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(ItemsBob) studio("") = item_quad : "Quad damage"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(ItemsBob) studio("") = item_flag_team1 : "Team 1 Flag"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-@PointClass base(ItemsBob) studio("") = item_flag_team2 : "Team 2 Flag"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "no_touch" : 0
-		4 : "hover" : 0
-	]
-]
-
-//Light Entities
-@PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = light : "light"
-[
-	light(integer) : "Light Radius"
-	_color(string) : "Light Color - R G B"
-]
-
-@PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = light_spot : "light_spot"
-[
-	light(integer) : "Light Radius"
-	_color(string) : "Light Color - R G B"
-	_cone(integer) : "Light Cone"
-	_angle(integer) : "Angle"
-]
-
-//Misc Entities
-@PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = misc_teleporter : "misc_teleporter"
+@PointClass base(Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = misc_teleporter : "misc_teleporter"
 [
 	spawnflags(Flags) =
 	[
@@ -582,13 +433,13 @@
 	]
 ]
 
-@PointClass base(Appearflags, Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = misc_teleporter_dest : "misc_teleporter_dest"
+@PointClass base(Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = misc_teleporter_dest : "misc_teleporter_dest"
 [
 	angle(integer) : "Angle"
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
-@PointClass base(Appearflags, Target) color(255 255 0) size(-16 -16 -16, 16 16 16) = misc_emit : "misc_emit"
+@PointClass base(Target) color(255 255 0) size(-16 -16 -16, 16 16 16) = misc_emit : "misc_emit"
 [
 	spawnflags(Flags) =
 	[
@@ -614,7 +465,7 @@
 	model(string) : "Static Model"
 ]
 
-@PointClass base(Appearflags, Target) color(.8 .8 0) size(-8 -8 -8, 8 8 8) = misc_fireball : "misc_fireball"
+@PointClass base(Target) color(.8 .8 0) size(-8 -8 -8, 8 8 8) = misc_fireball : "misc_fireball"
 [
 	angles(integer) : "Angles"
 	dmg(integer) : "Damage"
@@ -623,7 +474,7 @@
 	wait(integer) : "Wait"
 ]
 
-@PointClass base(Appearflags, Target) color(.8 .8 0) size(-8 -8 -8, 8 8 8) = misc_model : "misc_model"
+@PointClass base(Target) color(.8 .8 0) size(-8 -8 -8, 8 8 8) = misc_model : "misc_model"
 [
 	angles(integer) : "Angles"
 	scale(integer) : "Scale"
@@ -631,7 +482,7 @@
 ]
 
 //Path Corner
-@PointClass base(Appearflags, Targetname) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "path_corner"
+@PointClass base(Targetname) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "path_corner"
 [
 	spawnflags(Flags) =
 	[
@@ -639,11 +490,11 @@
 	]
 	target(string) : "Next path target"
 	pathtarget(string) : "Event to trigger"
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
 //Target entities
-@PointClass base(Appearflags, Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_light : "target_light"
+@PointClass base(Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_light : "target_light"
 [
 	spawnflags(Flags) =
 	[
@@ -653,11 +504,11 @@
 	colors(string) : "Color - R G B"
 	delay(integer) : "Delay"
 	dmg(integer) : "Radius"
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 	wait(integer) : "Wait"
 ]
 
-@PointClass base(Appearflags, Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_speaker : "target_speaker"
+@PointClass base(Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_speaker : "target_speaker"
 [
 	spawnflags(Flags) =
 	[
@@ -672,40 +523,40 @@
 		2 : "Idle attenuation, hearable only by those near to entity."
 		3 : "Static attenuation, hearable only by those very close to entity."
 	]
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
-@PointClass base(Appearflags, Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_string : "target_string"
+@PointClass base(Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_string : "target_string"
 [
 	message(string) : "Message"
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
 //Triggers
-@PointClass base(Appearflags, Targetname) color(128 128 128) = trigger_relay : "Relay trigger"
+@PointClass base(Targetname) color(128 128 128) = trigger_relay : "Relay trigger"
 [
 	delay(integer) : "Delay in Seconds" : 0
 	message(string) : "String to Display"
 	target(string) : "Triggering Entity or Team"
 	killtarget(string) : "Entity or Team to Kill"
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
-@PointClass base(Appearflags, Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = trigger_always : "Always triggers" 
+@PointClass base(Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = trigger_always : "Always triggers" 
 [
 	killtarget(string) : "Kill Target"
 	delay(integer) : "Time before triggering"
 ]
 
 //trigger_exec needs to be revised. 1/31/2017
-@PointClass base(Target, Triggers) color(128 128 128) = trigger_exec : "Execute" 
+@PointClass base(Target, Triggers) color(128 128 128) = trigger_exec : "Executes a console command or script file when activated." 
 [
-	commands(string) : "Console CMD"
-	script(string) : ".cfg to execute"
-	delay(integer) : "Delay in Seconds"
+	commands(string) : "The console command(s) to execute."
+	script(string) : "The script file (.cfg) to execute."
+	delay(integer) : "The delay in seconds between activation and execution of the commands."
 ]
 
-@SolidClass base(Appearflags, Targetname) color(128 128 128) = trigger_hurt : "Hurts on touch"
+@SolidClass base(Targetname) color(128 128 128) = trigger_hurt : "Hurts on touch"
 [
 	spawnflags(Flags) =
 	[
@@ -715,7 +566,7 @@
 		8 : "slow" : 0
 	]
 	dmg(integer) : "Damage" : 5
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 	
 ]
 
@@ -729,21 +580,21 @@
 	message(string) : "String to Display"
 	target(string) : "Triggering Entity or Team"
 	killtarget(string) : "Entity or Team to Kill"
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
-@SolidClass base(Appearflags) color(128 128 128) = trigger_push : "Push trigger"
+@SolidClass color(128 128 128) = trigger_push : "Pushes the player in any direction. These are commonly used to make jump pads to send the player upwards. Using the angles key, you can project the player in any direction using 'pitch yaw roll.'"
 [
 	spawnflags(Flags) =
 	[
 		1 : "push_once" : 0
 		2 : "push_effects" : 0
 	]
-	angles(integer) : "Direction (Pitch, Yaw, Roll)" : 0
-	speed(integer) : "Speed of push" : 100
+	angles(integer) : "The direction to push the player in 'pitch yaw roll' notation (e.g. -80 270 0)." : 0
+	speed(integer) : "The speed with which to push the player (default 100)." : 100
 ]
 
-@SolidClass base(Appearflags, Target) color(0 255 00) = trigger_teleporter : "misc_teleporter_dest"
+@SolidClass base(Target) color(0 255 00) = trigger_teleporter : "misc_teleporter_dest"
 [
 	target(string) : "misc_teleporter_dest"
 ]
@@ -760,7 +611,7 @@
 	message(string) : "String to Display"
 	target(string) : "Triggering Entity or Team"
 	killtarget(string) : "Entity or Team to Kill"
-	targetname(string) : "Target Name"
+	targetname(string) : "The target name of this entity."
 ]
 
 // World Spawn

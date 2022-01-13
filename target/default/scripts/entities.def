@@ -152,7 +152,7 @@
  angle : Determines the opening direction of the door (up = -1, down = -2).
  health : If set, door must take damage to open.
  speed : The speed with which the door opens (default 100).
- wait : wait before returning (3 default, -1 = never return).
+ wait : Wait before returning (3 default, -1 = never return).
  lip : The lip remaining at end of move (default 8 units).
  sounds : The sound set for the door (0 default, 1 stone, -1 silent).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
@@ -171,7 +171,7 @@
  health : If set, door must take damage to open.
  speed : The speed with which the door opens (default 100).
  rotation : The rotation the door will open, in degrees (default 90).
- wait : wait before returning (3 default, -1 = never return).
+ wait : Wait before returning (3 default, -1 = never return).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
  sounds : The sound set for the door (0 default, 1 stone, -1 silent).
  targetname : The target name of this entity if it is to be triggered.
@@ -185,15 +185,14 @@
 */
 
 /*QUAKED func_door_secret (0 .5 .8) ? always_shoot 1st_left 1st_down
- A secret door which opens when shot, or when targeted. The door first slides
- back, and then to the side.
+ A secret door which opens when shot, or when targeted. The door first slides back, and then to the side.
 
  -------- Keys --------
  angle : The angle at which the door opens.
  message : An optional string printed when the door is first touched.
  health : If set, door must take damage to open.
  speed : The speed with which the door opens (default 100).
- wait : wait before returning (3 default, -1 = never return).
+ wait : Wait before returning (3 default, -1 = never return).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
  targetname : The target name of this entity if it is to be triggered.
 
@@ -204,7 +203,7 @@
 */
 
 /*QUAKED func_group (.4 .8 .4) ?
- Groups brushes together in Radiant for convenience. When the map is compiled, these entities are merged back into worldspawn.
+Groups brushes together in Radiant for convenience. When the map is compiled, these entities are merged back into worldspawn. 
 
  -------- Notes --------
  Use g to select all brushes in a group. Use TAB to navigate through the individual brushes of a selected group.
@@ -924,7 +923,7 @@
  -------- Spawn flags --------
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
- hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hover : Item will spawn where placed and won't drop to the floor.
 
  -------- Radiant config --------
  model="models/weapons/blaster/tris.obj"
