@@ -1,18 +1,16 @@
 // Quetoo Forge Game Data File (.fgd)
 
 @BaseClass = Targetname [ 
-	targetname(target_source) : "The target name of this entity if it is to be triggered." 
+	targetname(target_source) : "The target name of this entity if it is to be triggered" 
 ]
 
 @BaseClass = Target [ 
-	target(target_destination) : "The entity to target." 
+	target(target_destination) : "The entity to target" 
 ]
 
-@BaseClass size(-16 -16 -24, 16 16 32) color(0 255 0) = Triggers [
+@BaseClass size(-16 -16 -24, 16 16 32) color(0 255 0) = Triggers []
 
-]
-
-@BaseClass color(76 76 255) size(-16 -16 -16, 16 16 16) = Item
+@BaseClass size(-12 -12 -12, 12 12 12) = Item 
 [
 	spawnflags(Flags) =
 	[
@@ -20,188 +18,49 @@
 		2 : "no_touch" : 0
 		4 : "hover" : 0
 	]
-	team(string) : "Team"
+	team(string) : "The team name for alternating item spawns"
 ]
+@PointClass base(Item) color(80 100 255) studio("") = item_adrenaline : "Adrenaline" []
+@PointClass base(Item) color(255 0 0) size(-16 -16 -16, 16 16 16) studio("") = item_armor_body : "Body armor (+200)" []
+@PointClass base(Item) color(255 255 0) size(-16 -16 -16, 16 16 16) studio("") = item_armor_combat : "Combat armor (+100)" []
+@PointClass base(Item) color(0 255 0) size(-16 -16 -16, 16 16 16) studio("") = item_armor_jacket : "Jacket armor (+50)" []
+@PointClass base(Item) color(0 255 0) size(-4 -4 -6, 4 4 6) studio("") = item_armor_shard : "Shard armor (+3)" []
+@PointClass base(Item) color(220 180 0) size(-8 -8 -8, 8 8 8) studio("") = item_health : "Health (+15)" []
+@PointClass base(Item) color(40 255 40) size(-4 -4 -6, 4 4 6) studio("") = item_health_small : "Small health (+3)" []
+@PointClass base(Item) color(240 60 40) studio("") = item_health_large : "Large health (+25)" []
+@PointClass base(Item) color(30 100 200) studio("") = item_health_mega : "Megahealth (+75)" []
+@PointClass base(Item) color(20 180 180) studio("") = item_quad : "Quad damage" []
+@PointClass base(Item) color(255 0 0) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team1 : "Red flag" []
+@PointClass base(Item) color(0 0 255) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team2 : "Blue flag" []
+@PointClass base(Item) color(255 255 0) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team3 : "Yellow flag" []
+@PointClass base(Item) color(0 0 255) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team4 : "Green flag" []
 
-@PointClass base(Item) studio("") = item_adrenaline : "adrenaline" 
+@BaseClass base(Item) size(-16 -6 -6, 16 6 6) = Weapon []
+@PointClass base(Weapon) color(225 200 40) studio("") = weapon_blaster : "Blaster" []
+@PointClass base(Weapon) color(220 160 0) studio("") = weapon_shotgun : "Shotgun" []
+@PointClass base(Weapon) color(220 160 0) studio("") = weapon_supershotgun : "Super shotgun" []
+@PointClass base(Weapon) color(255 255 0) studio("") = weapon_machinegun : "Machinegun" []
+@PointClass base(Weapon) color(0 160 0) studio("") = weapon_grenadelauncher : "Grenade launcher" []
+@PointClass base(Weapon) color(200 0 0) studio("") = weapon_rocketlauncher : "Rocket launcher" []
+@PointClass base(Weapon) color(100 200 255) studio("") = weapon_hyperblaster : "Hyperblaster" []
+@PointClass base(Weapon) color(225 225 225) studio("") = weapon_lightning : "Lightning" []
+@PointClass base(Weapon) color(0 0 200) studio("") = weapon_railgun : "Rail gun" []
+@PointClass base(Weapon) color(80 255 40) studio("") = weapon_bfg : "BFG10K" []
+
+@BaseClass base(Item) size(-10 -8 -8, 10 8 8) = Ammo []
+@PointClass base(Ammo) color(220 160 0) studio("") = ammo_shells : "Shells for the Shotgun and Super Shotgun" []
+@PointClass base(Ammo) color(255 255 0) studio("") = ammo_bullets : "Bullets for the machinegun" []
+@PointClass base(Ammo) color(0 160 0) studio("") = ammo_grenades : "Grenades for the Grenade Launcher" []
+@PointClass base(Ammo) color(200 0 0) studio("") = ammo_rockets : "Rockets for the Rocket Launcher" []
+@PointClass base(Ammo) color(100 200 255) studio("") = ammo_cells : "Cells for the Hyperblaster" []
+@PointClass base(Ammo) color(225 225 225) studio("") = ammo_bolts : "Bolts for the Lightning" []
+@PointClass base(Ammo) color(0 0 200) studio("") = ammo_slugs : "Slugs for the Railgun" []
+@PointClass base(Ammo) color(80 255 40) studio("") = ammo_nukes : "Nukes for the BFG10K" []
+
+@SolidClass base(Target, Targetname) color(0 255 255) = func_button : "When a button is touched by a player, it moves in the direction set by the 'angle' key, triggers all its targets, stays pressed by the amount of time set by the 'wait' key, then returns to its original position where it can be operated again."
 [
-
-]
-
-@PointClass base(Item) color(255 0 0) studio("") = item_armor_body : "Body armor (+200)."
-[
-
-]
-
-@PointClass base(Item) color(255 255 0) studio("") = item_armor_combat : "Combat armor (+100)."
-[
-	
-]
-
-@PointClass base(Item) color(0 255 0) studio("") = item_armor_jacket : "Jacket armor (+50)." 
-[
-	
-]
-
-@PointClass base(Item) color(0 255 0) size(-4 -4 -6, 4 4 6) studio("") = item_armor_shard : "Shard armor (+3)."
-[
-	
-]
-
-@PointClass base(Item) color(200 200 0) size(-8 -8 -8, 8 8 8) studio("") = item_health : "Health (+15)."
-[
-	
-]
-
-@PointClass base(Item) color(40 255 40) size(-4 -4 6, 4 4 6) studio("") = item_health_small : "Small health (+3)."
-[
-	
-]
-
-@PointClass base(Item) color(255 100 100) studio("") = item_health_large : "Large health (+25)."
-[
-	
-]
-
-@PointClass base(Item) color(30 200 255) studio("") = item_health_mega : "Megahealth (+75)."
-[
-	
-]
-
-@PointClass base(Item) color(20 180 180) studio("") = item_quad : "Quad damage."
-[
-	
-]
-
-@PointClass base(Item) color(255 0 0) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team1 : "Red flag."
-[
-	
-]
-
-@PointClass base(Item) color(0 0 255) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team2 : "Blue flag."
-[
-	
-]
-
-@PointClass base(Item) color(255 255 0) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team3 : "Yellow flag."
-[
-	
-]
-
-@PointClass base(Item) color(0 0 255) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team4 : "Green flag."
-[
-	
-]
-
-@BaseClass base(Item) color(76 76 255) size(-16 -6 -6, 16 6 6) = Weapon
-[
-	team(string) : "The team name for alternating item spawns."
-]
-
-@PointClass base(Weapon) studio("") = weapon_shotgun : "Shotgun"
-[
-	
-]
-
-@PointClass base(Weapon) studio("") = weapon_supershotgun : "Super shotgun"
-[
-	
-]
-
-@PointClass base(Weapon) studio("") = weapon_machinegun : "Machinegun"
-[
-	
-]
-
-@PointClass base(Weapon) studio("")= weapon_chaingun : "Chain gun"
-[
-	
-]
-
-@PointClass base(Weapon) studio("") = weapon_grenadelauncher : "Grenade launcher"
-[
-	
-]
-
-@PointClass base(Weapon) studio("") = weapon_rocketlauncher : "Rocket launcher"
-[
-	
-]
-
-@PointClass base(Weapon) color(100 200 255) studio("") = weapon_hyperblaster : "Hyperblaster"
-[
-	
-]
-
-@PointClass base(Weapon) studio("") = weapon_railgun : "Rail gun"
-[
-	
-]
-
-@PointClass base(Weapon) studio("") = weapon_bfg : "Big Freakin Gun!"
-[
-	
-]
-
-@PointClass base(Weapon) studio("") = weapon_blaster : "Blaster"
-[
-	
-]
-
-@PointClass base(Weapon) studio("") = weapon_lightning : "Lightning"
-[
-	
-]
-
-@BaseClass base(Item) color(76 76 255) size(-8 -8 -8, 8 8 8) = Ammo 
-[
-	team(string) : "Team"
-]
-
-@PointClass base(Ammo) color(200 200 0) studio("") = ammo_shells : "Shells for the Shotgun and Super Shotgun."
-[
-	
-]
-
-@PointClass base(Ammo) color(255 255 0) studio("") = ammo_bullets : "Bullets for the machinegun."
-[
-	
-]
-
-@PointClass base(Ammo) color(100 200 255) studio("") = ammo_cells : "Cells for the Hyperblaster."
-[
-	
-]
-
-@PointClass base(Ammo) color(0 255 0) studio("") = ammo_grenades : "Grenades for the Grenade Launcher."
-[
-	
-]
-
-@PointClass base(Ammo) color(200 0 0) studio("") = ammo_rockets : "Rockets for the Rocket Launcher."
-[
-	
-]
-
-@PointClass base(Ammo) color(0 0 255) studio("") = ammo_slugs : "Slugs for the Railgun."
-[
-	
-]
-
-@PointClass base(Ammo) color(80 255 40) studio("") = ammo_nukes : "Nukes for the BFG10K."
-[
-	
-]
-
-@PointClass base(Ammo) color(255 255 255) studio("") = ammo_bolts : "Bolts for the Lightning."
-[
-	
-]
-
-@SolidClass base(Targetname) color(0 255 255) = func_button : "When a button is touched by a player, it moves in the direction set by the 'angle' key, triggers all its targets, stays pressed by the amount of time set by the 'wait' key, then returns to its original position where it can be operated again."
-[
-	angle(integer) : "Determines the direction in which the button will move (up = -1, down = -2)."
-	target(target_destination) : "All entities with a matching target name will be triggered."
+	angle(angle) : "Determines the direction in which the button will move (up = -1, down = -2)"
+	target(target_destination) : "All entities with a matching target name will be triggered"
 	speed(integer) : "Speed"
 	wait(integer) : "Wait"
 	lip(integer) : "Lip"
@@ -216,7 +75,7 @@
 		1 : "start_open" : 0
 		2 : "toggle" : 0
 	]
-	speed(integer) : "The speed at which objects on the conveyor are moved (default 100)." : 100
+	speed(integer) : "The speed at which objects on the conveyor are moved" : 100
 ]
 
 @SolidClass base(Targetname) color(0 255 255) = func_door : "A sliding door. By default, doors open when a player walks close to them."
@@ -226,14 +85,14 @@
 		1 : "start_open" : 0
 		2 : "toggle" : 0
 	]
-	message(string) : "An optional string printed when the door is first touched."
-	angle(integer) : "Determines the opening direction of the door (up = -1, down = -2)."
-	health(integer) : "If set, door must take damage to open."
-	speed(integer) : "The speed with which the door opens (default 100)." : 100
-	wait(integer) : "Wait before returning (3 default, -1 = never return)."
-	lip(integer) : "The lip remaining at end of move (default 8 units)." : 8
-	dmg(integer) : "The damage inflicted on players who block the door as it closes (default 2)." : 2
-	sounds(integer) : "The sound set for the door (0 default, 1 stone, -1 silent)." : 0
+	message(string) : "An optional string printed when the door is first touched"
+	angle(angle) : "Determines the opening direction of the door (up = -1, down = -2)"
+	health(integer) : "If set, door must take damage to open"
+	speed(integer) : "The speed with which the door opens" : 100
+	wait(integer) : "Wait before returning (3 default, -1 = never return)"
+	lip(integer) : "The lip remaining at end of move" : 8
+	dmg(integer) : "The damage inflicted on players who block the door as it closes" : 2
+	sounds(integer) : "The sound set for the door (0 default, 1 stone, -1 silent)" : 0
 ]
 
 @SolidClass base(Targetname) color(0 255 255) = func_door_rotating : "A door which rotates about an origin on its Z axis. By default, doors open when a player walks close to them."
@@ -246,13 +105,13 @@
 		8 : "x_axis" : 0
 		16 : "y_axis" : 0
 	]
-	message(string) : "An optional string printed when the door is first touched."
-	health(integer) : "If set, door must take damage to open."
-	speed(integer) : "The speed with which the door opens (default 100)." : 100
-	rotation(integer) : "The rotation the door will open, in degrees (default 90).": 90
-	wait(integer) : "Wait before returning (3 default, -1 = never return)."
-	dmg(integer) : "The damage inflicted on players who block the door as it closes (default 2)." : 2
-	sounds(integer) : "The sound set for the door (0 default, 1 stone, -1 silent)." : 0
+	message(string) : "An optional string printed when the door is first touched"
+	health(integer) : "If set, door must take damage to open"
+	speed(integer) : "The speed with which the door opens" : 100
+	rotation(integer) : "The rotation the door will open, in degrees": 90
+	wait(integer) : "Wait before returning (3 default, -1 = never return)"
+	dmg(integer) : "The damage inflicted on players who block the door as it closes" : 2
+	sounds(integer) : "The sound set for the door (0 default, 1 stone, -1 silent)" : 0
 ]
 
 @SolidClass base(Targetname) color(0 255 255) = func_door_secret : "A secret door which opens when shot, or when targeted. The door first slides back, and then to the side."
@@ -263,19 +122,17 @@
 		2 : "first_left" : 0
 		4 : "first_down" : 0
 	]
-	angle(integer) : "The angle at which the door opens."
-	message(string) : "An optional string printed when the door is first touched."
-	health(integer) : "If set, door must take damage to open."
-	speed(integer) : "The speed with which the door opens (default 100)." : 100
-	wait(integer) : "Wait before returning (3 default, -1 = never return)."
-	dmg(integer) : "The damage inflicted on players who block the door as it closes (default 2)." : 2
+	angle(angle) : "The angle at which the door opens"
+	message(string) : "An optional string printed when the door is first touched"
+	health(integer) : "If set, door must take damage to open"
+	speed(integer) : "The speed with which the door opens" : 100
+	wait(integer) : "Wait before returning (3 default, -1 = never return)"
+	dmg(integer) : "The damage inflicted on players who block the door as it closes" : 2
 ]
 
-@SolidClass base(Target) color(0 255 255) = func_group : "Groups brushes together in Radiant for convenience. When the map is compiled, these entities are merged back into worldspawn." [
+@SolidClass color(0 255 180) = func_group : "Groups brushes together in Radiant for convenience. When the map is compiled, these entities are merged back into worldspawn." []
 
-]
-
-@SolidClass base(Target) color(0 255 255) = func_plat : "func_plat"
+@SolidClass base(Target, Targetname) color(0 255 255) = func_plat : "func_plat"
 [
 	spawnflags(Flags) =
 	[
@@ -286,7 +143,6 @@
 	lip(integer) : "Lip"
 	height(integer) : "Height"
 	sounds(integer) : "Sound (0, 1 stone, -1 silent)"
-	targetname(string) : "The target name of this entity."
 ]
 
 @SolidClass base(Target) color(0 255 255) = func_rotating : "func_rotating"
@@ -305,7 +161,7 @@
 	targetname(string) : "The target name of this entity."
 ]
 
-@PointClass base(Target) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_timer : "func_timer"
+@PointClass base(Target, Targetname) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_timer : "func_timer"
 [
 	spawnflags(Flags) =
 	[
@@ -317,7 +173,7 @@
 	targetname(string) : "The target name of this entity."
 ]
 
-@SolidClass base(Target) color(0 255 255) = func_train : "func_train"
+@SolidClass base(Target, Targetname) color(0 255 255) = func_train : "func_train"
 [
 	spawnflags(Flags) =
 	[
@@ -328,10 +184,9 @@
 	dmg(integer) : "Damage"
 	speed(integer) : "Speed"
 	noise(string) : "Noise File"
-	targetname(string) : "The target name of this entity."
 ]
 
-@SolidClass base(Target) color(0 255 255) = func_wall : "func_wall"
+@SolidClass base(Target, Targetname) color(0 255 255) = func_wall : "func_wall"
 [
 	spawnflags(Flags) =
 	[
@@ -339,150 +194,193 @@
 		2 : "toggle" : 0
 		4 : "start_on" : 0
 	]
-	targetname(string) : "The target name of this entity."
 ]
 
-@SolidClass base(Target) color(0 255 255) = func_water : "func_water"
+@SolidClass base(Target, Targetname) color(0 255 255) = func_water : "func_water"
 [
 	spawnflags(Flags) =
 	[
 		1 : "start_open" : 0
 	]
-	angle(integer) : "Angle"
+	angle(angle) : "Angle"
 	speed(integer) : "Speed"
 	wait(integer) : "Wait"
 	lip(integer) : "Lip"
-	targetname(string) : "The target name of this entity."
 ]
 
-@PointClass base(Target) color(0 180 0) size(-4 -4 -4, 4 4 4) = info_null : "A positional target for spotlights, etc. These are inhibited in the game and are only useful to the editor and BSP compiler."
+@PointClass base(Targetname) color(0 180 0) size(-4 -4 -4, 4 4 4) = info_null : "A positional target for spotlights, etc. These are inhibited in the game and are only useful to the editor and BSP compiler." []
+@PointClass base(Targetname) color(0 180 180) size(-4 -4 -4, 4 4 4) = info_notnull : "A positional target for other entities. Unlike info_null, these are available in the game and can be targeted by other entities (e.g. info_player_intermission)."[]
+
+@BaseClass size(-16 -16 -24, 16 16 32) = Spawn [
+	angle(angle) : "The angle at which the player will face when spawned"
+]
+@PointClass base(Spawn) color(255 255 255) = info_player_start : "Single player spawn point." []
+@PointClass base(Spawn) color(255 0 255) = info_player_deathmatch : "Deathmatch spawn point." []
+@PointClass base(Spawn) color(255 0 0) = info_player_team1 : "Player spawn point for red team in teams or CTF gameplay." []
+@PointClass base(Spawn) color(0 0 255) = info_player_team2 : "Player spawn point for blue team in teams or CTF gameplay." []
+@PointClass base(Spawn) color(255 255 0) = info_player_team3 : "Player spawn point for yellow team in teams or CTF gameplay." []
+@PointClass base(Spawn) color(0 255 0) = info_player_team4 : "Player spawn point for green team in teams or CTF gameplay." []
+@PointClass base(Spawn, Target) color(0 255 255) = info_player_intermission : "Camera for intermission screen between matches."
 [
-	targetname(string) : "The target name of this entity."
+	angles(angle) : "The pitch yaw roll angles for the camera (e.g. 20 270 0)."
 ]
 
-@PointClass base(Target) color(0 180 180) size(-4 -4 -4, 4 4 4) = info_notnull : "A positional target for other entities. Unlike info_null, these are available in the game and can be targeted by other entities (e.g. info_player_intermission)."
+@PointClass base(Target) color(255 255 255) size(-6 -6 -6, 6 6 6) sphere(light) = light : "Point light source."
 [
-	targetname(string) : "The target name of this entity."
+	light(integer) : "Light radius" : 300
+	_color(color1) : "Light color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
+	_size(integer) : "Light size, to simulate area lights and cast penumbrae" : 16
 ]
 
-@PointClass color(255 255 255) size(-16 -16 -24, 16 16 32) = info_player_start : "Single player spawn point."
+@PointClass base(Target) color(200 255 255) size(-6 -6 -6, 6 6 6) sphere(light) = light_spot : "Point light source with attenuation cone."
 [
-	angle(integer) : "The angle at which the player will face when spawned."
-]
-
-@PointClass color(255 0 255) size(-16 -16 -24, 16 16 32) = info_player_deathmatch : "Deathmatch spawn point."
-[
-	angle(integer) : "The angle at which the player will face when spawned."
-]
-
-@PointClass base(Target) color(0 255 255) size(-16 -16 -24, 16 16 32) = info_player_intermission : "Camera for intermission screen between matches."
-[
-	angles(integer) : "The 'pitch yaw roll' angles for the camera (e.g. 20 270 0)."
-]
-
-@PointClass color(255 0 0) size(-16 -16 -24, 16 16 32) = info_player_team1 : "Player spawn point for red team in teams or CTF gameplay."
-[
-	angle(integer) : "The angle at which the player will face when spawned."
-]
-
-@PointClass color(0 0 255) size(-16 -16 -24, 16 16 32) = info_player_team2 : "Player spawn point for blue team in teams or CTF gameplay."
-[
-	angle(integer) : "The angle at which the player will face when spawned."
-]
-
-@PointClass color(255 255 0) size(-16 -16 -24, 16 16 32) = info_player_team3 : "Player spawn point for yellow team in teams or CTF gameplay."
-[
-	angle(integer) : "The angle at which the player will face when spawned."
-]
-
-@PointClass color(0 255 0) size(-16 -16 -24, 16 16 32) = info_player_team4 : "Player spawn point for green team in teams or CTF gameplay."
-[
-	angle(integer) : "The angle at which the player will face when spawned."
-]
-
-@PointClass base(Target) color(255 255 255) size(-8 -8 -8, 8 8 8) = light : "Point light source."
-[
-	light(integer) : "Light radius (default 300)." : 300
-	_color(color1) : "Light color as 3 decimal values from 0.0 - 1.0 (default 1 1 1)." : "1 1 1"
-	_size(integer) : "Spotlight size, to simulate area lights and cast penumbrae (default 16)." : 16
-]
-
-@PointClass base(Target) color(200 255 255) size(-8 -8 -8, 8 8 8) = light_spot : "Point light source with attenuation cone."
-[
-	light(integer) : "Light radius (default 300)." : 300
-	_color(color1) : "Light color as 3 decimal values from 0.0 - 1.0 (default 1 1 1)." : "1 1 1"
-	_cone(integer) : "Spotlight attenuation cone width, in degrees (default 22.5)." : 22
-	_angle(integer) : "Spotlight direction (up = -1, down = -2, yaw = positive value)."
-	_size(integer) : "Spotlight size, to simulate area lights and cast penumbrae (default 16)." : 16
+	light(integer) : "Light radius" : 300
+	_color(color1) : "Light color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
+	_cone(integer) : "Spotlight attenuation cone width, in degrees" : 22
+	_angle(angle) : "Spotlight direction (up = -1, down = -2, yaw = positive value)"
+	_size(integer) : "Spotlight size, to simulate area lights and cast penumbrae" : 16
 ]
 
 @PointClass base(Target) color(255 255 0) size(-16 -16 -16, 16 16 16) = light_sun : "Directional sun light source."
 [
-	light(integer) : "Sun light as an integer value from 0 - 255 (default 255)." : 255
-	_color(color1) : "Sun color as 3 decimal values from 0.0 - 1.0 (default 1 1 1)." : "1 1 1"
-	_size(integer) : "Sun size, to simulate area lights and cast penumbrae (default 16)." : 256
+	light(integer) : "Sun light as an integer value from 0 - 255" : 255
+	_color(color1) : "Sun color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
+	_size(integer) : "Sun size, to simulate area lights and cast penumbrae" : 256
 ]
 
-@PointClass base(Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = misc_teleporter : "misc_teleporter"
+@SolidClass color(180 180 150) = misc_dust : "Dust volumes emit configurable sprites, like localized weather. These are useful for creating dust, bubbles, foam, mist, etc. These should be of contents mist."
+[
+	acceleration(string) : "The sprite acceleration" : "0 0 0"
+	_color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
+	dir(vector) : "The sprite directional axis (0 0 0 is billboard)" : "0 0 0"
+	density(float) : "The sprite density" : "1"
+	_end_color(string) : "The sprite HSVA end color as 4 decimal values" : "0 0 0 0"
+	height(float) : "The sprite height. Setting this will cause size to be ignored" : "0"
+	lifetime(float) : "The sprite lifetime in seconds" : "10"
+	lighting(float) : "The sprite lighting scalar" : "1"
+	rotation(float) : "The sprite rotation in degrees" : "0"
+	rotation_velocity(float) : "The sprite rotation velocity in degrees per second" : "0"
+	_size(float) : "The sprite size" : "1"
+	size_velocity(float) : "The sprite size velocity" : "0"
+	size_acceleration(float) : "The sprite size acceleration" : "0"
+	softness(float) : "The sprite softness scalar" : "1"
+	sprite(string) : "The sprite image name" : "particle1"
+	velocity(vector) : "The sprite velocity" : "0 0 0"
+	width(float): "The sprite width. Setting this will cause size to be ignored" : "0"
+]
+
+@PointClass color(255 80 20) size(-6 -6 -6, 6 6 6) = misc_fireball : "Spawns an intermittent fireball that damages players. These are typically used above lava traps for ambiance."
+[
+	angles(string) : "The angles at which the fireball will fly"
+	dmg(integer) : "The damage inflicted to entities that touch the fireball" : 4
+	random(float) : "Random time variance in seconds added to wait delay"
+	speed(float) : "The speed at which the fireball will fly" : "600"
+	wait(float) : "The interval in seconds between fireball emissions" : "5"
+]
+
+@PointClass color(255 120 20) size(-16 -16 -16, 16 16 16) = misc_flame : "Client-side flame emitter, useful for torches and ambience."
+[
+	density(float) : "The flame density" : "1"
+ 	drift(float) : "The factor of randomized drift applied to the emission rate"
+	hz(float) : "The emission rate, in events-per-second" : "10"
+	radius(float) : "The flame radius" : "16"
+]
+
+@SolidClass color(230 230 230) = misc_fog : "Fog volumes. When compiled, fog brushes are merged into the world. These should be of contents mist. Fog volumes are processed during the lighting compile phase."
+[
+	_color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
+	absorption(float) : "The fog absorption, or how much light color it absorbs" : ".125"
+	density(float) : "The fog density, or thickness" : "1"
+	noise(float) : "The fog noise, or variation in density" : "0"
+	frequency(float) : "The simplex noise frequency - effectively the scale of the noise texture" : "32"
+	amplitude(float) : "The simplex noise amplitude - effectively the upper limit of noise values" : "1"
+	lacunarity(float) : "The simplex noise lacunarity - multiplier per-octave of frequency" : "2"
+	persistence(float) : "The simplex noise persistence - multiplier per-octave of amplitude" : "0.5"
+	octaves(float) : "The number of octaves to sample" : "5"
+	seed(float) : "The simplex noise permutation vector seed" : "0"
+	offset(vector) : "An offset added to the noise calculation" : "0 0 0"
+]
+
+@PointClass color(80 180 80) size(-16 -16 -16, 16 16 16) = misc_model : "Client-side emission of static models (non-interactive map objects). These are useful for placing trees, torches, and other non-brush scenery."
+[
+	angles(integer) : "The angles of orientation for the model"
+	scale(float) : "The scale for a static model"
+	model(studio) : "The static model name, e.g. trees/mytree"
+]
+
+@PointClass color(40 120 40) size(-8 -8 -8, 8 8 8) = misc_sound : "Client-side emission of ambient sounds."
+[
+	atten(choices) : "The attenuation" : 2 =
+	[
+		0 : "None"
+		1 : "Linear"
+		2 : "Exponential"
+		3 : "Cubic"
+	]
+	drift(float) : "The factor of randomized drift applied to the emission rate"
+	hz(float) : "The emission rate, in events-per-second" : "0"
+	sound(sound) : "The sound name, e.g. edge/wind"
+]
+
+@PointClass base(Target) color(220 200 20) size(-4 -4 -4, 4 4 4) = misc_sparks : "Client-side emission of spark effects."
+[
+	_angle(angle) : "Sparks direction (up = -1, down = -2, yaw = positive value)"
+	drift(float) : "The factor of randomized drift applied to the emission rate"
+	hz(float) : "The emission rate, in events-per-second" : "0"
+	target(target_source) : "The name of the entity to target to resolve the sparks direction."
+]
+
+@PointClass color(120 120 200) size(-24 -24 -24, 24 24 24) = misc_sprite : "Highly configurable client-side emission of sprites. These are useful for light volumes, blood dripping from walls, or anything else you can think of. If two instances of this entity are teamed, the game will emit randomized instances that mix the properties of both teammates."
+[
+	acceleration(string) : "The sprite acceleration" : "0 0 0"
+	_color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
+	count(integer) : "The count of sprites to emit per emission" : 1
+	dir(vector) : "The sprite directional axis (0 0 0 is billboard)" : "0 0 0"
+	density(float) : "The sprite density" : "1"
+	drift(float) : "The factor of randomized drift applied to the emission rate"
+	_end_color(string) : "The sprite HSVA end color as 4 decimal values" : "0 0 0 0"
+	height(float) : "The sprite height. Setting this will cause size to be ignored" : "0"
+	lifetime(float) : "The sprite lifetime in seconds" : "10"
+	lighting(float) : "The sprite lighting scalar" : "1"
+	rotation(float) : "The sprite rotation in degrees" : "0"
+	rotation_velocity(float) : "The sprite rotation velocity in degrees per second" : "0"
+	_size(float) : "The sprite size" : "1"
+	size_velocity(float) : "The sprite size velocity" : "0"
+	size_acceleration(float) : "The sprite size acceleration" : "0"
+	softness(float) : "The sprite softness scalar" : "1"
+	sprite(string) : "The sprite image name" : "particle1"
+	team(string) : "The team name, for emitting randomized sprites that mix properties"
+	velocity(vector) : "The sprite velocity" : "0 0 0"
+	width(float): "The sprite width. Setting this will cause size to be ignored" : "0"
+]
+
+@PointClass base(Target) color(220 220 220) size(-10 -10 -10, 10 10 10) = misc_steam : "Client-side emission of steam effects."
+[
+	count(integer) : "The count of sprites to emit per emission" : 1
+	density(float) : "The flame density" : "1"
+ 	drift(float) : "The factor of randomized drift applied to the emission rate"
+	hz(float) : "The emission rate, in events-per-second" : "10"
+	radius(float) : "The flame radius" : "16"
+	size(float) : "The initial sprite size" : "32"
+	target(target_source) : "The name of the entity to target to resolve the steam direction and velocity"
+	velocity(vector) : "The steam velocity (if not specified via target)" : "0 0 32"
+]
+
+@PointClass base(Target) color(0 255 0) size(-32 -32 -24, 32 32 -16) = misc_teleporter : "Warps players who touch this entity to the targeted misc_teleporter_dest entity."
 [
 	spawnflags(Flags) =
 	[
-		1 : "?" : 0
-		2 : "?" : 0
-		4 : "no_effects" : 0
+		1 : "no_effects" : 0
 	]
 ]
 
-@PointClass base(Target) color(0 255 0) size(-16 -16 -16, 16 16 16) = misc_teleporter_dest : "misc_teleporter_dest"
+@PointClass base(Targetname) color(255 0 0) size(-32 -32 -24, 32 32 -16) = misc_teleporter_dest : "Teleport destination for misc_teleporters."
 [
-	angle(integer) : "Angle"
-	targetname(string) : "The target name of this entity."
-]
-
-@PointClass base(Target) color(255 255 0) size(-16 -16 -16, 16 16 16) = misc_emit : "misc_emit"
-[
-	spawnflags(Flags) =
-	[
-		1 : "light" : 0
-		2 : "sparks" : 0
-		4 : "steam" : 0
-		8 : "flames" : 0
-		16 : "corona" : 0
-		32 : "sound" : 0
-		64 : "model" : 0
-	]
-	angles(integer) : "Angles"
-	velocity(integer) : "Velocity"
-	color(string) : "Color - R G B"
-	hz(integer) : "Emission Rate"
-	drift(integer) : "Drift"
-	radius(integer) : "Radius"
-	count(integer) : "Count"
-	scale(integer) : "Scale"
-	sound(string) : "Sound File"
-	attenuation(integer) : "Attenuation"
-	wait(integer) : "Wait"
-	model(string) : "Static Model"
-]
-
-@PointClass base(Target) color(.8 .8 0) size(-8 -8 -8, 8 8 8) = misc_fireball : "misc_fireball"
-[
-	angles(integer) : "Angles"
-	dmg(integer) : "Damage"
-	random(integer) : "Random"
-	speed(integer) : "Speed"
-	wait(integer) : "Wait"
-]
-
-@PointClass base(Target) color(.8 .8 0) size(-8 -8 -8, 8 8 8) = misc_model : "misc_model"
-[
-	angles(integer) : "Angles"
-	scale(integer) : "Scale"
-	model(string) : "Static Model Name"
+	angle(angle) : "Direction in which player will look when teleported"
 ]
 
 //Path Corner
-@PointClass base(Targetname) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "path_corner"
+@PointClass base(Target, Targetname) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "path_corner"
 [
 	spawnflags(Flags) =
 	[
@@ -490,11 +388,10 @@
 	]
 	target(string) : "Next path target"
 	pathtarget(string) : "Event to trigger"
-	targetname(string) : "The target name of this entity."
 ]
 
 //Target entities
-@PointClass base(Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_light : "target_light"
+@PointClass base(Targetname) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_light : "target_light"
 [
 	spawnflags(Flags) =
 	[
@@ -504,42 +401,37 @@
 	colors(string) : "Color - R G B"
 	delay(integer) : "Delay"
 	dmg(integer) : "Radius"
-	targetname(string) : "The target name of this entity."
 	wait(integer) : "Wait"
 ]
 
-@PointClass base(Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_speaker : "target_speaker"
+@PointClass base(Targetname) color(40 120 40) size(-8 -8 -8, 8 8 8) = target_speaker : "Plays a sound each time it is used, or in loop if requested."
 [
 	spawnflags(Flags) =
 	[
 		1 : "loop_on" : 0
 		2 : "loop_off" : 0
 	]
-	noise(string) : "Name of Sound"
-	attenuation(choices) : "Attenuation Level" : 0 =
+	atten(choices) : "The attenuation" : 1 =
 	[
-		-1 : "No attenuation, send the sound to the entire level."
-		1 : "Normal attenuation, hearable to all those in PHS of entity."
-		2 : "Idle attenuation, hearable only by those near to entity."
-		3 : "Static attenuation, hearable only by those very close to entity."
+		0 : "None"
+		1 : "Linear"
+		2 : "Exponential"
+		3 : "Cubic"
 	]
-	targetname(string) : "The target name of this entity."
+	sound(sound) : "The sound name, e.g. voices/haunting"
 ]
 
-@PointClass base(Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_string : "target_string"
+@PointClass base(Targetname) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_string : "target_string"
 [
 	message(string) : "Message"
-	targetname(string) : "The target name of this entity."
 ]
 
-//Triggers
 @PointClass base(Targetname) color(128 128 128) = trigger_relay : "Relay trigger"
 [
 	delay(integer) : "Delay in Seconds" : 0
 	message(string) : "String to Display"
 	target(string) : "Triggering Entity or Team"
 	killtarget(string) : "Entity or Team to Kill"
-	targetname(string) : "The target name of this entity."
 ]
 
 @PointClass base(Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = trigger_always : "Always triggers" 
@@ -591,7 +483,7 @@
 		2 : "push_effects" : 0
 	]
 	angles(integer) : "The direction to push the player in 'pitch yaw roll' notation (e.g. -80 270 0)." : 0
-	speed(integer) : "The speed with which to push the player (default 100)." : 100
+	speed(integer) : "The speed with which to push the player" : 100
 ]
 
 @SolidClass base(Target) color(0 255 00) = trigger_teleporter : "misc_teleporter_dest"
@@ -618,7 +510,7 @@
 @SolidClass = worldspawn : "World entity"
 [
 	message(string) : "Map Title"
-	sky(string) : "Sky Environment Map (default unit1_)"
+	sky(string) : "Sky Environment Map"
 	ambient_light(float) : "Ambient Light Level (Float Value)"
 	sun_light(integer) : "Sun Light Intensity, scalar value 0 - 255"
 	sun_color(string) : "Sun Light Color (e.g. 0.8 0.4 0.7)"
@@ -627,7 +519,7 @@
 	saturation(float) : "Global Light Saturation)"
 	contrast(float) : "Global Light Contrast"
 	weather(string) : "Weather Effects"
-	gravity(integer) : "Gravity (default 800)" : 800
+	gravity(integer) : "Gravity" : 800
 	gameplay(string) : "deathmatch, instagib, arena"
 	hook(integer) : "Grappling Hook (1 = on)" : 0
 	teams(integer) : "Team Play" : 0
