@@ -680,7 +680,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  Client-side emission of static models (non-interactive map objects). These are useful for placing trees, torches, and other non-brush scenery.
 
  -------- Keys --------
- angles : The angles of orientation for the models.
+ angles : The angles of orientation for the model.
  scale : The scale for a static model.
  model : The static model name, e.g. trees/mytree.
 */
@@ -1079,7 +1079,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  weather : Weather effects, one of "none, rain, snow."
  fog_absorption : Global fog light absorption, or how much light color it absorbs (default .125).
  fog_color : Global fog color, as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
- fog_density : Global fog density, a single positive scalar value (default 1).
+ fog_density : Global fog density, a single positive scalar value (default 0).
  fog_noise : Global fog noise, a single positive scalar value (default 0).
  fog_frequency : The global fog simplex noise frequency - effectively the scale of the noise texture (default 32)
  fog_amplitude : The global fog simplex noise amplitude - effectively the upper limit of noise values (default 1)

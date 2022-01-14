@@ -303,7 +303,7 @@
 
 @PointClass color(80 180 80) size(-16 -16 -16, 16 16 16) = misc_model : "Client-side emission of static models (non-interactive map objects). These are useful for placing trees, torches, and other non-brush scenery."
 [
-	angles(integer) : "The angles of orientation for the model"
+	angles(angle) : "The angles of orientation for the model"
 	scale(float) : "The scale for a static model"
 	model(studio) : "The static model name, e.g. trees/mytree"
 ]
@@ -482,7 +482,7 @@
 		1 : "push_once" : 0
 		2 : "push_effects" : 0
 	]
-	angles(integer) : "The direction to push the player in 'pitch yaw roll' notation (e.g. -80 270 0)." : 0
+	angles(angle) : "The direction to push the player in 'pitch yaw roll' notation (e.g. -80 270 0)." : 0
 	speed(integer) : "The speed with which to push the player" : 100
 ]
 
@@ -507,28 +507,71 @@
 ]
 
 // World Spawn
-@SolidClass = worldspawn : "World entity"
+@SolidClass = worldspawn : "The worldspawn entity defines global conditions and behavior for the entire level. All brushes not belonging to an explicit entity implicitly belong to worldspawn."
 [
-	message(string) : "Map Title"
-	sky(string) : "Sky Environment Map"
-	ambient_light(float) : "Ambient Light Level (Float Value)"
-	sun_light(integer) : "Sun Light Intensity, scalar value 0 - 255"
-	sun_color(string) : "Sun Light Color (e.g. 0.8 0.4 0.7)"
-	sun_angles(integer) : "Sun Light Angles"
-	brightness(float) : "Global Light Scale"
-	saturation(float) : "Global Light Saturation)"
-	contrast(float) : "Global Light Contrast"
-	weather(string) : "Weather Effects"
+	message(string) : "The map title"
+	sky(string) : "The sky environment map" : "unit1_"
+	ambient(color1) : "The ambient light level" : "0 0 0"
+	brightness(float) : "Global light scale, a single positive scalar value" : "1"
+	saturation(float) : "Global light saturation, a single positive scalar value" : "1"
+	contrast(float) : "Global light contrast, a single positive scalar value" : "1"
+	radiosity(float) : "Global indirect light scale, a single positive scalar value" : "1"
+	patch_size(float) : "Surface light patch size" : "64"
+	weather(choices) : "Weather effects" : "none" =
+	[
+		"none" : "None"
+		"rain" : "Rain"
+		"snow" : "Snow"
+	]
+	fog_absorption(float) : "Global fog light absorption, or how much light color it absorbs" : ".125"
+	fog_color(color1) : "Global fog color, as 3 decimal values from 0.0 - 1.0" : "0 0 0"
+	fog_density(float) : "Global fog density, a single positive scalar value" : "0"
+	fog_noise(float) : "Global fog noise, a single positive scalar value" : "0"
+	fog_frequency(float) : "The global fog simplex noise frequency - effectively the scale of the noise texture" : "32"
+	fog_amplitude(float) : "The global fog simplex noise amplitude - effectively the upper limit of noise values" : "1"
+	fog_lacunarity(float) : "The global fog simplex noise lacunarity - multiplier per-octave of frequency" : "2"
+	fog_persistence(float) : "The global fog simplex noise persistence - multiplier per-octave of amplitude" : ".5"
+	fog_octaves(float) : "The number of octaves to sample for global fog" : "5"
+	fog_seed(float) : "The global fog simplex noise permutation vector seed" : "0"
+	fog_offset(vector) : "An offset added to the global fog noise calculation" : "0 0 0"
 	gravity(integer) : "Gravity" : 800
-	gameplay(string) : "deathmatch, instagib, arena"
-	hook(integer) : "Grappling Hook (1 = on)" : 0
-	teams(integer) : "Team Play" : 0
-	ctf(integer) : "CTF" : 0
-	match(integer) : "Match Play" : 0
-	fraglimit(integer) : "Frag Limit" : 20
-	roundlimit(integer) : "Round Limit" : 20
-	capturelimit(integer) : "Capture Limit" : 20
-	timelimit(integer) : "Time Limit (Minutes)" : 20
-	give(string) : "give"
-	
+	gameplay(choices) : "Weather effects" : "deathmatch" =
+	[
+		"deathmatch" : "Deathmatch"
+		"instagib" : "Instagib"
+		"arena" : "Rocket Arena"
+	]
+	hook(choices) : "Enables the grappling hook" : 0 =
+	[
+		0 : "Disabled"
+		1 : "Enabled"
+	]
+	teams(choices) : "Enables teams play" : 0 =
+	[
+		0 : "Disabled"
+		1 : "Enabled"
+		2 : "Auto-balanced"
+	]
+	num_teams(choices) : "Specifies the number of teams for teams and CTF play" : 0 =
+	[
+		0 : "Disabled"
+		2 : "2"
+		3 : "3"
+		4 : "4"
+	]
+	ctf(choices) : "Enables CTF play" : 0 = [
+		0 : "Disabled"
+		1 : "Enabled"
+		2 : "Auto-balanced"
+	]
+	match(choices) : "Enables match play (round-based elimination with warmup)" : 0 =
+	[
+		0 : "Disabled"
+		1 : "Enabled"
+	]
+	fraglimit(integer) : "The frag limit" : 20
+	roundlimit(integer) : "The round limit" : 20
+	capturelimit(integer) : "The capture limit" : 8
+	timelimit(integer) : "The time limit in minutes" : 20
+	give(string) : "A comma-delimited item string to give each player on spawn"
 ]
