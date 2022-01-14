@@ -225,14 +225,14 @@
 	angles(angle) : "The pitch yaw roll angles for the camera (e.g. 20 270 0)."
 ]
 
-@PointClass base(Target) color(255 255 255) size(-6 -6 -6, 6 6 6) sphere(light) = light : "Point light source."
+@PointClass base(Target) color(255 255 255) size(-6 -6 -6, 6 6 6) = light : "Point light source."
 [
 	light(integer) : "Light radius" : 300
 	_color(color1) : "Light color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
 	_size(integer) : "Light size, to simulate area lights and cast penumbrae" : 16
 ]
 
-@PointClass base(Target) color(200 255 255) size(-6 -6 -6, 6 6 6) sphere(light) = light_spot : "Point light source with attenuation cone."
+@PointClass base(Target) color(200 255 255) size(-6 -6 -6, 6 6 6) = light_spot : "Point light source with attenuation cone."
 [
 	light(integer) : "Light radius" : 300
 	_color(color1) : "Light color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
@@ -379,7 +379,6 @@
 	angle(angle) : "Direction in which player will look when teleported"
 ]
 
-//Path Corner
 @PointClass base(Target, Targetname) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "path_corner"
 [
 	spawnflags(Flags) =
@@ -390,21 +389,20 @@
 	pathtarget(string) : "Event to trigger"
 ]
 
-//Target entities
-@PointClass base(Targetname) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_light : "target_light"
+@PointClass base(Targetname) color(255 255 80) size(-6 -6 -6, 6 6 6) = target_light : "Emits a user-defined light when used. Lights can be chained with teams. Use this entity to add switched lights. Use the wait key to synchronize color cycles with other entities."
 [
 	spawnflags(Flags) =
 	[
 		1 : "start_on" : 0
-		2 : "toggle" : 0
 	]
-	colors(string) : "Color - R G B"
-	delay(integer) : "Delay"
-	dmg(integer) : "Radius"
-	wait(integer) : "Wait"
+	_color(color1) : "The light color" : "1 1 1"
+	light(float) : "The light radius in units" : "300"
+	delay(float) : "The delay before activating, in seconds" : "0"
+	team(string) : "The team name for alternating lights"
+	wait(float) : "If specified, an additional cycle will fire after this interval" : "0"
 ]
 
-@PointClass base(Targetname) color(40 120 40) size(-8 -8 -8, 8 8 8) = target_speaker : "Plays a sound each time it is used, or in loop if requested."
+@PointClass base(Targetname) color(40 120 40) size(-8 -8 -8, 8 8 8) = target_speaker : "Plays a sound each time it is used, or in loop if requested. Use this entity only when a sound must be triggered by another entity. For ambient sounds, use the client-side version, misc_sound."
 [
 	spawnflags(Flags) =
 	[
@@ -421,7 +419,7 @@
 	sound(sound) : "The sound name, e.g. voices/haunting"
 ]
 
-@PointClass base(Targetname) color(128 128 128) size(-8 -8 -8, 8 8 8) = target_string : "target_string"
+@PointClass base(Targetname) color(128 128 160) size(-8 -8 -8, 8 8 8) = target_string : "Displays a center-printed message to the player when used."
 [
 	message(string) : "Message"
 ]
@@ -462,36 +460,7 @@
 	
 ]
 
-@SolidClass base(trigger_relay) = trigger_once : "Single fire trigger"
-[
-	spawnflags(Flags) =
-	[
-		4 : "triggered" : 0
-	]
-	delay(integer) : "Delay in Seconds" : 0
-	message(string) : "String to Display"
-	target(string) : "Triggering Entity or Team"
-	killtarget(string) : "Entity or Team to Kill"
-	targetname(string) : "The target name of this entity."
-]
-
-@SolidClass color(128 128 128) = trigger_push : "Pushes the player in any direction. These are commonly used to make jump pads to send the player upwards. Using the angles key, you can project the player in any direction using 'pitch yaw roll.'"
-[
-	spawnflags(Flags) =
-	[
-		1 : "push_once" : 0
-		2 : "push_effects" : 0
-	]
-	angles(angle) : "The direction to push the player in 'pitch yaw roll' notation (e.g. -80 270 0)." : 0
-	speed(integer) : "The speed with which to push the player" : 100
-]
-
-@SolidClass base(Target) color(0 255 00) = trigger_teleporter : "misc_teleporter_dest"
-[
-	target(string) : "misc_teleporter_dest"
-]
-
-@SolidClass base(trigger_once) = trigger_multiple : "Multiple fire trigger"
+@SolidClass base(trigger_once) = trigger_multiple : "Triggers multiple targets at fixed intervals"
 [
 	spawnflags(Flags) =
 	[
@@ -506,7 +475,36 @@
 	targetname(string) : "The target name of this entity."
 ]
 
-// World Spawn
+@SolidClass base(trigger_relay) = trigger_once : "Single fire trigger"
+[
+	spawnflags(Flags) =
+	[
+		4 : "triggered" : 0
+	]
+	delay(integer) : "Delay in Seconds" : 0
+	message(string) : "String to Display"
+	target(string) : "Triggering Entity or Team"
+	killtarget(string) : "Entity or Team to Kill"
+	targetname(string) : "The target name of this entity."
+]
+
+@SolidClass color(180 120 64) = trigger_push : "Pushes the player in any direction. These are commonly used to make jump pads to send the player upwards. Using the angles key, you can project the player in any direction using 'pitch yaw roll.'"
+[
+	spawnflags(Flags) =
+	[
+		1 : "push_once" : 0
+		2 : "push_effects" : 0
+	]
+	angles(angle) : "The direction to push the player in" : "0 0 0"
+	sound(sound) : "The sound effect to play when the player is pushed" : "world/jumppad"
+	speed(integer) : "The speed with which to push the player" : 100
+]
+
+@SolidClass base(Target) color(200 200 40) = trigger_teleporter : "Touching this will warp players to the targeted misc_teleporter_dest entity. This is the brush form of misc_teleporter."
+[
+	target(target_source) : "The target name of a misc_teleporter_dest"
+]
+
 @SolidClass = worldspawn : "The worldspawn entity defines global conditions and behavior for the entire level. All brushes not belonging to an explicit entity implicitly belong to worldspawn."
 [
 	message(string) : "The map title"
