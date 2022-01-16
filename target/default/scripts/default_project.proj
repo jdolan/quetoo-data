@@ -68,12 +68,12 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
   <key name="surf32" value="" />
   <key name="cont1" value="Solid" />
   <key name="cont2" value="Window" />
-  <key name="cont3" value="" />
+  <key name="cont3" value="Aux" />
   <key name="cont4" value="Lava" />
   <key name="cont5" value="Slime" />
   <key name="cont6" value="Water" />
   <key name="cont7" value="Mist" />
-  <key name="cont8" value="" />
+  <key name="cont8" value="Atmospheric" />
   <key name="cont9" value="" />
   <key name="cont10" value="" />
   <key name="cont11" value="" />

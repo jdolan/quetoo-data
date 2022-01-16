@@ -604,7 +604,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 */
 
 /*QUAKED misc_dust (.8 .8 .7)
- Dust volumes emit configurable sprites, like localized weather. These are useful for creating dust, bubbles, foam, mist, etc. These should be of contents mist.
+ Dust volumes emit configurable sprites, like localized weather. These are useful for creating dust, bubbles, foam, mist, etc. These are typically contents atmospheric.
 
  -------- Keys --------
  acceleration : The sprite acceleration (default 0 0 0).
@@ -648,7 +648,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 */
 
 /*QUAKED misc_fog (.7 .7 .7)
- Fog volumes. When compiled, fog brushes are merged into the world. These should be of contents mist. Fog volumes are processed during the lighting compile phase.
+ Fog volumes. When compiled, fog brushes are merged into the world. Fog volumes are processed during the lighting compile phase. These are typically contents atmospheric, but can be contents water, etc. 
 
  -------- Keys --------.
  _color : Fog color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
@@ -794,12 +794,8 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  Plays a sound each time it is used, or in loop if requested.
 
  -------- Keys --------
+ atten : The attenuation (0 = none, 1 = linear, 2 = exponential, 3 = cubic, default = 2).
  sound : The name of the sample to play, e.g. voices/haunting.
- atten : The attenuation level; higher levels drop off more quickly (default 1):
-    0 : No attenuation, send the sound to the entire level.
-    1 : Normal attenuation, hearable to all those in PHS of entity.
-    2 : Idle attenuation, hearable only by those near to entity.
-    3 : Static attenuation, hearable only by those very close to entity.
  targetname : The target name of this entity.
 
  -------- Spawn flags --------

@@ -248,7 +248,7 @@
 	_size(integer) : "Sun size, to simulate area lights and cast penumbrae" : 256
 ]
 
-@SolidClass color(180 180 150) = misc_dust : "Dust volumes emit configurable sprites, like localized weather. These are useful for creating dust, bubbles, foam, mist, etc. These should be of contents mist."
+@SolidClass color(180 180 150) = misc_dust : "Dust volumes emit configurable sprites, like localized weather. These are useful for creating dust, bubbles, foam, mist, etc. These are typically contents atmospheric."
 [
 	acceleration(string) : "The sprite acceleration" : "0 0 0"
 	_color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
@@ -286,7 +286,7 @@
 	radius(float) : "The flame radius" : "16"
 ]
 
-@SolidClass color(230 230 230) = misc_fog : "Fog volumes. When compiled, fog brushes are merged into the world. These should be of contents mist. Fog volumes are processed during the lighting compile phase."
+@SolidClass color(230 230 230) = misc_fog : "Fog volumes. When compiled, fog brushes are merged into the world. Fog volumes are processed during the lighting compile phase. These are typically contents atmospheric, but can be contents water, etc."
 [
 	_color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
 	absorption(float) : "The fog absorption, or how much light color it absorbs" : ".125"
