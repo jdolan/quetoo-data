@@ -127,7 +127,7 @@
  speed : Speed of the button's displacement (default 40).
  wait : Number of seconds the button stays pressed (default 1, -1 = indefinitely).
  lip : Lip remaining at end of move (default 4 units).
- sounds : The sound set for the button (0 default, -1 silent).
+ sounds : The sound set for the button (0 metal, -1 silent).
  health : If set, the button must be killed instead of touched to use.
  targetname : The target name of this entity if it is to be triggered.
 */
@@ -154,7 +154,7 @@
  speed : The speed with which the door opens (default 100).
  wait : Wait before returning (3 default, -1 = never return).
  lip : The lip remaining at end of move (default 8 units).
- sounds : The sound set for the door (0 default, 1 stone, -1 silent).
+ sounds : The sound set for the door (0 metal, 1 stone, -1 silent).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
  targetname : The target name of this entity if it is to be triggered.
 
@@ -173,7 +173,7 @@
  rotation : The rotation the door will open, in degrees (default 90).
  wait : Wait before returning (3 default, -1 = never return).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
- sounds : The sound set for the door (0 default, 1 stone, -1 silent).
+ sounds : The sound set for the door (0 metal, 1 stone, -1 silent).
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags --------
@@ -217,11 +217,11 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  accel : The platform acceleration (default 500).
  lip : The lip remaining at end of move (default 8 units).
  height : If set, this will determine the extent of the platform's movement, rather than implicitly using the platform's height.
- sounds : The sound set for the platform (0 default, 1 stone, -1 silent).
+ sounds : The sound set for the platform (0 metal, 1 stone, -1 silent).
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags --------
- low_trigger : If set, the touch field for this platform will only exist at the lower position.
+ low_trigger : The touch field for this platform will only exist at the lower position.
 */
 
 /*QUAKED func_rotating (0 .5 .8) ? start_on reverse x_axis y_axis touch_pain stop
@@ -235,10 +235,10 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  -------- Spawn flags --------
  start_on : The entity will spawn rotating.
  reverse : Will cause the entity to rotate in the opposite direction.
- x_axis : Rotate on the X axis.
- y_axis : Rotate on the Y axis.
- touch_pain : If set, any interaction with the entity will inflict damage to the player.
- stop : If set and the entity is blocked, the entity will stop rotating.
+ x_axis : The entity will rotate on the X axis.
+ y_axis : The entity will rotate on the Y axis.
+ touch_pain : The entity will inflict damage when touched.
+ stop : The entity will stop rotating when blocked.
 */
 
 /*QUAKED func_timer (0.3 0.1 0.6) (-8 -8 -8) (8 8 8) start_on
@@ -251,7 +251,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags --------
- start_on : If set, the timer will begin firing once spawned.
+ start_on : The timer will begin firing once spawned.
 */
 
 /*QUAKED func_train (0 .5 .8) ? start_on toggle block_stops
@@ -264,9 +264,9 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags --------
- start_on : If set, the train will begin moving once spawned.
- toggle : If set, the train will start or stop each time it is activated.
- block_stops : When blocked, stop moving and inflict no damage.
+ start_on : The train will begin moving once spawned.
+ toggle : The train will start or stop each time it is activated.
+ block_stops : The train will stop when blocked, and inflict no damage.
 */
 
 /*QUAKED func_wall (0 .5 .8) ? triggered toggle start_on
@@ -292,7 +292,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags ---------
- start_open : If set, causes the water to move to its destination when spawned and operate in reverse.
+ start_open : The water will move to its destination when spawned and operate in reverse.
 */
 
 /*QUAKED info_luxel (1 0 0) (-1 -1 -1) (1 1 1)
@@ -764,11 +764,11 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------
  target : The next corner in the path.
- pathtarget : An entity to be used by this path corner when the train targets us.
+ pathtarget : An entity to be used by this path corner when targeted.
  targetname : The target name of this entity.
 
  -------- Spawn flags --------
- teleport : If set, this path corner teleports the train as soon as it is selected.
+ teleport : The path corner teleports the train as soon as it is selected.
 */
 
 /*QUAKED target_light (1 1 1) (-4 -4 -4) (4 4 4) start_on
@@ -827,8 +827,8 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags --------
- triggered : If set, this trigger must be targeted before it will activate.
- shootable : If set, this trigger will fire when projectiles touch it.
+ triggered : The trigger must be targeted before it will activate.
+ shootable : The trigger will fire when projectiles touch it.
 */
 
 /*QUAKED trigger_once (.5 .5 .5) ? triggered
@@ -842,7 +842,8 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags --------
- triggered : If set, this trigger must be targeted before it will activate.
+ triggered : The trigger must be targeted before it will activate.
+ shootable : The trigger will fire when projectiles touch it.
 */
 
 /*QUAKED trigger_relay (.5 .5 .5) (-8 -8 -8) (8 8 8)
@@ -875,8 +876,8 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  speed : The speed with which to push the player (default 100).
 
  -------- Spawn flags --------
- push_once : If set, the pusher is freed after it is used once.
- push_effects : If set, emit particle effects to indicate that a pusher is here.
+ push_once : The pusher is freed after it is used once.
+ push_effects : The pusher emits sprite effects to indicate its location.
 */
 
 /*QUAKED trigger_teleporter (1 0 0) ?
@@ -887,18 +888,18 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 */
 
 /*QUAKED trigger_hurt (.5 .5 .5) ? start_off toggle ? no_protection slow
- Any player that touches this will be hurt by "dmg" points of damage every 100ms (very fast).
+ A trigger that inflicts damage when touched.
 
  -------- Keys --------
- dmg : The damage done every 100ms to any player who touches this entity (default 2).
+ dmg : The damage this trigger inflicts per activation.
  targetname : The target name of this entity, if it is to be triggered.
 
  -------- Spawn flags --------
- start_off : If set, this entity must be activated before it will hurt players.
- toggle : If set, this entity is toggled each time it is activated.
+ start_off : The trigger must be activated before it will hurt players.
+ toggle : The trigger is toggled each time it is activated.
  ?
- no_protection : If set, armor will not be used to absorb damage inflicted by this entity.
- slow : Decreases the damage rate to once per second.
+ no_protection : Armor will not absorb damage inflicted by this entity.
+ slow : Decrease the damage rate to once per second.
 */
 
 /*QUAKED trigger_exec (0 1 0) ?
