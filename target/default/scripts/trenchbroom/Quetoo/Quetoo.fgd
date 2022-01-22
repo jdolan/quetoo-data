@@ -8,9 +8,7 @@
 	target(target_destination) : "The entity to target" 
 ]
 
-@BaseClass size(-16 -16 -24, 16 16 32) color(0 255 0) = Triggers []
-
-@BaseClass size(-12 -12 -12, 12 12 12) = Item 
+@BaseClass size(-16 -16 -16, 16 16 16) = Item 
 [
 	spawnflags(Flags) =
 	[
@@ -21,31 +19,33 @@
 	team(string) : "The team name for alternating item spawns"
 ]
 @PointClass base(Item) color(80 100 255) studio("") = item_adrenaline : "Adrenaline" []
-@PointClass base(Item) color(255 0 0) size(-16 -16 -16, 16 16 16) studio("") = item_armor_body : "Body armor (+200)" []
-@PointClass base(Item) color(255 255 0) size(-16 -16 -16, 16 16 16) studio("") = item_armor_combat : "Combat armor (+100)" []
-@PointClass base(Item) color(0 255 0) size(-16 -16 -16, 16 16 16) studio("") = item_armor_jacket : "Jacket armor (+50)" []
 @PointClass base(Item) color(0 255 0) size(-4 -4 -6, 4 4 6) studio("") = item_armor_shard : "Shard armor (+3)" []
-@PointClass base(Item) color(220 180 0) size(-8 -8 -8, 8 8 8) studio("") = item_health : "Health (+15)" []
+@PointClass base(Item) color(255 0 0) studio("") = item_armor_body : "Body armor (+200)" []
+@PointClass base(Item) color(255 255 0) studio("") = item_armor_combat : "Combat armor (+100)" []
+@PointClass base(Item) color(0 255 0) studio("") = item_armor_jacket : "Jacket armor (+50)" []
 @PointClass base(Item) color(40 255 40) size(-4 -4 -6, 4 4 6) studio("") = item_health_small : "Small health (+3)" []
+@PointClass base(Item) color(220 180 0) studio("") = item_health : "Health (+15)" []
 @PointClass base(Item) color(240 60 40) studio("") = item_health_large : "Large health (+25)" []
 @PointClass base(Item) color(30 100 200) studio("") = item_health_mega : "Megahealth (+75)" []
 @PointClass base(Item) color(20 180 180) studio("") = item_quad : "Quad damage" []
-@PointClass base(Item) color(255 0 0) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team1 : "Red flag" []
-@PointClass base(Item) color(0 0 255) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team2 : "Blue flag" []
-@PointClass base(Item) color(255 255 0) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team3 : "Yellow flag" []
-@PointClass base(Item) color(0 0 255) size(-8 -8 -24, 8 8 32) studio("") = item_flag_team4 : "Green flag" []
+
+@BaseClass base(Item) size(-8 -8 -24, 8 8 32) studio("models/ctf/flag/tris.obj") = TeamFlag []
+@PointClass base(TeamFlag) color(255 0 0) = item_flag_team1 : "Red flag" []
+@PointClass base(TeamFlag) color(0 0 255) = item_flag_team2 : "Blue flag" []
+@PointClass base(TeamFlag) color(255 255 0) = item_flag_team3 : "Yellow flag" []
+@PointClass base(TeamFlag) color(0 0 255) = item_flag_team4 : "Green flag" []
 
 @BaseClass base(Item) size(-16 -6 -6, 16 6 6) = Weapon []
-@PointClass base(Weapon) color(225 200 40) studio("") = weapon_blaster : "Blaster" []
-@PointClass base(Weapon) color(220 160 0) studio("") = weapon_shotgun : "Shotgun" []
-@PointClass base(Weapon) color(220 160 0) studio("") = weapon_supershotgun : "Super shotgun" []
-@PointClass base(Weapon) color(255 255 0) studio("") = weapon_machinegun : "Machinegun" []
-@PointClass base(Weapon) color(0 160 0) studio("") = weapon_grenadelauncher : "Grenade launcher" []
-@PointClass base(Weapon) color(200 0 0) studio("") = weapon_rocketlauncher : "Rocket launcher" []
-@PointClass base(Weapon) color(100 200 255) studio("") = weapon_hyperblaster : "Hyperblaster" []
-@PointClass base(Weapon) color(225 225 225) studio("") = weapon_lightning : "Lightning" []
-@PointClass base(Weapon) color(0 0 200) studio("") = weapon_railgun : "Rail gun" []
-@PointClass base(Weapon) color(80 255 40) studio("") = weapon_bfg : "BFG10K" []
+@PointClass base(Weapon) color(225 200 40) studio("models/weapons/blaster/tris.obj") = weapon_blaster : "Blaster" []
+@PointClass base(Weapon) color(220 160 0) studio("models/weapons/shotgun/tris.obj") = weapon_shotgun : "Shotgun" []
+@PointClass base(Weapon) color(220 160 0) studio("models/weapons/supershotgun/tris.obj") = weapon_supershotgun : "Super shotgun" []
+@PointClass base(Weapon) color(255 255 0) studio("models/weapons/machinegun/tris.obj") = weapon_machinegun : "Machinegun" []
+@PointClass base(Weapon) color(0 160 0) studio("models/weapons/grenadelauncher/tris.obj") = weapon_grenadelauncher : "Grenade launcher" []
+@PointClass base(Weapon) color(200 0 0) studio("models/weapons/rocketlauncher/tris.obj") = weapon_rocketlauncher : "Rocket launcher" []
+@PointClass base(Weapon) color(100 200 255) studio("models/weapons/hyperblaster/tris.obj") = weapon_hyperblaster : "Hyperblaster" []
+@PointClass base(Weapon) color(225 225 225) studio("models/weapons/lightning/tris.obj") = weapon_lightning : "Lightning" []
+@PointClass base(Weapon) color(0 0 200) studio("models/weapons/railgun/tris.obj") = weapon_railgun : "Rail gun" []
+@PointClass base(Weapon) color(80 255 40) studio("models/weapons/bfg/tris.obj") = weapon_bfg : "BFG10K" []
 
 @BaseClass base(Item) size(-10 -8 -8, 10 8 8) = Ammo []
 @PointClass base(Ammo) color(220 160 0) studio("") = ammo_shells : "Shells for the Shotgun and Super Shotgun" []
@@ -61,19 +61,19 @@
 [
 	angle(angle) : "Determines the direction in which the button will move (up = -1, down = -2)"
 	target(target_destination) : "All entities with a matching target name will be triggered"
-	speed(integer) : "Speed"
-	wait(integer) : "Wait"
-	lip(integer) : "Lip"
-	sounds(integer) : "Sound (0, 1 stone, -1 silent)"
-	health(integer) : "Health (Door takes DMG to open)"
+	speed(integer) : "Speed of the button's displacement" : 40
+	wait(integer) : "Number of seconds the button stays pressed (-1 = indefinitely)" : 1
+	lip(integer) : "Lip remaining at end of move" : 4
+	sounds(integer) : "The sound set for the button (-1 = silent)" : 0
+	health(integer) : "If set, the button must be killed instead of touched to use"
 ]
 
 @SolidClass base(Targetname) color(0 255 255) = func_conveyor : "Conveyors are stationary brushes that move what's on them. The brush should be have a surface with at least one current content enabled."
 [
 	spawnflags(Flags) =
 	[
-		1 : "start_open" : 0
-		2 : "toggle" : 0
+		1 : "The conveyor will be active immediately" : 0
+		2 : "The conveyor is toggled each time it is used" : 0
 	]
 	speed(integer) : "The speed at which objects on the conveyor are moved" : 100
 ]
@@ -82,130 +82,128 @@
 [
 	spawnflags(Flags) =
 	[
-		1 : "start_open" : 0
-		2 : "toggle" : 0
+		1 : "The door to moves to its destination when spawned, and operates in reverse" : 0
+		2 : "The door will wait in both the start and end states for a trigger event" : 0
 	]
 	message(string) : "An optional string printed when the door is first touched"
 	angle(angle) : "Determines the opening direction of the door (up = -1, down = -2)"
 	health(integer) : "If set, door must take damage to open"
 	speed(integer) : "The speed with which the door opens" : 100
-	wait(integer) : "Wait before returning (3 default, -1 = never return)"
+	wait(integer) : "Wait before returning (-1 = never return)" : 3
 	lip(integer) : "The lip remaining at end of move" : 8
 	dmg(integer) : "The damage inflicted on players who block the door as it closes" : 2
-	sounds(integer) : "The sound set for the door (0 default, 1 stone, -1 silent)" : 0
+	sounds(integer) : "The sound set for the door (0 metal, 1 stone, -1 silent)" : 0
 ]
 
 @SolidClass base(Targetname) color(0 255 255) = func_door_rotating : "A door which rotates about an origin on its Z axis. By default, doors open when a player walks close to them."
 [
 	spawnflags(Flags) =
 	[
-		1 : "start_open" : 0
-		2 : "toggle" : 0
-		4 : "reverse" : 0
-		8 : "x_axis" : 0
-		16 : "y_axis" : 0
+		1 : "The door to moves to its destination when spawned, and operates in reverse" : 0
+		2 : "The door will wait in both the start and end states for a trigger event" : 0
+		4 : "The door will rotate in the opposite (negative) direction along its axis" : 0
+		8 : "The door will rotate along its X axis" : 0
+		16 : "The door will rotate along its Y axis" : 0
 	]
 	message(string) : "An optional string printed when the door is first touched"
 	health(integer) : "If set, door must take damage to open"
 	speed(integer) : "The speed with which the door opens" : 100
 	rotation(integer) : "The rotation the door will open, in degrees": 90
-	wait(integer) : "Wait before returning (3 default, -1 = never return)"
+	wait(integer) : "Wait before returning (-1 = never return)" : 3
 	dmg(integer) : "The damage inflicted on players who block the door as it closes" : 2
-	sounds(integer) : "The sound set for the door (0 default, 1 stone, -1 silent)" : 0
+	sounds(integer) : "The sound set for the door (0 metal, 1 stone, -1 silent)" : 0
 ]
 
 @SolidClass base(Targetname) color(0 255 255) = func_door_secret : "A secret door which opens when shot, or when targeted. The door first slides back, and then to the side."
 [
 	spawnflags(Flags) =
 	[
-		1 : "always_shoot" : 0
-		2 : "first_left" : 0
-		4 : "first_down" : 0
+		1 : "The door will open when shot, even if it is targeted" : 0
+		2 : "The door will first slide to the left" : 0
+		4 : "The door will first slide down" : 0
 	]
 	angle(angle) : "The angle at which the door opens"
 	message(string) : "An optional string printed when the door is first touched"
 	health(integer) : "If set, door must take damage to open"
 	speed(integer) : "The speed with which the door opens" : 100
-	wait(integer) : "Wait before returning (3 default, -1 = never return)"
+	wait(integer) : "Wait before returning (-1 = never return)" : 3
 	dmg(integer) : "The damage inflicted on players who block the door as it closes" : 2
 ]
 
-@SolidClass color(0 255 180) = func_group : "Groups brushes together in Radiant for convenience. When the map is compiled, these entities are merged back into worldspawn." []
+@SolidClass color(0 255 180) = func_group : "Groups brushes together in Trenchbroom for convenience. When the map is compiled, these entities are merged back into worldspawn." []
 
-@SolidClass base(Target, Targetname) color(0 255 255) = func_plat : "func_plat"
+@SolidClass base(Targetname) color(0 255 255) = func_plat : "Rising platform the player can ride to reach higher places. Platforms must be placed in the raised position, so they will operate and be lit correctly, but they spawn in the lowered position. If the platform is the target of a trigger or button, it will start out disabled and in the extended position."
 [
 	spawnflags(Flags) =
 	[
-		1 : "low_trigger" : 0
+		1 : "The touch field for this platform will only exist at the lower position" : 0
 	]
-	speed(integer) : "Speed"
-	accel(integer) : "Acceleration"
-	lip(integer) : "Lip"
-	height(integer) : "Height"
-	sounds(integer) : "Sound (0, 1 stone, -1 silent)"
+	speed(integer) : "The speed with which the platform moves" : 200
+	accel(integer) : "The platform acceleration" : 500
+	lip(integer) : "The lip remaining at end of move" : 8
+	height(integer) : "If set, this will determine the extent of the platform's movement, rather than implicitly using the platform's height"
+	sounds(integer) : "The sound set for the platform (0 metal, 1 stone, -1 silent)"
 ]
 
-@SolidClass base(Target) color(0 255 255) = func_rotating : "func_rotating"
+@SolidClass base(Targetname) color(0 255 255) = func_rotating : "Solid entity that rotates continuously. Rotates on the Z axis by default and requires an origin brush. It will always start on in the game and is not targetable."
 [
 	spawnflags(Flags) =
 	[
-		1 : "start_on" : 0
-		2 : "reverse" : 0
-		4 : "x_axis" : 0
-		8 : "y_axis" : 0
-		16 : "touch_pain" : 0
-		32 : "stop" : 0
+		1 : "The entity will spawn rotating" : 0
+		2 : "Will cause the entity to rotate in the opposite direction" : 0
+		4 : "The entity will rotate on the X axis" : 0
+		8 : "The entity will rotate on the Y axis" : 0
+		16 : "The entity will inflict damage when touced" : 0
+		32 : "IThe entity will stop rotating when blocked" : 0
 	]
-	speed(integer) : "Speed"
-	dmg(integer) : "Damage"
-	targetname(string) : "The target name of this entity."
+	speed(integer) : "The speed at which the entity rotates" : 100
+	dmg(integer) : "The damage to inflict to players who touch or block the entity" : 2
 ]
 
-@PointClass base(Target, Targetname) color(0 255 255) size(-16 -16 -16, 16 16 16) = func_timer : "func_timer"
+@PointClass base(Target, Targetname) color(0 255 255) size(-8 -8 -8, 8 8 8) = func_timer : "Time delay trigger that will continuously fire its targets after a preset time delay. The time delay can also be randomized. When triggered, the timer will toggle on/off."
 [
 	spawnflags(Flags) =
 	[
-		1 : "start_on" : 0
+		1 : "The timer will begin firing once spawned" : 0
 	]
-	wait(integer) : "Wait"
-	random(integer) : "Random"
-	delay(integer) : "delay"
-	targetname(string) : "The target name of this entity."
+	wait(integer) : "Delay in seconds between each triggering of all targets" : 1
+	random(integer) : "Random time variance in seconds added to 'wait' delay (default 0.5 * wait)"
+	delay(integer) : "Additional delay before the first firing when start_on" : 0
 ]
 
-@SolidClass base(Target, Targetname) color(0 255 255) = func_train : "func_train"
+@SolidClass base(Targetname) color(0 255 255) = func_train : "Trains are moving solids that players can ride along a series of path_corners. The origin of each corner specifies the lower bounding point of the train at that corner. If the train is the target of a button or trigger, it will not begin moving until activated."
 [
 	spawnflags(Flags) =
 	[
-		1 : "start_on" : 0
-		2 : "toggle" : 0
-		4 : "block_stops" : 0
+		1 : "The train will begin moving once spawned" : 0
+		2 : "The train will start or stop each time it is activated" : 0
+		4 : "The train will stop when blocked, and inflict no damage" : 0
 	]
-	dmg(integer) : "Damage"
-	speed(integer) : "Speed"
-	noise(string) : "Noise File"
+	dmg(integer) : "The damage inflicted on players who block the train" : 2
+	speed(integer) : "The speed with which the train moves" : 100
+	sound(string) : "The looping sound to play while the train is in motion"
 ]
 
-@SolidClass base(Target, Targetname) color(0 255 255) = func_wall : "func_wall"
+@SolidClass base(Targetname) color(0 255 255) = func_wall : "A solid that may spawn into existence via trigger."
 [
 	spawnflags(Flags) =
 	[
-		1 : "triggered" : 0
-		2 : "toggle" : 0
-		4 : "start_on" : 0
+		1 : "The wall is inhibited until triggered, at which point it appears and kills everything in its way" : 0
+		2 : "The wall may be triggered off and on" : 0
+		4 : "The wall will initially be present, but can be toggled off" : 0
 	]
 ]
 
-@SolidClass base(Target, Targetname) color(0 255 255) = func_water : "func_water"
+@SolidClass base(Targetname) color(0 255 255) = func_water : "A movable water brush, which must be targeted to operate."
 [
 	spawnflags(Flags) =
 	[
-		1 : "start_open" : 0
+		1 : "The water will move to its destination when spawned and operate in reverse" : 0
 	]
-	angle(angle) : "Angle"
-	speed(integer) : "Speed"
-	wait(integer) : "Wait"
-	lip(integer) : "Lip"
+	angle(angle) : "Determines the opening direction (up = -1, down = -2)"
+	speed(integer) : "The speed at which the water moves" : 25
+	wait(integer) : "Delay in seconds before returning to the initial position" : -1
+	lip(integer) : "Lip remaining at end of move" : 0
 ]
 
 @PointClass base(Targetname) color(0 180 0) size(-4 -4 -4, 4 4 4) = info_null : "A positional target for spotlights, etc. These are inhibited in the game and are only useful to the editor and BSP compiler." []
@@ -379,14 +377,14 @@
 	angle(angle) : "Direction in which player will look when teleported"
 ]
 
-@PointClass base(Target, Targetname) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "path_corner"
+@PointClass base(Target, Targetname) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "Path corner for func_trains."
 [
 	spawnflags(Flags) =
 	[
-		1 : "teleport" : 0
+		1 : "The path corner teleports the train as soon as it is selected" : 0
 	]
-	target(string) : "Next path target"
-	pathtarget(string) : "Event to trigger"
+	target(string) : "The next corner in the path"
+	pathtarget(string) : "An entity to be used by this path corner when targeted"
 ]
 
 @PointClass base(Targetname) color(255 255 80) size(-6 -6 -6, 6 6 6) = target_light : "Emits a user-defined light when used. Lights can be chained with teams. Use this entity to add switched lights. Use the wait key to synchronize color cycles with other entities."
@@ -421,71 +419,56 @@
 
 @PointClass base(Targetname) color(128 128 160) size(-8 -8 -8, 8 8 8) = target_string : "Displays a center-printed message to the player when used."
 [
-	message(string) : "Message"
+	message(string) : "The message to display"
 ]
 
-@PointClass base(Targetname) color(128 128 128) = trigger_relay : "Relay trigger"
+@SolidClass base(trigger_once) = trigger_multiple : "Triggers multiple targets at fixed intervals."
 [
-	delay(integer) : "Delay in Seconds" : 0
-	message(string) : "String to Display"
-	target(string) : "Triggering Entity or Team"
-	killtarget(string) : "Entity or Team to Kill"
+	wait(float) : "Interval in seconds between activations": "0.2"
 ]
 
-@PointClass base(Target) color(128 128 128) size(-8 -8 -8, 8 8 8) = trigger_always : "Always triggers" 
+@SolidClass base(Target, Targetname) = trigger_once : "Triggers multiple targets once."
+[
+	spawnflags(Flags) =
+	[
+		1 : "The trigger must be targeted before it will activate" : 0
+		2 : "The trigger will fire when shot" : 0
+	]
+	delay(integer) : "Delay in seconds between activation and firing of targets" : 0
+	message(string) : "An optional string to display when activated"
+	killtarget(string) : "The name of the entity or team to kill on activation"
+]
+
+@PointClass base(Target, Targetname) color(128 128 128) = trigger_relay : "A trigger that can not be touched, but must be triggered by another entity."
+[
+	delay(integer) : "Delay in seconds between activation and firing of targets" : 0
+	message(string) : "An optional string to display when activated"
+	killtarget(string) : "The name of the entity or team to kill on activation"
+]
+
+@PointClass base(Target) color(128 128 128) = trigger_always : "Triggers targets once at level spawn." 
 [
 	killtarget(string) : "Kill Target"
 	delay(integer) : "Time before triggering"
 ]
 
-//trigger_exec needs to be revised. 1/31/2017
-@PointClass base(Target, Triggers) color(128 128 128) = trigger_exec : "Executes a console command or script file when activated." 
+@SolidClass base(Targetname) color(128 128 128) = trigger_hurt : "A trigger that inflicts damage when touched."
 [
-	commands(string) : "The console command(s) to execute."
+	spawnflags(Flags) =
+	[
+		1 : "The trigger must be activated before it will hurt players" : 0
+		2 : "The trigger is toggled each time it is activated" : 0
+		8 : "Armor will not absorb damage inflicted by this entity" : 0
+		16 : "Decrease the damage rate to once per second" : 0
+	]
+	dmg(integer) : "The damage this trigger inflicts per activation" : 2
+]
+
+@PointClass base(Target) color(128 128 128) = trigger_exec : "Executes a console command or script file when activated." 
+[
+	command(string) : "The console command(s) to execute."
 	script(string) : "The script file (.cfg) to execute."
 	delay(integer) : "The delay in seconds between activation and execution of the commands."
-]
-
-@SolidClass base(Targetname) color(128 128 128) = trigger_hurt : "Hurts on touch"
-[
-	spawnflags(Flags) =
-	[
-		1 : "start_off" : 0
-		2 : "toggle" : 0
-		4 : "no_protection" : 0
-		8 : "slow" : 0
-	]
-	dmg(integer) : "Damage" : 5
-	targetname(string) : "The target name of this entity."
-	
-]
-
-@SolidClass base(trigger_once) = trigger_multiple : "Triggers multiple targets at fixed intervals"
-[
-	spawnflags(Flags) =
-	[
-		1 : "triggered" : 0
-		2 : "shootable" : 0
-	]
-	delay(integer) : "Delay in Seconds" : 0
-	wait(float) : "Interval in Seconds"
-	message(string) : "String to Display"
-	target(string) : "Triggering Entity or Team"
-	killtarget(string) : "Entity or Team to Kill"
-	targetname(string) : "The target name of this entity."
-]
-
-@SolidClass base(trigger_relay) = trigger_once : "Single fire trigger"
-[
-	spawnflags(Flags) =
-	[
-		4 : "triggered" : 0
-	]
-	delay(integer) : "Delay in Seconds" : 0
-	message(string) : "String to Display"
-	target(string) : "Triggering Entity or Team"
-	killtarget(string) : "Entity or Team to Kill"
-	targetname(string) : "The target name of this entity."
 ]
 
 @SolidClass color(180 120 64) = trigger_push : "Pushes the player in any direction. These are commonly used to make jump pads to send the player upwards. Using the angles key, you can project the player in any direction using 'pitch yaw roll.'"
