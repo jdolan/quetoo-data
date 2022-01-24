@@ -1,6 +1,6 @@
 # Wavefront OBJ exported by MilkShape 3D
 
-mtllib blaster.mtl
+mtllib tris.mtl
 
 v 8.040854 24.146383 -0.767092
 v 3.301794 22.148493 -1.689785
@@ -3528,6 +3528,7 @@ vn -0.627865 -0.734461 -0.257590
 # 751 normals
 
 g blaster
+usemtl skin
 s 1
 f 1/1/1 2/2/2 1887/3/3
 f 1/1/1 1889/4/4 1896/5/4

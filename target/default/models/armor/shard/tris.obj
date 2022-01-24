@@ -1,6 +1,6 @@
 # Wavefront OBJ exported by MilkShape 3D
 
-mtllib s88.mtl
+mtllib tris.mtl
 
 v 0.440000 0.000000 -2.200000
 v 0.440000 0.880000 -2.970000
@@ -101,7 +101,7 @@ vn -0.841763 -0.451663 0.295695
 # 24 normals
 
 g tris.md2
-usemtl Material02
+usemtl skin
 s 1
 f 1/1/1 2/2/2 3/3/3
 f 4/4/4 5/5/5 6/6/6
