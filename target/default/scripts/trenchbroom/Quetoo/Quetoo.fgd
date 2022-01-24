@@ -18,34 +18,37 @@
 	]
 	team(string) : "The team name for alternating item spawns"
 ]
-@PointClass base(Item) color(80 100 255) studio("") = item_adrenaline : "Adrenaline" []
+
 @PointClass base(Item) color(0 255 0) size(-4 -4 -6, 4 4 6) studio("") = item_armor_shard : "Shard armor (+3)" []
 @PointClass base(Item) color(255 0 0) studio("") = item_armor_body : "Body armor (+200)" []
 @PointClass base(Item) color(255 255 0) studio("") = item_armor_combat : "Combat armor (+100)" []
 @PointClass base(Item) color(0 255 0) studio("") = item_armor_jacket : "Jacket armor (+50)" []
+
 @PointClass base(Item) color(40 255 40) size(-4 -4 -6, 4 4 6) studio("") = item_health_small : "Small health (+3)" []
 @PointClass base(Item) color(220 180 0) studio("") = item_health : "Health (+15)" []
 @PointClass base(Item) color(240 60 40) studio("") = item_health_large : "Large health (+25)" []
 @PointClass base(Item) color(30 100 200) studio("") = item_health_mega : "Megahealth (+75)" []
+
+@PointClass base(Item) color(80 100 255) studio("") = item_adrenaline : "Adrenaline" []
 @PointClass base(Item) color(20 180 180) studio("") = item_quad : "Quad damage" []
 
-@BaseClass base(Item) size(-8 -8 -24, 8 8 32) studio("models/ctf/flag/tris.obj") = TeamFlag []
+@BaseClass base(Item) size(-8 -8 -24, 8 8 32) studio("") = TeamFlag []
 @PointClass base(TeamFlag) color(255 0 0) = item_flag_team1 : "Red flag" []
 @PointClass base(TeamFlag) color(0 0 255) = item_flag_team2 : "Blue flag" []
 @PointClass base(TeamFlag) color(255 255 0) = item_flag_team3 : "Yellow flag" []
 @PointClass base(TeamFlag) color(0 0 255) = item_flag_team4 : "Green flag" []
 
 @BaseClass base(Item) size(-16 -6 -6, 16 6 6) = Weapon []
-@PointClass base(Weapon) color(225 200 40) studio("models/weapons/blaster/tris.obj") = weapon_blaster : "Blaster" []
-@PointClass base(Weapon) color(220 160 0) studio("models/weapons/shotgun/tris.obj") = weapon_shotgun : "Shotgun" []
-@PointClass base(Weapon) color(220 160 0) studio("models/weapons/supershotgun/tris.obj") = weapon_supershotgun : "Super shotgun" []
-@PointClass base(Weapon) color(255 255 0) studio("models/weapons/machinegun/tris.obj") = weapon_machinegun : "Machinegun" []
-@PointClass base(Weapon) color(0 160 0) studio("models/weapons/grenadelauncher/tris.obj") = weapon_grenadelauncher : "Grenade launcher" []
-@PointClass base(Weapon) color(200 0 0) studio("models/weapons/rocketlauncher/tris.obj") = weapon_rocketlauncher : "Rocket launcher" []
-@PointClass base(Weapon) color(100 200 255) studio("models/weapons/hyperblaster/tris.obj") = weapon_hyperblaster : "Hyperblaster" []
-@PointClass base(Weapon) color(225 225 225) studio("models/weapons/lightning/tris.obj") = weapon_lightning : "Lightning" []
-@PointClass base(Weapon) color(0 0 200) studio("models/weapons/railgun/tris.obj") = weapon_railgun : "Rail gun" []
-@PointClass base(Weapon) color(80 255 40) studio("models/weapons/bfg/tris.obj") = weapon_bfg : "BFG10K" []
+@PointClass base(Weapon) color(225 200 40) studio("") = weapon_blaster : "Blaster" []
+@PointClass base(Weapon) color(220 160 0) studio("") = weapon_shotgun : "Shotgun" []
+@PointClass base(Weapon) color(220 160 0) studio("") = weapon_supershotgun : "Super shotgun" []
+@PointClass base(Weapon) color(255 255 0) studio("") = weapon_machinegun : "Machinegun" []
+@PointClass base(Weapon) color(0 160 0) studio("") = weapon_grenadelauncher : "Grenade launcher" []
+@PointClass base(Weapon) color(200 0 0) studio("") = weapon_rocketlauncher : "Rocket launcher" []
+@PointClass base(Weapon) color(100 200 255) studio("") = weapon_hyperblaster : "Hyperblaster" []
+@PointClass base(Weapon) color(225 225 225) studio("") = weapon_lightning : "Lightning" []
+@PointClass base(Weapon) color(0 0 200) studio("") = weapon_railgun : "Rail gun" []
+@PointClass base(Weapon) color(80 255 40) studio("") = weapon_bfg : "BFG10K" []
 
 @BaseClass base(Item) size(-10 -8 -8, 10 8 8) = Ammo []
 @PointClass base(Ammo) color(220 160 0) studio("") = ammo_shells : "Shells for the Shotgun and Super Shotgun" []
@@ -368,7 +371,7 @@
 [
 	spawnflags(Flags) =
 	[
-		1 : "no_effects" : 0
+		1 : "Suppress the default teleporter particle effects" : 0
 	]
 ]
 
@@ -391,7 +394,7 @@
 [
 	spawnflags(Flags) =
 	[
-		1 : "start_on" : 0
+		1 : "The light will start on" : 0
 	]
 	_color(color1) : "The light color" : "1 1 1"
 	light(float) : "The light radius in units" : "300"
@@ -404,8 +407,8 @@
 [
 	spawnflags(Flags) =
 	[
-		1 : "loop_on" : 0
-		2 : "loop_off" : 0
+		1 : "The sound can be toggled, and will play in loop until used" : 0
+		2 : "The sound can be toggled, and will begin playing when used" : 0
 	]
 	atten(choices) : "The attenuation" : 1 =
 	[
@@ -458,7 +461,7 @@
 	[
 		1 : "The trigger must be activated before it will hurt players" : 0
 		2 : "The trigger is toggled each time it is activated" : 0
-		8 : "Armor will not absorb damage inflicted by this entity" : 0
+		8 : "Armor will not absorb damage inflicted by this trigger" : 0
 		16 : "Decrease the damage rate to once per second" : 0
 	]
 	dmg(integer) : "The damage this trigger inflicts per activation" : 2
@@ -475,18 +478,15 @@
 [
 	spawnflags(Flags) =
 	[
-		1 : "push_once" : 0
-		2 : "push_effects" : 0
+		1 : "The pusher is freed after it is used once" : 0
+		2 : "The pusher emits sprite effects to indicate its location" : 0
 	]
 	angles(angle) : "The direction to push the player in" : "0 0 0"
 	sound(sound) : "The sound effect to play when the player is pushed" : "world/jumppad"
 	speed(integer) : "The speed with which to push the player" : 100
 ]
 
-@SolidClass base(Target) color(200 200 40) = trigger_teleporter : "Touching this will warp players to the targeted misc_teleporter_dest entity. This is the brush form of misc_teleporter."
-[
-	target(target_source) : "The target name of a misc_teleporter_dest"
-]
+@SolidClass base(Target) color(200 200 40) = trigger_teleporter : "Touching this will warp players to the targeted misc_teleporter_dest entity. This is the brush form of misc_teleporter." []
 
 @SolidClass = worldspawn : "The worldspawn entity defines global conditions and behavior for the entire level. All brushes not belonging to an explicit entity implicitly belong to worldspawn."
 [

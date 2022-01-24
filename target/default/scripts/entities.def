@@ -898,7 +898,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  start_off : The trigger must be activated before it will hurt players.
  toggle : The trigger is toggled each time it is activated.
  ?
- no_protection : Armor will not absorb damage inflicted by this entity.
+ no_protection : Armor will not absorb damage inflicted by this trigger.
  slow : Decrease the damage rate to once per second.
 */
 
