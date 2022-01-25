@@ -1072,7 +1072,9 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  saturation : Global light saturation, a single positive scalar value (e.g. 0.9).
  contrast : Global light contrast, a single positive scalar value (e.g. 1.17).
  radiosity : Global indirect light scale, a single positive scalar value (e.g. 1.675).
- patch_size : Surface light patch size (default 64).
+ luxel_size : Lightmap pixel size in world units (default 4).
+ patch_size : Surface light patch size in world units (default 64).
+ caustics : Global caustics effects scale, a single positive scalar value (default 1)
  weather : Weather effects, one of "none, rain, snow."
  fog_absorption : Global fog light absorption, or how much light color it absorbs (default .125).
  fog_color : Global fog color, as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
