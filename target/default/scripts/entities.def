@@ -1076,17 +1076,9 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  patch_size : Surface light patch size in world units (default 64).
  caustics : Global caustics effects scale, a single positive scalar value (default 1)
  weather : Weather effects, one of "none, rain, snow."
- fog_absorption : Global fog light absorption, or how much light color it absorbs (default .125).
  fog_color : Global fog color, as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
  fog_density : Global fog density, a single positive scalar value (default 0).
- fog_noise : Global fog noise, a single positive scalar value (default 0).
- fog_frequency : The global fog simplex noise frequency - effectively the scale of the noise texture (default 32)
- fog_amplitude : The global fog simplex noise amplitude - effectively the upper limit of noise values (default 1)
- fog_lacunarity : The global fog simplex noise lacunarity - multiplier per-octave of frequency (default 2)
- fog_persistence : The global fog simplex noise persistence - multiplier per-octave of amplitude (default 0.5)
- fog_octaves : The number of octaves to sample for global fog (default 5)
- fog_seed : The global fog simplex noise permutation vector seed (default 0)
- fog_offset : An offset added to the global fog noise calculation (default 0 0 0)
+ fog_depth_range : Global fog depth range, in world units (default "128 2048").
  gravity : Gravity for the level (default 800).
  gameplay : The gameplay mode, one of "deathmatch, instagib, arena."
  hook : Enables the grappling hook (unset for gameplay default, 0 = disabled, 1 = enabled)."
