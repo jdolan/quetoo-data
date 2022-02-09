@@ -1068,6 +1068,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  message : The map title.
  sky : The sky environment map (default unit1_).
  ambient : The ambient light level (e.g. 0.14 0.11 0.12).
+ bounce : The number of indirect light passes (default 1).
  brightness : Global light scale, a single positive scalar value (e.g. 1.125).
  saturation : Global light saturation, a single positive scalar value (e.g. 0.9).
  contrast : Global light contrast, a single positive scalar value (e.g. 1.17).
