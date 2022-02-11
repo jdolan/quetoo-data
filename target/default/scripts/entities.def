@@ -652,7 +652,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------.
  _color : Fog color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
- absorption : The fog absorption, or how much light color it absorbs (default .125).
+ absorption : The fog absorption, or how much light color it absorbs (default .5).
  density : The fog density, or thickness (default 1).
  noise : The fog noise, or variation in density (default 0).
  frequency : The simplex noise frequency - effectively the scale of the noise texture (default 32).
