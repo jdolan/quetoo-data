@@ -648,7 +648,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 */
 
 /*QUAKED misc_fog (.7 .7 .7)
- Fog volumes. When compiled, fog brushes are merged into the world. Fog volumes are processed during the lighting compile phase. These are typically contents atmospheric, but can be contents water, etc. 
+ Fog volumes. When compiled, fog brushes are merged into the world. Fog volumes are processed during the lighting compile phase. These are typically contents atmospheric, but can be contents water, etc. Omit _color to use the material color.
 
  -------- Keys --------.
  _color : Fog color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
