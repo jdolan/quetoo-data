@@ -67,7 +67,7 @@
 	specularity 1.63265
 	bloom 3.10204
 	surface "light"
-	light 200
+	light 220
 	{
 		texture torn/ceil1_2fx
 		blend GL_SRC_ALPHA GL_ONE
@@ -220,7 +220,7 @@
 	specularity 0.571429
 	bloom 3.7551
 	surface "light"
-	light 200
+	light 180
 	{
 		texture torn/metpan_lite1fx
 		blend GL_SRC_ALPHA GL_ONE
