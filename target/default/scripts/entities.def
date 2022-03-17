@@ -125,7 +125,7 @@
  angle : Determines the direction in which the button will move (up = -1, down = -2).
  health : If set, the button must be killed instead of touched to use.
  lip : Lip remaining at end of move (default 4 units).
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  sounds : The sound set for the button (0 metal, -1 silent).
  speed : Speed of the button's displacement (default 40).
  target : All entities with a matching target name will be triggered.
@@ -137,7 +137,7 @@
  Conveyors are stationary brushes that move what's on them. The brush should be have a surface with at least one current content enabled.
 
  -------- Keys --------
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  speed : The speed at which objects on the conveyor are moved (default 100).
  targetname : The target name of this entity if it is to be triggered.
 
@@ -156,7 +156,7 @@
  health : If set, door must take damage to open.
  lip : The lip remaining at end of move (default 8 units).
  message : An optional string printed when the door is first touched.
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  sounds : The sound set for the door (0 metal, 1 stone, -1 silent).
  speed : The speed with which the door opens (default 100).
  targetname : The target name of this entity if it is to be triggered.
@@ -174,7 +174,7 @@
  dmg : The damage inflicted on players who block the door as it closes (default 2).
  health : If set, door must take damage to open.
  message : An optional string printed when the door is first touched.
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  rotation : The rotation the door will open, in degrees (default 90).
  sounds : The sound set for the door (0 metal, 1 stone, -1 silent).
  speed : The speed with which the door opens (default 100).
@@ -197,7 +197,7 @@
  dmg : The damage inflicted on players who block the door as it closes (default 2).
  health : If set, door must take damage to open.
  message : An optional string printed when the door is first touched.
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  speed : The speed with which the door opens (default 100).
  targetname : The target name of this entity if it is to be triggered.
  wait : Wait before returning (3 default, -1 = never return).
@@ -212,7 +212,7 @@
 Groups brushes together in Radiant for convenience. When the map is compiled, these entities are merged back into worldspawn. 
 
  -------- Keys --------
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
 
  -------- Notes --------
  Use g to select all brushes in a group. Use TAB to navigate through the individual brushes of a selected group.
@@ -225,7 +225,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  accel : The platform acceleration (default 500).
  height : If set, this will determine the extent of the platform's movement, rather than implicitly using the platform's height.
  lip : The lip remaining at end of move (default 8 units).
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  sounds : The sound set for the platform (0 metal, 1 stone, -1 silent).
  speed : The speed with which the platform moves (default 200).
  targetname : The target name of this entity if it is to be triggered.
@@ -239,7 +239,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------
  dmg : The damage to inflict to players who touch or block the entity (default 2).
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  speed : The speed at which the entity rotates (default 100).
  targetname : The target name of this entity if it is to be triggered.
 
@@ -270,7 +270,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------
  dmg : The damage inflicted on players who block the train (default 2).
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  sound : The looping sound to play while the train is in motion.
  speed : The speed with which the train moves (default 100).
  targetname : The target name of this entity if it is to be triggered.
@@ -285,7 +285,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  A solid that may spawn into existence via trigger.
 
  -------- Keys --------
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags --------
@@ -300,7 +300,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  -------- Keys --------
  angle : Determines the opening direction (up = -1, down = -2)
  lip : Lip remaining at end of move (default 0 units).
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  speed : The speed at which the water moves (default 25).
  targetname : The target name of this entity if it is to be triggered.
  wait : Delay in seconds before returning to the initial position (default -1).
@@ -886,7 +886,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------
  angles : The direction to push the player in "pitch yaw roll" notation (e.g. -80 270 0).
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  sound : The sound effect to play when the player is pushed (default "world/jumppad").
  speed : The speed with which to push the player (default 100).
 
@@ -899,7 +899,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  Touching this will warp players to the targeted misc_teleporter_dest entity. This is the brush form of misc_teleporter.
 
  -------- Keys --------
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  target : The target name of a misc_teleporter_dest.
 */
 
@@ -908,7 +908,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------
  dmg : The damage this trigger inflicts per activation.
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  targetname : The target name of this entity, if it is to be triggered.
 
  -------- Spawn flags --------
@@ -1102,7 +1102,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  message : The map title.
  num_teams : Enforces number of teams (disabled = -1, must be between 2 and 4)
  patch_size : Surface light patch size in world units (default 64).
- phong : The Phong shading threshold for this model, in degrees (default 0).
+ phong : The Phong shading threshold for this model, in degrees (default 60).
  radiosity : Global indirect light scale, a single positive scalar value (e.g. 1.675).
  roundlimit : The round limit (default 20).
  saturation : Global light saturation, a single positive scalar value (e.g. 0.9).
