@@ -1,7 +1,7 @@
 {
 	material #models/ammo/nukes/skin
-	bump 1.5
-	hardness 4.0
-	parallax 0.0
-	specular 5.0
+	roughness 5.22449
+	hardness 3.10204
+	specularity 3.18367
+	bloom 2.20408
 }

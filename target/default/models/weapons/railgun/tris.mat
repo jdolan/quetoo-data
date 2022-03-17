@@ -1,9 +1,9 @@
 {
 	material #models/weapons/railgun/skin
-	bump 2.0
-	hardness 2.0
-	parallax 0.0
-	specular 8.0
+	roughness 5.55102
+	hardness 4.57143
+	specularity 2.93878
+	bloom 3.5102
 	{
 		texture #models/weapons/railgun/skin_glow
 		blend GL_SRC_ALPHA GL_ONE

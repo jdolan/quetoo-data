@@ -1,9 +1,9 @@
 {
 	material #models/techs/strength/skin
-	bump 2.0
-	hardness 3.0
-	parallax 0.0
-	specular 6.0
+	roughness 3.18367
+	hardness 3
+	specularity 2.61224
+	bloom 2.53061
 	{
 		texture #models/techs/strength/skin_glow
 		blend GL_SRC_ALPHA GL_ONE

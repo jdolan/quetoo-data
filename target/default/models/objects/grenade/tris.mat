@@ -1,11 +1,11 @@
 {
 	material #models/objects/grenade/skin
-	bump 1.0
+	roughness 4.0
 	hardness 1.5
-	parallax 0.6
-	specular 4.0
+	specularity 2.0
+	bloom 2.3
 	{	
-texture #models/objects/grenade/skin_glow
+		texture #models/objects/grenade/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 2
 	}

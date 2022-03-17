@@ -1,7 +1,7 @@
 {
 	material #models/ammo/bullets/skin
-	bump 1.5
-	hardness 4.0
-	parallax 0.0
-	specular 5.0
+	roughness 4.4898
+	hardness 2.44898
+	specularity 2.61224
+	bloom 1.30612
 }

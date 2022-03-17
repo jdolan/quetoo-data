@@ -1,7 +1,7 @@
 {
 	material #models/ammo/slugs/skin
-	bump 1.5
-	hardness 4.0
-	parallax 0.0
-	specular 5.0
+	roughness 4.40816
+	hardness 4
+	specularity 3.5102
+	bloom 2
 }

@@ -1,7 +1,7 @@
 {
 	material #models/weapons/shotgun/skin
-	bump 2.5
-	hardness 2.0
-	parallax 0.0
-	specular 8.0
+	roughness 6.61225
+	hardness 2.69388
+	specularity 1.46939
+	bloom 2.28571
 }

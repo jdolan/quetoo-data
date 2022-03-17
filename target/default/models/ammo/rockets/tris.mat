@@ -1,7 +1,7 @@
 {
 	material #models/ammo/rockets/skin
-	bump 1.5
-	hardness 4.0
-	parallax 0.0
-	specular 5.0
+	roughness 5.38775
+	hardness 2.85714
+	specularity 2.04082
+	bloom 2.12245
 }

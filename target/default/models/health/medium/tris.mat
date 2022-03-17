@@ -1,7 +1,7 @@
 {
 	material #models/health/medium/skin
-	bump 2.3
-	hardness 2.5
-	parallax 0.0
-	specular 5.0
+	roughness 3.67347
+	hardness 6.28571
+	specularity 1.46939
+	bloom 1.14286
 }

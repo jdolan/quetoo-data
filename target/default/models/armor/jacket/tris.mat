@@ -1,7 +1,7 @@
 {
 	material #models/armor/jacket/skin
-	bump 3.0
-	hardness 9.0
-	parallax 0.0
-	specular 12.0
+	roughness 3.10204
+	hardness 3.5102
+	specularity 2.53061
+	bloom 2.44898
 }

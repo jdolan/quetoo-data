@@ -1,7 +1,7 @@
 {
 	material #models/health/small/skin
-	bump 2.3
-	hardness 2.5
-	parallax 0.0
-	specular 5.0
+	roughness 4.65306
+	hardness 4.08163
+	specularity 1.71429
+	bloom 2.93878
 }

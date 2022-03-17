@@ -1,7 +1,7 @@
 {
 	material #models/weapons/machinegun/skin
-	bump 2.5
-	hardness 2.5
-	parallax 0.0
-	specular 8.0
+	roughness 4.08163
+	hardness 5.55102
+	specularity 2.04082
+	bloom 2.61224
 }

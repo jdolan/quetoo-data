@@ -1,9 +1,9 @@
 {
 	material #models/armor/shard/skin
-	bump 4.0
-	hardness 2.5
-	parallax 0.0
-	specular 8.0
+	roughness 3.59184
+	hardness 6.12245
+	specularity 1.22449
+	bloom 2.04082
 	{
 		texture #models/armor/shard/skin_glow
 		blend GL_SRC_ALPHA GL_ONE

@@ -1,0 +1,7 @@
+{
+	material models/ctf/flag/skin
+	roughness 4
+	hardness 2.93878
+	specularity 2.04082
+	bloom 2.36735
+}

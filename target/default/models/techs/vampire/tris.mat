@@ -1,9 +1,9 @@
 {
 	material #models/techs/vampire/skin
-	bump 2.0
-	hardness 3.0
-	parallax 0.0
-	specular 6.0
+	roughness 3.34694
+	hardness 3.67347
+	specularity 2.12245
+	bloom 2.44898
 	{
 		texture #models/techs/vampire/skin_glow
 		blend GL_SRC_ALPHA GL_ONE

@@ -1,9 +1,9 @@
 {
 	material #models/powerups/quad/skin
-	bump 2.5
-	hardness 4.0
-	parallax 0.0
-	specular 7.0
+	roughness 5.30612
+	hardness 6.36735
+	specularity 1.71429
+	bloom 2.61224
 	{
 		texture #models/powerups/quad/skin_glow
 		blend GL_SRC_ALPHA GL_ONE

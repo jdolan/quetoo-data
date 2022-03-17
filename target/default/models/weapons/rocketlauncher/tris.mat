@@ -1,9 +1,9 @@
 {
 	material #models/weapons/rocketlauncher/skin
-	bump 2.0
-	hardness 2.0
-	parallax 0.0
-	specular 8.0
+	roughness 6.44898
+	hardness 2.20408
+	specularity 1.55102
+	bloom 1.79592
 	{
 		texture #models/weapons/rocketlauncher/skin_glow
 		blend GL_SRC_ALPHA GL_ONE

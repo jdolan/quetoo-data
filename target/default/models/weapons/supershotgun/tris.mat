@@ -1,7 +1,7 @@
 {
 	material #models/weapons/supershotgun/skin
-	bump 3.5
-	hardness 2.5
-	parallax 0.0
-	specular 10.0
+	roughness 4.4898
+	hardness 5.38775
+	specularity 1.79592
+	bloom 2.36735
 }

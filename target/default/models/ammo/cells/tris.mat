@@ -1,7 +1,7 @@
 {
 	material #models/ammo/cells/skin
-	bump 1.5
-	hardness 4.0
-	parallax 0.0
-	specular 5.0
+	roughness 5.63265
+	hardness 3.42857
+	specularity 2.61224
+	bloom 2.04082
 }
