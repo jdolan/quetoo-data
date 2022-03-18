@@ -1,0 +1,8 @@
+{
+	material #models/mapobjects/fern/skin
+	roughness 2
+	hardness 0.3
+	specularity 1.5
+	bloom 0
+	surface alpha_test
+}
