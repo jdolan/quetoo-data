@@ -589,6 +589,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------
  _color : Light color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
+ _intensity : Light intensity as a scalar from 0.1 - 2.0 (default 1).
  _size : Light size, to simulate area lights and cast penumbrae (default 16).
  atten : Light attenuation. 1 for linear, 2 for inverse square (default 1).
  light : Light radius (default 300).
@@ -600,6 +601,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  -------- Keys --------
  _color : Light color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
  _cone : Spotlight attenuation cone width, in degrees (default 22.5).
+ _intensity : Spotlight intensity as a scalar from 0.1 - 2.0 (default 1).
  _size : Spotlight size, to simulate area lights and cast penumbrae (default 16).
  angle : Spotlight direction (up = -1, down = -2, yaw = positive value).
  atten : Light attenuation. 1 for linear, 2 for inverse square (default 1).
@@ -612,8 +614,8 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------
  _color : Sun color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
+ _intensity : Sun intensity as a scalar from 0.1 - 2.0 (default 1).
  _size : Sun size, larger values yield more penumbrae (default 256).
- light : Sun light as an integer value from 0 - 255 (default 255).
  target : The name of the entity to target to resolve the sun direction.
 */
 
