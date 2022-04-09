@@ -589,6 +589,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------
  _color : Light color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
+ _intensity : Light intensity as a positive scalar value (default 1).
  _size : Light size, to simulate area lights and cast penumbrae (default 16).
  atten : Light attenuation. 1 for linear, 2 for inverse square (default 1).
  light : Light radius (default 300).
@@ -598,12 +599,13 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  Point light source with attenuation cone.
 
  -------- Keys --------
- _color : Light color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
+ _color : Spotlight color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
  _cone : Spotlight attenuation cone width, in degrees (default 22.5).
+ _intensity : Spotlight intensity as a positive scalar value (default 1).
  _size : Spotlight size, to simulate area lights and cast penumbrae (default 16).
  angle : Spotlight direction (up = -1, down = -2, yaw = positive value).
- atten : Light attenuation. 1 for linear, 2 for inverse square (default 1).
- light : Light radius (default 300).
+ atten : Spotlight attenuation. 1 for linear, 2 for inverse square (default 1).
+ light : Spotlight radius (default 300).
  target : The name of the entity to target to resolve the light direction.
 */
 
@@ -612,8 +614,8 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------
  _color : Sun color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
+ _intensity : Sun intensity as a positive scalar value (default 1).
  _size : Sun size, larger values yield more penumbrae (default 256).
- light : Sun light as an integer value from 0 - 255 (default 255).
  target : The name of the entity to target to resolve the sun direction.
 */
 
@@ -1083,6 +1085,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------
  ambient : The ambient light level (e.g. 0.14 0.11 0.12).
+ ambient_intensity : Global ambient light intensity as a positive scalar value (default 1).
  bounce : The number of indirect light passes (default 1).
  brightness : Global light scale, a single positive scalar value (e.g. 1.125).
  capturelimit : The capture limit (default 8).
@@ -1097,16 +1100,19 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  give : A comma-delimited item string to give each player on spawn.
  gravity : Gravity for the level (default 800).
  hook : Enables the grappling hook (unset for gameplay default, 0 = disabled, 1 = enabled)."
+ indirect_intensity : Global indirect light intensity as a positive scalar value (default 1).
+ light_intensity : Global point light intensity as a positive scalar value (default 1).
  luxel_size : Lightmap pixel size in world units (default 4).
  match : Enables match play (round-based elimination with warmup) (enabled = 1).
  message : The map title.
  num_teams : Enforces number of teams (disabled = -1, must be between 2 and 4)
+ patch_intensity : Global patch light intensity as a positive scalar value (default 1).
  patch_size : Surface light patch size in world units (default 64).
  phong : The Phong shading threshold for this model, in degrees (default 60).
- radiosity : Global indirect light scale, a single positive scalar value (e.g. 1.675).
  roundlimit : The round limit (default 20).
  saturation : Global light saturation, a single positive scalar value (e.g. 0.9).
  sky : The sky environment map (default unit1_).
+ sun_intensity : Global sun light intensity as a positive scalar value (default 1).
  teams : Enables and enforces teams play (enabled = 1, auto-balance = 2).
  timelimit : The time limit in minutes (default 20).
  weather : Weather effects, one of "none, rain, snow."
