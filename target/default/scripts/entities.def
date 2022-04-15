@@ -1086,7 +1086,6 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  -------- Keys --------
  ambient : The ambient light level (e.g. 0.14 0.11 0.12).
  ambient_intensity : Global ambient light intensity as a positive scalar value (default 1).
- bounce : The number of indirect light passes (default 1).
  brightness : Global light scale, a single positive scalar value (e.g. 1.125).
  capturelimit : The capture limit (default 8).
  caustics : Global caustics effects scale, a single positive scalar value (default 1)
