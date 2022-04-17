@@ -661,6 +661,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  drift : The factor of randomized drift applied to the emission rate.
  hz : The emission rate, in events-per-second (default 10).
  radius : The flame radius (default 16).
+ sound : The looping sound to play, or 'none' to disable (default "world/fire").
 */
 
 /*QUAKED misc_fog (.7 .7 .7)
@@ -756,6 +757,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  drift : The factor of randomized drift applied to the emission rate (default .01).
  hz : The emission rate, in events-per-second (default 10).
  size : The initial sprite size (default 32).
+ sound : The looping sound to play, or 'none' to disable (default "world/steam").
  target : The name of the entity to target to resolve the steam direction and velocity.
  velocity : The steam velocity (if not specified via target) (default 0 0 32).
 */
