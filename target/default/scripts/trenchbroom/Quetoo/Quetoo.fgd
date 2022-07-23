@@ -393,6 +393,7 @@
 	spawnflags(Flags) =
 	[
 		1 : "The path corner teleports the train as soon as it is selected" : 0
+		2 : "Suppress the default teleport effects"
 	]
 	target(string) : "The next corner in the path"
 	pathtarget(string) : "An entity to be used by this path corner when targeted"

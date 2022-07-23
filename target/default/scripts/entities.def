@@ -787,6 +787,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Spawn flags --------
  teleport : The path corner teleports the train as soon as it is selected.
+ no_effects : Suppress the default teleport effects.
 */
 
 /*QUAKED target_light (1 1 1) (-4 -4 -4) (4 4 4) start_on
