@@ -1,0 +1,349 @@
+{
+	material common/caulk
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material common/sky
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material common/trigger
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material gehenna/glass
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+	surface "blend_66"
+}
+{
+	material gehenna/plasma
+	roughness 1
+	hardness 2.28571
+	specularity 1
+	bloom 4.08163
+	surface "light blend_66"
+	light 150
+}
+{
+	material rygel/base_ceil1
+	roughness 4.40816
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/ceil1_1
+	roughness 4.40816
+	hardness 6.20408
+	specularity 1
+	bloom 6.77551
+	surface "light"
+	light 200
+	{
+		flare flare_1
+	}
+}
+{
+	material rygel/ceil_nu5
+	roughness 4.40816
+	hardness 6.28571
+	specularity 1
+	bloom 7.42857
+	surface "light"
+	light 170
+	{
+		flare flare_0
+	}
+}
+{
+	material rygel/cop1_1
+	roughness 3.59184
+	hardness 4.08163
+	specularity 5.06122
+	bloom 3.83673
+}
+{
+	material rygel/cop2_2
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/grate02_2
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/htek04_1
+	roughness 5.95918
+	hardness 4.97959
+	specularity 1
+	bloom 2.53061
+}
+{
+	material rygel/light_rail01
+	roughness 3.59184
+	hardness 5.63265
+	specularity 1.55102
+	bloom 7.10204
+	surface "light"
+	light 120
+}
+{
+	material rygel/metal5_1
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/metal5_3
+	roughness 3.18367
+	hardness 4.16327
+	specularity 3.5102
+	bloom 6.44898
+}
+{
+	material rygel/pbtek1_02
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/pbtek1_04
+	roughness 2.93878
+	hardness 6.28571
+	specularity 3.18367
+	bloom 3.83673
+}
+{
+	material rygel/sfloor4_2
+	roughness 4.16327
+	hardness 2.12245
+	specularity 3.10204
+	bloom 1
+}
+{
+	material rygel/sfloor4_6
+	roughness 3.83673
+	hardness 1.55102
+	specularity 1.06122
+	bloom 1.95918
+}
+{
+	material rygel/tech02_1
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech03_3
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech04_1
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech04_2
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech04_3
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech04_4
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech04_6
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech06_1
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech07_2
+	roughness 4.65306
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech08_1a
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech08_1b
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech08_6
+	roughness 6.53061
+	hardness 2.93878
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech08_7a
+	roughness 4.4898
+	hardness 2.36735
+	specularity 1
+	bloom 2.12245
+}
+{
+	material rygel/tech08_7b
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech08_9b
+	roughness 4.65306
+	hardness 2.77551
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech10_4
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech10_7
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech10_8
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech11_1
+	roughness 3.91837
+	hardness 2.44898
+	specularity 1
+	bloom 1.95918
+}
+{
+	material rygel/tech11_2
+	roughness 4
+	hardness 5.14286
+	specularity 1.95918
+	bloom 3.7551
+}
+{
+	material rygel/tech12_1
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tech13_2
+	roughness 6.36735
+	hardness 2.61224
+	specularity 1
+	bloom 2.93878
+}
+{
+	material rygel/tek_la9
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tek_re12
+	roughness 4.81633
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/tek_re13
+	roughness 4.32653
+	hardness 3.5102
+	specularity 0.979592
+	bloom 2.61224
+}
+{
+	material rygel/tlight03
+	roughness 6.04082
+	hardness 6.44898
+	specularity 1
+	bloom 5.71429
+	surface "light"
+	light 280
+	{
+		flare flare_1
+	}
+}
+{
+	material rygel/wmet2_1
+	roughness 1.22449
+	hardness 2.53061
+	specularity 1.71429
+	bloom 0.979592
+}
+{
+	material rygel/wmet2_2
+	roughness 6.20408
+	hardness 2.12245
+	specularity 2.44898
+	bloom 0.816327
+}

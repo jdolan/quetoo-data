@@ -1,0 +1,119 @@
+{
+	material common/caulk
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material common/sky
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material common/trigger
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/afloor1_3
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/city6_7
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/city8_2
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/cop1_2
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/elwall2_4
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/emetal1_3
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/floor01_5
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/m5_2
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/m5_5
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/metal1_3
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/metal4_5
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/wizmet1_3
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/wood1_1
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/woodflr1_2
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
