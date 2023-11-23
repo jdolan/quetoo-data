@@ -1091,7 +1091,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  ambient_intensity : Global ambient light intensity as a positive scalar value (default 1).
  brightness : Global light scale, a single positive scalar value (e.g. 1.125).
  capturelimit : The capture limit (default 8).
- caustics : Global caustics effects scale, a single positive scalar value (default 1)
+ caustic_intensity : Global caustic light intensity as a positive scalar value (default 1).
  contrast : Global light contrast, a single positive scalar value (e.g. 1.17).
  ctf : Enables CTF play (enabled = 1, auto-balance = 2).
  face_intensity : Global face light intensity as a positive scalar value (default 1).
@@ -1113,6 +1113,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  roundlimit : The round limit (default 20).
  saturation : Global light saturation, a single positive scalar value (e.g. 0.9).
  sky : The sky environment map (default unit1_).
+ spot_intensity : Global spot light intensity as a positive scalar value (default 1).
  sun_intensity : Global sun light intensity as a positive scalar value (default 1).
  teams : Enables and enforces teams play (enabled = 1, auto-balance = 2).
  timelimit : The time limit in minutes (default 20).

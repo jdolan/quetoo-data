@@ -511,7 +511,7 @@
 	spot_intensity(float) : "Global spot light intensity as a positive scalar value" : "1"
 	face_intensity(float) : "Global face light intensity as a positive scalar value" : "1"
 	patch_intensity(float) : "Global patch light intensity as a positive scalar value" : "1"
-	caustics(float) : "Global caustics effects scale, a single positive scalar value" : "1"
+	caustic_intensity(float) : "Global caustic light intensity as positive scalar value" : "1"
 	weather(choices) : "Weather effects" : "none" =
 	[
 		"none" : "None"
