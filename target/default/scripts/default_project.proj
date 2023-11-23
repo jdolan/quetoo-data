@@ -81,7 +81,7 @@ $TEMPLATEbasedir: base game dir (e.g. default\)
   <key name="cont13" value="" />
   <key name="cont14" value="" />
   <key name="cont15" value="" />
-  <key name="cont16" value="Occlusion Query" />
+  <key name="cont16" value="" />
   <key name="cont17" value="Player Clip"/>
   <key name="cont18" value="Monster Clip" />
   <key name="cont19" value="Current 0" />

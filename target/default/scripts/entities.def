@@ -1094,6 +1094,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  caustics : Global caustics effects scale, a single positive scalar value (default 1)
  contrast : Global light contrast, a single positive scalar value (e.g. 1.17).
  ctf : Enables CTF play (enabled = 1, auto-balance = 2).
+ face_intensity : Global face light intensity as a positive scalar value (default 1).
  fog_color : Global fog color, as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
  fog_density : Global fog density, a single positive scalar value (default 0).
  fog_depth_range : Global fog depth range, in world units (default "128 2048").
@@ -1103,13 +1104,11 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  gravity : Gravity for the level (default 800).
  hook : Enables the grappling hook (unset for gameplay default, 0 = disabled, 1 = enabled)."
  indirect_intensity : Global indirect light intensity as a positive scalar value (default 1).
- light_intensity : Global point light intensity as a positive scalar value (default 1).
- luxel_size : Lightmap pixel size in world units (default 4).
+ point_intensity : Global point light intensity as a positive scalar value (default 1).
  match : Enables match play (round-based elimination with warmup) (enabled = 1).
  message : The map title.
  num_teams : Enforces number of teams (disabled = -1, must be between 2 and 4)
  patch_intensity : Global patch light intensity as a positive scalar value (default 1).
- patch_size : Surface light patch size in world units (default 64).
  phong : The Phong shading threshold for this model, in degrees (default 60).
  roundlimit : The round limit (default 20).
  saturation : Global light saturation, a single positive scalar value (e.g. 0.9).

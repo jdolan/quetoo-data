@@ -1,7 +1,3 @@
-textures/common/occlude
-{
-	qer_trans 0.40
-}
 textures/common/caulk
 {
 	qer_trans 0.40
