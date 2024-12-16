@@ -1088,13 +1088,8 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------
  ambient : The ambient light level (e.g. 0.14 0.11 0.12).
- ambient_intensity : Global ambient light intensity as a positive scalar value (default 1).
- brightness : Global light scale, a single positive scalar value (e.g. 1.125).
  capturelimit : The capture limit (default 8).
- caustic_intensity : Global caustic light intensity as a positive scalar value (default 1).
- contrast : Global light contrast, a single positive scalar value (e.g. 1.17).
  ctf : Enables CTF play (enabled = 1, auto-balance = 2).
- face_intensity : Global face light intensity as a positive scalar value (default 1).
  fog_color : Global fog color, as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
  fog_density : Global fog density, a single positive scalar value (default 0).
  fog_depth_range : Global fog depth range, in world units (default "128 2048").
@@ -1103,18 +1098,13 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  give : A comma-delimited item string to give each player on spawn.
  gravity : Gravity for the level (default 800).
  hook : Enables the grappling hook (unset for gameplay default, 0 = disabled, 1 = enabled)."
- indirect_intensity : Global indirect light intensity as a positive scalar value (default 1).
- point_intensity : Global point light intensity as a positive scalar value (default 1).
  match : Enables match play (round-based elimination with warmup) (enabled = 1).
  message : The map title.
  num_teams : Enforces number of teams (disabled = -1, must be between 2 and 4)
- patch_intensity : Global patch light intensity as a positive scalar value (default 1).
  phong : The Phong shading threshold for this model, in degrees (default 60).
  roundlimit : The round limit (default 20).
  saturation : Global light saturation, a single positive scalar value (e.g. 0.9).
  sky : The sky environment map (default unit1_).
- spot_intensity : Global spot light intensity as a positive scalar value (default 1).
- sun_intensity : Global sun light intensity as a positive scalar value (default 1).
  teams : Enables and enforces teams play (enabled = 1, auto-balance = 2).
  timelimit : The time limit in minutes (default 20).
  weather : Weather effects, one of "none, rain, snow."
