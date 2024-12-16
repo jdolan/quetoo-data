@@ -1,0 +1,408 @@
+{
+	material common/caulk
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material common/clip
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material common/nodraw
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material common/sky
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 4.5
+}
+{
+	material rygel/#lava1
+	roughness 0
+	hardness 0
+	specularity 0
+	bloom 8
+	contents "lava"
+	surface "light liquid"
+	light.radius 100
+	light.intensity 1
+	{
+		texture rygel/#lava1
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s 0.02
+		warp 0.125 0.25
+	}
+	{
+		texture rygel/#lava1
+		blend GL_ONE GL_ONE
+		scroll.t 0.04
+		warp 0.25 0.5
+	}
+}
+{
+	material rygel/#teleport
+	roughness 0
+	hardness 0
+	specularity 0
+	bloom 1
+	contents "mist"
+	surface "light liquid"
+	light.radius 75
+	light.intensity 1
+	{
+		texture rygel/#teleport
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s 0.02
+		warp 0.125 0.25
+	}
+	{
+		texture rygel/#teleport
+		blend GL_ONE GL_ONE
+		scroll.t 0.04
+		warp 0.25 0.5
+	}
+}
+{
+	material rygel/+0butn
+	normalmap rygel/+0btn_norm
+	specularmap rygel/+0btn_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/+0light01
+	normalmap rygel/+0light01_norm
+	specularmap rygel/0light01_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1.5
+	contents "detail"
+	surface "light"
+	{
+		texture rygel/anims/light01_0
+		blend GL_SRC_ALPHA GL_ONE
+		anim 4 8
+		lightmap
+	}
+}
+{
+	material rygel/cop1_1
+	normalmap rygel/cop1_1_norm
+	specularmap rygel/cop1_1_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/cop1_2
+	normalmap rygel/cop1_2_norm
+	specularmap rygel/cop1_2_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/cop1_6
+	normalmap rygel/cop1_6_norm
+	specularmap rygel/cop1_6_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/cop3_4
+	normalmap rygel/cop3_4_norm
+	specularmap rygel/cop3_4_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/dr07_1
+	normalmap rygel/dr07_1_norm
+	specularmap rygel/dr07_1_gloss
+	roughness 1.5
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/lgmetal
+	normalmap rygel/lgmetal_norm
+	specularmap rygel/lgmetal_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/light1_2
+	normalmap rygel/light1_2_norm
+	specularmap rygel/light1_2_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 4
+	contents "detail"
+	surface "light"
+	light.radius 350
+	light.intensity 0.75
+	{
+		texture rygel/light1_2_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_2
+	}
+}
+{
+	material rygel/light1_8
+	normalmap rygel/light1_8_norm
+	specularmap rygel/light1_8_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 4
+	contents "detail"
+	surface "light"
+	light.radius 550
+	light.intensity 0.75
+	{
+		texture rygel/light1_8_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_2
+	}
+}
+{
+	material rygel/light3_8
+	normalmap rygel/light3_8_norm
+	specularmap rygel/light3_8_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 4
+	contents "detail"
+	surface "light"
+	light.radius 300
+	light.intensity 0.75
+	{
+		texture rygel/light3_8_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_2
+	}
+}
+{
+	material rygel/met5_1
+	normalmap rygel/met5_1_norm
+	specularmap rygel/met5_1_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/met5_2
+	normalmap rygel/met5_2_norm
+	specularmap rygel/met5_2_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/metal1_2
+	normalmap rygel/metal1_2_norm
+	specularmap rygel/metal1_2_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/metal1_4
+	normalmap rygel/metal1_4_norm
+	specularmap rygel/metal1_4_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/metal2_2
+	normalmap rygel/metal2_2_norm
+	specularmap rygel/metal2_2_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/metal4_2
+	normalmap rygel/metal4_2_norm
+	specularmap rygel/metal4_2_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/metal4_3
+	normalmap rygel/metal4_3_norm
+	specularmap rygel/metal4_3_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/metal4_4
+	normalmap rygel/metal4_4_norm
+	specularmap rygel/metal4_4_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/metal4_5
+	normalmap rygel/metal4_5_norm
+	specularmap rygel/metal4_5_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/metal4_8
+	normalmap rygel/metal4_8_norm
+	specularmap rygel/metal4_8_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/metal5_1
+	normalmap rygel/metal5_1_norm
+	specularmap rygel/metal5_1_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/metal5_2
+	normalmap rygel/metal5_2_norm
+	specularmap rygel/metal5_2_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/metal5_8
+	normalmap rygel/metal5_8_norm
+	specularmap rygel/metal5_8_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/metal6_1
+	normalmap rygel/metal6_1_norm
+	specularmap rygel/metal6_1_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/metal6_2
+	normalmap rygel/metal6_2_norm
+	specularmap rygel/metal6_2_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/metal6_3
+	normalmap rygel/metal6_3_norm
+	specularmap rygel/metal6_3_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1.5
+	contents "detail"
+	surface "light"
+	light.radius 100
+	light.intensity 0.75
+	{
+		texture rygel/metal6_3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/metal6_4
+	normalmap rygel/metal6_4_norm
+	specularmap rygel/metal6_4_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	bloom 1
+}
+{
+	material rygel/mmetal1_2
+	normalmap rygel/metal1_2_norm
+	specularmap rygel/metal1_2_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/nmetal2_1
+	normalmap rygel/nmetal2_1_norm
+	specularmap rygel/nmetal2_1_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
+{
+	material rygel/plat_top1
+	normalmap rygel/plat_top1_norm
+	specularmap rygel/plat_top1_gloss
+	roughness 2
+	hardness 2
+	specularity 1.5
+	bloom 1
+}
