@@ -49,7 +49,7 @@
 	{
 		texture sandbox/water
 		warp 1 1
-		lightmap
+		color 1 1 1 .5
 	}
 }
 

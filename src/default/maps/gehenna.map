@@ -1,7 +1,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"brightness" "0.85"
+"brightness" "2.4"
 "sky" "gehenna"
 "message" "^1G^7ehenna by ^1J^7ester & panjoo"
 "ambient" ".12 .09 .08"
@@ -9788,7 +9788,7 @@
 ( -548 -332 -88 ) ( -552 -336 -88 ) ( -540 -336 24 ) gehenna/cretebase_01_d -128 0 0 0.500000 0.500000 134217728 0 0
 ( -552 -288 -88 ) ( -548 -292 -88 ) ( -536 -292 24 ) gehenna/cretebase_01_d -128 0 0 0.500000 0.500000 134217728 0 0
 ( -596 -288 -88 ) ( -552 -288 -88 ) ( -540 -288 24 ) gehenna/cretebase_01_d 448 0 0 0.500000 0.500000 134217728 0 0
-( -548 -300 -88 ) ( -548 -324 -88 ) ( -536 -324 24 ) gehenna/light4 201 -90 90 0.437500 0.312500 134217728 0 100
+( -548 -300 -88 ) ( -548 -324 -88 ) ( -536 -324 24 ) gehenna/light4 201 -90 90 0.437500 0.312500 134217728 0 200
 ( -552 -336 -88 ) ( -596 -336 -88 ) ( -584 -336 24 ) gehenna/cretebase_01_d 448 0 0 0.500000 0.500000 134217728 0 0
 }
 // brush 1079
@@ -9799,7 +9799,7 @@
 ( -548 36 -88 ) ( -552 32 -88 ) ( -540 32 24 ) gehenna/cretebase_01_d 384 0 0 0.500000 0.500000 134217728 0 0
 ( -552 80 -88 ) ( -548 76 -88 ) ( -536 76 24 ) gehenna/cretebase_01_d 384 0 0 0.500000 0.500000 134217728 0 0
 ( -596 80 -88 ) ( -552 80 -88 ) ( -540 80 24 ) gehenna/cretebase_01_d 448 0 0 0.500000 0.500000 134217728 0 0
-( -548 68 -88 ) ( -548 44 -88 ) ( -536 44 24 ) gehenna/light4 201 13 90 0.437500 0.312500 134217728 0 100
+( -548 68 -88 ) ( -548 44 -88 ) ( -536 44 24 ) gehenna/light4 201 13 90 0.437500 0.312500 134217728 0 200
 ( -552 32 -88 ) ( -596 32 -88 ) ( -584 32 24 ) gehenna/cretebase_01_d 448 0 0 0.500000 0.500000 134217728 0 0
 }
 // brush 1080
@@ -28755,14 +28755,14 @@
 ( 560 -352 256 ) ( 560 -368 256 ) ( 560 -328 128 ) gehenna/glue1_d -64 0 0 1.000000 1.000000 134217728 0 0
 ( 632 -368 256 ) ( 520 -368 256 ) ( 520 -328 128 ) common/caulk 32 0 0 1.000000 1.000000 134217728 0 0
 ( 592 -368 256 ) ( 592 -352 256 ) ( 592 -312 128 ) gehenna/glue1_d -64 0 0 1.000000 1.000000 134217728 0 0
-( 520 -376 256 ) ( 632 -376 256 ) ( 632 -336 128 ) gehenna/light4 32 64 90 0.500000 0.250000 134217728 2048 0
+( 520 -376 256 ) ( 632 -376 256 ) ( 632 -336 128 ) gehenna/light4 32 64 90 0.500000 0.250000 134217728 2049 0
 ( 520 -368 240 ) ( 520 -352 240 ) ( 632 -352 240 ) gehenna/glue1_d 0 0 0 0.500000 0.500000 134217728 0 0
 ( 632 -312 128 ) ( 520 -312 128 ) ( 520 -328 128 ) common/caulk 32 0 0 1.000000 1.000000 134217728 0 0
 }
 // brush 3045
 {
 ( 560 -332 128 ) ( 560 -328 128 ) ( 560 -332 240 ) gehenna/glue1_d 0 0 0 0.500000 0.500000 134217728 0 0
-( 560 -336 128 ) ( 560 -336 240 ) ( 592 -336 128 ) gehenna/light4 62 64 90 0.500000 0.250000 134217728 2048 0
+( 560 -336 128 ) ( 560 -336 240 ) ( 592 -336 128 ) gehenna/light4 62 64 90 0.500000 0.250000 134217728 2049 0
 ( 560 -332 96 ) ( 592 -332 96 ) ( 560 -328 96 ) gehenna/glue1_d 0 0 0 0.500000 0.500000 134217728 0 0
 ( 592 -328 240 ) ( 592 -328 128 ) ( 592 -332 240 ) gehenna/glue1_d 0 0 0 0.500000 0.500000 134217728 0 0
 ( 592 -328 240 ) ( 560 -328 240 ) ( 592 -328 128 ) common/caulk 0 0 0 0.500000 0.500000 134217728 0 0
@@ -34555,28 +34555,13 @@
 }
 // entity 129
 {
-"_size" "1024"
-"_color" "1.0 0.8 0.75"
-"light" "45"
-"target" "sun1"
-"origin" "-384 -96 696"
-"classname" "light_sun"
-}
-// entity 130
-{
-"targetname" "sun1"
-"origin" "-432 -120 528"
-"classname" "info_null"
-}
-// entity 131
-{
 "_size" "48"
 "light" "240"
 "_color" "0.9 0.8 0.3"
 "origin" "256 648 80"
 "classname" "light"
 }
-// entity 132
+// entity 130
 {
 "classname" "light"
 "origin" "-968 -556 12"
@@ -34584,7 +34569,7 @@
 "light" "240"
 "_size" "48"
 }
-// entity 133
+// entity 131
 {
 "_size" "48"
 "light" "240"
@@ -34592,43 +34577,43 @@
 "origin" "576 -456 -112"
 "classname" "light"
 }
-// entity 134
+// entity 132
 {
 "speed" "350"
 "origin" "416 -800 112"
 "classname" "misc_fireball"
 }
-// entity 135
+// entity 133
 {
 "classname" "misc_fireball"
 "origin" "-288 1184 32"
 "speed" "500"
 }
-// entity 136
+// entity 134
 {
 "speed" "500"
 "origin" "-160 1088 32"
 "classname" "misc_fireball"
 }
-// entity 137
+// entity 135
 {
 "speed" "350"
 "origin" "-272 -608 -144"
 "classname" "misc_fireball"
 }
-// entity 138
+// entity 136
 {
 "classname" "misc_fireball"
 "origin" "-832 -1168 -144"
 "speed" "350"
 }
-// entity 139
+// entity 137
 {
 "speed" "350"
 "origin" "-672 -944 -144"
 "classname" "misc_fireball"
 }
-// entity 140
+// entity 138
 {
 "velocity" "0 0 4"
 "_size" "1.5"
@@ -34663,98 +34648,98 @@
 ( 496 -352 192 ) ( 496 -496 192 ) ( 496 -496 64 ) common/dust 0 0 0 0.500000 0.500000 
 }
 }
-// entity 141
+// entity 139
 {
 "size" "32"
 "target" "steam1"
 "origin" "-80 48 548"
 "classname" "misc_steam"
 }
-// entity 142
+// entity 140
 {
 "targetname" "steam1"
 "origin" "-92 -44 508"
 "classname" "info_null"
 }
-// entity 143
+// entity 141
 {
+"angle" "-2"
 "light" "500"
-"_angle" "-2"
 "origin" "-736 -256 452"
 "classname" "light_spot"
 }
-// entity 144
+// entity 142
 {
+"angle" "-2"
 "classname" "light_spot"
 "origin" "-736 0 452"
-"_angle" "-2"
+"light" "500"
+}
+// entity 143
+{
+"angle" "-2"
+"classname" "light_spot"
+"origin" "-64 -192 580"
+"light" "500"
+}
+// entity 144
+{
+"angle" "-2"
+"_cone" "45"
+"classname" "light_spot"
+"origin" "-352 176 580"
 "light" "500"
 }
 // entity 145
 {
+"angle" "-2"
 "classname" "light_spot"
-"origin" "-64 -192 580"
-"_angle" "-2"
-"light" "500"
+"origin" "-968 -556 452"
+"light" "400"
 }
 // entity 146
 {
-"_cone" "45"
-"classname" "light_spot"
-"origin" "-352 176 580"
-"_angle" "-2"
+"angle" "-2"
 "light" "500"
+"origin" "448 -96 580"
+"classname" "light_spot"
 }
 // entity 147
 {
+"angle" "-2"
 "classname" "light_spot"
-"origin" "-968 -556 452"
-"_angle" "-2"
-"light" "400"
+"origin" "768 -320 580"
+"light" "500"
 }
 // entity 148
 {
+"angle" "-2"
 "light" "500"
-"_angle" "-2"
-"origin" "448 -96 580"
+"origin" "864 -576 580"
 "classname" "light_spot"
 }
 // entity 149
 {
-"classname" "light_spot"
-"origin" "768 -320 580"
-"_angle" "-2"
+"angle" "-2"
 "light" "500"
-}
-// entity 150
-{
-"light" "500"
-"_angle" "-2"
-"origin" "864 -576 580"
-"classname" "light_spot"
-}
-// entity 151
-{
-"light" "500"
-"_angle" "-2"
 "origin" "864 -832 580"
 "classname" "light_spot"
 }
-// entity 152
+// entity 150
 {
+"angle" "-2"
 "classname" "light_spot"
 "origin" "824 408 564"
-"_angle" "-2"
 "light" "400"
 }
-// entity 153
+// entity 151
 {
+"angle" "-2"
 "classname" "light_spot"
 "origin" "-264 -548 508"
-"_angle" "-2"
 "light" "500"
 }
-// entity 154
+// entity 152
 {
 "velocity" "0 0 4"
 "_color" "0 0 1 .7"
@@ -34774,7 +34759,7 @@
 ( 232 600 304 ) ( 232 600 64 ) ( 200 616 64 ) common/dust 0 0 0 0.500000 0.500000 
 }
 }
-// entity 155
+// entity 153
 {
 "velocity" "0 0 4"
 "classname" "misc_dust"
@@ -34794,7 +34779,7 @@
 ( -448 272 -64 ) ( -256 272 -64 ) ( -256 384 -64 ) common/dust 0 31 -179 0.500000 0.500000 
 }
 }
-// entity 156
+// entity 154
 {
 "velocity" "0 0 4"
 "_size" "1.5"
@@ -34812,26 +34797,26 @@
 ( -933 -627 -64 ) ( -933 -627 304 ) ( -882 -576 304 ) common/dust 0 0 0 0.500000 0.500000 
 }
 }
-// entity 157
+// entity 155
 {
+"angle" "-2"
 "light" "500"
-"_angle" "-2"
 "origin" "-64 32 580"
 "classname" "light_spot"
 }
-// entity 158
+// entity 156
 {
 "sound" "gehenna/lava_flow"
 "origin" "-640 864 0"
 "classname" "misc_sound"
 }
-// entity 159
+// entity 157
 {
 "sound" "gehenna/lava_flow"
 "origin" "-768 736 0"
 "classname" "misc_sound"
 }
-// entity 160
+// entity 158
 {
 "intensity" ".03"
 "classname" "misc_light"
@@ -34840,7 +34825,7 @@
 "_color" "0.9 0.8 0.3"
 "style" "fkoswwsokf"
 }
-// entity 161
+// entity 159
 {
 "classname" "light"
 "origin" "-352 328 -88"
@@ -34848,7 +34833,7 @@
 "light" "300"
 "_size" "48"
 }
-// entity 162
+// entity 160
 {
 "intensity" ".03"
 "style" "fkoswwsokf"
@@ -34857,7 +34842,7 @@
 "origin" "256 648 96"
 "classname" "misc_light"
 }
-// entity 163
+// entity 161
 {
 "intensity" ".03"
 "style" "fkoswwsokf"
@@ -34866,7 +34851,7 @@
 "origin" "576 -456 -96"
 "classname" "misc_light"
 }
-// entity 164
+// entity 162
 {
 "intensity" ".03"
 "style" "fkoswwsokf"
@@ -34875,360 +34860,330 @@
 "origin" "-968 -556 28"
 "classname" "misc_light"
 }
-// entity 165
+// entity 163
 {
 "size" "32"
 "classname" "misc_steam"
 "origin" "-1168 -552 68"
 "target" "t76"
 }
-// entity 166
+// entity 164
 {
 "classname" "info_null"
 "origin" "-1092 -628 68"
 "targetname" "t76"
 }
-// entity 167
+// entity 165
 {
 "size" "32"
 "target" "t77"
 "origin" "-1168 -552 28"
 "classname" "misc_steam"
 }
-// entity 168
+// entity 166
 {
 "targetname" "t77"
 "origin" "-1092 -628 28"
 "classname" "info_null"
 }
-// entity 169
+// entity 167
 {
 "size" "32"
 "target" "t78"
 "origin" "-1200 -584 68"
 "classname" "misc_steam"
 }
-// entity 170
+// entity 168
 {
 "targetname" "t78"
 "origin" "-1124 -660 68"
 "classname" "info_null"
 }
-// entity 171
+// entity 169
 {
 "size" "32"
 "classname" "misc_steam"
 "origin" "-1200 -584 28"
 "target" "t79"
 }
-// entity 172
+// entity 170
 {
 "classname" "info_null"
 "origin" "-1124 -660 28"
 "targetname" "t79"
 }
-// entity 173
+// entity 171
 {
 "size" "32"
 "target" "t80"
 "origin" "-1232 -616 68"
 "classname" "misc_steam"
 }
-// entity 174
+// entity 172
 {
 "targetname" "t80"
 "origin" "-1156 -692 68"
 "classname" "info_null"
 }
-// entity 175
+// entity 173
 {
 "size" "32"
 "classname" "misc_steam"
 "origin" "-1232 -616 28"
 "target" "t81"
 }
-// entity 176
+// entity 174
 {
 "classname" "info_null"
 "origin" "-1156 -692 28"
 "targetname" "t81"
 }
-// entity 177
+// entity 175
 {
 "target" "t82"
 "origin" "-1264 -1092 68"
 "classname" "misc_steam"
 "size" "32"
 }
-// entity 178
+// entity 176
 {
 "targetname" "t82"
 "origin" "-1264 -988 68"
 "classname" "info_null"
 }
-// entity 179
+// entity 177
 {
 "classname" "misc_steam"
 "origin" "-1264 -1092 28"
 "target" "t83"
 "size" "32"
 }
-// entity 180
+// entity 178
 {
 "classname" "info_null"
 "origin" "-1264 -988 28"
 "targetname" "t83"
 }
-// entity 181
+// entity 179
 {
 "classname" "misc_steam"
 "origin" "-1236 -1108 68"
 "target" "t84"
 "size" "32"
 }
-// entity 182
+// entity 180
 {
 "classname" "info_null"
 "origin" "-1160 -1032 68"
 "targetname" "t84"
 }
-// entity 183
+// entity 181
 {
 "target" "t85"
 "origin" "-1236 -1108 28"
 "classname" "misc_steam"
 "size" "32"
 }
-// entity 184
+// entity 182
 {
 "targetname" "t85"
 "origin" "-1160 -1032 28"
 "classname" "info_null"
 }
-// entity 185
+// entity 183
 {
 "classname" "misc_steam"
 "origin" "-1204 -1140 68"
 "target" "t86"
 "size" "32"
 }
-// entity 186
+// entity 184
 {
 "classname" "info_null"
 "origin" "-1128 -1064 68"
 "targetname" "t86"
 }
-// entity 187
+// entity 185
 {
 "target" "t87"
 "origin" "-1204 -1140 28"
 "classname" "misc_steam"
 "size" "32"
 }
-// entity 188
+// entity 186
 {
 "targetname" "t87"
 "origin" "-1128 -1064 28"
 "classname" "info_null"
 }
-// entity 189
+// entity 187
 {
 "size" "32"
 "classname" "misc_steam"
 "origin" "-1188 -1168 68"
 "target" "t88"
 }
-// entity 190
+// entity 188
 {
 "classname" "info_null"
 "origin" "-1084 -1168 68"
 "targetname" "t88"
 }
-// entity 191
+// entity 189
 {
 "size" "32"
 "target" "t89"
 "origin" "-1188 -1168 28"
 "classname" "misc_steam"
 }
-// entity 192
+// entity 190
 {
 "targetname" "t89"
 "origin" "-1084 -1168 28"
 "classname" "info_null"
 }
-// entity 193
+// entity 191
 {
 "size" "32"
 "classname" "misc_steam"
 "origin" "-348 -1168 -60"
 "target" "t90"
 }
-// entity 194
+// entity 192
 {
 "classname" "info_null"
 "origin" "-452 -1168 -60"
 "targetname" "t90"
 }
-// entity 195
+// entity 193
 {
 "size" "32"
 "target" "t91"
 "origin" "-348 -1168 -100"
 "classname" "misc_steam"
 }
-// entity 196
+// entity 194
 {
 "targetname" "t91"
 "origin" "-452 -1168 -100"
 "classname" "info_null"
 }
-// entity 197
+// entity 195
 {
 "size" "32"
 "target" "t92"
 "origin" "-336 -1140 -60"
 "classname" "misc_steam"
 }
-// entity 198
+// entity 196
 {
 "targetname" "t92"
 "origin" "-412 -1064 -60"
 "classname" "info_null"
 }
-// entity 199
+// entity 197
 {
 "size" "32"
 "classname" "misc_steam"
 "origin" "-336 -1140 -100"
 "target" "t93"
 }
-// entity 200
+// entity 198
 {
 "classname" "info_null"
 "origin" "-412 -1064 -100"
 "targetname" "t93"
 }
-// entity 201
+// entity 199
 {
 "size" "32"
 "target" "t94"
 "origin" "-304 -1108 -60"
 "classname" "misc_steam"
 }
-// entity 202
+// entity 200
 {
 "targetname" "t94"
 "origin" "-380 -1032 -60"
 "classname" "info_null"
 }
-// entity 203
+// entity 201
 {
 "size" "32"
 "classname" "misc_steam"
 "origin" "-304 -1108 -100"
 "target" "t95"
 }
-// entity 204
+// entity 202
 {
 "classname" "info_null"
 "origin" "-380 -1032 -100"
 "targetname" "t95"
 }
-// entity 205
+// entity 203
 {
 "target" "t96"
 "origin" "-272 -1092 -60"
 "classname" "misc_steam"
 "size" "32"
 }
-// entity 206
+// entity 204
 {
 "targetname" "t96"
 "origin" "-272 -988 -60"
 "classname" "info_null"
 }
-// entity 207
+// entity 205
 {
 "classname" "misc_steam"
 "origin" "-272 -1092 -100"
 "target" "t97"
 "size" "32"
 }
-// entity 208
+// entity 206
 {
 "classname" "info_null"
 "origin" "-272 -988 -100"
 "targetname" "t97"
 }
-// entity 209
+// entity 207
 {
 "size" "32"
 "classname" "misc_steam"
 "origin" "-1264 -636 68"
 "target" "t98"
 }
-// entity 210
+// entity 208
 {
 "classname" "info_null"
 "origin" "-1264 -740 68"
 "targetname" "t98"
 }
-// entity 211
+// entity 209
 {
 "size" "32"
 "target" "t99"
 "origin" "-1264 -636 28"
 "classname" "misc_steam"
 }
-// entity 212
+// entity 210
 {
 "targetname" "t99"
 "origin" "-1264 -740 28"
 "classname" "info_null"
 }
-// entity 213
+// entity 211
 {
 "classname" "light_sun"
 "origin" "-384 -80 696"
 "target" "t100"
-"light" "45"
-"_color" "1.0 0.8 0.75"
-"_size" "1024"
+"light" "90"
+"_color" "1.0 0.7 0.65"
+"_size" "64"
 }
-// entity 214
+// entity 212
 {
 "classname" "info_null"
-"origin" "-424 -32 528"
+"origin" "-392 -80 528"
 "targetname" "t100"
-}
-// entity 215
-{
-"classname" "light_sun"
-"origin" "-368 -96 696"
-"target" "t101"
-"light" "45"
-"_color" "1.0 0.8 0.75"
-"_size" "1024"
-}
-// entity 216
-{
-"classname" "info_null"
-"origin" "-320 -128 528"
-"targetname" "t101"
-}
-// entity 217
-{
-"classname" "light_sun"
-"origin" "-368 -80 696"
-"target" "t102"
-"light" "45"
-"_color" "1.0 0.8 0.75"
-"_size" "1024"
-}
-// entity 218
-{
-"classname" "info_null"
-"origin" "-352 -32 528"
-"targetname" "t102"
 }

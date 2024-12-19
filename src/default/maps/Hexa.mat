@@ -1,0 +1,221 @@
+{
+	material sandbox/quetoologo
+	normalmap sandbox/quetoologo_nm
+
+	surface "blend_66"
+}
+{
+	material skies912/water1
+	{
+		texture sandbox/water_fx
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s -0.02
+		scale.s 1.25
+		scale.t 1.25
+		warp 0.3 0.3
+	}
+	{
+		texture sandbox/water_fx
+		blend GL_SRC_ALPHA GL_ONE
+		scale.s 1
+		scale.t 1
+		warp 0.4 0.4
+	}
+}
+{
+	material aerowalk/core1_1
+	normalmap aerowalk/core1_1_nm
+	roughness 1
+	hardness 2.5
+	specularity 1.7
+	bloom 2.2
+	{
+		texture aerowalk/core1_1scroll
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.t -0.05
+	}
+}
+{
+	material aerowalk/prwlt1_4light
+	normalmap aerowalk/prwlt1_4light_nm
+	
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+		
+	bloom 3.0
+	surface "light"
+	light.radius 150
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture aerowalk/prwlt1_4light_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material aerowalk/lightstrips32
+	normalmap aerowalk/lightstrips32_nm
+	
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+		
+	bloom 3.0
+	surface "light"
+	light.radius 100
+	light.color 0.13 0.24 0.88 1
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture aerowalk/lightstrips32_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material turbo/baseltwhite_c
+	normalmap turbo/baseltwhite_c_nm
+	
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+		
+	bloom 1.5
+	surface "light"
+	light.radius 200
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture turbo/baseltwhite_cfx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material gehenna/light2a
+	normalmap gehenna/light2a_nm
+	
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+		
+	bloom 1.5
+	surface "light"
+	light.radius 375
+	light.intensity 0.5
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture gehenna/light2a_fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material fractures/light3_1
+	normalmap fractures/light3_1_nm
+	
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+		
+	bloom 1.5
+	surface "light"
+	light.radius 250
+	light.intensity 0.5
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture fractures/light3_1_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material fractures/light4_1
+	normalmap fractures/light4_1_nm
+	
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+		
+	bloom 1.5
+	surface "light"
+	light.radius 225
+	light.intensity 0.5
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture fractures/light4_1_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material fractures/light4_2
+	normalmap fractures/light4_2_nm
+	
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+		
+	bloom 1.5
+	surface "light"
+	light.radius 75
+	light.intensity 0.5
+	light.color 0.40 0.48 0.88 1
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture fractures/light4_2_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material gehenna/glass2
+	
+	roughness 1
+	hardness 2.0
+	specularity 3.0
+	
+	bloom 2.0
+	light.radius 300
+	light.intensity 0.1
+	{
+		texture gehenna/plasma
+		scroll.s 1
+	}
+	{
+		texture gehenna/plasma2
+		scroll.s -1
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_2
+	}
+}
