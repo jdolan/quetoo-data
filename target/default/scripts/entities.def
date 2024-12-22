@@ -1092,7 +1092,6 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  ctf : Enables CTF play (enabled = 1, auto-balance = 2).
  fog_color : Global fog color, as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
  fog_density : Global fog density, a single positive scalar value (default 0).
- fog_depth_range : Global fog depth range, in world units (default "128 2048").
  fraglimit : The frag limit (default 20).
  gameplay : The gameplay mode, one of "deathmatch, instagib, arena."
  give : A comma-delimited item string to give each player on spawn.
@@ -1103,7 +1102,6 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  num_teams : Enforces number of teams (disabled = -1, must be between 2 and 4)
  phong : The Phong shading threshold for this model, in degrees (default 60).
  roundlimit : The round limit (default 20).
- saturation : Global light saturation, a single positive scalar value (e.g. 0.9).
  sky : The sky environment map (default unit1_).
  teams : Enables and enforces teams play (enabled = 1, auto-balance = 2).
  timelimit : The time limit in minutes (default 20).
