@@ -510,7 +510,6 @@
 	]
 	fog_color(string) : "Global fog color, as 3 decimal values from 0.0 - 1.0" : "0 0 0"
 	fog_density(float) : "Global fog density, a single positive scalar value" : "0"
-	fog_depth_range(string) : "Global fog depth range, in world units" : "128 2048"
 	gravity(integer) : "Gravity" : 800
 	gameplay(choices) : "Weather effects" : "deathmatch" =
 	[
