@@ -686,9 +686,7 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 
  -------- Keys --------
  _color : The light color (default 1.0 1.0 1.0).
- drift : The factor of randomized drift applied to the emission rate.
- hz : The emission rate, in events-per-second (default 0).
- intensity : The light intensity (default 1).
+ _intensity : The light intensity (default 1).
  light : The radius of the light in units (default 300).
  style : The light style, a string of characters a-z that modulate the light intensity over time (default 'zzz').
 */

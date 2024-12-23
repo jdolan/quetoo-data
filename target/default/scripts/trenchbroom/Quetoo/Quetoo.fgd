@@ -309,6 +309,14 @@
 	offset(string) : "An offset added to the noise calculation" : "0 0 0"
 ]
 
+@PointClass color(255 120 20) size(-16 -16 -16, 16 16 16) = misc_light : "Client-side emission of styled dynamic lights. Light styles are specified as a string of characters, a-z. Each character defines a frame of animation, and each frame is 100ms long. For switchable lights, use target_light."
+[
+	_color(string) : "Light color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
+	_intensity(float) : "Light intensity as a positive scalar value" : "1"
+	light(float) : "The light radius" : "300"
+	style(string) : "The light style, a string of characters a-z that modulate the light intensity over time" : "zzz"
+]
+
 @PointClass color(80 180 80) size(-16 -16 -16, 16 16 16) = misc_model : "Client-side emission of static models (non-interactive map objects). These are useful for placing trees, torches, and other non-brush scenery."
 [
 	angles(string) : "The angles of orientation for the model"
