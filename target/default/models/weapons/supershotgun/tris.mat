@@ -1,7 +1,9 @@
 {
-	material #models/weapons/supershotgun/skin
-	roughness 4.4898
-	hardness 5.38775
-	specularity 1.79592
-	bloom 2.36735
+	diffusemap #models/weapons/supershotgun/skin
+	roughness 3.59184
+	parallax 0.244898
+	hardness 6.12245
+	specularity 2.36735
+	parallax 0.244898
+	bloom 4.4898
 }

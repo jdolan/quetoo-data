@@ -1,7 +1,9 @@
 {
-	material #models/health/mega/skin
+	diffusemap #models/health/mega/skin
 	roughness 4.65306
+	parallax 1.95918
 	hardness 6.28571
 	specularity 2.69388
-	bloom 2.20408
+	parallax 1.95918
+	bloom 2.93878
 }

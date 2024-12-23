@@ -1,7 +1,9 @@
 {
-	material #models/weapons/machinegun/skin
+	diffusemap #models/weapons/machinegun/skin
 	roughness 4.08163
-	hardness 5.55102
-	specularity 2.04082
-	bloom 2.61224
+	parallax 0.0816327
+	hardness 8
+	specularity 2.93878
+	parallax 0.0816327
+	bloom 3.02041
 }

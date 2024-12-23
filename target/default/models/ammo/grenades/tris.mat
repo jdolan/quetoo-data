@@ -1,7 +1,9 @@
 {
-	material #models/ammo/grenades/skin
-	roughness 6.20408
-	hardness 4.2449
+	diffusemap #models/ammo/grenades/skin
+	roughness 0.979592
+	parallax 0.326531
+	hardness 5.38775
 	specularity 3.26531
-	bloom 1.30612
+	parallax 0.326531
+	bloom 3.02041
 }

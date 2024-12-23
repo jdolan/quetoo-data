@@ -1,9 +1,11 @@
 {
-	material #models/weapons/bfg/skin
+	diffusemap #models/weapons/bfg/skin
 	roughness 6.61225
-	hardness 3.83673
-	specularity 1.55102
-	bloom 4.08163
+	parallax 0.0816327
+	hardness 8
+	specularity 4.97959
+	parallax 0.0816327
+	bloom 3.34694
 	{
 		texture #models/weapons/bfg/skin_glow
 		blend GL_SRC_ALPHA GL_ONE

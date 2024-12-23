@@ -1,9 +1,13 @@
 {
-	material #models/weapons/lightning/skin
-	roughness 6.20408
-	hardness 5.46939
-	specularity 1.79592
+	diffusemap #models/weapons/lightning/skin
+	roughness 2.28571
+	parallax 0.0816327
+	hardness 7.26531
+	specularity 3.02041
+	parallax 0.0816327
 	bloom 3.5102
+	surface "alpha_test"
+	alpha_test 0.785714
 	{
 		texture #models/weapons/lightning/skin_glow
 		blend GL_SRC_ALPHA GL_ONE

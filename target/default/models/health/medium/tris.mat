@@ -1,7 +1,9 @@
 {
-	material #models/health/medium/skin
-	roughness 3.67347
+	diffusemap #models/health/medium/skin
+	roughness 4.2449
+	parallax 1.95918
 	hardness 6.28571
-	specularity 1.46939
-	bloom 1.14286
+	specularity 1.95918
+	parallax 1.95918
+	bloom 3.02041
 }
