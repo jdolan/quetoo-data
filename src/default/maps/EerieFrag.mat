@@ -1,0 +1,318 @@
+{
+	material rygel/basebutn3
+	normalmap rygel/basebutn3_norm
+	surface "light"
+	light.radius 64
+	{
+		texture rygel/basebutn3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		texture rygel/basebutn3_gloss
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material aghast/brown_water
+	roughness 1
+	hardness 0
+	specularity 1
+	parallax 1
+	surface "light"
+	light.radius 64
+	{
+		texture aghast/brown_water
+		blend GL_SRC_ALPHA GL_ONE
+		warp 0.5 0.5
+	}
+}
+{
+	material aghast/wswamp2_1
+	roughness 1.25
+	hardness 0.25
+	specularity 0.25
+	parallax 1
+}
+{
+	material common/sky	
+	bloom 2.5
+	light.radius 800
+	light.intensity 1.0
+	light.color 1 1 1
+}
+{
+	material darkzone/#teleport
+	normalmap darkzone/#teleport_norm
+	warp 0.5 0.5
+	surface "light"
+	light.radius 64
+	{
+		texture darkzone/#teleport_gloss
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 0.75
+		warp 1 1
+	}
+}
+{
+	material rygel/cop1_1
+	normalmap rygel/cop1_1_norm
+	surface "phong"
+}
+{
+	material rygel/cop1_2
+	normalmap rygel/cop1_2_norm
+	surface "phong"
+}
+{
+	material rygel/cop1_7
+	normalmap rygel/cop1_7_norm
+	surface "phong"
+}
+{
+	material rygel/cop1_8
+	normalmap rygel/cop1_8_norm
+	surface "phong"
+}
+{
+	material rygel/cop2_2
+	normalmap rygel/cop2_2_norm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	surface "phong"
+}
+{
+	material rygel/light1_2
+	normalmap rygel/light1_2_norm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+		
+	bloom 1.5
+	surface "light"
+	light.radius 64
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture rygel/light1_2_gloss
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		texture rygel/light1_2_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/light1_3
+	normalmap rygel/light1_3_norm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+		
+	bloom 1.5
+	surface "light"
+	light.radius 175
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture rygel/light1_3_gloss
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		texture rygel/light1_3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/light1_5
+	normalmap rygel/light1_5_norm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+		
+	bloom 1.5
+	surface "light"
+	light.radius 350
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture rygel/light1_5_gloss
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		texture rygel/light1_5_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/light3_3
+	normalmap rygel/light3_3_norm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	
+	bloom 1.5
+	surface "light"
+	light.radius 250
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture rygel/light3_3_gloss
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		texture rygel/light3_3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/light3_8
+	normalmap rygel/light3_8_norm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	
+	bloom 1.5
+	surface "light"
+	light.radius 375
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture rygel/light3_8_gloss
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		texture rygel/light3_8_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/lite_fart3
+	normalmap rygel/lite_fart3_norm
+	
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	
+	bloom 1.5
+	surface "light"
+	light.radius 375
+	{
+		texture rygel/lite_fart3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		texture rygel/lite_fart3_gloss
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+}
+{
+	material rygel/rune_a
+	normalmap rygel/rune_a_norm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	surface "light"
+	light 80
+	{
+		texture rygel/rune_a_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/tlight01_1
+	normalmap rygel/tlight01_1_norm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	surface "light"
+	light 64
+	{
+		texture rygel/tlight01_1_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/twall1_5
+	normalmap rygel/twall1_5_norm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	{
+		texture rygel/twall1_5_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/window01_4
+	normalmap rygel/window01_4_norm
+	
+	roughness 1
+	hardness 2
+	specularity 0.5
+	parallax 1
+	
+	bloom 3.0
+	
+	surface "light,blend_66"
+	light.radius 150
+	{
+		texture rygel/window01_4_gloss
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material turbo/padbase
+	normalmap turbo/padbase_nm
+	
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	
+	surface "light"
+	light.radius 80
+	{
+		texture turbo/padfx3
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		texture turbo/padfx-iris3
+		pulse 0.5
+	}
+	{
+		scale.s 0.5
+		scale.t 0.5
+		flare flare_2
+	}
+}
