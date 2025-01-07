@@ -1,357 +1,359 @@
 {
-	material common/black
+	diffusemap common/black
 	roughness 1
+	parallax 1
 	hardness 1
 	specularity 1
-	parallax 1
 	bloom 1
 }
 {
-	material common/caulk
+	diffusemap common/caulk
 	roughness 1
+	parallax 1
 	hardness 1
 	specularity 1
-	parallax 1
 	bloom 1
 }
 {
-	material common/clip
+	diffusemap common/clip
 	roughness 1
+	parallax 1
 	hardness 1
 	specularity 1
-	parallax 1
 	bloom 1
 }
 {
-	material common/fog
+	diffusemap common/fog
 	roughness 1
+	parallax 1
 	hardness 1
 	specularity 1
-	parallax 1
 	bloom 1
 }
 {
-	material common/ladder
+	diffusemap common/ladder
 	roughness 1
+	parallax 1
 	hardness 1
 	specularity 1
-	parallax 1
 	bloom 1
 }
 {
-	material common/sky
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-	bloom 1
-}
-{
-	material rage/bed4_1
-	roughness 2
-	hardness 4.6
-	specularity 6.2
-	parallax 2
-	bloom 1
-}
-{
-	material rage/ceil1_28
+	diffusemap common/quake2/ceil1_28
 	roughness 3
+	parallax 6
 	hardness 2
-	specularity 1.22449
-	parallax 2
-	bloom 1.38776
+	specularity 1.3
+	bloom 1.4
 	surface "light"
-	light 200
+	light.radius 200
 	{
-		texture rage/ceil1_28fx
+		texture common/quake2/ceil1_28fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
 		color 0.8 0.73 0.6 1
 		scale.s 0.75
-		scale.t 0.5
+		scale.t 0.75
 		flare flare_1
 	}
 }
 {
-	material rage/color1_2
-	roughness 2
-	hardness 2.5
-	specularity 1
-	parallax 0.5
-	bloom 1
-}
-{
-	material rage/e8bgrate256
-	roughness 0.2
-	hardness 3
-	specularity 1.2
-	parallax 0.3
-	bloom 1
-	surface "alpha_test"
-}
-{
-	material rage/eq2_banner
+	diffusemap common/sky
 	roughness 1
+	parallax 1
 	hardness 1
 	specularity 1
-	parallax 1
 	bloom 1
 }
 {
-	material rage/eq2_grate_01
-	roughness 1.30612
-	hardness 1.55102
-	specularity 0.653061
-	parallax 0.979592
+	diffusemap common/quake2/bed4_1
+	roughness 2
+	parallax 2
+	hardness 4.5
+	specularity 6.2
 	bloom 1
 }
 {
-	material rage/flr1_1b
-	roughness 0.979592
-	hardness 1.38776
-	specularity 1.46939
-	parallax 3.67347
+	diffusemap common/quake2/color1_2
+	roughness 2
+	parallax 0.5
+	hardness 2.5
+	specularity 1
 	bloom 1
 }
 {
-	material rage/fmet1_2
+	diffusemap common/quake2/e8bgrate256
+	roughness 0.2
+	parallax 0.3
+	hardness 3
+	specularity 1.2
+	bloom 1
+	surface "alpha_test blend_100"
+	contents "detail"
+}
+{
+	diffusemap common/quake2/eq2_banner
 	roughness 1
+	parallax 0.25
+	hardness 1
+	specularity 1
+	bloom 1
+	surface "blend_100"
+}
+{
+	diffusemap common/quake2/eq2_grate_01
+	roughness 1.25
+	parallax 1
+	hardness 1.5
+	specularity 0.65
+	bloom 1
+}
+{
+	diffusemap common/quake2/flr1_1b
+	roughness 1
+	parallax 1
+	hardness 1.256
+	specularity 1.5
+	bloom 1
+}
+{
+	diffusemap common/quake2/fmet1_2
+	roughness 1
+	parallax 0
 	hardness 2.5
 	specularity 2.4
-	parallax 0
 	bloom 1
 }
 {
-	material rage/fmetal4
-	roughness 1.55102
-	hardness 2.28571
-	specularity 0.979592
-	parallax 2.04082
+	diffusemap common/quake2/fmetal4
+	roughness 1.5
+	parallax 0.5
+	hardness 2.25
+	specularity 1
 	bloom 1
 }
 {
-	material rage/ggrat4_2
-	roughness 1.22449
-	hardness 0.979592
-	specularity 0.734694
-	parallax 0.979592
+	diffusemap common/quake2/ggrat4_2
+	roughness 1.25
+	parallax 1
+	hardness 1
+	specularity 0.75
 	bloom 1
 }
 {
-	material rage/ggrat4_2add
-	roughness 1.30612
+	diffusemap common/quake2/ggrat4_2add
+	roughness 1.25
+	parallax 0.5
 	hardness 1.5
 	specularity 1.5
-	parallax 0.979592
 	bloom 1
 }
 {
-	material rage/ggrat5_1
-	normalmap rage/ggrat4_2_nm
-	roughness 1.06122
-	hardness 1.14286
-	specularity 1.5
+	diffusemap common/quake2/ggrat5_1
+	normalmap common/quake2/ggrat4_2_nm
+	roughness 1
 	parallax 0.5
-	bloom 1
-}
-{
-	material rage/ggrat6_1
-	normalmap rage/ggrat4_2_nm
-	roughness 1.14286
-	hardness 0.979592
+	hardness 1
 	specularity 1.5
+	bloom 1
+}
+{
+	diffusemap common/quake2/ggrat6_1
+	normalmap common/quake2/ggrat4_2_nm
+	roughness 1
 	parallax 0.5
+	hardness 1
+	specularity 1.5
 	bloom 1
 }
 {
-	material rage/grate1
-	roughness 1.38776
-	hardness 1.63265
-	specularity 2.36735
-	parallax 1.79592
+	diffusemap common/quake2/grate1
+	roughness 1.25
+	parallax 0.75
+	hardness 1.5
+	specularity 2
 	bloom 1
 }
 {
-	material rage/grate2_2
-	roughness 1.79592
+	diffusemap common/quake2/grate2_2
+	roughness 1.8
+	parallax 1.25
 	hardness 2.4
 	specularity 1
-	parallax 1.30612
 	bloom 1
 }
 {
-	material rage/grate_red
-	roughness 0.979592
+	diffusemap common/quake2/grate_red
+	roughness 1
+	parallax 1
 	hardness 2
 	specularity 2
-	parallax 0.979592
 	bloom 1
 }
 {
-	material rage/liftgirder
+	diffusemap common/quake2/liftgirder
 	roughness 2
+	parallax 0.5
 	hardness 2
 	specularity 2
-	parallax 0.8
 	bloom 1
 }
 {
-	material rage/lightstrips32
+	diffusemap common/quake2/lightstrips32
 	roughness 1.4
+	parallax 0
 	hardness 1.5
 	specularity 1
-	parallax 0
-	bloom 4.4898
+	bloom 4.5
 	surface "light"
-	light 72
-	patch_size 8
+	light.radius 72
 	{
-		texture rage/lightstrips32_glow
+		texture common/quake2/lightstrips32_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 0.3
 	}
 }
 {
-	material rage/metal13_1
+	diffusemap common/quake2/metal13_1
 	roughness 1
+	parallax 0.5
 	hardness 2
 	specularity 1.3
-	parallax 0.5
 	bloom 1
 }
 {
-	material rage/metal14_1edge
-	roughness 1.46939
-	hardness 1.46939
-	specularity 0.326531
-	parallax 0
-	bloom 1
-}
-{
-	material rage/metal2_1
-	roughness 1.06122
-	hardness 1.46939
-	specularity 1.3
-	parallax 0.979592
-	bloom 1
-}
-{
-	material rage/metal2_1q
+	diffusemap common/quake2/metal2_1
 	roughness 1
-	hardness 1.30612
-	specularity 0.979592
-	parallax 0.979592
+	parallax 1
+	hardness 1.5
+	specularity 1.3
 	bloom 1
 }
 {
-	material rage/metal3_6
-	normalmap rage/metal3_6b_nm
+	diffusemap common/quake2/metal2_1q
+	roughness 1
+	parallax 0.5
+	hardness 1.4
+	specularity 1
+	bloom 1
+}
+{
+	diffusemap common/quake2/metal3_6
+	normalmap common/quake2/metal3_6b_nm
 	roughness 1.2
-	hardness 1.22449
+	parallax 0
+	hardness 1
 	specularity 1.2
-	parallax 0.979592
 	bloom 1
 }
 {
-	material rage/metal3_6b
+	diffusemap common/quake2/metal3_6b
 	roughness 1.2
+	parallax 0.5
 	hardness 3
 	specularity 1
-	parallax 0.6
 	bloom 1
 }
 {
-	material rage/metalbase2
-	roughness 1.63265
+	diffusemap common/quake2/metalbase2
+	roughness 1.5
+	parallax 1
 	hardness 1
 	specularity 1
-	parallax 0.979592
 	bloom 1
 }
 {
-	material rage/plite1_3
+	diffusemap common/quake2/metal4_1edge
+	roughness 1.5
+	parallax 1.5
+	hardness 1.25
+	specularity 1
+	bloom 1
+}
+{
+	diffusemap common/quake2/plite1_3
 	roughness 1.1
-	hardness 2.77551
-	specularity 1.63265
-	parallax 3.5102
-	bloom 1.87755
+	parallax 3.5
+	hardness 2.7
+	specularity 1.6
+	bloom 1.8
 	surface "light"
-	light 220
+	light.radius 220
 	{
-		texture rage/plite1_3fx
+		texture common/quake2/plite1_3glow
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
 		color 0.953 0.902 0.8118 1
 		scale.s 0.5
 		scale.t 0.5
-		flare flare_0
+		flare flare_2
 	}
 }
 {
-	material rage/sign1_2
+	diffusemap common/quake2/sign1_2
 	roughness 1.3
-	hardness 2
-	specularity 1
-	parallax 0.979592
-	bloom 1
-}
-{
-	material rage/slots1_6
-	roughness 0.653061
-	hardness 1.8
-	specularity 2.85714
 	parallax 1
-	bloom 1
-}
-{
-	material rage/trimmet2_1
-	roughness 1.2
-	hardness 2.4
-	specularity 1
-	parallax 0.979592
-	bloom 1
-}
-{
-	material rage/wlight1_160
-	roughness 1.5
 	hardness 2
+	specularity 1
+	bloom 1
+}
+{
+	diffusemap common/quake2/slots1_6
+	roughness 0.6
+	parallax 1
+	hardness 1.8
 	specularity 2.8
 	parallax 1
-	bloom 2.53061
+	bloom 1
+}
+{
+	diffusemap common/quake2/trimmet2_1
+	roughness 1.2
+	parallax 0.5
+	hardness 2.4
+	specularity 1
+	bloom 1
+}
+{
+	diffusemap common/quake2/wlight1_160
+	roughness 1.5
+	parallax 1
+	hardness 2
+	specularity 2.8
+	bloom 2.5
 	surface "light"
-	light 200
+	light.radius 200
 	{
-		texture rage/wlight1_160fx
+		texture common/quake2/wlight1_160fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
 		color 0.9043 0.7275 0.4012 1
 		scale.s 0.75
 		scale.t 0.75
-		flare flare_0
+		flare flare_2
 	}
 }
 {
-	material rage/wlight2_160
-	normalmap rage/wlight1_160_nm
+	diffusemap common/quake2/wlight2_160
+	normalmap common/quake2/wlight1_160_nm
 	roughness 1.5
+	parallax 1.25
 	hardness 2
 	specularity 2.8
-	parallax 1
-	bloom 2.04082
+	bloom 2
 	surface "light"
-	light 200
+	light.radius 200
 	{
-		texture rage/wlight2_160fx
+		texture common/quake2/wlight2_160fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
 		color 0.953 0.902 0.8118 1
 		scale.s 0.75
 		scale.t 0.75
-		flare flare_0
+		flare flare_2
 	}
 }
