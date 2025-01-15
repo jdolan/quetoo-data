@@ -1,25 +1,37 @@
 {
 	material sandbox/quetoologo
 	normalmap sandbox/quetoologo_nm
-
-	surface "blend_66"
+	bloom 2.5
+	surface "blend_100"
+	{
+		texture sandbox/quetoologo_fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
 }
 {
 	material skies912/water1
+	
+	surface "blend_66"
+	contents "water detail"
+	
+	light.radius 32
+	light.intensity 0.25
 	{
 		texture sandbox/water_fx
 		blend GL_SRC_ALPHA GL_ONE
 		scroll.s -0.02
-		scale.s 1.25
-		scale.t 1.25
-		warp 0.3 0.3
+		scale.s 1.5
+		scale.t 1.5
+		warp 0.25 0.25
+		color 0.50 0.68 0.51 0.33
 	}
 	{
 		texture sandbox/water_fx
 		blend GL_SRC_ALPHA GL_ONE
-		scale.s 1
-		scale.t 1
-		warp 0.4 0.4
+		scale.s 1.25
+		scale.t 1.25
+		warp 0.35 0.35
+		color 0.50 0.68 0.51 0.25
 	}
 }
 {
@@ -44,9 +56,9 @@
 	specularity 1
 	parallax 1
 		
-	bloom 3.0
+	bloom 2.5
 	surface "light"
-	light.radius 150
+	light.radius 125
 	{
 		scale.s 1.25
 		scale.t 1.25
@@ -91,7 +103,7 @@
 		
 	bloom 1.5
 	surface "light"
-	light.radius 200
+	light.radius 175
 	{
 		scale.s 1.25
 		scale.t 1.25
@@ -196,26 +208,158 @@
 	}
 }
 {
-	material gehenna/glass2
+	material tokays/ceil1_28
+	normalmap tokays/ceil1_28_nm
 	
 	roughness 1
-	hardness 2.0
-	specularity 3.0
+	hardness 1
+	specularity 1
+	parallax 1
+		
+	bloom 1.5
+	surface "light"
+	light.radius 512
+	light.intensity 0.5
+	light.color 1.00 1.00 0.85 1
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture tokays/ceil1_28fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material turbo/baselt_c
+	normalmap turbo/baselt_c_nm
 	
-	bloom 2.0
-	light.radius 300
-	light.intensity 0.1
-	{
-		texture gehenna/plasma
-		scroll.s 1
-	}
-	{
-		texture gehenna/plasma2
-		scroll.s -1
-	}
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	
+	bloom 1.5
+	light.radius 128
+	light.intensity 0.75
+	light.color 1.00 1.00 0.85 1
 	{
 		scale.s 1.25
 		scale.t 1.25
 		flare flare_2
 	}
+	{
+		texture turbo/baselt_cfx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material turbo/padbase
+	normalmap turbo/padbase_nm
+
+	light.radius 80
+	light.intensity 0.5
+	{
+		texture turbo/padfx3
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		texture turbo/padfx-iris3
+		pulse 0.5
+	}
+	{
+		scale.s 0.5
+		scale.t 0.5
+		flare flare_2
+	}
+}
+{
+	material fractures/ice1_1
+	normalmap fractures/ice1_1_nm
+	
+	roughness 2
+	hardness 4
+	specularity 4
+	parallax 1
+	
+	bloom 1.5
+	
+	surface "phong"
+}
+{
+	material fractures/wall1_18
+	normalmap fractures/wall1_18_nm
+	
+	roughness 3
+	hardness 2
+	specularity 1.2
+	parallax 1
+	
+	bloom 1
+}
+{
+	material fractures/concrete10_1
+	normalmap fractures/concrete10_1_nm
+	
+	roughness 5
+	hardness 0.1
+	specularity 1
+	parallax 1
+	
+	bloom 1
+}
+{
+	material fractures/concrete1_1
+	normalmap fractures/concrete1_1_nm
+	
+	surface "phong"
+}
+{
+	material fractures/concrete3_1
+	normalmap fractures/concrete3_1_nm
+	
+	surface "phong"
+}
+{
+	material fractures/concrete4_1
+	normalmap fractures/concrete4_1_nm
+	
+	surface "phong"
+}
+{
+	material fractures/floor1_1
+	normalmap fractures/floor1_1_nm
+	
+	roughness 1.5
+	hardness 1.5
+	specularity 1.5
+	parallax 1
+	
+	bloom 1
+}
+{
+	material skies912/crystal01
+	normalmap skies912/crystal01_nm
+	
+	roughness 2
+	hardness 4
+	specularity 4
+	parallax 1
+	
+	bloom 0.8
+	
+	surface "phong"
+}
+{
+	material gehenna/rock1_d
+	normalmap gehenna/rock1_d_nm
+	
+	roughness 3
+	hardness 2
+	specularity 1.2
+	parallax 1
+	
+	bloom 1
+	surface "phong"
 }
