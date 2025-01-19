@@ -1,5 +1,5 @@
 {
-	diffusemap aghast/brown_water
+	diffusemap common/quake/brown_water
 	roughness 0
 	parallax 0
 	hardness 0
@@ -8,18 +8,10 @@
 	contents "slime detail"
 	light.radius 50
 	{
-		texture aghast/brown_water
+		texture common/quake/brown_water
 		blend GL_SRC_ALPHA GL_ONE
 		warp 0.5 0.5
 	}
-}
-{
-	diffusemap aghast/wswamp2_1
-	roughness 1
-	parallax 1
-	hardness 1
-	specularity 1
-	bloom 1
 }
 {
 	diffusemap chastity/clanggrate
@@ -44,6 +36,7 @@
 	{
 		texture common/quake/basebutn3_luma
 		blend GL_SRC_ALPHA GL_ONE
+		color 1 0 0 1
 	}
 }
 {
@@ -97,46 +90,6 @@
 	bloom 1
 }
 {
-	diffusemap common/quake/cop1_1
-	normalmap common/quake/cop1_1_norm
-	roughness 1
-	parallax 1
-	hardness 1
-	specularity 1
-	bloom 1
-	surface "phong"
-}
-{
-	diffusemap common/quake/cop1_2
-	normalmap common/quake/cop1_2_norm
-	roughness 1
-	parallax 1
-	hardness 1
-	specularity 1
-	bloom 1
-	surface "phong"
-}
-{
-	diffusemap common/quake/cop1_8
-	normalmap common/quake/cop1_8_norm
-	roughness 1
-	parallax 1
-	hardness 1
-	specularity 1
-	bloom 1
-	surface "phong"
-}
-{
-	diffusemap common/quake/cop2_2
-	normalmap common/quake/cop2_2_norm
-	roughness 1
-	parallax 1
-	hardness 1
-	specularity 1
-	bloom 1
-	surface "phong"
-}
-{
 	diffusemap common/quake/light1_1
 	normalmap common/quake/light1_1_norm
 	specularmap common/quake/light1_1_gloss
@@ -146,7 +99,7 @@
 	specularity 1
 	bloom 1.5
 	surface "light"
-	light.radius 400
+	light.radius 425
 	light.intensity 0.65
 	{
 		scale.s 1.25
@@ -189,8 +142,8 @@
 	specularity 1
 	bloom 1.5
 	surface "light"
-	light.radius 375
-	light.intensity 0.85
+	light.radius 40
+	light.intensity 0.8
 	{
 		scale.s 0.75
 		scale.t 0.75
@@ -211,8 +164,8 @@
 	bloom 1.5
 	contents "mist detail"
 	surface "light"
-	light.radius 250
-	light.intensity 0.75
+	light.radius 260
+	light.intensity 0.725
 	{
 		texture common/quake/lite_fart3_luma
 		blend GL_SRC_ALPHA GL_ONE
@@ -304,9 +257,9 @@
 }
 {
 	material omf/wpadg
-	roughness 1
-	parallax 1
-	hardness 1
+	roughness 0
+	parallax 0
+	hardness 0
 	specularity 1
 	bloom 1
 	contents "mist detail"
