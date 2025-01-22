@@ -98,7 +98,6 @@
 	hardness 1
 	specularity 1
 	bloom 1.5
-	surface "light"
 	light.radius 425
 	light.intensity 0.65
 	{
@@ -142,7 +141,7 @@
 	specularity 1
 	bloom 1.5
 	surface "light"
-	light.radius 40
+	light.radius 400
 	light.intensity 0.8
 	{
 		scale.s 0.75
@@ -270,4 +269,14 @@
 		pulse 1
 		stretch 0.5 1
 	}
+}
+{
+	material common/quake2/eq2_banner
+	roughness 0
+	parallax 0.5
+	hardness 0
+	specularity 1
+	bloom 1
+	contents "mist"
+	surface "blend_100"
 }
