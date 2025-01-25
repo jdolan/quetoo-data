@@ -23,7 +23,7 @@
 	bloom 1
 }
 {
-	material slimyplace/alienpuke
+	material common/quake2/alienpuke
 	roughness 1
 	hardness 1
 	specularity 1
@@ -32,29 +32,28 @@
 	surface "blend_100 decal"
 }
 {
-	material slimyplace/btactmach0
+	material common/quake2/btactmach0
 	roughness 1
 	hardness 4.5
 	specularity 1
 	parallax 1
 	bloom 4.32653
 	{
-		texture slimyplace/btactmach0fx1
+		texture common/quake2/btactmach0fx1
 		blend GL_SRC_ALPHA GL_ONE
 		anim 2 0
 	}
 }
 {
-	material slimyplace/ceil1_4
+	material common/quake2/ceil1_4
 	roughness 1
 	hardness 4.5
 	specularity 1
-	parallax 3
-	bloom 1.87755
-	surface "light"
-	light 200
+	parallax 6
+	bloom 1.75
+	light 225
 	{
-		texture slimyplace/ceil1_4fx
+		texture common/quake2/ceil1_4fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
@@ -65,17 +64,16 @@
 	}
 }
 {
-	material slimyplace/ceil1_lime
-	normalmap slimyplace/ceil1_4_nm
+	material common/quake2/ceil1_lime
+	normalmap common/quake2/ceil1_4_nm
 	roughness 1
 	hardness 4.5
 	specularity 1
-	parallax 3
-	bloom 0.571429
-	surface "light"
+	parallax 6
+	bloom 0.5
 	light 180
 	{
-		texture slimyplace/ceil1_limefx
+		texture common/quake2/ceil1_limefx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
@@ -86,15 +84,15 @@
 	}
 }
 {
-	material slimyplace/floor2_7
+	material common/quake2/floor2_7
 	roughness 1
 	hardness 2.8
 	specularity 1
-	parallax 1
+	parallax 1.25
 	bloom 1
 }
 {
-	material slimyplace/fmet1_2
+	material common/quake2/fmet1_2
 	roughness 1
 	hardness 1.7
 	specularity 1
@@ -102,63 +100,63 @@
 	bloom 1
 }
 {
-	material slimyplace/grate1_4
+	material common/quake2/grate1_4
 	roughness 1
 	hardness 2
 	specularity 1
-	parallax 1
+	parallax 2
 	bloom 1
 }
 {
-	material slimyplace/grnx2_1
+	material common/quake2/grnx2_1
 	roughness 1
 	hardness 3
 	specularity 1
-	parallax 1
+	parallax 1.25
 	bloom 1
 }
 {
-	material slimyplace/grnx2_2
+	material common/quake2/grnx2_2
 	roughness 1
 	hardness 3
 	specularity 1
-	parallax 1
+	parallax 1.25
 	bloom 1
 }
 {
-	material slimyplace/grnx2_3
+	material common/quake2/grnx2_3
 	roughness 1
 	hardness 3
 	specularity 1
-	parallax 1
+	parallax 1.25
 	bloom 1
 }
 {
-	material slimyplace/lead1_3
+	material common/quake2/lead1_3
 	roughness 1
 	hardness 2
 	specularity 1
-	parallax 0
+	parallax 0.35
 	bloom 1
 }
 {
-	material slimyplace/metal15_2basic
-	roughness 1
+	material common/quake2/metal15_2basic
+	roughness 2
+	hardness 1.5
+	specularity 1
+	parallax 2
+	bloom 1
+}
+{
+	material common/quake2/metal15_2sml
+	roughness 2
 	hardness 1.5
 	specularity 1
 	parallax 1
 	bloom 1
 }
 {
-	material slimyplace/metal15_2sml
-	roughness 1
-	hardness 1.5
-	specularity 1
-	parallax 1
-	bloom 1
-}
-{
-	material slimyplace/metal16trim_g
+	material common/quake2/metal16trim_g
 	roughness 1
 	hardness 2.5
 	specularity 1
@@ -166,90 +164,90 @@
 	bloom 1
 }
 {
-	material slimyplace/metal17_1
-	roughness 1
+	material common/quake2/metal18_1
+	roughness 2
 	hardness 1.5
 	specularity 1
-	parallax 1
+	parallax 2
 	bloom 1
 }
 {
-	material slimyplace/metal17_2
-	normalmap slimyplace/metal17_1_nm
-	roughness 1
+	material common/quake2/metal18_2
+	normalmap common/quake2/metal18_1_nm
+	roughness 2
 	hardness 1.5
 	specularity 1
-	parallax 1
+	parallax 2
 	bloom 1
 }
 {
-	material slimyplace/metal1_1half
-	roughness 1
+	material common/quake2/metal1_1half
+	roughness 2
 	hardness 1.5
 	specularity 1
-	parallax 1
+	parallax 2
 	bloom 1
 }
 {
-	material slimyplace/metal1_1side
-	roughness 1
+	material common/quake2/metal1_1side
+	roughness 2
 	hardness 1.5
 	specularity 1
-	parallax 1
+	parallax 2
 	bloom 1
 }
 {
-	material slimyplace/metal2_1
-	roughness 1
+	material common/quake2/metal2_1
+	roughness 2
 	hardness 1.5
 	specularity 1
-	parallax 1
+	parallax 1.25
 	bloom 1
 }
 {
-	material slimyplace/metal_subslime
-	normalmap slimyplace/metal1_1_nm
+	material common/quake2/metal_subslime
+	normalmap common/quake2/metal1_1_nm
 	roughness 1
 	hardness 1.5
 	specularity 1
-	parallax 1
+	parallax 2
 	bloom 1
 	{
-		texture slimyplace/slime_glowedge
+		texture common/quake2/slime_glowedge
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	material slimyplace/ometal2_1
+	material common/quake2/ometal2_1
+	roughness 2
+	hardness 1.2
+	specularity 1
+	parallax 0.5
+	bloom 1
+}
+{
+	material common/quake2/ometal2_1sub
+	normalmap common/quake2/ometal2_1_nm
 	roughness 1
 	hardness 1.2
 	specularity 1
 	parallax 0.4
 	bloom 1
-}
-{
-	material slimyplace/ometal2_1sub
-	normalmap slimyplace/ometal2_1_nm
-	roughness 1
-	hardness 1.2
-	specularity 1
-	parallax 0.4
-	bloom 1
 	{
-		texture slimyplace/slime_glowedge
+		texture common/quake2/slime_glowedge
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	material slimyplace/pilr01_3
-	roughness 1
+	material common/quake2/pilr01_3
+	roughness 1.15
 	hardness 2.5
 	specularity 1
-	parallax 0
+	parallax 1
 	bloom 1
 }
 {
-	material slimyplace/sewer2_bars
+	material common/quake2/sewer2_bars
 	roughness 1
 	hardness 2
 	specularity 1
@@ -257,16 +255,17 @@
 	bloom 1
 }
 {
-	material slimyplace/slime0
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-	bloom 1.38776
-	surface "light blend_66"
-	light 48
+	material common/quake2/slime0
+	roughness 0
+	hardness 0
+	specularity 0
+	parallax 0
+	bloom 0
+	surface "blend_66"
+	contents "slime"
+	light 50
 	{
-		texture slimyplace/slimefx1
+		texture common/quake2/slimefx1
 		blend GL_SRC_ALPHA GL_ONE
 		scroll.s 0.04
 		scroll.t 0.08
@@ -275,7 +274,7 @@
 		warp 0.5 0.5
 	}
 	{
-		texture slimyplace/slimefx2
+		texture common/quake2/slimefx2
 		blend GL_SRC_ALPHA GL_ONE
 		scroll.s 0.04
 		scroll.t -0.08
@@ -285,7 +284,7 @@
 	}
 }
 {
-	material slimyplace/subslimebotm
+	material common/quake2/subslimebotm
 	roughness 1
 	hardness 1.2
 	specularity 1
@@ -293,16 +292,15 @@
 	bloom 1
 }
 {
-	material slimyplace/wlight1g
+	material common/quake2/wlight1g
 	roughness 1
 	hardness 3.5
 	specularity 1
-	parallax 1.2
-	bloom 3.10204
-	surface "light"
+	parallax 1.5
+	bloom 2.5
 	light 300
 	{
-		texture slimyplace/wlight1gfx
+		texture common/quake2/wlight1gfx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{

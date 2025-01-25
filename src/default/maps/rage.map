@@ -1,5 +1,3 @@
-// Game: Quetoo
-// Format: Quake2
 // entity 0
 {
 "radiosity" "1.2"
@@ -9469,6 +9467,7 @@
 "_tb_name" "Fog"
 "_tb_id" "2"
 "_tb_layer_sort_index" "1"
+"_tb_layer_hidden" "1"
 }
 // entity 73
 {
