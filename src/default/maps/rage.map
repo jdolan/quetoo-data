@@ -1,3 +1,5 @@
+// Game: Quetoo
+// Format: Quake2
 // entity 0
 {
 "radiosity" "1.2"
@@ -9003,6 +9005,7 @@
 "_tb_name" "Technical"
 "_tb_id" "1"
 "_tb_layer_sort_index" "0"
+"_tb_layer_hidden" "1"
 // brush 0
 {
 ( -928 8192 7920 ) ( -928 -8192 7920 ) ( -928 8192 -8464 ) common/sky 0 0 0 0.5 0.5

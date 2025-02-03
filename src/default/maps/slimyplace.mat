@@ -49,7 +49,7 @@
 	roughness 1
 	hardness 4.5
 	specularity 1
-	parallax 6
+	parallax 3.5
 	bloom 1.75
 	light 225
 	{
@@ -69,7 +69,7 @@
 	roughness 1
 	hardness 4.5
 	specularity 1
-	parallax 6
+	parallax 3.5
 	bloom 0.5
 	light 180
 	{
@@ -88,7 +88,7 @@
 	roughness 1
 	hardness 2.8
 	specularity 1
-	parallax 1.25
+	parallax 3
 	bloom 1
 }
 {
@@ -168,7 +168,7 @@
 	roughness 2
 	hardness 1.5
 	specularity 1
-	parallax 2
+	parallax 2.5
 	bloom 1
 }
 {
@@ -177,7 +177,7 @@
 	roughness 2
 	hardness 1.5
 	specularity 1
-	parallax 2
+	parallax 2.5
 	bloom 1
 }
 {
@@ -185,7 +185,7 @@
 	roughness 2
 	hardness 1.5
 	specularity 1
-	parallax 2
+	parallax 2.5
 	bloom 1
 }
 {
@@ -193,7 +193,7 @@
 	roughness 2
 	hardness 1.5
 	specularity 1
-	parallax 2
+	parallax 2.5
 	bloom 1
 }
 {
@@ -296,7 +296,7 @@
 	roughness 1
 	hardness 3.5
 	specularity 1
-	parallax 1.5
+	parallax 3.5
 	bloom 2.5
 	light 300
 	{
