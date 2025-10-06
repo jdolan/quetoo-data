@@ -1,5 +1,5 @@
 {
-	material common/caulk
+	diffusemap common/origin
 	roughness 1
 	hardness 1
 	specularity 1
@@ -7,107 +7,27 @@
 	bloom 1
 }
 {
-	material common/clip
+	diffusemap common/quake2/baselt_c
 	roughness 1
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
-}
-{
-	material common/fog
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-	bloom 1
-}
-{
-	material common/hint
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-	bloom 1
-}
-{
-	material common/occlude
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-	bloom 1
-}
-{
-	material common/origin
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-	bloom 1
-}
-{
-	material common/skip
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-	bloom 1
-}
-{
-	material common/sky
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-	bloom 1
-}
-{
-	material common/trigger
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-	bloom 1
-}
-{
-	material common/quake2/baselt_c
-	roughness 1.2
-	hardness 2.8
-	specularity 0.5
-	parallax 1
-	bloom 2.5
-	light 250
-	light.intensity 0.85
+	bloom 2
 	{
 		texture common/quake2/baselt_cfx
 		blend GL_SRC_ALPHA GL_ONE
 	}
-	{
-		color 0.5 0 0 1
-		scale.s 0.5
-		scale.t 0.5
-		flare flare_2
-	}
 }
 {
-	material common/quake2/bed4_1
-	roughness 1.5
-	hardness 4
-	specularity 5
-	parallax 1
-	bloom 1
-}
-{
-	material common/quake2/brlava
+	diffusemap common/quake2/brlava
 	roughness 1
 	hardness 1
 	specularity 1
 	parallax 1
 	bloom 3.5
-	light 100
-	surface ""
 	contents "lava"
+	surface "light"
+	light.radius 0
 	{
 		texture common/quake2/brlava1
 		blend GL_SRC_ALPHA GL_ONE
@@ -122,13 +42,16 @@
 	}
 }
 {
-	material common/quake2/ceil1_28
+	diffusemap common/quake2/ceil1_28
 	roughness 3.8
 	hardness 4.5
 	specularity 1.2
 	parallax 3
 	bloom 2
-	light 250
+	surface "light"
+	light.radius 300
+	light.color 1 1 0.7
+	light.intensity 3
 	{
 		texture common/quake2/ceil1_28fx
 		blend GL_SRC_ALPHA GL_ONE
@@ -141,14 +64,14 @@
 	}
 }
 {
-	material common/quake2/duckw
-	roughness 1.5
-	hardness 3.5
-	specularity 2
-	parallax 0.15
-	bloom 1.5
-	surface "blend_100"
+	diffusemap common/quake2/duckw
+	roughness 0.571429
+	hardness 4.2449
+	specularity 2.44898
+	parallax 0.979592
+	bloom 1.46939
 	contents "water"
+	surface "blend_100"
 	{
 		texture common/quake2/duckw
 		blend GL_SRC_ALPHA GL_ONE
@@ -165,12 +88,13 @@
 	}
 }
 {
-	material common/quake2/duckw-open
-	roughness 1.5
-	hardness 3.5
-	specularity 2
-	parallax 0.5
-	bloom 1
+	diffusemap common/quake2/duckw-open
+	roughness 0.571429
+	hardness 4.2449
+	specularity 2.44898
+	parallax 0.979592
+	bloom 1.46939
+	contents "water"
 	surface "blend_100"
 	{
 		texture common/quake2/duckw-open
@@ -188,24 +112,24 @@
 	}
 }
 {
-	material common/quake2/florr2_7
+	diffusemap common/quake2/florr2_7
 	roughness 1.2
-	hardness 4
-	specularity 2
-	parallax 2
+	hardness 5.38775
+	specularity 2.53061
+	parallax 3.18367
 	bloom 1
 	footsteps metal
 }
 {
-	material common/quake2/flr1_1
-	roughness 1.2
-	hardness 3.5
-	specularity 1
-	parallax 1
+	diffusemap common/quake2/flr1_1
+	roughness 1.38776
+	hardness 1.22449
+	specularity 0.816327
+	parallax 3.02041
 	bloom 1
 }
 {
-	material common/quake2/fmet1_2
+	diffusemap common/quake2/fmet1_2
 	roughness 0.7
 	hardness 2.5
 	specularity 2
@@ -213,15 +137,7 @@
 	bloom 1
 }
 {
-	material common/quake2/metal16trim
-	roughness 1.6
-	hardness 3
-	specularity 2.5
-	parallax 0.5
-	bloom 1
-}
-{
-	material common/quake2/metal23_3
+	diffusemap common/quake2/metal23_3
 	roughness 1.5
 	hardness 3
 	specularity 1.5
@@ -229,7 +145,7 @@
 	bloom 1
 }
 {
-	material common/quake2/metal2_1
+	diffusemap common/quake2/metal2_1
 	roughness 1.2
 	hardness 1.5
 	specularity 2
@@ -237,7 +153,15 @@
 	bloom 1
 }
 {
-	material common/quake2/mine02_1
+	diffusemap common/quake2/mine02_1
+	roughness 1.2
+	hardness 2.5
+	specularity 8
+	parallax 4
+	bloom 1
+}
+{
+	diffusemap common/quake2/mine02_2
 	roughness 1.2
 	hardness 2.5
 	specularity 2
@@ -245,7 +169,15 @@
 	bloom 1
 }
 {
-	material common/quake2/mine02_2
+	diffusemap common/quake2/mine03_1
+	roughness 0.897959
+	hardness 0.571429
+	specularity 3.18367
+	parallax 4
+	bloom 1
+}
+{
+	diffusemap common/quake2/mine03_2
 	roughness 1.2
 	hardness 2.5
 	specularity 2
@@ -253,23 +185,7 @@
 	bloom 1
 }
 {
-	material common/quake2/mine03_1
-	roughness 1.2
-	hardness 2.5
-	specularity 2
-	parallax 1
-	bloom 1
-}
-{
-	material common/quake2/mine03_2
-	roughness 1.2
-	hardness 2.5
-	specularity 2
-	parallax 1
-	bloom 1
-}
-{
-	material common/quake2/mine05_1
+	diffusemap common/quake2/mine05_1
 	normalmap common/quake2/mine03_1_nm
 	roughness 1.2
 	hardness 2.5
@@ -278,7 +194,7 @@
 	bloom 1
 }
 {
-	material common/quake2/mine05_2
+	diffusemap common/quake2/mine05_2
 	normalmap common/quake2/mine03_2_nm
 	roughness 1.2
 	hardness 2.5
@@ -287,23 +203,23 @@
 	bloom 1
 }
 {
-	material common/quake2/mine06_3
+	diffusemap common/quake2/mine06_3
 	roughness 1.2
-	hardness 2.5
-	specularity 2
-	parallax 1
+	hardness 0.571429
+	specularity 3.18367
+	parallax 4
 	bloom 1
 }
 {
-	material common/quake2/mine10_1
-	roughness 1.2
-	hardness 2.5
-	specularity 2
-	parallax 1
+	diffusemap common/quake2/mine10_1
+	roughness 1.79592
+	hardness 0.979592
+	specularity 1.71429
+	parallax 4
 	bloom 1
 }
 {
-	material common/quake2/mine10_1heat
+	diffusemap common/quake2/mine10_1heat
 	roughness 1.2
 	hardness 2.5
 	specularity 2
@@ -315,7 +231,7 @@
 	}
 }
 {
-	material common/quake2/mine10_1heat-down
+	diffusemap common/quake2/mine10_1heat-down
 	roughness 1
 	hardness 1
 	specularity 1
@@ -327,7 +243,7 @@
 	}
 }
 {
-	material common/quake2/mine10_1heat-low
+	diffusemap common/quake2/mine10_1heat-low
 	roughness 1
 	hardness 1
 	specularity 1
@@ -339,33 +255,24 @@
 	}
 }
 {
-	material common/quake2/mine10_2
+	diffusemap common/quake2/mine10_2
 	normalmap common/quake2/mine02_1_nm
 	roughness 1.2
 	hardness 2.5
 	specularity 2
-	parallax 1
+	parallax 4
 	bloom 1
 }
 {
-	material common/quake2/mine15_1
-	roughness 1.2
+	diffusemap common/quake2/mine15_1
+	roughness 2.36735
 	hardness 2.5
 	specularity 2
-	parallax 1
+	parallax 4
 	bloom 1
 }
 {
-	material common/quake2/mossyrockies
-	normalmap common/quake2/rockies_nm
-	roughness 1.5
-	hardness 0.7
-	specularity 1.5
-	parallax 1.2
-	bloom 1
-}
-{
-	material common/quake2/pilr01_3
+	diffusemap common/quake2/pilr01_3
 	roughness 1.5
 	hardness 2.5
 	specularity 2
@@ -373,7 +280,7 @@
 	bloom 1
 }
 {
-	material common/quake2/pilr03_3
+	diffusemap common/quake2/pilr03_3
 	roughness 1.5
 	hardness 2.5
 	specularity 2
@@ -381,24 +288,16 @@
 	bloom 1
 }
 {
-	material common/quake2/rockies
-	roughness 1.5
-	hardness 0.7
-	specularity 1.5
-	parallax 1.2
-	bloom 1
-}
-{
-	material common/quake2/stflr1_3
-	roughness 0.5
-	hardness 3.3
-	specularity 2
-	parallax 0
-	bloom 1
+	diffusemap common/quake2/stflr1_3
+	roughness 1.14286
+	hardness 4.40816
+	specularity 2.36735
+	parallax 2.53061
+	bloom 1.71429
 	footsteps metal
 }
 {
-	material common/quake2/tampon1
+	diffusemap common/quake2/tampon1
 	roughness 1
 	hardness 1
 	specularity 1
@@ -407,7 +306,7 @@
 	surface "blend_100 decal"
 }
 {
-	material common/quake2/wmetl6_1
+	diffusemap common/quake2/wmetl6_1
 	roughness 0.7
 	hardness 3
 	specularity 2
