@@ -213,7 +213,7 @@
 	lip(integer) : "Lip remaining at end of move" : 0
 ]
 
-@PointClass base(Targetname) color(0 180 0) size(-4 -4 -4, 4 4 4) = info_null : "A positional target for spotlights, etc. These are inhibited in the game and are only useful to the editor and BSP compiler." []
+@PointClass base(Targetname) color(0 180 0) size(-4 -4 -4, 4 4 4) = info_null : "A positional target for other entities, etc. These are inhibited in the game and are only useful to the editor and BSP compiler." []
 @PointClass base(Targetname) color(0 180 180) size(-4 -4 -4, 4 4 4) = info_notnull : "A positional target for other entities. Unlike info_null, these are available in the game and can be targeted by other entities (e.g. info_player_intermission)."[]
 
 @BaseClass size(-16 -16 -24, 16 16 32) = Spawn [
@@ -230,46 +230,29 @@
 	angles(string) : "The pitch yaw roll angles for the camera (e.g. 20 270 0)."
 ]
 
-@PointClass base(Target) color(255 255 255) size(-6 -6 -6, 6 6 6) = light : "Point light source."
+@PointClass color(255 255 255) size(-6 -6 -6, 6 6 6) = light : "Point light source."
 [
-	light(integer) : "Light radius" : 300
-	_color(string) : "Light color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
-	_intensity(float) : "Light intensity as a positive scalar value" : "1"
-	_size(integer) : "Light size, to simulate area lights and cast penumbrae" : 16
-]
-
-@PointClass base(Target) color(200 255 255) size(-6 -6 -6, 6 6 6) = light_spot : "Point light source with attenuation cone."
-[
-	angle(integer) : "Spotlight direction (up = -1, down = -2, yaw = positive value)"
-	light(integer) : "Spotlight radius" : 300
-	_color(string) : "Spotlight color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
-	_cone(integer) : "Spotlight attenuation cone width, in degrees" : 22
-	_intensity(float) : "Spotlight intensity as a positive scalar value" : "1"
-	_size(integer) : "Spotlight size, to simulate area lights and cast penumbrae" : 16
-]
-
-@PointClass base(Target) color(255 255 0) size(-16 -16 -16, 16 16 16) = light_sun : "Directional sun light source."
-[
-	_color(string) : "Sun color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
-	_intensity(float) : "Sun intensity as a positive scalar value" : "1"
-	_size(integer) : "Sun size, to simulate area lights and cast penumbrae" : 256
+	color(string) : "Light color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
+	intensity(float) : "Light intensity as a positive scalar value" : "1"
+	radius(integer) : "Light radius" : 300
+	style(string) : "The light style, a string of characters a-z that modulate the light intensity over time (default 'zzz')."
 ]
 
 @SolidClass color(180 180 150) = misc_dust : "Dust volumes emit configurable sprites, like localized weather. These are useful for creating dust, bubbles, foam, mist, etc. These are typically contents atmospheric."
 [
 	acceleration(string) : "The sprite acceleration" : "0 0 0"
-	_color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
-	dir(string) : "The sprite directional axis (0 0 0 is billboard)" : "0 0 0"
+	color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
 	density(float) : "The sprite density" : "1"
-	_end_color(string) : "The sprite HSVA end color as 4 decimal values" : "0 0 0 0"
+	dir(string) : "The sprite directional axis (0 0 0 is billboard)" : "0 0 0"
+	end_color(string) : "The sprite HSVA end color as 4 decimal values" : "0 0 0 0"
 	height(float) : "The sprite height. Setting this will cause size to be ignored" : "0"
 	lifetime(float) : "The sprite lifetime in seconds" : "10"
 	lighting(float) : "The sprite lighting scalar" : "1"
-	rotation(float) : "The sprite rotation in degrees" : "0"
 	rotation_velocity(float) : "The sprite rotation velocity in degrees per second" : "0"
-	_size(float) : "The sprite size" : "1"
-	size_velocity(float) : "The sprite size velocity" : "0"
+	rotation(float) : "The sprite rotation in degrees" : "0"
 	size_acceleration(float) : "The sprite size acceleration" : "0"
+	size_velocity(float) : "The sprite size velocity" : "0"
+	size(float) : "The sprite size" : "1"
 	softness(float) : "The sprite softness scalar" : "1"
 	sprite(string) : "The sprite image name" : "particle1"
 	velocity(string) : "The sprite velocity" : "0 0 0"
@@ -296,25 +279,17 @@
 
 @SolidClass color(230 230 230) = misc_fog : "Fog volumes. When compiled, fog brushes are merged into the world. Fog volumes are processed during the lighting compile phase. These are typically contents atmospheric, but can be contents water, etc. Omit _color to use the material color."
 [
-	_color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
 	absorption(float) : "The fog absorption, or how much light color it absorbs" : ".5"
-	density(float) : "The fog density, or thickness" : "1"
-	noise(float) : "The fog noise, or variation in density" : "0"
-	frequency(float) : "The simplex noise frequency - effectively the scale of the noise texture" : "32"
 	amplitude(float) : "The simplex noise amplitude - effectively the upper limit of noise values" : "1"
+	color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
+	density(float) : "The fog density, or thickness" : "1"
+	frequency(float) : "The simplex noise frequency - effectively the scale of the noise texture" : "32"
 	lacunarity(float) : "The simplex noise lacunarity - multiplier per-octave of frequency" : "2"
-	persistence(float) : "The simplex noise persistence - multiplier per-octave of amplitude" : "0.5"
+	noise(float) : "The fog noise, or variation in density" : "0"
 	octaves(float) : "The number of octaves to sample" : "5"
-	seed(float) : "The simplex noise permutation vector seed" : "0"
 	offset(string) : "An offset added to the noise calculation" : "0 0 0"
-]
-
-@PointClass color(255 120 20) size(-16 -16 -16, 16 16 16) = misc_light : "Client-side emission of styled dynamic lights. Light styles are specified as a string of characters, a-z. Each character defines a frame of animation, and each frame is 100ms long. For switchable lights, use target_light."
-[
-	_color(string) : "Light color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
-	_intensity(float) : "Light intensity as a positive scalar value" : "1"
-	light(float) : "The light radius" : "300"
-	style(string) : "The light style, a string of characters a-z that modulate the light intensity over time" : "zzz"
+	persistence(float) : "The simplex noise persistence - multiplier per-octave of amplitude" : "0.5"
+	seed(float) : "The simplex noise permutation vector seed" : "0"
 ]
 
 @PointClass color(80 180 80) size(-16 -16 -16, 16 16 16) = misc_model : "Client-side emission of static models (non-interactive map objects). These are useful for placing trees, torches, and other non-brush scenery."
@@ -349,18 +324,18 @@
 @PointClass color(120 120 200) size(-24 -24 -24, 24 24 24) = misc_sprite : "Highly configurable client-side emission of sprites. These are useful for light volumes, blood dripping from walls, or anything else you can think of. If two instances of this entity are teamed, the game will emit randomized instances that mix the properties of both teammates."
 [
 	acceleration(string) : "The sprite acceleration" : "0 0 0"
-	_color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
+	color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
 	count(integer) : "The count of sprites to emit per emission" : 1
 	dir(string) : "The sprite directional axis (0 0 0 is billboard)" : "0 0 0"
 	density(float) : "The sprite density" : "1"
 	drift(float) : "The factor of randomized drift applied to the emission rate"
-	_end_color(string) : "The sprite HSVA end color as 4 decimal values" : "0 0 0 0"
+	end_color(string) : "The sprite HSVA end color as 4 decimal values" : "0 0 0 0"
 	height(float) : "The sprite height. Setting this will cause size to be ignored" : "0"
 	lifetime(float) : "The sprite lifetime in seconds" : "10"
 	lighting(float) : "The sprite lighting scalar" : "1"
 	rotation(float) : "The sprite rotation in degrees" : "0"
 	rotation_velocity(float) : "The sprite rotation velocity in degrees per second" : "0"
-	_size(float) : "The sprite size" : "1"
+	size(float) : "The sprite size" : "1"
 	size_velocity(float) : "The sprite size velocity" : "0"
 	size_acceleration(float) : "The sprite size acceleration" : "0"
 	softness(float) : "The sprite softness scalar" : "1"
@@ -413,9 +388,9 @@
 	[
 		1 : "The light will start on" : 0
 	]
-	_color(string) : "The light color" : "1 1 1"
-	light(float) : "The light radius in units" : "300"
+	color(string) : "The light color" : "1 1 1"
 	delay(float) : "The delay before activating, in seconds" : "0"
+	radius(float) : "The light radius in units" : "300"
 	team(string) : "The team name for alternating lights"
 	wait(float) : "If specified, an additional cycle will fire after this interval" : "0"
 ]
@@ -509,7 +484,7 @@
 [
 	message(string) : "The map title"
 	sky(string) : "The sky environment map" : "unit1_"
-	ambient(string) : "The ambient light level" : "0 0 0"
+	ambient(float) : "The ambient light level" : "0"
 	weather(choices) : "Weather effects" : "none" =
 	[
 		"none" : "None"
@@ -548,13 +523,7 @@
 		1 : "Enabled"
 		2 : "Auto-balanced"
 	]
-	match(choices) : "Enables match play (round-based elimination with warmup)" : 0 =
-	[
-		0 : "Disabled"
-		1 : "Enabled"
-	]
 	fraglimit(integer) : "The frag limit" : 20
-	roundlimit(integer) : "The round limit" : 20
 	capturelimit(integer) : "The capture limit" : 8
 	timelimit(integer) : "The time limit in minutes" : 20
 	give(string) : "A comma-delimited item string to give each player on spawn"
