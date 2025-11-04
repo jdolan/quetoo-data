@@ -10061,7 +10061,6 @@
 }
 // entity 66
 {
-"_minlight" "0.9777 1.000 0.784"
 "angle" "0"
 "wait" "4"
 "target" "itsatrap"
@@ -10087,26 +10086,26 @@
 }
 // entity 67
 {
-"_color" ".8 0 0"
+"color" ".8 0 0"
 "origin" "-488 -52 114"
 "classname" "target_light"
-"light" "40"
+"radius" "40"
 "team" "light2"
 "wait" "4"
-"_intensity" "0.75"
+"intensity" "0.75"
 }
 // entity 68
 {
-"_color" "0 .8 0"
+"color" "0 .8 0"
 "team" "light2"
-"light" "40"
+"radius" "40"
 "classname" "target_light"
 "wait" "4"
 "targetname" "itsatrap"
 "spawnflags" "1"
 "origin" "-488 -76 114"
 "angle" "270"
-"_intensity" "0.75"
+"intensity" "0.75"
 }
 // entity 69
 {
@@ -10120,7 +10119,7 @@
 // entity 70
 {
 "classname" "misc_fog"
-"_color" "0.686 1 0.25"
+"color" "0.686 1 0.25"
 "density" "0.75"
 "_tb_layer" "1"
 // brush 0

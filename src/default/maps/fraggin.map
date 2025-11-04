@@ -7532,10 +7532,10 @@
 {
 "classname" "misc_dust"
 "density" "3"
-"_size" "2.5"
+"size" "2.5"
 "lifetime" "4"
 "velocity" "0 0 50"
-"_color" "0 0.75 1 0.85"
+"color" "0 0.75 1 0.85"
 "_tb_group" "445"
 // brush 0
 {
@@ -7647,7 +7647,7 @@
 {
 "classname" "misc_dust"
 "density" "1"
-"_size" "1.5"
+"size" "1.5"
 "lifetime" "1"
 "velocity" "0 -25 0"
 "_tb_group" "2158"
@@ -7770,7 +7770,7 @@
 {
 "classname" "misc_dust"
 "density" "1"
-"_size" "1.5"
+"size" "1.5"
 "lifetime" "1"
 "velocity" "0 -25 0"
 "_tb_group" "2165"
@@ -7789,8 +7789,8 @@
 "classname" "light_sun"
 "origin" "0 -256 528"
 "target" "sun1"
-"_intensity" "0.45"
-"_color" "1 0.91 0.67"
+"intensity" "0.45"
+"color" "1 0.91 0.67"
 }
 // entity 24
 {
@@ -7992,7 +7992,7 @@
 {
 "classname" "misc_dust"
 "density" "2"
-"_size" "1.5"
+"size" "1.5"
 "lifetime" "4"
 "velocity" "0 -10 22"
 "_tb_group" "446"
@@ -8104,7 +8104,7 @@
 {
 "classname" "misc_dust"
 "density" "1"
-"_size" "1.5"
+"size" "1.5"
 "lifetime" "1"
 "velocity" "0 -25 0"
 "_tb_group" "515"
@@ -8212,10 +8212,10 @@
 {
 "classname" "misc_dust"
 "density" "3"
-"_size" "2.5"
+"size" "2.5"
 "lifetime" "4"
 "velocity" "0 0 50"
-"_color" "0 0.75 1 0.85"
+"color" "0 0.75 1 0.85"
 "_tb_group" "2171"
 // brush 0
 {
@@ -8231,25 +8231,25 @@
 {
 "classname" "light"
 "origin" "864 992 458"
-"light" "650"
-"_intensity" "0.35"
-"_color" "1 0.91 0.67"
+"radius" "650"
+"intensity" "0.35"
+"color" "1 0.91 0.67"
 }
 // entity 43
 {
 "classname" "light"
 "origin" "0 1184 480"
-"light" "650"
-"_intensity" "0.35"
-"_color" "1 0.91 0.67"
+"radius" "650"
+"intensity" "0.35"
+"color" "1 0.91 0.67"
 }
 // entity 44
 {
 "classname" "light"
 "origin" "-1216 0 320"
-"light" "650"
-"_intensity" "0.35"
-"_color" "1 0.91 0.67"
+"radius" "650"
+"intensity" "0.35"
+"color" "1 0.91 0.67"
 }
 // entity 45
 {
@@ -8262,9 +8262,9 @@
 {
 "classname" "light"
 "origin" "-896 1024 416"
-"light" "850"
-"_intensity" "0.2"
-"_color" "1 0.91 0.67"
+"radius" "850"
+"intensity" "0.2"
+"color" "1 0.91 0.67"
 }
 // entity 47
 {
@@ -8352,10 +8352,10 @@
 {
 "classname" "misc_dust"
 "density" "3"
-"_size" "2.5"
+"size" "2.5"
 "lifetime" "4"
 "velocity" "0 0 50"
-"_color" "0 0.75 1 0.85"
+"color" "0 0.75 1 0.85"
 "_tb_group" "2162"
 // brush 0
 {
@@ -8546,18 +8546,18 @@
 {
 "classname" "light"
 "origin" "1088 992 -246"
-"light" "375"
-"_intensity" "0.22"
-"_color" "1 0.91 0.67"
+"radius" "375"
+"intensity" "0.22"
+"color" "1 0.91 0.67"
 }
 // entity 55
 {
 "classname" "misc_light"
 "origin" "-940 0 -48"
 "style" "aaaaaaaaaazzzzzzzzzz"
-"_intensity" "1.0"
-"light" "24"
-"_color" "1 0 0"
+"intensity" "1.0"
+"radius" "24"
+"color" "1 0 0"
 }
 // entity 56
 {
@@ -29084,7 +29084,6 @@
 // entity 278
 {
 "classname" "func_group"
-"_minlight" "0.75"
 "_tb_layer" "2120"
 // brush 0
 {
@@ -29378,7 +29377,6 @@
 "health" "1"
 "wait" "5"
 "target" "btnGate1"
-"_minlight" "0.75"
 "_tb_layer" "2122"
 // brush 0
 {
@@ -29393,7 +29391,6 @@
 // entity 290
 {
 "classname" "func_door"
-"angle" "-1"
 "speed" "150"
 "sounds" "1"
 "targetname" "btnGate1"
@@ -29429,7 +29426,6 @@
 // entity 291
 {
 "classname" "func_door"
-"angle" "-1"
 "speed" "150"
 "sounds" "1"
 "targetname" "btnGate1"
@@ -29545,7 +29541,7 @@
 // entity 293
 {
 "classname" "misc_fog"
-"_color" "0 0.8 0.55 1"
+"color" "0 0.8 0.55 1"
 "_tb_layer" "2130"
 // brush 0
 {
@@ -29561,7 +29557,7 @@
 {
 "classname" "misc_fog"
 "absorption" "1"
-"_color" "0 0.8 0.55 1"
+"color" "0 0.8 0.55 1"
 "density" "0.85"
 "_tb_layer" "2130"
 // brush 0

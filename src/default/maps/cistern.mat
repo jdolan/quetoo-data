@@ -6,10 +6,8 @@
 	hardness 0
 	specularity 1
 	parallax 0
-	bloom 0
-	contents "water"
-	surface "light blend_66"
-	light.radius 50
+		contents "water"
+	surface "blend_66"
 	{
 		texture common/quake/#04water2_glow
 		blend GL_SRC_ALPHA GL_ONE
@@ -37,10 +35,8 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
-	contents "mist"
-	surface "light blend_100"
-	light.radius 50
+		contents "mist"
+	surface "blend_100"
 	{
 		texture common/quake/#teleport_luma
 		blend GL_SRC_ALPHA GL_ONE
@@ -68,7 +64,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/adoor03_6
@@ -76,7 +71,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/afloor1_3
@@ -84,7 +78,6 @@
 	hardness 1
 	specularity 1
 	parallax 3.5
-	bloom 1
 }
 {
 	diffusemap common/quake/afloor1_4
@@ -92,7 +85,6 @@
 	hardness 1
 	specularity 1
 	parallax 4
-	bloom 1
 }
 {
 	diffusemap common/quake/az1_6
@@ -100,7 +92,6 @@
 	hardness 1
 	specularity 1
 	parallax 1.5
-	bloom 1
 }
 {
 	diffusemap common/quake/city2_3
@@ -108,7 +99,6 @@
 	hardness 1
 	specularity 1
 	parallax 2.5
-	bloom 1
 }
 {
 	diffusemap common/quake/city2_6
@@ -116,7 +106,6 @@
 	hardness 1
 	specularity 1
 	parallax 2.5
-	bloom 1
 }
 {
 	diffusemap common/quake/city3_4
@@ -124,7 +113,6 @@
 	hardness 1
 	specularity 1
 	parallax 2.5
-	bloom 1
 }
 {
 	diffusemap common/quake/city4_1
@@ -132,7 +120,6 @@
 	hardness 1
 	specularity 1
 	parallax 2.5
-	bloom 1
 }
 {
 	diffusemap common/quake/cop1_2
@@ -140,7 +127,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/cop1_5
@@ -148,7 +134,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/door04_1
@@ -156,7 +141,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/door05_3
@@ -164,7 +148,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/metal1_7
@@ -172,7 +155,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/metal2_4
@@ -180,7 +162,6 @@
 	hardness 1
 	specularity 1
 	parallax 3.0
-	bloom 1
 }
 {
 	diffusemap common/sky
@@ -188,7 +169,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/trigger
@@ -196,5 +176,4 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }

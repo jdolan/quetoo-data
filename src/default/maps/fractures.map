@@ -1,13 +1,9 @@
 // entity 0
 {
-"indirect_intensity" "1.4"
 "ambient" "0.08 0.10 0.12"
 "weather" "snow"
 "sky" "hearth"
 "message" "^5S^7tress ^5F^7ractures by ^5J^7ester & ^5P^7anjoo"
-"saturation" "1.4"
-"contrast" "1"
-"brightness" "2.2"
 "classname" "worldspawn"
 "phong" "60"
 // brush 0
@@ -16392,8 +16388,8 @@
 {
 "classname" "light_sun"
 "origin" "1664 1104 864"
-"light" "64"
-"_color" ".90 .91 1.0"
+"radius" "64"
+"color" ".90 .91 1.0"
 "target" "sun"
 }
 // entity 107
@@ -16488,11 +16484,11 @@
 }
 // entity 109
 {
-"light" "400"
-"_color" ".4 .7 .9"
+"radius" "400"
+"color" ".4 .7 .9"
 "target" "t1"
 "origin" "2128 1472 640"
-"classname" "light_spot"
+"classname" "light"
 }
 // entity 110
 {
@@ -16502,11 +16498,11 @@
 }
 // entity 111
 {
-"classname" "light_spot"
+"classname" "light"
 "origin" "2128 1280 640"
 "target" "t2"
-"_color" ".4 .7 .9"
-"light" "400"
+"color" ".4 .7 .9"
+"radius" "400"
 }
 // entity 112
 {
@@ -16516,11 +16512,11 @@
 }
 // entity 113
 {
-"classname" "light_spot"
+"classname" "light"
 "origin" "1688 1336 328"
 "target" "t3"
-"_color" ".4 .7 .9"
-"light" "200"
+"color" ".4 .7 .9"
+"radius" "200"
 }
 // entity 114
 {
@@ -16530,11 +16526,11 @@
 }
 // entity 115
 {
-"light" "200"
-"_color" ".4 .7 .9"
+"radius" "200"
+"color" ".4 .7 .9"
 "target" "t4"
 "origin" "1576 1336 328"
-"classname" "light_spot"
+"classname" "light"
 }
 // entity 116
 {

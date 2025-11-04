@@ -5,7 +5,6 @@
 	parallax 0.25
 	hardness 1
 	specularity 1
-	bloom 4
 	surface "blend_33"
 	{
 		texture aerowalk/core1_1scroll
@@ -20,11 +19,7 @@
 	parallax 1
 	hardness 1
 	specularity 1
-	bloom 1
-	surface "light"
-	light.radius 50
-	light.intensity 0.55
-	{
+		{
 		texture aerowalk/lightline32_glow
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -35,7 +30,6 @@
 	parallax 0
 	hardness 1
 	specularity 1
-	bloom 1
 	surface "blend_100"
 }
 {
@@ -45,11 +39,7 @@
 	parallax 0.5
 	hardness 1
 	specularity 1
-	bloom 1
-	surface "light"
-	light.radius 275
-	light.intensity 0.5
-	light.cone 75
+		light.cone 75
 	{
 		scale.s 1.25
 		scale.t 1.25
@@ -67,7 +57,6 @@
 	parallax 0.25
 	hardness 1
 	specularity 1
-	bloom 1
 }
 {
 	material catfight/u_lamplong1b
@@ -76,11 +65,7 @@
 	parallax 0.5
 	hardness 1
 	specularity 1
-	bloom 1.5
-	surface "light"
-	light.radius 250
-	light.intensity 0.5
-	light.cone 75
+		light.cone 75
 	{
 		scale.s 1.25
 		scale.t 1.25
@@ -98,11 +83,7 @@
 	parallax 1
 	hardness 1
 	specularity 1
-	bloom 1
-	surface "light"
-	light.radius 400
-	light.intensity 0.75
-	light.cone 75
+		light.cone 75
 	{
 		scale.s 1.25
 		scale.t 1.25
@@ -119,8 +100,7 @@
 	parallax 1
 	hardness 1
 	specularity 1
-	bloom 1
-	contents "mist detail"
+		contents "mist detail"
 	surface "blend_100 material decal"
 	{
 		texture omf/wpadg_fx
@@ -136,8 +116,7 @@
 	parallax 0
 	hardness 1
 	specularity 1
-	bloom 2
-	contents "mist"
+		contents "mist"
 	surface "blend_100"
 	{
 		texture sandbox/quetoologo_glow
@@ -152,7 +131,6 @@
 	parallax 0.5
 	hardness 1
 	specularity 1
-	bloom 1
 	surface "blend_100"
 	{
 		texture skies912/u_floor3_mark_fx
@@ -167,8 +145,7 @@
 	parallax 0.75
 	hardness 1
 	specularity 1
-	bloom 1
-	{
+		{
 		texture spacectf/u_floor3_pad_7b_blend
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 0.45
@@ -181,8 +158,7 @@
 	parallax 2
 	hardness 1
 	specularity 1
-	bloom 1
-	{
+		{
 		scale.s 0.75
 		scale.t 0.75
 		flare flare_3
@@ -200,10 +176,7 @@
 	parallax 1
 	hardness 1
 	specularity 1
-	bloom 1
-	surface "light"
-	light.radius 100
-	light.cone 75
+			light.cone 75
 	{
 		scale.s 1.25
 		scale.t 1.25
@@ -221,11 +194,7 @@
 	parallax 2
 	hardness 1
 	specularity 1
-	bloom 1
-	surface "light"
-	light.radius 400
-	light.intensity 0.75
-	light.cone 75
+		light.cone 75
 	{
 		scale.s 1.25
 		scale.t 1.25
@@ -242,7 +211,6 @@
 	parallax 0.25
 	hardness 1
 	specularity 1
-	bloom 1
 }
 {
 	material evil/e7mlight
@@ -251,11 +219,7 @@
 	parallax 1
 	hardness 1
 	specularity 1
-	bloom 1
-	surface "light"
-	light.radius 200
-	light.intensity 0.5
-	light.cone 75
+		light.cone 75
 	{
 		scale.s 1.25
 		scale.t 1.25
@@ -272,5 +236,4 @@
 	parallax 1.25
 	hardness 1
 	specularity 1
-	bloom 1
 }

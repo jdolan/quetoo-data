@@ -4,9 +4,6 @@
 {
 "radiosity" "1.2"
 "ambient" "0.10 0.08 0.07"
-"contrast" "1.1"
-"saturation" "1.6"
-"brightness" "5"
 "sky" "moonfull"
 "message" "^1T^7he ^1R^7age by ^1z^7tn\n^7(ported by Panjoo)"
 "classname" "worldspawn"
@@ -8511,13 +8508,11 @@
 }
 // entity 2
 {
-"_minlight" "0.1"
 "height" "192"
 "accel" "500"
 "lip" "0"
 "speed" "200"
 "spawnflags" "1"
-"angle" "-1"
 "classname" "func_plat"
 // brush 0
 {
@@ -8540,13 +8535,11 @@
 }
 // entity 3
 {
-"_minlight" "0.1"
 "height" "192"
 "accel" "500"
 "lip" "0"
 "speed" "200"
 "spawnflags" "1"
-"angle" "-1"
 "classname" "func_plat"
 // brush 0
 {
@@ -8985,10 +8978,10 @@
 }
 // entity 68
 {
-"_size" "512"
+"size" "512"
 "target" "sun1"
-"light" "40"
-"_color" "1 0.926 0.755"
+"radius" "40"
+"color" "1 0.926 0.755"
 "origin" "48 -64 304"
 "classname" "light_sun"
 }
@@ -9474,7 +9467,7 @@
 }
 // entity 73
 {
-"_color" "1 1 1"
+"color" "1 1 1"
 "absorption" "1"
 "density" "0.55"
 "classname" "misc_fog"

@@ -5,8 +5,7 @@
 	hardness 8
 	specularity 2.28571
 	parallax 0.0816327
-	bloom 3.02041
-	{
+		{
 		texture #models/weapons/hyperblaster/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 0.6

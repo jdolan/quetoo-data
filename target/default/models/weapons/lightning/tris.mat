@@ -5,7 +5,6 @@
 	hardness 7.26531
 	specularity 3.02041
 	parallax 0.0816327
-	bloom 3.5102
 	surface "alpha_test"
 	alpha_test 0.785714
 	{

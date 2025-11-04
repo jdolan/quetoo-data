@@ -4,7 +4,6 @@
 "message" "Sandbox"
 "weather" "rain"
 "ambient" "0.2 0.2 0.2"
-"brightness" "2"
 "fog_density" ".1"
 "fog_noise" ".125"
 // brush 0
@@ -2686,72 +2685,28 @@
 "origin" "-544.000000 -544.000000 32.000000"
 "classname" "info_player_team4"
 }
-// entity 42
-{
-"targetname" "sun_target"
-"origin" "128 128 48"
-"classname" "info_notnull"
-}
-// entity 43
-{
-"target" "sun_target"
-"light" "50"
-"origin" "104 104 128"
-"classname" "light_sun"
-}
-// entity 44
-{
-"classname" "info_notnull"
-"origin" "768.000000 -256.000000 -48.000000"
-"targetname" "info_notnull1"
-}
-// entity 45
-{
-"classname" "info_notnull"
-"origin" "768.000000 0.000000 -48.000000"
-"targetname" "info_notnull3"
-}
-// entity 46
-{
-"classname" "info_notnull"
-"origin" "768.000000 256.000000 -48.000000"
-"targetname" "info_notnull2"
-}
 // entity 47
 {
-"classname" "light_spot"
+"classname" "light"
 "origin" "816 -256 272"
-"light" "500"
-"target" "info_notnull1"
-"_cone" "15"
+"radius" "500"
 }
 // entity 48
 {
-"classname" "light_spot"
+"classname" "light"
 "origin" "816 0 272"
-"_cone" "15"
-"light" "500"
-"target" "info_notnull3"
+"radius" "500"
 }
 // entity 49
 {
-"classname" "light_spot"
+"classname" "light"
 "origin" "816 256 272"
-"light" "500"
-"_cone" "15"
-"target" "info_notnull2"
-}
-// entity 50
-{
-"classname" "light_sun"
-"origin" "128 128 128"
-"light" "20"
-"target" "sun_target"
+"radius" "500"
 }
 // entity 51
 {
 "classname" "light"
 "origin" "1552 384 304"
-"light" "300"
-"_color" "1 .3 1"
+"radius" "300"
+"color" "1 .3 1"
 }

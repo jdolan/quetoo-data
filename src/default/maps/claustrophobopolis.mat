@@ -5,7 +5,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/#lava1
@@ -14,12 +13,8 @@
 	hardness 8
 	specularity 1.22449
 	parallax 0.897959
-	bloom 1.14286
-	contents "lava"
-	surface "light blend_66"
-	light.radius 160
-	light.color 1 0.4 0.2
-	light.intensity 4
+		contents "lava"
+	surface "blend_66"
 	{
 		texture common/quake/#lava1_luma
 		blend GL_SRC_COLOR GL_ONE
@@ -36,8 +31,7 @@
 	hardness 1.95918
 	specularity 0.979592
 	parallax 1
-	bloom 2.12245
-	{
+		{
 		texture common/quake/#teleport
 		warp 0.125 0.5
 	}
@@ -49,8 +43,7 @@
 	hardness 4.81633
 	specularity 0
 	parallax 1
-	bloom 0.897959
-	contents "water"
+		contents "water"
 	surface "blend_33"
 	{
 		texture common/quake/#water0_luma
@@ -68,7 +61,6 @@
 	hardness 2.04082
 	specularity 2.28571
 	parallax 8
-	bloom 1.30612
 }
 {
 	diffusemap common/quake/cop3_4
@@ -77,7 +69,6 @@
 	hardness 8
 	specularity 1.38776
 	parallax 3.10204
-	bloom 1.87755
 }
 {
 	diffusemap common/quake/light3_7
@@ -86,11 +77,7 @@
 	hardness 5.87755
 	specularity 1.79592
 	parallax 4.4898
-	bloom 4.81633
-	surface "light"
-	light.radius 320
-	light.intensity 3
-	{
+		{
 		texture common/quake/light3_7_luma
 		blend GL_SRC_COLOR GL_ONE
 	}
@@ -102,11 +89,7 @@
 	hardness 6.28571
 	specularity 1.79592
 	parallax 1
-	bloom 2.61224
-	surface "light"
-	light.radius 320
-	light.intensity 3
-	{
+		{
 		texture common/quake/light3_8_luma
 		blend GL_SRC_COLOR GL_ONE
 	}
@@ -118,7 +101,6 @@
 	hardness 4.89796
 	specularity 0.897959
 	parallax 2.20408
-	bloom 3.59184
 }
 {
 	diffusemap common/quake/met5_2
@@ -127,7 +109,6 @@
 	hardness 1.71429
 	specularity 2.77551
 	parallax 1
-	bloom 3.26531
 }
 {
 	diffusemap common/quake/met5_3
@@ -136,8 +117,7 @@
 	hardness 5.55102
 	specularity 2.69388
 	parallax 4.08163
-	bloom 3.18367
-	{
+		{
 		texture common/quake/met5_3_luma
 		blend GL_SRC_COLOR GL_ONE
 	}
@@ -149,7 +129,6 @@
 	hardness 2.44898
 	specularity 2.61224
 	parallax 1
-	bloom 3.59184
 }
 {
 	diffusemap common/quake/metal1_4
@@ -158,7 +137,6 @@
 	hardness 8
 	specularity 8
 	parallax 4.16327
-	bloom 2.12245
 }
 {
 	diffusemap common/quake/metal2_2
@@ -167,7 +145,6 @@
 	hardness 1
 	specularity 3.10204
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/metal4_3
@@ -176,7 +153,6 @@
 	hardness 1
 	specularity 1.22449
 	parallax 8
-	bloom 4.65306
 }
 {
 	diffusemap common/quake/metal4_4
@@ -185,7 +161,6 @@
 	hardness 3.59184
 	specularity 2.04082
 	parallax 8
-	bloom 1.79592
 }
 {
 	diffusemap common/quake/metal4_5
@@ -194,7 +169,6 @@
 	hardness 1
 	specularity 1.71429
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/metalt2_1
@@ -203,7 +177,6 @@
 	hardness 0.816327
 	specularity 3.42857
 	parallax 8
-	bloom 2.04082
 }
 {
 	diffusemap common/quake/metalt2_8
@@ -212,7 +185,6 @@
 	hardness 0.653061
 	specularity 1.55102
 	parallax 6.93878
-	bloom 4.08163
 }
 {
 	diffusemap common/quake/mmetal1_2
@@ -221,7 +193,6 @@
 	hardness 8
 	specularity 4.32653
 	parallax 2.77551
-	bloom 3.02041
 }
 {
 	diffusemap common/quake/muh_bad
@@ -230,7 +201,6 @@
 	hardness 3.59184
 	specularity 0.244898
 	parallax 2.28571
-	bloom 4.2449
 }
 {
 	diffusemap common/quake/plat_top2
@@ -239,7 +209,6 @@
 	hardness 4.08163
 	specularity 1.95918
 	parallax 4.4898
-	bloom 3.26531
 }
 {
 	diffusemap common/quake/rune1_1
@@ -248,7 +217,6 @@
 	hardness 1
 	specularity 2.04082
 	parallax 3.02041
-	bloom 2.69388
 }
 {
 	diffusemap common/quake/rune1_5
@@ -257,7 +225,6 @@
 	hardness 2.28571
 	specularity 2.85714
 	parallax 1
-	bloom 2.69388
 }
 {
 	diffusemap common/quake/rune1_6
@@ -266,7 +233,6 @@
 	hardness 3.02041
 	specularity 3.26531
 	parallax 3.02041
-	bloom 2.36735
 }
 {
 	diffusemap common/quake/rune1_7
@@ -275,7 +241,6 @@
 	hardness 5.06122
 	specularity 2.20408
 	parallax 0.979592
-	bloom 3.02041
 }
 {
 	diffusemap common/quake/rune2_1
@@ -284,11 +249,7 @@
 	hardness 5.55102
 	specularity 1.79592
 	parallax 2.61224
-	bloom 2
-	surface "light"
-	light.radius 220
-	light.intensity 2
-	{
+		{
 		texture common/quake/rune2_1_luma
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -300,11 +261,7 @@
 	hardness 0
 	specularity 1.22449
 	parallax 5.95918
-	bloom 2.12245
-	surface "light"
-	light.radius 220
-	light.intensity 2
-	{
+		{
 		texture common/quake/rune2_2_luma
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -316,11 +273,7 @@
 	hardness 2.69388
 	specularity 2.36735
 	parallax 1
-	bloom 3.26531
-	surface "light"
-	light.radius 220
-	light.intensity 2
-	{
+		{
 		texture common/quake/rune2_3_luma
 		blend GL_ONE GL_ONE
 	}
@@ -332,11 +285,7 @@
 	hardness 4.32653
 	specularity 2.44898
 	parallax 3.34694
-	bloom 2.28571
-	surface "light"
-	light.radius 220
-	light.intensity 2
-	{
+		{
 		texture common/quake/rune2_4_luma
 		blend GL_ONE GL_ONE
 	}
@@ -348,11 +297,7 @@
 	hardness 2.28571
 	specularity 4.32653
 	parallax 1
-	bloom 2.36735
-	surface "light"
-	light.radius 220
-	light.intensity 2
-	{
+		{
 		texture common/quake/rune2_5_luma
 		blend GL_ONE GL_ONE
 	}
@@ -364,5 +309,4 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }

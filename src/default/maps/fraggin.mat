@@ -5,7 +5,6 @@
 	hardness 1.5
 	specularity 1
 	parallax 0.25
-	bloom 1
 	surface "blend_100"
 }
 {
@@ -14,7 +13,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/clip
@@ -22,7 +20,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/dust
@@ -30,7 +27,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/nodraw
@@ -38,7 +34,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/basebutn3
@@ -48,10 +43,7 @@
 	hardness 1
 	specularity 1
 	parallax 1.75
-	bloom 1
-	surface "light"
-	light.radius 64
-	{
+		{
 		texture common/quake/basebutn3_luma
 		blend GL_SRC_ALPHA GL_ONE
 		color 1 0 0 1
@@ -63,10 +55,7 @@
 	hardness 0
 	specularity 1
 	parallax 0
-	bloom 1
-	contents "slime detail"
-	surface "light"
-	light.radius 50
+		contents "slime detail"
 	{
 		texture common/quake/brown_water
 		blend GL_SRC_ALPHA GL_ONE
@@ -81,7 +70,6 @@
 	hardness 1
 	specularity 1
 	parallax 2.5
-	bloom 1
 }
 {
 	diffusemap common/quake/city2_3
@@ -91,7 +79,6 @@
 	hardness 1
 	specularity 1
 	parallax 2.5
-	bloom 1
 }
 {
 	diffusemap common/quake/city2_7
@@ -101,7 +88,6 @@
 	hardness 1
 	specularity 1
 	parallax 2.5
-	bloom 1
 }
 {
 	diffusemap common/quake/city3_4
@@ -109,7 +95,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/city4_2
@@ -119,7 +104,6 @@
 	hardness 1
 	specularity 1
 	parallax 2.5
-	bloom 1
 }
 {
 	diffusemap common/quake/city4_6
@@ -129,7 +113,6 @@
 	hardness 1
 	specularity 1
 	parallax 2.5
-	bloom 1
 }
 {
 	diffusemap common/quake/city4_7
@@ -139,7 +122,6 @@
 	hardness 1
 	specularity 1
 	parallax 2.5
-	bloom 1
 }
 {
 	diffusemap common/quake/city4_8
@@ -149,7 +131,6 @@
 	hardness 1
 	specularity 1
 	parallax 2.5
-	bloom 1
 }
 {
 	diffusemap common/quake/cop1_1
@@ -159,7 +140,6 @@
 	hardness 2
 	specularity 1
 	parallax 1.25
-	bloom 1
 }
 {
 	diffusemap common/quake/cop1_2
@@ -169,7 +149,6 @@
 	hardness 2
 	specularity 1
 	parallax 1.25
-	bloom 1
 }
 {
 	diffusemap common/quake/cop1_8
@@ -179,7 +158,6 @@
 	hardness 2
 	specularity 1
 	parallax 1.25
-	bloom 1
 }
 {
 	diffusemap common/quake/cop2_2
@@ -189,7 +167,6 @@
 	hardness 2
 	specularity 1
 	parallax 1.25
-	bloom 1
 }
 {
 	diffusemap common/quake/cop2_5
@@ -199,7 +176,6 @@
 	hardness 2
 	specularity 1
 	parallax 1.25
-	bloom 1
 }
 {
 	diffusemap common/quake/du3jed
@@ -209,7 +185,6 @@
 	hardness 1
 	specularity 1
 	parallax 1.5
-	bloom 1
 }
 {
 	diffusemap common/quake/light1_1
@@ -219,11 +194,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1.5
-	surface "light"
-	light.radius 425
-	light.intensity 0.65
-	{
+		{
 		scale.s 1.25
 		scale.t 1.25
 		flare flare_1
@@ -241,10 +212,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1.5
-	surface "light"
-	light.radius 175
-	{
+		{
 		scale.s 1.25
 		scale.t 1.25
 		flare flare_1
@@ -262,11 +230,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1.5
-	surface "light"
-	light.radius 400
-	light.intensity 0.8
-	{
+		{
 		scale.s 0.75
 		scale.t 0.75
 		flare flare_1
@@ -283,11 +247,7 @@
 	hardness 1
 	specularity 1
 	parallax 1.5
-	bloom 1.5
-	contents "mist detail"
-	surface "light"
-	light.radius 260
-	light.intensity 0.725
+		contents "mist detail"
 	{
 		texture common/quake/lite_fart3_luma
 		blend GL_SRC_ALPHA GL_ONE
@@ -308,7 +268,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/metal2_3
@@ -316,7 +275,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/metal4_4
@@ -324,7 +282,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/metal4_5
@@ -332,7 +289,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/metal4_8
@@ -340,7 +296,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/metal5_3
@@ -348,7 +303,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/rock3_8
@@ -356,7 +310,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/rock4_1
@@ -364,7 +317,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/sfloor4_6
@@ -372,7 +324,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/tech04_7
@@ -380,7 +331,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/tech04_9
@@ -388,7 +338,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/tyr_09
@@ -396,7 +345,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/tyr_15
@@ -404,7 +352,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/wbrick1_4
@@ -412,7 +359,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/quake/window01_4
@@ -422,9 +368,7 @@
 	hardness 4
 	specularity 0.5
 	parallax 1.5
-	bloom 1
-	surface "light blend_66"
-	light.radius 150
+	surface "blend_66"
 }
 {
 	diffusemap common/quake/wswamp1_4
@@ -432,7 +376,6 @@
 	hardness 1
 	specularity 1
 	parallax 3
-	bloom 1
 }
 {
 	diffusemap common/quake/wswamp2_3
@@ -440,7 +383,6 @@
 	hardness 1
 	specularity 1
 	parallax 3
-	bloom 1
 }
 {
 	diffusemap common/quake2/eq2_banner
@@ -448,8 +390,7 @@
 	hardness 0
 	specularity 1
 	parallax 0.5
-	bloom 1
-	contents "mist"
+		contents "mist"
 	surface "blend_100"
 }
 {
@@ -458,7 +399,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap common/trigger
@@ -466,7 +406,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap darkzone/#teleport
@@ -475,10 +414,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
-	surface "light"
-	light.radius 64
-	{
+		{
 		texture darkzone/#teleport_gloss
 		blend GL_SRC_ALPHA GL_ONE
 		color 1 1 1 0.75
@@ -491,7 +427,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap darkzone/metal4_4
@@ -499,7 +434,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap omf/wpadg
@@ -507,8 +441,7 @@
 	hardness 0
 	specularity 1
 	parallax 0
-	bloom 1
-	contents "mist detail"
+		contents "mist detail"
 	surface "blend_100 material decal"
 	{
 		texture omf/wpadg_fx
@@ -524,11 +457,8 @@
 	hardness 1
 	specularity 1
 	parallax 0
-	bloom 2
-	contents "mist"
-	surface "light blend_100"
-	light.radius 128
-	light.intensity 0.15
+		contents "mist"
+	surface "blend_100"
 	{
 		texture sandbox/quetoologo_glow
 		blend GL_SRC_ALPHA GL_ONE
@@ -542,7 +472,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
 }
 {
 	diffusemap turbo/padbase
@@ -551,12 +480,8 @@
 	hardness 1
 	specularity 1
 	parallax 1
-	bloom 1
-	contents "mist detail"
-	surface "light blend_100"
-	light.radius 64
-	light.color 1 0.25 0.25
-	light.intensity 0.75
+		contents "mist detail"
+	surface "blend_100"
 	{
 		color 1 0.1 0.1 1
 		scale.s 0.75

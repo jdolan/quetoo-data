@@ -3,8 +3,7 @@
 	roughness 3.59184
 	hardness 5.38775
 	specularity 2.04082
-	bloom 3.67347
-	{
+		{
 		texture #models/powerups/adren/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 1

@@ -5,8 +5,7 @@
 	hardness 8
 	specularity 1.95918
 	parallax 0.0816327
-	bloom 3.02041
-	{
+		{
 		texture #models/weapons/grenadelauncher/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 0.75

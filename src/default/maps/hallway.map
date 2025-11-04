@@ -1,11 +1,8 @@
 // entity 0
 {
 "ambient" "0.14 0.11 0.07"
-"brightness" "3.0"
 "sky" "violentdays"
 "message" "Lost Hallways"
-"contrast" "1.0"
-"saturation" "1.1"
 "classname" "worldspawn"
 "radiosity" "1.5"
 "fog_absorption" ".33"
@@ -25480,8 +25477,8 @@
 }
 // entity 110
 {
-"light" "72"
-"_color" "1.00 0.26 0.00"
+"radius" "72"
+"color" "1.00 0.26 0.00"
 "hz" "0.1"
 "drift" "0.15"
 "origin" "1504.000000 1072.000000 -63.000000"
@@ -25705,8 +25702,8 @@
 // entity 126
 {
 "target" "sun1"
-"_color" "1 0.8 0.5"
-"light" "50"
+"color" "1 0.8 0.5"
+"radius" "50"
 "origin" "0 64 592"
 "classname" "light_sun"
 }
@@ -25719,7 +25716,7 @@
 // entity 128
 {
 "classname" "misc_fog"
-"_color" "0.3 0.1 0.1"
+"color" "0.3 0.1 0.1"
 "density" ".4"
 // brush 0
 {
@@ -25753,7 +25750,7 @@
 {
 "classname" "misc_fog"
 "density" ".4"
-"_color" ".3 .1 .1"
+"color" ".3 .1 .1"
 // brush 0
 {
 ( 952 120 -64 ) ( 952 -328 -64 ) ( 952 -328 -192 ) common/fog 0 0 0 0.500000 0.500000 
@@ -25766,7 +25763,7 @@
 }
 // entity 130
 {
-"_color" ".3 .1 .1"
+"color" ".3 .1 .1"
 "density" ".4"
 "classname" "misc_fog"
 // brush 0
@@ -25783,7 +25780,7 @@
 {
 "classname" "misc_fog"
 "density" ".4"
-"_color" ".3 .1 .1"
+"color" ".3 .1 .1"
 // brush 0
 {
 ( 1472 1376 -96 ) ( 1472 928 -96 ) ( 1472 928 -192 ) common/fog 0 0 0 0.500000 0.500000 
@@ -25797,7 +25794,7 @@
 // entity 132
 {
 "classname" "misc_fog"
-"_color" ".1 .3 .2"
+"color" ".1 .3 .2"
 "density" ".4"
 "absorption" ".8"
 // brush 0
@@ -25832,7 +25829,7 @@
 {
 "classname" "misc_fog"
 "absorption" ".8"
-"_color" ".1 .3 .2"
+"color" ".1 .3 .2"
 "density" ".4"
 // brush 0
 {

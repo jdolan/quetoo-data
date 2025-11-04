@@ -31128,7 +31128,7 @@
 // entity 115
 {
 "classname" "misc_fog"
-"_color" "0 0 1 1"
+"color" "0 0 1 1"
 "absorption" "0.5"
 "density" "0.25"
 "_tb_layer" "513"
@@ -31147,7 +31147,7 @@
 // entity 116
 {
 "classname" "misc_dust"
-"_size" "3"
+"size" "3"
 "velocity" "0 0 25"
 "lifetime" "25"
 "density" "1.0"
@@ -31894,37 +31894,37 @@
 // entity 124
 {
 "target" "suns"
-"_color" "1.0 0.9 0.8"
+"color" "1.0 0.9 0.8"
 "origin" "280 -40 752"
 "classname" "light_sun"
-"_intensity" "1.0"
+"intensity" "1.0"
 "_tb_layer" "523"
 }
 // entity 125
 {
 "target" "suns"
-"_color" "1.0 0.9 0.8"
+"color" "1.0 0.9 0.8"
 "origin" "336 -96 752"
 "classname" "light_sun"
-"_intensity" "1.0"
+"intensity" "1.0"
 "_tb_layer" "523"
 }
 // entity 126
 {
 "target" "suns"
-"_color" "1.0 0.9 0.8"
+"color" "1.0 0.9 0.8"
 "origin" "224 -96 752"
 "classname" "light_sun"
-"_intensity" "1.0"
+"intensity" "1.0"
 "_tb_layer" "523"
 }
 // entity 127
 {
 "target" "suns"
-"_color" "1.0 0.9 0.8"
+"color" "1.0 0.9 0.8"
 "origin" "280 -152 752"
 "classname" "light_sun"
-"_intensity" "1.0"
+"intensity" "1.0"
 "_tb_layer" "523"
 }
 // entity 128
@@ -31937,18 +31937,18 @@
 // entity 129
 {
 "target" "suns"
-"_color" "1.0 0.9 0.8"
+"color" "1.0 0.9 0.8"
 "origin" "280 -96 752"
 "classname" "light_sun"
-"_intensity" "1.0"
+"intensity" "1.0"
 "_tb_layer" "523"
 }
 // entity 130
 {
 "classname" "light"
 "origin" "1536 576 112"
-"light" "185"
-"_intensity" "0.5"
+"radius" "185"
+"intensity" "0.5"
 "_tb_layer" "523"
 }
 // entity 131
@@ -32124,16 +32124,16 @@
 {
 "classname" "light"
 "origin" "-208 -1024 -330"
-"light" "100"
-"_intensity" "0.5"
+"radius" "100"
+"intensity" "0.5"
 "_tb_layer" "523"
 }
 // entity 153
 {
 "classname" "light"
 "origin" "224 -976 -330"
-"light" "100"
-"_intensity" "0.5"
+"radius" "100"
+"intensity" "0.5"
 "_tb_layer" "523"
 }
 // entity 154
@@ -32158,8 +32158,8 @@
 {
 "classname" "light"
 "origin" "618 558 -394"
-"light" "100"
-"_intensity" "0.5"
+"radius" "100"
+"intensity" "0.5"
 "_tb_layer" "523"
 }
 // entity 158

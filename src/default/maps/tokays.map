@@ -12372,11 +12372,11 @@
 // entity 86
 {
 "classname" "light_sun"
-"_color" "0.85 0.757 0.467"
+"color" "0.85 0.757 0.467"
 "target" "sun1"
 "origin" "640.000000 -416.000000 1264.000000"
-"_intensity" "0.75"
-"_size" "64"
+"intensity" "0.75"
+"size" "64"
 }
 // entity 87
 {
@@ -12387,11 +12387,11 @@
 // entity 88
 {
 "classname" "light_sun"
-"_color" "0.85 0.757 0.467"
+"color" "0.85 0.757 0.467"
 "target" "sun2"
 "origin" "640.000000 -368.000000 1264.000000"
-"_intensity" "0.15"
-"_size" "64"
+"intensity" "0.15"
+"size" "64"
 }
 // entity 89
 {
@@ -12405,9 +12405,9 @@
 "classname" "misc_dust"
 "lighting" "1"
 "_end_color" "0 0 1 0"
-"_color" "0 0 1 1"
+"color" "0 0 1 1"
 "density" "0.35"
-"_size" "2"
+"size" "2"
 "acceleration" "0 0 -0.2"
 "lifetime" "2"
 "velocity" "0 0 21"
@@ -12434,9 +12434,9 @@
 // entity 91
 {
 "classname" "misc_dust"
-"_color" "0 0 1 1"
+"color" "0 0 1 1"
 "_end_color" "0 0 1 0"
-"_size" "2"
+"size" "2"
 "acceleration" "0 0 -0.2"
 "density" "0.35"
 "lifetime" "2"
@@ -12456,7 +12456,7 @@
 // entity 92
 {
 "classname" "misc_dust"
-"_color" "40 0.33 1 0.5"
+"color" "40 0.33 1 0.5"
 "_end_color" "24 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12473,7 +12473,7 @@
 // entity 93
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.25"
 "softness" "4"
@@ -12490,7 +12490,7 @@
 // entity 94
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.35"
 "softness" "2"
@@ -12507,7 +12507,7 @@
 // entity 95
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.35"
 "softness" "2"
@@ -12524,7 +12524,7 @@
 // entity 96
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.35"
 "softness" "2"
@@ -12541,7 +12541,7 @@
 // entity 97
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.35"
 "softness" "2"
@@ -12558,7 +12558,7 @@
 // entity 98
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.35"
 "softness" "2"
@@ -12575,7 +12575,7 @@
 // entity 99
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.35"
 "softness" "2"
@@ -12592,7 +12592,7 @@
 // entity 100
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.25"
 "softness" "4"
@@ -12609,7 +12609,7 @@
 // entity 101
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.25"
 "softness" "4"
@@ -12626,7 +12626,7 @@
 // entity 102
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.25"
 "softness" "4"
@@ -12643,7 +12643,7 @@
 // entity 103
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.25"
 "softness" "4"
@@ -12660,7 +12660,7 @@
 // entity 104
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.35"
 "softness" "2"
@@ -12677,7 +12677,7 @@
 // entity 105
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.35"
 "softness" "2"
@@ -12694,7 +12694,7 @@
 // entity 106
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.25"
 "softness" "4"
@@ -12711,7 +12711,7 @@
 // entity 107
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.25"
 "softness" "4"
@@ -12728,7 +12728,7 @@
 // entity 108
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.25"
 "softness" "4"
@@ -12745,7 +12745,7 @@
 // entity 109
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12762,7 +12762,7 @@
 // entity 110
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12779,7 +12779,7 @@
 // entity 111
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12796,7 +12796,7 @@
 // entity 112
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12813,7 +12813,7 @@
 // entity 113
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12830,7 +12830,7 @@
 // entity 114
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12847,7 +12847,7 @@
 // entity 115
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12864,7 +12864,7 @@
 // entity 116
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12881,7 +12881,7 @@
 // entity 117
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12898,7 +12898,7 @@
 // entity 118
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12915,7 +12915,7 @@
 // entity 119
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12932,7 +12932,7 @@
 // entity 120
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12949,7 +12949,7 @@
 // entity 121
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12966,7 +12966,7 @@
 // entity 122
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -12983,7 +12983,7 @@
 // entity 123
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13000,7 +13000,7 @@
 // entity 124
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13017,7 +13017,7 @@
 // entity 125
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13034,7 +13034,7 @@
 // entity 126
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13051,7 +13051,7 @@
 // entity 127
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13068,7 +13068,7 @@
 // entity 128
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13085,7 +13085,7 @@
 // entity 129
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13102,7 +13102,7 @@
 // entity 130
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13119,7 +13119,7 @@
 // entity 131
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13136,7 +13136,7 @@
 // entity 132
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13153,7 +13153,7 @@
 // entity 133
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13170,7 +13170,7 @@
 // entity 134
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13187,7 +13187,7 @@
 // entity 135
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13204,7 +13204,7 @@
 // entity 136
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13221,7 +13221,7 @@
 // entity 137
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13238,7 +13238,7 @@
 // entity 138
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13255,7 +13255,7 @@
 // entity 139
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13272,7 +13272,7 @@
 // entity 140
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13289,7 +13289,7 @@
 // entity 141
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13306,7 +13306,7 @@
 // entity 142
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13323,7 +13323,7 @@
 // entity 143
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13340,7 +13340,7 @@
 // entity 144
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13357,7 +13357,7 @@
 // entity 145
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13374,7 +13374,7 @@
 // entity 146
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13391,7 +13391,7 @@
 // entity 147
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13408,7 +13408,7 @@
 // entity 148
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13425,7 +13425,7 @@
 // entity 149
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13442,7 +13442,7 @@
 // entity 150
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13459,7 +13459,7 @@
 // entity 151
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13476,7 +13476,7 @@
 // entity 152
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13493,7 +13493,7 @@
 // entity 153
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13510,7 +13510,7 @@
 // entity 154
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13527,7 +13527,7 @@
 // entity 155
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13544,7 +13544,7 @@
 // entity 156
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13561,7 +13561,7 @@
 // entity 157
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13578,7 +13578,7 @@
 // entity 158
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13595,7 +13595,7 @@
 // entity 159
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13612,7 +13612,7 @@
 // entity 160
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13629,7 +13629,7 @@
 // entity 161
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13646,7 +13646,7 @@
 // entity 162
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13663,7 +13663,7 @@
 // entity 163
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13680,7 +13680,7 @@
 // entity 164
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13697,7 +13697,7 @@
 // entity 165
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13714,7 +13714,7 @@
 // entity 166
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13731,7 +13731,7 @@
 // entity 167
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13748,7 +13748,7 @@
 // entity 168
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13765,7 +13765,7 @@
 // entity 169
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13782,7 +13782,7 @@
 // entity 170
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13799,7 +13799,7 @@
 // entity 171
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13816,7 +13816,7 @@
 // entity 172
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13833,7 +13833,7 @@
 // entity 173
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13850,7 +13850,7 @@
 // entity 174
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13867,7 +13867,7 @@
 // entity 175
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13884,7 +13884,7 @@
 // entity 176
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13901,7 +13901,7 @@
 // entity 177
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.35"
 "softness" "2"
@@ -13918,7 +13918,7 @@
 // entity 178
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.35"
 "softness" "2"
@@ -13935,7 +13935,7 @@
 // entity 179
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.35"
 "softness" "2"
@@ -13952,7 +13952,7 @@
 // entity 180
 {
 "classname" "misc_dust"
-"_color" "166 0.33 1 0.5"
+"color" "166 0.33 1 0.5"
 "_end_color" "166 0.66 1 0.5"
 "density" "0.35"
 "softness" "2"
@@ -13969,7 +13969,7 @@
 // entity 181
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -13986,7 +13986,7 @@
 // entity 182
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14003,7 +14003,7 @@
 // entity 183
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14020,7 +14020,7 @@
 // entity 184
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14037,7 +14037,7 @@
 // entity 185
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14054,7 +14054,7 @@
 // entity 186
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14071,7 +14071,7 @@
 // entity 187
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14088,7 +14088,7 @@
 // entity 188
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14105,7 +14105,7 @@
 // entity 189
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14122,7 +14122,7 @@
 // entity 190
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14139,7 +14139,7 @@
 // entity 191
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14156,7 +14156,7 @@
 // entity 192
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14173,7 +14173,7 @@
 // entity 193
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14190,7 +14190,7 @@
 // entity 194
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14207,7 +14207,7 @@
 // entity 195
 {
 "classname" "misc_dust"
-"_color" "53 0.33 1 0.5"
+"color" "53 0.33 1 0.5"
 "_end_color" "33 0.66 1 0.5"
 "density" "0.25"
 "softness" "2"
@@ -14233,7 +14233,7 @@
 // entity 197
 {
 "classname" "misc_fog"
-"_color" "0.454 0.392 0.126"
+"color" "0.454 0.392 0.126"
 "absorption" "0.25"
 "density" "0.75"
 "_tb_layer" "1"
@@ -14250,7 +14250,7 @@
 // entity 198
 {
 "classname" "misc_fog"
-"_color" "0.454 0.392 0.126"
+"color" "0.454 0.392 0.126"
 "absorption" "0.25"
 "density" "0.75"
 "_tb_layer" "1"
@@ -14271,7 +14271,7 @@
 // entity 199
 {
 "classname" "misc_fog"
-"_color" "0.454 0.392 0.126"
+"color" "0.454 0.392 0.126"
 "absorption" "0.25"
 "density" "0.75"
 "_tb_layer" "1"
@@ -14288,7 +14288,7 @@
 // entity 200
 {
 "classname" "misc_fog"
-"_color" "0.454 0.392 0.126"
+"color" "0.454 0.392 0.126"
 "absorption" "0.25"
 "density" "0.75"
 "_tb_layer" "1"
@@ -14313,7 +14313,7 @@
 // entity 201
 {
 "classname" "misc_fog"
-"_color" "0.454 0.392 0.126"
+"color" "0.454 0.392 0.126"
 "absorption" "0.25"
 "density" "0.75"
 "_tb_layer" "1"

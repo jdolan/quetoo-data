@@ -3,57 +3,49 @@
 	roughness 1
 	hardness 1
 	specularity 1
-	bloom 1
 }
 {
 	material common/clip
 	roughness 1
 	hardness 1
 	specularity 1
-	bloom 1
 }
 {
 	material common/dust
 	roughness 1
 	hardness 1
 	specularity 1
-	bloom 1
 }
 {
 	material common/fog
 	roughness 1
 	hardness 1
 	specularity 1
-	bloom 1
 }
 {
 	material common/occlude
 	roughness 1
 	hardness 1
 	specularity 1
-	bloom 1
 }
 {
 	material common/sky
 	roughness 1
 	hardness 1
 	specularity 1
-	bloom 8
 }
 {
 	material common/trigger
 	roughness 1
 	hardness 1
 	specularity 1
-	bloom 1
 }
 {
 	material rygel/#04mwat2
 	roughness 0.653061
 	hardness 5.95918
 	specularity 0.244898
-	bloom 1.38776
-	contents "water"
+		contents "water"
 	surface "blend_33"
 	{
 		texture rygel/#04mwat2
@@ -68,10 +60,8 @@
 	roughness 1
 	hardness 1
 	specularity 1.71429
-	bloom 0.734694
-	contents "lava"
-	surface "light blend_66"
-	light.radius 120
+		contents "lava"
+	surface "blend_66"
 	{
 		texture rygel/#lava1
 		warp 0.2 0.2
@@ -83,8 +73,7 @@
 	roughness 0.979592
 	hardness 0.979592
 	specularity 0.979592
-	bloom 4.57143
-	{
+		{
 		texture rygel/#teleport
 		warp 0.125 0.5
 		lightmap
@@ -95,24 +84,19 @@
 	roughness 3.02041
 	hardness 1
 	specularity 3.5102
-	bloom 1.30612
 }
 {
 	material rygel/cop3_4
 	roughness 1.71429
 	hardness 1
 	specularity 2.85714
-	bloom 1.87755
 }
 {
 	material rygel/light3_7
 	roughness 1.14286
 	hardness 7.18367
 	specularity 3.02041
-	bloom 6.61225
-	surface "light"
-	light.radius 250
-	{
+		{
 		texture rygel/light3_7_luma
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -125,10 +109,7 @@
 	roughness 1.46939
 	hardness 5.71429
 	specularity 2.12245
-	bloom 4
-	surface "light"
-	light.radius 250
-	{
+		{
 		texture rygel/light3_8_luma
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -141,136 +122,115 @@
 	roughness 1.06122
 	hardness 4
 	specularity 4.40816
-	bloom 4.08163
 }
 {
 	material rygel/met5_2
 	roughness 1.55102
 	hardness 1
 	specularity 3.5102
-	bloom 1.46939
 }
 {
 	material rygel/met5_3
 	roughness 3.26531
 	hardness 5.55102
 	specularity 2.69388
-	bloom 8
 }
 {
 	material rygel/metal1_3
 	roughness 0.653061
 	hardness 2.44898
 	specularity 5.06122
-	bloom 5.46939
 }
 {
 	material rygel/metal1_4
 	roughness 0.897959
 	hardness 4.32653
 	specularity 4.65306
-	bloom 2.61224
 }
 {
 	material rygel/metal2_2
 	roughness 2.12245
 	hardness 1
 	specularity 3.10204
-	bloom 1
 }
 {
 	material rygel/metal4_3
 	roughness 1
 	hardness 1
 	specularity 1
-	bloom 1
 }
 {
 	material rygel/metal4_4
 	roughness 1.30612
 	hardness 2.69388
 	specularity 5.14286
-	bloom 3.10204
 }
 {
 	material rygel/metal4_5
 	roughness 1.55102
 	hardness 1
 	specularity 1.71429
-	bloom 1
 }
 {
 	material rygel/metalt2_1
 	roughness 0.734694
 	hardness 0.734694
 	specularity 2.36735
-	bloom 2.53061
 }
 {
 	material rygel/metalt2_8
 	roughness 1.14286
 	hardness 0.653061
 	specularity 4.16327
-	bloom 2.36735
 }
 {
 	material rygel/mmetal1_2
 	roughness 2.04082
 	hardness 2.36735
 	specularity 1.30612
-	bloom 1.95918
 }
 {
 	material rygel/muh_bad
 	roughness 1.38776
 	hardness 3.18367
 	specularity 3.7551
-	bloom 3.7551
 }
 {
 	material rygel/plat_top2
 	roughness 1.63265
 	hardness 4.08163
 	specularity 3.02041
-	bloom 1.87755
 }
 {
 	material rygel/rune1_1
 	roughness 1
 	hardness 1
 	specularity 2.04082
-	bloom 2
 }
 {
 	material rygel/rune1_5
 	roughness 1.30612
 	hardness 7.18367
 	specularity 1.95918
-	bloom 6.36735
 }
 {
 	material rygel/rune1_6
 	roughness 1
 	hardness 2.12245
 	specularity 3.26531
-	bloom 2.36735
 }
 {
 	material rygel/rune1_7
 	roughness 1
 	hardness 1
 	specularity 3.26531
-	bloom 2
 }
 {
 	material rygel/rune2_1
 	roughness 1
 	hardness 1
 	specularity 1.79592
-	bloom 2
-	surface "light"
-	light.radius 160
-	{
+		{
 		texture rygel/rune2_1_luma
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -280,10 +240,7 @@
 	roughness 0.734694
 	hardness 2.85714
 	specularity 3.02041
-	bloom 3.02041
-	surface "light"
-	light.radius 160
-	{
+		{
 		texture rygel/rune2_2_luma
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -293,10 +250,7 @@
 	roughness 0.408163
 	hardness 2.69388
 	specularity 3.34694
-	bloom 3.91837
-	surface "light"
-	light.radius 160
-	{
+		{
 		texture rygel/rune2_3_luma
 		blend GL_ONE GL_ONE
 	}
@@ -306,10 +260,7 @@
 	roughness 1.14286
 	hardness 5.22449
 	specularity 3.59184
-	bloom 3.5102
-	surface "light"
-	light.radius 160
-	{
+		{
 		texture rygel/rune2_4_luma
 		blend GL_ONE GL_ONE
 	}
@@ -319,10 +270,7 @@
 	roughness 0.653061
 	hardness 3.34694
 	specularity 3.10204
-	bloom 3.59184
-	surface "light"
-	light.radius 160
-	{
+		{
 		texture rygel/rune2_5_luma
 		blend GL_ONE GL_ONE
 	}

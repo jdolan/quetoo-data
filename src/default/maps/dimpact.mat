@@ -213,7 +213,6 @@
 		flare flare_0
 	}
 }
-
 {
 	material dimpact/light_flouro1a
 	bump 1.0

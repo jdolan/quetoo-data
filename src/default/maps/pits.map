@@ -14408,7 +14408,6 @@
 // entity 73
 {
 "classname" "func_door"
-"_minlight" "0.2"
 "angle" "360"
 "targetname" "theplank"
 "speed" "70"
@@ -15238,7 +15237,6 @@
 {
 "classname" "func_button"
 "lip" "8"
-"_minlight" "0.2"
 "angle" "270"
 "wait" "15"
 "target" "theplank"
@@ -15843,7 +15841,6 @@
 {
 "classname" "func_plat"
 "spawnflags" "1"
-"_minlight" "0.6"
 // brush 0
 {
 ( -916 -283.25 320 ) ( -916 -260 312 ) ( -916 -260 320 ) common/caulk 0 0 0 0.5 0.5 1 0 0
@@ -15897,8 +15894,8 @@
 {
 "classname" "target_light"
 "team" "light1"
-"light" "40"
-"_color" "0 .4 0"
+"radius" "40"
+"color" "0 .4 0"
 "targetname" "theplank"
 "wait" "15"
 "spawnflags" "1"
@@ -15908,8 +15905,8 @@
 {
 "classname" "target_light"
 "origin" "-1052.000000 -120.000000 88.000000"
-"_color" ".4 0 0"
-"light" "40"
+"color" ".4 0 0"
+"radius" "40"
 "team" "light1"
 }
 // entity 85
@@ -15953,12 +15950,9 @@
 // entity 90
 {
 "classname" "light"
-"_color" "0.816 0.753 0.514"
+"color" "0.816 0.753 0.514"
 "origin" "-532.000000 -340.000000 778.000000"
-"light" "190"
-"_size" "60"
-"target" "fakesun"
-"_cone" "60"
+"radius" "190"
 }
 // entity 91
 {
@@ -15976,10 +15970,10 @@
 {
 "classname" "light_sun"
 "target" "sun"
-"_color" "0.8 0.7 0.3"
+"color" "0.8 0.7 0.3"
 "origin" "-896.000000 1232.000000 712.000000"
-"_size" "128"
-"_intensity" ".666"
+"size" "128"
+"intensity" ".666"
 }
 // entity 94
 {
@@ -16036,13 +16030,10 @@
 // entity 103
 {
 "classname" "light"
-"_color" "0.816 0.753 0.514"
+"color" "0.816 0.753 0.514"
 "origin" "-748.000000 12.000000 858.000000"
-"light" "170"
-"_size" "50"
-"target" "fakesun2"
-"_cone" "60"
-"_intensity" "0.666"
+"radius" "170"
+"intensity" "0.666"
 }
 // entity 104
 {

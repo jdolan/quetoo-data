@@ -1,6 +1,5 @@
 // entity 0
 {
-"brightness" "2"
 "ambient" ".369 .314 .251"
 "sky" "dragonheart"
 "classname" "worldspawn"
@@ -99,8 +98,8 @@
 {
 "origin" "1588.000000 904.000000 1184.000000"
 "target" "t3"
-"_color" ".851 .675 .384"
-"light" "120"
+"color" ".851 .675 .384"
+"radius" "120"
 "classname" "light_sun"
 }
 // entity 2

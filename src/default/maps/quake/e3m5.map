@@ -2,8 +2,7 @@
  "classname" "worldspawn"
  "message" "the Wind Tunnels"
  "ambient" ".05 .05 .05"
- "brightness" "1"
- "give" "shotgun"
+  "give" "shotgun"
  "sky" "sky1"
  {
   ( 1592 -1472 232 ) ( 1592 -1512 232 ) ( 1592 -1512 264 ) common/quake/metal2_4 0 0 0 0.0625 0.0625
@@ -15402,8 +15401,7 @@
 }
 {
  "classname" "trigger_push"
- "angle" "-1"
- "speed" "75"
+  "speed" "75"
  {
   ( 560 -1768 -224 ) ( 560 -1880 -224 ) ( 560 -1880 -232 ) common/trigger 0 0 0 0.5 0.5
   ( 680 -1780 -224 ) ( 552 -1780 -224 ) ( 552 -1780 -232 ) common/trigger 0 0 0 0.5 0.5
@@ -15415,8 +15413,7 @@
 }
 {
  "speed" "75"
- "angle" "-1"
- "classname" "trigger_push"
+  "classname" "trigger_push"
  {
   ( 704 -1512 -224 ) ( 704 -1624 -224 ) ( 704 -1624 -232 ) common/trigger 0 0 0 0.5 0.5
   ( 824 -1520 -224 ) ( 696 -1520 -224 ) ( 696 -1520 -232 ) common/trigger 0 0 0 0.5 0.5
@@ -15428,8 +15425,7 @@
 }
 {
  "classname" "trigger_push"
- "angle" "-1"
- "speed" "75"
+  "speed" "75"
  {
   ( 416 -1512 -224 ) ( 416 -1624 -224 ) ( 416 -1624 -232 ) common/trigger 0 0 0 0.5 0.5
   ( 536 -1520 -224 ) ( 408 -1520 -224 ) ( 408 -1520 -232 ) common/trigger 0 0 0 0.5 0.5
@@ -15441,8 +15437,7 @@
 }
 {
  "classname" "trigger_push"
- "angle" "-1"
- "speed" "75"
+  "speed" "75"
  {
   ( 552 -2520 -928 ) ( 552 -2632 -928 ) ( 552 -2632 -960 ) common/trigger 0 0 0 0.5 0.5
   ( 664 -2524 -928 ) ( 552 -2524 -928 ) ( 552 -2524 -960 ) common/trigger 0 0 0 0.5 0.5
@@ -15544,8 +15539,7 @@
 }
 {
  "speed" "75"
- "angle" "-1"
- "classname" "trigger_push"
+  "classname" "trigger_push"
  {
   ( 564 -1016 1624 ) ( 564 -1128 1624 ) ( 564 -1128 1608 ) common/trigger 0 0 0 0.5 0.5
   ( 668 -1016 1624 ) ( 564 -1016 1624 ) ( 564 -1016 1608 ) common/trigger 0 0 0 0.5 0.5
@@ -15583,8 +15577,7 @@
 }
 {
  "classname" "trigger_push"
- "angle" "-1"
- "speed" "75"
+  "speed" "75"
  {
   ( -388 -2472 904 ) ( -388 -2584 904 ) ( -388 -2584 888 ) common/trigger 0 0 0 0.5 0.5
   ( -284 -2472 904 ) ( -388 -2472 904 ) ( -388 -2472 888 ) common/trigger 0 0 0 0.5 0.5
@@ -15778,8 +15771,7 @@
 {
  "wait" "-1"
  "classname" "func_door"
- "angle" "-1"
- "speed" "500"
+  "speed" "500"
  "lip" "48"
  "targetname" "t25"
  {
@@ -15818,8 +15810,7 @@
 {
  "classname" "func_door"
  "speed" "500"
- "angle" "-1"
- "wait" "-1"
+  "wait" "-1"
  "sounds" "4"
  "targetname" "t25"
  {
@@ -15901,20 +15892,19 @@
  }
 }
 {
- "light" "250"
+ "radius" "250"
  "origin" "1134 -2916 296"
  "classname" "misc_flame"
 }
 {
- "light" "250"
+ "radius" "250"
  "classname" "misc_flame"
  "origin" "1134 -3038 296"
 }
 {
  "sounds" "4"
  "wait" "-1"
- "angle" "-1"
- "classname" "func_door"
+  "classname" "func_door"
  "targetname" "t28"
  "message" "These bars are opened elsewhere..."
  {
@@ -16034,12 +16024,12 @@
  "angle" "0"
 }
 {
- "light" "250"
+ "radius" "250"
  "origin" "1334 -2842 236"
  "classname" "misc_flame"
 }
 {
- "light" "250"
+ "radius" "250"
  "classname" "misc_flame"
  "origin" "1336 -3066 236"
 }
@@ -16061,12 +16051,12 @@
 {
  "classname" "misc_flame"
  "origin" "-614 -2498 616"
- "light" "200"
+ "radius" "200"
 }
 {
  "origin" "-508 -2498 616"
  "classname" "misc_flame"
- "light" "200"
+ "radius" "200"
 }
 {
  "classname" "trigger_once"
@@ -16784,20 +16774,17 @@
 }
 {
  "targetname" "t50"
- "angle" "-1"
- "origin" "2092 -2788 196"
+  "origin" "2092 -2788 196"
  "classname" "trap_spikeshooter"
 }
 {
  "targetname" "t50"
  "classname" "trap_spikeshooter"
  "origin" "2132 -2480 196"
- "angle" "-1"
-}
+ }
 {
  "targetname" "t50"
- "angle" "-1"
- "origin" "2176 -2624 196"
+  "origin" "2176 -2624 196"
  "classname" "trap_spikeshooter"
 }
 {
@@ -17603,1044 +17590,1044 @@
 {
  "classname" "light"
  "origin" "600 -2584 8"
- "light" "390.625"
- "_color" "0.7 0.8 0.5"
+ "radius" "390.625"
+ "color" "0.7 0.8 0.5"
 }
 {
  "classname" "light"
  "origin" "1860 -2956 292"
- "light" "312.5"
- "_color" "0.4 0.5 0.6"
+ "radius" "312.5"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "760 -1576 -288"
- "light" "200"
- "_color" "0.78125 0.78125 0.78125"
+ "radius" "200"
+ "color" "0.78125 0.78125 0.78125"
 }
 {
  "classname" "light"
  "origin" "-772 -1308 332"
- "light" "160"
- "_color" "1 0 0"
+ "radius" "160"
+ "color" "1 0 0"
 }
 {
  "classname" "light"
  "origin" "604 -2584 -1144"
- "light" "390.625"
- "_color" "0.7 0.8 0.5"
+ "radius" "390.625"
+ "color" "0.7 0.8 0.5"
 }
 {
  "classname" "light"
  "origin" "732 -2960 -1192"
- "light" "390.625"
- "_color" "0.7 0.8 0.5"
+ "radius" "390.625"
+ "color" "0.7 0.8 0.5"
 }
 {
  "classname" "light"
  "origin" "488 -2952 -1192"
- "light" "390.625"
- "_color" "0.7 0.8 0.5"
+ "radius" "390.625"
+ "color" "0.7 0.8 0.5"
 }
 {
  "classname" "light"
  "origin" "608 -2947 -96"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "249 -2112 -96"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "983 -2112 -96"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "608 -1277 -96"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "600 -2576 -928"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "600 -2576 -608"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "616 -1960 -192"
- "light" "32"
- "_color" "1 0 0"
+ "radius" "32"
+ "color" "1 0 0"
 }
 {
  "classname" "light"
  "origin" "616 -2072 -564"
- "light" "256"
- "_color" "2 2 1"
+ "radius" "256"
+ "color" "2 2 1"
 }
 {
  "classname" "light"
  "origin" "604 -2400 -624"
- "light" "32"
- "_color" "1 0 0"
+ "radius" "32"
+ "color" "1 0 0"
 }
 {
  "classname" "light"
  "origin" "836 -1832 -176"
- "light" "390.625"
- "_color" "0.7 0.8 0.5"
+ "radius" "390.625"
+ "color" "0.7 0.8 0.5"
 }
 {
  "classname" "light"
  "origin" "368 -1832 -176"
- "light" "390.625"
- "_color" "0.7 0.8 0.5"
+ "radius" "390.625"
+ "color" "0.7 0.8 0.5"
 }
 {
  "classname" "light"
  "origin" "616 -1660 -176"
- "light" "390.625"
- "_color" "0.7 0.8 0.5"
+ "radius" "390.625"
+ "color" "0.7 0.8 0.5"
 }
 {
  "classname" "light"
  "origin" "604 -2192 -48"
- "light" "390.625"
- "_color" "0.7 0.8 0.5"
+ "radius" "390.625"
+ "color" "0.7 0.8 0.5"
 }
 {
  "classname" "light"
  "origin" "472 -1576 136"
- "light" "200"
- "_color" "0.4 0.3 0.2"
+ "radius" "200"
+ "color" "0.4 0.3 0.2"
 }
 {
  "classname" "light"
  "origin" "104 -1212 712"
- "light" "250"
- "_color" "0.5 0.1 0.5"
+ "radius" "250"
+ "color" "0.5 0.1 0.5"
 }
 {
  "classname" "light"
  "origin" "1134 -3038 296"
- "light" "480"
- "_color" "1 0.7 0.4"
+ "radius" "480"
+ "color" "1 0.7 0.4"
 }
 {
  "classname" "light"
  "origin" "1536 -2952 292"
- "light" "360"
- "_color" "0.6 0.45 0.35"
+ "radius" "360"
+ "color" "0.6 0.45 0.35"
 }
 {
  "classname" "light"
  "origin" "472 -1576 412"
- "light" "200"
- "_color" "0.4 0.3 0.2"
+ "radius" "200"
+ "color" "0.4 0.3 0.2"
 }
 {
  "classname" "light"
  "origin" "312 -1396 548"
- "light" "312.5"
- "_color" "0.6 0.5 0.4"
+ "radius" "312.5"
+ "color" "0.6 0.5 0.4"
 }
 {
  "classname" "light"
  "origin" "616 -2808 -456"
- "light" "390.625"
- "_color" "0.7 0.8 0.5"
+ "radius" "390.625"
+ "color" "0.7 0.8 0.5"
 }
 {
  "classname" "light"
  "origin" "816 -2396 -216"
- "light" "390.625"
- "_color" "0.7 0.8 0.5"
+ "radius" "390.625"
+ "color" "0.7 0.8 0.5"
 }
 {
  "classname" "light"
  "origin" "416 -2396 -216"
- "light" "390.625"
- "_color" "0.7 0.8 0.5"
+ "radius" "390.625"
+ "color" "0.7 0.8 0.5"
 }
 {
  "classname" "light"
  "origin" "784 -2740 -248"
- "light" "390.625"
- "_color" "0.7 0.8 0.5"
+ "radius" "390.625"
+ "color" "0.7 0.8 0.5"
 }
 {
  "classname" "light"
  "origin" "440 -2736 -248"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "616 -1832 -56"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "616 -1832 112"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "545 -1336 1304"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "687 -1336 1304"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "1680 -2504 688"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "289 -1760 1440"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "943 -1760 1440"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "1108 -2504 688"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "1680 -2056 688"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "1680 -2275 688"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "752 -1536 1280"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "1108 -2056 688"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "1372 -2504 688"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "1372 -2275 688"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "1372 -2056 688"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "616 -1264 1076"
- "light" "200"
- "_color" "1.6 1.6 0.6"
+ "radius" "200"
+ "color" "1.6 1.6 0.6"
 }
 {
  "classname" "light"
  "origin" "616 -1072 1408"
- "light" "160"
- "_color" "0.4 0.5 0.6"
+ "radius" "160"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "616 -1072 1600"
- "light" "160"
- "_color" "0.4 0.5 0.6"
+ "radius" "160"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "616 -1072 1728"
- "light" "160"
- "_color" "0.3 0.4 0.5"
+ "radius" "160"
+ "color" "0.3 0.4 0.5"
 }
 {
  "classname" "light"
  "origin" "616 -1212 1728"
- "light" "160"
- "_color" "0.3 0.4 0.5"
+ "radius" "160"
+ "color" "0.3 0.4 0.5"
 }
 {
  "classname" "light"
  "origin" "616 -1360 1728"
- "light" "160"
- "_color" "0.3 0.4 0.5"
+ "radius" "160"
+ "color" "0.3 0.4 0.5"
 }
 {
  "classname" "light"
  "origin" "616 -1632 1076"
- "light" "200"
- "_color" "1.6 1.6 0.6"
+ "radius" "200"
+ "color" "1.6 1.6 0.6"
 }
 {
  "classname" "light"
  "origin" "616 -2016 1080"
- "light" "200"
- "_color" "1.6 1.6 0.6"
+ "radius" "200"
+ "color" "1.6 1.6 0.6"
 }
 {
  "classname" "light"
  "origin" "832 -1184 1144"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "784 -912 1144"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "440 -912 1144"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "416 -1208 1144"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "608 -2288 1504"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "360 -2288 1504"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "56 -2280 1504"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "96 -1592 695"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "480 -1960 600"
- "light" "250"
- "_color" "0.976562 0.976562 0.976562"
+ "radius" "250"
+ "color" "0.976562 0.976562 0.976562"
 }
 {
  "classname" "light"
  "origin" "448 -1185 800"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "751 -1464 800"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "751 -1784 800"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "56 -2280 704"
- "light" "488.28125"
- "_color" "0.4 0.6 0.5"
+ "radius" "488.28125"
+ "color" "0.4 0.6 0.5"
 }
 {
  "classname" "light"
  "origin" "12 -2276 376"
- "light" "250"
- "_color" "2 1 1"
+ "radius" "250"
+ "color" "2 1 1"
 }
 {
  "classname" "light"
  "origin" "-720 -2280 648"
- "light" "250"
- "_color" "0.4 0.6 0.5"
+ "radius" "250"
+ "color" "0.4 0.6 0.5"
 }
 {
  "classname" "light"
  "origin" "-320 -2152 864"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "-720 -2280 -216"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "-544 -2280 -248"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "-280 -2272 -248"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "56 -2288 -888"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "304 -2288 -888"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "600 -2288 -768"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "-336 -2528 624"
- "light" "102.400002"
- "_color" "0.4 0.5 0.6"
+ "radius" "102.400002"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "-336 -2528 680"
- "light" "102.400002"
- "_color" "0.4 0.5 0.6"
+ "radius" "102.400002"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "-336 -2528 808"
- "light" "128"
- "_color" "0.4 0.5 0.6"
+ "radius" "128"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "-336 -2640 808"
- "light" "128"
- "_color" "0.4 0.5 0.6"
+ "radius" "128"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "-336 -2836 808"
- "light" "128"
- "_color" "0.4 0.5 0.6"
+ "radius" "128"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "976 -2960 800"
- "light" "128"
- "_color" "0.4 0.5 0.6"
+ "radius" "128"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "768 -2960 800"
- "light" "128"
- "_color" "0.4 0.5 0.6"
+ "radius" "128"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "544 -2960 800"
- "light" "128"
- "_color" "0.4 0.5 0.6"
+ "radius" "128"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "320 -2960 800"
- "light" "128"
- "_color" "0.4 0.5 0.6"
+ "radius" "128"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "88 -2960 800"
- "light" "128"
- "_color" "0.4 0.5 0.6"
+ "radius" "128"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "-104 -2960 800"
- "light" "128"
- "_color" "0.4 0.5 0.6"
+ "radius" "128"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "-328 -2960 800"
- "light" "128"
- "_color" "0.4 0.5 0.6"
+ "radius" "128"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "1032 -2280 -888"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "840 -2280 -848"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "1336 -2280 -848"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "1336 -2280 -632"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "1108 -2275 688"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "1552 -2960 784"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "1768 -2960 720"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "1952 -2363 288"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "2227 -2464 288"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "2061 -2656 288"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "2227 -2976 288"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "1440 -1799 224"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "1440 -1353 224"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "1208 -1576 440"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "1336 -1576 440"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "1496 -1576 440"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "1656 -1576 440"
- "light" "1600"
- "_color" "0.3 0.2 0.3"
+ "radius" "1600"
+ "color" "0.3 0.2 0.3"
 }
 {
  "classname" "light"
  "origin" "1016 -1576 192"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "816 -1576 192"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "760 -1568 0"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "472 -1576 0"
- "light" "200"
- "_color" "0.4 0.3 0.2"
+ "radius" "200"
+ "color" "0.4 0.3 0.2"
 }
 {
  "classname" "light"
  "origin" "472 -1576 280"
- "light" "200"
- "_color" "0.4 0.3 0.2"
+ "radius" "200"
+ "color" "0.4 0.3 0.2"
 }
 {
  "classname" "light"
  "origin" "608 -2272 -240"
- "light" "200"
- "_color" "1 0.5 1"
+ "radius" "200"
+ "color" "1 0.5 1"
 }
 {
  "classname" "light"
  "origin" "321 -2632 -1184"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "887 -2632 -1184"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "496 -2284 -624"
- "light" "32"
- "_color" "1 0 0"
+ "radius" "32"
+ "color" "1 0 0"
 }
 {
  "classname" "light"
  "origin" "616 -2160 -624"
- "light" "32"
- "_color" "1 0 0"
+ "radius" "32"
+ "color" "1 0 0"
 }
 {
  "classname" "light"
  "origin" "736 -2288 -624"
- "light" "32"
- "_color" "1 0 0"
+ "radius" "32"
+ "color" "1 0 0"
 }
 {
  "classname" "light"
  "origin" "792 -1824 1848"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "792 -1624 1848"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "884 -1732 1848"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "352 -1744 1848"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "440 -1616 1848"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "440 -1864 1848"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "352 -1512 1848"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "352 -1964 1848"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "880 -1496 1848"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "880 -1920 1848"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "432 -1072 1447"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "800 -1072 1447"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "616 -944 1344"
- "light" "150"
- "_color" "0.585938 0.585938 0.585938"
+ "radius" "150"
+ "color" "0.585938 0.585938 0.585938"
 }
 {
  "classname" "light"
  "origin" "800 -1072 1288"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "616 -912 1288"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "432 -1072 1288"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "616 -672 1112"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "425 -544 1280"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "807 -544 1280"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "472 -1576 -136"
- "light" "200"
- "_color" "0.4 0.3 0.2"
+ "radius" "200"
+ "color" "0.4 0.3 0.2"
 }
 {
  "classname" "light"
  "origin" "472 -1576 592"
- "light" "200"
- "_color" "0.4 0.3 0.2"
+ "radius" "200"
+ "color" "0.4 0.3 0.2"
 }
 {
  "classname" "light"
  "origin" "-247 -1592 592"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "-480 -1463 592"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "-855 -1376 592"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "-681 -1632 592"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "-855 -1856 592"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "-297 -1856 592"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "-672 -1944 592"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "-73 -1376 592"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "1480 -2960 992"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "1184 -2960 992"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "1336 -2816 992"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "1336 -3112 992"
- "light" "800"
- "_color" "0.4 0.3 0.4"
+ "radius" "800"
+ "color" "0.4 0.3 0.4"
 }
 {
  "classname" "light"
  "origin" "1134 -2916 296"
- "light" "480"
- "_color" "1 0.7 0.4"
+ "radius" "480"
+ "color" "1 0.7 0.4"
 }
 {
  "classname" "light"
  "origin" "1168 -2976 232"
- "light" "100"
- "_color" "1.2 0.9 0.7"
+ "radius" "100"
+ "color" "1.2 0.9 0.7"
 }
 {
  "classname" "light"
  "origin" "1760 -3256 320"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "1334 -2842 236"
- "light" "480"
- "_color" "1 0.7 0.4"
+ "radius" "480"
+ "color" "1 0.7 0.4"
 }
 {
  "classname" "light"
  "origin" "1336 -3066 236"
- "light" "480"
- "_color" "1 0.7 0.4"
+ "radius" "480"
+ "color" "1 0.7 0.4"
 }
 {
  "classname" "light"
  "origin" "-614 -2498 616"
- "light" "480"
- "_color" "1 0.7 0.4"
+ "radius" "480"
+ "color" "1 0.7 0.4"
 }
 {
  "classname" "light"
  "origin" "-508 -2498 616"
- "light" "480"
- "_color" "1 0.7 0.4"
+ "radius" "480"
+ "color" "1 0.7 0.4"
 }
 {
  "classname" "light"
  "origin" "-560 -2464 552"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "-712 -2280 -8"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "-12 -2288 -320"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "16 -2280 -632"
- "light" "250"
- "_color" "0.6 0.7 0.8"
+ "radius" "250"
+ "color" "0.6 0.7 0.8"
 }
 {
  "classname" "light"
  "origin" "1344 -1680 -264"
- "light" "250"
- "_color" "0.6 0.3 0.2"
+ "radius" "250"
+ "color" "0.6 0.3 0.2"
 }
 {
  "classname" "light"
  "origin" "1496 -1680 -264"
- "light" "250"
- "_color" "0.6 0.3 0.2"
+ "radius" "250"
+ "color" "0.6 0.3 0.2"
 }
 {
  "classname" "light"
  "origin" "1352 -1472 -264"
- "light" "250"
- "_color" "0.6 0.3 0.2"
+ "radius" "250"
+ "color" "0.6 0.3 0.2"
 }
 {
  "classname" "light"
  "origin" "1496 -1472 -264"
- "light" "250"
- "_color" "0.6 0.3 0.2"
+ "radius" "250"
+ "color" "0.6 0.3 0.2"
 }
 {
  "classname" "light"
  "origin" "-928 -1216 552"
- "light" "512"
- "_color" "1.1 1.1 0.5"
+ "radius" "512"
+ "color" "1.1 1.1 0.5"
 }
 {
  "classname" "light"
  "origin" "-888 -1288 328"
- "light" "250"
- "_color" "0.4 0.5 0.6"
+ "radius" "250"
+ "color" "0.4 0.5 0.6"
 }
 {
  "classname" "light"
  "origin" "296 -1820 592"
- "light" "488.28125"
- "_color" "0.6 0.5 0.4"
+ "radius" "488.28125"
+ "color" "0.6 0.5 0.4"
 }
 {
  "classname" "light"
  "origin" "608 -3136 -1264"
- "light" "150"
- "_color" "1 0.5 1"
+ "radius" "150"
+ "color" "1 0.5 1"
 }
 {
  "classname" "light"
  "origin" "1136 -3040 296"
- "light" "128"
- "_color" "1 0.7 0.4"
+ "radius" "128"
+ "color" "1 0.7 0.4"
 }
 {
  "classname" "light"
  "origin" "1136 -2916 296"
- "light" "128"
- "_color" "1 0.7 0.4"
+ "radius" "128"
+ "color" "1 0.7 0.4"
 }
 {
  "classname" "light"
  "origin" "1336 -3064 240"
- "light" "128"
- "_color" "1 0.7 0.4"
+ "radius" "128"
+ "color" "1 0.7 0.4"
 }
 {
  "classname" "light"
  "origin" "1335 -2843 240"
- "light" "128"
- "_color" "1 0.7 0.4"
+ "radius" "128"
+ "color" "1 0.7 0.4"
 }
 {
  "classname" "light"
  "origin" "-508 -2500 616"
- "light" "128"
- "_color" "1 0.7 0.4"
+ "radius" "128"
+ "color" "1 0.7 0.4"
 }
 {
  "classname" "light"
  "origin" "-612 -2496 616"
- "light" "128"
- "_color" "1 0.7 0.4"
+ "radius" "128"
+ "color" "1 0.7 0.4"
 }
