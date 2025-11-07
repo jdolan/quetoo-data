@@ -33,7 +33,7 @@
 	hardness 4.5
 	specularity 1
 	parallax 1
-		{
+	{
 		texture common/quake2/btactmach0fx1
 		blend GL_SRC_ALPHA GL_ONE
 		anim 2 0
@@ -45,11 +45,9 @@
 	hardness 4.5
 	specularity 1
 	parallax 3.5
-		{
+	{
 		texture common/quake2/ceil1_4fx
 		blend GL_SRC_ALPHA GL_ONE
-	}
-	{
 		color 0.8 0.6 0.35 1
 		scale.s 0.75
 		scale.t 0.75
@@ -63,7 +61,7 @@
 	hardness 4.5
 	specularity 1
 	parallax 3.5
-		{
+	{
 		texture common/quake2/ceil1_limefx
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -187,7 +185,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 2
-		{
+	{
 		texture common/quake2/slime_glowedge
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -206,7 +204,7 @@
 	hardness 1.2
 	specularity 1
 	parallax 0.4
-		{
+	{
 		texture common/quake2/slime_glowedge
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -224,6 +222,7 @@
 	hardness 2
 	specularity 1
 	parallax 1
+	surface "alpha_test"
 }
 {
 	material common/quake2/slime0
@@ -231,8 +230,10 @@
 	hardness 0
 	specularity 0
 	parallax 0
+	bloom 0
 	surface "blend_66"
 	contents "slime"
+	light 50
 	{
 		texture common/quake2/slimefx1
 		blend GL_SRC_ALPHA GL_ONE
@@ -265,7 +266,9 @@
 	hardness 3.5
 	specularity 1
 	parallax 3.5
-		{
+	bloom 2.5
+	light 300
+	{
 		texture common/quake2/wlight1gfx
 		blend GL_SRC_ALPHA GL_ONE
 	}
