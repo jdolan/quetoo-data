@@ -27,13 +27,13 @@
 	parallax 1
 }
 {
-	diffusemap warehouse/baseltwhite_c
+	diffusemap common/quake2/baseltwhite_c
 	roughness 2
 	hardness 2
 	specularity 1.5
-	parallax 1
+	parallax 4
 	{
-		texture warehouse/baseltwhite_cfx
+		texture common/quake2/baseltwhite_cfx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
@@ -41,14 +41,14 @@
 	}
 }
 {
-	diffusemap warehouse/conveyor
+	diffusemap common/quake2/conveyor
 	roughness 3
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2.5
 	footsteps metal2
 	{
-		texture warehouse/conveyor_belt
+		texture common/quake2/conveyor_belt
 		blend GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		scroll.t 0.78
 		scale.s 1
@@ -56,118 +56,118 @@
 	}
 }
 {
-	diffusemap warehouse/crate_blue
+	diffusemap common/quake2/crate_blue
 	roughness 2.2
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2.5
 }
 {
-	diffusemap warehouse/crate_green
-	normalmap warehouse/crate_blue_nm
+	diffusemap common/quake2/crate_green
+	normalmap common/quake2/crate_blue_nm
 	roughness 2.1
 	hardness 1.8
 	specularity 1.7
-	parallax 1
+	parallax 2.5
 }
 {
-	diffusemap warehouse/crate_red
-	normalmap warehouse/crate_blue_nm
+	diffusemap common/quake2/crate_red
+	normalmap common/quake2/crate_blue_nm
 	roughness 2.2
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2.5
 }
 {
-	diffusemap warehouse/crate_yellow
-	normalmap warehouse/crate_blue_nm
+	diffusemap common/quake2/crate_yellow
+	normalmap common/quake2/crate_blue_nm
 	roughness 2.2
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2.5
 }
 {
-	diffusemap warehouse/cratetop_blue
+	diffusemap common/quake2/cratetop_blue
 	roughness 2.2
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2.5
 	footsteps metal2
 }
 {
-	diffusemap warehouse/cratetop_green
-	normalmap warehouse/cratetop_blue_nm
+	diffusemap common/quake2/cratetop_green
+	normalmap common/quake2/cratetop_blue_nm
 	roughness 2.2
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2.5
 	footsteps metal2
 }
 {
-	diffusemap warehouse/cratetop_red
-	normalmap warehouse/cratetop_blue_nm
+	diffusemap common/quake2/cratetop_red
+	normalmap common/quake2/cratetop_blue_nm
 	roughness 2.2
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2.5
 	footsteps metal2
 }
 {
-	diffusemap warehouse/cratetop_yellow
-	normalmap warehouse/cratetop_blue_nm
+	diffusemap common/quake2/cratetop_yellow
+	normalmap common/quake2/cratetop_blue_nm
 	roughness 2.2
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2.5
 	footsteps metal2
 }
 {
-	diffusemap warehouse/fmetal1
+	diffusemap common/quake2/fmetal1
 	roughness 2.2
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2
 	footsteps metal
 }
 {
-	diffusemap warehouse/fmetal2
+	diffusemap common/quake2/fmetal2
 	roughness 2.2
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2
 	footsteps metal
 }
 {
-	diffusemap warehouse/fmetal3
-	normalmap warehouse/fmetal2_nm
+	diffusemap common/quake2/fmetal3
+	normalmap common/quake2/fmetal2_nm
 	roughness 2.2
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2
 	footsteps metal
 }
 {
-	diffusemap warehouse/fmetalvent
+	diffusemap common/quake2/fmetalvent
 	roughness 2.8
 	hardness 3
 	specularity 1.7
 	parallax 1
 }
 {
-	diffusemap warehouse/greeble
+	diffusemap common/quake2/greeble
 	roughness 2
 	hardness 2
 	specularity 1.5
-	parallax 1
+	parallax 2.25
 }
 {
-	diffusemap warehouse/light1
+	diffusemap common/quake2/light1
 	roughness 3
 	hardness 4
 	specularity 1.5
-	parallax 1
+	parallax 4
 	{
-		texture warehouse/light1_fx
+		texture common/quake2/light1_fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
@@ -175,118 +175,137 @@
 	}
 }
 {
-	diffusemap warehouse/ltrim_blue
+	diffusemap common/quake2/ltrim_blue
+	normalmap common/quake2/ltrim_nm
 	roughness 2
 	hardness 1.5
 	specularity 1.5
-	parallax 1
+	parallax 2
 	footsteps metal
 	{
-		texture warehouse/ltrim_blue_fx
+		texture common/quake2/ltrim_blue_fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	diffusemap warehouse/ltrim_orange
-	normalmap warehouse/ltrim_blue_nm
+	diffusemap common/quake2/ltrim_orange
+	normalmap common/quake2/ltrim_nm
 	roughness 2
 	hardness 1.5
 	specularity 1.5
-	parallax 1
+	parallax 2
 	footsteps metal
 	{
-		texture warehouse/ltrim_orange_fx
+		texture common/quake2/ltrim_orange_fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	diffusemap warehouse/metal1_7
+	diffusemap common/quake2/ltrim_blue_off
+	normalmap common/quake2/ltrim_nm
+	roughness 2
+	hardness 1.5
+	specularity 1.5
+	parallax 2
+	footsteps metal
+}
+{
+	diffusemap common/quake2/ltrim_orange_off
+	normalmap common/quake2/ltrim_nm
+	roughness 2
+	hardness 1.5
+	specularity 1.5
+	parallax 2
+	footsteps metal
+}
+{
+	diffusemap common/quake2/metal1_7
 	roughness 2.4
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2
 }
 {
-	diffusemap warehouse/metal1_7b
-	normalmap warehouse/metal1_7_nm
+	diffusemap common/quake2/metal1_7b
+	normalmap common/quake2/metal1_7_nm
 	roughness 2.4
 	hardness 1.5
 	specularity 1.7
-	parallax 1
+	parallax 2
 }
 {
-	diffusemap warehouse/metal4_2
+	diffusemap common/quake2/metal4_2
 	roughness 2.4
 	hardness 1.5
 	specularity 1.7
-	parallax 1
+	parallax 2
 }
 {
-	diffusemap warehouse/metal4_2a
+	diffusemap common/quake2/metal4_2a
 	roughness 2.4
 	hardness 1.5
 	specularity 1.7
-	parallax 1
+	parallax 2
 }
 {
-	diffusemap warehouse/metal4_2light
+	diffusemap common/quake2/metal4_2light
 	roughness 2.4
 	hardness 1.5
 	specularity 1.7
-	parallax 1
+	parallax 4.5
 	{
-		texture warehouse/metal4_2lightfx
+		texture common/quake2/metal4_2lightfx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	diffusemap warehouse/metal5_1
+	diffusemap common/quake2/metal5_1
 	roughness 2.4
 	hardness 1.3
 	specularity 1.7
-	parallax 1
+	parallax 2
 }
 {
-	diffusemap warehouse/metal6_2
-	normalmap warehouse/metal5_1_nm
+	diffusemap common/quake2/metal6_2
+	normalmap common/quake2/metal5_1_nm
 	roughness 2.4
 	hardness 1.5
 	specularity 1.7
-	parallax 1
+	parallax 2
 }
 {
-	diffusemap warehouse/metalbase03
+	diffusemap common/quake2/metalbase03
 	roughness 3
 	hardness 1.7
 	specularity 1.5
 	parallax 1
 }
 {
-	diffusemap warehouse/metals_1
-	normalmap warehouse/metal4_2_nm
+	diffusemap common/quake2/metals_1
+	normalmap common/quake2/metal4_2_nm
 	roughness 2.4
 	hardness 1.5
 	specularity 1.7
-	parallax 1
+	parallax 2
 }
 {
-	diffusemap warehouse/metals_1a
-	normalmap warehouse/metal4_2a_nm
+	diffusemap common/quake2/metals_1a
+	normalmap common/quake2/metal4_2a_nm
 	roughness 2.4
 	hardness 1.5
 	specularity 1.7
-	parallax 1
+	parallax 2
 }
 {
-	diffusemap warehouse/metals_1b
-	normalmap warehouse/metal4_2a_nm
+	diffusemap common/quake2/metals_1b
+	normalmap common/quake2/metal4_2a_nm
 	roughness 2.4
 	hardness 1.5
 	specularity 1.7
-	parallax 1
+	parallax 2
 }
 {
-	diffusemap warehouse/stair
+	diffusemap common/quake2/stair
 	roughness 1.8
 	hardness 2
 	specularity 1.8
@@ -294,35 +313,35 @@
 	footsteps metal
 }
 {
-	diffusemap warehouse/stairtrim
+	diffusemap common/quake2/stairtrim
 	roughness 1.8
 	hardness 2
 	specularity 1.8
-	parallax 1
+	parallax 3
 }
 {
-	diffusemap warehouse/stroggwall1_256b
+	diffusemap common/quake2/stroggwall1_256b
 	roughness 1
 	hardness 1
 	specularity 1
 	parallax 1
 }
 {
-	diffusemap warehouse/subdr_bann
+	diffusemap common/quake2/subdr_bann
 	roughness 1
 	hardness 1.4
 	specularity 1.8
-	parallax 1
+	parallax 2.5
 }
 {
-	diffusemap warehouse/tampon1
+	diffusemap common/quake2/tampon1
 	roughness 1
 	hardness 1
 	specularity 1
 	parallax 1
 }
 {
-	diffusemap warehouse/treadplate
+	diffusemap common/quake2/treadplate
 	roughness 1.8
 	hardness 2
 	specularity 1.8
@@ -330,40 +349,40 @@
 	footsteps metal
 }
 {
-	diffusemap warehouse/trim6e
+	diffusemap common/quake2/trim6e
 	roughness 1.8
 	hardness 2.5
 	specularity 1.5
-	parallax 1
+	parallax 2.5
 	footsteps metal
 }
 {
-	diffusemap warehouse/trim_botm
-	normalmap warehouse/trim_plat_nm
+	diffusemap common/quake2/trim_botm
+	normalmap common/quake2/trim_plat_nm
 	roughness 1.8
 	hardness 2.5
 	specularity 1.5
-	parallax 1
+	parallax 2.5
 }
 {
-	diffusemap warehouse/trim_plat
-	normalmap warehouse/trim_plat_nm
+	diffusemap common/quake2/trim_plat
+	normalmap common/quake2/trim_plat_nm
 	roughness 1.8
 	hardness 2.5
 	specularity 1.5
-	parallax 1
+	parallax 2
 }
 {
-	diffusemap warehouse/venttrim
+	diffusemap common/quake2/venttrim
 	roughness 2
 	hardness 1.5
 	specularity 1.7
 	parallax 1
 }
 {
-	diffusemap warehouse/wmetl6_1
+	diffusemap common/quake2/wmetl6_1
 	roughness 1.5
 	hardness 2
 	specularity 1.7
-	parallax 1
+	parallax 2.5
 }
