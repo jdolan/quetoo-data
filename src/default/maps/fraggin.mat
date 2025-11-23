@@ -6,6 +6,7 @@
 	specularity 1
 	parallax 0.25 
 	surface "blend_100"
+	footsteps metal2
 }
 {
 	diffusemap common/caulk
@@ -133,6 +134,7 @@
 	specularity 1
 	parallax 1.25
 	surface "phong"
+	footsteps metal
 }
 {
 	diffusemap common/quake/cop1_2
@@ -163,6 +165,7 @@
 	specularity 1
 	parallax 1.25
 	surface "phong"
+	footsteps metal
 }
 {
 	diffusemap common/quake/cop2_5
@@ -264,6 +267,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	footsteps metal
 }
 {
 	diffusemap common/quake/metal2_3
@@ -355,6 +359,7 @@
 	hardness 1
 	specularity 1
 	parallax 2
+	footsteps metal
 }
 {
 	diffusemap common/quake/tyr_09
@@ -531,6 +536,40 @@
 	}
 	{
 		texture turbo/padfx-iris3
+		pulse 0.5
+	}
+}
+{
+	diffusemap common/quake2/tampon2
+	roughness 1
+	hardness 1
+	specularity 8
+	parallax 1.15
+	surface "blend_100 decal"
+	contents "mist detail"
+	{
+		texture common/quake2/tampon2
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 0 0 0.65
+	}
+}
+{
+	material skies912/u_floor3_mark
+	normalmap skies912/u_floor3_mark_nm
+	roughness 1
+	parallax 1.5
+	hardness 1
+	specularity 1
+	surface "blend_100 decal material"
+	{
+		texture skies912/u_floor3_mark
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.44 0.33 0.22 1
+	}
+	{
+		texture skies912/u_floor3_mark_fx-dsat
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 0.345 0 1
 		pulse 0.5
 	}
 }

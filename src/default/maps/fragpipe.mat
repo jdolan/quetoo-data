@@ -1,45 +1,47 @@
 {
-	material common/caulk
+	diffusemap common/caulk
 	roughness 1
 	hardness 1
 	specularity 1
+	parallax 1
 }
 {
-	material common/clip
+	diffusemap common/clip
 	roughness 1
 	hardness 1
 	specularity 1
+	parallax 1
 }
 {
-	material common/fog
+	diffusemap common/fog
 	roughness 1
 	hardness 1
 	specularity 1
+	parallax 1
 }
 {
-	material common/occlude
+	diffusemap common/origin
 	roughness 1
 	hardness 1
 	specularity 1
+	parallax 1
 }
 {
-	material common/origin
+	diffusemap common/sky
 	roughness 1
 	hardness 1
 	specularity 1
+	parallax 1
 }
 {
-	material common/sky
-	roughness 1
-	hardness 1
-	specularity 1
-}
-{
-	material fragpipe/brlava
+	diffusemap fragpipe/brlava
 	roughness 1.5
 	hardness 0.7
 	specularity 1
-		{
+	parallax 1
+	contents "lava detail"
+	surface "liquid"
+	{
 		texture fragpipe/brlava1
 		blend GL_SRC_ALPHA GL_ONE
 		scroll.s 0.02
@@ -53,22 +55,24 @@
 	}
 }
 {
-	material fragpipe/btactmach0
+	diffusemap fragpipe/btactmach0
 	roughness 2
 	hardness 2
 	specularity 1.5
-		{
+	parallax 1
+	{
 		texture fragpipe/btactmach0fx1
 		blend GL_SRC_ALPHA GL_ONE
 		anim 2 0
 	}
 }
 {
-	material fragpipe/ceil1_4
+	diffusemap fragpipe/ceil1_4
 	roughness 4
 	hardness 4
 	specularity 1.7
-		{
+	parallax 4
+	{
 		texture fragpipe/ceil1_4fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -79,228 +83,244 @@
 	}
 }
 {
-	material fragpipe/color1_1
+	diffusemap fragpipe/color1_1
 	roughness 1.5
 	hardness 2.5
 	specularity 1.5
-		footsteps metal
+	parallax 2.53061
+	footsteps metal
 }
 {
-	material fragpipe/color1_2
+	diffusemap fragpipe/color1_2
 	roughness 2
 	hardness 2
 	specularity 1.4
+	parallax 2.04082
 }
 {
-	material fragpipe/color1_3
+	diffusemap fragpipe/color1_3
 	roughness 1.5
 	hardness 1.8
 	specularity 1.5
-		footsteps metal
+	parallax 2.04082
+	footsteps metal
 }
 {
-	material fragpipe/dr02_2
+	diffusemap fragpipe/dr02_2
 	roughness 2
 	hardness 2
 	specularity 1.3
-		{
+	parallax 1
+	{
 		texture fragpipe/dr02_2fx1
 		blend GL_SRC_ALPHA GL_ONE
 		anim 2 0
 	}
 }
 {
-	material fragpipe/fanshade_fx
-	roughness 1
-	hardness 1
-	specularity 1
-	surface "blend_100 material decal"
-	{
-		texture fragpipe/fanshade_fx
-		rotate 0.25
-		lightmap
-	}
-}
-{
-	material fragpipe/floor1_3
+	diffusemap fragpipe/floor1_3
 	roughness 1.8
 	hardness 1.8
 	specularity 1.5
-		footsteps metal2
+	parallax 1
+	footsteps metal2
 }
 {
-	material fragpipe/floor3_1
+	diffusemap fragpipe/floor3_1
 	roughness 2
 	hardness 2
 	specularity 1.3
+	parallax 1.55102
 }
 {
-	material fragpipe/ggrat12_2
+	diffusemap fragpipe/ggrat12_2
 	normalmap fragpipe/grate2_7_nm
 	roughness 1.5
 	hardness 1.5
 	specularity 1.6
+	parallax 1
 }
 {
-	material fragpipe/ggrat12_2heat
+	diffusemap fragpipe/ggrat12_2heat
 	normalmap fragpipe/grate2_7_nm
 	roughness 1.5
 	hardness 1.5
 	specularity 1.6
-		{
+	parallax 1
+	{
 		texture fragpipe/glowedge256
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	material fragpipe/ggrat4_2add
+	diffusemap fragpipe/ggrat4_2add
 	roughness 1.5
 	hardness 1
 	specularity 1.3
+	parallax 1
 }
 {
-	material fragpipe/glassdirt0
+	diffusemap fragpipe/glassdirt0
 	roughness 1
 	hardness 1
 	specularity 1.3
+	parallax 1
 	surface "blend_66"
-	patch_size 10
 }
 {
-	material fragpipe/grate1_5
+	diffusemap fragpipe/grate1_5
 	roughness 1.5
 	hardness 2
 	specularity 1.5
+	parallax 1.63265
 }
 {
-	material fragpipe/grate2_7
+	diffusemap fragpipe/grate2_7
 	roughness 1.5
 	hardness 1.5
 	specularity 1.6
+	parallax 1
 }
 {
-	material fragpipe/grate2_7down
+	diffusemap fragpipe/grate2_7down
 	roughness 1.5
 	hardness 1.5
 	specularity 1.6
-		{
+	parallax 1
+	{
 		texture fragpipe/glowlavadown
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	material fragpipe/grate2_7heat
+	diffusemap fragpipe/grate2_7heat
 	normalmap fragpipe/grate2_7_nm
 	roughness 1.5
 	hardness 1.5
 	specularity 1.6
-		{
+	parallax 1
+	{
 		texture fragpipe/glowedge256
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	material fragpipe/grate2_7low
+	diffusemap fragpipe/grate2_7low
 	roughness 1.5
 	hardness 1.5
 	specularity 1.6
-		{
+	parallax 1
+	{
 		texture fragpipe/glowlavalow
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	material fragpipe/metal14_1
+	diffusemap fragpipe/metal14_1
 	roughness 1.8
 	hardness 1.8
 	specularity 1.4
+	parallax 1
 }
 {
-	material fragpipe/metal14_1edge
+	diffusemap fragpipe/metal14_1edge
 	roughness 1.8
 	hardness 1.8
 	specularity 1.4
+	parallax 1.95918
 }
 {
-	material fragpipe/metal3_1
+	diffusemap fragpipe/metal3_1
 	roughness 1.5
 	hardness 1.4
 	specularity 1.4
+	parallax 1
 }
 {
-	material fragpipe/metal3_2
+	diffusemap fragpipe/metal3_2
 	roughness 1.5
 	hardness 1.4
 	specularity 1.4
+	parallax 1.95918
 }
 {
-	material fragpipe/metal3_3
+	diffusemap fragpipe/metal3_3
 	roughness 1.5
 	hardness 1.4
 	specularity 1.4
+	parallax 2.04082
 }
 {
-	material fragpipe/metal3_3q2decal
+	diffusemap fragpipe/metal3_3q2decal
 	roughness 1.5
 	hardness 1.4
 	specularity 1.4
+	parallax 1.95918
 }
 {
-	material fragpipe/metal3_4
+	diffusemap fragpipe/metal3_4
 	roughness 2
 	hardness 1.5
 	specularity 2
+	parallax 1
 }
 {
-	material fragpipe/metal_subslime
+	diffusemap fragpipe/metal_subslime
 	roughness 1.4
 	hardness 0.7
 	specularity 1.5
-		{
+	parallax 2.04082
+	{
 		texture fragpipe/slime_glowedge
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	material fragpipe/metalbase2
+	diffusemap fragpipe/metalbase2
 	roughness 2
 	hardness 2
 	specularity 1.3
+	parallax 1
 }
 {
-	material fragpipe/metals_3
+	diffusemap fragpipe/metals_3
 	roughness 1.4
 	hardness 1.5
 	specularity 1.5
+	parallax 1
 }
 {
-	material fragpipe/metl12_1
+	diffusemap fragpipe/metl12_1
 	roughness 2.5
 	hardness 2
 	specularity 1.2
+	parallax 1
 }
 {
-	material fragpipe/metl_floor
+	diffusemap fragpipe/metl_floor
 	roughness 2
 	hardness 1.6
 	specularity 1.2
-		footsteps metal
+	parallax 1
+	footsteps metal
 }
 {
-	material fragpipe/sewer_bars
+	diffusemap fragpipe/sewer_bars
 	roughness 1.5
 	hardness 3.3
 	specularity 1.5
+	parallax 3.5102
+	contents "detail"
 	surface "alpha_test"
-	alpha_test 0.5
 }
 {
-	material fragpipe/slime0
+	diffusemap fragpipe/slime0
 	roughness 1
 	hardness 0
 	specularity 1
-	surface "blend_66"
-		light.cone 90
+	parallax 1
+	contents "slime detail"
+	surface "liquid blend_66"
 	{
 		texture fragpipe/slimefx1
 		blend GL_SRC_ALPHA GL_ONE
@@ -318,29 +338,33 @@
 	}
 }
 {
-	material fragpipe/steps
+	diffusemap fragpipe/steps
 	roughness 1.5
 	hardness 1
 	specularity 1.3
-		footsteps metal
+	parallax 1
+	footsteps metal
 }
 {
-	material fragpipe/subslimebotm
+	diffusemap fragpipe/subslimebotm
 	normalmap fragpipe/metl_floor_nm
 	roughness 2
 	hardness 1
 	specularity 1
+	parallax 1
 }
 {
-	material fragpipe/wbasic1_4
+	diffusemap fragpipe/wbasic1_4
 	roughness 1.4
 	hardness 1.3
 	specularity 1
+	parallax 1
 }
 {
-	material fragpipe/wndow1_2
+	diffusemap fragpipe/wndow1_2
 	roughness 1
 	hardness 1
 	specularity 1
+	parallax 1
 	surface "blend_100"
 }
