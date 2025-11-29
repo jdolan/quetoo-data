@@ -1,354 +1,538 @@
 {
-	material common/caulk
+	diffusemap ad/lightv
+	normalmap ad/lightv_norm
 	roughness 1
 	hardness 1
 	specularity 1
+	parallax 0
+	contents "detail"
+	{
+		texture ad/lightv_glow
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.5 0.5 0.5 0.5
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_2
+	}
 }
 {
-	material common/clip
+	diffusemap common/caulk
 	roughness 1
 	hardness 1
 	specularity 1
+	parallax 1
 }
 {
-	material common/nodraw
+	diffusemap common/clip
 	roughness 1
 	hardness 1
 	specularity 1
+	parallax 1
 }
 {
-	material common/sky
-	roughness 1
-	hardness 1
-	specularity 1
-}
-{
-	material rygel/#lava1
+	diffusemap common/quake/#lava1
 	roughness 0
 	hardness 0
 	specularity 0
-		contents "lava"
+	parallax 0
+	contents "lava detail"
 	surface "liquid"
 	{
-		texture rygel/#lava1
+		texture common/quake2/brlava
 		blend GL_SRC_ALPHA GL_ONE
-		scroll.s 0.02
-		warp 0.125 0.25
+		color 0.5 0.5 0.5 1
+		scroll.s 0.014
+		scroll.t 0.038
+		scale.s 0.8
+		scale.t 0.75
+		warp 0.38 0.38
 	}
 	{
-		texture rygel/#lava1
-		blend GL_ONE GL_ONE
-		scroll.t 0.04
-		warp 0.25 0.5
+		texture common/quake2/brlava
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.5 0.5 0.5 1
+		scroll.s 0.014
+		scroll.t -0.018
+		scale.s 0.9
+		scale.t 0.9
+		warp 0.38 0.38
 	}
 }
 {
-	material rygel/#teleport
+	diffusemap common/quake/#teleport
+	normalmap common/quake/#teleport_norm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	contents "mist"
+	surface "liquid"
+	{
+		texture common/quake/#teleport
+		warp 0.5 0.5
+	}
+	{
+		texture common/quake/#teleport2_gloss
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 0.75
+		warp 0.75 0.75
+	}
+	{
+		texture common/quake/#teleport2_gloss
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.5 0.36 0.53 0.65
+		scale.s 0.75
+		scale.t 0.75
+		warp 1.25 1.25
+	}
+}
+{
+	diffusemap common/quake/+6slip
 	roughness 0
 	hardness 0
 	specularity 0
-		contents "mist"
-	surface "liquid"
+	parallax 0
+	contents "lava"
 	{
-		texture rygel/#teleport
-		blend GL_SRC_ALPHA GL_ONE
-		scroll.s 0.02
-		warp 0.125 0.25
+		texture common/quake/#lava1
+		scroll.t 0.15
+		scale.s 1.5
+		warp 0.25 0.25
 	}
 	{
-		texture rygel/#teleport
+		texture common/quake2/brlava
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.65 0.65 0.65 1
+		scroll.t 0.2
+		scale.s 1.5
+		warp 0.35 0.35
+	}
+}
+{
+	diffusemap common/quake/+alight01
+	normalmap common/quake/animated/light01/light01_0_norm
+	specularmap common/quake/animated/light01/light01_0_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 2
+	{
+		texture common/quake/animated/light01/light01_0
+		anim 3 6
+	}
+}
+{
+	diffusemap common/quake/city4_8
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 2.5
+}
+{
+	diffusemap common/quake/city5_6
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 2.5
+}
+{
+	diffusemap common/quake/city6_8
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 2.5
+}
+{
+	diffusemap common/quake/cop1_1
+	roughness 1
+	hardness 3
+	specularity 2
+	parallax 1
+}
+{
+	diffusemap common/quake/cop1_1r
+	roughness 1
+	hardness 1.95918
+	specularity 2
+	parallax 1
+}
+{
+	diffusemap common/quake/cop1_2
+	roughness 1
+	hardness 3
+	specularity 2
+	parallax 1
+}
+{
+	diffusemap common/quake/cop1_5
+	roughness 1.25
+	hardness 3
+	specularity 2
+	parallax 2.5
+}
+{
+	diffusemap common/quake/cop3_4
+	roughness 1.25
+	hardness 3
+	specularity 2
+	parallax 2.5
+}
+{
+	diffusemap common/quake/dem4_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 0.897959
+}
+{
+	diffusemap common/quake/dem4_4
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake/dr07_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake/exit02_3
+	normalmap common/quake/exit02_03_norm
+	specularmap common/quake/exit02_03_gloss
+	roughness 2
+	hardness 2
+	specularity 1.25
+	parallax 1.5
+}
+{
+	diffusemap common/quake/lgmetal
+	roughness 1
+	hardness 2
+	specularity 2
+	parallax 1
+}
+{
+	diffusemap common/quake/light3_3
+	normalmap common/quake/light3_3_norm
+	specularmap common/quake/light3_3_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 3
+	contents "detail"
+	{
+		texture common/quake/light3_3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_2
+	}
+}
+{
+	diffusemap common/quake/light3_8
+	normalmap common/quake/light3_8_norm
+	specularmap common/quake/light3_8_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 3
+	contents "detail"
+	{
+		texture common/quake/light3_8_luma
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.5 1.5 1.5 1
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_2
+	}
+}
+{
+	diffusemap common/quake/lite_fart3_SoftWhite
+	normalmap common/quake/lite_fart3_norm
+	specularmap common/quake/lite_fart3_SoftWhite_gloss
+	roughness 1
+	hardness 3.7551
+	specularity 1.5
+	parallax 2.12245
+	contents "mist detail"
+	{
+		texture common/quake/lite_fart3_SoftWhite_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+}
+{
+	diffusemap common/quake/met5_2
+	roughness 1
+	hardness 3
+	specularity 2
+	parallax 2.5
+}
+{
+	diffusemap common/quake/metal1_1
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake/metal1_2
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake/metal1_3
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake/metal1_4
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake/metal2_2
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake/metal2_3
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/quake/metal2_4
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/quake/metal4_2
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 4.16327
+}
+{
+	diffusemap common/quake/metal4_4
+	normalmap common/quake/metal4_4_norm
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/quake/metal4_4d
+	normalmap common/quake/metal4_4d_norm
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/quake/metal4_4f
+	normalmap common/quake/metal4_4f_norm
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/quake/metal4_5
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake/metal5_2
+	roughness 1
+	hardness 3
+	specularity 2
+	parallax 3
+}
+{
+	diffusemap common/quake/metal5_3
+	roughness 1
+	hardness 3
+	specularity 2
+	parallax 3
+}
+{
+	diffusemap common/quake/metal5_8
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake/metal6_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/quake/metal6_2
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/quake/metal6_3
+	normalmap common/quake/metal6_3_norm
+	specularmap common/quake/metal6_3_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 3.5
+	contents "detail"
+	{
+		texture common/quake/metal6_3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	diffusemap common/quake/metal6_4
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake/metal9_2
+	normalmap common/quake/metal9_2_norm
+	specularmap common/quake/metal9_2_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 2.5
+	{
+		texture common/quake/metal9_2_luma
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.5 1.5 1.5 1
+	}
+}
+{
+	diffusemap common/quake/metalt2_5
+	normalmap common/quake/metalt2_5_norm
+	specularmap common/quake/metalt2_5_gloss
+	roughness 2
+	hardness 3
+	specularity 2
+	parallax 1.25
+	contents "mist"
+}
+{
+	diffusemap common/quake/metalt2_7
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake/mmetal1_2
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/quake/nmetal2_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake/rune1_1
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/quake/rune1_6
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/quake/rune1_7
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/quake/rune2_5
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/quake/tech04_9
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 3
+}
+{
+	diffusemap common/trigger
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}
+{
+	diffusemap common/quake3/sfx/r_flame1
+	contents "mist detail"
+	surface "material decal"
+	{
+		texture common/quake3/sfx/r_flame1
 		blend GL_ONE GL_ONE
-		scroll.t 0.04
-		warp 0.25 0.5
+		anim 8 12
 	}
 }
 {
-	material rygel/+0butn
-	normalmap rygel/+0btn_norm
-	specularmap rygel/+0btn_gloss
+	diffusemap sandbox/quetoologo
+	normalmap sandbox/quetoologo_nm
 	roughness 1
-	hardness 1
-	specularity 1
-}
-{
-	material rygel/+0light01
-	normalmap rygel/+0light01_norm
-	specularmap rygel/0light01_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-		contents "detail"
+	hardness 10
+	specularity 4
+	parallax 3
+	contents "mist"
+	surface "alpha_test decal"
 	{
-		texture rygel/anims/light01_0
+		texture sandbox/quetoologo_glow
 		blend GL_SRC_ALPHA GL_ONE
-		anim 4 8
-		lightmap
+		color 1 1 1 0.75
 	}
-}
-{
-	material rygel/cop1_1
-	normalmap rygel/cop1_1_norm
-	specularmap rygel/cop1_1_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-}
-{
-	material rygel/cop1_2
-	normalmap rygel/cop1_2_norm
-	specularmap rygel/cop1_2_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-}
-{
-	material rygel/cop1_6
-	normalmap rygel/cop1_6_norm
-	specularmap rygel/cop1_6_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-}
-{
-	material rygel/cop3_4
-	normalmap rygel/cop3_4_norm
-	specularmap rygel/cop3_4_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-}
-{
-	material rygel/dr07_1
-	normalmap rygel/dr07_1_norm
-	specularmap rygel/dr07_1_gloss
-	roughness 1.5
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/lgmetal
-	normalmap rygel/lgmetal_norm
-	specularmap rygel/lgmetal_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/light1_2
-	normalmap rygel/light1_2_norm
-	specularmap rygel/light1_2_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-		contents "detail"
-	{
-		texture rygel/light1_2_luma
-		blend GL_SRC_ALPHA GL_ONE
-	}
-	{
-		scale.s 1.25
-		scale.t 1.25
-		flare flare_2
-	}
-}
-{
-	material rygel/light1_8
-	normalmap rygel/light1_8_norm
-	specularmap rygel/light1_8_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-		contents "detail"
-	{
-		texture rygel/light1_8_luma
-		blend GL_SRC_ALPHA GL_ONE
-	}
-	{
-		scale.s 1.25
-		scale.t 1.25
-		flare flare_2
-	}
-}
-{
-	material rygel/light3_8
-	normalmap rygel/light3_8_norm
-	specularmap rygel/light3_8_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-		contents "detail"
-	{
-		texture rygel/light3_8_luma
-		blend GL_SRC_ALPHA GL_ONE
-	}
-	{
-		scale.s 1.25
-		scale.t 1.25
-		flare flare_2
-	}
-}
-{
-	material rygel/met5_1
-	normalmap rygel/met5_1_norm
-	specularmap rygel/met5_1_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/met5_2
-	normalmap rygel/met5_2_norm
-	specularmap rygel/met5_2_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/metal1_2
-	normalmap rygel/metal1_2_norm
-	specularmap rygel/metal1_2_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/metal1_4
-	normalmap rygel/metal1_4_norm
-	specularmap rygel/metal1_4_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/metal2_2
-	normalmap rygel/metal2_2_norm
-	specularmap rygel/metal2_2_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/metal4_2
-	normalmap rygel/metal4_2_norm
-	specularmap rygel/metal4_2_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/metal4_3
-	normalmap rygel/metal4_3_norm
-	specularmap rygel/metal4_3_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/metal4_4
-	normalmap rygel/metal4_4_norm
-	specularmap rygel/metal4_4_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/metal4_5
-	normalmap rygel/metal4_5_norm
-	specularmap rygel/metal4_5_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/metal4_8
-	normalmap rygel/metal4_8_norm
-	specularmap rygel/metal4_8_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/metal5_1
-	normalmap rygel/metal5_1_norm
-	specularmap rygel/metal5_1_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/metal5_2
-	normalmap rygel/metal5_2_norm
-	specularmap rygel/metal5_2_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/metal5_8
-	normalmap rygel/metal5_8_norm
-	specularmap rygel/metal5_8_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/metal6_1
-	normalmap rygel/metal6_1_norm
-	specularmap rygel/metal6_1_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-}
-{
-	material rygel/metal6_2
-	normalmap rygel/metal6_2_norm
-	specularmap rygel/metal6_2_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-}
-{
-	material rygel/metal6_3
-	normalmap rygel/metal6_3_norm
-	specularmap rygel/metal6_3_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-		contents "detail"
-	{
-		texture rygel/metal6_3_luma
-		blend GL_SRC_ALPHA GL_ONE
-	}
-}
-{
-	material rygel/metal6_4
-	normalmap rygel/metal6_4_norm
-	specularmap rygel/metal6_4_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-}
-{
-	material rygel/mmetal1_2
-	normalmap rygel/metal1_2_norm
-	specularmap rygel/metal1_2_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/nmetal2_1
-	normalmap rygel/nmetal2_1_norm
-	specularmap rygel/nmetal2_1_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
-}
-{
-	material rygel/plat_top1
-	normalmap rygel/plat_top1_norm
-	specularmap rygel/plat_top1_gloss
-	roughness 2
-	hardness 2
-	specularity 1.5
 }
