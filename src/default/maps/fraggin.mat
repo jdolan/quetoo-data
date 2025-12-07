@@ -368,7 +368,7 @@
 	roughness 1
 	hardness 1
 	specularity 1
-	parallax 1
+	parallax 3
 }
 {
 	diffusemap common/quake/tyr_15
@@ -499,7 +499,7 @@
 	specularity 1
 	parallax 0
 	contents "mist"
-	surface "blend_100"
+	surface "alpha_test"
 	{
 		texture sandbox/quetoologo_glow
 		blend GL_SRC_ALPHA GL_ONE
