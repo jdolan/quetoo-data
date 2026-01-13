@@ -42,7 +42,7 @@
 @PointClass base(TeamFlag) color(255 255 0) = item_flag_team3 : "Yellow flag" []
 @PointClass base(TeamFlag) color(0 0 255) = item_flag_team4 : "Green flag" []
 
-@BaseClass base(Item) size(-16 -6 -6, 16 6 6) = Weapon []
+@BaseClass base(Item) size(-16 -16 -16, 16 16 16) = Weapon []
 @PointClass base(Weapon) color(225 200 40) studio("") = weapon_blaster : "Blaster" []
 @PointClass base(Weapon) color(220 160 0) studio("") = weapon_shotgun : "Shotgun" []
 @PointClass base(Weapon) color(220 160 0) studio("") = weapon_supershotgun : "Super shotgun" []
@@ -54,7 +54,7 @@
 @PointClass base(Weapon) color(0 0 200) studio("") = weapon_railgun : "Rail gun" []
 @PointClass base(Weapon) color(80 255 40) studio("") = weapon_bfg : "BFG10K" []
 
-@BaseClass base(Item) size(-10 -8 -8, 10 8 8) = Ammo []
+@BaseClass base(Item) size(-16 -16 -16, 16 16 16) = Ammo []
 @PointClass base(Ammo) color(220 160 0) studio("") = ammo_shells : "Shells for the Shotgun and Super Shotgun" []
 @PointClass base(Ammo) color(255 255 0) studio("") = ammo_bullets : "Bullets for the machinegun" []
 @PointClass base(Ammo) color(0 160 0) studio("") = ammo_grenades : "Grenades for the Grenade Launcher" []
@@ -230,36 +230,60 @@
 	angles(string) : "The pitch yaw roll angles for the camera (e.g. 20 270 0)."
 ]
 
-@PointClass color(255 255 255) size(-6 -6 -6, 6 6 6) = light : "Point light source."
+@PointClass base(Targetname) color(255 255 255) size(-8 -8 -8, 8 8 8) = light : "Point light source."
 [
+	radius(integer) : "Light radius" : 300
 	color(string) : "Light color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
 	intensity(float) : "Light intensity as a positive scalar value" : "1"
+]
+
+@PointClass base(Target) color(255 255 255) size(-8 -8 -8, 8 8 8) = misc_light : "Point light with configurable style."
+[
 	radius(integer) : "Light radius" : 300
-	style(string) : "The light style, a string of characters a-z that modulate the light intensity over time (default 'zzz')."
+	color(string) : "Light color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
+	intensity(float) : "Light intensity as a positive scalar value" : "1"
+	style(choices) : "String of A(0.0) to Z(1.0) that modulate over time as a defined style. Each additional character adds 100ms to the sequence" : "m" =
+	[
+		//Ripped from q1/q2
+		"m" : "Normal"
+		"mmnmmommommnonmmonqnmmo" : "Flicker"
+		"mmamammmmammamamaaamammma" : "Fluorescent Flicker"
+		"abcdefghijklmnopqrstuvwxyzyxwvutsrqponmlkjihgfedcba" : "Slow Strong Pulse"
+		"jklmnopqrstuvwxyzyxwvutsrqponmlkj" : "Gentle Pulse"
+		"abcdefghijklmnopqrrqponmlkjihgfedcba" : "Slow Pulse (no black)"
+		"mmmmmaaaaammmmmaaaaaabcdefgabcdefg" : "Candle"
+		"mmmaaaabcdefgmmmmaaaammmaamm" : "Candle 2"
+		"mmmaaammmaaammmabcdefaaaammmmabcdefmmmaaaa" : "Candle 3"
+		"mamamamamama" : "Fast Strobe"
+		"aaaaaaaazzzzzzzz" : "Slow Strobe"
+		//Custom
+		"mzqqmmgzzgmmgzmggzg" : "Flame Flicker"
+		"qqzqzz" : "Soft Flicker"
+	]
 ]
 
 @SolidClass color(180 180 150) = misc_dust : "Dust volumes emit configurable sprites, like localized weather. These are useful for creating dust, bubbles, foam, mist, etc. These are typically contents atmospheric."
 [
 	acceleration(string) : "The sprite acceleration" : "0 0 0"
 	color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
-	density(float) : "The sprite density" : "1"
 	dir(string) : "The sprite directional axis (0 0 0 is billboard)" : "0 0 0"
+	density(float) : "The sprite density" : "1"
 	end_color(string) : "The sprite HSVA end color as 4 decimal values" : "0 0 0 0"
 	height(float) : "The sprite height. Setting this will cause size to be ignored" : "0"
 	lifetime(float) : "The sprite lifetime in seconds" : "10"
 	lighting(float) : "The sprite lighting scalar" : "1"
-	rotation_velocity(float) : "The sprite rotation velocity in degrees per second" : "0"
 	rotation(float) : "The sprite rotation in degrees" : "0"
-	size_acceleration(float) : "The sprite size acceleration" : "0"
-	size_velocity(float) : "The sprite size velocity" : "0"
+	rotation_velocity(float) : "The sprite rotation velocity in degrees per second" : "0"
 	size(float) : "The sprite size" : "1"
+	size_velocity(float) : "The sprite size velocity" : "0"
+	size_acceleration(float) : "The sprite size acceleration" : "0"
 	softness(float) : "The sprite softness scalar" : "1"
 	sprite(string) : "The sprite image name" : "particle1"
 	velocity(string) : "The sprite velocity" : "0 0 0"
 	width(float): "The sprite width. Setting this will cause size to be ignored" : "0"
 ]
 
-@PointClass color(255 80 20) size(-6 -6 -6, 6 6 6) = misc_fireball : "Spawns an intermittent fireball that damages players. These are typically used above lava traps for ambiance."
+@PointClass color(255 80 20) size(-8 -8 -8, 8 8 8) = misc_fireball : "Spawns an intermittent fireball that damages players. These are typically used above lava traps for ambiance."
 [
 	angles(string) : "The angles at which the fireball will fly"
 	dmg(integer) : "The damage inflicted to entities that touch the fireball" : 4
@@ -277,19 +301,19 @@
 	sound(string) : "The looping sound to play, or 'none' to disable" : "world/fire"
 ]
 
-@SolidClass color(230 230 230) = misc_fog : "Fog volumes. When compiled, fog brushes are merged into the world. Fog volumes are processed during the lighting compile phase. These are typically contents atmospheric, but can be contents water, etc. Omit _color to use the material color."
+@SolidClass color(230 230 230) = misc_fog : "Fog volumes. When compiled, fog brushes are merged into the world. Fog volumes are processed during the lighting compile phase. These are typically contents atmospheric, but can be contents water, etc. Omit color to use the material color."
 [
-	absorption(float) : "The fog absorption, or how much light color it absorbs" : ".5"
-	amplitude(float) : "The simplex noise amplitude - effectively the upper limit of noise values" : "1"
 	color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
+	absorption(float) : "The fog absorption, or how much light color it absorbs" : ".5"
 	density(float) : "The fog density, or thickness" : "1"
-	frequency(float) : "The simplex noise frequency - effectively the scale of the noise texture" : "32"
-	lacunarity(float) : "The simplex noise lacunarity - multiplier per-octave of frequency" : "2"
 	noise(float) : "The fog noise, or variation in density" : "0"
-	octaves(float) : "The number of octaves to sample" : "5"
-	offset(string) : "An offset added to the noise calculation" : "0 0 0"
+	frequency(float) : "The simplex noise frequency - effectively the scale of the noise texture" : "32"
+	amplitude(float) : "The simplex noise amplitude - effectively the upper limit of noise values" : "1"
+	lacunarity(float) : "The simplex noise lacunarity - multiplier per-octave of frequency" : "2"
 	persistence(float) : "The simplex noise persistence - multiplier per-octave of amplitude" : "0.5"
+	octaves(float) : "The number of octaves to sample" : "5"
 	seed(float) : "The simplex noise permutation vector seed" : "0"
+	offset(string) : "An offset added to the noise calculation" : "0 0 0"
 ]
 
 @PointClass color(80 180 80) size(-16 -16 -16, 16 16 16) = misc_model : "Client-side emission of static models (non-interactive map objects). These are useful for placing trees, torches, and other non-brush scenery."
@@ -345,7 +369,7 @@
 	width(float): "The sprite width. Setting this will cause size to be ignored" : "0"
 ]
 
-@PointClass base(Target) color(220 220 220) size(-10 -10 -10, 10 10 10) = misc_steam : "Client-side emission of steam effects."
+@PointClass base(Target) color(220 220 220) size(-8 -8 -8, 8 8 8) = misc_steam : "Client-side emission of steam effects."
 [
 	count(integer) : "The count of sprites to emit per emission" : 1
 	density(float) : "The flame density" : "1"
@@ -382,15 +406,15 @@
 	pathtarget(string) : "An entity to be used by this path corner when targeted"
 ]
 
-@PointClass base(Targetname) color(255 255 80) size(-6 -6 -6, 6 6 6) = target_light : "Emits a user-defined light when used. Lights can be chained with teams. Use this entity to add switched lights. Use the wait key to synchronize color cycles with other entities."
+@PointClass base(Targetname) color(255 255 80) size(-8 -8 -8, 8 8 8) = target_light : "Emits a user-defined light when used. Lights can be chained with teams. Use this entity to add switched lights. Use the wait key to synchronize color cycles with other entities."
 [
 	spawnflags(Flags) =
 	[
 		1 : "The light will start on" : 0
 	]
 	color(string) : "The light color" : "1 1 1"
-	delay(float) : "The delay before activating, in seconds" : "0"
 	radius(float) : "The light radius in units" : "300"
+	delay(float) : "The delay before activating, in seconds" : "0"
 	team(string) : "The team name for alternating lights"
 	wait(float) : "If specified, an additional cycle will fire after this interval" : "0"
 ]
@@ -483,7 +507,7 @@
 @SolidClass base(Phong) = worldspawn : "The worldspawn entity defines global conditions and behavior for the entire level. All brushes not belonging to an explicit entity implicitly belong to worldspawn."
 [
 	message(string) : "The map title"
-	sky(string) : "The sky environment map" : "unit1_"
+	sky(string) : "The sky environment map" : "template"
 	ambient(float) : "The ambient light level" : "0"
 	weather(choices) : "Weather effects" : "none" =
 	[

@@ -94,7 +94,8 @@
 	hardness 0
 	specularity 0
 	parallax 0
-	contents "lava"
+	surface "liquid"
+	contents "lava detail"
 	{
 		texture common/quake/#lava1
 		scroll.t 0.15
@@ -184,7 +185,7 @@
 	roughness 1
 	hardness 1
 	specularity 1
-	parallax 0.897959
+	parallax 1
 }
 {
 	diffusemap common/quake/dem4_4
@@ -228,6 +229,26 @@
 	{
 		texture common/quake/light3_3_luma
 		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_2
+	}
+}
+{
+	diffusemap common/quake/light3_7
+	normalmap common/quake/light3_7_norm
+	specularmap common/quake/light3_7_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 3
+	contents "detail"
+	{
+		texture common/quake/light3_7_luma
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.5 1.5 1.5 1
 	}
 	{
 		scale.s 1.25
@@ -446,7 +467,6 @@
 	hardness 3
 	specularity 2
 	parallax 1.25
-	contents "mist"
 }
 {
 	diffusemap common/quake/metalt2_7
