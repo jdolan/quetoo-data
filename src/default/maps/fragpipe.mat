@@ -1,37 +1,10 @@
 {
-	diffusemap common/caulk
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-}
-{
-	diffusemap common/clip
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-}
-{
 	diffusemap common/fog
 	roughness 1
 	hardness 1
 	specularity 1
 	parallax 1
-}
-{
-	diffusemap common/origin
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-}
-{
-	diffusemap common/sky
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
+	shadow 0
 }
 {
 	diffusemap fragpipe/brlava
@@ -39,6 +12,7 @@
 	hardness 0.7
 	specularity 1
 	parallax 1
+	shadow 0
 	contents "lava detail"
 	surface "liquid"
 	{
@@ -60,6 +34,7 @@
 	hardness 2
 	specularity 1.5
 	parallax 1
+	shadow 0
 	{
 		texture fragpipe/btactmach0fx1
 		blend GL_SRC_ALPHA GL_ONE
@@ -71,7 +46,8 @@
 	roughness 4
 	hardness 4
 	specularity 1.7
-	parallax 4
+	parallax 3.38584
+	shadow 8
 	{
 		texture fragpipe/ceil1_4fx
 		blend GL_SRC_ALPHA GL_ONE
@@ -87,7 +63,8 @@
 	roughness 1.5
 	hardness 2.5
 	specularity 1.5
-	parallax 2.53061
+	parallax 3.27105
+	shadow 8
 	footsteps metal
 }
 {
@@ -95,7 +72,8 @@
 	roughness 2
 	hardness 2
 	specularity 1.4
-	parallax 2.04082
+	parallax 2.9713
+	shadow 8
 }
 {
 	diffusemap fragpipe/color1_3
@@ -103,6 +81,7 @@
 	hardness 1.8
 	specularity 1.5
 	parallax 2.04082
+	shadow 8
 	footsteps metal
 }
 {
@@ -111,6 +90,7 @@
 	hardness 2
 	specularity 1.3
 	parallax 1
+	shadow 0
 	{
 		texture fragpipe/dr02_2fx1
 		blend GL_SRC_ALPHA GL_ONE
@@ -123,30 +103,34 @@
 	hardness 1.8
 	specularity 1.5
 	parallax 1
+	shadow 0
 	footsteps metal2
 }
 {
 	diffusemap fragpipe/floor3_1
-	roughness 2
+	roughness 1.92761
 	hardness 2
 	specularity 1.3
-	parallax 1.55102
+	parallax 3.73756
+	shadow 8
 }
 {
 	diffusemap fragpipe/ggrat12_2
 	normalmap fragpipe/grate2_7_nm
-	roughness 1.5
-	hardness 1.5
-	specularity 1.6
-	parallax 1
+	roughness 2.04496
+	hardness 2.51818
+	specularity 1.4662
+	parallax 3.96014
+	shadow 8
 }
 {
 	diffusemap fragpipe/ggrat12_2heat
 	normalmap fragpipe/grate2_7_nm
-	roughness 1.5
-	hardness 1.5
-	specularity 1.6
-	parallax 1
+	roughness 2.01562
+	hardness 2.5118
+	specularity 1.51339
+	parallax 3.99426
+	shadow 8
 	{
 		texture fragpipe/glowedge256
 		blend GL_SRC_ALPHA GL_ONE
@@ -158,6 +142,7 @@
 	hardness 1
 	specularity 1.3
 	parallax 1
+	shadow 0
 }
 {
 	diffusemap fragpipe/glassdirt0
@@ -165,6 +150,7 @@
 	hardness 1
 	specularity 1.3
 	parallax 1
+	shadow 0
 	surface "blend_66"
 }
 {
@@ -172,14 +158,16 @@
 	roughness 1.5
 	hardness 2
 	specularity 1.5
-	parallax 1.63265
+	parallax 1.97066
+	shadow 8
 }
 {
 	diffusemap fragpipe/grate2_7
 	roughness 1.5
-	hardness 1.5
-	specularity 1.6
-	parallax 1
+	hardness 2.68144
+	specularity 1.59821
+	parallax 3.16741
+	shadow 8
 }
 {
 	diffusemap fragpipe/grate2_7down
@@ -187,6 +175,7 @@
 	hardness 1.5
 	specularity 1.6
 	parallax 1
+	shadow 0
 	{
 		texture fragpipe/glowlavadown
 		blend GL_SRC_ALPHA GL_ONE
@@ -196,9 +185,10 @@
 	diffusemap fragpipe/grate2_7heat
 	normalmap fragpipe/grate2_7_nm
 	roughness 1.5
-	hardness 1.5
+	hardness 2.67411
 	specularity 1.6
-	parallax 1
+	parallax 3.15593
+	shadow 8
 	{
 		texture fragpipe/glowedge256
 		blend GL_SRC_ALPHA GL_ONE
@@ -210,6 +200,7 @@
 	hardness 1.5
 	specularity 1.6
 	parallax 1
+	shadow 0
 	{
 		texture fragpipe/glowlavalow
 		blend GL_SRC_ALPHA GL_ONE
@@ -221,6 +212,7 @@
 	hardness 1.8
 	specularity 1.4
 	parallax 1
+	shadow 2.27838
 }
 {
 	diffusemap fragpipe/metal14_1edge
@@ -228,6 +220,7 @@
 	hardness 1.8
 	specularity 1.4
 	parallax 1.95918
+	shadow 0
 }
 {
 	diffusemap fragpipe/metal3_1
@@ -235,20 +228,23 @@
 	hardness 1.4
 	specularity 1.4
 	parallax 1
+	shadow 0
 }
 {
 	diffusemap fragpipe/metal3_2
 	roughness 1.5
 	hardness 1.4
 	specularity 1.4
-	parallax 1.95918
+	parallax 3.00989
+	shadow 0
 }
 {
 	diffusemap fragpipe/metal3_3
 	roughness 1.5
 	hardness 1.4
 	specularity 1.4
-	parallax 2.04082
+	parallax 2.96301
+	shadow 8
 }
 {
 	diffusemap fragpipe/metal3_3q2decal
@@ -256,6 +252,7 @@
 	hardness 1.4
 	specularity 1.4
 	parallax 1.95918
+	shadow 0
 }
 {
 	diffusemap fragpipe/metal3_4
@@ -263,6 +260,7 @@
 	hardness 1.5
 	specularity 2
 	parallax 1
+	shadow 0
 }
 {
 	diffusemap fragpipe/metal_subslime
@@ -270,6 +268,7 @@
 	hardness 0.7
 	specularity 1.5
 	parallax 2.04082
+	shadow 0
 	{
 		texture fragpipe/slime_glowedge
 		blend GL_SRC_ALPHA GL_ONE
@@ -281,6 +280,7 @@
 	hardness 2
 	specularity 1.3
 	parallax 1
+	shadow 0
 }
 {
 	diffusemap fragpipe/metals_3
@@ -288,6 +288,7 @@
 	hardness 1.5
 	specularity 1.5
 	parallax 1
+	shadow 0
 }
 {
 	diffusemap fragpipe/metl12_1
@@ -295,6 +296,7 @@
 	hardness 2
 	specularity 1.2
 	parallax 1
+	shadow 0
 }
 {
 	diffusemap fragpipe/metl_floor
@@ -302,6 +304,7 @@
 	hardness 1.6
 	specularity 1.2
 	parallax 1
+	shadow 0
 	footsteps metal
 }
 {
@@ -310,6 +313,7 @@
 	hardness 3.3
 	specularity 1.5
 	parallax 3.5102
+	shadow 0
 	contents "detail"
 	surface "alpha_test"
 }
@@ -319,6 +323,7 @@
 	hardness 0
 	specularity 1
 	parallax 1
+	shadow 0
 	contents "slime detail"
 	surface "liquid blend_66"
 	{
@@ -342,7 +347,8 @@
 	roughness 1.5
 	hardness 1
 	specularity 1.3
-	parallax 1
+	parallax 1.1808
+	shadow 2.57302
 	footsteps metal
 }
 {
@@ -352,6 +358,7 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	shadow 0
 }
 {
 	diffusemap fragpipe/wbasic1_4
@@ -359,6 +366,7 @@
 	hardness 1.3
 	specularity 1
 	parallax 1
+	shadow 0
 }
 {
 	diffusemap fragpipe/wndow1_2
@@ -366,5 +374,6 @@
 	hardness 1
 	specularity 1
 	parallax 1
+	shadow 0
 	surface "blend_100"
 }
