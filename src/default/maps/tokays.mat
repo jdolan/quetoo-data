@@ -7,8 +7,8 @@
 }
 {
 	diffusemap common/quake2/bed3_3
-	roughness 1.46939
-	parallax 0.489796
+	roughness 1.5
+	parallax 0.5
 	hardness 1.5
 	specularity 1.8
 }
