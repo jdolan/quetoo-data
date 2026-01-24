@@ -1,42 +1,47 @@
 {
-	material common/dust
+	diffusemap common/dust
 	roughness 1
-	parallax 1
 	hardness 1
 	specularity 1
+	parallax 1
+	shadow 0
 }
 {
-	material common/fog
+	diffusemap common/fog
 	roughness 1
-	parallax 1
 	hardness 1
 	specularity 1
+	parallax 1
+	shadow 0
 }
 {
-	material torn/barrel
+	diffusemap torn/barrel
 	roughness 2.12245
-	parallax 1
 	hardness 5.06122
 	specularity 3.67347
+	parallax 1
+	shadow 0
 }
 {
-	material torn/baselt_c
+	diffusemap torn/baselt_c
 	roughness 3.59184
-	parallax 1
 	hardness 1
 	specularity 1.14286
-		{
+	parallax 1
+	shadow 0
+	{
 		texture torn/baselt_cfx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	material torn/ceil1_2
+	diffusemap torn/ceil1_2
 	roughness 4.97959
-	parallax 2.85714
 	hardness 3.10204
 	specularity 2.61224
-		{
+	parallax 2.85714
+	shadow 8
+	{
 		texture torn/ceil1_2fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -45,46 +50,52 @@
 	}
 }
 {
-	material torn/concrete0dark
-	roughness 3.91837
-	parallax 0.571429
-	hardness 1.06122
-	specularity 0.816327
+	diffusemap torn/concrete0dark
+	roughness 0.30963
+	hardness 0.514349
+	specularity 0.585459
+	parallax 1.72577
+	shadow 0.281888
 }
 {
-	material torn/dmetsupport1
+	diffusemap torn/dmetsupport1
 	roughness 4.40816
-	parallax 0.897959
 	hardness 5.63265
 	specularity 4
+	parallax 0.897959
+	shadow 0
 }
 {
-	material torn/floor1
-	roughness 6.53061
-	parallax 0.326531
-	hardness 4.08163
-	specularity 2.20408
+	diffusemap torn/floor1
+	roughness 2.36416
+	hardness 5.00542
+	specularity 1.25064
+	parallax 1.82589
+	shadow 8
 }
 {
-	material torn/floor1stripe
+	diffusemap torn/floor1stripe
 	roughness 3.18367
-	parallax 1
 	hardness 4.40816
 	specularity 1.95918
-}
-{
-	material torn/floor2
-	roughness 5.79592
 	parallax 1
-	hardness 4.4898
-	specularity 3.59184
+	shadow 0
 }
 {
-	material torn/floorfx
+	diffusemap torn/floor2
+	roughness 1.88202
+	hardness 4.4898
+	specularity 1.21939
+	parallax 3.103
+	shadow 8
+}
+{
+	diffusemap torn/floorfx
 	roughness 1.14286
-	parallax 0.979592
 	hardness 3.26531
 	specularity 1.46939
+	parallax 0.979592
+	shadow 0
 	surface "blend_100 material decal"
 	{
 		texture torn/floorfx
@@ -95,12 +106,13 @@
 	}
 }
 {
-	material torn/lite1
-	roughness 2.04082
-	parallax 1
-	hardness 2.93878
-	specularity 1.46939
-		{
+	diffusemap torn/lite1
+	roughness 1.12659
+	hardness 8
+	specularity 1.14158
+	parallax 4.91677
+	shadow 7.90593
+	{
 		texture torn/lite1fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -109,83 +121,94 @@
 	}
 }
 {
-	material torn/metglu
+	diffusemap torn/metglu
 	roughness 4.32653
-	parallax 1
 	hardness 1.14286
 	specularity 2.93878
+	parallax 1
+	shadow 0
 }
 {
-	material torn/metglu2
+	diffusemap torn/metglu2
 	roughness 3.02041
-	parallax 0
 	hardness 0.816327
-	specularity 2.61224
+	specularity 4.30389
+	parallax 2.50446
+	shadow 0.668048
 }
 {
-	material torn/metpan1
+	diffusemap torn/metpan1
 	roughness 2.44898
-	parallax 1
-	hardness 1.22449
-	specularity 2.85714
+	hardness 8
+	specularity 1.47226
+	parallax 2.97066
+	shadow 8
 }
 {
-	material torn/metpan1r
-	roughness 1.46939
-	parallax 1
-	hardness 1.22449
-	specularity 3.10204
+	diffusemap torn/metpan1r
+	roughness 1.87149
+	hardness 8
+	specularity 1.43941
+	parallax 3.19101
+	shadow 8
 }
 {
-	material torn/metpan2
+	diffusemap torn/metpan2
 	roughness 4.08163
-	parallax 1
-	hardness 2.85714
-	specularity 3.34694
+	hardness 8
+	specularity 1.47832
+	parallax 2.97003
+	shadow 8
 }
 {
-	material torn/metpan3
+	diffusemap torn/metpan3
 	roughness 3.91837
-	parallax 1
-	hardness 1.95918
-	specularity 5.63265
+	hardness 7.89509
+	specularity 1.50957
+	parallax 2.08418
+	shadow 8
 }
 {
-	material torn/metpan4
-	roughness 2.69388
-	parallax 1
-	hardness 2.69388
-	specularity 3.10204
+	diffusemap torn/metpan4
+	roughness 4.1926
+	hardness 8
+	specularity 1.58355
+	parallax 3.01212
+	shadow 8
 }
 {
-	material torn/metpan5
+	diffusemap torn/metpan5
 	roughness 1.71429
+	hardness 8
+	specularity 1.45823
 	parallax 1
-	hardness 3.10204
-	specularity 3.18367
+	shadow 0
 }
 {
-	material torn/metpan_caution
-	roughness 1.87755
-	parallax 1
-	hardness 2.77551
-	specularity 3.18367
+	diffusemap torn/metpan_caution
+	roughness 4.35491
+	hardness 8
+	specularity 1.39477
+	parallax 2.41614
+	shadow 8
 }
 {
-	material torn/metpan_caution2
+	diffusemap torn/metpan_caution2
 	normalmap torn/metpan_caution_nm
-	roughness 2.77551
-	parallax 2.53061
-	hardness 2.77551
-	specularity 5.14286
+	roughness 1.68335
+	hardness 8
+	specularity 8
+	parallax 2.6604
+	shadow 8
 }
 {
-	material torn/metpan_lite1
+	diffusemap torn/metpan_lite1
 	roughness 1.55102
-	parallax 0.653061
-	hardness 1.95918
-	specularity 3.02041
-		{
+	hardness 4.0912
+	specularity 1.49362
+	parallax 2.1604
+	shadow 8
+	{
 		texture torn/metpan_lite1fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -194,115 +217,127 @@
 	}
 }
 {
-	material torn/q1comp2
+	diffusemap torn/q1comp2
 	roughness 6.28571
-	parallax 2.20408
-	hardness 5.06122
-	specularity 3.67347
+	hardness 8
+	specularity 1.05931
+	parallax 2.18399
+	shadow 0
 }
 {
-	material torn/q1comp4
+	diffusemap torn/q1comp4
 	roughness 5.95918
-	parallax 2.04082
-	hardness 5.22449
-	specularity 2.85714
+	hardness 8
+	specularity 1.48406
+	parallax 2.24458
+	shadow 0
 }
 {
-	material torn/q1comp6
+	diffusemap torn/q1comp6
 	roughness 5.38775
-	parallax 2.04082
-	hardness 5.06122
-	specularity 3.34694
-		{
+	hardness 8
+	specularity 1.48533
+	parallax 4.15274
+	shadow 0
+	{
 		texture torn/q1comp6fx0
 		blend GL_SRC_ALPHA GL_ONE
 		anim 5 0.7
-		lightmap
 	}
 }
 {
-	material torn/q1comp6_
+	diffusemap torn/q1comp6_
 	roughness 3.18367
-	parallax 2.53061
-	hardness 3.5102
-	specularity 2.77551
-		{
+	hardness 8
+	specularity 1.44037
+	parallax 3.06888
+	shadow 0
+	{
 		texture torn/q1comp6fx1
 		blend GL_SRC_ALPHA GL_ONE
 		anim 4 0.3
-		lightmap
 	}
 }
 {
-	material torn/q1comp7
+	diffusemap torn/q1comp7
 	roughness 5.95918
-	parallax 1.95918
-	hardness 5.06122
-	specularity 3.02041
+	hardness 8
+	specularity 1.47959
+	parallax 2.38584
+	shadow 8
 }
 {
-	material torn/stain_chemical1
+	diffusemap torn/stain_chemical1
 	roughness 1.22449
-	parallax 1
 	hardness 0.0816327
 	specularity 0.489796
+	parallax 1
+	shadow 0
 	surface "blend_100 decal"
 }
 {
-	material torn/stain_dirt1
+	diffusemap torn/stain_dirt1
 	roughness 1.14286
-	parallax 1
 	hardness 1.71429
 	specularity 3.42857
+	parallax 1
+	shadow 0
 	surface "blend_100 decal"
 }
 {
-	material torn/stain_dirt2
+	diffusemap torn/stain_dirt2
 	roughness 1
-	parallax 1
 	hardness 5.71429
 	specularity 0.897959
+	parallax 1
+	shadow 0
 	surface "blend_100 decal"
 }
 {
-	material torn/stair1
+	diffusemap torn/stair1
 	roughness 4.2449
-	parallax 1.30612
 	hardness 1.46939
 	specularity 1.79592
+	parallax 3.02296
+	shadow 8
 }
 {
-	material torn/star6
+	diffusemap torn/star6
 	roughness 3.34694
-	parallax 1.46939
 	hardness 1.06122
 	specularity 1.87755
+	parallax 2.82717
+	shadow 3.64349
 }
 {
-	material torn/starb2a
+	diffusemap torn/starb2a
 	roughness 1
-	parallax 1
 	hardness 1
 	specularity 1
-}
-{
-	material torn/starc
-	roughness 8
-	parallax 1.06122
-	hardness 1.14286
-	specularity 4.73469
-}
-{
-	material torn/stard
-	roughness 3.18367
 	parallax 1
+	shadow 0
+}
+{
+	diffusemap torn/starc
+	roughness 4.26275
+	hardness 1.73469
+	specularity 1.00319
+	parallax 3.93399
+	shadow 8
+}
+{
+	diffusemap torn/stard
+	roughness 3.18367
 	hardness 1.46939
 	specularity 2.53061
+	parallax 1
+	shadow 0
 }
 {
-	material torn/xpiplun1a
+	diffusemap torn/xpiplun1a
 	roughness 2.20408
-	parallax 1
 	hardness 2.77551
 	specularity 2.44898
+	parallax 1
+	shadow 0
 }
