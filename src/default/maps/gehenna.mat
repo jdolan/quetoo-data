@@ -27,8 +27,8 @@
 	roughness 1
 	hardness 2.77551
 	specularity 2.85714
-		contents "lava"
-	surface "blend_66"
+	contents "lava"
+	surface "light blend_66"
 	{
 		texture gehenna/brlava1
 		blend GL_SRC_ALPHA GL_ONE
@@ -71,7 +71,7 @@
 	material gehenna/cretefloor_01b_d
 	roughness 4.16327
 	hardness 0.734694
-	specularity 1.38776
+	specularity 1.38776.14286
 }
 {
 	material gehenna/cretewall_01_d
@@ -83,20 +83,21 @@
 	material gehenna/cretewall_02_d
 	roughness 1.71429
 	hardness 1.71429
-	specularity 1.46939
+	specularity 1.46939.46939
 }
 {
 	material gehenna/cretewall_03_d
 	roughness 1.71429
 	hardness 1.55102
-	specularity 1.95918
+	specularity 1.95918.55102
 }
 {
 	material gehenna/glass
 	roughness 1
-	hardness 6.61225
-	specularity 1.87755
-		{
+	hardness 6.5
+	specularity 1.75
+	surface "blend_33"
+	{
 		envmap gehenna/glass
 	}
 }
@@ -120,25 +121,30 @@
 	roughness 1.38776
 	hardness 1.14286
 	specularity 1.14286
+	bloom 0.979592
 }
 {
 	material gehenna/glue2_d
 	roughness 1
 	hardness 5.87755
 	specularity 1.46939
+	bloom 2.12245
 }
 {
 	material gehenna/grate1_d
 	roughness 1.95918
 	hardness 6.12245
 	specularity 2.36735
+	bloom 4.89796
 }
 {
 	material gehenna/light2a
 	roughness 3.34694
 	hardness 2.5
-	specularity 3
-		{
+	specularity 3.55102
+	surface "light"
+	light.radius 240
+	{
 		texture gehenna/light2a_fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -150,8 +156,10 @@
 	material gehenna/light4
 	roughness 1.06122
 	hardness 2.5
-	specularity 2.36735
-		{
+	specularity 2.36735.87755
+	surface "light"
+	light.radius 240
+	{
 		texture gehenna/light4_fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
@@ -164,24 +172,27 @@
 	roughness 4.4898
 	hardness 1.38776
 	specularity 1.22449
+	bloom 3.42857
 }
 {
 	material gehenna/metalbase03_d
 	roughness 1.6
 	hardness 3
 	specularity 5.87755
+	bloom 2.44898
 }
 {
 	material gehenna/mtl_wrn_01_d
 	roughness 0.816327
 	hardness 5.06122
 	specularity 2.53061
+	bloom 2.36735
 }
 {
 	material gehenna/padbase
 	roughness 1.8
 	hardness 2
-	specularity 1.46939
+	specularity 1.46939.63265
 	surface "alpha_test"
 	alpha_test 0.5
 	{
@@ -204,7 +215,7 @@
 	material gehenna/panel64_1
 	roughness 1.14286
 	hardness 2.44898
-	specularity 3.67347
+	specularity 3.67347.71429
 }
 {
 	material gehenna/panel64_2
@@ -217,6 +228,7 @@
 	roughness 5.79592
 	hardness 3.7551
 	specularity 2.20408
+	bloom 2.61224
 }
 {
 	material gehenna/panel64_3b_d
@@ -228,25 +240,27 @@
 	material gehenna/panel64_4_d
 	roughness 2.85714
 	hardness 4.2449
-	specularity 4.08163
+	specularity 4.08163.95918
 }
 {
 	material gehenna/panel64_5a_d
 	roughness 1.95918
 	hardness 1.55102
-	specularity 2.36735
+	specularity 2.36735.63265
 }
 {
 	material gehenna/panel64_6_d
 	roughness 1.06122
 	hardness 5.95918
 	specularity 3
+	bloom 4.32653
 }
 {
 	material gehenna/panel64_7b_d
 	roughness 1
 	hardness 5.71429
 	specularity 1.38776
+	bloom 5.22449
 }
 {
 	material gehenna/panel64_7c_d
@@ -258,7 +272,7 @@
 	material gehenna/panel64_7d_d
 	roughness 2.12245
 	hardness 4
-	specularity 4.2449
+	specularity 4.2449.63265
 }
 {
 	material gehenna/pipe1a
@@ -276,13 +290,13 @@
 	material gehenna/pipefixside
 	roughness 2.61224
 	hardness 6.36735
-	specularity 2.44898
+	specularity 2.44898.30612
 }
 {
 	material gehenna/rock1_d
 	roughness 1.71429
 	hardness 1.87755
-	specularity 0.653061
+	specularity 0.653061.79592
 }
 {
 	material gehenna/wbasic1_7
