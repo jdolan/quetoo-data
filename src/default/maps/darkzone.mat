@@ -1,39 +1,42 @@
 {
-	material common/caulk
+	diffusemap common/caulk
 	roughness 1
 	hardness 1
 	specularity 1
+	parallax 1
+	shadow 0
 }
 {
-	material common/clip
+	diffusemap common/clip
 	roughness 1
 	hardness 1
 	specularity 1
+	parallax 1
+	shadow 0
 }
 {
-	material common/fog
+	diffusemap common/quake/#teleport
 	roughness 1
-	hardness 1
+	hardness 10
 	specularity 1
-}
-{
-	material common/quake/#teleport
-	roughness 1
-	hardness 2.44898
-	specularity 1
-		contents "mist"
-	surface "blend_33 material"
+	parallax 1
+	shadow 0
+	contents "mist"
+	surface "blend_33"
 	{
 		texture common/quake/#teleport
 		warp 1 1
 	}
 }
+
 {
-	material common/quake/#water1
+	diffusemap common/quake/#water1
 	roughness 1
 	hardness 1
 	specularity 1
-		contents "water"
+	parallax 1
+	shadow 0
+	contents "water"
 	surface "blend_33"
 	{
 		texture common/quake/#water1_luma
@@ -45,71 +48,93 @@
 	}
 }
 {
-	material common/quake/city2_6
+	diffusemap common/quake/city2_6
 	normalmap common/quake/city2_3_norm
 	roughness 4.08163
 	hardness 1.14286
 	specularity 2.53061
+	parallax 4.31218
+	shadow 8
 }
 {
-	material common/quake/city2_7
+	diffusemap common/quake/city2_7
 	normalmap common/quake/city2_3_norm
 	roughness 3.42857
 	hardness 2.04082
 	specularity 2.61224
+	parallax 4.73501
+	shadow 8
 }
 {
-	material common/quake/city2_8
+	diffusemap common/quake/city2_8
 	normalmap common/quake/city2_3_norm
 	roughness 2.77551
 	hardness 1.22449
 	specularity 0.897959
+	parallax 4.49841
+	shadow 8
 }
 {
-	material common/quake/city4_2
-	roughness 5.79592
-	hardness 2.20408
-	specularity 1.79592
+	diffusemap common/quake/city4_2
+	roughness 1.95089
+	hardness 3.63712
+	specularity 1.3361
+	parallax 5.0979
+	shadow 8
 }
 {
-	material common/quake/cop1_1
-	roughness 1.55102
+	diffusemap common/quake/cop1_1
+	roughness 4.1148
 	hardness 5.63265
 	specularity 0.979592
+	parallax 1.47608
+	shadow 8
 }
 {
-	material common/quake/cop1_7
+	diffusemap common/quake/cop1_7
 	roughness 2.85714
 	hardness 8
 	specularity 1
+	parallax 1
+	shadow 0
 }
 {
-	material common/quake/ground1_5
-	roughness 1.22449
-	hardness 3.42857
-	specularity 1
+	diffusemap common/quake/ground1_5
+	roughness 3.74107
+	hardness 1.39796
+	specularity 1.94962
+	parallax 3.39286
+	shadow 5.12883
 }
 {
-	material common/quake/metal1_3
+	diffusemap common/quake/metal1_3
 	roughness 1.87755
 	hardness 4.2449
 	specularity 0.897959
+	parallax 1
+	shadow 0
 }
 {
-	material common/quake/metal4_4
-	roughness 1.38776
+	diffusemap common/quake/metal4_4
+	roughness 1.4104
 	hardness 7.02041
-	specularity 1.79592
+	specularity 1.56505
+	parallax 3.08705
+	shadow 8
 }
 {
-	material common/quake/wmet4_8
-	roughness 3.5102
-	hardness 8
-	specularity 2.04082
+	diffusemap common/quake/wmet4_8
+	roughness 0.979273
+	hardness 3.12213
+	specularity 1.5102
+	parallax 3.73501
+	shadow 8
 }
 {
-	material common/sky
+	diffusemap common/sky
 	roughness 1
 	hardness 1
 	specularity 1
+	parallax 1
+	shadow 0
 }
