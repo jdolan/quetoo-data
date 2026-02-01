@@ -356,9 +356,10 @@
 	normalmap common/quake/tech04_9_norm
 	specularmap common/quake/tech04_9_gloss
 	roughness 2
-	hardness 1
-	specularity 1
+	hardness 2
+	specularity 1.25
 	parallax 2
+	shadow 1.25
 	footsteps metal
 }
 {
@@ -386,25 +387,28 @@
 	roughness 1
 	hardness 1
 	specularity 1
-	parallax 3 
+	parallax 3.5
+	shadow 1.5
 }
 {
 	diffusemap common/quake/window01_4
 	normalmap common/quake/window01_4_norm
 	specularmap common/quake/window01_4_gloss
-	roughness 1
+	roughness 6
 	hardness 6
-	specularity 1.5
-	parallax 1.5
+	specularity 0.8
+	parallax 2
 }
 {
 	diffusemap common/quake/wswamp1_4
-	normalmap common/quake/wswamp1_4_norm
-	specularmap common/quake/wswamp1_4_gloss
-	roughness 2
-	hardness 1
-	specularity 1
+	normalmap common/quake/wswamp1_4_nm
+	specularmap common/quake/wswamp1_4_sm
+	heightmap common/quake/wswamp1_4_hm
+	roughness 1
+	hardness 0.75
+	specularity 1.25
 	parallax 3.15
+	shadow 2
 }
 {
 	diffusemap common/quake/wswamp2_3
@@ -550,7 +554,7 @@
 	{
 		texture common/quake2/tampon2
 		blend GL_SRC_ALPHA GL_ONE
-		color 1 0 0 0.65
+		color 1 0 0 1
 	}
 }
 {

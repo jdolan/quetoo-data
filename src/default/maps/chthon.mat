@@ -118,7 +118,7 @@
 	roughness 1
 	hardness 1
 	specularity 1
-	parallax 2
+	parallax 2.5
 	{
 		texture common/quake/animated/light01/light01_0
 		anim 3 6
@@ -155,9 +155,10 @@
 {
 	diffusemap common/quake/cop1_1r
 	roughness 1
-	hardness 1.95918
+	hardness 2
 	specularity 2
-	parallax 1
+	parallax 2.5
+	shadow 1
 }
 {
 	diffusemap common/quake/cop1_2
@@ -283,7 +284,8 @@
 	roughness 1
 	hardness 3.7551
 	specularity 1.5
-	parallax 2.12245
+	parallax 2
+	shadow 1
 	contents "mist detail"
 	{
 		texture common/quake/lite_fart3_SoftWhite_luma
@@ -329,6 +331,15 @@
 	hardness 2
 	specularity 1
 	parallax 1
+	shadow 2
+}
+{
+	diffusemap common/quake/metal1_7
+	roughness 1
+	hardness 2
+	specularity 1
+	parallax 2.5
+	shadow 2
 }
 {
 	diffusemap common/quake/metal2_2
@@ -343,6 +354,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 3
+	shadow 2
 }
 {
 	diffusemap common/quake/metal2_4
@@ -364,7 +376,8 @@
 	roughness 1
 	hardness 1.5
 	specularity 1
-	parallax 3
+	parallax 4
+	shadow 1
 }
 {
 	diffusemap common/quake/metal4_4d
@@ -373,6 +386,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 3
+	shadow 1
 }
 {
 	diffusemap common/quake/metal4_4f
@@ -381,6 +395,7 @@
 	hardness 1.5
 	specularity 1
 	parallax 3
+	shadow 1
 }
 {
 	diffusemap common/quake/metal4_5
@@ -402,6 +417,7 @@
 	hardness 3
 	specularity 2
 	parallax 3
+	shadow 1
 }
 {
 	diffusemap common/quake/metal5_8
@@ -432,6 +448,7 @@
 	hardness 1
 	specularity 1
 	parallax 3.5
+	shadow 1.5
 	contents "detail"
 	{
 		texture common/quake/metal6_3_luma
@@ -495,25 +512,36 @@
 	hardness 1
 	specularity 1
 	parallax 3
+	shadow 1
+}
+{
+	diffusemap common/quake/rune1_5
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 3
+	shadow 1
 }
 {
 	diffusemap common/quake/rune1_6
 	roughness 1
-	hardness 1
+	hardness 1.5
 	specularity 1
 	parallax 3
+	shadow 1
 }
 {
 	diffusemap common/quake/rune1_7
 	roughness 1
-	hardness 1
+	hardness 1.5
 	specularity 1
 	parallax 3
+	shadow 1
 }
 {
 	diffusemap common/quake/rune2_5
 	roughness 1
-	hardness 1
+	hardness 1.5
 	specularity 1
 	parallax 3
 }
@@ -522,7 +550,8 @@
 	roughness 1
 	hardness 2
 	specularity 1
-	parallax 3
+	parallax 2.25
+	shadow 1
 }
 {
 	diffusemap common/trigger
@@ -530,6 +559,14 @@
 	hardness 1
 	specularity 1
 	parallax 1
+}
+{
+	diffusemap common/quake/plat_stem
+	roughness 1
+	hardness 1.5
+	specularity 1
+	parallax 4.5
+	shadow 1
 }
 {
 	diffusemap common/quake3/sfx/r_flame1
