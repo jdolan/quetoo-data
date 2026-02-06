@@ -7,7 +7,7 @@
 	shadow 0.00
 }
 {
-	diffusemap fragpipe/brlava
+	diffusemap common/quake2/brlava
 	roughness 1.50
 	hardness 0.70
 	specularity 1.00
@@ -16,40 +16,40 @@
 	contents "lava detail"
 	surface "liquid"
 	{
-		texture fragpipe/brlava1
+		texture common/quake2/brlava1
 		blend GL_SRC_ALPHA GL_ONE
 		scroll.s 0.020
 		warp 0.12 0.25
 	}
 	{
-		texture fragpipe/brlava1
+		texture common/quake2/brlava1
 		blend GL_ONE GL_ONE
 		scroll.t 0.020
 		warp 0.12 0.25
 	}
 }
 {
-	diffusemap fragpipe/btactmach0
+	diffusemap common/quake2/btactmach0
 	roughness 2.00
 	hardness 2.00
 	specularity 1.50
 	parallax 1.00
 	shadow 0.00
 	{
-		texture fragpipe/btactmach0fx1
+		texture common/quake2/btactmach0fx1
 		blend GL_SRC_ALPHA GL_ONE
 		anim 2 0.00
 	}
 }
 {
-	diffusemap fragpipe/ceil1_4
+	diffusemap common/quake2/ceil1_4
 	roughness 4.00
 	hardness 4.00
 	specularity 1.70
 	parallax 3.39
 	shadow 8.00
 	{
-		texture fragpipe/ceil1_4fx
+		texture common/quake2/ceil1_4fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
@@ -59,7 +59,7 @@
 	}
 }
 {
-	diffusemap fragpipe/color1_1
+	diffusemap common/quake2/color1_1
 	roughness 1.50
 	hardness 2.50
 	specularity 1.50
@@ -68,7 +68,7 @@
 	footsteps metal
 }
 {
-	diffusemap fragpipe/color1_2
+	diffusemap common/quake2/color1_2
 	roughness 2.00
 	hardness 2.00
 	specularity 1.40
@@ -76,7 +76,7 @@
 	shadow 8.00
 }
 {
-	diffusemap fragpipe/color1_3
+	diffusemap common/quake2/color1_3
 	roughness 1.50
 	hardness 1.80
 	specularity 1.50
@@ -85,20 +85,20 @@
 	footsteps metal
 }
 {
-	diffusemap fragpipe/dr02_2
+	diffusemap common/quake2/dr02_2
 	roughness 2.00
 	hardness 2.00
 	specularity 1.30
 	parallax 1.00
 	shadow 0.00
 	{
-		texture fragpipe/dr02_2fx1
+		texture common/quake2/dr02_2fx1
 		blend GL_SRC_ALPHA GL_ONE
 		anim 2 0.00
 	}
 }
 {
-	diffusemap fragpipe/floor1_3
+	diffusemap common/quake2/floor1_3
 	roughness 1.80
 	hardness 1.80
 	specularity 1.50
@@ -107,7 +107,7 @@
 	footsteps metal2
 }
 {
-	diffusemap fragpipe/floor3_1
+	diffusemap common/quake2/floor3_1
 	roughness 1.93
 	hardness 2.00
 	specularity 1.30
@@ -115,8 +115,8 @@
 	shadow 8.00
 }
 {
-	diffusemap fragpipe/ggrat12_2
-	normalmap fragpipe/grate2_7_nm
+	diffusemap common/quake2/ggrat12_2
+	normalmap common/quake2/grate2_7_nm
 	roughness 2.04
 	hardness 2.52
 	specularity 1.47
@@ -124,20 +124,20 @@
 	shadow 8.00
 }
 {
-	diffusemap fragpipe/ggrat12_2heat
-	normalmap fragpipe/grate2_7_nm
+	diffusemap common/quake2/ggrat12_2heat
+	normalmap common/quake2/grate2_7_nm
 	roughness 2.02
 	hardness 2.51
 	specularity 1.51
 	parallax 3.99
 	shadow 8.00
 	{
-		texture fragpipe/glowedge256
+		texture common/quake2/glowedge256
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	diffusemap fragpipe/ggrat4_2add
+	diffusemap common/quake2/ggrat4_2add
 	roughness 1.50
 	hardness 1.00
 	specularity 1.30
@@ -145,7 +145,7 @@
 	shadow 0.00
 }
 {
-	diffusemap fragpipe/glassdirt0
+	diffusemap common/quake2/glassdirt0
 	roughness 1.00
 	hardness 1.00
 	specularity 1.30
@@ -154,7 +154,7 @@
 	surface "blend_66"
 }
 {
-	diffusemap fragpipe/grate1_5
+	diffusemap common/quake2/grate1_5
 	roughness 1.50
 	hardness 2.00
 	specularity 1.50
@@ -162,7 +162,7 @@
 	shadow 8.00
 }
 {
-	diffusemap fragpipe/grate2_7
+	diffusemap common/quake2/grate2_7
 	roughness 1.50
 	hardness 2.68
 	specularity 1.60
@@ -170,44 +170,44 @@
 	shadow 8.00
 }
 {
-	diffusemap fragpipe/grate2_7down
+	diffusemap common/quake2/grate2_7down
 	roughness 1.50
 	hardness 1.50
 	specularity 1.60
 	parallax 1.00
 	shadow 0.00
 	{
-		texture fragpipe/glowlavadown
+		texture common/quake2/glowlavadown
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	diffusemap fragpipe/grate2_7heat
-	normalmap fragpipe/grate2_7_nm
+	diffusemap common/quake2/grate2_7heat
+	normalmap common/quake2/grate2_7_nm
 	roughness 1.50
 	hardness 2.67
 	specularity 1.60
 	parallax 3.16
 	shadow 8.00
 	{
-		texture fragpipe/glowedge256
+		texture common/quake2/glowedge256
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	diffusemap fragpipe/grate2_7low
+	diffusemap common/quake2/grate2_7low
 	roughness 1.50
 	hardness 1.50
 	specularity 1.60
 	parallax 1.00
 	shadow 0.00
 	{
-		texture fragpipe/glowlavalow
+		texture common/quake2/glowlavalow
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	diffusemap fragpipe/metal14_1
+	diffusemap common/quake2/metal14_1
 	roughness 1.80
 	hardness 1.80
 	specularity 1.40
@@ -215,7 +215,7 @@
 	shadow 2.28
 }
 {
-	diffusemap fragpipe/metal14_1edge
+	diffusemap common/quake2/metal14_1edge
 	roughness 1.80
 	hardness 1.80
 	specularity 1.40
@@ -223,7 +223,7 @@
 	shadow 0.00
 }
 {
-	diffusemap fragpipe/metal3_1
+	diffusemap common/quake2/metal3_1
 	roughness 1.50
 	hardness 1.40
 	specularity 1.40
@@ -231,7 +231,7 @@
 	shadow 0.00
 }
 {
-	diffusemap fragpipe/metal3_2
+	diffusemap common/quake2/metal3_2
 	roughness 1.50
 	hardness 1.40
 	specularity 1.40
@@ -239,7 +239,7 @@
 	shadow 0.00
 }
 {
-	diffusemap fragpipe/metal3_3
+	diffusemap common/quake2/metal3_3
 	roughness 1.50
 	hardness 1.40
 	specularity 1.40
@@ -247,7 +247,7 @@
 	shadow 8.00
 }
 {
-	diffusemap fragpipe/metal3_3q2decal
+	diffusemap common/quake2/metal3_3q2decal
 	roughness 1.50
 	hardness 1.40
 	specularity 1.40
@@ -255,7 +255,7 @@
 	shadow 0.00
 }
 {
-	diffusemap fragpipe/metal3_4
+	diffusemap common/quake2/metal3_4
 	roughness 2.00
 	hardness 1.50
 	specularity 2.00
@@ -263,19 +263,19 @@
 	shadow 0.00
 }
 {
-	diffusemap fragpipe/metal_subslime
+	diffusemap common/quake2/metal_subslime
 	roughness 1.40
 	hardness 0.70
 	specularity 1.50
 	parallax 2.04
 	shadow 0.00
 	{
-		texture fragpipe/slime_glowedge
+		texture common/quake2/slime_glowedge
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	diffusemap fragpipe/metalbase2
+	diffusemap common/quake2/metalbase2
 	roughness 2.00
 	hardness 2.00
 	specularity 1.30
@@ -283,7 +283,7 @@
 	shadow 0.00
 }
 {
-	diffusemap fragpipe/metals_3
+	diffusemap common/quake2/metals_3
 	roughness 1.40
 	hardness 1.50
 	specularity 1.50
@@ -291,7 +291,7 @@
 	shadow 0.00
 }
 {
-	diffusemap fragpipe/metl12_1
+	diffusemap common/quake2/metl12_1
 	roughness 2.50
 	hardness 2.00
 	specularity 1.20
@@ -299,7 +299,7 @@
 	shadow 0.00
 }
 {
-	diffusemap fragpipe/metl_floor
+	diffusemap common/quake2/metl_floor
 	roughness 2.00
 	hardness 1.60
 	specularity 1.20
@@ -308,7 +308,7 @@
 	footsteps metal
 }
 {
-	diffusemap fragpipe/sewer_bars
+	diffusemap common/quake2/sewer_bars
 	roughness 1.50
 	hardness 3.30
 	specularity 1.50
@@ -318,7 +318,7 @@
 	surface "alpha_test"
 }
 {
-	diffusemap fragpipe/slime0
+	diffusemap common/quake2/slime0
 	roughness 1.00
 	hardness 0.00
 	specularity 1.00
@@ -327,14 +327,14 @@
 	contents "slime detail"
 	surface "liquid blend_66"
 	{
-		texture fragpipe/slimefx1
+		texture common/quake2/slimefx1
 		blend GL_SRC_ALPHA GL_ONE
 		scale.s 0.800
 		scale.t 0.750
 		warp 0.30 0.30
 	}
 	{
-		texture fragpipe/slimefx2
+		texture common/quake2/slimefx2
 		blend GL_SRC_ALPHA GL_ONE
 		scroll.t 0.020
 		scale.s 0.900
@@ -343,7 +343,7 @@
 	}
 }
 {
-	diffusemap fragpipe/steps
+	diffusemap common/quake2/steps
 	roughness 1.50
 	hardness 1.00
 	specularity 1.30
@@ -352,8 +352,8 @@
 	footsteps metal
 }
 {
-	diffusemap fragpipe/subslimebotm
-	normalmap fragpipe/metl_floor_nm
+	diffusemap common/quake2/subslimebotm
+	normalmap common/quake2/metl_floor_nm
 	roughness 2.00
 	hardness 1.00
 	specularity 1.00
@@ -361,7 +361,7 @@
 	shadow 0.00
 }
 {
-	diffusemap fragpipe/wbasic1_4
+	diffusemap common/quake2/wbasic1_4
 	roughness 1.40
 	hardness 1.30
 	specularity 1.00
@@ -369,7 +369,7 @@
 	shadow 0.00
 }
 {
-	diffusemap fragpipe/wndow1_2
+	diffusemap common/quake2/wndow1_2
 	roughness 1.00
 	hardness 1.00
 	specularity 1.00
