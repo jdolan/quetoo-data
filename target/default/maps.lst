@@ -28,9 +28,12 @@
 #{
 #	name aerowalk
 #}
-#{
-#	name darkzone
-#}
+{
+	name claustrophobopolis
+}
+{
+	name darkzone
+}
 #{
 #	name omf
 #}
