@@ -639,20 +639,10 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
 */
 
 /*QUAKED misc_fog (.7 .7 .7)
- Fog volumes. When compiled, fog brushes are merged into the world. Fog volumes are processed during the lighting compile phase. These are typically contents atmospheric, but can be contents water, etc. Omit color to use the material color.
+ Fog volumes. When compiled, fog brushes are merged into the world. Fog volumes are processed during the lighting compile phase. These are typically contents atmospheric, but can be contents water, etc.
 
  -------- Keys --------.
- color : Fog color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
- absorption : The fog absorption, or how much light color it absorbs (default .5).
- amplitude : The simplex noise amplitude - effectively the upper limit of noise values (default 1).
  density : The fog density, or thickness (default 1).
- frequency : The simplex noise frequency - effectively the scale of the noise texture (default 32).
- lacunarity : The simplex noise lacunarity - multiplier per-octave of frequency (default 2).
- noise : The fog noise, or variation in density (default 0).
- octaves : The number of octaves to sample (default 5).
- offset : An offset added to the noise calculation (default 0 0 0).
- persistence : The simplex noise persistence - multiplier per-octave of amplitude (default 0.5).
- seed : The simplex noise permutation vector seed (default 0).
 */
 
 /*QUAKED misc_model (.2 .4 1) (-16 -16 -16) (16 16 16)
@@ -1052,8 +1042,6 @@ Groups brushes together in Radiant for convenience. When the map is compiled, th
  ambient : The ambient light level (e.g. 0.14 0.11 0.12).
  capturelimit : The capture limit (default 8).
  ctf : Enables CTF play (enabled = 1, auto-balance = 2).
- fog_color : Global fog color, as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
- fog_density : Global fog density, a single positive scalar value (default 0).
  fraglimit : The frag limit (default 20).
  gameplay : The gameplay mode, one of "deathmatch, instagib, arena."
  give : A comma-delimited item string to give each player on spawn.
