@@ -10174,9 +10174,7 @@
 // entity 125
 {
 "classname" "misc_fog"
-"color" "0.686 1 0.25"
-"density" "2"
-"_tb_layer" "1"
+"density" ".666"
 // brush 0
 {
 ( -712 288 -224 ) ( -712 480 -104 ) ( -712 288 -104 ) common/fog 0 0 0 0.5 0.5 0 0 0

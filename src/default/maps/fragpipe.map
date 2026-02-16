@@ -1,10 +1,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"_tb_textures" "textures/common;textures/fragpipe"
 "ambient" ".05"
-"fog_color" "0.62 0.56 0.29"
-"fog_density" "0.3"
 "message" "The Frag Pipe"
 "sky" "habp"
 // brush 0
@@ -15431,10 +15428,7 @@
 {
 "classname" "misc_fog"
 "_tb_layer" "4"
-"absorption" "0.2"
-"color" "1 0.2 0"
-"density" "1.33"
-"noise" "0.2"
+"density" ".666"
 // brush 0
 {
 ( 320 432 312 ) ( 320 80 312 ) ( 320 80 168 ) common/fog 0 0 0 0.25 0.25 0 0 0
@@ -15450,10 +15444,7 @@
 {
 "classname" "misc_fog"
 "_tb_layer" "4"
-"absorption" "0.2"
-"color" "1 0.2 0"
-"density" "1.33"
-"noise" "0.2"
+"density" ".666"
 // brush 0
 {
 ( 160 1024 88 ) ( 160 1024 24 ) ( 160 1264 24 ) common/fog 0 0 0 0.25 0.25 0 0 0
@@ -15468,10 +15459,7 @@
 {
 "classname" "misc_fog"
 "_tb_layer" "4"
-"absorption" "0.2"
-"color" "1 0.2 0"
-"density" "1.33"
-"noise" "0.2"
+"density" ".666"
 // brush 0
 {
 ( -96 912 -40 ) ( -96 1272 -40 ) ( -96 912 88 ) common/fog 0 0 0 0.25 0.25 0 0 0
@@ -15486,10 +15474,7 @@
 {
 "classname" "misc_fog"
 "_tb_layer" "4"
-"absorption" "0.2"
-"color" "1 0.2 0"
-"density" "1.33"
-"noise" "0.2"
+"density" ".666"
 // brush 0
 {
 ( 1088 1120 -64 ) ( 1088 1120 64 ) ( 1088 1040 64 ) common/fog 0 0 0 0.25 0.25 0 0 0
@@ -15526,10 +15511,7 @@
 {
 "classname" "misc_fog"
 "_tb_layer" "4"
-"absorption" "0.2"
-"color" "1 0.2 0"
-"density" "1.33"
-"noise" "0.2"
+"density" ".666"
 // brush 0
 {
 ( 640 1024 80 ) ( 640 912 80 ) ( 640 912 -16 ) common/fog 0 0 0 0.25 0.25 0 0 0
@@ -15590,10 +15572,7 @@
 {
 "classname" "misc_fog"
 "_tb_layer" "4"
-"absorption" "0.2"
-"color" "1 0.2 0"
-"density" "1.33"
-"noise" "0.2"
+"density" ".666"
 // brush 0
 {
 ( 704 272 112 ) ( 704 272 -16 ) ( 704 816 112 ) common/fog 0 0 0 0.25 0.25 0 0 0
@@ -15629,10 +15608,7 @@
 {
 "classname" "misc_fog"
 "_tb_layer" "4"
-"absorption" "0.2"
-"color" "1 0.2 0"
-"density" "1.33"
-"noise" "0.2"
+"density" ".666"
 // brush 0
 {
 ( 120 504 64 ) ( 120 864 64 ) ( 120 504 192 ) common/fog 0 0 0 0.25 0.25 0 0 0

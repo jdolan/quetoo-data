@@ -13216,6 +13216,7 @@
 // entity 86
 {
 "classname" "misc_fog"
+"density": ".666"
 // brush 0
 {
 ( -1632 0 64 ) ( -1632 128 64 ) ( -1632 0 192 ) common/quake2/slime0 0 128 0 0.5 0.5 16 0 0
@@ -13280,7 +13281,7 @@
 // entity 96
 {
 "classname" "misc_fog"
-"density" "1.33"
+"density" ".666"
 // brush 0
 {
 ( -448 -512 -128 ) ( -448 768 -128 ) ( -448 -512 80 ) common/quake2/water6 0 0 0 0.5 0.5 32 0 0
@@ -13294,7 +13295,7 @@
 // entity 97
 {
 "classname" "misc_fog"
-"density" "1.33"
+"density" ".666"
 // brush 0
 {
 ( -1216 768 -192 ) ( -1216 1680 -192 ) ( -1216 768 80 ) common/quake2/water6 0 0 0 0.5 0.5 32 0 0
@@ -13308,7 +13309,7 @@
 // entity 98
 {
 "classname" "misc_fog"
-"density" "1.33"
+"density" ".666"
 // brush 0
 {
 ( -1040 0 64 ) ( -1040 128 64 ) ( -1040 0 192 ) common/quake2/water6 7 85 -5 0.75 0.75 32 0 0

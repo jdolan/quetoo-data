@@ -4,10 +4,6 @@
 {
 "classname" "worldspawn"
 "ambient" "0.1"
-"fog_absorption" "0.33"
-"fog_color" "0.8 0.6 0.2"
-"fog_density" "0.125"
-"fog_noise" "0.0625"
 "message" "Lost Hallways"
 "sky" "violentdays"
 // brush 0

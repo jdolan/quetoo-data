@@ -3,10 +3,7 @@
 "classname" "worldspawn"
 "_tb_textures" "textures/common;textures/common/quake2"
 "ambient" "0.1"
-"fog_color" "0.196 0.169 0.2"
-"fog_density" "0.175"
-"fog_depth_range" "640 1856"
-"message" "q2dm8: WareHouse"
+"message" "The Warehouse"
 "sky" "atsea"
 // brush 0
 {

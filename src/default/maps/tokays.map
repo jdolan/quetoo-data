@@ -12055,10 +12055,8 @@
 // entity 108
 {
 "classname" "misc_fog"
-"_color" "0.454 0.392 0.126"
 "_tb_layer" "1"
-"absorption" "0.25"
-"density" "0.75"
+"density" "0.333"
 // brush 0
 {
 ( 1264 -608 480 ) ( 1264 -832 480 ) ( 1264 -832 384 ) common/quake2/water2 0 0 0 0.75 0.75 32 0 0
@@ -12072,10 +12070,8 @@
 // entity 109
 {
 "classname" "misc_fog"
-"_color" "0.454 0.392 0.126"
 "_tb_layer" "1"
-"absorption" "0.25"
-"density" "0.75"
+"density" "0.333"
 // brush 0
 {
 ( 1152 -64 -32 ) ( 1152 192 -32 ) ( 1152 -64 96 ) common/quake2/water2 0 0 0 0.75 0.75 32 0 0
@@ -12093,10 +12089,8 @@
 // entity 110
 {
 "classname" "misc_fog"
-"_color" "0.454 0.392 0.126"
 "_tb_layer" "1"
-"absorption" "0.25"
-"density" "0.75"
+"density" "0.333"
 // brush 0
 {
 ( 576 32 96 ) ( 576 -192 96 ) ( 576 -192 0 ) common/quake2/water2 0 0 0 0.75 0.75 32 0 0
@@ -12110,10 +12104,8 @@
 // entity 111
 {
 "classname" "misc_fog"
-"_color" "0.454 0.392 0.126"
 "_tb_layer" "1"
-"absorption" "0.25"
-"density" "0.75"
+"density" "0.333"
 // brush 0
 {
 ( 384 320 -32 ) ( 384 576 -32 ) ( 384 320 96 ) common/quake2/water2 0 0 0 0.75 0.75 32 0 0
@@ -12135,10 +12127,8 @@
 // entity 112
 {
 "classname" "misc_fog"
-"_color" "0.454 0.392 0.126"
 "_tb_layer" "1"
-"absorption" "0.25"
-"density" "0.75"
+"density" "0.333"
 // brush 0
 {
 ( 384 -448 -32 ) ( 384 -192 -32 ) ( 384 -448 96 ) common/quake2/water2 128 128 0 0.75 0.75 32 0 0
