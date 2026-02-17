@@ -1,10 +1,11 @@
 {
-	material aerowalk/core1_1
+	diffusemap aerowalk/core1_1
 	normalmap aerowalk/core1_1_nm
 	roughness 1
-	parallax 0.25
 	hardness 1
 	specularity 1
+	parallax 0.25
+	shadow 0
 	surface "blend_33"
 	{
 		texture aerowalk/core1_1scroll
@@ -13,32 +14,45 @@
 	}
 }
 {
-	material aerowalk/lightline32
+	diffusemap aerowalk/lightline32
 	normalmap aerowalk/lightline32_nm
 	roughness 1
-	parallax 1
 	hardness 1
 	specularity 1
+	parallax 2
+	shadow 0
 	{
 		texture aerowalk/lightline32_glow
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	material catfight/u_gr8_6
-	roughness 1
-	parallax 0
-	hardness 1
-	specularity 1
-	surface "alpha_test"
+	diffusemap catfight/u_floor
+	roughness 1.25
+	hardness 1.5
+	specularity 2
+	parallax 1.25
+	shadow 0
+	footsteps metal2
 }
 {
-	material catfight/u_lamp4
-	normalmap catfight/u_lamp4_nm
+	diffusemap catfight/u_gr8_6
 	roughness 1
-	parallax 0.5
 	hardness 1
 	specularity 1
+	parallax 0
+	shadow 0
+	surface "alpha_test"
+	footsteps metal2
+}
+{
+	diffusemap catfight/u_lamp4
+	normalmap catfight/u_lamp4_nm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1.5
+	shadow 0
 	{
 		scale.s 1.25
 		scale.t 1.25
@@ -51,19 +65,13 @@
 	}
 }
 {
-	material catfight/u_floor
-	roughness 1.25
-	parallax 0.25
-	hardness 1.5
-	specularity 2.0
-}
-{
-	material catfight/u_lamplong1b
+	diffusemap catfight/u_lamplong1b
 	normalmap catfight/u_lamplong1b_nm
 	roughness 1
-	parallax 0.5
 	hardness 1
 	specularity 1.5
+	parallax 1.5
+	shadow 0.5
 	{
 		scale.s 1.25
 		scale.t 1.25
@@ -75,12 +83,13 @@
 	}
 }
 {
-	material evil/e6v_light
+	diffusemap evil/e6v_light
 	normalmap evil/e6v_light_nm
 	roughness 1
-	parallax 1
 	hardness 1
 	specularity 1
+	parallax 1
+	shadow 0
 	{
 		scale.s 1.25
 		scale.t 1.25
@@ -92,11 +101,20 @@
 	}
 }
 {
-	material omf/wpadg
-	roughness 1
-	parallax 1
+	diffusemap evil/e8trimlight2
+	roughness 0.8
 	hardness 1
 	specularity 1
+	parallax 1.25
+	shadow 0
+}
+{
+	diffusemap omf/wpadg
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	shadow 0
 	contents "mist detail"
 	surface "blend_100 material decal"
 	{
@@ -107,15 +125,16 @@
 	}
 }
 {
-	material sandbox/quetoologo_nobg
+	diffusemap sandbox/quetoologo
 	normalmap sandbox/quetoologo_nm
 	roughness 1
-	parallax 0
-	hardness 1
-	specularity 1
-	bloom 2
+	hardness 2.5
+	specularity 2
+	parallax 2.5
+	shadow 1
 	contents "mist"
 	surface "alpha_test"
+	alpha_test 0.25
 	{
 		texture sandbox/quetoologo_glow
 		blend GL_SRC_ALPHA GL_ONE
@@ -123,12 +142,13 @@
 	}
 }
 {
-	material skies912/u_floor3_mark
+	diffusemap skies912/u_floor3_mark
 	normalmap skies912/u_floor3_mark_nm
 	roughness 1
-	parallax 2
 	hardness 1
 	specularity 1
+	parallax 3
+	shadow 0
 	surface "blend_100"
 	{
 		texture skies912/u_floor3_mark_fx
@@ -137,12 +157,13 @@
 	}
 }
 {
-	material spacectf/u_floor3_pad_6
+	diffusemap spacectf/u_floor3_pad_6
 	normalmap spacectf/u_floor3_pad_6_nm
 	roughness 1
-	parallax 0.75
 	hardness 1
 	specularity 1
+	parallax 2.5
+	shadow 0
 	{
 		texture spacectf/u_floor3_pad_7b_blend
 		blend GL_SRC_ALPHA GL_ONE
@@ -150,12 +171,13 @@
 	}
 }
 {
-	material spacectf/u_floor3_pad_7b
+	diffusemap spacectf/u_floor3_pad_7b
 	normalmap spacectf/u_floor3_pad_7b_nm
 	roughness 1
-	parallax 2
-	hardness 1
+	hardness 1.5
 	specularity 1
+	parallax 3.25
+	shadow 1.25
 	{
 		scale.s 0.75
 		scale.t 0.75
@@ -168,29 +190,26 @@
 	}
 }
 {
-	material spacectf/u_trlightline_blue
+	diffusemap spacectf/u_trlightline_blue
 	normalmap spacectf/u_trlightline_blue_nm
 	roughness 1
-	parallax 1
 	hardness 1
 	specularity 1
-	{
-		scale.s 1.25
-		scale.t 1.25
-		flare flare_1
-	}
+	parallax 2.5
+	shadow 0
 	{
 		texture spacectf/u_trlightline_blue_blend
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	material trak5/light2a
+	diffusemap trak5/light2a
 	normalmap trak5/light2a_nm
 	roughness 1
-	parallax 2
 	hardness 1
 	specularity 1
+	parallax 2.5
+	shadow 0
 	{
 		scale.s 1.25
 		scale.t 1.25
@@ -202,33 +221,42 @@
 	}
 }
 {
-	material trak5/ribs1a
+	diffusemap trak5/ribs1a
 	roughness 0.8
-	parallax 0.25
 	hardness 1
 	specularity 1
+	parallax 4
+	shadow 0.25
 }
 {
-	material evil/e7mlight
-	normalmap evil/e7mlight.nm
+	diffusemap catfight/e8cretefloor01b
 	roughness 1
-	parallax 1
-	hardness 1
-	specularity 1
-	{
-		scale.s 1.25
-		scale.t 1.25
-		flare flare_1
-	}
-	{
-		texture evil/e7mlight.blend
-		blend GL_SRC_ALPHA GL_ONE
-	}
+	hardness 1.5
+	specularity 1.5
+	parallax 1.75
+	shadow 0.75
 }
 {
-	material evil/e8trimlight2
-	roughness 0.8
-	parallax 1.25
+	diffusemap catfight/u_pan_6
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 2.25
+	shadow 0
+}
+{
+	diffusemap catfight/ubase_pan2
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 2.25
+	shadow 1
+}
+{
+	diffusemap spacectf/r_trim_17
+	roughness 1
 	hardness 1
 	specularity 1
+	parallax 2.25
+	shadow 0.5
 }
