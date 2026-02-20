@@ -18,26 +18,12 @@
 	}
 }
 {
-	diffusemap common/caulk
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-}
-{
-	diffusemap common/clip
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-}
-{
 	diffusemap common/quake/#lava1
 	roughness 0
 	hardness 0
 	specularity 0
 	parallax 0
-	contents "lava detail"
+	contents "lava detail mist"
 	surface "liquid"
 	{
 		texture common/quake2/brlava
@@ -552,13 +538,6 @@
 	specularity 1
 	parallax 2.25
 	shadow 1
-}
-{
-	diffusemap common/trigger
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
 }
 {
 	diffusemap common/quake/plat_stem
