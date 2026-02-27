@@ -60,7 +60,7 @@
 	roughness 4.35587
 	hardness 2.04082
 	specularity 2.28571
-	parallax 2.1486
+	parallax 4.15083
 	shadow 8
 }
 {
@@ -73,10 +73,10 @@
 }
 {
 	diffusemap common/quake/light3_7
-	roughness 2.20408
-	hardness 5.87755
+	roughness 0.718112
+	hardness 8
 	specularity 1.79592
-	parallax 4.4898
+	parallax 2.49075
 	shadow 8
 	{
 		texture common/quake/light3_7_luma
@@ -85,10 +85,10 @@
 }
 {
 	diffusemap common/quake/light3_8
-	roughness 1.05931
-	hardness 6.03284
-	specularity 2.92188
-	parallax 1.36097
+	roughness 3.45727
+	hardness 1.18559
+	specularity 1.81441
+	parallax 2.24617
 	shadow 8
 	{
 		texture common/quake/light3_8_luma
@@ -100,15 +100,15 @@
 	roughness 4.65306
 	hardness 4.75765
 	specularity 1.50638
-	parallax 2.20408
+	parallax 2.35523
 	shadow 8
 }
 {
 	diffusemap common/quake/met5_2
-	roughness 4.2449
+	roughness 3.11161
 	hardness 1.71429
 	specularity 2.77551
-	parallax 1
+	parallax 5.55166
 	shadow 8
 }
 {
@@ -136,7 +136,7 @@
 	roughness 2.44898
 	hardness 8
 	specularity 8
-	parallax 4.16327
+	parallax 5.73087
 	shadow 8
 }
 {
@@ -157,10 +157,10 @@
 }
 {
 	diffusemap common/quake/metal4_4
-	roughness 3.02997
+	roughness 3.61097
 	hardness 3.59184
 	specularity 2.04082
-	parallax 4.73119
+	parallax 5.55485
 	shadow 8
 }
 {
@@ -197,10 +197,10 @@
 }
 {
 	diffusemap common/quake/muh_bad
-	roughness 0.993304
-	hardness 5.38616
-	specularity 4.37277
-	parallax 4.04656
+	roughness 0.77264
+	hardness 7.61958
+	specularity 3.40051
+	parallax 3.91741
 	shadow 8
 }
 {
@@ -238,9 +238,9 @@
 {
 	diffusemap common/quake/rune1_7
 	roughness 3.5102
-	hardness 5.06122
-	specularity 2.20408
-	parallax 0.979592
+	hardness 1.40561
+	specularity 2.4021
+	parallax 3.02136
 	shadow 8
 }
 {
@@ -260,7 +260,7 @@
 	roughness 1.79496
 	hardness 4.59375
 	specularity 1.65912
-	parallax 3.26435
+	parallax 1.98438
 	shadow 8
 	{
 		texture common/quake/rune2_2_luma
@@ -296,7 +296,7 @@
 	roughness 2.77902
 	hardness 2.28571
 	specularity 4.32653
-	parallax 1.10364
+	parallax 4.47353
 	shadow 8
 	{
 		texture common/quake/rune2_5_luma

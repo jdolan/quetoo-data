@@ -1,87 +1,87 @@
 {
 	diffusemap common/dust
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
-	shadow 0
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 0.00
 }
 {
 	diffusemap common/quake2/bed3_3
-	roughness 1.5
-	hardness 1.5
-	specularity 1.8
-	parallax 0.5
-	shadow 0
+	roughness 1.50
+	hardness 1.50
+	specularity 1.80
+	parallax 0.50
+	shadow 0.00
 }
 {
 	diffusemap common/quake2/bed4_1
-	roughness 2
-	hardness 2
-	specularity 2
-	parallax 2
-	shadow 0
+	roughness 2.00
+	hardness 2.00
+	specularity 2.00
+	parallax 2.00
+	shadow 0.00
 }
 {
 	diffusemap common/quake2/ceil1_28
 	normalmap common/quake2/ceil1_nm
-	roughness 4
-	hardness 4
-	specularity 1.5
-	parallax 3
-	shadow 0
+	roughness 4.00
+	hardness 4.00
+	specularity 1.50
+	parallax 3.00
+	shadow 0.00
 	{
 		texture common/quake2/ceil1_28fx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		scale.s 1.5
-		scale.t 1.5
+		scale.s 1.500
+		scale.t 1.500
 		flare flare_2
 	}
 }
 {
 	diffusemap common/quake2/ceil1_aqua
 	normalmap common/quake2/ceil1_nm
-	roughness 2
-	hardness 4
-	specularity 1.7
-	parallax 3
-	shadow 0
+	roughness 2.00
+	hardness 4.00
+	specularity 1.70
+	parallax 3.00
+	shadow 0.00
 	{
 		texture common/quake2/ceil1_aquafx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		color 0 1 0.67 1
-		scale.s 1.5
-		scale.t 1.5
+		color 0.00 1.00 0.67 1.00
+		scale.s 1.500
+		scale.t 1.500
 		flare flare_2
 	}
 }
 {
 	diffusemap common/quake2/fmet1_2
-	roughness 2
-	hardness 1
-	specularity 1.7
-	parallax 1
-	shadow 0
+	roughness 2.00
+	hardness 1.00
+	specularity 1.70
+	parallax 1.00
+	shadow 0.00
 }
 {
 	diffusemap common/quake2/fmet2_3
-	roughness 1.2
-	hardness 2
-	specularity 1.5
-	parallax 1.5
-	shadow 0
+	roughness 1.20
+	hardness 2.00
+	specularity 1.50
+	parallax 1.50
+	shadow 0.00
 }
 {
 	diffusemap common/quake2/fmet3_5
-	roughness 2.5
-	hardness 2
-	specularity 2.3
+	roughness 2.50
+	hardness 2.00
+	specularity 2.30
 	parallax 1.25
-	shadow 0
+	shadow 0.00
 	{
 		texture common/quake2/fmet3_5fx
 		blend GL_SRC_ALPHA GL_ONE
@@ -89,107 +89,107 @@
 }
 {
 	diffusemap common/quake2/metal13_1
-	roughness 1.5
-	hardness 1.2
-	specularity 1.7
-	parallax 1
-	shadow 0
+	roughness 1.50
+	hardness 1.20
+	specularity 1.70
+	parallax 1.00
+	shadow 0.00
 }
 {
 	diffusemap common/quake2/metal14_1
 	roughness 1.25
-	hardness 1.4
-	specularity 1.5
+	hardness 1.40
+	specularity 1.50
 	parallax 0.75
-	shadow 0
+	shadow 0.00
 }
 {
 	diffusemap common/quake2/metal14_1edge
-	roughness 2
-	hardness 1.5
+	roughness 2.00
+	hardness 1.50
 	specularity 2.25
-	parallax 1
-	shadow 0
+	parallax 1.00
+	shadow 0.00
 }
 {
 	diffusemap common/quake2/metal15_2
-	roughness 1.7
-	hardness 1.5
+	roughness 1.70
+	hardness 1.50
 	specularity 1.85
-	parallax 2.81601
-	shadow 8
+	parallax 2.82
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/metal16_2
-	roughness 1.7
-	hardness 1.5
-	specularity 2
-	parallax 2.62309
-	shadow 8
+	roughness 1.70
+	hardness 1.50
+	specularity 2.00
+	parallax 2.62
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/metal16trim
-	roughness 1.5
-	hardness 2
-	specularity 1.9
-	parallax 0.979592
-	shadow 0
+	roughness 1.50
+	hardness 2.00
+	specularity 1.90
+	parallax 0.98
+	shadow 0.00
 }
 {
 	diffusemap common/quake2/metal17_1
-	roughness 1.46939
-	hardness 1.5
-	specularity 1.8
-	parallax 3.02296
-	shadow 8
+	roughness 1.47
+	hardness 1.50
+	specularity 1.80
+	parallax 3.02
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/metal17_2
-	roughness 1.79592
-	hardness 2.53061
-	specularity 1.8
-	parallax 4.44196
-	shadow 8
+	roughness 1.80
+	hardness 2.53
+	specularity 1.80
+	parallax 4.44
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/metal20_1
-	roughness 1.46939
-	hardness 1.46939
-	specularity 1.8
-	parallax 2.95408
-	shadow 8
+	roughness 1.47
+	hardness 1.47
+	specularity 1.80
+	parallax 2.95
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/metal20_2
-	roughness 1.5
-	hardness 1.4
-	specularity 1.8
-	parallax 3.04783
-	shadow 8
+	roughness 1.50
+	hardness 1.40
+	specularity 1.80
+	parallax 3.05
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/metal20_3
-	roughness 1.8
-	hardness 2
-	specularity 1.5
-	parallax 2.57621
-	shadow 8
+	roughness 1.80
+	hardness 2.00
+	specularity 1.50
+	parallax 2.58
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/metal21_2
-	roughness 2
-	hardness 2
-	specularity 1.8
-	parallax 3.67634
-	shadow 7.58929
+	roughness 2.00
+	hardness 2.00
+	specularity 1.80
+	parallax 3.68
+	shadow 7.59
 }
 {
 	diffusemap common/quake2/metal21_2lamp
-	roughness 1.2
-	hardness 2
-	specularity 2
-	parallax 1.5
-	shadow 0
+	roughness 1.20
+	hardness 2.00
+	specularity 2.00
+	parallax 1.50
+	shadow 0.00
 	{
 		texture common/quake2/metal21_2lampfx
 		blend GL_SRC_ALPHA GL_ONE
@@ -197,114 +197,114 @@
 }
 {
 	diffusemap common/quake2/metal21_2trim
-	roughness 1.22449
-	hardness 2
-	specularity 2.5
-	parallax 1.46939
-	shadow 0
+	roughness 1.22
+	hardness 2.00
+	specularity 2.50
+	parallax 1.47
+	shadow 0.00
 	footsteps metal
 }
 {
 	diffusemap common/quake2/metal23_3
-	roughness 2
-	hardness 1.5
-	specularity 1.5
-	parallax 1
-	shadow 0
+	roughness 2.00
+	hardness 1.50
+	specularity 1.50
+	parallax 1.00
+	shadow 0.00
 }
 {
 	diffusemap common/quake2/metal2_1
-	roughness 1.7
-	hardness 1.2
-	specularity 1.7
-	parallax 2.59758
-	shadow 7.96397
+	roughness 1.70
+	hardness 1.20
+	specularity 1.70
+	parallax 2.60
+	shadow 7.96
 }
 {
 	diffusemap common/quake2/ringu
-	roughness 2
-	hardness 2
-	specularity 1.5
-	parallax 1
-	shadow 0
+	roughness 2.00
+	hardness 2.00
+	specularity 1.50
+	parallax 1.00
+	shadow 0.00
 	surface "alpha_test"
 }
 {
 	diffusemap common/quake2/stflr1_3
-	roughness 1.26754
-	hardness 2.81027
-	specularity 2.22098
-	parallax 2.54911
-	shadow 8
+	roughness 1.27
+	hardness 2.81
+	specularity 2.22
+	parallax 2.55
+	shadow 8.00
 	footsteps metal2
 }
 {
 	diffusemap common/quake2/stflr1_4
-	roughness 1.8
-	hardness 3
-	specularity 1.5
-	parallax 1.97066
-	shadow 4.66103
+	roughness 1.80
+	hardness 3.00
+	specularity 1.50
+	parallax 1.97
+	shadow 4.66
 }
 {
 	diffusemap common/quake2/stroggwall1_256
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1.04528
-	shadow 0
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.05
+	shadow 0.00
 	surface "alpha_test"
-	alpha_test 0.25
+	alpha_test 0.250
 }
 {
 	diffusemap common/quake2/troof4_2
 	normalmap common/quake2/troof4_2_nm
-	roughness 2.5
-	hardness 2
-	specularity 1.8
-	parallax 3.17092
-	shadow 8
+	roughness 2.50
+	hardness 2.00
+	specularity 1.80
+	parallax 3.17
+	shadow 8.00
 	footsteps metal
 }
 {
 	diffusemap common/quake2/troof4_5
 	normalmap common/quake2/troof4_2_nm
-	roughness 3.5
-	hardness 3
-	specularity 1.8
-	parallax 3.95855
-	shadow 8
+	roughness 3.50
+	hardness 3.00
+	specularity 1.80
+	parallax 2.86
+	shadow 1.94
 	footsteps metal
 }
 {
 	diffusemap common/quake2/water2
-	roughness 0
-	hardness 0
-	specularity 1
-	parallax 0
-	shadow 0
+	roughness 0.00
+	hardness 0.00
+	specularity 8.00
+	parallax 0.00
+	shadow 0.00
 	surface "blend_33"
 	{
 		texture common/quake2/water2fx
 		blend GL_SRC_ALPHA GL_ONE
-		scroll.s -0.02
-		scale.s 1.25
-		scale.t 1.25
-		warp 0.3 0.3
+		scroll.s -0.020
+		scale.s 1.250
+		scale.t 1.250
+		warp 0.30 0.30
 	}
 	{
 		texture common/quake2/water2fx
 		blend GL_SRC_ALPHA GL_ONE
-		scale.s 1
-		scale.t 1
-		warp 0.4 0.4
+		scale.s 1.000
+		scale.t 1.000
+		warp 0.40 0.40
 	}
 }
 {
 	diffusemap common/quake2/yellow1_4
-	roughness 4
-	hardness 2
-	specularity 1.5
+	roughness 4.00
+	hardness 2.00
+	specularity 1.50
 	parallax 0.15
-	shadow 0
+	shadow 0.00
 }

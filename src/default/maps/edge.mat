@@ -105,7 +105,7 @@
 	roughness 3.43
 	hardness 3.84
 	specularity 2.12
-	parallax 0.41
+	parallax 0.75
 	shadow 0.00
 	footsteps metal
 }
@@ -452,8 +452,8 @@
 }
 {
 	diffusemap common/quake2/wndow1dirt
-	roughness 0.57
-	hardness 2.04
+	roughness 1.02
+	hardness 8.00
 	specularity 8.00
 	parallax 0.00
 	shadow 0.00

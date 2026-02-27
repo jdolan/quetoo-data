@@ -61,7 +61,7 @@
 	hardness 4.24
 	specularity 2.45
 	parallax 0.98
-	shadow 0.00
+	shadow 0.60
 	contents "water"
 	surface "blend_100"
 	{
@@ -117,7 +117,7 @@
 	roughness 0.90
 	hardness 0.57
 	specularity 3.18
-	parallax 4.00
+	parallax 3.53
 	shadow 1.00
 }
 {
@@ -233,8 +233,13 @@
 }
 {
 	diffusemap common/quake2/tampon1
-	surface blend_100
-	contents mist
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+	contents "mist"
+	surface "blend_100"
 }
 {
 	diffusemap common/quake2/wmetl6_1

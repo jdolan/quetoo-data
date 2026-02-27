@@ -2,6 +2,8 @@
 {
 "classname" "worldspawn"
 "ambient" ".16"
+"fog_color" "1.0 0.8 1.0"
+"fog_density" ".006"
 "give" "shotgun"
 "message" "Claustrophobopolis"
 "sky" "sky1"
@@ -14298,7 +14300,7 @@
 // entity 81
 {
 "classname" "misc_fog"
-"density" ".666"
+"absorption" "1.666"
 // brush 0
 {
 ( 32 1120 -128 ) ( 32 960 -128 ) ( 32 960 -176 ) common/fog 0 0 0 0.5 0.5
@@ -14314,7 +14316,7 @@
 // entity 82
 {
 "classname" "misc_fog"
-"density" ".666"
+"absorption" "1.666"
 // brush 0
 {
 ( -64 928 -160 ) ( -64 656 -160 ) ( -64 656 -176 ) common/fog 0 0 0 0.5 0.5
@@ -14359,7 +14361,7 @@
 // entity 87
 {
 "classname" "misc_fog"
-"density" ".666"
+"absorption" "1.666"
 // brush 0
 {
 ( -704 320 0 ) ( -704 -128 0 ) ( -704 -128 -16 ) common/fog 0 0 0 0.5 0.5
@@ -14379,7 +14381,7 @@
 // entity 89
 {
 "classname" "misc_fog"
-"density" ".666"
+"absorption" "1.666"
 // brush 0
 {
 ( -384 -240 0 ) ( -384 -688 0 ) ( -384 -688 -16 ) common/fog 0 0 0 0.5 0.5
@@ -14426,7 +14428,7 @@
 // entity 96
 {
 "classname" "misc_fog"
-"density" ".666"
+"absorption" "1.666"
 // brush 0
 {
 ( 96 -1064 48 ) ( 96 -1456 48 ) ( 96 -1456 -16 ) common/fog 0 0 0 0.5 0.5
@@ -14473,7 +14475,7 @@
 // entity 101
 {
 "classname" "misc_fog"
-"density" ".666"
+"absorption" "1.666"
 // brush 0
 {
 ( 704 -400 120 ) ( 704 -848 120 ) ( 704 -848 104 ) common/fog 0 0 0 0.5 0.5
@@ -14510,7 +14512,7 @@
 // entity 105
 {
 "classname" "misc_fog"
-"density" ".666"
+"absorption" "1.666"
 // brush 0
 {
 ( -32 -1120 48 ) ( -32 -1512 48 ) ( -32 -1512 -16 ) common/fog 0 0 0 0.5 0.5
@@ -15061,7 +15063,7 @@
 // entity 154
 {
 "classname" "misc_fog"
-"density" ".666"
+"absorption" "1.666"
 // brush 0
 {
 ( 240 32 0 ) ( 240 -416 0 ) ( 240 -416 -16 ) common/fog 0 0 0 0.5 0.5
@@ -15075,7 +15077,7 @@
 // entity 155
 {
 "classname" "misc_fog"
-"density" ".666"
+"absorption" "1.666"
 // brush 0
 {
 ( -64 544 -8 ) ( -64 352 -8 ) ( -64 352 -16 ) common/fog 0 0 0 0.5 0.5
@@ -15091,7 +15093,7 @@
 // entity 156
 {
 "classname" "misc_fog"
-"density" ".666"
+"absorption" "1.666"
 // brush 0
 {
 ( 224 320 48 ) ( 224 160 48 ) ( 224 160 24 ) common/fog 0 0 0 0.5 0.5
