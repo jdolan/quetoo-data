@@ -1,0 +1,71 @@
+
+          The Fragpipe  -  Quetoo remake of Quake 2's q2dm3
+ =========================================================
+
+Mapname		: The Fragpipe
+Quetoo filename	: fragpipe.bsp
+
+Author		: Panjoo + TRaK*
+Contact		: dj_pantera@hotmail.com
+URL		: http://panjoo.tastyspleen.net
+old url		: (http://www.home.versatel.nl/djbloot)
+
+* Credits to TRaK for setting up the base of this map and for 
+making textures that I could start with. Eventually all textures and 
+bumpmaps have been edited and modified by me and some new 
+textures were created to expand on the set..
+=========================================================
+  
+] Game info:
+Gametype		: FreeForAll / Tourney
+Spawnpoints	: 7
+
+(type cvar_list in console for help on commands)
+
+] Build info:
+Editor		: NetRadiant / GtKRadiant
+Compiler		: quetoomap.exe
+Construction time *	: 3.5 months, on and off working on the other remakes.
+ * (not including the many adjustments and tweaks that are part of mapping for a still developing game).
+
+] Other programs used:
+- Photoshop CS3 for editing and creating new textures and bumpmaps.
+- FastStone ImageViewer for better managing of the .tga files.
+=========================================================
+
+
+] Previous work for Quake 2:
+- Iraq attack (iraq.bsp)
+- Red Rooster (pandm2.bsp)
+- Kryptonite (krypton.bsp)
+- in2 Oblivion (in2obl.bsp)
+- Rigor Mortis (mortis.bsp)
+- When Pigs Fly (pigs.bsp)
+- Grunt No More (grunt.bsp)
+- Built For The Kill (pandm8.bsp)
+- The Slimy Place[mod] (dm7mod.bsp)
+- Monsterkill DM1 (mkdm1.bsp)
+- InstaKilla (instakilla.bsp)
+- Gym Nastium (gym.bsp)
+- La Niebla (sgmist.bsp)
+- Camp City (campcity.bsp)
+- Torment (torment.bsp)
+- Sub Zero (subzero.bsp)
+- TurboNerd (turbo.bsp)
+- One Must Fall (omf.bsp)
+
+] Other work for Medal of Honor: Allied Assault:
+ - Objective Rockbound by PanTera (dm_rockbound.bsp / obj_rockbound.bsp)
+
+
+] Legal info:
+ - Quake 2 is (c)1997 by id Software Inc. All rights reserved.
+ - Medal of Honor is (c) 2002 by '2015'. All rights reserved.
+You may distribute these maps in any electronic format, just make sure to 
+include all files intact in the original archive.
+
+Thank You for downloading, hope you enjoy the maps in Quetoo.
+
+Stay cool, 
+DJ Pan(joo) B.
+========================================================

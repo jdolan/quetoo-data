@@ -1,0 +1,353 @@
+{
+	diffusemap common/origin
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	shadow 0
+}
+{
+	diffusemap common/quake2/bed4_1
+	roughness 2
+	hardness 4
+	specularity 3.91837
+	parallax 4.89796
+	shadow 1
+}
+{
+	diffusemap common/quake2/blume4_1
+	roughness 5.14286
+	hardness 1.79592
+	specularity 1.14286
+	parallax 2.04082
+	shadow 1
+}
+{
+	diffusemap common/quake2/blume6_1
+	roughness 2.93878
+	hardness 2.28571
+	specularity 1.63265
+	parallax 0.979592
+	shadow 0.175901
+}
+{
+	diffusemap common/quake2/blume7_2
+	roughness 2.93878
+	hardness 3.26531
+	specularity 0.816327
+	parallax 2.12245
+	shadow 1
+}
+{
+	diffusemap common/quake2/blume9_2
+	roughness 1.79592
+	hardness 3.59184
+	specularity 2.93878
+	parallax 2.85714
+	shadow 1
+}
+{
+	diffusemap common/quake2/btactmach0
+	roughness 2.20408
+	hardness 2.93878
+	specularity 2.61224
+	parallax 5.06122
+	shadow 0
+	{
+		texture common/quake2/btactmach0fx1
+		blend GL_SRC_ALPHA GL_ONE
+		anim 2 0
+	}
+}
+{
+	diffusemap common/quake2/ceil1_4
+	normalmap common/quake2/ceil1_nm
+	roughness 3.59184
+	hardness 1.63265
+	specularity 3.26531
+	parallax 4
+	shadow 1
+	{
+		texture common/quake2/ceil1_4fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.5
+		scale.t 1.5
+		flare flare_2
+	}
+}
+{
+	diffusemap common/quake2/ceil1_lime
+	normalmap common/quake2/ceil1_nm
+	roughness 1.30612
+	hardness 3.10204
+	specularity 3.59184
+	parallax 4
+	shadow 0
+	{
+		texture common/quake2/ceil1_limefx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.5
+		scale.t 1.5
+		flare flare_2
+	}
+}
+{
+	diffusemap common/quake2/chainlink
+	normalmap common/quake2/chainlink_nm
+	roughness 4
+	hardness 0.897959
+	specularity 1.87755
+	parallax 1.46939
+	shadow 0
+	surface "alpha_test"
+	alpha_test 0.4
+}
+{
+	diffusemap common/quake2/floor1_6
+	roughness 2.44898
+	hardness 1.46939
+	specularity 1.55102
+	parallax 2.77551
+	shadow 0.246612
+}
+{
+	diffusemap common/quake2/floor2_7
+	normalmap common/quake2/floor1_6_nm
+	roughness 1.63265
+	hardness 2.77551
+	specularity 1.22449
+	parallax 4
+	shadow 0.289182
+}
+{
+	diffusemap common/quake2/green0_2
+	roughness 4.08163
+	hardness 2.12245
+	specularity 1.14286
+	parallax 4.65306
+	shadow 1
+}
+{
+	diffusemap common/quake2/green3_4
+	roughness 2.85714
+	hardness 1.06122
+	specularity 1.79592
+	parallax 1
+	shadow 0.213449
+}
+{
+	diffusemap common/quake2/lead1_1
+	roughness 2.44898
+	hardness 4.08163
+	specularity 1.71429
+	parallax 2.53061
+	shadow 0.247011
+}
+{
+	diffusemap common/quake2/lead1_2
+	roughness 2.85714
+	hardness 0.816327
+	specularity 2.36735
+	parallax 0.979592
+	shadow 0
+}
+{
+	diffusemap common/quake2/metal14_1
+	roughness 5.46939
+	hardness 1.4
+	specularity 1.4
+	parallax 1.95918
+	shadow 0
+}
+{
+	diffusemap common/quake2/metal16trim
+	roughness 2.93878
+	hardness 6.36735
+	specularity 2.36735
+	parallax 1
+	shadow 0
+}
+{
+	diffusemap common/quake2/metal19_1
+	roughness 1.55102
+	hardness 1.95918
+	specularity 1.95918
+	parallax 2.28571
+	shadow 0.262476
+}
+{
+	diffusemap common/quake2/metal2_1
+	roughness 0.734694
+	hardness 8
+	specularity 1.30612
+	parallax 2.44898
+	shadow 1
+}
+{
+	diffusemap common/quake2/metal2_1_subslime
+	normalmap common/quake2/metal2_1_nm
+	roughness 1.14286
+	hardness 2
+	specularity 2
+	parallax 3.67347
+	shadow 0
+	{
+		texture common/quake2/metal2_1_glowedge
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	diffusemap common/quake2/metalbase2
+	roughness 1.3
+	hardness 0.6
+	specularity 1.4
+	parallax 1
+	shadow 0
+}
+{
+	diffusemap common/quake2/metals_1
+	roughness 1.63265
+	hardness 4.65306
+	specularity 4.73469
+	parallax 2.04082
+	shadow 1
+}
+{
+	diffusemap common/quake2/pyramids
+	roughness 2.53061
+	hardness 6.12245
+	specularity 1.71429
+	parallax 1
+	shadow 0
+}
+{
+	diffusemap common/quake2/rmetal6_1
+	normalmap common/quake2/green3_4_nm
+	roughness 2.4
+	hardness 1.1
+	specularity 1.3
+	parallax 1
+	shadow 0
+}
+{
+	diffusemap common/quake2/slime0
+	roughness 1
+	hardness 0.979592
+	specularity 0.979592
+	parallax 1
+	shadow 0
+	surface "blend_66"
+	contents "slime"
+	{
+		texture common/quake2/slimefx1
+		blend GL_SRC_ALPHA GL_ONE
+		scale.s 0.8
+		scale.t 0.8
+		warp 0.3 0.3
+	}
+	{
+		texture common/quake2/slimefx2
+		blend GL_SRC_ALPHA GL_ONE
+		scale.s 0.9
+		scale.t 0.9
+		warp 0.25 0.25
+	}
+}
+{
+	diffusemap common/quake2/stflr1_3
+	roughness 1.55102
+	hardness 3.83673
+	specularity 4.08163
+	parallax 2.04082
+	shadow 0.582589
+	surface "alpha_test"
+	footsteps metal
+}
+{
+	diffusemap common/quake2/stn_floor
+	roughness 8
+	hardness 0.734694
+	specularity 2.12245
+	parallax 1.06122
+	shadow 0.0843033
+}
+{
+	diffusemap common/quake2/subslimebotm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	shadow 0
+}
+{
+	diffusemap common/quake2/tampon1
+	roughness 1
+	hardness 0.979592
+	specularity 8
+	parallax 1
+	shadow 0
+	surface "blend_100 decal"
+}
+{
+	diffusemap common/quake2/water6
+	roughness 0.979592
+	hardness 0.979592
+	specularity 7.10204
+	parallax 0
+	shadow 0
+	surface "blend_66"
+	contents "water"
+	{
+		texture common/quake2/slimefx2
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.32 0.26 0.22 0.25
+		scroll.t 0.01
+		scale.s 1.25
+		scale.t 1.25
+		warp 0.25 0.25
+	}
+	{
+		texture common/quake2/water6fx
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.32 0.26 0.22 0.3
+		scroll.s -0.02
+		scale.s 1
+		scale.t 1
+		warp 0.5 0.5
+	}
+}
+{
+	diffusemap common/quake2/wgroove
+	roughness 0.244898
+	hardness 6.28571
+	specularity 1.79592
+	parallax 1
+	shadow 0.166295
+}
+{
+	diffusemap common/quake2/wgroove_dark
+	roughness 2.44898
+	hardness 0.653061
+	specularity 0.979592
+	parallax 1.63265
+	shadow 0
+}
+{
+	diffusemap common/quake2/wlight1
+	roughness 2.53061
+	hardness 3.42857
+	specularity 1.22449
+	parallax 4.89796
+	shadow 0.335579
+	{
+		texture common/quake2/wlight1fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare flare_1
+	}
+}
