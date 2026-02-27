@@ -41,6 +41,7 @@
 }
 {
 	material common/quake2/ceil1_4
+	normalmap common/quake2/ceil1_nm
 	roughness 1
 	hardness 4.5
 	specularity 1
@@ -48,6 +49,8 @@
 	{
 		texture common/quake2/ceil1_4fx
 		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
 		color 0.8 0.6 0.35 1
 		scale.s 0.75
 		scale.t 0.75
@@ -56,7 +59,7 @@
 }
 {
 	material common/quake2/ceil1_lime
-	normalmap common/quake2/ceil1_4_nm
+	normalmap common/quake2/ceil1_nm
 	roughness 1
 	hardness 4.5
 	specularity 1
