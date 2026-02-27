@@ -4,6 +4,7 @@
 "_tb_textures" "textures/common;textures/common/quake2"
 "ambient" "0.15"
 "message" "q2dm8: WareHouse"
+"model" "*0"
 "sky" "atsea"
 // brush 0
 {
@@ -16571,101 +16572,102 @@
 // entity 154
 {
 "classname" "light"
+"color" "1 0.85 0.25"
 "intensity" "2"
 "origin" "-56 40 776"
-"radius" "100"
+"radius" "180"
 "team" "thin_yellow"
 "team_master" "a"
-"color" "1 0.85 0.25"
 }
 // entity 155
 {
 "classname" "light"
-"origin" "-40 40 776"
-"team_master" "a"
-"team" "lg_white"
-"radius" "750"
 "color" "1 1 1"
-"intensity" "1.000000"
+"intensity" ".666"
+"origin" "-40 40 776"
+"radius" "750"
+"style" "zy"
+"team" "lg_white"
+"team_master" "a"
 }
 // entity 156
 {
 "classname" "light"
-"origin" "-24 40 776"
-"team_master" "a"
-"team" "sq_white"
 "color" "1 0.9 0.7"
-"intensity" "2"
-"radius" "550"
+"intensity" "1.666"
+"origin" "-24 40 776"
+"radius" "400"
+"team" "sq_white"
+"team_master" "a"
 }
 // entity 157
 {
 "classname" "light"
+"color" "1 .9 .7"
+"intensity" "2"
 "origin" "-8 40 776"
-"team_master" "a"
+"radius" "240"
 "team" "sm_white"
-"intensity" "3"
-"radius" "200"
-"color" "1 1 1"
+"team_master" "a"
 }
 // entity 158
 {
 "classname" "light"
-"origin" "-8 24 776"
-"team_master" "a"
-"team" "sm_white2"
+"color" "1 .9 .7"
 "intensity" "2"
+"origin" "-8 24 776"
 "radius" "200"
-"color" "1 1 1"
+"team" "sm_white2"
+"team_master" "a"
 }
 // entity 159
 {
 "classname" "light"
-"origin" "8 40 776"
-"team_master" "a"
-"team" "sm_blue"
 "color" "0.25 0.85 1"
-"intensity" "2"
-"radius" "150"
+"intensity" "1.8"
+"origin" "8 40 776"
+"radius" "250"
+"team" "sm_blue"
+"team_master" "a"
 }
 // entity 160
 {
 "classname" "light"
-"origin" "8 24 776"
-"team_master" "a"
-"team" "sm_blue2"
 "color" "0.25 0.85 1"
-"intensity" "2.5"
-"radius" "85"
+"intensity" "3"
+"origin" "8 24 776"
+"radius" "200"
+"team" "sm_blue2"
+"team_master" "a"
 }
 // entity 161
 {
 "classname" "light"
-"origin" "24 40 776"
-"team_master" "a"
-"team" "sm_orange"
 "color" "1 0.6 0"
-"radius" "150"
 "intensity" "3"
+"origin" "24 40 776"
+"radius" "200"
+"team" "sm_orange"
+"team_master" "a"
 }
 // entity 162
 {
 "classname" "light"
-"origin" "40 40 776"
-"team_master" "a"
-"team" "sky"
-"radius" "2000"
-"intensity" "0.666"
 "color" "1 1 1"
+"intensity" "0.666"
+"origin" "40 40 776"
+"radius" "2000"
+"team" "sky"
+"team_master" "a"
 }
 // entity 163
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Clip Brushes"
 "_tb_id" "1"
-"_tb_layer_sort_index" "0"
 "_tb_layer_hidden" "1"
+"_tb_layer_sort_index" "0"
+"_tb_name" "Clip Brushes"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( 683 1152 363 ) ( 704 1216 321 ) ( 683 1216 331 ) common/clip 0 0 0 0.5 0.5 65536 128 0
@@ -17020,10 +17022,10 @@
 // entity 164
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Sky Brushes"
 "_tb_id" "2"
 "_tb_layer_sort_index" "1"
+"_tb_name" "Sky Brushes"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( 352 736 992 ) ( 352 992 992 ) ( 352 736 1024 ) common/sky 0 0 0 0.5 0.5 1 0 0
@@ -17073,1193 +17075,1193 @@
 // entity 165
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Light Ents"
 "_tb_id" "4"
 "_tb_layer_sort_index" "2"
+"_tb_name" "Light Ents"
+"_tb_type" "_tb_layer"
 }
 // entity 166
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "448 -888 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 167
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "448 -776 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 168
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-816 -288 -56"
 "targetname" "lt_SmWhite"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 169
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-816 -160 -56"
 "targetname" "lt_SmWhite"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 170
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-968 -416 568"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 171
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-968 -160 568"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 172
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "512 320 568"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 173
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-824 8 576"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 174
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-824 8 448"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 175
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-584 8 448"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 176
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-584 8 576"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 177
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-768 8 632"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 178
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-640 8 632"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 179
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-640 8 392"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 180
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-768 8 392"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 181
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-896 32 310"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 182
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "380 736 428"
 "team" "thin_yellow"
-"_tb_layer" "4"
 }
 // entity 183
 {
 "classname" "light"
+"_tb_layer" "4"
 "color" "0.9098 0.8549 0.7412"
 "origin" "512.000000 0.000000 416.000000"
 "radius" "250"
 "targetname" ""
-"_tb_layer" "4"
 }
 // entity 184
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "224 -260 172"
 "team" "thin_yellow"
-"_tb_layer" "4"
 }
 // entity 185
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "324 -160 172"
 "team" "thin_yellow"
-"_tb_layer" "4"
 }
 // entity 186
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "32 -260 172"
 "team" "thin_yellow"
-"_tb_layer" "4"
 }
 // entity 187
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "324 32 172"
 "team" "thin_yellow"
-"_tb_layer" "4"
 }
 // entity 188
 {
 "classname" "light"
+"_tb_layer" "4"
 "intensity" "0.6"
 "origin" "512.000000 0.000000 416.000000"
 "radius" "250"
 "targetname" ""
-"_tb_layer" "4"
 }
 // entity 189
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "96.000000 -640.000000 400.000000"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 190
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1033.000000 288.000000 180.000000"
 "team" "thin_yellow"
-"_tb_layer" "4"
 }
 // entity 191
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1033.000000 32.000000 180.000000"
 "team" "thin_yellow"
-"_tb_layer" "4"
 }
 // entity 192
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-320 -256 310"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 193
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1032 896 328"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 194
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "832 -832 418"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 195
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "832 -448 418"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 196
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "832 -64 418"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 197
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "832 256 162"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 198
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "640 896 162"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 199
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-320 896 150"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 200
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-704 896 150"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 201
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-704 512 150"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 202
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-704 128 150"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 203
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "192 256 162"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 204
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-128 -128 162"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 205
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "64 0 418"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 206
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "832 704 162"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 207
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-704 384 418"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 208
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-704 896 418"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 209
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-704 256 694"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 210
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-512 416 576"
 "radius" "750"
 "targetname" "lt_BigWhite"
-"_tb_layer" "4"
 }
 // entity 211
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-512 544 576"
 "radius" "750"
 "targetname" "lt_BigWhite"
-"_tb_layer" "4"
 }
 // entity 212
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-512 672 576"
 "radius" "750"
 "targetname" "lt_BigWhite"
-"_tb_layer" "4"
 }
 // entity 213
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-672 1216 576"
 "team" "lg_white"
-"_tb_layer" "4"
 }
 // entity 214
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-800 1216 576"
 "team" "lg_white"
-"_tb_layer" "4"
 }
 // entity 215
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-544 1216 576"
 "team" "lg_white"
-"_tb_layer" "4"
 }
 // entity 216
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "608 608 428"
 "team" "thin_yellow"
-"_tb_layer" "4"
 }
 // entity 217
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "480 636 428"
 "team" "thin_yellow"
-"_tb_layer" "4"
 }
 // entity 218
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-969.000000 -160.000000 180.000000"
 "team" "thin_yellow"
-"_tb_layer" "4"
 }
 // entity 219
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-969.000000 -416.000000 180.000000"
 "team" "thin_yellow"
-"_tb_layer" "4"
 }
 // entity 220
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "672 864 984"
 "team" "sky"
-"_tb_layer" "4"
 }
 // entity 221
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-160 1216 576"
 "team" "lg_white"
-"_tb_layer" "4"
 }
 // entity 222
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-32 1216 576"
 "team" "lg_white"
-"_tb_layer" "4"
 }
 // entity 223
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "96 414 606"
 "team" "lg_white"
-"_tb_layer" "4"
 }
 // entity 224
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-512 -160 576"
 "team" "lg_white"
-"_tb_layer" "4"
 }
 // entity 225
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-512 -416 576"
 "team" "lg_white"
-"_tb_layer" "4"
 }
 // entity 226
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "448 -704 310"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 227
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "960 480 54"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 228
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "192 896 54"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 229
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-544 -128 54"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 230
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-224 -128 54"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 231
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "416 256 54"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 232
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "608 256 54"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 233
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "704 480 54"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 234
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "576 0 566"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 235
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-320 0 566"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 236
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "64 -512 566"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 237
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-160 -832 566"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 238
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "96 -832 566"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 239
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "352 -832 566"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 240
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "608 0 54"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 241
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "416 0 54"
 "team" "sm_white2"
-"_tb_layer" "4"
 }
 // entity 242
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "384 312 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 243
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "504 -128 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 244
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "504 -384 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 245
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "448 -440 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 246
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "192 -440 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 247
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "320 -328 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 248
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "392 -256 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 249
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-376 128 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 250
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-448 200 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 251
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-264 256 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 252
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-320 312 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 253
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-448 952 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 254
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-320 952 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 255
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-320 840 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 256
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-448 840 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 257
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "192 952 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 258
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "192 840 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 259
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "320 952 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 260
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "320 840 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 261
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "448 1144 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 262
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "392 1056 456"
 "team" "sm_blue"
-"_tb_layer" "4"
 }
 // entity 263
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "384 200 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 264
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "640 312 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 265
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "640 200 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 266
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-520 256 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 267
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-632 256 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 268
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-736 184 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 269
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-736 72 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 270
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-532 -288 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 271
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-528 -416 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 272
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-528 -544 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 273
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-528 416 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 274
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-528 544 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 275
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-528 672 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 276
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-416 784 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 277
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-288 784 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 278
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-160 788 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 279
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-32 784 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 280
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-32 1200 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 281
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-160 1196 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 282
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-288 1200 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 283
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-416 1200 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 284
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-544 1200 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 285
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-672 1200 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 286
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-800 1200 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 287
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "136 480 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 288
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "248 480 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 289
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-184 736 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 290
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-72 736 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 291
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "32 632 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 292
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-32 520 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 293
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-72 -384 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 294
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-184 -384 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 295
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "128 840 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 296
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "288 952 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 297
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-384 1208 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 298
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-352 1096 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 299
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-952 128 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 300
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-532 160 -56"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 301
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "288 -952 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 302
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "160 -952 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 303
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "32 -952 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 304
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-96 -952 200"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 305
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-32 456 568"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 306
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "224 456 568"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 307
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1032 224 568"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 308
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1032 -96 568"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 309
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1032 -416 568"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 310
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1032 -736 568"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 311
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "928 224 822"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 312
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "928 -32 822"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 313
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "928 -288 822"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 314
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "928 -544 822"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 315
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "928 -800 822"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 316
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "672 1056 822"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 317
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "544 632 824"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 318
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "376 800 824"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 319
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "928 800 822"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 320
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "672 1056 550"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 321
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1024 -1056 648"
 "team" "sm_orange"
-"_tb_layer" "4"
 }
 // entity 322
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-968 1056 568"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 323
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-968 800 568"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 324
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "-968 544 568"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 325
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "224 1056 732"
 "team" "sm_white"
-"_tb_layer" "4"
 }
 // entity 326
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "928 800 550"
 "team" "sq_white"
-"_tb_layer" "4"
 }
 // entity 327
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1032 768 328"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 328
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1032 768 568"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 329
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1032 896 568"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 330
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1032 952 512"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 331
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1032 952 384"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 332
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1032 712 384"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
 // entity 333
 {
 "classname" "light"
+"_tb_layer" "4"
 "origin" "1032 712 512"
 "team" "sm_blue2"
-"_tb_layer" "4"
 }
