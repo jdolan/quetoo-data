@@ -2,7 +2,7 @@
 {
 "sky" "dragonheart"
 "classname" "worldspawn"
-"message" "q1dm1: ^1P^7lace of ^1T^7wo ^1D^7eaths"
+"message" "DM1: ^1P^7lace of ^1T^7wo ^1D^7eaths"
 "_tb_textures" "textures/common;textures/common/quake;textures/common/quake2"
 "give" "shotgun"
 // brush 0
