@@ -1,10 +1,5 @@
-// Game: Quetoo
-// Format: Quake2
 // entity 0
 {
-"fog_density" "0.25"
-"fog_color" ".12 .11 .06"
-"ambient" "0.18 0.17 0.12"
 "sky" "nebula2"
 "message" "The Cistern"
 "classname" "worldspawn"

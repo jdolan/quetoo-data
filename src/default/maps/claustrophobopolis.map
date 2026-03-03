@@ -3,7 +3,7 @@
 "classname" "worldspawn"
 "ambient" "0.15"
 "give" "shotgun"
-"message" "DM2: Claustrophobopolis"
+"message" "Claustrophobopolis"
 "sky" "sky1"
 // brush 0
 {

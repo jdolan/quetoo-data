@@ -2,7 +2,7 @@
 {
 "classname" "worldspawn"
 "_tb_textures" "textures/ad;textures/common;textures/common/fx;textures/common/quake;textures/common/quake3/sfx;textures/common/quake3/skin;textures/sandbox"
-"message" "Chthon's Arena of Madness :: by Skies912"
+"message" "Chthon's Arena of Madness"
 "sky" "dragonheart"
 "ambient" "0.175"
 "give" "shotgun"
@@ -12938,7 +12938,7 @@
 // entity 45
 {
 "classname" "func_plat"
-"lip" "16"
+"lip" "20"
 "speed" "350"
 "accel" "0"
 "spawnflags" "1"
@@ -17087,284 +17087,6 @@
 "classname" "func_group"
 // brush 0
 {
-( 1456 -144 424 ) ( 1456 -176 248 ) ( 1456 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 -176 248 ) ( 1456 -176 248 ) ( 1456 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 -176 248 ) ( 1472 -160 232 ) ( 1456 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1456 -128 416 ) ( 1472 -128 416 ) ( 1472 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 -160 232 ) ( 1472 -128 416 ) ( 1456 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 -144 424 ) ( 1472 -128 416 ) ( 1472 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 1
-{
-( 1456 -128 448 ) ( 1456 -144 448 ) ( 1456 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1456 -144 448 ) ( 1472 -144 448 ) ( 1472 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 -144 424 ) ( 1472 -128 416 ) ( 1456 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1456 -128 448 ) ( 1472 -128 448 ) ( 1472 -144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 -128 416 ) ( 1472 -128 448 ) ( 1456 -128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 -144 448 ) ( 1472 -128 448 ) ( 1472 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 2
-{
-( 1408 -128 448 ) ( 1408 -144 448 ) ( 1408 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1408 -144 448 ) ( 1424 -144 448 ) ( 1424 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 -144 424 ) ( 1424 -128 416 ) ( 1408 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1408 -128 448 ) ( 1424 -128 448 ) ( 1424 -144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 -128 416 ) ( 1424 -128 448 ) ( 1408 -128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 -144 448 ) ( 1424 -128 448 ) ( 1424 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 3
-{
-( 1408 -144 424 ) ( 1408 -176 248 ) ( 1408 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 -176 248 ) ( 1408 -176 248 ) ( 1408 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 -176 248 ) ( 1424 -160 232 ) ( 1408 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1408 -128 416 ) ( 1424 -128 416 ) ( 1424 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 -160 232 ) ( 1424 -128 416 ) ( 1408 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 -144 424 ) ( 1424 -128 416 ) ( 1424 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 4
-{
-( 1456 -160 232 ) ( 1456 -176 248 ) ( 1456 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1456 -192 248 ) ( 1472 -192 248 ) ( 1472 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 -192 232 ) ( 1472 -160 232 ) ( 1456 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1456 -176 248 ) ( 1472 -176 248 ) ( 1472 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1456 -160 232 ) ( 1472 -160 232 ) ( 1472 -176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 -176 248 ) ( 1472 -160 232 ) ( 1472 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 5
-{
-( 1504 -128 448 ) ( 1504 -144 448 ) ( 1504 -144 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1504 -144 448 ) ( 1520 -144 448 ) ( 1520 -144 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 -144 416 ) ( 1520 -128 416 ) ( 1504 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1504 -128 448 ) ( 1520 -128 448 ) ( 1520 -144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 -128 416 ) ( 1520 -128 448 ) ( 1504 -128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 -144 448 ) ( 1520 -128 448 ) ( 1520 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 6
-{
-( 1408 -160 232 ) ( 1408 -176 248 ) ( 1408 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1408 -192 248 ) ( 1424 -192 248 ) ( 1424 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 -192 232 ) ( 1424 -160 232 ) ( 1408 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1408 -176 248 ) ( 1424 -176 248 ) ( 1424 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1408 -160 232 ) ( 1424 -160 232 ) ( 1424 -176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 -176 248 ) ( 1424 -160 232 ) ( 1424 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 7
-{
-( 1504 -160 232 ) ( 1504 -176 248 ) ( 1504 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1504 -192 248 ) ( 1520 -192 248 ) ( 1520 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 -192 232 ) ( 1520 -160 232 ) ( 1504 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1504 -176 248 ) ( 1520 -176 248 ) ( 1520 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1504 -160 232 ) ( 1520 -160 232 ) ( 1520 -176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 -176 248 ) ( 1520 -160 232 ) ( 1520 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 8
-{
-( 1504 -144 424 ) ( 1504 -176 248 ) ( 1504 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 -176 248 ) ( 1504 -176 248 ) ( 1504 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 -176 248 ) ( 1520 -160 232 ) ( 1504 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1504 -128 416 ) ( 1520 -128 416 ) ( 1520 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 -160 232 ) ( 1520 -128 416 ) ( 1504 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 -144 424 ) ( 1520 -128 416 ) ( 1520 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 9
-{
-( 1360 -128 448 ) ( 1360 -144 448 ) ( 1360 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1360 -144 448 ) ( 1376 -144 448 ) ( 1376 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 -144 424 ) ( 1376 -128 416 ) ( 1360 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1360 -128 448 ) ( 1376 -128 448 ) ( 1376 -144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 -128 416 ) ( 1376 -128 448 ) ( 1360 -128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 -144 448 ) ( 1376 -128 448 ) ( 1376 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 10
-{
-( 1360 -144 424 ) ( 1360 -176 248 ) ( 1360 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 -176 248 ) ( 1360 -176 248 ) ( 1360 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 -176 248 ) ( 1376 -160 232 ) ( 1360 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1360 -128 416 ) ( 1376 -128 416 ) ( 1376 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 -160 232 ) ( 1376 -128 416 ) ( 1360 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 -144 424 ) ( 1376 -128 416 ) ( 1376 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 11
-{
-( 1360 -160 232 ) ( 1360 -176 248 ) ( 1360 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1360 -192 248 ) ( 1376 -192 248 ) ( 1376 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 -192 232 ) ( 1376 -160 232 ) ( 1360 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1360 -176 248 ) ( 1376 -176 248 ) ( 1376 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1360 -160 232 ) ( 1376 -160 232 ) ( 1376 -176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 -176 248 ) ( 1376 -160 232 ) ( 1376 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 12
-{
-( 1312 -128 448 ) ( 1312 -144 448 ) ( 1312 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1312 -144 448 ) ( 1328 -144 448 ) ( 1328 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 -144 424 ) ( 1328 -128 416 ) ( 1312 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1312 -128 448 ) ( 1328 -128 448 ) ( 1328 -144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 -128 416 ) ( 1328 -128 448 ) ( 1312 -128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 -144 448 ) ( 1328 -128 448 ) ( 1328 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 13
-{
-( 1312 -144 424 ) ( 1312 -176 248 ) ( 1312 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 -176 248 ) ( 1312 -176 248 ) ( 1312 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 -176 248 ) ( 1328 -160 232 ) ( 1312 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1312 -128 416 ) ( 1328 -128 416 ) ( 1328 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 -160 232 ) ( 1328 -128 416 ) ( 1312 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 -144 424 ) ( 1328 -128 416 ) ( 1328 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 14
-{
-( 1312 -160 232 ) ( 1312 -176 248 ) ( 1312 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1312 -192 248 ) ( 1328 -192 248 ) ( 1328 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 -192 232 ) ( 1328 -160 232 ) ( 1312 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1312 -176 248 ) ( 1328 -176 248 ) ( 1328 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1312 -160 232 ) ( 1328 -160 232 ) ( 1328 -176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 -176 248 ) ( 1328 -160 232 ) ( 1328 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-}
-// entity 105
-{
-"classname" "func_group"
-// brush 0
-{
-( 1456 144 448 ) ( 1456 128 448 ) ( 1456 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1456 128 448 ) ( 1472 128 448 ) ( 1472 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1456 144 448 ) ( 1472 144 448 ) ( 1472 128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 128 416 ) ( 1472 144 424 ) ( 1456 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 144 424 ) ( 1472 144 448 ) ( 1456 144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 128 448 ) ( 1472 144 448 ) ( 1472 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 1
-{
-( 1408 144 448 ) ( 1408 128 448 ) ( 1408 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1408 128 448 ) ( 1424 128 448 ) ( 1424 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1408 144 448 ) ( 1424 144 448 ) ( 1424 128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 128 416 ) ( 1424 144 424 ) ( 1408 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 144 424 ) ( 1424 144 448 ) ( 1408 144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 128 448 ) ( 1424 144 448 ) ( 1424 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 2
-{
-( 1408 176 248 ) ( 1408 144 424 ) ( 1408 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 128 416 ) ( 1424 160 232 ) ( 1408 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 128 416 ) ( 1408 128 416 ) ( 1408 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 160 232 ) ( 1424 176 248 ) ( 1408 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1408 176 248 ) ( 1424 176 248 ) ( 1424 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 144 424 ) ( 1424 176 248 ) ( 1424 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 3
-{
-( 1456 192 248 ) ( 1456 176 248 ) ( 1456 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 160 232 ) ( 1456 160 232 ) ( 1456 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 160 232 ) ( 1472 192 232 ) ( 1456 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1456 192 248 ) ( 1472 192 248 ) ( 1472 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 192 232 ) ( 1472 192 248 ) ( 1456 192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 176 248 ) ( 1472 192 248 ) ( 1472 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 4
-{
-( 1456 176 248 ) ( 1456 144 424 ) ( 1456 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 128 416 ) ( 1472 160 232 ) ( 1456 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 128 416 ) ( 1456 128 416 ) ( 1456 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 160 232 ) ( 1472 176 248 ) ( 1456 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1456 176 248 ) ( 1472 176 248 ) ( 1472 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1472 144 424 ) ( 1472 176 248 ) ( 1472 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 5
-{
-( 1504 144 448 ) ( 1504 128 448 ) ( 1504 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1504 128 448 ) ( 1520 128 448 ) ( 1520 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 128 416 ) ( 1520 144 416 ) ( 1504 144 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1504 144 448 ) ( 1520 144 448 ) ( 1520 128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 144 416 ) ( 1520 144 448 ) ( 1504 144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 128 448 ) ( 1520 144 448 ) ( 1520 144 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 6
-{
-( 1408 192 248 ) ( 1408 176 248 ) ( 1408 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 160 232 ) ( 1408 160 232 ) ( 1408 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 160 232 ) ( 1424 192 232 ) ( 1408 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1408 192 248 ) ( 1424 192 248 ) ( 1424 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 192 232 ) ( 1424 192 248 ) ( 1408 192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1424 176 248 ) ( 1424 192 248 ) ( 1424 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 7
-{
-( 1504 192 248 ) ( 1504 176 248 ) ( 1504 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 160 232 ) ( 1504 160 232 ) ( 1504 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 160 232 ) ( 1520 192 232 ) ( 1504 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1504 192 248 ) ( 1520 192 248 ) ( 1520 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 192 232 ) ( 1520 192 248 ) ( 1504 192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 176 248 ) ( 1520 192 248 ) ( 1520 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 8
-{
-( 1504 176 248 ) ( 1504 144 424 ) ( 1504 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 128 416 ) ( 1520 160 232 ) ( 1504 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 128 416 ) ( 1504 128 416 ) ( 1504 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 160 232 ) ( 1520 176 248 ) ( 1504 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1504 176 248 ) ( 1520 176 248 ) ( 1520 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1520 144 424 ) ( 1520 176 248 ) ( 1520 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 9
-{
-( 1360 144 448 ) ( 1360 128 448 ) ( 1360 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1360 128 448 ) ( 1376 128 448 ) ( 1376 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1360 144 448 ) ( 1376 144 448 ) ( 1376 128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 128 416 ) ( 1376 144 424 ) ( 1360 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 144 424 ) ( 1376 144 448 ) ( 1360 144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 128 448 ) ( 1376 144 448 ) ( 1376 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 10
-{
-( 1360 176 248 ) ( 1360 144 424 ) ( 1360 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 128 416 ) ( 1376 160 232 ) ( 1360 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 128 416 ) ( 1360 128 416 ) ( 1360 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 160 232 ) ( 1376 176 248 ) ( 1360 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1360 176 248 ) ( 1376 176 248 ) ( 1376 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 144 424 ) ( 1376 176 248 ) ( 1376 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 11
-{
-( 1360 192 248 ) ( 1360 176 248 ) ( 1360 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 160 232 ) ( 1360 160 232 ) ( 1360 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 160 232 ) ( 1376 192 232 ) ( 1360 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1360 192 248 ) ( 1376 192 248 ) ( 1376 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 192 232 ) ( 1376 192 248 ) ( 1360 192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1376 176 248 ) ( 1376 192 248 ) ( 1376 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 12
-{
-( 1312 144 448 ) ( 1312 128 448 ) ( 1312 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1312 128 448 ) ( 1328 128 448 ) ( 1328 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1312 144 448 ) ( 1328 144 448 ) ( 1328 128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 128 416 ) ( 1328 144 424 ) ( 1312 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 144 424 ) ( 1328 144 448 ) ( 1312 144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 128 448 ) ( 1328 144 448 ) ( 1328 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 13
-{
-( 1312 176 248 ) ( 1312 144 424 ) ( 1312 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 128 416 ) ( 1328 160 232 ) ( 1312 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 128 416 ) ( 1312 128 416 ) ( 1312 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 160 232 ) ( 1328 176 248 ) ( 1312 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1312 176 248 ) ( 1328 176 248 ) ( 1328 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 144 424 ) ( 1328 176 248 ) ( 1328 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-// brush 14
-{
-( 1312 192 248 ) ( 1312 176 248 ) ( 1312 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 160 232 ) ( 1312 160 232 ) ( 1312 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 160 232 ) ( 1328 192 232 ) ( 1312 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1312 192 248 ) ( 1328 192 248 ) ( 1328 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 192 232 ) ( 1328 192 248 ) ( 1312 192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
-( 1328 176 248 ) ( 1328 192 248 ) ( 1328 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
-}
-}
-// entity 106
-{
-"classname" "func_group"
-// brush 0
-{
 ( 1088 80 448 ) ( 1088 48 448 ) ( 1088 48 416 ) common/quake/mmetal1_2 0 0 0 0.125 0.125
 ( 1088 48 448 ) ( 1648 48 448 ) ( 1648 48 416 ) common/quake/mmetal1_2 0 0 0 0.125 0.125
 ( 1648 48 416 ) ( 1648 80 416 ) ( 1088 80 416 ) common/quake/mmetal1_2 0 0 0 0.125 0.125
@@ -17445,11 +17167,11 @@
 ( 1216 208 448 ) ( 1216 464 448 ) ( 1216 464 432 ) common/quake/mmetal1_2 0 0 0 0.125 0.125
 }
 }
-// entity 107
+// entity 105
 {
 "classname" "func_plat"
 "speed" "350"
-"lip" "16"
+"lip" "20"
 "accel" "0"
 "spawnflags" "1"
 "sounds" "1"
@@ -17472,11 +17194,11 @@
 ( 1424 368 240 ) ( 1424 368 241 ) ( 1424 369 240 ) common/quake/metal2_3 128 0 0 0.125 0.125
 }
 }
-// entity 108
+// entity 106
 {
 "classname" "func_plat"
 "speed" "350"
-"lip" "16"
+"lip" "20"
 "accel" "0"
 "spawnflags" "1"
 "sounds" "1"
@@ -17499,7 +17221,7 @@
 ( 1424 -336 240 ) ( 1424 -336 241 ) ( 1424 -335 240 ) common/quake/metal2_3 128 0 0 0.125 0.125
 }
 }
-// entity 109
+// entity 107
 {
 "classname" "func_group"
 // brush 0
@@ -17537,7 +17259,7 @@
 ( 1488 320 288 ) ( 1488 384 288 ) ( 1488 384 -32 ) common/quake/metal4_4 0 0 0 0.125 0.125 0 0 0
 }
 }
-// entity 110
+// entity 108
 {
 "classname" "func_group"
 // brush 0
@@ -17575,7 +17297,7 @@
 ( 1488 -320 288 ) ( 1488 -384 -32 ) ( 1488 -384 288 ) common/quake/metal4_4 0 0 0 0.125 0.125 0 0 0
 }
 }
-// entity 111
+// entity 109
 {
 "classname" "func_plat"
 "lip" "68"
@@ -17606,7 +17328,7 @@
 ( -1280 -448 208 ) ( -1280 -448 209 ) ( -1280 -447 208 ) common/quake/mmetal1_2 0 0 0 0.125 0.125
 }
 }
-// entity 112
+// entity 110
 {
 "classname" "func_group"
 // brush 0
@@ -17682,7 +17404,7 @@
 ( -1320 -464 608 ) ( -1312 -480 608 ) ( -1312 -480 640 ) common/quake/metal1_2 0 0 0 0.125 0.125
 }
 }
-// entity 113
+// entity 111
 {
 "classname" "func_group"
 // brush 0
@@ -17758,13 +17480,13 @@
 ( -1320 -464 448 ) ( -1312 -480 448 ) ( -1312 -480 480 ) common/quake/metal1_2 0 0 0 0.125 0.125
 }
 }
-// entity 114
+// entity 112
 {
 "classname" "misc_flame"
 "origin" "0 816 256"
 "radius" "64"
 }
-// entity 115
+// entity 113
 {
 "classname" "func_wall"
 // brush 0
@@ -17938,7 +17660,7 @@
 ( -24 -712 40 ) ( -32 -728 8 ) ( -32 -728 40 ) common/quake/cop1_2 0 0 0 0.125 0.125
 }
 }
-// entity 116
+// entity 114
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -17989,7 +17711,7 @@
 ( 928 -352 192 ) ( 928 -416 160 ) ( 928 -416 192 ) common/caulk 0 0 0 0.25 0.25
 }
 }
-// entity 117
+// entity 115
 {
 "classname" "func_wall"
 // brush 0
@@ -18020,7 +17742,7 @@
 ( 1218 80 208 ) ( 1218 80 209 ) ( 1218 81 208 ) common/quake/rune1_7 128 -128 0 0.125 0.125 0 0 0
 }
 }
-// entity 118
+// entity 116
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18198,7 +17920,7 @@
 ( 192 -352 304 ) ( 192 -353 304 ) ( 192 -352 305 ) common/quake/metal4_4 0 0 0 0.125 0.125
 }
 }
-// entity 119
+// entity 117
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18375,7 +18097,7 @@
 ( -128 -352 304 ) ( -128 -353 304 ) ( -128 -352 305 ) common/quake/metal4_4 0 0 0 0.125 0.125
 }
 }
-// entity 120
+// entity 118
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18553,7 +18275,7 @@
 ( 192 352 304 ) ( 192 352 305 ) ( 192 353 304 ) common/quake/metal4_4 0 0 180 0.125 -0.125
 }
 }
-// entity 121
+// entity 119
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18731,7 +18453,7 @@
 ( -128 352 304 ) ( -128 352 305 ) ( -128 353 304 ) common/quake/metal4_4 0 0 180 0.125 -0.125
 }
 }
-// entity 122
+// entity 120
 {
 "classname" "func_group"
 // brush 0
@@ -19203,7 +18925,7 @@
 ( -200 1248 24 ) ( -200 1248 25 ) ( -200 1249 24 ) common/quake/cop1_1 0 0 0 0.125 0.125
 }
 }
-// entity 123
+// entity 121
 {
 "classname" "func_group"
 // brush 0
@@ -19441,7 +19163,7 @@
 ( -128 1184 344 ) ( -128 1200 344 ) ( -128 1200 328 ) common/quake/cop1_1 0 0 0 0.125 0.125
 }
 }
-// entity 124
+// entity 122
 {
 "classname" "func_group"
 // brush 0
@@ -19463,7 +19185,7 @@
 ( -688 1280 -80 ) ( -688 1280 -79 ) ( -688 1281 -80 ) common/quake/metal4_4 0 0 0 0.125 0.125
 }
 }
-// entity 125
+// entity 123
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -19472,7 +19194,7 @@
 "_tb_linked_group_id" "{861ffb2d-4188-469a-893e-db8fdaa70b06}"
 "_tb_transformation" "-1 0 0 -2344 0 -1 0 832 0 0 1 312 0 0 0 1"
 }
-// entity 126
+// entity 124
 {
 "classname" "func_train"
 "targetname" "tele2_train"
@@ -19527,7 +19249,7 @@
 ( -76 1248 40 ) ( -76 1247 40 ) ( -76 1248 41 ) common/quake/#teleport 0 0 0 0.25 0.25 0 0 0
 }
 }
-// entity 127
+// entity 125
 {
 "classname" "path_corner"
 "origin" "-88 1168 24"
@@ -19536,7 +19258,7 @@
 "angle" "180"
 "_tb_group" "4484"
 }
-// entity 128
+// entity 126
 {
 "classname" "path_corner"
 "origin" "-88 1168 8"
@@ -19545,7 +19267,7 @@
 "angle" "180"
 "_tb_group" "4484"
 }
-// entity 129
+// entity 127
 {
 "classname" "trigger_teleporter"
 "target" "tele2dest"
@@ -19560,7 +19282,7 @@
 ( -64 1248 40 ) ( -64 1247 40 ) ( -64 1248 41 ) common/trigger 0 0 0 0.25 0.25
 }
 }
-// entity 130
+// entity 128
 {
 "classname" "misc_sound"
 "origin" "-88 1216 104"
@@ -19569,7 +19291,7 @@
 "angle" "180"
 "_tb_group" "4484"
 }
-// entity 131
+// entity 129
 {
 "classname" "func_group"
 // brush 0
@@ -19600,7 +19322,7 @@
 ( 32 -288 0 ) ( 32 -224 0 ) ( 32 -224 -16 ) common/quake/wizmet1_1 0 -256 0 0.125 0.125
 }
 }
-// entity 132
+// entity 130
 {
 "classname" "func_group"
 // brush 0
@@ -19631,7 +19353,7 @@
 ( 32 288 0 ) ( 32 224 -16 ) ( 32 224 0 ) common/quake/wizmet1_1 0 -256 180 0.125 -0.125
 }
 }
-// entity 133
+// entity 131
 {
 "classname" "func_group"
 // brush 0
@@ -19680,17 +19402,17 @@
 ( 1152 -16 208 ) ( 1152 -16 209 ) ( 1152 -15 208 ) common/caulk 0 0 0 0.25 0.25
 }
 }
-// entity 134
+// entity 132
 {
 "classname" "misc_sound"
 "origin" "0 -656 120"
 "atten" "2"
 "sound" "common/drone_3"
 }
-// entity 135
+// entity 133
 {
 "classname" "func_plat"
-"lip" "16"
+"lip" "20"
 "speed" "350"
 "accel" "0"
 "spawnflags" "1"
@@ -19725,12 +19447,12 @@
 ( -1088 1488 176 ) ( -1088 1488 177 ) ( -1088 1489 176 ) common/quake/tech04_9 0 0 0 0.25 0.25
 }
 }
-// entity 136
+// entity 134
 {
 "classname" "item_health_mega"
 "origin" "-1152 1360 240"
 }
-// entity 137
+// entity 135
 {
 "classname" "func_group"
 // brush 0
@@ -19761,7 +19483,7 @@
 ( -704 1024 288 ) ( -704 1088 288 ) ( -704 1088 192 ) common/caulk 0 0 0 0.25 0.25
 }
 }
-// entity 138
+// entity 136
 {
 "classname" "func_group"
 // brush 0
@@ -19792,7 +19514,7 @@
 ( -848 896 288 ) ( -848 926 288 ) ( -848 910 192 ) common/caulk 0 0 0 0.25 0.25
 }
 }
-// entity 139
+// entity 137
 {
 "classname" "func_group"
 // brush 0
@@ -19823,7 +19545,7 @@
 ( -976 896 288 ) ( -976 926 288 ) ( -976 910 192 ) common/caulk 0 0 0 0.25 0.25
 }
 }
-// entity 140
+// entity 138
 {
 "classname" "func_group"
 // brush 0
@@ -19899,7 +19621,7 @@
 ( -1088 1088 544 ) ( -1088 1088 576 ) ( -1152 1152 576 ) common/quake/metal1_3 0 0 0 0.125 0.125
 }
 }
-// entity 141
+// entity 139
 {
 "classname" "func_group"
 // brush 0
@@ -19975,7 +19697,7 @@
 ( -832 1216 544 ) ( -832 1216 576 ) ( -896 1280 576 ) common/quake/metal1_3 0 0 0 0.125 0.125
 }
 }
-// entity 142
+// entity 140
 {
 "classname" "func_group"
 // brush 0
@@ -20051,7 +19773,7 @@
 ( -832 1216 320 ) ( -832 1216 352 ) ( -896 1280 352 ) common/quake/metal1_3 0 0 0 0.125 0.125
 }
 }
-// entity 143
+// entity 141
 {
 "classname" "func_group"
 // brush 0
@@ -20127,7 +19849,7 @@
 ( -1088 1088 320 ) ( -1088 1088 352 ) ( -1152 1152 352 ) common/quake/metal1_3 0 0 0 0.125 0.125
 }
 }
-// entity 144
+// entity 142
 {
 "classname" "func_wall"
 // brush 0
@@ -20239,386 +19961,386 @@
 ( -576 272 464 ) ( -560 240 464 ) ( -560 240 496 ) common/quake/metal1_4 -128 0 90 0.125 -0.125
 }
 }
-// entity 145
+// entity 143
 {
 "classname" "weapon_rocketlauncher"
 "origin" "576 0 64"
 }
-// entity 146
+// entity 144
 {
 "classname" "weapon_supershotgun"
 "origin" "1168 0 304"
 }
-// entity 147
+// entity 145
 {
 "classname" "weapon_supershotgun"
 "origin" "-800 0 0"
 }
-// entity 148
+// entity 146
 {
 "classname" "weapon_grenadelauncher"
 "origin" "-896 1472 240"
 }
-// entity 149
+// entity 147
 {
 "classname" "weapon_lightning"
 "origin" "-208 1216 72"
 }
-// entity 150
+// entity 148
 {
 "classname" "weapon_hyperblaster"
 "origin" "-1344 0 272"
 }
-// entity 151
+// entity 149
 {
 "classname" "item_quad"
 "origin" "0 0 -80"
 "spawnflags" "4"
 }
-// entity 152
+// entity 150
 {
 "classname" "misc_teleporter_dest"
 "origin" "1376 0 24"
 "angle" "180"
 "targetname" "tele3dest"
 }
-// entity 153
+// entity 151
 {
 "classname" "misc_teleporter_dest"
 "origin" "-144 1216 48"
 "angle" "180"
 "targetname" "tele1dest"
 }
-// entity 154
+// entity 152
 {
 "classname" "misc_teleporter_dest"
 "origin" "0 -544 56"
 "angle" "90"
 "targetname" "tele2dest"
 }
-// entity 155
+// entity 153
 {
 "classname" "misc_fireball"
 "origin" "-408 232 -56"
 "random" "3"
 "dmg" "15"
 }
-// entity 156
+// entity 154
 {
 "classname" "misc_fireball"
 "origin" "-280 -184 -56"
 "random" "3"
 "dmg" "15"
 }
-// entity 157
+// entity 155
 {
 "classname" "misc_fireball"
 "origin" "-456 -296 -56"
 "random" "3"
 "dmg" "15"
 }
-// entity 158
+// entity 156
 {
 "classname" "misc_fireball"
 "origin" "88 120 -56"
 "random" "3"
 "dmg" "15"
 }
-// entity 159
+// entity 157
 {
 "classname" "misc_fireball"
 "origin" "392 -232 -56"
 "random" "3"
 "dmg" "15"
 }
-// entity 160
+// entity 158
 {
 "classname" "misc_fireball"
 "origin" "408 232 -56"
 "random" "3"
 "dmg" "15"
 }
-// entity 161
+// entity 159
 {
 "classname" "misc_fireball"
 "origin" "-600 1208 -24"
 "random" "3"
 "dmg" "15"
 }
-// entity 162
+// entity 160
 {
 "classname" "misc_fireball"
 "origin" "-184 1304 -24"
 "random" "3"
 "dmg" "15"
 }
-// entity 163
+// entity 161
 {
 "classname" "misc_fireball"
 "origin" "-384 1152 -24"
 "random" "3"
 "dmg" "15"
 }
-// entity 164
+// entity 162
 {
 "classname" "misc_fireball"
 "origin" "-1320 136 -664"
 "random" "3"
 "dmg" "15"
 }
-// entity 165
+// entity 163
 {
 "classname" "misc_fireball"
 "origin" "-1224 -40 -664"
 "random" "3"
 "dmg" "15"
 }
-// entity 166
+// entity 164
 {
 "classname" "misc_fireball"
 "origin" "-1368 -104 -664"
 "random" "3"
 "dmg" "15"
 }
-// entity 167
+// entity 165
 {
 "classname" "item_health"
 "origin" "32 864 48"
 }
-// entity 168
+// entity 166
 {
 "classname" "item_health"
 "origin" "-32 928 48"
 }
-// entity 169
+// entity 167
 {
 "classname" "item_health_large"
 "origin" "-816 1008 208"
 }
-// entity 170
+// entity 168
 {
 "classname" "item_armor_body"
 "origin" "-1312 0 -464"
 }
-// entity 171
+// entity 169
 {
 "classname" "item_health_small"
 "origin" "-1120 0 -496"
 }
-// entity 172
+// entity 170
 {
 "classname" "item_health_small"
 "origin" "-1088 -16 -496"
 }
-// entity 173
+// entity 171
 {
 "classname" "item_health_small"
 "origin" "-1088 16 -496"
 "angle" "0"
 }
-// entity 174
+// entity 172
 {
 "classname" "item_health_small"
 "origin" "-992 0 -496"
 }
-// entity 175
+// entity 173
 {
 "classname" "item_health_small"
 "origin" "-960 -16 -496"
 }
-// entity 176
+// entity 174
 {
 "classname" "item_health_small"
 "origin" "-960 16 -496"
 "angle" "0"
 }
-// entity 177
+// entity 175
 {
 "classname" "ammo_rockets"
 "origin" "-704 -48 -496"
 }
-// entity 178
+// entity 176
 {
 "classname" "ammo_bolts"
 "origin" "-704 48 -496"
 }
-// entity 179
+// entity 177
 {
 "classname" "item_health_large"
 "origin" "-224 0 -496"
 }
-// entity 180
+// entity 178
 {
 "classname" "ammo_shells"
 "origin" "-1344 -40 -48"
 }
-// entity 181
+// entity 179
 {
 "classname" "ammo_cells"
 "origin" "-1344 40 -48"
 }
-// entity 182
+// entity 180
 {
 "classname" "ammo_rockets"
 "origin" "928 0 272"
 }
-// entity 183
+// entity 181
 {
 "classname" "ammo_cells"
 "origin" "-1376 -176 432"
 }
-// entity 184
+// entity 182
 {
 "classname" "ammo_cells"
 "origin" "-1312 -176 432"
 }
-// entity 185
+// entity 183
 {
 "classname" "item_health_large"
 "origin" "-1344 176 432"
 }
-// entity 186
+// entity 184
 {
 "classname" "ammo_grenades"
 "origin" "-1344 512 240"
 }
-// entity 187
+// entity 185
 {
 "classname" "ammo_bolts"
 "origin" "-1280 448 240"
 }
-// entity 188
+// entity 186
 {
 "classname" "ammo_bolts"
 "origin" "-416 1264 48"
 }
-// entity 189
+// entity 187
 {
 "classname" "item_health"
 "origin" "864 576 48"
 }
-// entity 190
+// entity 188
 {
 "classname" "item_health"
 "origin" "864 -576 48"
 }
-// entity 191
+// entity 189
 {
 "classname" "item_health"
 "origin" "-864 -576 48"
 }
-// entity 192
+// entity 190
 {
 "classname" "item_health"
 "origin" "-864 576 48"
 }
-// entity 193
+// entity 191
 {
 "classname" "info_player_start"
 "origin" "1600 0 0"
 "angle" "180"
 }
-// entity 194
+// entity 192
 {
 "classname" "info_player_intermission"
 "origin" "640 0 584"
 "target" "inter"
 "angles" "0 180 0"
 }
-// entity 195
+// entity 193
 {
 "classname" "info_notnull"
 "origin" "-544 0 224"
 "targetname" "inter"
 "angle" "180"
 }
-// entity 196
+// entity 194
 {
 "classname" "info_player_intermission"
 "origin" "-80 1216 248"
 "target" "inter2"
 }
-// entity 197
+// entity 195
 {
 "classname" "info_notnull"
 "origin" "-828 1216 144"
 "targetname" "inter2"
 }
-// entity 198
+// entity 196
 {
 "classname" "item_armor_shard"
 "origin" "920 64 264"
 }
-// entity 199
+// entity 197
 {
 "classname" "item_armor_shard"
 "origin" "912 96 264"
 }
-// entity 200
+// entity 198
 {
 "classname" "item_armor_shard"
 "origin" "904 128 264"
 }
-// entity 201
+// entity 199
 {
 "classname" "item_armor_shard"
 "origin" "896 160 264"
 }
-// entity 202
+// entity 200
 {
 "classname" "item_armor_shard"
 "origin" "920 -64 264"
 "angle" "0"
 }
-// entity 203
+// entity 201
 {
 "classname" "item_armor_shard"
 "origin" "912 -96 264"
 "angle" "0"
 }
-// entity 204
+// entity 202
 {
 "classname" "item_armor_shard"
 "origin" "904 -128 264"
 "angle" "0"
 }
-// entity 205
+// entity 203
 {
 "classname" "item_armor_shard"
 "origin" "896 -160 264"
 "angle" "0"
 }
-// entity 206
+// entity 204
 {
 "classname" "item_armor_shard"
 "origin" "-896 1296 216"
 }
-// entity 207
+// entity 205
 {
 "classname" "item_armor_shard"
 "origin" "-896 1216 216"
 }
-// entity 208
+// entity 206
 {
 "classname" "item_armor_shard"
 "origin" "-896 1136 216"
 }
-// entity 209
+// entity 207
 {
 "classname" "ammo_rockets"
 "origin" "800 0 32"
 }
-// entity 210
+// entity 208
 {
 "classname" "ammo_shells"
 "origin" "1520 -160 16"
 }
-// entity 211
+// entity 209
 {
 "classname" "ammo_shells"
 "origin" "1520 160 16"
 }
-// entity 212
+// entity 210
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -20850,7 +20572,7 @@
 ( 96 320 720 ) ( 96 256 688 ) ( 96 256 720 ) common/quake/cop1_1 0 0 180 0.25 -0.25
 }
 }
-// entity 213
+// entity 211
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21081,7 +20803,7 @@
 ( 96 -320 720 ) ( 96 -256 720 ) ( 96 -256 688 ) common/quake/cop1_1 0 0 0 0.25 0.25
 }
 }
-// entity 214
+// entity 212
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21171,7 +20893,7 @@
 ( -768 160 608 ) ( -768 159 608 ) ( -768 160 609 ) common/quake/metal4_4 0 0 180 0.125 -0.125
 }
 }
-// entity 215
+// entity 213
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21260,7 +20982,7 @@
 ( -768 -160 608 ) ( -768 -160 609 ) ( -768 -159 608 ) common/quake/metal4_4 0 0 0 0.125 0.125
 }
 }
-// entity 216
+// entity 214
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21350,7 +21072,7 @@
 ( 832 160 608 ) ( 832 159 608 ) ( 832 160 609 ) common/quake/metal4_4 0 0 180 0.125 -0.125
 }
 }
-// entity 217
+// entity 215
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21440,21 +21162,7 @@
 ( 832 -160 608 ) ( 832 -160 609 ) ( 832 -159 608 ) common/quake/metal4_4 0 0 0 0.125 0.125
 }
 }
-// entity 218
-{
-"classname" "light"
-"origin" "0 416 720"
-"color" "0.95686275 0.6509804 0.27450982"
-"intensity" "0.75"
-}
-// entity 219
-{
-"classname" "light"
-"origin" "0 -416 720"
-"color" "0.95686275 0.6509804 0.27450982"
-"intensity" "0.75"
-}
-// entity 220
+// entity 216
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21507,7 +21215,7 @@
 ( 768 -672 272 ) ( 768 -672 273 ) ( 768 -671 272 ) common/caulk 0 0 0 0.25 0.25
 }
 }
-// entity 221
+// entity 217
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21561,7 +21269,7 @@
 ( 768 672 272 ) ( 768 671 272 ) ( 768 672 273 ) common/caulk 0 0 0 0.25 0.25
 }
 }
-// entity 222
+// entity 218
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21615,7 +21323,7 @@
 ( -576 672 272 ) ( -576 671 272 ) ( -576 672 273 ) common/caulk 0 0 0 0.25 0.25
 }
 }
-// entity 223
+// entity 219
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21669,14 +21377,14 @@
 ( -576 -672 272 ) ( -576 -672 273 ) ( -576 -671 272 ) common/caulk 0 0 0 0.25 0.25
 }
 }
-// entity 224
+// entity 220
 {
 "classname" "misc_sound"
 "origin" "0 -656 136"
 "atten" "2"
 "sound" "common/wind_2"
 }
-// entity 225
+// entity 221
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21684,7 +21392,7 @@
 "_tb_id" "4442"
 "_tb_linked_group_id" "{199e9abb-4d10-4518-bf65-599308597d08}"
 }
-// entity 226
+// entity 222
 {
 "classname" "func_wall"
 "_tb_group" "4442"
@@ -21839,7 +21547,7 @@
 ( 0 698 284 ) ( 0 704 266 ) ( 0 704 256 ) common/quake/exit02_3 0 0 0 0.25 0.25
 }
 }
-// entity 227
+// entity 223
 {
 "classname" "func_wall"
 "_tb_group" "4442"
@@ -22039,7 +21747,7 @@
 ( 128 864 512 ) ( 128 992 512 ) ( 128 992 336 ) common/quake/exit02_3 0 0 0 0.25 0.25
 }
 }
-// entity 228
+// entity 224
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -22248,25 +21956,7 @@
 ( 108 704 320 ) ( 112 692 320 ) ( 100 704 340 ) common/quake/metalt2_5 0 0 0 0.25 0.25
 }
 }
-// entity 229
-{
-"classname" "light"
-"origin" "1152 452 304"
-"team" "med_white"
-}
-// entity 230
-{
-"classname" "light"
-"origin" "1152 -452 304"
-"team" "med_white"
-}
-// entity 231
-{
-"classname" "light"
-"origin" "-1460 992 80"
-"team" "med_white"
-}
-// entity 232
+// entity 225
 {
 "classname" "func_group"
 // brush 0
@@ -22378,7 +22068,7 @@
 ( -944 1168 376 ) ( -944 1104 360 ) ( -944 1104 376 ) common/quake/metal1_2 80.00006 0 0 0.3333333 0.25
 }
 }
-// entity 233
+// entity 226
 {
 "classname" "func_group"
 // brush 0
@@ -22490,7 +22180,7 @@
 ( -1200 1040 376 ) ( -1200 976 360 ) ( -1200 976 376 ) common/quake/metal1_2 80.00006 0 0 0.3333333 0.25
 }
 }
-// entity 234
+// entity 227
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -22552,597 +22242,17 @@
 ( -912 144 688 ) ( -912 144 689 ) ( -912 145 688 ) common/quake/tech04_9 192 0 0 0.25 0.25
 }
 }
-// entity 235
-{
-"classname" "func_group"
-// brush 0
-{
-( -568 -64 120 ) ( -568 -64 104 ) ( -560 -40 128 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 -64 120 ) ( -552 -64 120 ) ( -552 -64 104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -560 -40 128 ) ( -552 -64 120 ) ( -568 -64 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 -64 104 ) ( -552 -64 104 ) ( -560 -40 128 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -552 -64 104 ) ( -552 -64 120 ) ( -560 -40 128 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 1
-{
-( -536 -64 152 ) ( -536 -64 136 ) ( -528 -40 160 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 152 ) ( -520 -64 152 ) ( -520 -64 136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 -40 160 ) ( -520 -64 152 ) ( -536 -64 152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 136 ) ( -520 -64 136 ) ( -528 -40 160 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 -64 136 ) ( -520 -64 152 ) ( -528 -40 160 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 2
-{
-( -568 -64 56 ) ( -568 -64 40 ) ( -560 -40 64 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 -64 56 ) ( -552 -64 56 ) ( -552 -64 40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -560 -40 64 ) ( -552 -64 56 ) ( -568 -64 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 -64 40 ) ( -552 -64 40 ) ( -560 -40 64 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -552 -64 40 ) ( -552 -64 56 ) ( -560 -40 64 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 3
-{
-( -536 -64 88 ) ( -536 -64 72 ) ( -528 -40 96 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 88 ) ( -520 -64 88 ) ( -520 -64 72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 -40 96 ) ( -520 -64 88 ) ( -536 -64 88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 72 ) ( -520 -64 72 ) ( -528 -40 96 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 -64 72 ) ( -520 -64 88 ) ( -528 -40 96 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 4
-{
-( -568 -64 -8 ) ( -568 -64 -24 ) ( -560 -40 0 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 -64 -8 ) ( -552 -64 -8 ) ( -552 -64 -24 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -560 -40 0 ) ( -552 -64 -8 ) ( -568 -64 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 -64 -24 ) ( -552 -64 -24 ) ( -560 -40 0 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -552 -64 -24 ) ( -552 -64 -8 ) ( -560 -40 0 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 5
-{
-( -536 -64 24 ) ( -536 -64 8 ) ( -528 -40 32 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 24 ) ( -520 -64 24 ) ( -520 -64 8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 -40 32 ) ( -520 -64 24 ) ( -536 -64 24 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 8 ) ( -520 -64 8 ) ( -528 -40 32 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 -64 8 ) ( -520 -64 24 ) ( -528 -40 32 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 6
-{
-( -568 -64 -72 ) ( -568 -64 -88 ) ( -560 -40 -64 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 -64 -72 ) ( -552 -64 -72 ) ( -552 -64 -88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -560 -40 -64 ) ( -552 -64 -72 ) ( -568 -64 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 -64 -88 ) ( -552 -64 -88 ) ( -560 -40 -64 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -552 -64 -88 ) ( -552 -64 -72 ) ( -560 -40 -64 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 7
-{
-( -536 -64 -40 ) ( -536 -64 -56 ) ( -528 -40 -32 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 -40 ) ( -520 -64 -40 ) ( -520 -64 -56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 -40 -32 ) ( -520 -64 -40 ) ( -536 -64 -40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 -56 ) ( -520 -64 -56 ) ( -528 -40 -32 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 -64 -56 ) ( -520 -64 -40 ) ( -528 -40 -32 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 8
-{
-( -568 -64 -136 ) ( -568 -64 -152 ) ( -560 -40 -128 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 -64 -136 ) ( -552 -64 -136 ) ( -552 -64 -152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -560 -40 -128 ) ( -552 -64 -136 ) ( -568 -64 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 -64 -152 ) ( -552 -64 -152 ) ( -560 -40 -128 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -552 -64 -152 ) ( -552 -64 -136 ) ( -560 -40 -128 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 9
-{
-( -536 -64 -104 ) ( -536 -64 -120 ) ( -528 -40 -96 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 -104 ) ( -520 -64 -104 ) ( -520 -64 -120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 -40 -96 ) ( -520 -64 -104 ) ( -536 -64 -104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 -120 ) ( -520 -64 -120 ) ( -528 -40 -96 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 -64 -120 ) ( -520 -64 -104 ) ( -528 -40 -96 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 10
-{
-( -568 -64 -200 ) ( -568 -64 -216 ) ( -560 -40 -192 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 -64 -200 ) ( -552 -64 -200 ) ( -552 -64 -216 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -560 -40 -192 ) ( -552 -64 -200 ) ( -568 -64 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 -64 -216 ) ( -552 -64 -216 ) ( -560 -40 -192 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -552 -64 -216 ) ( -552 -64 -200 ) ( -560 -40 -192 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 11
-{
-( -536 -64 -168 ) ( -536 -64 -184 ) ( -528 -40 -160 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 -168 ) ( -520 -64 -168 ) ( -520 -64 -184 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 -40 -160 ) ( -520 -64 -168 ) ( -536 -64 -168 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 -184 ) ( -520 -64 -184 ) ( -528 -40 -160 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 -64 -184 ) ( -520 -64 -168 ) ( -528 -40 -160 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 12
-{
-( -536 -64 -232 ) ( -536 -64 -248 ) ( -528 -40 -224 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 -232 ) ( -520 -64 -232 ) ( -520 -64 -248 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 -40 -224 ) ( -520 -64 -232 ) ( -536 -64 -232 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 -64 -248 ) ( -520 -64 -248 ) ( -528 -40 -224 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 -64 -248 ) ( -520 -64 -232 ) ( -528 -40 -224 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 13
-{
-( -568 64 120 ) ( -560 40 128 ) ( -568 64 104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 64 104 ) ( -560 40 128 ) ( -552 64 104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -560 40 128 ) ( -568 64 120 ) ( -552 64 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 64 120 ) ( -552 64 104 ) ( -552 64 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -552 64 104 ) ( -560 40 128 ) ( -552 64 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 14
-{
-( -536 64 152 ) ( -528 40 160 ) ( -536 64 136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 136 ) ( -528 40 160 ) ( -520 64 136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 40 160 ) ( -536 64 152 ) ( -520 64 152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 152 ) ( -520 64 136 ) ( -520 64 152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 64 136 ) ( -528 40 160 ) ( -520 64 152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 15
-{
-( -568 64 56 ) ( -560 40 64 ) ( -568 64 40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 64 40 ) ( -560 40 64 ) ( -552 64 40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -560 40 64 ) ( -568 64 56 ) ( -552 64 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 64 56 ) ( -552 64 40 ) ( -552 64 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -552 64 40 ) ( -560 40 64 ) ( -552 64 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 16
-{
-( -536 64 88 ) ( -528 40 96 ) ( -536 64 72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 72 ) ( -528 40 96 ) ( -520 64 72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 40 96 ) ( -536 64 88 ) ( -520 64 88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 88 ) ( -520 64 72 ) ( -520 64 88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 64 72 ) ( -528 40 96 ) ( -520 64 88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 17
-{
-( -568 64 -8 ) ( -560 40 0 ) ( -568 64 -24 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 64 -24 ) ( -560 40 0 ) ( -552 64 -24 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -560 40 0 ) ( -568 64 -8 ) ( -552 64 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 64 -8 ) ( -552 64 -24 ) ( -552 64 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -552 64 -24 ) ( -560 40 0 ) ( -552 64 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 18
-{
-( -536 64 24 ) ( -528 40 32 ) ( -536 64 8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 8 ) ( -528 40 32 ) ( -520 64 8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 40 32 ) ( -536 64 24 ) ( -520 64 24 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 24 ) ( -520 64 8 ) ( -520 64 24 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 64 8 ) ( -528 40 32 ) ( -520 64 24 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 19
-{
-( -568 64 -72 ) ( -560 40 -64 ) ( -568 64 -88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 64 -88 ) ( -560 40 -64 ) ( -552 64 -88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -560 40 -64 ) ( -568 64 -72 ) ( -552 64 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 64 -72 ) ( -552 64 -88 ) ( -552 64 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -552 64 -88 ) ( -560 40 -64 ) ( -552 64 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 20
-{
-( -536 64 -40 ) ( -528 40 -32 ) ( -536 64 -56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 -56 ) ( -528 40 -32 ) ( -520 64 -56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 40 -32 ) ( -536 64 -40 ) ( -520 64 -40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 -40 ) ( -520 64 -56 ) ( -520 64 -40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 64 -56 ) ( -528 40 -32 ) ( -520 64 -40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 21
-{
-( -568 64 -136 ) ( -560 40 -128 ) ( -568 64 -152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 64 -152 ) ( -560 40 -128 ) ( -552 64 -152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -560 40 -128 ) ( -568 64 -136 ) ( -552 64 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 64 -136 ) ( -552 64 -152 ) ( -552 64 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -552 64 -152 ) ( -560 40 -128 ) ( -552 64 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 22
-{
-( -536 64 -104 ) ( -528 40 -96 ) ( -536 64 -120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 -120 ) ( -528 40 -96 ) ( -520 64 -120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 40 -96 ) ( -536 64 -104 ) ( -520 64 -104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 -104 ) ( -520 64 -120 ) ( -520 64 -104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 64 -120 ) ( -528 40 -96 ) ( -520 64 -104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 23
-{
-( -568 64 -200 ) ( -560 40 -192 ) ( -568 64 -216 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 64 -216 ) ( -560 40 -192 ) ( -552 64 -216 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -560 40 -192 ) ( -568 64 -200 ) ( -552 64 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -568 64 -200 ) ( -552 64 -216 ) ( -552 64 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -552 64 -216 ) ( -560 40 -192 ) ( -552 64 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 24
-{
-( -536 64 -168 ) ( -528 40 -160 ) ( -536 64 -184 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 -184 ) ( -528 40 -160 ) ( -520 64 -184 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 40 -160 ) ( -536 64 -168 ) ( -520 64 -168 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 -168 ) ( -520 64 -184 ) ( -520 64 -168 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 64 -184 ) ( -528 40 -160 ) ( -520 64 -168 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 25
-{
-( -536 64 -232 ) ( -528 40 -224 ) ( -536 64 -248 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 -248 ) ( -528 40 -224 ) ( -520 64 -248 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -528 40 -224 ) ( -536 64 -232 ) ( -520 64 -232 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -536 64 -232 ) ( -520 64 -248 ) ( -520 64 -232 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -520 64 -248 ) ( -528 40 -224 ) ( -520 64 -232 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 26
-{
-( -480 -24 104 ) ( -480 -8 104 ) ( -504 -16 128 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 -24 120 ) ( -480 -24 104 ) ( -504 -16 128 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 -8 104 ) ( -480 -8 120 ) ( -504 -16 128 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -504 -16 128 ) ( -480 -8 120 ) ( -480 -24 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 -24 120 ) ( -480 -8 120 ) ( -480 -8 104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 27
-{
-( -480 8 136 ) ( -480 24 136 ) ( -504 16 160 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 8 152 ) ( -480 8 136 ) ( -504 16 160 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 24 136 ) ( -480 24 152 ) ( -504 16 160 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -504 16 160 ) ( -480 24 152 ) ( -480 8 152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 8 152 ) ( -480 24 152 ) ( -480 24 136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 28
-{
-( -480 -24 -88 ) ( -480 -8 -88 ) ( -504 -16 -64 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 -24 -72 ) ( -480 -24 -88 ) ( -504 -16 -64 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 -8 -88 ) ( -480 -8 -72 ) ( -504 -16 -64 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -504 -16 -64 ) ( -480 -8 -72 ) ( -480 -24 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 -24 -72 ) ( -480 -8 -72 ) ( -480 -8 -88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 29
-{
-( -480 8 -56 ) ( -480 24 -56 ) ( -504 16 -32 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 8 -40 ) ( -480 8 -56 ) ( -504 16 -32 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 24 -56 ) ( -480 24 -40 ) ( -504 16 -32 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -504 16 -32 ) ( -480 24 -40 ) ( -480 8 -40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 8 -40 ) ( -480 24 -40 ) ( -480 24 -56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 30
-{
-( -480 -24 -152 ) ( -480 -8 -152 ) ( -504 -16 -128 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 -24 -136 ) ( -480 -24 -152 ) ( -504 -16 -128 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 -8 -152 ) ( -480 -8 -136 ) ( -504 -16 -128 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -504 -16 -128 ) ( -480 -8 -136 ) ( -480 -24 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 -24 -136 ) ( -480 -8 -136 ) ( -480 -8 -152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 31
-{
-( -480 8 -120 ) ( -480 24 -120 ) ( -504 16 -96 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 8 -104 ) ( -480 8 -120 ) ( -504 16 -96 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 24 -120 ) ( -480 24 -104 ) ( -504 16 -96 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -504 16 -96 ) ( -480 24 -104 ) ( -480 8 -104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 8 -104 ) ( -480 24 -104 ) ( -480 24 -120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 32
-{
-( -480 -24 -216 ) ( -480 -8 -216 ) ( -504 -16 -192 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 -24 -200 ) ( -480 -24 -216 ) ( -504 -16 -192 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 -8 -216 ) ( -480 -8 -200 ) ( -504 -16 -192 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -504 -16 -192 ) ( -480 -8 -200 ) ( -480 -24 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 -24 -200 ) ( -480 -8 -200 ) ( -480 -8 -216 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 33
-{
-( -480 8 -184 ) ( -480 24 -184 ) ( -504 16 -160 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 8 -168 ) ( -480 8 -184 ) ( -504 16 -160 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 24 -184 ) ( -480 24 -168 ) ( -504 16 -160 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -504 16 -160 ) ( -480 24 -168 ) ( -480 8 -168 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 8 -168 ) ( -480 24 -168 ) ( -480 24 -184 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 34
-{
-( -480 8 -248 ) ( -480 24 -248 ) ( -504 16 -224 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 8 -232 ) ( -480 8 -248 ) ( -504 16 -224 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 24 -248 ) ( -480 24 -232 ) ( -504 16 -224 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -504 16 -224 ) ( -480 24 -232 ) ( -480 8 -232 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -480 8 -232 ) ( -480 24 -232 ) ( -480 24 -248 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 35
-{
-( -608 -24 120 ) ( -608 -8 104 ) ( -608 -8 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 -16 128 ) ( -608 -24 120 ) ( -608 -8 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -24 120 ) ( -584 -16 128 ) ( -608 -24 104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -8 104 ) ( -584 -16 128 ) ( -608 -8 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -24 104 ) ( -584 -16 128 ) ( -608 -8 104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 36
-{
-( -608 8 152 ) ( -608 24 136 ) ( -608 24 152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 16 160 ) ( -608 8 152 ) ( -608 24 152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 152 ) ( -584 16 160 ) ( -608 8 136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 24 136 ) ( -584 16 160 ) ( -608 24 152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 136 ) ( -584 16 160 ) ( -608 24 136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 37
-{
-( -608 -24 56 ) ( -608 -8 40 ) ( -608 -8 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 -16 64 ) ( -608 -24 56 ) ( -608 -8 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -24 56 ) ( -584 -16 64 ) ( -608 -24 40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -8 40 ) ( -584 -16 64 ) ( -608 -8 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -24 40 ) ( -584 -16 64 ) ( -608 -8 40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 38
-{
-( -608 8 88 ) ( -608 24 72 ) ( -608 24 88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 16 96 ) ( -608 8 88 ) ( -608 24 88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 88 ) ( -584 16 96 ) ( -608 8 72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 24 72 ) ( -584 16 96 ) ( -608 24 88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 72 ) ( -584 16 96 ) ( -608 24 72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 39
-{
-( -608 -24 -8 ) ( -608 -8 -24 ) ( -608 -8 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 -16 0 ) ( -608 -24 -8 ) ( -608 -8 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -24 -8 ) ( -584 -16 0 ) ( -608 -24 -24 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -8 -24 ) ( -584 -16 0 ) ( -608 -8 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -24 -24 ) ( -584 -16 0 ) ( -608 -8 -24 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 40
-{
-( -608 8 24 ) ( -608 24 8 ) ( -608 24 24 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 16 32 ) ( -608 8 24 ) ( -608 24 24 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 24 ) ( -584 16 32 ) ( -608 8 8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 24 8 ) ( -584 16 32 ) ( -608 24 24 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 8 ) ( -584 16 32 ) ( -608 24 8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 41
-{
-( -608 -24 -72 ) ( -608 -8 -88 ) ( -608 -8 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 -16 -64 ) ( -608 -24 -72 ) ( -608 -8 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -24 -72 ) ( -584 -16 -64 ) ( -608 -24 -88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -8 -88 ) ( -584 -16 -64 ) ( -608 -8 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -24 -88 ) ( -584 -16 -64 ) ( -608 -8 -88 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 42
-{
-( -608 8 -40 ) ( -608 24 -56 ) ( -608 24 -40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 16 -32 ) ( -608 8 -40 ) ( -608 24 -40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 -40 ) ( -584 16 -32 ) ( -608 8 -56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 24 -56 ) ( -584 16 -32 ) ( -608 24 -40 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 -56 ) ( -584 16 -32 ) ( -608 24 -56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 43
-{
-( -608 -24 -136 ) ( -608 -8 -152 ) ( -608 -8 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 -16 -128 ) ( -608 -24 -136 ) ( -608 -8 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -24 -136 ) ( -584 -16 -128 ) ( -608 -24 -152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -8 -152 ) ( -584 -16 -128 ) ( -608 -8 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -24 -152 ) ( -584 -16 -128 ) ( -608 -8 -152 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 44
-{
-( -608 8 -104 ) ( -608 24 -120 ) ( -608 24 -104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 16 -96 ) ( -608 8 -104 ) ( -608 24 -104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 -104 ) ( -584 16 -96 ) ( -608 8 -120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 24 -120 ) ( -584 16 -96 ) ( -608 24 -104 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 -120 ) ( -584 16 -96 ) ( -608 24 -120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 45
-{
-( -608 -24 -200 ) ( -608 -8 -216 ) ( -608 -8 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 -16 -192 ) ( -608 -24 -200 ) ( -608 -8 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -24 -200 ) ( -584 -16 -192 ) ( -608 -24 -216 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -8 -216 ) ( -584 -16 -192 ) ( -608 -8 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 -24 -216 ) ( -584 -16 -192 ) ( -608 -8 -216 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 46
-{
-( -608 8 -168 ) ( -608 24 -184 ) ( -608 24 -168 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 16 -160 ) ( -608 8 -168 ) ( -608 24 -168 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 -168 ) ( -584 16 -160 ) ( -608 8 -184 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 24 -184 ) ( -584 16 -160 ) ( -608 24 -168 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 -184 ) ( -584 16 -160 ) ( -608 24 -184 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 47
-{
-( -608 8 -232 ) ( -608 24 -248 ) ( -608 24 -232 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -584 16 -224 ) ( -608 8 -232 ) ( -608 24 -232 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 -232 ) ( -584 16 -224 ) ( -608 8 -248 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 24 -248 ) ( -584 16 -224 ) ( -608 24 -232 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -608 8 -248 ) ( -584 16 -224 ) ( -608 24 -248 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 48
-{
-( -582 46 132 ) ( -590 38 132 ) ( -590 38 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 38 132 ) ( -576 32 140 ) ( -590 38 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 46 132 ) ( -576 32 140 ) ( -590 38 132 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 38 120 ) ( -576 32 140 ) ( -582 46 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 46 120 ) ( -576 32 140 ) ( -582 46 132 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 49
-{
-( -582 46 68 ) ( -590 38 68 ) ( -590 38 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 38 68 ) ( -576 32 76 ) ( -590 38 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 46 68 ) ( -576 32 76 ) ( -590 38 68 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 38 56 ) ( -576 32 76 ) ( -582 46 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 46 56 ) ( -576 32 76 ) ( -582 46 68 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 50
-{
-( -582 46 4 ) ( -590 38 4 ) ( -590 38 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 38 4 ) ( -576 32 12 ) ( -590 38 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 46 4 ) ( -576 32 12 ) ( -590 38 4 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 38 -8 ) ( -576 32 12 ) ( -582 46 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 46 -8 ) ( -576 32 12 ) ( -582 46 4 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 51
-{
-( -582 46 -60 ) ( -590 38 -60 ) ( -590 38 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 38 -60 ) ( -576 32 -52 ) ( -590 38 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 46 -60 ) ( -576 32 -52 ) ( -590 38 -60 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 38 -72 ) ( -576 32 -52 ) ( -582 46 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 46 -72 ) ( -576 32 -52 ) ( -582 46 -60 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 52
-{
-( -582 46 -124 ) ( -590 38 -124 ) ( -590 38 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 38 -124 ) ( -576 32 -116 ) ( -590 38 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 46 -124 ) ( -576 32 -116 ) ( -590 38 -124 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 38 -136 ) ( -576 32 -116 ) ( -582 46 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 46 -136 ) ( -576 32 -116 ) ( -582 46 -124 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 53
-{
-( -582 46 -188 ) ( -590 38 -188 ) ( -590 38 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 38 -188 ) ( -576 32 -180 ) ( -590 38 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 46 -188 ) ( -576 32 -180 ) ( -590 38 -188 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 38 -200 ) ( -576 32 -180 ) ( -582 46 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 46 -200 ) ( -576 32 -180 ) ( -582 46 -188 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 54
-{
-( -506 46 120 ) ( -506 46 132 ) ( -512 32 140 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 38 120 ) ( -506 46 120 ) ( -512 32 140 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 46 132 ) ( -498 38 132 ) ( -512 32 140 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 38 132 ) ( -498 38 120 ) ( -512 32 140 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 46 132 ) ( -498 38 120 ) ( -498 38 132 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 55
-{
-( -506 46 56 ) ( -506 46 68 ) ( -512 32 76 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 38 56 ) ( -506 46 56 ) ( -512 32 76 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 46 68 ) ( -498 38 68 ) ( -512 32 76 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 38 68 ) ( -498 38 56 ) ( -512 32 76 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 46 68 ) ( -498 38 56 ) ( -498 38 68 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 56
-{
-( -506 46 -8 ) ( -506 46 4 ) ( -512 32 12 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 38 -8 ) ( -506 46 -8 ) ( -512 32 12 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 46 4 ) ( -498 38 4 ) ( -512 32 12 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 38 4 ) ( -498 38 -8 ) ( -512 32 12 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 46 4 ) ( -498 38 -8 ) ( -498 38 4 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 57
-{
-( -506 46 -72 ) ( -506 46 -60 ) ( -512 32 -52 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 38 -72 ) ( -506 46 -72 ) ( -512 32 -52 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 46 -60 ) ( -498 38 -60 ) ( -512 32 -52 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 38 -60 ) ( -498 38 -72 ) ( -512 32 -52 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 46 -60 ) ( -498 38 -72 ) ( -498 38 -60 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 58
-{
-( -506 46 -136 ) ( -506 46 -124 ) ( -512 32 -116 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 38 -136 ) ( -506 46 -136 ) ( -512 32 -116 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 46 -124 ) ( -498 38 -124 ) ( -512 32 -116 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 38 -124 ) ( -498 38 -136 ) ( -512 32 -116 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 46 -124 ) ( -498 38 -136 ) ( -498 38 -124 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 59
-{
-( -506 46 -200 ) ( -506 46 -188 ) ( -512 32 -180 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 38 -200 ) ( -506 46 -200 ) ( -512 32 -180 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 46 -188 ) ( -498 38 -188 ) ( -512 32 -180 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 38 -188 ) ( -498 38 -200 ) ( -512 32 -180 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 46 -188 ) ( -498 38 -200 ) ( -498 38 -188 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 60
-{
-( -506 -46 120 ) ( -512 -32 140 ) ( -506 -46 132 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 -38 120 ) ( -512 -32 140 ) ( -506 -46 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 -46 132 ) ( -512 -32 140 ) ( -498 -38 132 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 -38 132 ) ( -512 -32 140 ) ( -498 -38 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 -46 132 ) ( -498 -38 132 ) ( -498 -38 120 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 61
-{
-( -506 -46 56 ) ( -512 -32 76 ) ( -506 -46 68 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 -38 56 ) ( -512 -32 76 ) ( -506 -46 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 -46 68 ) ( -512 -32 76 ) ( -498 -38 68 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 -38 68 ) ( -512 -32 76 ) ( -498 -38 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 -46 68 ) ( -498 -38 68 ) ( -498 -38 56 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 62
-{
-( -506 -46 -8 ) ( -512 -32 12 ) ( -506 -46 4 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 -38 -8 ) ( -512 -32 12 ) ( -506 -46 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 -46 4 ) ( -512 -32 12 ) ( -498 -38 4 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 -38 4 ) ( -512 -32 12 ) ( -498 -38 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 -46 4 ) ( -498 -38 4 ) ( -498 -38 -8 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 63
-{
-( -506 -46 -72 ) ( -512 -32 -52 ) ( -506 -46 -60 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 -38 -72 ) ( -512 -32 -52 ) ( -506 -46 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 -46 -60 ) ( -512 -32 -52 ) ( -498 -38 -60 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 -38 -60 ) ( -512 -32 -52 ) ( -498 -38 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 -46 -60 ) ( -498 -38 -60 ) ( -498 -38 -72 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 64
-{
-( -506 -46 -136 ) ( -512 -32 -116 ) ( -506 -46 -124 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 -38 -136 ) ( -512 -32 -116 ) ( -506 -46 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 -46 -124 ) ( -512 -32 -116 ) ( -498 -38 -124 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 -38 -124 ) ( -512 -32 -116 ) ( -498 -38 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 -46 -124 ) ( -498 -38 -124 ) ( -498 -38 -136 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 65
-{
-( -506 -46 -200 ) ( -512 -32 -180 ) ( -506 -46 -188 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 -38 -200 ) ( -512 -32 -180 ) ( -506 -46 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 -46 -188 ) ( -512 -32 -180 ) ( -498 -38 -188 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -498 -38 -188 ) ( -512 -32 -180 ) ( -498 -38 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -506 -46 -188 ) ( -498 -38 -188 ) ( -498 -38 -200 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 66
-{
-( -582 -46 132 ) ( -590 -38 120 ) ( -590 -38 132 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 -38 132 ) ( -590 -38 120 ) ( -576 -32 140 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 -46 132 ) ( -590 -38 132 ) ( -576 -32 140 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 -38 120 ) ( -582 -46 120 ) ( -576 -32 140 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 -46 120 ) ( -582 -46 132 ) ( -576 -32 140 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 67
-{
-( -582 -46 68 ) ( -590 -38 56 ) ( -590 -38 68 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 -38 68 ) ( -590 -38 56 ) ( -576 -32 76 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 -46 68 ) ( -590 -38 68 ) ( -576 -32 76 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 -38 56 ) ( -582 -46 56 ) ( -576 -32 76 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 -46 56 ) ( -582 -46 68 ) ( -576 -32 76 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 68
-{
-( -582 -46 4 ) ( -590 -38 -8 ) ( -590 -38 4 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 -38 4 ) ( -590 -38 -8 ) ( -576 -32 12 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 -46 4 ) ( -590 -38 4 ) ( -576 -32 12 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 -38 -8 ) ( -582 -46 -8 ) ( -576 -32 12 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 -46 -8 ) ( -582 -46 4 ) ( -576 -32 12 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 69
-{
-( -582 -46 -60 ) ( -590 -38 -72 ) ( -590 -38 -60 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 -38 -60 ) ( -590 -38 -72 ) ( -576 -32 -52 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 -46 -60 ) ( -590 -38 -60 ) ( -576 -32 -52 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 -38 -72 ) ( -582 -46 -72 ) ( -576 -32 -52 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 -46 -72 ) ( -582 -46 -60 ) ( -576 -32 -52 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 70
-{
-( -582 -46 -124 ) ( -590 -38 -136 ) ( -590 -38 -124 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 -38 -124 ) ( -590 -38 -136 ) ( -576 -32 -116 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 -46 -124 ) ( -590 -38 -124 ) ( -576 -32 -116 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 -38 -136 ) ( -582 -46 -136 ) ( -576 -32 -116 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 -46 -136 ) ( -582 -46 -124 ) ( -576 -32 -116 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-// brush 71
-{
-( -582 -46 -188 ) ( -590 -38 -200 ) ( -590 -38 -188 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 -38 -188 ) ( -590 -38 -200 ) ( -576 -32 -180 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 -46 -188 ) ( -590 -38 -188 ) ( -576 -32 -180 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -590 -38 -200 ) ( -582 -46 -200 ) ( -576 -32 -180 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-( -582 -46 -200 ) ( -582 -46 -188 ) ( -576 -32 -180 ) common/quake/metalt2_5 0 0 0 0.25 0.25 64 0 0
-}
-}
-// entity 236
+// entity 228
 {
 "classname" "ammo_rockets"
 "origin" "-1136 1280 48"
 }
-// entity 237
+// entity 229
 {
 "classname" "ammo_rockets"
 "origin" "-1040 1280 48"
 }
-// entity 238
+// entity 230
 {
 "classname" "func_group"
 // brush 0
@@ -23182,78 +22292,7 @@
 ( 1696 -16 160 ) ( 1696 16 288 ) ( 1696 16 160 ) common/caulk 0 0 0 0.25 0.25
 }
 }
-// entity 239
-{
-"classname" "light"
-"origin" "-40 -952 72"
-"team_master" "a"
-"team" "med_white"
-"color" "1 0.9 0.6"
-"intensity" "2.6"
-"radius" "450"
-}
-// entity 240
-{
-"classname" "light"
-"origin" "-40 -920 72"
-"team_master" "a"
-"team" "sky"
-"color" "1 0.75 0.5"
-"intensity" "0.75"
-"radius" "2000"
-}
-// entity 241
-{
-"classname" "light"
-"origin" "-40 -968 72"
-"team_master" "a"
-"team" "lg_white"
-"color" "1 0.9 0.6"
-"intensity" "1.25"
-"radius" "525"
-}
-// entity 242
-{
-"classname" "light"
-"origin" "-40 -984 72"
-"team_master" "a"
-"team" "red_rune"
-"color" "1 0 0"
-"intensity" "1.5"
-"radius" "150"
-}
-// entity 243
-{
-"classname" "light"
-"origin" "-40 -936 72"
-"team_master" "a"
-"team" "sm_white"
-"color" "1 0.9 0.7"
-"intensity" "2.15"
-"radius" "300"
-}
-// entity 244
-{
-"classname" "light"
-"origin" "-40 -1000 72"
-"style" "qqzqzz"
-"color" "1 0.5 0"
-"radius" "350"
-"intensity" "2"
-"team" "skinFlame"
-"team_master" "a"
-}
-// entity 245
-{
-"classname" "light"
-"origin" "40 -920 72"
-"color" "1 0.25 0"
-"radius" "250"
-"intensity" "2.5"
-"team" "lava"
-"team_master" "a"
-}
-// entity 246
+// entity 231
 {
 "classname" "func_wall"
 // brush 0
@@ -23265,7 +22304,7 @@
 ( 176 208 640 ) ( 176 176 512 ) ( 176 176 640 ) common/nodraw 64 0 0 0.5 0.5
 }
 }
-// entity 247
+// entity 232
 {
 "classname" "func_wall"
 // brush 0
@@ -23277,7 +22316,7 @@
 ( 144 176 640 ) ( 176 208 640 ) ( 176 208 512 ) common/quake3/sfx/r_flame1 -64 0 0 0.5 0.5
 }
 }
-// entity 248
+// entity 233
 {
 "classname" "func_wall"
 // brush 0
@@ -23289,7 +22328,7 @@
 ( -176 176 640 ) ( -144 208 640 ) ( -144 208 512 ) common/quake3/sfx/r_flame1 -64 0 0 0.5 0.5
 }
 }
-// entity 249
+// entity 234
 {
 "classname" "func_wall"
 // brush 0
@@ -23301,7 +22340,7 @@
 ( -144 208 640 ) ( -144 176 512 ) ( -144 176 640 ) common/nodraw 64 0 0 0.5 0.5
 }
 }
-// entity 250
+// entity 235
 {
 "classname" "func_wall"
 // brush 0
@@ -23313,7 +22352,7 @@
 ( -176 -176 640 ) ( -144 -208 512 ) ( -144 -208 640 ) common/quake3/sfx/r_flame1 -64 0 0 0.5 0.5
 }
 }
-// entity 251
+// entity 236
 {
 "classname" "func_wall"
 // brush 0
@@ -23325,7 +22364,7 @@
 ( -144 -208 640 ) ( -144 -176 640 ) ( -144 -176 512 ) common/nodraw 64 0 0 0.5 0.5
 }
 }
-// entity 252
+// entity 237
 {
 "classname" "func_wall"
 // brush 0
@@ -23337,7 +22376,7 @@
 ( 176 -208 640 ) ( 176 -176 640 ) ( 176 -176 512 ) common/nodraw 64 0 0 0.5 0.5
 }
 }
-// entity 253
+// entity 238
 {
 "classname" "func_wall"
 // brush 0
@@ -23349,7 +22388,7 @@
 ( 144 -176 640 ) ( 176 -208 512 ) ( 176 -208 640 ) common/quake3/sfx/r_flame1 -64 0 0 0.5 0.5
 }
 }
-// entity 254
+// entity 239
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -23585,7 +22624,7 @@
 ( 652 8 552 ) ( 652 8 536 ) ( 672 0 544 ) common/quake/cop1_1 0 0 180 0.125 -0.125
 }
 }
-// entity 255
+// entity 240
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -23820,12 +22859,12 @@
 ( -608 0 544 ) ( -628 8 552 ) ( -628 8 536 ) common/quake/cop1_1 0 0 0 0.125 0.125
 }
 }
-// entity 256
+// entity 241
 {
 "classname" "ammo_bolts"
 "origin" "-352 1264 48"
 }
-// entity 257
+// entity 242
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24212,7 +23251,7 @@
 ( -1312 118 -66 ) ( -1312 106 -78 ) ( -1312 106 -66 ) common/quake/cop1_1 0 0 0 0.125 0.125 0 0 0
 }
 }
-// entity 258
+// entity 243
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24221,7 +23260,7 @@
 "_tb_linked_group_id" "{0862a533-c59b-4ede-990e-c3f1c4f97f82}"
 "_tb_transformation" "1 0 0 784 0 1 0 384 0 0 1 224 0 0 0 1"
 }
-// entity 259
+// entity 244
 {
 "classname" "func_train"
 "targetname" "tele1_train"
@@ -24276,7 +23315,7 @@
 ( -1476 32 -32 ) ( -1476 32 -31 ) ( -1476 33 -32 ) common/quake/#teleport 0 0 0 0.25 0.25 0 0 0
 }
 }
-// entity 260
+// entity 245
 {
 "classname" "path_corner"
 "origin" "-1488 -48 -64"
@@ -24284,7 +23323,7 @@
 "targetname" "tele1_pc1"
 "_tb_group" "3790"
 }
-// entity 261
+// entity 246
 {
 "classname" "path_corner"
 "origin" "-1488 -48 -80"
@@ -24292,7 +23331,7 @@
 "targetname" "tele1_pc2"
 "_tb_group" "3790"
 }
-// entity 262
+// entity 247
 {
 "classname" "trigger_teleporter"
 "target" "tele1dest"
@@ -24307,7 +23346,7 @@
 ( -1464 32 -32 ) ( -1464 32 -31 ) ( -1464 33 -32 ) common/trigger 0 0 0 0.25 0.25
 }
 }
-// entity 263
+// entity 248
 {
 "classname" "target_speaker"
 "origin" "-1472 0 16"
@@ -24315,7 +23354,7 @@
 "volume" "1"
 "_tb_group" "3790"
 }
-// entity 264
+// entity 249
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24359,7 +23398,7 @@
 ( -944 -336 224 ) ( -944 -336 225 ) ( -944 -335 224 ) common/quake/metal4_4 0 0 0 0.125 0.125
 }
 }
-// entity 265
+// entity 250
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24422,7 +23461,7 @@
 ( -1664 640 128 ) ( -1664 896 128 ) ( -1664 896 96 ) common/quake/tech04_9 0 0 0 0.125 0.125 0 0 0
 }
 }
-// entity 266
+// entity 251
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24485,7 +23524,7 @@
 ( -1696 384 144 ) ( -1696 640 144 ) ( -1696 640 112 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 }
 }
-// entity 267
+// entity 252
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24602,7 +23641,7 @@
 ( -1832 560 432 ) ( -1832 560 433 ) ( -1832 561 432 ) common/quake/cop1_2 0 0 0 0.125 0.125 0 0 0
 }
 }
-// entity 268
+// entity 253
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24710,7 +23749,7 @@
 ( -1568 736 384 ) ( -1568 752 384 ) ( -1568 752 240 ) common/quake/cop1_1 0 0 0 0.125 0.125 0 0 0
 }
 }
-// entity 269
+// entity 254
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24845,22 +23884,7 @@
 ( -1904 568 288 ) ( -1904 584 272 ) ( -1904 544 272 ) common/quake/cop1_1 0 0 0 0.125 0.125 0 0 0
 }
 }
-// entity 270
-{
-"classname" "light"
-"origin" "-1952 576 256"
-"color" "1 0.2500038 0"
-"intensity" "1.5"
-}
-// entity 271
-{
-"classname" "light"
-"origin" "-1792 576 430"
-"color" "1 0.9000076 0.7000076"
-"intensity" "2"
-"radius" "350"
-}
-// entity 272
+// entity 255
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -24939,25 +23963,12 @@
 ( -1888 688 576 ) ( -1888 688 577 ) ( -1888 689 576 ) common/quake/cop1_1 0 0 0 0.125 0.125 0 0 0
 }
 }
-// entity 273
-{
-"classname" "light"
-"origin" "-1824 576 664"
-"intensity" "0.85"
-"team" "sky"
-}
-// entity 274
+// entity 256
 {
 "classname" "item_armor_jacket"
 "origin" "-1808 576 176"
 }
-// entity 275
-{
-"classname" "light"
-"origin" "-1552 704 288"
-"team" "skinFlame"
-}
-// entity 276
+// entity 257
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -25020,13 +24031,7 @@
 ( -1280 768 32 ) ( -1280 768 0 ) ( -1280 512 0 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 }
 }
-// entity 277
-{
-"classname" "light"
-"origin" "-1344 352 118"
-"team" "sm_white"
-}
-// entity 278
+// entity 258
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -25071,7 +24076,7 @@
 ( -944 432 224 ) ( -944 432 225 ) ( -944 433 224 ) common/quake/metal4_4 0 0 0 0.125 0.125
 }
 }
-// entity 279
+// entity 259
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -25116,7 +24121,7 @@
 ( -1392 400 -64 ) ( -1392 401 -64 ) ( -1392 400 -65 ) common/quake/metal4_4 0 0 0 0.125 0.125
 }
 }
-// entity 280
+// entity 260
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -25161,43 +24166,37 @@
 ( -1280 304 -48 ) ( -1280 305 -48 ) ( -1280 304 -49 ) common/caulk 0 0 0 0.25 0.25
 }
 }
-// entity 281
+// entity 261
 {
 "classname" "item_armor_shard"
 "origin" "-928 0 -26"
 }
-// entity 282
+// entity 262
 {
 "classname" "item_armor_shard"
 "origin" "-992 0 -26"
 }
-// entity 283
+// entity 263
 {
 "classname" "item_armor_shard"
 "origin" "-1024 0 -26"
 }
-// entity 284
+// entity 264
 {
 "classname" "item_armor_shard"
 "origin" "-1056 0 -26"
 }
-// entity 285
+// entity 265
 {
 "classname" "item_armor_shard"
 "origin" "-1088 0 -26"
 }
-// entity 286
+// entity 266
 {
 "classname" "item_armor_shard"
 "origin" "-960 0 -26"
 }
-// entity 287
-{
-"classname" "light"
-"origin" "-1344 -288 -120"
-"team" "lava"
-}
-// entity 288
+// entity 267
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -25295,52 +24294,22 @@
 ( -1336 -464 -72 ) ( -1336 -464 -71 ) ( -1336 -463 -72 ) common/quake/cop1_2 0 0 0 0.25 0.25
 }
 }
-// entity 289
-{
-"classname" "light"
-"origin" "-1344 0 -152"
-"team" "lava"
-}
-// entity 290
-{
-"classname" "light"
-"origin" "-1344 -480 -120"
-"team" "lava"
-}
-// entity 291
+// entity 268
 {
 "classname" "item_health_large"
 "origin" "-1344 -576 -48"
 }
-// entity 292
-{
-"classname" "light"
-"origin" "-1344 -544 404"
-"team" "med_white"
-}
-// entity 293
+// entity 269
 {
 "classname" "ammo_bolts"
 "origin" "704 624 272"
 }
-// entity 294
+// entity 270
 {
 "classname" "ammo_rockets"
 "origin" "640 624 272"
 }
-// entity 295
-{
-"classname" "light"
-"origin" "-480 1216 -56"
-"team" "lava"
-}
-// entity 296
-{
-"classname" "light"
-"origin" "-288 1216 -56"
-"team" "lava"
-}
-// entity 297
+// entity 271
 {
 "classname" "func_group"
 // brush 0
@@ -25371,13 +24340,7 @@
 ( -1104 896 288 ) ( -1104 926 288 ) ( -1104 910 192 ) common/caulk 0 0 0 0.25 0.25
 }
 }
-// entity 298
-{
-"classname" "light"
-"origin" "-1088 1184 308"
-"team" "med_white"
-}
-// entity 299
+// entity 272
 {
 "classname" "func_group"
 // brush 0
@@ -25588,7 +24551,281 @@
 ( -1464 40 -520 ) ( -1464 40 -519 ) ( -1464 41 -520 ) common/quake/cop1_2 0 0 0 0.125 0.125
 }
 }
-// entity 300
+// entity 273
+{
+"classname" "func_wall"
+// brush 0
+{
+( 1456 144 448 ) ( 1456 128 448 ) ( 1456 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1456 128 448 ) ( 1472 128 448 ) ( 1472 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1456 144 448 ) ( 1472 144 448 ) ( 1472 128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 128 416 ) ( 1472 144 424 ) ( 1456 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 144 424 ) ( 1472 144 448 ) ( 1456 144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 128 448 ) ( 1472 144 448 ) ( 1472 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 1
+{
+( 1408 144 448 ) ( 1408 128 448 ) ( 1408 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1408 128 448 ) ( 1424 128 448 ) ( 1424 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1408 144 448 ) ( 1424 144 448 ) ( 1424 128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 128 416 ) ( 1424 144 424 ) ( 1408 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 144 424 ) ( 1424 144 448 ) ( 1408 144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 128 448 ) ( 1424 144 448 ) ( 1424 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 2
+{
+( 1408 176 248 ) ( 1408 144 424 ) ( 1408 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 128 416 ) ( 1424 160 232 ) ( 1408 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 128 416 ) ( 1408 128 416 ) ( 1408 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 160 232 ) ( 1424 176 248 ) ( 1408 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1408 176 248 ) ( 1424 176 248 ) ( 1424 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 144 424 ) ( 1424 176 248 ) ( 1424 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 3
+{
+( 1456 192 248 ) ( 1456 176 248 ) ( 1456 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 160 232 ) ( 1456 160 232 ) ( 1456 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 160 232 ) ( 1472 192 232 ) ( 1456 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1456 192 248 ) ( 1472 192 248 ) ( 1472 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 192 232 ) ( 1472 192 248 ) ( 1456 192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 176 248 ) ( 1472 192 248 ) ( 1472 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 4
+{
+( 1456 176 248 ) ( 1456 144 424 ) ( 1456 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 128 416 ) ( 1472 160 232 ) ( 1456 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 128 416 ) ( 1456 128 416 ) ( 1456 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 160 232 ) ( 1472 176 248 ) ( 1456 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1456 176 248 ) ( 1472 176 248 ) ( 1472 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 144 424 ) ( 1472 176 248 ) ( 1472 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 5
+{
+( 1504 144 448 ) ( 1504 128 448 ) ( 1504 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1504 128 448 ) ( 1520 128 448 ) ( 1520 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 128 416 ) ( 1520 144 416 ) ( 1504 144 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1504 144 448 ) ( 1520 144 448 ) ( 1520 128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 144 416 ) ( 1520 144 448 ) ( 1504 144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 128 448 ) ( 1520 144 448 ) ( 1520 144 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 6
+{
+( 1408 192 248 ) ( 1408 176 248 ) ( 1408 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 160 232 ) ( 1408 160 232 ) ( 1408 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 160 232 ) ( 1424 192 232 ) ( 1408 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1408 192 248 ) ( 1424 192 248 ) ( 1424 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 192 232 ) ( 1424 192 248 ) ( 1408 192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 176 248 ) ( 1424 192 248 ) ( 1424 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 7
+{
+( 1504 192 248 ) ( 1504 176 248 ) ( 1504 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 160 232 ) ( 1504 160 232 ) ( 1504 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 160 232 ) ( 1520 192 232 ) ( 1504 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1504 192 248 ) ( 1520 192 248 ) ( 1520 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 192 232 ) ( 1520 192 248 ) ( 1504 192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 176 248 ) ( 1520 192 248 ) ( 1520 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 8
+{
+( 1504 176 248 ) ( 1504 144 424 ) ( 1504 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 128 416 ) ( 1520 160 232 ) ( 1504 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 128 416 ) ( 1504 128 416 ) ( 1504 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 160 232 ) ( 1520 176 248 ) ( 1504 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1504 176 248 ) ( 1520 176 248 ) ( 1520 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 144 424 ) ( 1520 176 248 ) ( 1520 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 9
+{
+( 1360 144 448 ) ( 1360 128 448 ) ( 1360 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1360 128 448 ) ( 1376 128 448 ) ( 1376 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1360 144 448 ) ( 1376 144 448 ) ( 1376 128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 128 416 ) ( 1376 144 424 ) ( 1360 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 144 424 ) ( 1376 144 448 ) ( 1360 144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 128 448 ) ( 1376 144 448 ) ( 1376 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 10
+{
+( 1360 176 248 ) ( 1360 144 424 ) ( 1360 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 128 416 ) ( 1376 160 232 ) ( 1360 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 128 416 ) ( 1360 128 416 ) ( 1360 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 160 232 ) ( 1376 176 248 ) ( 1360 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1360 176 248 ) ( 1376 176 248 ) ( 1376 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 144 424 ) ( 1376 176 248 ) ( 1376 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 11
+{
+( 1360 192 248 ) ( 1360 176 248 ) ( 1360 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 160 232 ) ( 1360 160 232 ) ( 1360 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 160 232 ) ( 1376 192 232 ) ( 1360 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1360 192 248 ) ( 1376 192 248 ) ( 1376 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 192 232 ) ( 1376 192 248 ) ( 1360 192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 176 248 ) ( 1376 192 248 ) ( 1376 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 12
+{
+( 1312 144 448 ) ( 1312 128 448 ) ( 1312 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1312 128 448 ) ( 1328 128 448 ) ( 1328 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1312 144 448 ) ( 1328 144 448 ) ( 1328 128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 128 416 ) ( 1328 144 424 ) ( 1312 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 144 424 ) ( 1328 144 448 ) ( 1312 144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 128 448 ) ( 1328 144 448 ) ( 1328 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 13
+{
+( 1312 176 248 ) ( 1312 144 424 ) ( 1312 128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 128 416 ) ( 1328 160 232 ) ( 1312 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 128 416 ) ( 1312 128 416 ) ( 1312 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 160 232 ) ( 1328 176 248 ) ( 1312 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1312 176 248 ) ( 1328 176 248 ) ( 1328 144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 144 424 ) ( 1328 176 248 ) ( 1328 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 14
+{
+( 1312 192 248 ) ( 1312 176 248 ) ( 1312 160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 160 232 ) ( 1312 160 232 ) ( 1312 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 160 232 ) ( 1328 192 232 ) ( 1312 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1312 192 248 ) ( 1328 192 248 ) ( 1328 176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 192 232 ) ( 1328 192 248 ) ( 1312 192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 176 248 ) ( 1328 192 248 ) ( 1328 192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 15
+{
+( 1456 -144 424 ) ( 1456 -176 248 ) ( 1456 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 -176 248 ) ( 1456 -176 248 ) ( 1456 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 -176 248 ) ( 1472 -160 232 ) ( 1456 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1456 -128 416 ) ( 1472 -128 416 ) ( 1472 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 -160 232 ) ( 1472 -128 416 ) ( 1456 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 -144 424 ) ( 1472 -128 416 ) ( 1472 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 16
+{
+( 1456 -128 448 ) ( 1456 -144 448 ) ( 1456 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1456 -144 448 ) ( 1472 -144 448 ) ( 1472 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 -144 424 ) ( 1472 -128 416 ) ( 1456 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1456 -128 448 ) ( 1472 -128 448 ) ( 1472 -144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 -128 416 ) ( 1472 -128 448 ) ( 1456 -128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 -144 448 ) ( 1472 -128 448 ) ( 1472 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 17
+{
+( 1408 -128 448 ) ( 1408 -144 448 ) ( 1408 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1408 -144 448 ) ( 1424 -144 448 ) ( 1424 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 -144 424 ) ( 1424 -128 416 ) ( 1408 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1408 -128 448 ) ( 1424 -128 448 ) ( 1424 -144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 -128 416 ) ( 1424 -128 448 ) ( 1408 -128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 -144 448 ) ( 1424 -128 448 ) ( 1424 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 18
+{
+( 1408 -144 424 ) ( 1408 -176 248 ) ( 1408 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 -176 248 ) ( 1408 -176 248 ) ( 1408 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 -176 248 ) ( 1424 -160 232 ) ( 1408 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1408 -128 416 ) ( 1424 -128 416 ) ( 1424 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 -160 232 ) ( 1424 -128 416 ) ( 1408 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 -144 424 ) ( 1424 -128 416 ) ( 1424 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 19
+{
+( 1456 -160 232 ) ( 1456 -176 248 ) ( 1456 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1456 -192 248 ) ( 1472 -192 248 ) ( 1472 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 -192 232 ) ( 1472 -160 232 ) ( 1456 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1456 -176 248 ) ( 1472 -176 248 ) ( 1472 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1456 -160 232 ) ( 1472 -160 232 ) ( 1472 -176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1472 -176 248 ) ( 1472 -160 232 ) ( 1472 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 20
+{
+( 1504 -128 448 ) ( 1504 -144 448 ) ( 1504 -144 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1504 -144 448 ) ( 1520 -144 448 ) ( 1520 -144 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 -144 416 ) ( 1520 -128 416 ) ( 1504 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1504 -128 448 ) ( 1520 -128 448 ) ( 1520 -144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 -128 416 ) ( 1520 -128 448 ) ( 1504 -128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 -144 448 ) ( 1520 -128 448 ) ( 1520 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 21
+{
+( 1408 -160 232 ) ( 1408 -176 248 ) ( 1408 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1408 -192 248 ) ( 1424 -192 248 ) ( 1424 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 -192 232 ) ( 1424 -160 232 ) ( 1408 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1408 -176 248 ) ( 1424 -176 248 ) ( 1424 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1408 -160 232 ) ( 1424 -160 232 ) ( 1424 -176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1424 -176 248 ) ( 1424 -160 232 ) ( 1424 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 22
+{
+( 1504 -160 232 ) ( 1504 -176 248 ) ( 1504 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1504 -192 248 ) ( 1520 -192 248 ) ( 1520 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 -192 232 ) ( 1520 -160 232 ) ( 1504 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1504 -176 248 ) ( 1520 -176 248 ) ( 1520 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1504 -160 232 ) ( 1520 -160 232 ) ( 1520 -176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 -176 248 ) ( 1520 -160 232 ) ( 1520 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 23
+{
+( 1504 -144 424 ) ( 1504 -176 248 ) ( 1504 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 -176 248 ) ( 1504 -176 248 ) ( 1504 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 -176 248 ) ( 1520 -160 232 ) ( 1504 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1504 -128 416 ) ( 1520 -128 416 ) ( 1520 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 -160 232 ) ( 1520 -128 416 ) ( 1504 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1520 -144 424 ) ( 1520 -128 416 ) ( 1520 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 24
+{
+( 1360 -128 448 ) ( 1360 -144 448 ) ( 1360 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1360 -144 448 ) ( 1376 -144 448 ) ( 1376 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 -144 424 ) ( 1376 -128 416 ) ( 1360 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1360 -128 448 ) ( 1376 -128 448 ) ( 1376 -144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 -128 416 ) ( 1376 -128 448 ) ( 1360 -128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 -144 448 ) ( 1376 -128 448 ) ( 1376 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 25
+{
+( 1360 -144 424 ) ( 1360 -176 248 ) ( 1360 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 -176 248 ) ( 1360 -176 248 ) ( 1360 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 -176 248 ) ( 1376 -160 232 ) ( 1360 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1360 -128 416 ) ( 1376 -128 416 ) ( 1376 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 -160 232 ) ( 1376 -128 416 ) ( 1360 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 -144 424 ) ( 1376 -128 416 ) ( 1376 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 26
+{
+( 1360 -160 232 ) ( 1360 -176 248 ) ( 1360 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1360 -192 248 ) ( 1376 -192 248 ) ( 1376 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 -192 232 ) ( 1376 -160 232 ) ( 1360 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1360 -176 248 ) ( 1376 -176 248 ) ( 1376 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1360 -160 232 ) ( 1376 -160 232 ) ( 1376 -176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1376 -176 248 ) ( 1376 -160 232 ) ( 1376 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 27
+{
+( 1312 -128 448 ) ( 1312 -144 448 ) ( 1312 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1312 -144 448 ) ( 1328 -144 448 ) ( 1328 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 -144 424 ) ( 1328 -128 416 ) ( 1312 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1312 -128 448 ) ( 1328 -128 448 ) ( 1328 -144 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 -128 416 ) ( 1328 -128 448 ) ( 1312 -128 448 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 -144 448 ) ( 1328 -128 448 ) ( 1328 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 28
+{
+( 1312 -144 424 ) ( 1312 -176 248 ) ( 1312 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 -176 248 ) ( 1312 -176 248 ) ( 1312 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 -176 248 ) ( 1328 -160 232 ) ( 1312 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1312 -128 416 ) ( 1328 -128 416 ) ( 1328 -144 424 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 -160 232 ) ( 1328 -128 416 ) ( 1312 -128 416 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 -144 424 ) ( 1328 -128 416 ) ( 1328 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+// brush 29
+{
+( 1312 -160 232 ) ( 1312 -176 248 ) ( 1312 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1312 -192 248 ) ( 1328 -192 248 ) ( 1328 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 -192 232 ) ( 1328 -160 232 ) ( 1312 -160 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1312 -176 248 ) ( 1328 -176 248 ) ( 1328 -192 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1312 -160 232 ) ( 1328 -160 232 ) ( 1328 -176 248 ) common/quake/cop1_1 0 0 0 0.125 0.125
+( 1328 -176 248 ) ( 1328 -160 232 ) ( 1328 -192 232 ) common/quake/cop1_1 0 0 0 0.125 0.125
+}
+}
+// entity 274
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -26297,7 +25534,7 @@
 ( -1216 -512 -48 ) ( -1216 -512 -47 ) ( -1216 -511 -48 ) common/clip 0 0 0 0.25 0.25
 }
 }
-// entity 301
+// entity 275
 {
 "classname" "light"
 "origin" "40 -1000 72"
@@ -26309,7 +25546,7 @@
 "radius" "350"
 "_tb_layer" "4309"
 }
-// entity 302
+// entity 276
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -26435,92 +25672,217 @@
 ( -704 832 576 ) ( -704 1408 576 ) ( -704 832 320 ) common/sky 0 0 0 0.25 0.25
 }
 }
-// entity 303
+// entity 277
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "Light Ents"
 "_tb_id" "4311"
-"_tb_layer_sort_index" "4"
+"_tb_layer_sort_index" "5"
 }
-// entity 304
+// entity 278
+{
+"classname" "light"
+"origin" "0 416 720"
+"color" "0.95686275 0.6509804 0.27450982"
+"intensity" "0.75"
+"_tb_layer" "4311"
+}
+// entity 279
+{
+"classname" "light"
+"origin" "0 -416 720"
+"color" "0.95686275 0.6509804 0.27450982"
+"intensity" "0.75"
+"_tb_layer" "4311"
+}
+// entity 280
+{
+"classname" "light"
+"origin" "1152 452 304"
+"team" "med_white"
+"_tb_layer" "4311"
+}
+// entity 281
+{
+"classname" "light"
+"origin" "1152 -452 304"
+"team" "med_white"
+"_tb_layer" "4311"
+}
+// entity 282
+{
+"classname" "light"
+"origin" "-1460 992 80"
+"team" "med_white"
+"_tb_layer" "4311"
+}
+// entity 283
+{
+"classname" "light"
+"origin" "-1952 576 256"
+"color" "1 0.2500038 0"
+"intensity" "1.5"
+"_tb_layer" "4311"
+}
+// entity 284
+{
+"classname" "light"
+"origin" "-1792 576 430"
+"color" "1 0.9000076 0.7000076"
+"intensity" "2"
+"radius" "350"
+"_tb_layer" "4311"
+}
+// entity 285
+{
+"classname" "light"
+"origin" "-1824 576 664"
+"intensity" "0.85"
+"team" "sky"
+"_tb_layer" "4311"
+}
+// entity 286
+{
+"classname" "light"
+"origin" "-1552 704 288"
+"team" "skinFlame"
+"_tb_layer" "4311"
+}
+// entity 287
+{
+"classname" "light"
+"origin" "-1344 352 118"
+"team" "sm_white"
+"_tb_layer" "4311"
+}
+// entity 288
+{
+"classname" "light"
+"origin" "-1344 -288 -120"
+"team" "lava"
+"_tb_layer" "4311"
+}
+// entity 289
+{
+"classname" "light"
+"origin" "-1344 0 -152"
+"team" "lava"
+"_tb_layer" "4311"
+}
+// entity 290
+{
+"classname" "light"
+"origin" "-1344 -480 -120"
+"team" "lava"
+"_tb_layer" "4311"
+}
+// entity 291
+{
+"classname" "light"
+"origin" "-1344 -544 404"
+"team" "med_white"
+"_tb_layer" "4311"
+}
+// entity 292
+{
+"classname" "light"
+"origin" "-480 1216 -56"
+"team" "lava"
+"_tb_layer" "4311"
+}
+// entity 293
+{
+"classname" "light"
+"origin" "-288 1216 -56"
+"team" "lava"
+"_tb_layer" "4311"
+}
+// entity 294
+{
+"classname" "light"
+"origin" "-1088 1184 308"
+"team" "med_white"
+"_tb_layer" "4311"
+}
+// entity 295
 {
 "classname" "light"
 "origin" "0 -480 180"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 305
+// entity 296
 {
 "classname" "light"
 "origin" "0 480 180"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 306
+// entity 297
 {
 "classname" "light"
 "origin" "416 584 400"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 307
+// entity 298
 {
 "classname" "light"
 "origin" "-416 584 400"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 308
+// entity 299
 {
 "classname" "light"
 "origin" "-416 -584 400"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 309
+// entity 300
 {
 "classname" "light"
 "origin" "416 -584 400"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 310
+// entity 301
 {
 "classname" "light"
 "origin" "-720 0 32"
 "team" "skinFlame"
 "_tb_layer" "4311"
 }
-// entity 311
+// entity 302
 {
 "classname" "light"
 "origin" "-816 -528 212"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 312
+// entity 303
 {
 "classname" "light"
 "origin" "-816 528 212"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 313
+// entity 304
 {
 "classname" "light"
 "origin" "-864 0 180"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 314
+// entity 305
 {
 "classname" "light"
 "origin" "864 0 212"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 315
+// entity 306
 {
 "classname" "light"
 "origin" "800 -544 212"
@@ -26528,7 +25890,7 @@
 "radius" "450"
 "_tb_layer" "4311"
 }
-// entity 316
+// entity 307
 {
 "classname" "light"
 "origin" "1344 0 432"
@@ -26536,7 +25898,7 @@
 "team" "lg_white"
 "_tb_layer" "4311"
 }
-// entity 317
+// entity 308
 {
 "classname" "light"
 "origin" "16 912 42"
@@ -26546,14 +25908,14 @@
 "team" "sm_orange"
 "_tb_layer" "4311"
 }
-// entity 318
+// entity 309
 {
 "classname" "light"
 "origin" "448 0 896"
 "team" "sky"
 "_tb_layer" "4311"
 }
-// entity 319
+// entity 310
 {
 "classname" "light"
 "origin" "-1344 0 824"
@@ -26561,21 +25923,21 @@
 "team" "sky"
 "_tb_layer" "4311"
 }
-// entity 320
+// entity 311
 {
 "classname" "light"
 "origin" "-988 -160 464"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 321
+// entity 312
 {
 "classname" "light"
 "origin" "-988 160 464"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 322
+// entity 313
 {
 "classname" "light"
 "origin" "-544 -144 -336"
@@ -26585,7 +25947,7 @@
 "team" "sm_yellow"
 "_tb_layer" "4311"
 }
-// entity 323
+// entity 314
 {
 "classname" "light"
 "origin" "-544 144 -336"
@@ -26595,42 +25957,42 @@
 "team" "sm_yellow"
 "_tb_layer" "4311"
 }
-// entity 324
+// entity 315
 {
 "classname" "light"
 "origin" "-704 80 -304"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 325
+// entity 316
 {
 "classname" "light"
 "origin" "-384 80 -304"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 326
+// entity 317
 {
 "classname" "light"
 "origin" "-384 -80 -304"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 327
+// entity 318
 {
 "classname" "light"
 "origin" "-704 -80 -304"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 328
+// entity 319
 {
 "classname" "light"
 "origin" "800 544 212"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 329
+// entity 320
 {
 "classname" "light"
 "origin" "0 0 -96"
@@ -26641,7 +26003,7 @@
 "intensity" "1.25"
 "_tb_layer" "4311"
 }
-// entity 330
+// entity 321
 {
 "classname" "light"
 "origin" "1052 56 352"
@@ -26651,7 +26013,7 @@
 "team" "sm_blue"
 "_tb_layer" "4311"
 }
-// entity 331
+// entity 322
 {
 "classname" "light"
 "origin" "1052 -56 352"
@@ -26661,70 +26023,70 @@
 "team" "sm_blue"
 "_tb_layer" "4311"
 }
-// entity 332
+// entity 323
 {
 "classname" "light"
 "origin" "0 496 496"
 "team" "lg_white"
 "_tb_layer" "4311"
 }
-// entity 333
+// entity 324
 {
 "classname" "light"
 "origin" "-1144 80 112"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 334
+// entity 325
 {
 "classname" "light"
 "origin" "-1144 -80 112"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 335
+// entity 326
 {
 "classname" "light"
 "origin" "-864 -192 144"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 336
+// entity 327
 {
 "classname" "light"
 "origin" "-864 192 144"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 337
+// entity 328
 {
 "classname" "light"
 "origin" "-1564 0 672"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 338
+// entity 329
 {
 "classname" "light"
 "origin" "-1124 0 688"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 339
+// entity 330
 {
 "classname" "light"
 "origin" "-1472 -128 374"
 "team" "sm_white"
 "_tb_layer" "4311"
 }
-// entity 340
+// entity 331
 {
 "classname" "light"
 "origin" "-1472 128 374"
 "team" "sm_white"
 "_tb_layer" "4311"
 }
-// entity 341
+// entity 332
 {
 "classname" "light"
 "origin" "-896 1304 48"
@@ -26733,49 +26095,49 @@
 "intensity" "3"
 "_tb_layer" "4311"
 }
-// entity 342
+// entity 333
 {
 "classname" "light"
 "origin" "-1320 1192 160"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 343
+// entity 334
 {
 "classname" "light"
 "origin" "640 416 436"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 344
+// entity 335
 {
 "classname" "light"
 "origin" "640 -416 436"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 345
+// entity 336
 {
 "classname" "light"
 "origin" "-640 -416 436"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 346
+// entity 337
 {
 "classname" "light"
 "origin" "-640 416 436"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 347
+// entity 338
 {
 "classname" "light"
 "origin" "-1344 704 164"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 348
+// entity 339
 {
 "classname" "light"
 "origin" "-576 1216 360"
@@ -26784,21 +26146,21 @@
 "intensity" "0.66"
 "_tb_layer" "4311"
 }
-// entity 349
+// entity 340
 {
 "classname" "light"
 "origin" "-384 1216 360"
 "intensity" "0.5"
 "_tb_layer" "4311"
 }
-// entity 350
+// entity 341
 {
 "classname" "light"
 "origin" "-192 1216 360"
 "intensity" "0.66"
 "_tb_layer" "4311"
 }
-// entity 351
+// entity 342
 {
 "classname" "light"
 "origin" "-576 1334 48"
@@ -26807,7 +26169,7 @@
 "radius" "125"
 "_tb_layer" "4311"
 }
-// entity 352
+// entity 343
 {
 "classname" "light"
 "origin" "-192 1334 48"
@@ -26816,7 +26178,7 @@
 "radius" "125"
 "_tb_layer" "4311"
 }
-// entity 353
+// entity 344
 {
 "classname" "light"
 "origin" "-576 1098 48"
@@ -26825,7 +26187,7 @@
 "radius" "125"
 "_tb_layer" "4311"
 }
-// entity 354
+// entity 345
 {
 "classname" "light"
 "origin" "-192 1098 48"
@@ -26834,14 +26196,14 @@
 "radius" "125"
 "_tb_layer" "4311"
 }
-// entity 355
+// entity 346
 {
 "classname" "light"
 "origin" "-384 896 230"
 "team" "sm_white"
 "_tb_layer" "4311"
 }
-// entity 356
+// entity 347
 {
 "classname" "light"
 "origin" "1526 224 48"
@@ -26849,7 +26211,7 @@
 "team" "sm_white"
 "_tb_layer" "4311"
 }
-// entity 357
+// entity 348
 {
 "classname" "light"
 "origin" "1290 224 48"
@@ -26857,7 +26219,7 @@
 "team" "sm_white"
 "_tb_layer" "4311"
 }
-// entity 358
+// entity 349
 {
 "classname" "light"
 "origin" "1526 -224 48"
@@ -26865,7 +26227,7 @@
 "team" "sm_white"
 "_tb_layer" "4311"
 }
-// entity 359
+// entity 350
 {
 "classname" "light"
 "origin" "1290 -224 48"
@@ -26873,28 +26235,28 @@
 "team" "sm_white"
 "_tb_layer" "4311"
 }
-// entity 360
+// entity 351
 {
 "classname" "light"
 "origin" "-928 1184 568"
 "intensity" "0.66"
 "_tb_layer" "4311"
 }
-// entity 361
+// entity 352
 {
 "classname" "light"
 "origin" "-1184 1056 568"
 "intensity" "0.66"
 "_tb_layer" "4311"
 }
-// entity 362
+// entity 353
 {
 "classname" "light"
 "origin" "-896 1472 294"
 "team" "sm_white"
 "_tb_layer" "4311"
 }
-// entity 363
+// entity 354
 {
 "classname" "light"
 "origin" "-1344 -384 632"
@@ -26902,28 +26264,28 @@
 "team" "sky"
 "_tb_layer" "4311"
 }
-// entity 364
+// entity 355
 {
 "classname" "light"
 "origin" "0 248 752"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 365
+// entity 356
 {
 "classname" "light"
 "origin" "0 -248 752"
 "team" "red_rune"
 "_tb_layer" "4311"
 }
-// entity 366
+// entity 357
 {
 "classname" "light"
 "origin" "-448 0 896"
 "team" "sky"
 "_tb_layer" "4311"
 }
-// entity 367
+// entity 358
 {
 "classname" "light"
 "origin" "0 784 368"
@@ -26933,42 +26295,42 @@
 "style" "mmnqnnmqqtqzppmnnt"
 "_tb_layer" "4311"
 }
-// entity 368
+// entity 359
 {
 "classname" "light"
 "origin" "0 -496 496"
 "team" "lg_white"
 "_tb_layer" "4311"
 }
-// entity 369
+// entity 360
 {
 "classname" "light"
 "origin" "-1344 0 146"
 "team" "sm_white"
 "_tb_layer" "4311"
 }
-// entity 370
+// entity 361
 {
 "classname" "light"
 "origin" "-1344 -256 86"
 "team" "sm_white"
 "_tb_layer" "4311"
 }
-// entity 371
+// entity 362
 {
 "classname" "light"
 "origin" "-1344 -544 86"
 "team" "sm_white"
 "_tb_layer" "4311"
 }
-// entity 372
+// entity 363
 {
 "classname" "light"
 "origin" "-1360 432 388"
 "team" "med_white"
 "_tb_layer" "4311"
 }
-// entity 373
+// entity 364
 {
 "classname" "light"
 "origin" "-896 1128 48"
@@ -26977,7 +26339,7 @@
 "intensity" "3"
 "_tb_layer" "4311"
 }
-// entity 374
+// entity 365
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -26986,7 +26348,7 @@
 "_tb_layer_sort_index" "2"
 "_tb_layer_hidden" "1"
 }
-// entity 375
+// entity 366
 {
 "classname" "misc_fog"
 "noise" "0.2"
@@ -27002,7 +26364,7 @@
 ( -1184 96 -144 ) ( -1184 96 -143 ) ( -1184 97 -144 ) common/fog 0 0 0 0.25 0.25
 }
 }
-// entity 376
+// entity 367
 {
 "classname" "misc_fog"
 "noise" "0.2"
@@ -27045,7 +26407,7 @@
 ( 640 416 -32 ) ( 640 -416 -64 ) ( 640 -416 -32 ) common/fog 0 0 0 0.25 0.25
 }
 }
-// entity 377
+// entity 368
 {
 "classname" "misc_fog"
 "noise" "0.2"
@@ -27079,7 +26441,7 @@
 ( 32 640 0 ) ( 32 816 0 ) ( 32 816 -32 ) common/fog 0 0 0 0.25 0.25
 }
 }
-// entity 378
+// entity 369
 {
 "classname" "misc_fog"
 "noise" "0.2"
@@ -27095,7 +26457,7 @@
 ( -960 -32 -720 ) ( -960 -32 -719 ) ( -960 -31 -720 ) common/fog 0 0 0 0.25 0.25
 }
 }
-// entity 379
+// entity 370
 {
 "classname" "misc_fog"
 "noise" "0.2"
@@ -27111,7 +26473,7 @@
 ( -64 1344 -80 ) ( -64 1344 -79 ) ( -64 1345 -80 ) common/fog 0 0 0 0.25 0.25
 }
 }
-// entity 380
+// entity 371
 {
 "classname" "misc_fog"
 "density" "0.5"
@@ -27126,7 +26488,7 @@
 ( -1904 544 176 ) ( -1904 544 177 ) ( -1904 545 176 ) common/fog 0 0 0 0.25 0.25
 }
 }
-// entity 381
+// entity 372
 {
 "classname" "misc_fog"
 "noise" "0.2"
@@ -27160,64 +26522,64 @@
 ( -1296 -16 0 ) ( -1296 -848 -32 ) ( -1296 -848 0 ) common/fog 0 0 0 0.25 0.25
 }
 }
-// entity 382
+// entity 373
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "Player Spawns"
 "_tb_id" "4313"
-"_tb_layer_sort_index" "5"
+"_tb_layer_sort_index" "6"
 }
-// entity 383
+// entity 374
 {
 "classname" "info_player_deathmatch"
 "origin" "-736 -640 60"
 "angle" "90"
 "_tb_layer" "4313"
 }
-// entity 384
+// entity 375
 {
 "classname" "info_player_deathmatch"
 "origin" "736 640 60"
 "angle" "270"
 "_tb_layer" "4313"
 }
-// entity 385
+// entity 376
 {
 "classname" "info_player_deathmatch"
 "origin" "1536 256 296"
 "angle" "180"
 "_tb_layer" "4313"
 }
-// entity 386
+// entity 377
 {
 "classname" "info_player_deathmatch"
 "origin" "1536 -256 296"
 "angle" "180"
 "_tb_layer" "4313"
 }
-// entity 387
+// entity 378
 {
 "classname" "info_player_deathmatch"
 "origin" "-448 832 72"
 "angle" "45"
 "_tb_layer" "4313"
 }
-// entity 388
+// entity 379
 {
 "classname" "info_player_deathmatch"
 "origin" "-1344 -512 252"
 "angle" "90"
 "_tb_layer" "4313"
 }
-// entity 389
+// entity 380
 {
 "classname" "info_player_deathmatch"
 "origin" "-1184 704 60"
 "angle" "180"
 "_tb_layer" "4313"
 }
-// entity 390
+// entity 381
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -27453,4 +26815,90 @@
 ( -1152 -256 -64 ) ( -1151 -256 -64 ) ( -1152 -256 -63 ) common/quake/#lava1 128 -256 0 0.125 0.125 0 0 0
 ( -1280 -576 -80 ) ( -1280 -576 -79 ) ( -1280 -575 -80 ) common/quake/#lava1 0 0 0 0.25 0.25
 }
+}
+// entity 382
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "Light Masters"
+"_tb_id" "4518"
+"_tb_layer_sort_index" "4"
+}
+// entity 383
+{
+"classname" "light"
+"origin" "-40 -920 72"
+"team_master" "a"
+"team" "sky"
+"color" "1 0.75 0.5"
+"intensity" "1"
+"radius" "2000"
+"_tb_layer" "4518"
+}
+// entity 384
+{
+"classname" "light"
+"origin" "-40 -936 72"
+"team_master" "a"
+"team" "sm_white"
+"color" "1 0.9 0.7"
+"intensity" "2.5"
+"radius" "300"
+"_tb_layer" "4518"
+}
+// entity 385
+{
+"classname" "light"
+"origin" "-40 -968 72"
+"team_master" "a"
+"team" "lg_white"
+"color" "1 0.9 0.6"
+"intensity" "1.5"
+"radius" "525"
+"_tb_layer" "4518"
+}
+// entity 386
+{
+"classname" "light"
+"origin" "-40 -952 72"
+"team_master" "a"
+"team" "med_white"
+"color" "1 0.9 0.6"
+"intensity" "2.85"
+"radius" "450"
+"_tb_layer" "4518"
+}
+// entity 387
+{
+"classname" "light"
+"origin" "-40 -984 72"
+"team_master" "a"
+"team" "red_rune"
+"color" "1 0 0"
+"intensity" "1.75"
+"radius" "150"
+"_tb_layer" "4518"
+}
+// entity 388
+{
+"classname" "light"
+"origin" "-40 -1000 72"
+"style" "qqzqzz"
+"color" "1 0.5 0"
+"radius" "350"
+"intensity" "2"
+"team" "skinFlame"
+"team_master" "a"
+"_tb_layer" "4518"
+}
+// entity 389
+{
+"classname" "light"
+"origin" "40 -920 72"
+"color" "1 0.25 0"
+"radius" "250"
+"intensity" "2.5"
+"team" "lava"
+"team_master" "a"
+"_tb_layer" "4518"
 }
