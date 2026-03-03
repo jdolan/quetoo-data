@@ -1,14 +1,49 @@
 {
-	diffusemap common/quake2/baselt_c
+	diffusemap common/caulk
 	roughness 1.00
 	hardness 1.00
 	specularity 1.00
 	parallax 1.00
-	shadow 0.00
+	shadow 1.00
+}
+{
+	diffusemap common/clip
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+}
+{
+	diffusemap common/origin
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+}
+{
+	diffusemap common/quake2/baselt_c
+	roughness 2.20
+	hardness 6.48
+	specularity 1.00
+	parallax 2.80
+	shadow 0.58
 	{
 		texture common/quake2/baselt_cfx
 		blend GL_SRC_ALPHA GL_ONE
 	}
+	{
+		flare flare_2
+	}
+}
+{
+	diffusemap common/quake2/bed4_1
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
 }
 {
 	diffusemap common/quake2/brlava
@@ -29,6 +64,17 @@
 		blend GL_ONE GL_ONE
 		scroll.t 0.020
 		warp 0.12 0.25
+	}
+}
+{
+	diffusemap common/quake2/ceil1_28
+	roughness 1.94
+	hardness 2.53
+	specularity 2.29
+	parallax 2.96
+	shadow 8.00
+	{
+		flare flare_0
 	}
 }
 {
@@ -90,43 +136,75 @@
 }
 {
 	diffusemap common/quake2/flr1_1
-	roughness 1.39
-	hardness 1.22
+	roughness 0.71
+	hardness 1.02
 	specularity 0.82
 	parallax 3.02
-	shadow 3.45
+	shadow 3.19
+}
+{
+	diffusemap common/quake2/fmet1_2
+	roughness 0.82
+	hardness 3.15
+	specularity 1.53
+	parallax 0.99
+	shadow 1.21
+}
+{
+	diffusemap common/quake2/metal16trim
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+}
+{
+	diffusemap common/quake2/metal23_3
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+}
+{
+	diffusemap common/quake2/metal2_1
+	roughness 1.84
+	hardness 2.17
+	specularity 0.76
+	parallax 3.30
+	shadow 6.73
 }
 {
 	diffusemap common/quake2/mine02_1
 	roughness 1.20
 	hardness 2.50
 	specularity 8.00
-	parallax 4.00
-	shadow 6.01
+	parallax 3.51
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/mine02_2
 	roughness 1.22
 	hardness 2.50
 	specularity 2.00
-	parallax 3.96
+	parallax 3.50
 	shadow 5.98
 }
 {
 	diffusemap common/quake2/mine03_1
-	roughness 0.90
-	hardness 0.57
-	specularity 3.18
+	roughness 1.37
+	hardness 2.47
+	specularity 1.99
 	parallax 3.53
-	shadow 1.00
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/mine03_2
 	roughness 1.20
 	hardness 2.50
 	specularity 2.00
-	parallax 1.00
-	shadow 1.00
+	parallax 3.41
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/mine05_1
@@ -134,8 +212,8 @@
 	roughness 1.20
 	hardness 2.50
 	specularity 2.00
-	parallax 1.00
-	shadow 1.00
+	parallax 3.36
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/mine05_2
@@ -143,32 +221,32 @@
 	roughness 1.20
 	hardness 2.50
 	specularity 2.00
-	parallax 1.00
-	shadow 0.00
+	parallax 3.40
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/mine06_3
 	roughness 1.20
-	hardness 0.57
-	specularity 3.18
-	parallax 4.00
-	shadow 0.00
+	hardness 2.46
+	specularity 2.03
+	parallax 3.42
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/mine10_1
 	roughness 1.80
 	hardness 0.98
 	specularity 1.71
-	parallax 4.00
+	parallax 3.44
 	shadow 8.00
 }
 {
 	diffusemap common/quake2/mine10_1heat
-	roughness 1.20
+	roughness 1.21
 	hardness 2.50
 	specularity 2.00
-	parallax 1.00
-	shadow 0.00
+	parallax 3.04
+	shadow 8.00
 	{
 		texture common/quake2/glowedge256
 		blend GL_SRC_ALPHA GL_ONE
@@ -204,16 +282,24 @@
 	roughness 1.20
 	hardness 2.50
 	specularity 2.00
-	parallax 4.00
-	shadow 0.00
+	parallax 3.31
+	shadow 8.00
 }
 {
 	diffusemap common/quake2/mine15_1
 	roughness 2.37
 	hardness 2.50
 	specularity 2.00
-	parallax 4.00
+	parallax 3.43
 	shadow 6.00
+}
+{
+	diffusemap common/quake2/mossyrockies
+	roughness 1.02
+	hardness 0.83
+	specularity 1.00
+	parallax 2.65
+	shadow 2.93
 }
 {
 	diffusemap common/quake2/pilr01_3
@@ -232,6 +318,22 @@
 	shadow 0.00
 }
 {
+	diffusemap common/quake2/rockies
+	roughness 2.63
+	hardness 0.12
+	specularity 1.00
+	parallax 2.98
+	shadow 8.00
+}
+{
+	diffusemap common/quake2/stflr1_3
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+}
+{
 	diffusemap common/quake2/tampon1
 	roughness 1.00
 	hardness 1.00
@@ -248,4 +350,20 @@
 	specularity 2.00
 	parallax 1.00
 	shadow 0.00
+}
+{
+	diffusemap common/sky
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+}
+{
+	diffusemap common/trigger
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
 }
