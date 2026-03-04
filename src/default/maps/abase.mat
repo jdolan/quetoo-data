@@ -881,7 +881,7 @@
 	surface "blend_33"
 }
 {
-	diffusemap sandbox/grid
+	diffusemap common/prototype/grid
 	roughness 1.00
 	hardness 1.00
 	specularity 1.00
@@ -925,4 +925,77 @@
 	specularity 1.25
 	parallax 2.50
 	shadow 1.00
+}
+{
+	diffusemap common/decals/vine06
+	normalmap common/decals/vine06_nm
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 2.00
+	shadow 1.00
+	surface "blend_100 alpha_test"
+	contents "mist detail"
+}
+{
+	diffusemap common/decals/vines512
+	normalmap common/decals/vines512_nm
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 2.00
+	shadow 1.00
+	surface "blend_100 alpha_test"
+	contents "mist detail"
+}
+{
+	diffusemap common/decals/eq2_wires_01
+	surface "blend_100 alpha_test"
+	contents "mist detail"
+}
+{
+	diffusemap common/decals/rust1
+	surface "blend_100 alpha_test"
+	contents "mist detail"
+}
+{
+	diffusemap common/decals/tampon0
+	surface "blend_100 alpha_test material"
+	contents "mist detail"
+	{
+		texture common/decals/tampon0
+		color 1.5 0 0 0.33
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	diffusemap common/decals/tampon1
+	surface "blend_100 alpha_test material"
+	contents "mist detail"
+	{
+		texture common/decals/tampon1
+		color 1.5 0 0 0.33
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	diffusemap common/decals/tampon2
+	surface "blend_100 alpha_test material"
+	contents "mist detail"
+	{
+		texture common/decals/tampon2
+		color 1.5 0 0 0.33
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	diffusemap common/decals/stain
+	parallax 1.25
+	surface "blend_100 alpha_test material"
+	contents "mist detail"
+	{
+		texture common/decals/stain
+		color 1 0 0 0.9
+		blend GL_SRC_ALPHA GL_ONE
+	}
 }
