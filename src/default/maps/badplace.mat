@@ -218,7 +218,7 @@
 	shadow 1.00
 }
 {
-	diffusemap q1dm4/metal5_8
+	diffusemap common/quake/techlight_01
 	roughness 1.00
 	hardness 3.10
 	specularity 1.47

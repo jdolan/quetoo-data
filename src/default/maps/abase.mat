@@ -1,15 +1,15 @@
 {
-	diffusemap aerowalk/padbase
-	normalmap aerowalk/padbase_nm
-	roughness 1.00
-	hardness 1.00
-	specularity 1.00
+	diffusemap common/fx/padbase/padbase
+	normalmap common/fx/padbase/padbase_nm
+	roughness 2.00
+	hardness 2.50
+	specularity 1.50
 	parallax 2.00
-	shadow 0.00
+	shadow 1.00
 	contents "detail"
 	surface "blend_100 alpha_test"
 	{
-		texture aerowalk/padfx
+		texture common/fx/padbase/padfx
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }

@@ -95,8 +95,8 @@
 	}
 }
 {
-	diffusemap aerowalk/mech1_d
-	normalmap aerowalk/mech1_d_nm
+	diffusemap common/quake2/mech1_d
+	normalmap common/quake2/mech1_d_local
 	roughness 1.80
 	hardness 3.00
 	specularity 1.50
