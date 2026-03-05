@@ -222,7 +222,7 @@
 	roughness 1.00
 	hardness 4.49
 	specularity 1.47
-	parallax 2.53
+	parallax 3.00
 	shadow 1.00
 }
 {
@@ -757,9 +757,9 @@
 {
 	diffusemap common/quake/tele_top
 	roughness 1.00
-	hardness 1.00
-	specularity 1.00
-	parallax 1.00
+	hardness 2.00
+	specularity 1.25
+	parallax 2.50
 	shadow 1.00
 }
 {
@@ -857,10 +857,6 @@
 	specularity 1.00
 	parallax 1.00
 	shadow 1.00
-	{
-		texture common/tele2
-		blend GL_SRC_ALPHA GL_ONE
-	}
 }
 {
 	diffusemap common/trigger
