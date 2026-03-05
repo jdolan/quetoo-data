@@ -52,11 +52,19 @@
 	specularity 4
 	parallax 0 
 	
-	surface "liquid material"
+	surface "liquid blend_66 blend_100"
 	contents "slime detail"
 	{
 		texture common/quake/brown_water
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.5 1.5 1.5 0.9
 		warp 0.2 0.2
+	}
+	{
+		texture common/fx/water_fx
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.5 0.5 0.5 0.33
+		warp 0.3 0.3
 	}
 }
 {
@@ -490,7 +498,7 @@
 	parallax 1 
 }
 {
-	diffusemap omf/wpadg
+	diffusemap common/fx/wpadg
 	roughness 0
 	hardness 0
 	specularity 1
@@ -498,26 +506,26 @@
 	contents "mist detail"
 	surface "blend_100 material decal"
 	{
-		texture omf/wpadg_fx
+		texture common/fx/wpadg_fx
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 1
 		stretch 0.5 1
 	}
 }
 {
-	diffusemap sandbox/quetoologo_nobg
-	normalmap sandbox/quetoologo_nm
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 0
-	contents "mist"
-	surface "alpha_test"
+	diffusemap common/decals/quetoologo
+	normalmap common/decals/quetoologo_nm
+	roughness 1.00
+	hardness 4.00
+	specularity 2.00
+	parallax 3.00
+	shadow 0.00
+	contents "mist detail"
+	surface "alpha_test blend_100"
 	{
-		texture sandbox/quetoologo_glow
+		texture common/decals/quetoologo_glow
 		blend GL_SRC_ALPHA GL_ONE
-		color 1 1 1 0.5
-		pulse 0.25
+		color 1.00 1.00 1.00 0.75
 	}
 }
 {
@@ -529,8 +537,8 @@
 	surface "phong"
 }
 {
-	diffusemap turbo/padbase
-	normalmap turbo/padbase_nm
+	diffusemap common/fx/padbase/padbase
+	normalmap common/fx/padbase/padbase_nm
 	roughness 1
 	hardness 1
 	specularity 1
@@ -544,16 +552,16 @@
 		flare flare_3
 	}
 	{
-		texture turbo/padfx3
+		texture common/fx/padbase/padfx3
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		texture turbo/padfx-iris3
+		texture common/fx/padbase/padfx-iris3
 		pulse 0.5
 	}
 }
 {
-	diffusemap common/quake2/tampon2
+	diffusemap common/decals/tampon2
 	roughness 1
 	hardness 1
 	specularity 8
@@ -561,26 +569,26 @@
 	surface "blend_100 decal"
 	contents "mist detail"
 	{
-		texture common/quake2/tampon2
+		texture common/decals/tampon2
 		blend GL_SRC_ALPHA GL_ONE
 		color 1 0 0 1
 	}
 }
 {
-	material skies912/u_floor3_mark
-	normalmap skies912/u_floor3_mark_nm
+	material common/decals/u_floor3_mark
+	normalmap common/decals/u_floor3_mark_nm
 	roughness 1
 	parallax 1.5
 	hardness 1
 	specularity 1
 	surface "blend_100 decal material"
 	{
-		texture skies912/u_floor3_mark
+		texture common/decals/u_floor3_mark
 		blend GL_SRC_ALPHA GL_ONE
 		color 0.44 0.33 0.22 1
 	}
 	{
-		texture skies912/u_floor3_mark_fx-dsat
+		texture common/decals/u_floor3_mark_fx-dsat
 		blend GL_SRC_ALPHA GL_ONE
 		color 1 0.345 0 1
 		pulse 0.5
