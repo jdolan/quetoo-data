@@ -1,7 +1,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"_tb_textures" "textures\aerowalk;textures\catfight;textures/common;textures/common/decals;textures/common/fx;textures\evil;textures\longest;textures\sandbox;textures\spacectf;textures\trak5;textures\trak5-2;textures\turbo"
+"_tb_textures" "textures\aerowalk;textures\catfight;textures/common;textures/common/decals;textures/common/fx;textures/common/prototype;textures\evil;textures\longest;textures\spacectf;textures\trak5;textures\trak5-2;textures\turbo"
 "ambient" "0.24 0.16 0.24"
 "message" "Longest Yard of Chaos"
 "sky" "purple_chaos"
@@ -565,57 +565,57 @@
 }
 // brush 60
 {
-( -64 -64 1344 ) ( -64 -63 1344 ) ( -64 -64 1345 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 64 64 1473 ) ( 65 64 1472 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -64 1344 ) ( -63 -64 1344 ) ( -64 -63 1344 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 64 65 1472 ) ( 65 64 1472 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 80 1472 ) ( 65 80 1472 ) ( 64 80 1473 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 64 64 1473 ) ( 64 65 1472 ) sandbox/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -64 -63 1344 ) ( -64 -64 1345 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 64 64 1473 ) ( 65 64 1472 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -63 -64 1344 ) ( -64 -63 1344 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 64 65 1472 ) ( 65 64 1472 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 80 1472 ) ( 65 80 1472 ) ( 64 80 1473 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 64 64 1473 ) ( 64 65 1472 ) common/prototype/grid 0 0 0 0.25 0.25
 }
 // brush 61
 {
-( 64 64 1472 ) ( 64 65 1472 ) ( 64 64 1473 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -64 1344 ) ( -64 -64 1345 ) ( -63 -64 1344 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -64 1344 ) ( -63 -64 1344 ) ( -64 -63 1344 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 64 65 1472 ) ( 65 64 1472 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 65 64 1472 ) ( 64 64 1473 ) sandbox/grid 0 0 0 0.25 0.25
-( 80 64 1472 ) ( 80 64 1473 ) ( 80 65 1472 ) sandbox/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 64 65 1472 ) ( 64 64 1473 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -64 -64 1345 ) ( -63 -64 1344 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -63 -64 1344 ) ( -64 -63 1344 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 64 65 1472 ) ( 65 64 1472 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 65 64 1472 ) ( 64 64 1473 ) common/prototype/grid 0 0 0 0.25 0.25
+( 80 64 1472 ) ( 80 64 1473 ) ( 80 65 1472 ) common/prototype/grid 0 0 0 0.25 0.25
 }
 // brush 62
 {
-( -64 -64 1344 ) ( -64 -63 1344 ) ( -64 -64 1345 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -80 1344 ) ( -64 -80 1345 ) ( -63 -80 1344 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -64 1344 ) ( -63 -64 1344 ) ( -64 -63 1344 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 64 65 1472 ) ( 65 64 1472 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -64 1344 ) ( -63 -64 1344 ) ( -64 -64 1345 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 64 64 1473 ) ( 64 65 1472 ) sandbox/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -64 -63 1344 ) ( -64 -64 1345 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -80 1344 ) ( -64 -80 1345 ) ( -63 -80 1344 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -63 -64 1344 ) ( -64 -63 1344 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 64 65 1472 ) ( 65 64 1472 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -63 -64 1344 ) ( -64 -64 1345 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 64 64 1473 ) ( 64 65 1472 ) common/prototype/grid 0 0 0 0.25 0.25
 }
 // brush 63
 {
-( -64 -64 1344 ) ( -64 -63 1344 ) ( -64 -64 1345 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -64 1344 ) ( -64 -64 1345 ) ( -63 -64 1344 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 65 64 1472 ) ( 64 65 1472 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1488 ) ( 64 65 1488 ) ( 65 64 1488 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 65 64 1472 ) ( 64 64 1473 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 64 64 1473 ) ( 64 65 1472 ) sandbox/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -64 -63 1344 ) ( -64 -64 1345 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -64 -64 1345 ) ( -63 -64 1344 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 65 64 1472 ) ( 64 65 1472 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1488 ) ( 64 65 1488 ) ( 65 64 1488 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 65 64 1472 ) ( 64 64 1473 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 64 64 1473 ) ( 64 65 1472 ) common/prototype/grid 0 0 0 0.25 0.25
 }
 // brush 64
 {
-( -64 -64 1344 ) ( -64 -63 1344 ) ( -64 -64 1345 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -64 1344 ) ( -64 -64 1345 ) ( -63 -64 1344 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -64 1328 ) ( -63 -64 1328 ) ( -64 -63 1328 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -64 1344 ) ( -64 -63 1344 ) ( -63 -64 1344 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 65 64 1472 ) ( 64 64 1473 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 64 64 1473 ) ( 64 65 1472 ) sandbox/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -64 -63 1344 ) ( -64 -64 1345 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -64 -64 1345 ) ( -63 -64 1344 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -64 1328 ) ( -63 -64 1328 ) ( -64 -63 1328 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -64 -63 1344 ) ( -63 -64 1344 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 65 64 1472 ) ( 64 64 1473 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 64 64 1473 ) ( 64 65 1472 ) common/prototype/grid 0 0 0 0.25 0.25
 }
 // brush 65
 {
-( -80 -64 1344 ) ( -80 -63 1344 ) ( -80 -64 1345 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -64 1344 ) ( -64 -64 1345 ) ( -63 -64 1344 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -64 1344 ) ( -63 -64 1344 ) ( -64 -63 1344 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 64 65 1472 ) ( 65 64 1472 ) sandbox/grid 0 0 0 0.25 0.25
-( 64 64 1472 ) ( 65 64 1472 ) ( 64 64 1473 ) sandbox/grid 0 0 0 0.25 0.25
-( -64 -64 1344 ) ( -64 -64 1345 ) ( -64 -63 1344 ) sandbox/grid 0 0 0 0.25 0.25
+( -80 -64 1344 ) ( -80 -63 1344 ) ( -80 -64 1345 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -64 -64 1345 ) ( -63 -64 1344 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -63 -64 1344 ) ( -64 -63 1344 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 64 65 1472 ) ( 65 64 1472 ) common/prototype/grid 0 0 0 0.25 0.25
+( 64 64 1472 ) ( 65 64 1472 ) ( 64 64 1473 ) common/prototype/grid 0 0 0 0.25 0.25
+( -64 -64 1344 ) ( -64 -64 1345 ) ( -64 -63 1344 ) common/prototype/grid 0 0 0 0.25 0.25
 }
 // brush 66
 {

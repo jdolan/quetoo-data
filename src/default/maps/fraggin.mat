@@ -52,7 +52,7 @@
 	specularity 4
 	parallax 0 
 	
-	surface "liquid blend_66 blend_100"
+	surface "liquid"
 	contents "slime detail"
 	{
 		texture common/quake/brown_water

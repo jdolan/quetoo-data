@@ -59,7 +59,7 @@
 	shadow 0.00
 }
 {
-	diffusemap common/fx/cyanbeam
+	diffusemap common/fx/beam-cyan
 	roughness 1.00
 	hardness 1.00
 	specularity 1.00
@@ -68,12 +68,12 @@
 	contents "mist detail"
 	surface "blend_33 blend_66 material"
 	{
-		texture common/fx/cyanbeam
+		texture common/fx/beam-cyan
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
 {
-	diffusemap common/fx/orangebeam
+	diffusemap common/fx/beam-orange
 	roughness 1.00
 	hardness 1.00
 	specularity 1.00
@@ -82,7 +82,7 @@
 	contents "mist detail"
 	surface "blend_33 blend_66 material"
 	{
-		texture common/fx/orangebeam
+		texture common/fx/beam-orange
 		blend GL_SRC_ALPHA GL_ONE
 	}
 }
@@ -104,6 +104,8 @@
 }
 {
 	diffusemap common/quake/#lava1
+	normalmap common/quake/#lava1_norm
+	specularmap common/quake/#lava1_gloss
 	roughness 0.00
 	hardness 0.00
 	specularity 0.00
@@ -112,25 +114,25 @@
 	contents "lava mist detail"
 	surface "liquid"
 	{
-		texture common/quake2/brlava
+		texture common/quake/#lava1_glow
 		blend GL_SRC_ALPHA GL_ONE
-		color 0.50 0.50 0.50 1.00
-		scroll.s 0.014
-		scroll.t 0.038
-		scale.s 0.800
-		scale.t 0.750
-		warp 0.38 0.38
-	}
-	{
-		texture common/quake2/brlava
-		blend GL_SRC_ALPHA GL_ONE
-		color 0.50 0.50 0.50 1.00
 		scroll.s 0.014
 		scroll.t -0.018
 		scale.s 0.900
 		scale.t 0.900
 		warp 0.38 0.38
 	}
+	{
+		texture common/quake/#lava1_luma
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 0.85
+		scroll.s 0.014
+		scroll.t 0.038
+		scale.s 0.800
+		scale.t 0.750
+		warp 0.25 0.25
+	}
+	
 }
 {
 	diffusemap common/quake/#teleport
@@ -162,7 +164,7 @@
 	}
 }
 {
-	diffusemap common/quake/+0butn
+	diffusemap common/quake/animated/butn
 	roughness 1.00
 	hardness 2.00
 	specularity 1.25
@@ -170,7 +172,7 @@
 	shadow 0.00
 }
 {
-	diffusemap common/quake/+0slipbot
+	diffusemap common/quake/slipbot
 	roughness 1.00
 	hardness 1.00
 	specularity 1.00
@@ -178,7 +180,7 @@
 	shadow 0.00
 }
 {
-	diffusemap common/quake/+6slip
+	diffusemap common/quake/animated/slip/+6slip
 	roughness 0.00
 	hardness 0.00
 	specularity 0.00
@@ -202,7 +204,7 @@
 	}
 }
 {
-	diffusemap common/quake/+alight01
+	diffusemap common/quake/animated/alight01
 	normalmap common/quake/animated/light01/light01_0_norm
 	specularmap common/quake/animated/light01/light01_0_gloss
 	roughness 1.00
@@ -804,7 +806,7 @@
 	shadow 0.00
 }
 {
-	diffusemap sandbox/grid
+	diffusemap common/prototype/grid
 	roughness 1.00
 	hardness 1.00
 	specularity 1.00
@@ -812,17 +814,17 @@
 	shadow 0.00
 }
 {
-	diffusemap sandbox/quetoologo
-	normalmap sandbox/quetoologo_nm
+	diffusemap common/decals/quetoologo
+	normalmap common/decals/quetoologo_nm
 	roughness 1.00
-	hardness 10.00
-	specularity 4.00
+	hardness 4.00
+	specularity 2.00
 	parallax 3.00
 	shadow 0.00
-	contents "mist"
-	surface "alpha_test decal"
+	contents "mist detail"
+	surface "alpha_test blend_100"
 	{
-		texture sandbox/quetoologo_glow
+		texture common/decals/quetoologo_glow
 		blend GL_SRC_ALPHA GL_ONE
 		color 1.00 1.00 1.00 0.75
 	}
