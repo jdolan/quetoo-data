@@ -1,0 +1,8 @@
+{
+	diffusemap evil/e8trimlight2
+	roughness 0.8
+	hardness 1
+	specularity 1
+	parallax 1.25
+	shadow 0
+}

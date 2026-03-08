@@ -1,0 +1,16 @@
+{
+	diffusemap omf/wpadg
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+	shadow 0
+	contents "mist detail"
+	surface "blend_100 material decal"
+	{
+		texture omf/wpadg_fx
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 1
+		stretch 0.5 1
+	}
+}

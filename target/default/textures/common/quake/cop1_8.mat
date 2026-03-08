@@ -1,0 +1,10 @@
+{
+	diffusemap common/quake/cop1_8
+	normalmap common/quake/cop1_8_norm
+	specularmap common/quake/cop1_8_gloss
+	roughness 1.5
+	hardness 4
+	specularity 1
+	parallax 2.5
+	surface "phong"
+}

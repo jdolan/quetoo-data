@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake/city3_4
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1 
+}

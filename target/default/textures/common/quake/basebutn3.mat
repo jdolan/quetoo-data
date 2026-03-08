@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake/basebutn3
+	normalmap common/quake/basebutn3_norm
+	specularmap common/quake/basebutn3_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1.75
+}

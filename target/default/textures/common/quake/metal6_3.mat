@@ -1,0 +1,15 @@
+{
+	diffusemap common/quake/metal6_3
+	normalmap common/quake/metal6_3_norm
+	specularmap common/quake/metal6_3_gloss
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 3.50
+	shadow 1.50
+	contents "detail"
+	{
+		texture common/quake/metal6_3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

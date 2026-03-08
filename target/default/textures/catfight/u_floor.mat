@@ -1,0 +1,9 @@
+{
+	diffusemap catfight/u_floor
+	roughness 1.25
+	hardness 1.5
+	specularity 2
+	parallax 1.25
+	shadow 0
+	footsteps metal2
+}

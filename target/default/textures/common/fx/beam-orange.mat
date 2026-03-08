@@ -1,0 +1,14 @@
+{
+	diffusemap common/fx/beam-orange
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 0.00
+	contents "mist detail"
+	surface "blend_33 blend_66 material"
+	{
+		texture common/fx/beam-orange
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

@@ -1,0 +1,24 @@
+{
+	diffusemap common/quake/animated/slip/+6slip
+	roughness 0.00
+	hardness 0.00
+	specularity 0.00
+	parallax 0.00
+	shadow 0.00
+	contents "lava detail"
+	surface "liquid"
+	{
+		texture common/quake/#lava1
+		scroll.t 0.150
+		scale.s 1.500
+		warp 0.25 0.25
+	}
+	{
+		texture common/quake2/brlava
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.65 0.65 0.65 1.00
+		scroll.t 0.200
+		scale.s 1.500
+		warp 0.35 0.35
+	}
+}

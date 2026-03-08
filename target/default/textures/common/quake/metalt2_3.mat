@@ -1,0 +1,5 @@
+{
+	diffusemap common/quake/metalt2_3
+	normalmap common/quake/altar1_3
+	specularmap common/quake/altar1_3
+}

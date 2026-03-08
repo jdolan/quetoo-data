@@ -1,0 +1,8 @@
+{
+	diffusemap catfight/ubase_pan2
+	roughness 1
+	hardness 1.5
+	specularity 1.5
+	parallax 2.25
+	shadow 1
+}

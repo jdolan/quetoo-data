@@ -1,0 +1,19 @@
+{
+	diffusemap catfight/u_lamp4
+	normalmap catfight/u_lamp4_nm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1.5
+	shadow 0
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture trak5/light2a_blend
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 0.5
+	}
+}

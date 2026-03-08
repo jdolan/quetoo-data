@@ -1,0 +1,5 @@
+{
+	diffusemap common/quake/wmet2_6
+	normalmap common/quake/metal5_5
+	specularmap common/quake/metal5_5
+}
