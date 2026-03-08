@@ -1,0 +1,12 @@
+{
+	diffusemap common/quake2/palmet11_2-heathalf
+	roughness 1.33291
+	hardness 0.983737
+	specularity 1.5
+	parallax 2.96205
+	shadow 8
+	{
+		texture common/quake2/glowedge-half
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

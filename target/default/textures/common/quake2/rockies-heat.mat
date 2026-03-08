@@ -1,0 +1,12 @@
+{
+	diffusemap common/quake2/rockies-heat
+	roughness 1.5
+	hardness 1.1977
+	specularity 1.15944
+	parallax 3.03157
+	shadow 5.57685
+	{
+		texture common/quake2/glowedge512
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

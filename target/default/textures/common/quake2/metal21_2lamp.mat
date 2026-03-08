@@ -1,0 +1,12 @@
+{
+	diffusemap common/quake2/metal21_2lamp
+	roughness 1.20
+	hardness 2.00
+	specularity 2.00
+	parallax 1.50
+	shadow 0.00
+	{
+		texture common/quake2/metal21_2lampfx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

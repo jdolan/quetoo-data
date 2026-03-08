@@ -1,0 +1,16 @@
+{
+	diffusemap common/quake2/conveyor
+	roughness 3.00
+	hardness 2.00
+	specularity 1.70
+	parallax 2.50
+	shadow 1.00
+	footsteps metal2
+	{
+		texture common/quake2/conveyor_belt
+		blend GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		scroll.t 0.780
+		scale.s 1.000
+		scale.t 1.000
+	}
+}

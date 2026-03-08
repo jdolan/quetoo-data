@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/worngrass-noblend
+	roughness 4.73
+	hardness 0.24
+	specularity 1.47
+	parallax 1.96
+	shadow 0.00
+}

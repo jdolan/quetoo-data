@@ -1,0 +1,12 @@
+{
+	diffusemap common/quake2/metal4_2light
+	roughness 2.40
+	hardness 1.50
+	specularity 1.70
+	parallax 4.50
+	shadow 8.00
+	{
+		texture common/quake2/metal4_2lightfx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

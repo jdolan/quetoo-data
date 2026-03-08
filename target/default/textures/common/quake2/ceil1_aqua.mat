@@ -1,0 +1,19 @@
+{
+	diffusemap common/quake2/ceil1_aqua
+	normalmap common/quake2/ceil1_nm
+	roughness 2.00
+	hardness 4.00
+	specularity 1.70
+	parallax 3.00
+	shadow 0.00
+	{
+		texture common/quake2/ceil1_aquafx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		color 0.00 1.00 0.67 1.00
+		scale.s 1.500
+		scale.t 1.500
+		flare flare_2
+	}
+}

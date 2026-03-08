@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake2/e8xgirder
+	roughness 1.50
+	hardness 0.50
+	specularity 1.30
+	parallax 1.00
+	shadow 0.00
+	surface "alpha_test"
+}

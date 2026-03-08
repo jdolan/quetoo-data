@@ -1,0 +1,10 @@
+{
+	diffusemap common/quake2/tampon1
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+	contents "mist"
+	surface "blend_100"
+}

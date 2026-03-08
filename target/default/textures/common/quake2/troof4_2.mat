@@ -1,0 +1,10 @@
+{
+	diffusemap common/quake2/troof4_2
+	normalmap common/quake2/troof4_2_nm
+	roughness 2.50
+	hardness 2.00
+	specularity 1.80
+	parallax 3.17
+	shadow 8.00
+	footsteps metal
+}

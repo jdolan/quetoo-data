@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake2/treadplate
+	roughness 1.80
+	hardness 2.00
+	specularity 1.80
+	parallax 1.00
+	shadow 1.00
+	footsteps metal
+}

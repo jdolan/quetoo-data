@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/blume6_1
+	roughness 2.94
+	hardness 2.29
+	specularity 1.63
+	parallax 0.98
+	shadow 0.18
+}

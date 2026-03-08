@@ -1,0 +1,13 @@
+{
+	diffusemap common/quake2/btactmach0
+	roughness 2.00
+	hardness 2.00
+	specularity 1.50
+	parallax 1.00
+	shadow 0.00
+	{
+		texture common/quake2/btactmach0fx1
+		blend GL_SRC_ALPHA GL_ONE
+		anim 2 0.00
+	}
+}

@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/fmetalvent
+	roughness 2.80
+	hardness 3.00
+	specularity 1.70
+	parallax 3.53
+	shadow 8.00
+}

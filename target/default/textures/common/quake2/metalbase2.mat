@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake2/metalbase2
+	normalmap common/quake2/metalbase1_nm
+	roughness 2.00
+	hardness 1.40
+	specularity 1.30
+	parallax 1.00
+	shadow 0.00
+}

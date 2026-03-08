@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake2/crate_red
+	normalmap common/quake2/crate_blue_nm
+	roughness 2.20
+	hardness 2.00
+	specularity 1.70
+	parallax 2.50
+	shadow 7.98
+}

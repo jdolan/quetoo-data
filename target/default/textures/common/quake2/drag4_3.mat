@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/drag4_3
+	roughness 1.5
+	hardness 1.5
+	specularity 1.5
+	parallax 0.4
+	shadow 0
+}

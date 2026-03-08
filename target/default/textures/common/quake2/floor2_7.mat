@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake2/floor2_7
+	normalmap common/quake2/floor1_6_nm
+	roughness 1.63
+	hardness 2.78
+	specularity 1.22
+	parallax 4.00
+	shadow 0.29
+}

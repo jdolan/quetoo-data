@@ -1,0 +1,12 @@
+{
+	diffusemap common/quake2/mine10_1heat-low
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 0.00
+	{
+		texture common/quake2/mine10_1heat-low-glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
