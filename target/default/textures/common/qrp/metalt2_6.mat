@@ -1,0 +1,5 @@
+{
+	diffusemap common/qrp/metalt2_6
+	normalmap common/qrp/altar1_6
+	specularmap common/qrp/altar1_6
+}

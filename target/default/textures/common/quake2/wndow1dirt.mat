@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake2/wndow1dirt
+	roughness 1.02
+	hardness 8.00
+	specularity 8.00
+	parallax 0.00
+	shadow 0.00
+	surface "blend_100"
+}

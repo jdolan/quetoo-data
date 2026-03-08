@@ -1,0 +1,12 @@
+{
+	diffusemap common/quake/rune2_3
+	roughness 1.63265
+	hardness 2.69388
+	specularity 2.36735
+	parallax 1
+	shadow 8
+	{
+		texture common/quake/rune2_3_luma
+		blend GL_ONE GL_ONE
+	}
+}

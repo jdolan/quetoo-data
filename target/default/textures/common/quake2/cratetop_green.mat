@@ -1,0 +1,10 @@
+{
+	diffusemap common/quake2/cratetop_green
+	normalmap common/quake2/cratetop_blue_nm
+	roughness 2.20
+	hardness 2.00
+	specularity 1.70
+	parallax 2.50
+	shadow 1.00
+	footsteps metal2
+}

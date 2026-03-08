@@ -1,0 +1,13 @@
+{
+	diffusemap aerowalk/lightline32
+	normalmap aerowalk/lightline32_nm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 2
+	shadow 0
+	{
+		texture aerowalk/lightline32_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

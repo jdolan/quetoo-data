@@ -1,0 +1,8 @@
+{
+	diffusemap trak5/ribs1a
+	roughness 0.8
+	hardness 1
+	specularity 1
+	parallax 4
+	shadow 0.25
+}

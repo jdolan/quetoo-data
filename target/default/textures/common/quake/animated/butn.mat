@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake/animated/butn
+	roughness 1.00
+	hardness 2.00
+	specularity 1.25
+	parallax 2.50
+	shadow 0.00
+}

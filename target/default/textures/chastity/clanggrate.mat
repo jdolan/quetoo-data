@@ -1,0 +1,10 @@
+{
+	diffusemap chastity/clanggrate
+	normalmap chastity/clanggrate_nm
+	roughness 2
+	hardness 1.5
+	specularity 1
+	parallax 0.25 
+	surface "blend_100"
+	footsteps metal2
+}

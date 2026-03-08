@@ -1,0 +1,14 @@
+{
+	diffusemap common/quake/window01_4
+	normalmap common/quake/window01_4_norm
+	specularmap common/quake/window01_4_gloss
+	roughness 6
+	hardness 6
+	specularity 0.8
+	parallax 2
+	{
+		texture common/quake/window01_4
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.5 1.5 1.5 0.35
+	}
+}

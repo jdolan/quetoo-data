@@ -1,0 +1,5 @@
+{
+	diffusemap common/quake/tech_symb
+	normalmap common/quake/tech10_6
+	specularmap common/quake/du3jed
+}

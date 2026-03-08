@@ -1,0 +1,10 @@
+{
+	diffusemap common/quake2/fmetal3
+	normalmap common/quake2/fmetal2_nm
+	roughness 2.20
+	hardness 2.00
+	specularity 1.70
+	parallax 3.47
+	shadow 8.00
+	footsteps metal
+}

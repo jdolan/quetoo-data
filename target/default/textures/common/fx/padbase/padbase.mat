@@ -1,0 +1,24 @@
+{
+	diffusemap common/fx/padbase/padbase
+	normalmap common/fx/padbase/padbase_nm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 2.75 
+	contents "mist detail"
+	surface "blend_100"
+	{
+		color 1 0.1 0.1 1
+		scale.s 0.75
+		scale.t 0.75
+		flare flare_3
+	}
+	{
+		texture common/fx/padbase/padfx3
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		texture common/fx/padbase/padfx-iris3
+		pulse 0.5
+	}
+}

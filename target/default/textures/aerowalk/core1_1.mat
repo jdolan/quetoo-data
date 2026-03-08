@@ -1,0 +1,15 @@
+{
+	diffusemap aerowalk/core1_1
+	normalmap aerowalk/core1_1_nm
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 0.25
+	shadow 0
+	surface "blend_33"
+	{
+		texture aerowalk/core1_1scroll
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.t 0.25
+	}
+}

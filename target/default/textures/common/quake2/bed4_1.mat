@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/bed4_1
+	roughness 2.00
+	hardness 8.00
+	specularity 4.00
+	parallax 2.04
+	shadow 0.00
+}

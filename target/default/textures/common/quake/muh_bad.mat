@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake/muh_bad
+	roughness 0.77264
+	hardness 7.61958
+	specularity 3.40051
+	parallax 3.91741
+	shadow 8
+}

@@ -1,0 +1,5 @@
+{
+	diffusemap common/quake/slime
+	normalmap common/quake/04mwat1
+	specularmap common/quake/slime1
+}

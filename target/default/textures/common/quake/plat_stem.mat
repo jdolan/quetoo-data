@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake/plat_stem
+	roughness 1.00
+	hardness 1.50
+	specularity 1.00
+	parallax 4.50
+	shadow 1.00
+}

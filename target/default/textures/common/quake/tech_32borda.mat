@@ -1,0 +1,5 @@
+{
+	diffusemap common/quake/tech_32borda
+	normalmap common/quake/tech_32bord
+	specularmap common/quake/tech_32bord
+}

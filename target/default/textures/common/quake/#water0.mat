@@ -1,0 +1,18 @@
+{
+	diffusemap common/quake/#water0
+	roughness 0.897959
+	hardness 4.81633
+	specularity 0
+	parallax 1
+	shadow 0
+	contents "water"
+	surface "blend_33"
+	{
+		texture common/quake/#water0_luma
+		blend GL_SRC_COLOR GL_ONE
+	}
+	{
+		texture common/quake/#water0
+		warp 0.4 1
+	}
+}

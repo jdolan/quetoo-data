@@ -1,0 +1,10 @@
+{
+	diffusemap common/quake/wbrick1_4
+	normalmap common/quake/wbrick1_4_norm
+	specularmap common/quake/wbrick1_4_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 3.5
+	shadow 1.5
+}

@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/ggrat4_2add
+	roughness 1.50
+	hardness 1.00
+	specularity 1.30
+	parallax 1.00
+	shadow 0.00
+}

@@ -1,0 +1,25 @@
+{
+	diffusemap common/quake2/slime0
+	roughness 1.00
+	hardness 0.00
+	specularity 1.00
+	parallax 1.00
+	shadow 0.00
+	contents "slime detail"
+	surface "liquid blend_66"
+	{
+		texture common/quake2/slimefx1
+		blend GL_SRC_ALPHA GL_ONE
+		scale.s 0.800
+		scale.t 0.750
+		warp 0.30 0.30
+	}
+	{
+		texture common/quake2/slimefx2
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.t 0.020
+		scale.s 0.900
+		scale.t 0.900
+		warp 0.25 0.25
+	}
+}

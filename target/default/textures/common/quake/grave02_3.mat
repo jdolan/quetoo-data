@@ -1,0 +1,5 @@
+{
+	diffusemap common/quake/grave02_3
+	normalmap common/quake/grave02_1
+	specularmap common/quake/grave02_1
+}

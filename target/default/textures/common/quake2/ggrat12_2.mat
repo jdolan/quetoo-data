@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake2/ggrat12_2
+	normalmap common/quake2/grate2_7_nm
+	roughness 2.04
+	hardness 2.52
+	specularity 1.47
+	parallax 3.96
+	shadow 8.00
+}

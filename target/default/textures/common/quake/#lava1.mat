@@ -1,0 +1,32 @@
+{
+	diffusemap common/quake/#lava1
+	normalmap common/quake/#lava1_norm
+	specularmap common/quake/#lava1_gloss
+	roughness 0.00
+	hardness 0.00
+	specularity 0.00
+	parallax 0.00
+	shadow 0.00
+	contents "lava mist detail"
+	surface "liquid"
+	{
+		texture common/quake/#lava1_glow
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s 0.014
+		scroll.t -0.018
+		scale.s 0.900
+		scale.t 0.900
+		warp 0.38 0.38
+	}
+	{
+		texture common/quake/#lava1_luma
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 0.85
+		scroll.s 0.014
+		scroll.t 0.038
+		scale.s 0.800
+		scale.t 0.750
+		warp 0.25 0.25
+	}
+	
+}

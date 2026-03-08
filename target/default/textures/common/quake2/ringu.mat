@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake2/ringu
+	roughness 2.00
+	hardness 2.00
+	specularity 1.50
+	parallax 1.00
+	shadow 0.00
+	surface "alpha_test"
+}

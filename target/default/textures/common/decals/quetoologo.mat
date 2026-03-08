@@ -1,0 +1,16 @@
+{
+	diffusemap common/decals/quetoologo
+	normalmap common/decals/quetoologo_nm
+	roughness 1.00
+	hardness 4.00
+	specularity 2.00
+	parallax 3.00
+	shadow 0.00
+	contents "mist detail"
+	surface "alpha_test blend_100"
+	{
+		texture common/decals/quetoologo_glow
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.00 1.00 1.00 0.75
+	}
+}

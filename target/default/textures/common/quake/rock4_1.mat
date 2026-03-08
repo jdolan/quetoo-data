@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake/rock4_1
+	normalmap common/quake/rock4_1_norm
+	specularmap common/quake/rock4_1_gloss
+	roughness 1
+	hardness 1
+	specularity 1
+	parallax 1
+}

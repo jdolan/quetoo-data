@@ -1,0 +1,18 @@
+{
+	diffusemap common/quake2/ceil1_lime
+	normalmap common/quake2/ceil1_nm
+	roughness 1.31
+	hardness 3.10
+	specularity 3.59
+	parallax 4.00
+	shadow 0.00
+	{
+		texture common/quake2/ceil1_limefx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.500
+		scale.t 1.500
+		flare flare_2
+	}
+}

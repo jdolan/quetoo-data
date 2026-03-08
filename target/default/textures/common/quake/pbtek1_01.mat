@@ -1,0 +1,5 @@
+{
+	diffusemap common/quake/pbtek1_01
+	normalmap common/quake/bw_techpanel2
+	specularmap common/quake/bw_techpanel2
+}

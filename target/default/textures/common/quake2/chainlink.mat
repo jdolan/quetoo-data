@@ -1,0 +1,11 @@
+{
+	diffusemap common/quake2/chainlink
+	normalmap common/quake2/chainlink_nm
+	roughness 4.00
+	hardness 0.90
+	specularity 1.88
+	parallax 1.47
+	shadow 0.00
+	surface "alpha_test"
+	alpha_test 0.400
+}

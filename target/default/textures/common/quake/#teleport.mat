@@ -1,0 +1,29 @@
+{
+	diffusemap common/quake/#teleport
+	normalmap common/quake/#teleport_norm
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 0.00
+	contents "mist"
+	surface "liquid"
+	{
+		texture common/quake/#teleport
+		warp 0.50 0.50
+	}
+	{
+		texture common/quake/#teleport2_gloss
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.00 1.00 1.00 0.75
+		warp 0.75 0.75
+	}
+	{
+		texture common/quake/#teleport2_gloss
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.50 0.36 0.53 0.65
+		scale.s 0.750
+		scale.t 0.750
+		warp 1.25 1.25
+	}
+}

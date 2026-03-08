@@ -1,0 +1,12 @@
+{
+	diffusemap common/quake2/metal_subslime
+	roughness 1.40
+	hardness 0.70
+	specularity 1.50
+	parallax 2.04
+	shadow 0.00
+	{
+		texture common/quake2/slime_glowedge
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

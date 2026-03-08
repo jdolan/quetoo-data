@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake/metal1_4
+	roughness 1.00
+	hardness 2.00
+	specularity 1.00
+	parallax 1.00
+	shadow 2.00
+}

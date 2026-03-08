@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/mine06_3
+	roughness 1.20
+	hardness 2.46
+	specularity 2.03
+	parallax 3.42
+	shadow 8.00
+}

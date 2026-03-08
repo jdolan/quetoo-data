@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/venttrim
+	roughness 2.00
+	hardness 1.50
+	specularity 1.70
+	parallax 1.00
+	shadow 1.00
+}

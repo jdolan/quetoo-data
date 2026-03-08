@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/steps
+	roughness 1.50
+	hardness 1.30
+	specularity 1.50
+	parallax 1.00
+	shadow 0.00
+}
