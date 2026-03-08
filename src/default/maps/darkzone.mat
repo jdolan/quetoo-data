@@ -15,118 +15,99 @@
 	shadow 0.00
 }
 {
-	diffusemap common/quake/#teleport
-	roughness 1.00
-	hardness 10.00
-	specularity 1.00
-	parallax 1.00
-	shadow 0.00
-	contents "mist"
-	surface "blend_33"
-	{
-		texture common/quake/#teleport
-		warp 1.00 1.00
-	}
-}
-{
-	diffusemap common/quake/#water1
+	diffusemap common/qrp/#teleport
 	roughness 1.00
 	hardness 1.00
 	specularity 1.00
 	parallax 1.00
-	shadow 0.00
-	contents "water"
-	surface "blend_33"
-	{
-		texture common/quake/#water1_luma
-		blend GL_SRC_COLOR GL_ONE
-	}
-	{
-		texture common/quake/#water1
-		warp 1.00 1.00
-	}
+	shadow 1.00
 }
 {
-	diffusemap common/quake/city2_6
-	normalmap common/quake/city2_3_norm
-	roughness 4.08
-	hardness 1.14
-	specularity 2.53
-	parallax 4.31
-	shadow 8.00
-}
-{
-	diffusemap common/quake/city2_7
-	normalmap common/quake/city2_3_norm
-	roughness 3.43
-	hardness 2.04
-	specularity 2.61
-	parallax 4.74
-	shadow 8.00
-}
-{
-	diffusemap common/quake/city2_8
-	normalmap common/quake/city2_3_norm
-	roughness 2.78
-	hardness 1.22
-	specularity 0.90
-	parallax 4.50
-	shadow 8.00
-}
-{
-	diffusemap common/quake/city4_2
-	roughness 1.95
-	hardness 3.64
-	specularity 1.34
-	parallax 5.10
-	shadow 8.00
-}
-{
-	diffusemap common/quake/cop1_1
-	roughness 4.11
-	hardness 5.63
-	specularity 0.98
-	parallax 1.48
-	shadow 8.00
-}
-{
-	diffusemap common/quake/cop1_7
-	roughness 2.86
-	hardness 8.00
+	diffusemap common/qrp/#water0
+	roughness 1.00
+	hardness 1.00
 	specularity 1.00
 	parallax 1.00
-	shadow 0.00
+	shadow 1.00
 }
 {
-	diffusemap common/quake/ground1_5
-	roughness 3.74
-	hardness 1.40
-	specularity 1.95
-	parallax 3.39
-	shadow 5.13
-}
-{
-	diffusemap common/quake/metal1_3
-	roughness 1.88
-	hardness 4.24
-	specularity 0.90
-	parallax 1.00
-	shadow 0.00
-}
-{
-	diffusemap common/quake/metal4_4
-	roughness 1.41
-	hardness 7.02
-	specularity 1.57
-	parallax 3.09
+	diffusemap common/qrp/city2_6
+	roughness 0.17
+	hardness 0.67
+	specularity 8.00
+	parallax 4.17
 	shadow 8.00
 }
 {
-	diffusemap common/quake/wmet4_8
-	roughness 0.98
-	hardness 3.12
-	specularity 1.51
-	parallax 3.74
+	diffusemap common/qrp/city2_7
+	roughness 1.13
+	hardness 0.78
+	specularity 8.00
+	parallax 4.14
+	shadow 8.00
+}
+{
+	diffusemap common/qrp/city2_8
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+}
+{
+	diffusemap common/qrp/city4_2
+	roughness 0.51
+	hardness 1.00
+	specularity 8.00
+	parallax 4.91
+	shadow 8.00
+}
+{
+	diffusemap common/qrp/cop1_1
+	roughness 0.11
+	hardness 2.64
+	specularity 5.96
+	parallax 1.97
+	shadow 5.21
+}
+{
+	diffusemap common/qrp/cop1_7
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+}
+{
+	diffusemap common/qrp/ground1_5
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+}
+{
+	diffusemap common/qrp/metal2_2
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+}
+{
+	diffusemap common/qrp/metal4_4
+	roughness 0.79
+	hardness 2.86
+	specularity 2.15
+	parallax 3.35
+	shadow 6.11
+}
+{
+	diffusemap common/qrp/metal4_7
+	roughness 1.48
+	hardness 0.36
+	specularity 0.88
+	parallax 4.18
 	shadow 8.00
 }
 {
