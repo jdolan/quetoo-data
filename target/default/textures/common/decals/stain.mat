@@ -1,0 +1,11 @@
+{
+	diffusemap common/decals/stain
+	parallax 1.25
+	surface "blend_100 material"
+	contents "mist detail"
+	{
+		texture common/decals/stain
+		color 1 0 0 0.9
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
