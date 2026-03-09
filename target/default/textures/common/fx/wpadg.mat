@@ -2,7 +2,7 @@
 	diffusemap common/fx/wpadg
 	roughness 0
 	hardness 0
-	specularity 1
+	specularity 0
 	parallax 0 
 	contents "mist detail"
 	surface "blend_100 material decal"

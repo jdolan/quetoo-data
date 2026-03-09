@@ -1,5 +1,22 @@
 {
 	diffusemap common/quake/water2
-	normalmap common/quake/04mwat1
-	specularmap common/quake/04awater1
+	normalmap common/quake/water_norm
+	specularmap common/quake/water2_gloss
+	roughness 1.00
+	hardness 4.50
+	specularity 2.00
+	parallax 1.00
+	shadow 0.00
+	contents "water detail"
+	surface "blend_33 liquid"
+	{
+		texture common/quake/water2_luma
+		blend GL_SRC_COLOR GL_ONE
+		warp 0.3 0.3
+	}
+	{
+		texture common/quake/water2_glow
+		blend GL_SRC_COLOR GL_ONE
+		warp 0.2 0.2
+	}
 }

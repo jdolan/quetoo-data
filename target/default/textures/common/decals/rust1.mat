@@ -1,0 +1,5 @@
+{
+	diffusemap common/decals/rust1
+	surface "blend_100"
+	contents "mist detail"
+}

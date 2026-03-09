@@ -1,0 +1,11 @@
+{
+	diffusemap common/decals/vine06
+	normalmap common/decals/vine06_nm
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 2.00
+	shadow 1.00
+	surface "blend_100"
+	contents "mist detail"
+}

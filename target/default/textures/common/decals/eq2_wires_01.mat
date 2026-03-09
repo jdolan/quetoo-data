@@ -1,0 +1,5 @@
+{
+	diffusemap common/decals/eq2_wires_01
+	surface "blend_100"
+	contents "mist detail"
+}
