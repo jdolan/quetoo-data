@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake-fu/light3_8
+	roughness 0.33
+	hardness 1.92
+	specularity 0.57
+	shadow 5.29
+}

@@ -1,9 +1,6 @@
 {
 	diffusemap catfight/u_lamp4
 	normalmap catfight/u_lamp4_nm
-	roughness 1
-	hardness 1
-	specularity 1
 	parallax 1.5
 	shadow 0
 	{

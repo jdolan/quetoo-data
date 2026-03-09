@@ -1,9 +1,5 @@
 {
 	diffusemap omf/wpadg
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
 	shadow 0
 	contents "mist detail"
 	surface "blend_100 material decal"

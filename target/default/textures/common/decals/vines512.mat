@@ -1,11 +1,7 @@
 {
 	diffusemap common/decals/vines512
 	normalmap common/decals/vines512_nm
-	roughness 1.00
-	hardness 1.00
-	specularity 1.00
 	parallax 2.00
-	shadow 1.00
 	surface "blend_100"
 	contents "mist detail"
 }

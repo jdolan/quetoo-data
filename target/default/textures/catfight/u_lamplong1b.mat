@@ -1,8 +1,6 @@
 {
 	diffusemap catfight/u_lamplong1b
 	normalmap catfight/u_lamplong1b_nm
-	roughness 1
-	hardness 1
 	specularity 1.5
 	parallax 1.5
 	shadow 0.5

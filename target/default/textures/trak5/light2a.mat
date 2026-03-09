@@ -1,9 +1,6 @@
 {
 	diffusemap trak5/light2a
 	normalmap trak5/light2a_nm
-	roughness 1
-	hardness 1
-	specularity 1
 	parallax 2.5
 	shadow 0
 	{

@@ -3,7 +3,6 @@
 	roughness 2.00
 	hardness 2.00
 	specularity 1.20
-	parallax 1.00
 	shadow 0.00
 	{
 		texture common/quake2/light1_7fx

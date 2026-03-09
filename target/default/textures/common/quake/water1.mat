@@ -2,10 +2,8 @@
 	diffusemap common/quake/water1
 	normalmap common/quake/water_norm
 	specularmap common/quake/water1_gloss
-	roughness 1.00
 	hardness 4.50
 	specularity 2.00
-	parallax 1.00
 	shadow 0.00
 	contents "water detail"
 	surface "blend_33 liquid"

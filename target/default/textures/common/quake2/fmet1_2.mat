@@ -1,8 +1,6 @@
 {
 	diffusemap common/quake2/fmet1_2
 	roughness 2.00
-	hardness 1.00
 	specularity 1.70
-	parallax 1.00
 	shadow 0.00
 }

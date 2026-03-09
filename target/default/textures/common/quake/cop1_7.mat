@@ -2,7 +2,5 @@
 	diffusemap common/quake/cop1_7
 	roughness 2.86
 	hardness 8.00
-	specularity 1.00
-	parallax 1.00
 	shadow 0.00
 }

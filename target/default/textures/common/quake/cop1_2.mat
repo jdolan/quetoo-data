@@ -1,8 +1,6 @@
 {
 	diffusemap common/quake/cop1_2
-	roughness 1.00
 	hardness 3.00
 	specularity 2.00
-	parallax 1.00
 	shadow 0.00
 }

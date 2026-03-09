@@ -4,7 +4,6 @@
 	hardness 2.00
 	specularity 1.70
 	parallax 2.50
-	shadow 1.00
 	footsteps metal2
 	{
 		texture common/quake2/conveyor_belt

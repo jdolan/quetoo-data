@@ -2,7 +2,4 @@
 	diffusemap common/quake2/metal15_2sml
 	roughness 2.00
 	hardness 1.50
-	specularity 1.00
-	parallax 1.00
-	shadow 1.00
 }

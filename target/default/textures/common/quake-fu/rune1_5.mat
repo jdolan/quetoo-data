@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake-fu/rune1_5
+	roughness 1.02
+	hardness 3.98
+	specularity 2.00
+	parallax 3.04
+	shadow 8.00
+}

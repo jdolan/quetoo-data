@@ -1,9 +1,5 @@
 {
 	diffusemap common/sky
-	roughness 1.00
-	hardness 1.00
-	specularity 1.00
-	parallax 1.00
 	shadow 0.00
 	contents "solid"
 }

@@ -1,7 +1,5 @@
 {
 	diffusemap common/decals/tampon2
-	roughness 1
-	hardness 1
 	specularity 8
 	parallax 1.15
 	surface "blend_100 decal"

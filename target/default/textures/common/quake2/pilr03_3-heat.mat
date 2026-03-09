@@ -1,6 +1,5 @@
 {
 	diffusemap common/quake2/pilr03_3-heat
-	roughness 1
 	hardness 2.5
 	specularity 2
 	parallax 0

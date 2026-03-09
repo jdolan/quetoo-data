@@ -1,9 +1,6 @@
 {
 	diffusemap spacectf/u_floor3_pad_6
 	normalmap spacectf/u_floor3_pad_6_nm
-	roughness 1
-	hardness 1
-	specularity 1
 	parallax 2.5
 	shadow 0
 	{

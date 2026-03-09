@@ -1,4 +1,4 @@
 {
-diffusemap common/quake-fu/lava1
-contents "lava"
+	diffusemap common/quake-fu/lava1
+	contents "lava"
 }

@@ -1,9 +1,4 @@
 {
 	diffusemap common/quake2/alienpuke
-	roughness 1.00
-	hardness 1.00
-	specularity 1.00
-	parallax 1.00
-	shadow 1.00
 	surface "blend_100 decal"
 }

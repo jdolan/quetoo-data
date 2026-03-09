@@ -2,9 +2,6 @@
 	diffusemap common/quake/light3_3
 	normalmap common/quake/light3_3_norm
 	specularmap common/quake/light3_3_gloss
-	roughness 1.00
-	hardness 1.00
-	specularity 1.00
 	parallax 3.00
 	shadow 0.00
 	contents "detail"

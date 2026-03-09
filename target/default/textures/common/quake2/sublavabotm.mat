@@ -1,9 +1,5 @@
 {
 	diffusemap common/quake2/sublavabotm
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
 	shadow 0
 	{
 		texture common/quake2/sublavabotm-glow

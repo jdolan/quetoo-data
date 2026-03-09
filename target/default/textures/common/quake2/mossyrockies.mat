@@ -2,8 +2,6 @@
 	diffusemap common/quake2/mossyrockies
 	normalmap common/quake2/rockies_nm
 	roughness 2.00
-	hardness 1.00
 	specularity 2.00
-	parallax 1.00
 	shadow 0.00
 }

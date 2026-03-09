@@ -1,7 +1,6 @@
 {
 	diffusemap common/decals/quetoologo
 	normalmap common/decals/quetoologo_nm
-	roughness 1.00
 	hardness 4.00
 	specularity 2.00
 	parallax 3.00

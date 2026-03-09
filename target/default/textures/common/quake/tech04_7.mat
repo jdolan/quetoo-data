@@ -2,8 +2,4 @@
 	diffusemap common/quake/tech04_7
 	normalmap common/quake/tech04_7_norm
 	specularmap common/quake/tech04_7_gloss
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
 }

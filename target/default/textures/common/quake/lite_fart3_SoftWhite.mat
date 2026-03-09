@@ -2,11 +2,9 @@
 	diffusemap common/quake/lite_fart3_SoftWhite
 	normalmap common/quake/lite_fart3_norm
 	specularmap common/quake/lite_fart3_SoftWhite_gloss
-	roughness 1.00
 	hardness 3.76
 	specularity 1.50
 	parallax 2.00
-	shadow 1.00
 	contents "mist detail"
 	{
 		texture common/quake/lite_fart3_SoftWhite_luma

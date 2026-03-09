@@ -1,8 +1,6 @@
 {
 	diffusemap common/quake2/wlight1g
-	roughness 1.00
 	hardness 3.50
-	specularity 1.00
 	parallax 3.50
 	shadow 8.00
 	{

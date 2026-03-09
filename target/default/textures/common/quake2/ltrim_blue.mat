@@ -5,7 +5,6 @@
 	hardness 1.50
 	specularity 1.50
 	parallax 2.00
-	shadow 1.00
 	footsteps metal
 	{
 		texture common/quake2/ltrim_blue_fx

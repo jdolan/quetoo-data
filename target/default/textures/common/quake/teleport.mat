@@ -1,10 +1,6 @@
 {
 	diffusemap common/quake/#teleport
 	normalmap common/quake/#teleport_norm
-	roughness 1.00
-	hardness 1.00
-	specularity 1.00
-	parallax 1.00
 	shadow 0.00
 	contents "mist"
 	surface "liquid"

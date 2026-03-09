@@ -3,7 +3,5 @@
 	normalmap common/quake/wswamp2_3_norm
 	specularmap common/quake/wswamp2_3_gloss
 	roughness 2
-	hardness 1
-	specularity 1
 	parallax 3.15 
 }

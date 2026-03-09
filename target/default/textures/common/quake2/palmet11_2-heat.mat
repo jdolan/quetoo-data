@@ -1,10 +1,8 @@
 {
 	diffusemap common/quake2/palmet11_2-heat
 	normalmap common/quake2/palmet11_2_nm
-	roughness 1
 	hardness 1.5
 	specularity 1.5
-	parallax 1
 	shadow 0
 	{
 		texture common/quake2/glowedge

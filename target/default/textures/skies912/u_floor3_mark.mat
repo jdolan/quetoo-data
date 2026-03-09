@@ -1,9 +1,6 @@
 {
 	diffusemap skies912/u_floor3_mark
 	normalmap skies912/u_floor3_mark_nm
-	roughness 1
-	hardness 1
-	specularity 1
 	parallax 3
 	shadow 0
 	surface "blend_100"

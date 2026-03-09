@@ -1,9 +1,7 @@
 {
 	diffusemap spacectf/u_floor3_pad_7b
 	normalmap spacectf/u_floor3_pad_7b_nm
-	roughness 1
 	hardness 1.5
-	specularity 1
 	parallax 3.25
 	shadow 1.25
 	{

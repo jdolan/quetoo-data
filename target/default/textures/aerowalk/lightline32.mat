@@ -1,9 +1,6 @@
 {
 	diffusemap aerowalk/lightline32
 	normalmap aerowalk/lightline32_nm
-	roughness 1
-	hardness 1
-	specularity 1
 	parallax 2
 	shadow 0
 	{

@@ -1,6 +1,5 @@
 {
 	diffusemap common/quake/metal5_2
-	roughness 1.00
 	hardness 3.00
 	specularity 2.00
 	parallax 3.00

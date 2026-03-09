@@ -1,9 +1,6 @@
 {
 	diffusemap common/quake/metal4_4
 	normalmap common/quake/metal4_4_norm
-	roughness 1.00
 	hardness 1.50
-	specularity 1.00
 	parallax 4.00
-	shadow 1.00
 }

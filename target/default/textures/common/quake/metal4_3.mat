@@ -1,7 +1,6 @@
 {
 	diffusemap common/quake/metal4_3
 	roughness 5.14286
-	hardness 1
 	specularity 1.22449
 	parallax 8
 	shadow 8

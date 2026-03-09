@@ -1,9 +1,6 @@
 {
 	diffusemap spacectf/u_trlightline_blue
 	normalmap spacectf/u_trlightline_blue_nm
-	roughness 1
-	hardness 1
-	specularity 1
 	parallax 2.5
 	shadow 0
 	{

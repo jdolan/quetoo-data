@@ -3,7 +3,6 @@
 	roughness 1.50
 	hardness 2.00
 	specularity 1.60
-	parallax 1.00
 	shadow 0.00
 	{
 		texture common/quake2/highlampfx

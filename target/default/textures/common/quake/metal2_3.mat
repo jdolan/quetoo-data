@@ -1,8 +1,6 @@
 {
 	diffusemap common/quake/metal2_3
-	roughness 1.00
 	hardness 1.50
-	specularity 1.00
 	parallax 3.00
 	shadow 2.00
 }

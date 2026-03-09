@@ -1,10 +1,6 @@
 {
 	diffusemap evil/e6v_light
 	normalmap evil/e6v_light_nm
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1
 	shadow 0
 	{
 		scale.s 1.25

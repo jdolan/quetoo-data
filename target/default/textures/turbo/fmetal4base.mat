@@ -2,7 +2,6 @@
 	diffusemap turbo/fmetal4base
 	roughness 2
 	hardness 3
-	specularity 1
 	parallax 1.25 
 	surface "phong"
 }

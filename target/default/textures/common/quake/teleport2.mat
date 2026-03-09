@@ -1,10 +1,6 @@
 {
 	diffusemap common/quake/#teleport2
 	normalmap common/quake/#teleport_norm
-	roughness 1
-	hardness 1
-	specularity 1
-	parallax 1 
 	
 	{
 		texture common/quake/#teleport2_gloss

@@ -1,8 +1,5 @@
 {
 	diffusemap spacectf/r_trim_17
-	roughness 1
-	hardness 1
-	specularity 1
 	parallax 2.25
 	shadow 0.5
 }

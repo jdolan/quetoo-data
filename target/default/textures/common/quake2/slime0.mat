@@ -1,9 +1,6 @@
 {
 	diffusemap common/quake2/slime0
-	roughness 1.00
 	hardness 0.00
-	specularity 1.00
-	parallax 1.00
 	shadow 0.00
 	contents "slime detail"
 	surface "liquid blend_66"

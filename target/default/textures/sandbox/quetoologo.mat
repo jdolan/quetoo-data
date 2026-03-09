@@ -1,11 +1,9 @@
 {
 	diffusemap sandbox/quetoologo
 	normalmap sandbox/quetoologo_nm
-	roughness 1
 	hardness 2.5
 	specularity 2
 	parallax 2.5
-	shadow 1
 	contents "mist"
 	surface "alpha_test"
 	alpha_test 0.25
