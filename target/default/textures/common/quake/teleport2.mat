@@ -1,15 +1,18 @@
 {
 	diffusemap common/quake/#teleport2
 	normalmap common/quake/#teleport_norm
-	
 	{
-		texture common/quake/#teleport2_gloss
+		texture common/quake/teleport2
+		warp 0.50 0.50
+	}
+	{
+		texture common/quake/teleport_luma
 		blend GL_SRC_ALPHA GL_ONE
-		color 1 1 1 0.75
+		color 1 1 1 0.25
 		warp 1 1
 	}
 	{
-		texture common/quake/#teleport2_gloss
+		texture common/quake/teleport2_gloss
 		blend GL_SRC_ALPHA GL_ONE
 		color 0.5 0.36 0.53 0.65
 		warp 1.5 1.5
