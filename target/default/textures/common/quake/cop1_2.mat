@@ -1,6 +1,4 @@
 {
-	diffusemap common/quake/cop1_2
-	hardness 3.00
-	specularity 2.00
-	shadow 0.00
+	diffusemap common/quake-fu/cop1_2
+	normalmap common/quake-fu/cop1_1
 }

@@ -1,4 +1,4 @@
 {
-	diffusemap common/quake/column1_4
-	specularmap common/quake/column1_2
+	diffusemap common/quake-fu/column1_4
+	normalmap common/quake-fu/ceiling5
 }

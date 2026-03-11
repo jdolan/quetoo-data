@@ -1,8 +1,0 @@
-{
-	diffusemap common/quake-fu/water0
-	contents "water"
-	{
-		texture common/quake-fu/water0
-		warp 0.33 0.33
-	}
-}

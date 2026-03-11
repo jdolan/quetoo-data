@@ -1,6 +1,0 @@
-{
-	diffusemap common/quake/du3jed
-	normalmap common/quake/du3jed_norm
-	specularmap common/quake/du3jed_gloss
-	parallax 2.5
-}

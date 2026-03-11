@@ -1,9 +1,0 @@
-{
-	diffusemap common/quake-fu/teleport
-	contents "mist"
-	surface "blend_66"
-	{
-		texture common/quake-fu/teleport
-		warp 0.12 0.50
-	}
-}

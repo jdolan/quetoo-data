@@ -1,6 +1,0 @@
-{
-	diffusemap common/quake/basebutn3
-	normalmap common/quake/basebutn3_norm
-	specularmap common/quake/basebutn3_gloss
-	parallax 1.75
-}

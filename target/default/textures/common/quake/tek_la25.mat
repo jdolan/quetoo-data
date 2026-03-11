@@ -1,4 +1,4 @@
 {
-	diffusemap common/quake/tek_la25
-	normalmap common/quake/bw_techpanel2
+diffusemap common/quake-fu/tek_la25
+normalmap common/quake-fu/dr02_2_norm
 }

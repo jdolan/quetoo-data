@@ -1,4 +1,4 @@
 {
-	diffusemap common/quake/metal2_2
-	shadow 0.00
+	diffusemap common/quake-fu/metal2_2
+	normalmap common/quake-fu/m5_8
 }

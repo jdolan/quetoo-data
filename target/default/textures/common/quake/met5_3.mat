@@ -1,12 +1,3 @@
 {
-	diffusemap common/quake/met5_3
-	roughness 3.26531
-	hardness 5.55102
-	specularity 2.69388
-	parallax 4.08163
-	shadow 8
-	{
-		texture common/quake/met5_3_luma
-		blend GL_SRC_COLOR GL_ONE
-	}
+	diffusemap common/quake-fu/met5_3
 }

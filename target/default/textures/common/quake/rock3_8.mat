@@ -1,6 +1,0 @@
-{
-	diffusemap common/quake/rock3_8
-	normalmap common/quake/rock3_8_norm
-	specularmap common/quake/rock3_8_gloss
-	parallax 2.5
-}

@@ -1,7 +1,4 @@
 {
-	diffusemap common/quake/met5_2
-	hardness 3.00
-	specularity 2.00
-	parallax 2.50
-	shadow 0.00
+	diffusemap common/quake-fu/met5_2
+	normalmap common/quake-fu/altar1_1
 }

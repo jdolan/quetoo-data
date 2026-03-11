@@ -1,5 +1,4 @@
 {
-	diffusemap common/quake/metal1_1
-	hardness 2.00
-	shadow 0.00
+	diffusemap common/quake-fu/metal1_1
+	normalmap common/quake-fu/m5_8
 }

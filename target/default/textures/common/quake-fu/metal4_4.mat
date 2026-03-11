@@ -1,6 +1,0 @@
-{
-	diffusemap common/quake-fu/metal4_4
-	normalmap common/quake-fu/altar1_1
-	roughness 1.68
-	parallax 0.89
-}

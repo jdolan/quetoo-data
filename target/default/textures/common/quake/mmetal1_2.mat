@@ -1,6 +1,3 @@
 {
-	diffusemap common/quake/mmetal1_2
-	hardness 2.00
-	parallax 3.00
-	shadow 0.00
+	diffusemap common/quake-fu/mmetal1_2
 }

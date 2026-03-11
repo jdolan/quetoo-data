@@ -1,5 +1,4 @@
 {
-	diffusemap common/quake/wexit01
-	normalmap common/quake/exit01
-	specularmap common/quake/exit01
+	diffusemap common/quake-fu/wexit01
+	normalmap common/quake-fu/enter01
 }

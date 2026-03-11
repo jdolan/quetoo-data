@@ -1,5 +1,4 @@
 {
-	diffusemap common/quake/slime
-	normalmap common/quake/04mwat1
-	specularmap common/quake/slime1
+diffusemap common/quake-fu/slime
+contents "slime"
 }

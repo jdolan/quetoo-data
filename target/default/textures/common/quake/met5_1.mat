@@ -1,8 +1,7 @@
 {
-	diffusemap common/quake/met5_1
-	roughness 4.65306
-	hardness 4.75765
-	specularity 1.50638
-	parallax 2.35523
-	shadow 8
+	diffusemap common/quake-fu/met5_1
+	roughness 0.97
+	hardness 1.96
+	parallax 2.48
+	shadow 8.00
 }

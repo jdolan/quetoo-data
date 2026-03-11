@@ -1,8 +1,0 @@
-{
-	diffusemap common/quake/wmet4_8
-	roughness 0.98
-	hardness 3.12
-	specularity 1.51
-	parallax 3.74
-	shadow 8.00
-}

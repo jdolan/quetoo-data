@@ -1,5 +1,4 @@
 {
-	diffusemap common/quake/wizmet1_8
-	normalmap common/quake/mmetal1_8
-	specularmap common/quake/mmetal1_8
+	diffusemap common/quake-fu/wizmet1_8
+	normalmap common/quake-fu/mmetal1_6
 }

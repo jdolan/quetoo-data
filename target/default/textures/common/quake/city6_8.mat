@@ -1,5 +1,4 @@
 {
-	diffusemap common/quake/city6_8
-	parallax 2.50
-	shadow 0.00
+	diffusemap common/quake-fu/city6_8
+	normalmap common/quake-fu/city6_7
 }

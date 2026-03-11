@@ -1,0 +1,11 @@
+{
+	diffusemap evil/e6tekmtlrflr
+	heightmap evil/e6tekmtlrflr_h
+	parallax 1.55
+	hardness 3.00
+	specularity 1.25
+	{
+		texture evil/e6tekmtlrflr_h_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

@@ -1,5 +1,7 @@
 {
-	diffusemap common/quake/rune1_7
-	hardness 1.50
-	parallax 3.00
+	diffusemap common/quake-fu/rune1_7
+	hardness 2.31
+	specularity 1.29
+	parallax 2.05
+	shadow 4.65
 }

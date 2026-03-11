@@ -1,6 +1,0 @@
-{
-	diffusemap common/quake/metal4_4f
-	normalmap common/quake/metal4_4f_norm
-	hardness 1.50
-	parallax 3.00
-}
