@@ -1,7 +1,9 @@
 {
 	diffusemap turbo/fmetal4base
-	roughness 2
-	hardness 3
-	parallax 1.25 
+	roughness 2.00
+	hardness 3.00
+	specularity 1.00
+	parallax 1.25
+	shadow 1.00
 	surface "phong"
 }

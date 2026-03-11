@@ -1,4 +1,4 @@
 {
-	diffusemap common/quake-fu/metal1_5
-	normalmap common/quake-fu/metal1_4
+	diffusemap common/quake/metal1_5
+	normalmap common/quake/metal1_4
 }

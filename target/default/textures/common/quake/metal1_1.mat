@@ -1,4 +1,11 @@
 {
-	diffusemap common/quake-fu/metal1_1
-	normalmap common/quake-fu/m5_8
+	diffusemap common/quake/metal1_1
+	normalmap common/quake/metal1_1_norm
+	specularmap common/quake/metal1_1_gloss
+	roughness 1.00
+	hardness 2.04
+	specularity 1.22
+	parallax 1.96
+	shadow 1.00
+	footsteps metal
 }

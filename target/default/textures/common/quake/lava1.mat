@@ -1,8 +1,8 @@
 {
-	diffusemap common/quake-fu/lava1
+	diffusemap common/quake/lava1
 	contents "lava"
 	{
-		texture common/quake-fu/lava1
+		texture common/quake/lava1
 		warp 0.22 0.22
 	}
 }

@@ -1,8 +1,10 @@
 {
 	diffusemap common/quake2/eq2_banner
-	roughness 0
-	hardness 0
-	parallax 0.5 
+	roughness 0.00
+	hardness 0.00
+	specularity 1.00
+	parallax 2
+	shadow 1.00
 	contents "mist"
 	surface "blend_100"
 }

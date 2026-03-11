@@ -1,4 +1,8 @@
 {
-	diffusemap common/quake-fu/metal1_3
-	normalmap common/quake-fu/emetal1_3
+	diffusemap common/quake/metal1_3
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
 }

@@ -1,4 +1,4 @@
 {
-	diffusemap common/quake-fu/crate1_side
-	normalmap common/quake-fu/crate0_side
+	diffusemap common/quake/crate1_side
+	normalmap common/quake/crate0_side
 }

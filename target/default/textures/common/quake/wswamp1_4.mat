@@ -1,0 +1,11 @@
+{
+	diffusemap common/quake/wswamp1_4
+	normalmap common/quake/wswamp1_4_nm
+	heightmap common/quake/wswamp1_4_hm
+	specularmap common/quake/wswamp1_4_sm
+	roughness 1.00
+	hardness 0.75
+	specularity 1.25
+	parallax 3.02
+	shadow 2.20
+}

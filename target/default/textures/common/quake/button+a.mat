@@ -1,4 +1,4 @@
 {
-diffusemap common/quake-fu/button+a
-normalmap common/quake-fu/button+0_norm
+diffusemap common/quake/button+a
+normalmap common/quake/button+0_norm
 }

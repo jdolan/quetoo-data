@@ -1,4 +1,11 @@
 {
-	diffusemap common/quake-fu/cop2_5
-	normalmap common/quake-fu/cop1_1
+	diffusemap common/quake/cop2_5
+	normalmap common/quake/cop1_1_norm
+	specularmap common/quake/cop1_1_gloss
+	roughness 1.50
+	hardness 4.00
+	specularity 1.00
+	parallax 3.02
+	shadow 1.00
+	surface "phong"
 }

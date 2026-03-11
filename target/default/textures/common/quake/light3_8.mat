@@ -1,7 +1,19 @@
 {
-	diffusemap common/quake-fu/light3_8
-	roughness 0.33
-	hardness 1.92
-	specularity 0.57
-	shadow 5.29
+	diffusemap common/quake/light3_8
+	normalmap common/quake/light3_8_norm
+	specularmap common/quake/light3_8_gloss
+	roughness 1.00
+	hardness 1.50
+	specularity 1.00
+	parallax 4.00
+	shadow 1.00
+	{
+		scale.s 0.750
+		scale.t 1.250
+		flare flare_1
+	}
+	{
+		texture common/quake/light3_8_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
 }

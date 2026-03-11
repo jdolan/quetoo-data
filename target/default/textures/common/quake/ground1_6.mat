@@ -1,4 +1,4 @@
 {
-	diffusemap common/quake-fu/ground1_6
-	normalmap common/quake-fu/ground1_5
+	diffusemap common/quake/ground1_6
+	normalmap common/quake/ground1_5
 }

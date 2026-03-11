@@ -1,4 +1,4 @@
 {
-	diffusemap common/quake-fu/exit01
-	normalmap common/quake-fu/enter01
+	diffusemap common/quake/exit01
+	normalmap common/quake/enter01
 }

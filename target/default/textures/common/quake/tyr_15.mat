@@ -1,0 +1,10 @@
+{
+	diffusemap common/quake/tyr_15
+	normalmap common/quake/tyr_15_norm
+	specularmap common/quake/tyr_15_gloss
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+}

@@ -1,4 +1,4 @@
 {
-	diffusemap common/quake-fu/column1_5
-	normalmap common/quake-fu/column01_3
+	diffusemap common/quake/column1_5
+	normalmap common/quake/column01_3
 }

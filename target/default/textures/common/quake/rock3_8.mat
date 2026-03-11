@@ -1,0 +1,10 @@
+{
+	diffusemap common/quake/rock3_8
+	normalmap common/quake/rock3_8_norm
+	specularmap common/quake/rock3_8_gloss
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 3.18
+	shadow 1.00
+}

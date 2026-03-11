@@ -1,9 +1,15 @@
 {
-	diffusemap common/quake-fu/teleport
+	diffusemap common/quake/teleport
+	normalmap common/quake/teleport2_norm
+	specularmap common/quake/teleport2_gloss
 	contents "mist"
-	surface "blend_66"
+	surface "blend_66 material"
 	{
-		texture common/quake-fu/teleport
+		texture common/quake/teleport
 		warp 0.12 0.50
+	}
+	{
+		texture common/quake/teleport
+		warp -0.12 -0.50
 	}
 }
