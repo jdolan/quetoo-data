@@ -4,6 +4,8 @@
 	specularity 1.66
 	shadow 2.83
 	{
+		scale.s .50
+		scale.t .50
 		flare flare_0
 	}
 	{
