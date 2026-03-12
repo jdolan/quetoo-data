@@ -2,9 +2,5 @@
 	diffusemap common/quake/city2_3
 	normalmap common/quake/city2_3_norm
 	specularmap common/quake/city2_3_gloss
-	roughness 1.00
-	hardness 1.00
-	specularity 1.00
 	parallax 4.00
-	shadow 1.00
 }

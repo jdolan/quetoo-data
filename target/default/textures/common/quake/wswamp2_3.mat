@@ -2,9 +2,6 @@
 	diffusemap common/quake/wswamp2_3
 	normalmap common/quake/wswamp2_3_norm
 	specularmap common/quake/wswamp2_3_gloss
-	roughness 2.00
-	hardness 1.00
-	specularity 1.00
+	roughness 0.57
 	parallax 4.49
-	shadow 1.00
 }

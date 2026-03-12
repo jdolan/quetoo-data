@@ -6,7 +6,6 @@
 	hardness 4.00
 	specularity 1.50
 	parallax 3.00
-	shadow 1.00
 	{
 		color 1.00 0.84 0.35 1.00
 		scale.s 0.750
