@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake/wbrick1_3
+	normalmap common/quake/wbrick1_3_norm
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 4.00
+	shadow 3.02
+}

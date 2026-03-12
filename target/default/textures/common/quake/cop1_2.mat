@@ -4,8 +4,6 @@
 	specularmap common/quake/cop1_1_gloss
 	roughness 1.50
 	hardness 4.00
-	specularity 1.00
 	parallax 3.02
-	shadow 1.00
 	surface "phong"
 }

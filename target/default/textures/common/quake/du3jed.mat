@@ -2,9 +2,6 @@
 	diffusemap common/quake/du3jed
 	normalmap common/quake/du3jed_norm
 	specularmap common/quake/du3jed_gloss
-	roughness 1.00
-	hardness 1.00
-	specularity 1.00
+	roughness 1.47
 	parallax 2.04
-	shadow 1.00
 }

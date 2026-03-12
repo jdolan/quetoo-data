@@ -2,9 +2,5 @@
 	diffusemap common/quake/tyr_09
 	normalmap common/quake/tyr_09_norm
 	specularmap common/quake/tyr_09_gloss
-	roughness 1.00
-	hardness 1.00
-	specularity 1.00
 	parallax 3.51
-	shadow 1.00
 }

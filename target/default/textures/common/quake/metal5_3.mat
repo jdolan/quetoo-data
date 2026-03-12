@@ -1,10 +1,7 @@
 {
 	diffusemap common/quake/metal5_3
 	normalmap common/quake/metal5_3_norm
-	specularmap common/quake/metal5_3_gloss
-	roughness 1.25
-	hardness 2.50
-	specularity 1.00
-	parallax 4.49
-	shadow 1.00
+	hardness 3.00
+	specularity 1.50
+	parallax 4.5
 }
