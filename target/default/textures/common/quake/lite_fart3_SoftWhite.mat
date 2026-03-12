@@ -1,8 +1,21 @@
 {
-diffusemap common/quake/lite_fart3_SoftWhite
-normalmap common/quake/sd4w5gfh_norm
+	diffusemap common/quake/lite_fart3_SoftWhite
+	normalmap common/quake/lite_fart_norm
+	specularmap common/quake/lite_fart3_SoftWhite_gloss
+	roughness 1.25
+	hardness 3.75
+	specularity 1.50
+	parallax 2.75
+	shadow 1.00
+	contents "mist detail"
 	{
 		texture common/quake/lite_fart3_SoftWhite_luma
 		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.250
+		scale.t 1.250
+		color 1 0.9 0.8 0.9
+		flare flare_1
 	}
 }
