@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake/tlight02
+	{
+		texture common/quake/tlight02_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

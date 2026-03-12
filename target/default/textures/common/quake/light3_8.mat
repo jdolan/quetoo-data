@@ -5,7 +5,7 @@
 	hardness 1.50
 	parallax 4.00
 	{
-		scale.s 0.750
+		scale.s 1.250
 		scale.t 1.250
 		flare flare_1
 	}

@@ -5,4 +5,8 @@
 	specularity 1.02
 	parallax 4.77
 	shadow 8.00
+	{
+		texture common/quake/muh_bad_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
 }

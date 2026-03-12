@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake/slip+1
+	{
+		texture common/quake/slip+1_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

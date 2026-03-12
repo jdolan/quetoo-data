@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake/tele_top
+	{
+		texture common/quake/tele_top_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake/rune_a
+	{
+		texture common/quake/rune_a_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

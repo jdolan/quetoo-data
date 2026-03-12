@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake/ceil1_1
+	{
+		texture common/quake/ceil1_1_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

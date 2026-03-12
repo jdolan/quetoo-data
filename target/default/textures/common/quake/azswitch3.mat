@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake/azswitch3
+	{
+		texture common/quake/azswitch3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

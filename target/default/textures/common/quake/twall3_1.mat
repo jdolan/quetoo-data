@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake/twall3_1
+	{
+		texture common/quake/twall3_1_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

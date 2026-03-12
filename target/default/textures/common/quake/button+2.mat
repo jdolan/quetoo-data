@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake/button+2
+	{
+		texture common/quake/button+2_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

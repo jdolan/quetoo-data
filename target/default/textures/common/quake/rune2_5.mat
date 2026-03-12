@@ -5,4 +5,8 @@
 	specularity 1.07
 	parallax 2.76
 	shadow 6.17
+	{
+		texture common/quake/rune2_5_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
 }

@@ -1,4 +1,8 @@
 {
 diffusemap common/quake/lite_fart3_SoftWhite
 normalmap common/quake/sd4w5gfh_norm
+	{
+		texture common/quake/lite_fart3_SoftWhite_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
 }

@@ -3,4 +3,8 @@
 	normalmap common/quake/basebutn3_norm
 	specularmap common/quake/basebutn3_gloss
 	parallax 1.75
+	{
+		texture common/quake/basebutn3_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
 }
