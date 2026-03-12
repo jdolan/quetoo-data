@@ -2,11 +2,8 @@
 	diffusemap common/quake/light3_8
 	normalmap common/quake/light3_8_norm
 	specularmap common/quake/light3_8_gloss
-	roughness 1.00
 	hardness 1.50
-	specularity 1.00
 	parallax 4.00
-	shadow 1.00
 	{
 		scale.s 0.750
 		scale.t 1.250

@@ -1,7 +1,5 @@
 {
 	diffusemap common/quake/teleport
-	normalmap common/quake/teleport2_norm
-	specularmap common/quake/teleport2_gloss
 	contents "mist"
 	surface "blend_66 material"
 	{
