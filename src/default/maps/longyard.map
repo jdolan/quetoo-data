@@ -19357,7 +19357,7 @@
 // entity 362
 {
 "classname" "trigger_push"
-"angles" "-30 81 0"
+"angles" "-30 82 0"
 "speed" "153"
 "_tb_layer" "2"
 // brush 0
@@ -19373,7 +19373,7 @@
 // entity 363
 {
 "classname" "trigger_push"
-"angles" "-30 99 0"
+"angles" "-30 98 0"
 "speed" "153"
 "_tb_layer" "2"
 // brush 0
