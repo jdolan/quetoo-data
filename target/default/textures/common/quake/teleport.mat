@@ -1,13 +1,15 @@
 {
 	diffusemap common/quake/teleport
 	contents "mist"
-	surface "blend_66 material"
+	surface "material"
 	{
 		texture common/quake/teleport
+		color 1 1 1 .25
 		warp 0.12 0.50
 	}
 	{
 		texture common/quake/teleport
+		color 1 1 1 .25
 		warp -0.12 -0.50
 	}
 }
