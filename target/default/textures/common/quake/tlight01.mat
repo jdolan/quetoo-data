@@ -1,0 +1,18 @@
+{
+	diffusemap common/quake/tlight01
+	roughness 1.25
+	hardness 2.00
+	specularity 1.25
+	parallax 2.00
+	shadow 1.25
+	{
+		texture common/quake/tlight01_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare flare_3
+		scale.t 0.33
+		scale.s 0.33
+		color 1 0.9 0.3 0.9
+	}
+}
