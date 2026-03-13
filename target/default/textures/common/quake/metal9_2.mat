@@ -8,5 +8,6 @@
 		texture common/quake/metal9_2_luma
 		blend GL_SRC_ALPHA GL_ONE
 		color 1.50 1.50 1.50 1.00
+		pulse 0.38
 	}
 }

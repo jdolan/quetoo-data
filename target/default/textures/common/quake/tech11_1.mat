@@ -3,5 +3,6 @@
 	{
 		texture common/quake/tech11_1_luma
 		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.38
 	}
 }

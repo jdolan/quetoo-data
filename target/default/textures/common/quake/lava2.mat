@@ -27,6 +27,7 @@
 		scale.s 0.800
 		scale.t 0.750
 		warp 0.25 0.25
+		pulse 0.33
 	}
 	
 }

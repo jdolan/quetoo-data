@@ -4,5 +4,6 @@ normalmap common/quake/butn+0_norm
 	{
 		texture common/quake/butn+a_luma
 		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.30
 	}
 }
