@@ -1,4 +1,9 @@
 {
 	diffusemap common/quake/ground1_6
-	normalmap common/quake/ground1_5
+	normalmap common/quake/ground1_5_norm
+	roughness 1.47
+	hardness 0.33
+	specularity 0.33
+	parallax 3.02
+	shadow 0.98
 }

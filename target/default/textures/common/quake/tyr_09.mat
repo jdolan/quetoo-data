@@ -2,5 +2,5 @@
 	diffusemap common/quake/tyr_09
 	normalmap common/quake/tyr_09_norm
 	specularmap common/quake/tyr_09_gloss
-	parallax 3.51
+	parallax 4.00
 }
