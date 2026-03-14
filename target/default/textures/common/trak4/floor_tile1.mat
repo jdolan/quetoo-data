@@ -1,0 +1,5 @@
+{
+	diffusemap common/trak4/floor_tile1_d
+	normalmap common/trak4/floor_tile1_n
+	specularmap common/trak4/floor_tile1_s
+}

@@ -1,0 +1,5 @@
+{
+	diffusemap common/trak4/base_paint_yellow_d
+	normalmap common/trak4/base_paint_yellow_n
+	specularmap common/trak4/base_paint_yellow_s
+}

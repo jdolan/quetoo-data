@@ -1,0 +1,5 @@
+{
+	diffusemap common/trak7/panel_vent1_d
+	normalmap common/trak7/panel_vent1_n
+	specularmap common/trak7/panel_vent1_s
+}

@@ -1,0 +1,5 @@
+{
+	diffusemap common/trak6/trim_trim1_d
+	normalmap common/trak6/trim_trim1_n
+	specularmap common/trak6/trim_trim1_s
+}
