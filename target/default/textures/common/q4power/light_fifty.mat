@@ -1,0 +1,16 @@
+{
+	diffusemap common/q4power/light_fifty_d
+	normalmap common/q4power/light_fifty_local
+	heightmap common/q4power/light_fifty_h
+	specularmap common/q4power/light_fifty_s
+	shadow 0
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture common/q4power/light_fifty_g
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

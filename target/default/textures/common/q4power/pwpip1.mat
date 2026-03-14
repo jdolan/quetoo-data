@@ -1,0 +1,6 @@
+{
+	diffusemap common/q4power/pwpip1_d
+	normalmap common/q4power/pwpip1_local
+	heightmap common/q4power/pwpip1_h
+	specularmap common/q4power/pwpip1_s
+}

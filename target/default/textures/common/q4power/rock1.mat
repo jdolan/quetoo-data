@@ -1,0 +1,5 @@
+{
+	diffusemap common/q4power/rock1_d
+	normalmap common/q4power/rock1_local
+	specularmap common/q4power/rock1_s
+}

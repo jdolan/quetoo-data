@@ -1,0 +1,5 @@
+{
+	diffusemap common/q4power/glue2_d
+	heightmap common/q4power/glue2_h
+	specularmap common/q4power/glue2_s
+}

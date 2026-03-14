@@ -1,0 +1,4 @@
+{
+	diffusemap common/q4power/decals/sym2_d
+	specularmap common/q4power/decals/sym2_s
+}

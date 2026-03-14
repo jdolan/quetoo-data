@@ -1,0 +1,15 @@
+{
+	diffusemap common/q4power/light_jail_d
+	normalmap common/q4power/light_jail_local
+	heightmap common/q4power/light_jail_h
+	shadow 0
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture common/q4power/light_jail_g
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
