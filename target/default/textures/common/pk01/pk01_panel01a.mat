@@ -1,0 +1,9 @@
+{
+    diffusemap pk01/pk01_panel01a_d
+    normalmap pk01/pk01_panel01a_n
+    specularmap pk01/pk01_panel01a_s
+    {
+        texture pk01/pk01_panel01a_glow
+        blend GL_SRC_ALPHA GL_ONE
+    }
+}

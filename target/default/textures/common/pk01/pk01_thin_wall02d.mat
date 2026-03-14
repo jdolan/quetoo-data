@@ -1,0 +1,5 @@
+{
+    diffusemap pk01/pk01_thin_wall02d_d
+    normalmap pk01/pk01_thin_wall02d_n
+    specularmap pk01/pk01_thin_wall02d_s
+}

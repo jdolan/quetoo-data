@@ -1,0 +1,9 @@
+{
+    diffusemap pk02/pk02_pipes01_d
+    normalmap pk02/pk02_pipes01_n
+    specularmap pk02/pk02_pipes01_s
+    {
+        texture pk02/pk02_pipes01_glow
+        blend GL_SRC_ALPHA GL_ONE
+    }
+}

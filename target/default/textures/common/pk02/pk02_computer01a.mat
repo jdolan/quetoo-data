@@ -1,0 +1,9 @@
+{
+    diffusemap pk02/pk02_computer01a_d
+    normalmap pk02/pk02_computer01a_n
+    specularmap pk02/pk02_computer01a_s
+    {
+        texture pk02/pk02_computer01a_glow
+        blend GL_SRC_ALPHA GL_ONE
+    }
+}
