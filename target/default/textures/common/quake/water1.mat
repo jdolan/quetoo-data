@@ -1,10 +1,10 @@
 {
 	diffusemap common/quake/water1
-	surface "blend_66 liquid"
 	contents "water detail"
+	surface "liquid blend_66"
 	{
 		texture common/quake/water1
 		blend GL_SRC_ALPHA GL_ONE
-		warp 0.2 0.2
+		warp 0.20 0.20
 	}
 }

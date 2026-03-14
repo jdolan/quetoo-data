@@ -1,5 +1,10 @@
 {
 	diffusemap common/quake/afloor1_3
+	roughness 1.00
+	hardness 0.61
+	specularity 2.74
+	parallax 3.05
+	shadow 4.41
 	{
 		texture common/quake/afloor1_3_luma
 		blend GL_SRC_ALPHA GL_ONE
