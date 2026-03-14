@@ -7,7 +7,7 @@
 	shadow 0.00
 	surface "blend_33"
 	{
-		texture common/quake2/water2fx
+		texture common/fx/water2fx
 		blend GL_SRC_ALPHA GL_ONE
 		scroll.s -0.020
 		scale.s 1.250
@@ -15,7 +15,7 @@
 		warp 0.30 0.30
 	}
 	{
-		texture common/quake2/water2fx
+		texture common/fx/water2fx
 		blend GL_SRC_ALPHA GL_ONE
 		scale.s 1.000
 		scale.t 1.000
