@@ -1,5 +1,5 @@
 {
-	diffusemap common/quake2/stroggwall1_256
+	diffusemap common/decals/stroggwall1_256
 	parallax 1.05
 	shadow 0.00
 	surface "alpha_test"
