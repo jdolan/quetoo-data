@@ -1,0 +1,16 @@
+{
+	diffusemap common/trak5/light2a_d
+	normalmap common/trak5/light2_n
+	heightmap common/trak5/light2_h
+	parallax 2.5
+	shadow 0
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture common/trak5/light2a_blend
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
