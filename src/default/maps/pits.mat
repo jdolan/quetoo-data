@@ -284,7 +284,7 @@
 	shadow 0.00
 }
 {
-	diffusemap common/quake2/tampon1
+	diffusemap common/decals/tampon1
 	roughness 1.00
 	hardness 0.98
 	specularity 8.00

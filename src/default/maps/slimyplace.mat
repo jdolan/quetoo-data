@@ -15,7 +15,7 @@
 	shadow 1.00
 }
 {
-	diffusemap common/quake2/alienpuke
+	diffusemap common/decals/alienpuke
 	roughness 1.00
 	hardness 1.00
 	specularity 1.00

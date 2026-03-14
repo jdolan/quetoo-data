@@ -247,7 +247,7 @@
 	shadow 4.66
 }
 {
-	diffusemap common/quake2/stroggwall1_256
+	diffusemap common/decals/stroggwall1_256
 	roughness 1.00
 	hardness 1.00
 	specularity 1.00
