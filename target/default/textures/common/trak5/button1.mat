@@ -1,0 +1,6 @@
+{
+	diffusemap common/trak5/button1_d
+	normalmap common/trak5/button1_n
+	heightmap common/trak5/button1_h
+	parallax 2.5
+}

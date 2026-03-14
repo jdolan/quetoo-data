@@ -1,0 +1,5 @@
+{
+	diffusemap common/trak5/pipe1c_d
+	normalmap common/trak5/pipe1_n
+	parallax 2.5
+}

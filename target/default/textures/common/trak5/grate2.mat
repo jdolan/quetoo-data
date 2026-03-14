@@ -1,0 +1,6 @@
+{
+	diffusemap common/trak5/grate2_d
+	normalmap common/trak5/grate2_n
+	heightmap common/trak5/grate2_h
+	parallax 2.5
+}
