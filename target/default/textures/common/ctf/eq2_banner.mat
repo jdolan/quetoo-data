@@ -1,5 +1,5 @@
 {
-	diffusemap common/quake2/eq2_banner
+	diffusemap common/ctf/eq2_banner
 	roughness 0.00
 	hardness 0.00
 	specularity 1.00
