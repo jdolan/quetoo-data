@@ -1,9 +1,9 @@
 {
 	diffusemap common/quake2/ceil1_2
 	normalmap common/quake2/ceil1_nm
-	roughness 3.76
-	hardness 3.59
-	specularity 2.78
+	roughness 1.33
+	hardness 3.00
+	specularity 3.50
 	parallax 4.00
 	shadow 0.00
 	{
@@ -11,8 +11,6 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		scale.s 1.500
-		scale.t 1.500
 		flare flare_2
 	}
 }

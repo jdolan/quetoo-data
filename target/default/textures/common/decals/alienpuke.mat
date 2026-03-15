@@ -1,4 +1,4 @@
 {
-	diffusemap common/quake2/alienpuke
+	diffusemap common/decals/alienpuke
 	surface "blend_100 decal"
 }
