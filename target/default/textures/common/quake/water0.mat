@@ -1,5 +1,10 @@
 {
 	diffusemap common/quake/water0
+	roughness 0.00
+	parallax 2.00
+	shadow 0.00
+	hardness 8.0
+	specularity 0.90
 	surface "blend_33 liquid"
 	contents "water detail"
 	{
