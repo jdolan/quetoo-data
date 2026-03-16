@@ -8,7 +8,7 @@
 	contents "water detail"
 	surface "blend_66"
 	{
-		texture common/quake2/leaves
+		texture common/decals/leaves
 		blend GL_SRC_ALPHA GL_ONE
 		color 1.00 0.80 0.75 1.00
 		scroll.t 0.002

@@ -105,7 +105,7 @@
 	specular 4.0
 }
 {
-	material devolver/e8xgirder
+	material evil/e8xgirder
 	bump 4.0
 	hardness 2.0
 	parallax 1.5
