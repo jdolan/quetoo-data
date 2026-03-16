@@ -1,0 +1,14 @@
+{
+	diffusemap omf/metal15_2que2
+	normalmap omf/metal15_2que2_nm
+	roughness 2.40
+	hardness 1.50
+	specularity 1.70
+	parallax 2.00
+	shadow 8.00
+	
+	{
+		texture omf/metal15_2que2_fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

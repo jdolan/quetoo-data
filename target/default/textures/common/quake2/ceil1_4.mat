@@ -11,7 +11,7 @@
 		blend GL_SRC_ALPHA GL_ONE
 	}
 	{
-		color 1 0.88 0 1.00
+		color 1.00 0.88 0.00 1.00
 		flare flare_2
 	}
 }

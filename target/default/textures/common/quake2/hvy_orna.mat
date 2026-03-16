@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/hvy_orna
+	roughness 1.47
+	hardness 3.02
+	specularity 1.31
+	parallax 4.98
+	shadow 2.04
+}

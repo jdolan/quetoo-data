@@ -1,0 +1,18 @@
+{
+	diffusemap omf/wlight1
+	normalmap omf/wlight1_nm
+	roughness 1.50
+	hardness 2.00
+	specularity 1.70
+	parallax 3.00
+	shadow 0.00
+	{
+		texture omf/wlight1fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		color 0.50 0.50 0.50 1.00
+		scale.s 1.100
+		flare flare_1
+	}
+}
