@@ -1,0 +1,10 @@
+{
+	material atlantis/metalbase02
+	
+	hardness 3
+	specularity 2
+	parallax 0
+	bloom 1
+	
+	surface "phong"
+}

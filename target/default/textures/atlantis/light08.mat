@@ -1,0 +1,21 @@
+{
+	diffusemap atlantis/light08
+	normalmap atlantis/light08_nm
+	
+	parallax 2
+	bloom 1.25
+		
+	light.radius 100
+	light.intensity 0.75
+	light.color 1 0.88 0.5
+	light.shadow 1
+	{
+		texture atlantis/light08_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+}

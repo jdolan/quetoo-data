@@ -1,5 +1,12 @@
 {
 	diffusemap common/quake2/sewer2_bars
-	hardness 2.00
+	normalmap common/quake2/sewer_bars_nm
+	roughness 1.50
+	hardness 3.30
+	specularity 1.50
+	parallax 3.51
+	shadow 8.00
+	contents "detail"
 	surface "alpha_test"
+	alpha_test .5
 }

@@ -1,0 +1,6 @@
+{
+	diffusemap atlantis/metal02box-md_pale
+	normalmap atlantis/metal02box-md_nm
+	
+	parallax 1.25
+}

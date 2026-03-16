@@ -1,0 +1,12 @@
+{
+	diffusemap atlantis/metal_thing1
+	normalmap atlantis/metal_thing1_nm
+	
+	parallax 1.5
+	light.radius 75
+	light.intensity 0.75
+	{
+		texture atlantis/metal_thing1_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

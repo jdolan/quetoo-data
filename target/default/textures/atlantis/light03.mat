@@ -1,0 +1,10 @@
+{
+	material atlantis/light03
+	normalmap atlantis/light03_nm
+	
+	bloom 1.25
+	{
+		texture atlantis/light03_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

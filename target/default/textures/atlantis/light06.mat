@@ -1,0 +1,22 @@
+{
+	material atlantis/light06
+	normalmap atlantis/light06_nm
+	
+	parallax 0
+	bloom 1.25
+	
+	surface "blend_100"
+		
+	light.radius 150
+	light.intensity 0.75
+	light.shadow 0
+	{
+		texture atlantis/light06_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+}

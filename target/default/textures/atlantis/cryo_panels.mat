@@ -1,0 +1,9 @@
+{
+	diffusemap atlantis/cryo_panels
+	normalmap atlantis/cryo_panels_nm
+	parallax 1.5
+	{
+		texture atlantis/cryo_panels_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

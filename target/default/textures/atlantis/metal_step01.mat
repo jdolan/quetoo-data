@@ -1,0 +1,6 @@
+{
+	diffusemap atlantis/metal_step01
+	normalmap atlantis/metal_step01_nm
+	
+	parallax 1.5
+}

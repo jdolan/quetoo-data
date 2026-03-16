@@ -1,5 +1,6 @@
 {
 	diffusemap common/quake2/floor3_1
+	normalmap common/quake2/floor2_7_nm
 	roughness 1.93
 	hardness 2.00
 	specularity 1.30

@@ -1,0 +1,11 @@
+{
+	material atlantis/light02
+	normalmap atlantis/light02_nm2
+	
+	parallax 1.75
+	bloom 1.25
+	{
+		texture atlantis/light02_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

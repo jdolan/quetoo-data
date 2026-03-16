@@ -1,0 +1,22 @@
+{
+	diffusemap atlantis/light07b
+	normalmap atlantis/light07_nm
+	
+	parallax 2
+	bloom 1.25
+	
+	surface "phong"
+		
+	light.radius 250
+	light.intensity 0.75
+	light.shadow 0
+	{
+		texture atlantis/light07_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+}
