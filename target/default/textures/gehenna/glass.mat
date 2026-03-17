@@ -1,0 +1,14 @@
+{
+	material gehenna/glass
+	hardness 6.5
+	specularity 1.75
+	surface "blend_33"
+	contents "detail"
+	{
+		envmap gehenna/glass
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 0.5
+		scale.s 0.25
+		scale.t 0.25
+	}
+}

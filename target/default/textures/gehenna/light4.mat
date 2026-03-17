@@ -1,0 +1,15 @@
+{
+	material gehenna/light4
+	roughness 1.06122
+	hardness 2.5
+	specularity 2.36735.87755
+	surface "light"
+	light.radius 240
+	{
+		texture gehenna/light4_fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare flare_2
+	}
+}
