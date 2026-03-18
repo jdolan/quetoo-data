@@ -1,4 +1,4 @@
-[![Build Status](http://ci.quetoo.org/buildStatus/icon?job=Quetoo-Linux-x86_64)](http://ci.quetoo.org/job/Quetoo-Linux-x86_64/)
+[![Build Status](https://github.com/jdolan/quetoo-data/actions/workflows/publish.yml/badge.svg)](https://github.com/jdolan/quetoo-data/actions/workflows/publish.yml)
 [![CC-BY-SA License](https://img.shields.io/badge/license-CC--BY--SA-brightgreen.svg)](LICENSE.md)
 ![This software is BETA](https://img.shields.io/badge/development_stage-BETA-yellowgreen.svg)
 
