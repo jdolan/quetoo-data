@@ -1,0 +1,10 @@
+{
+	diffusemap common/trak5/comp1a_d
+	normalmap common/trak5/comp1_n
+	heightmap common/trak5/comp1_h
+	specularmap common/trak5/comp1_s
+	{
+		texture common/trak5/comp1_a
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

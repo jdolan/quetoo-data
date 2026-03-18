@@ -1,0 +1,16 @@
+{
+	material atlantis/glowLight
+	normalmap atlantis/glowLight_nm
+	
+	bloom 2
+	
+	surface "light"
+	contents "detail"
+
+	light.radius 450
+	light.intensity 0.35
+	{
+		texture atlantis/glowLight
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

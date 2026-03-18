@@ -1,0 +1,7 @@
+{
+	diffusemap common/decals/vine06a
+	normalmap common/decals/vine06_nm
+	parallax 2.00
+	surface "blend_100"
+	contents "mist detail"
+}

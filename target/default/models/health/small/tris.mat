@@ -1,7 +1,7 @@
 {
-	material #models/health/small/skin
-	bump 2.3
-	hardness 2.5
-	parallax 0.0
-	specular 5.0
-}
+	diffusemap #models/health/small/skin
+	roughness 5.38775
+	parallax 1.63265
+	hardness 4.08163
+	specularity 2.93878
+	parallax 1.63265

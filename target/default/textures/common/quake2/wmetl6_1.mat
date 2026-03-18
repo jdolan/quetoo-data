@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake2/wmetl6_1
+	roughness 0.70
+	hardness 3.00
+	specularity 2.00
+	shadow 0.00
+}

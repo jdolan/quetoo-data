@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/wgroove_dark
+	roughness 2.45
+	hardness 0.65
+	specularity 0.98
+	parallax 1.63
+	shadow 0.00
+}

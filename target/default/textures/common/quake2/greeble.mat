@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/greeble
+	roughness 1.45
+	hardness 1.50
+	specularity 3.83
+	parallax 3.24
+	shadow 8.00
+}

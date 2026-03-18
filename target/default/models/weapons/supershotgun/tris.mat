@@ -1,7 +1,7 @@
 {
-	material #models/weapons/supershotgun/skin
-	bump 3.5
-	hardness 2.5
-	parallax 0.0
-	specular 10.0
-}
+	diffusemap #models/weapons/supershotgun/skin
+	roughness 3.59184
+	parallax 0.244898
+	hardness 6.12245
+	specularity 2.36735
+	parallax 0.244898

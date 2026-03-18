@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake/metal5_2qrp
+	normalmap common/quake/metal5_2qrp_norm
+	hardness 1.80
+	specularity 1.5
+	parallax 4.00
+}

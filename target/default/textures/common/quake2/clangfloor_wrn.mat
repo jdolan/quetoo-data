@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/clangfloor_wrn
+	roughness 3.50
+	hardness 4.73
+	specularity 1.88
+	parallax 0.00
+	shadow 0.00
+}

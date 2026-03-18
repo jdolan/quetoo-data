@@ -1,0 +1,6 @@
+{
+	diffusemap common/quake2/fmet1_2
+	roughness 2.00
+	specularity 1.70
+	shadow 0.00
+}

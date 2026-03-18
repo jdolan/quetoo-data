@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake2/wgroove
+	roughness 0.24
+	hardness 3.54
+	specularity 1.80
+	shadow 0.17
+}

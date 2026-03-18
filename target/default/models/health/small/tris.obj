@@ -423,7 +423,7 @@ vn -0.969558 0.166562 -0.179481
 # 138 normals
 
 g mat-tex
-usemtl Material02
+usemtl skin
 s 1
 f 1/1/1 2/2/2 133/3/3
 f 1/1/1 133/3/3 134/4/4

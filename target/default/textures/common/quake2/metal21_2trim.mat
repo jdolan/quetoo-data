@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake2/metal21_2trim
+	roughness 1.22
+	hardness 2.00
+	specularity 2.50
+	parallax 1.47
+	shadow 0.00
+	footsteps metal
+}

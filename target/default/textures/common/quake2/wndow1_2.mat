@@ -1,0 +1,5 @@
+{
+	diffusemap common/quake2/wndow1_2
+	shadow 0.00
+	surface "blend_100"
+}

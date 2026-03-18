@@ -1,0 +1,6 @@
+{
+	diffusemap common/quake2/palmet11_2sml
+	hardness 1.5
+	specularity 1.5
+	shadow 0
+}

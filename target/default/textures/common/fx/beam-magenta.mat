@@ -1,0 +1,6 @@
+{
+	diffusemap common/fx/beam-magenta
+	shadow 0.00
+	contents "mist detail"
+	surface "blend_66"
+}

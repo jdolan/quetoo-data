@@ -1,0 +1,6 @@
+{
+	diffusemap atlantis/door02
+	normalmap atlantis/door02_nm
+	parallax 3
+	surface "alpha_test"
+}

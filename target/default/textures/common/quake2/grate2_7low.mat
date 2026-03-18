@@ -1,0 +1,11 @@
+{
+	diffusemap common/quake2/grate2_7low
+	roughness 1.50
+	hardness 1.50
+	specularity 1.60
+	shadow 0.00
+	{
+		texture common/quake2/glowlavalow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

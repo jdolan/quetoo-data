@@ -1,0 +1,15 @@
+{
+    diffusemap pk02/pk02_ceiling02_d
+    normalmap pk02/pk02_ceiling02_n
+    specularmap pk02/pk02_ceiling02_s
+    shadow 0
+    {
+        scale.s 1.25
+        scale.t 1.25
+        flare flare_1
+    }
+    {
+        texture pk02/pk02_ceiling02_glow
+        blend GL_SRC_ALPHA GL_ONE
+    }
+}

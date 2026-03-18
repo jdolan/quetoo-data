@@ -1,0 +1,6 @@
+{
+	diffusemap common/quake2/subdr_bann
+	hardness 1.40
+	specularity 1.80
+	parallax 2.50
+}

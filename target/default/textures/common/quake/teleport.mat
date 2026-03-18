@@ -1,0 +1,15 @@
+{
+	diffusemap common/quake/teleport
+	contents "mist"
+	surface "material"
+	{
+		texture common/quake/teleport
+		warp 0.12 0.10
+	}
+	{
+		texture common/quake/teleport
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.00 1.00 1.00 0.25
+		warp -0.12 -0.10
+	}
+}

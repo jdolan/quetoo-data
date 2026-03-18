@@ -1,0 +1,6 @@
+{
+	diffusemap common/q4power/green1_d
+	normalmap common/q4power/green1_local
+	heightmap common/q4power/green1_h
+	specularmap common/q4power/green1_s
+}

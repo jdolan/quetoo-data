@@ -1,0 +1,11 @@
+{
+	diffusemap common/quake2/pilr03_3-heat
+	hardness 2.5
+	specularity 2
+	parallax 0
+	shadow 0
+	{
+		texture common/quake2/pilr03_3-glowedge
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

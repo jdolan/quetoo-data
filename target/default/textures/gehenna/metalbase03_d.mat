@@ -1,0 +1,7 @@
+{
+	material gehenna/metalbase03_d
+	roughness 1.6
+	hardness 3
+	specularity 5.87755
+	bloom 2.44898
+}

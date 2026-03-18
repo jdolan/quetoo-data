@@ -1,0 +1,6 @@
+{
+	diffusemap atlantis/door04
+	normalmap atlantis/door04_nm
+	parallax 2
+	surface "blend_100"
+}

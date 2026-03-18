@@ -1,0 +1,17 @@
+{
+	diffusemap common/quake2/baselt_c
+	roughness 4.00
+	hardness 4.00
+	specularity 3.00
+	shadow 0.00
+	{
+		texture common/quake2/baselt_cfx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		color 1.00 0.21 0.11 1.00
+		scale.s 1.500
+		scale.t 1.500
+		flare flare_2
+	}
+}

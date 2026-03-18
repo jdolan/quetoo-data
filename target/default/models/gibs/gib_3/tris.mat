@@ -1,0 +1,5 @@
+{
+	material models/gibs/gib_3/skin
+	roughness 1.5
+	hardness 1
+	specularity 1.5

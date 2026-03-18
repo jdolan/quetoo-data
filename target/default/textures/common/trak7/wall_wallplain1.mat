@@ -1,0 +1,5 @@
+{
+	diffusemap common/trak7/wall_wallplain1_d
+	normalmap common/trak7/wall_wallplain1_n
+	specularmap common/trak7/wall_wallplain1_s
+}

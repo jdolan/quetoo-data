@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake/butn+1
+	{
+		texture common/quake/butn+1_luma
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.27
+	}
+}

@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake/city2_6
+	roughness 0.43
+	hardness 2.02
+	parallax 3.97
+	shadow 8.00
+}

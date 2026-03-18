@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake/slip+4
+	{
+		texture common/quake/slip+4_luma
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.51
+	}
+}

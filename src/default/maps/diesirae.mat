@@ -55,7 +55,7 @@
 	specularity 1.0
 }
 {
-	material diesirae/e8xgirder
+	material evil/e8xgirder
 	roughness 1.0
 	hardness 1.0
 	parallax 1.0

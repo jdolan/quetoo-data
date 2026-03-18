@@ -1,7 +1,7 @@
 {
-	material #models/ammo/slugs/skin
-	bump 1.5
-	hardness 4.0
-	parallax 0.0
-	specular 5.0
-}
+	diffusemap #models/ammo/slugs/skin
+	roughness 1.06122
+	parallax 0.326531
+	hardness 8
+	specularity 3.59184
+	parallax 0.326531

@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/rockies
+	roughness 4.00
+	hardness 1.21
+	specularity 1.95
+	parallax 2.54
+	shadow 8.00
+}

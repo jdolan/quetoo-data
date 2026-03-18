@@ -1,0 +1,17 @@
+{
+	diffusemap atlantis/light11
+	normalmap atlantis/light11_nm
+	
+	hardness 2
+	specularity 2
+	parallax 2
+	bloom 2
+		
+	light.radius 300
+	light.intensity 0.75
+	light.shadow 0
+	{
+		texture atlantis/light11_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

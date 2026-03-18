@@ -1,6 +1,6 @@
 # Wavefront OBJ exported by MilkShape 3D
 
-mtllib shotgun.mtl
+mtllib tris.mtl
 
 v 14.500000 23.201572 0.406323
 v 11.949905 23.318508 0.000116
@@ -2074,7 +2074,7 @@ vn 0.994112 0.000000 -0.108360
 # 733 normals
 
 g Regroup01
-usemtl Material01
+usemtl skin
 s 1
 f 1/1/1 2/2/2 3/3/2
 f 1/1/1 4/4/1 2/2/2
@@ -2113,7 +2113,7 @@ f 36/25/12 25/19/12 35/24/12
 # 34 triangles in group
 
 g Shotty
-usemtl Material01
+usemtl skin
 f 37/26/14 38/27/15 39/28/16
 f 40/29/17 41/30/18 42/31/19
 f 38/27/15 43/32/20 44/33/21

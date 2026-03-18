@@ -1,7 +1,7 @@
 {
-	material #models/ammo/rockets/skin
-	bump 1.5
-	hardness 4.0
-	parallax 0.0
-	specular 5.0
-}
+	diffusemap #models/ammo/rockets/skin
+	roughness 0.979592
+	parallax 0.163265
+	hardness 8
+	specularity 3.83673
+	parallax 0.163265

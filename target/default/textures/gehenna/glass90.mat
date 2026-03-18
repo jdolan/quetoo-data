@@ -1,0 +1,18 @@
+{
+	diffusemap gehenna/glass90
+	hardness 8.00
+	specularity 1.50
+	surface "blend_100"
+	contents "detail"
+	{
+		texture aerowalk/telecore_fx
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 0.75
+	}
+	{
+		envmap envmaps/envmap_2
+		color 1 1 1 0.2
+		scale.t 0.125
+		scale.s 0.125
+	}
+}

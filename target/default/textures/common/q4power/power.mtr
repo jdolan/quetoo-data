@@ -1,0 +1,727 @@
+/* =========================================================================
+	BLACK METAL texture set shader
+	  or
+	POWER PLANT texture set shader
+	  or
+	BLACK POWER texture set shader
+	  or
+	REVENGE OF E2U3 texture set shader
+
+	Lunaran, 02/06
+
+	If you're going to modify any of these shaders or add new ones
+	  for an e2u3 map of your own, please put them in a separate
+	  shader so they don't clash with other mappers' pk4s, and don't
+	  override any material names declared in this file.
+
+	Please read the above twice, out loud, and make sure you 
+	  actually understand what it says, since there's someone that 
+	  gets it wrong and breaks my map every time I release one.
+
+	See the included readme for more info on using these.
+
+========================================================================= */
+
+// 128 panels
+guide	textures/power/panel128_1	generic_shader_heightmap( "power/panel128_1", "1" )
+guide	textures/power/panel128_2	generic_shader_heightmap( "power/panel128_2", "1" )
+guide	textures/power/panel128_3	generic_shader_heightmap( "power/panel128_3", "1" )
+guide	textures/power/panel128_3b	generic_shader_heightmap( "power/panel128_3b", "1" )
+guide	textures/power/panel128_4	generic_shader_heightmap( "power/panel128_4", "4" )
+
+textures/power/panel128_4_colorable
+{
+	diffusemap	textures/power/panel128_4_d.tga
+	specularmap	textures/power/panel128_4_s.tga
+	bumpmap		addnormals(textures/power/panel128_4_local.tga, heightmap(textures/power/panel128_4_h.tga, 4))
+	{
+		blend add
+		map textures/power/panel128_4_glow.tga
+		colored
+	}
+}
+
+textures/power/panel128_4_red
+{
+	diffusemap	textures/power/panel128_4_d.tga
+	specularmap	textures/power/panel128_4_s.tga
+	bumpmap		addnormals(textures/power/panel128_4_local.tga, heightmap(textures/power/panel128_4_h.tga, 4))
+	{
+		blend add
+		map textures/power/panel128_4_glow.tga
+		red 1
+		green 0
+		blue 0
+	}
+}
+
+textures/power/panel128_4_green
+{
+	diffusemap	textures/power/panel128_4_d.tga
+	specularmap	textures/power/panel128_4_s.tga
+	bumpmap		addnormals(textures/power/panel128_4_local.tga, heightmap(textures/power/panel128_4_h.tga, 4))
+	{
+		blend add
+		map textures/power/panel128_4_glow.tga
+		red 0.4
+		green 1.2
+		blue 0
+	}
+}
+
+textures/power/panel128_4_blue
+{
+	diffusemap	textures/power/panel128_4_d.tga
+	specularmap	textures/power/panel128_4_s.tga
+	bumpmap		addnormals(textures/power/panel128_4_local.tga, heightmap(textures/power/panel128_4_h.tga, 4))
+	{
+		blend add
+		map textures/power/panel128_4_glow.tga
+		red 0.2
+		green 0
+		blue 1.5
+	}
+}
+
+guide	textures/power/panel128_5	generic_shader_heightmap( "power/panel128_5", "4" )
+
+textures/power/panel128_5_colorable
+{
+	diffusemap	textures/power/panel128_5_d.tga
+	specularmap	textures/power/panel128_5_s.tga
+	bumpmap		addnormals(textures/power/panel128_5_local.tga, heightmap(textures/power/panel128_5_h.tga, 4))
+	{
+		blend add
+		map textures/power/panel128_5_glow.tga
+		red parm0
+		green parm1
+		blue parm2
+	}
+}
+
+textures/power/panel128_5_red
+{
+	diffusemap	textures/power/panel128_5_d.tga
+	specularmap	textures/power/panel128_5_s.tga
+	bumpmap		addnormals(textures/power/panel128_5_local.tga, heightmap(textures/power/panel128_5_h.tga, 4))
+	{
+		blend add
+		map textures/power/panel128_5_glow.tga
+		red 1
+		green 0
+		blue 0
+	}
+}
+
+textures/power/panel128_5_green
+{
+	diffusemap	textures/power/panel128_5_d.tga
+	specularmap	textures/power/panel128_5_s.tga
+	bumpmap		addnormals(textures/power/panel128_5_local.tga, heightmap(textures/power/panel128_5_h.tga, 4))
+	{
+		blend add
+		map textures/power/panel128_5_glow.tga
+		red 0.4
+		green 1.2
+		blue 0
+	}
+}
+
+textures/power/panel128_5_blue
+{
+	diffusemap	textures/power/panel128_5_d.tga
+	specularmap	textures/power/panel128_5_s.tga
+	bumpmap		addnormals(textures/power/panel128_5_local.tga, heightmap(textures/power/panel128_5_h.tga, 4))
+	{
+		blend add
+		map textures/power/panel128_5_glow.tga
+		red 0.2
+		green 0
+		blue 1.5
+	}
+}
+
+guide	textures/power/panel128_6a	generic_shader_heightmap( "power/panel128_6a", "1" )
+guide	textures/power/panel128_6b	generic_shader_heightmap( "power/panel128_6b", "1" )
+guide	textures/power/panel128tri_1	generic_shader_heightmap( "power/panel128tri_1", "1" )
+
+
+// 64 panels
+guide	textures/power/panel64_0	generic_shader_heightmap( "power/panel64_0", "1" )
+guide	textures/power/panel64_1	generic_shader_heightmap( "power/panel64_1", "1" )
+guide	textures/power/panel64_2	generic_shader_heightmap( "power/panel64_2", "1" )
+guide	textures/power/panel64_2a	generic_shader_heightmap( "power/panel64_2a", "1" )
+guide	textures/power/panel64_2b	generic_shader_heightmap( "power/panel64_2b", "1" )
+guide	textures/power/panel64_3	generic_shader_heightmap( "power/panel64_3", "1" )
+guide	textures/power/panel64_3b	generic_shader_heightmap( "power/panel64_3b", "1" )
+guide	textures/power/panel64_4	generic_shader_heightmap( "power/panel64_4", "1" )
+guide	textures/power/panel64_5	generic_shader_heightmap( "power/panel64_5", "1" )
+guide	textures/power/panel64_5a	generic_shader_heightmap( "power/panel64_5a", "1" )
+guide	textures/power/panel64_5b	generic_shader_heightmap( "power/panel64_5b", "1" )
+guide	textures/power/panel64_6	generic_shader_heightmap( "power/panel64_6", "1" )
+guide	textures/power/panel64_6b	generic_shader_heightmap( "power/panel64_6b", "1" )
+guide	textures/power/panel64_7	generic_shader_heightmap( "power/panel64_7", "1" )
+guide	textures/power/panel64_7b	generic_shader_heightmap( "power/panel64_7b", "1" )
+guide	textures/power/panel64_7c	generic_shader_heightmap( "power/panel64_7c", "1" )
+guide	textures/power/panel64_7d	generic_shader_heightmap( "power/panel64_7d", "1" )
+//guide	textures/power/panel64_7e	generic_shader_heightmap( "power/panel64_7e", "1" )
+guide	textures/power/panel64tri_1	generic_shader_heightmap( "power/panel64tri_1", "1" )
+
+// Floors
+guide	textures/power/hexflr1		generic_shader_heightmap( "power/hexflr1", "1" )
+guide	textures/power/hexflr2		generic_shader_heightmap( "power/hexflr2", "1" )
+guide	textures/power/grate1		generic_shader_heightmap( "power/grate1", "1" )
+
+// Filly Inny stuff
+guide	textures/power/glue1		generic_nonormal_height( "power/glue1", "1" )
+guide	textures/power/glue2		generic_nonormal_height( "power/glue2", "1" )
+
+guide	textures/power/green1		generic_shader_heightmap( "power/green1", "1" )
+
+// Technobits
+guide	textures/power/bigmet1		generic_shader_heightmap( "power/bigmet1", "1" )
+guide	textures/power/bigmet2		generic_shader_heightmap( "power/bigmet2", "1" )
+guide	textures/power/mech1		generic_shader_heightmap( "power/mech1", "4" )
+
+textures/power/mech1_colorable
+{
+	diffusemap	textures/power/mech1_d.tga
+	specularmap	textures/power/mech1_s.tga
+	bumpmap		addnormals(textures/power/mech1_local.tga, heightmap(textures/power/mech1_h.tga, 4))
+	{
+		blend add
+		map textures/power/mech1_glow.tga
+		red parm0
+		green parm1
+		blue parm2
+	}
+}
+
+textures/power/mech1_red
+{
+	diffusemap	textures/power/mech1_d.tga
+	specularmap	textures/power/mech1_s.tga
+	bumpmap		addnormals(textures/power/mech1_local.tga, heightmap(textures/power/mech1_h.tga, 4))
+	{
+		blend add
+		map textures/power/mech1_glow.tga
+		red 1
+		green 0
+		blue 0
+	}
+}
+
+textures/power/mech1_green
+{
+	diffusemap	textures/power/mech1_d.tga
+	specularmap	textures/power/mech1_s.tga
+	bumpmap		addnormals(textures/power/mech1_local.tga, heightmap(textures/power/mech1_h.tga, 4))
+	{
+		blend add
+		map textures/power/mech1_glow.tga
+		red 0.4
+		green 1.2
+		blue 0
+	}
+}
+
+textures/power/mech1_blue
+{
+	diffusemap	textures/power/mech1_d.tga
+	specularmap	textures/power/mech1_s.tga
+	bumpmap		addnormals(textures/power/mech1_local.tga, heightmap(textures/power/mech1_h.tga, 4))
+	{
+		blend add
+		map textures/power/mech1_glow.tga
+		red 0.2
+		green 0
+		blue 1.5
+	}
+}
+
+guide	textures/power/wires1		generic_shader_heightmap( "power/wires1", "1" )
+guide	textures/power/pwpip1		generic_shader_heightmap( "power/pwpip1", "1" )
+
+// Concentrated awesome
+guide	textures/power/qcomp1		generic_shader_heightmap( "power/qcomp1", "1" )
+guide	textures/power/qcomp1glow	generic_glow("power/qcomp1g", "power/qcomp1g_glow")
+guide	textures/power/qcomp2		generic_shader_heightmap( "power/qcomp2", "1" )
+guide	textures/power/qcomp3		generic_shader_heightmap( "power/qcomp3", "1" )
+guide	textures/power/qcomp4		generic_shader_heightmap( "power/qcomp4", "1" )
+guide	textures/power/qcomp4glow	generic_glow("power/qcomp4", "power/qcomp4_glow")
+guide	textures/power/qcomp5		generic_shader_heightmap( "power/qcomp5", "1" )
+guide	textures/power/qcomp5glow	generic_glow("power/qcomp5", "power/qcomp5_glow")
+guide	textures/power/qcomp5glow2	generic_glow("power/qcomp5", "power/qcomp5_glow2")
+
+// twim (it's twue!)
+guide	textures/power/support1		generic_shader_heightmap( "power/support1", "1" )
+
+// crates so scampie can avoid thinking too hard about design
+guide	textures/power/box1a		generic_shader_heightmap( "power/box1a", "2" )
+guide	textures/power/box1b		generic_shader_heightmap( "power/box1b", "2" )
+
+// lights
+textures/power/light_r1
+{
+	diffusemap	textures/power/light_r1_d.tga
+	bumpmap		addnormals(textures/power/light_r1_local.tga, heightmap(textures/power/light_r1_h.tga, 1))
+	specularmap	textures/power/light_r1_s.tga
+	{
+		blend	add
+		map	textures/power/light_r1_g.tga
+		colored
+	}
+}
+
+textures/power/light_flouro0
+{
+	diffusemap	textures/power/light_flouro0_d.tga
+	bumpmap		addnormals(textures/power/light_flouro0_local.tga, heightmap(textures/power/light_flouro0_h.tga, 1))
+	specularmap	textures/power/light_flouro0_s.tga
+	{
+		blend	add
+		map	textures/power/light_flouro0_g.tga
+		colored
+	}
+}
+
+textures/power/light_flouro1
+{
+	diffusemap	textures/power/light_flouro1_d.tga
+	bumpmap		addnormals(textures/power/light_flouro0_local.tga, heightmap(textures/power/light_flouro1_h.tga, 1))
+	specularmap	textures/power/light_flouro1_s.tga
+	{
+		blend	add
+		map	textures/power/light_flouro1_g.tga
+		colored
+	}
+}
+
+textures/power/light_flouro0a
+{
+	diffusemap	textures/power/light_flouro0a_d.tga
+	bumpmap		addnormals(textures/power/light_flouro0a_local.tga, heightmap(textures/power/light_flouro0a_h.tga, 1))
+	specularmap	textures/power/light_flouro0a_s.tga
+	{
+		blend	add
+		map	textures/power/light_flouro0a_g.tga
+		colored
+	}
+}
+
+textures/power/light_flouro1a
+{
+	diffusemap	textures/power/light_flouro1a_d.tga
+	bumpmap		addnormals(textures/power/light_flouro0a_local.tga, heightmap(textures/power/light_flouro1a_h.tga, 1))
+	specularmap	textures/power/light_flouro1a_s.tga
+	{
+		blend	add
+		map	textures/power/light_flouro1a_g.tga
+		colored
+	}
+}
+
+textures/power/light_ceil1
+{
+	diffusemap	textures/power/light_ceil1_d.tga
+	bumpmap		heightmap(textures/power/light_ceil1_h.tga, 1)
+	{
+		blend	add
+		map	textures/power/light_ceil1_g.tga
+		colored
+	}
+}
+
+textures/power/light_fifty
+{
+	DECAL_MACRO
+	noShadows
+	noSelfShadow
+	{
+		map	textures/power/light_fifty_d.tga
+		alphatest 0.9
+		blend	diffusemap
+		maskAlpha
+	}
+	{
+		blend	bumpMap
+		map	addnormals( textures/power/light_fifty_local.tga, heightmap( textures/power/light_fifty_h.tga, 1 ) )
+	}
+	{
+		map	textures/power/light_fifty_s.tga
+		blend	specularMap
+	}
+	{
+		map	textures/power/light_fifty_g.tga
+		blend	add
+		red	parm0
+		green	parm1
+		blue	parm2
+	}
+}
+
+
+textures/power/light_fifty1
+{
+	DECAL_MACRO
+	noShadows
+	noSelfShadow
+	{
+		map	textures/power/light_fifty1_d.tga
+		alphatest 0.9
+		blend	diffusemap
+		maskAlpha
+	}
+	{
+		blend	bumpMap
+		map	addnormals( textures/power/light_fifty1_local.tga, heightmap( textures/power/light_fifty1_h.tga, 1 ) )
+	}
+	{
+		map	textures/power/light_fifty1_s.tga
+		blend	specularMap
+	}
+	{
+		map	textures/power/light_fifty1_g.tga
+		blend	add
+		red	parm0
+		green	parm1
+		blue	parm2
+	}
+}
+
+textures/power/light_fifty2
+{
+	DECAL_MACRO
+	noShadows
+	noSelfShadow
+	{
+		map	textures/power/light_fifty2_d.tga
+		alphatest 0.9
+		blend	diffusemap
+		maskAlpha
+	}
+	{
+		blend	bumpMap
+		map	addnormals( textures/power/light_fifty2_local.tga, heightmap( textures/power/light_fifty2_h.tga, 1 ) )
+	}
+	{
+		map	textures/power/light_fifty2_s.tga
+		blend	specularMap
+	}
+	{
+		map	textures/power/light_fifty2_g.tga
+		blend	add
+		red	parm0
+		green	parm1
+		blue	parm2
+	}
+}
+
+textures/power/light_jail
+{
+	diffusemap	textures/power/light_jail_d.tga
+	bumpmap		addnormals(textures/power/light_jail_local.tga, heightmap(textures/power/light_jail_h.tga, 1))
+	{
+		blend	add
+		map	textures/power/light_jail_g.tga
+		colored
+	}
+}
+
+// rawk
+guide textures/power/rock1	generic_full_noheight( "power/rock1" )
+
+// decals
+textures/power/decals/bigtext1
+{
+	DECAL_MACRO
+	translucent
+	nonsolid
+	noimpact
+	noshadows
+
+	qer_editorimage	textures/power/decals/bigtext1_d.tga
+	{
+		blend gl_dst_color,gl_src_color
+		map textures/power/decals/bigtext1_d.tga
+	}
+	{
+		blend specularMap
+		map	 textures/power/decals/bigtext1_s.tga
+	}
+}
+
+textures/power/decals/bigtext2
+{
+	DECAL_MACRO
+	translucent
+	nonsolid
+	noimpact
+	noshadows
+
+	qer_editorimage	textures/power/decals/bigtext2_d.tga
+	{
+		blend gl_dst_color,gl_src_color
+		map textures/power/decals/bigtext2_d.tga
+	}
+	{
+		blend specularMap
+		map	 textures/power/decals/bigtext2_s.tga
+	}
+}
+
+textures/power/decals/jugador
+{
+	DECAL_MACRO
+	translucent
+	nonsolid
+	noimpact
+	noshadows
+
+	qer_editorimage	textures/power/decals/jugador_d.tga
+	{
+		blend gl_dst_color,gl_src_color
+		map textures/power/decals/jugador_d.tga
+	}
+	{
+		blend specularMap
+		map	 textures/power/decals/jugador_s.tga
+	}
+}
+
+textures/power/decals/smalltext1
+{
+	DECAL_MACRO
+	translucent
+	nonsolid
+	noimpact
+	noshadows
+
+	qer_editorimage	textures/power/decals/smalltext1_d.tga
+	{
+		blend gl_dst_color,gl_src_color
+		map textures/power/decals/smalltext1_d.tga
+	}
+	{
+		blend specularMap
+		map	 textures/power/decals/smalltext1_s.tga
+	}
+}
+
+textures/power/decals/sym1
+{
+	DECAL_MACRO
+	translucent
+	nonsolid
+	noimpact
+	noshadows
+
+	qer_editorimage	textures/power/decals/sym1_d.tga
+	{
+		blend gl_dst_color,gl_src_color
+		map textures/power/decals/sym1_d.tga
+	}
+	{
+		blend specularMap
+		map	 textures/power/decals/sym1_s.tga
+	}
+}
+
+textures/power/decals/sym2
+{
+	DECAL_MACRO
+	translucent
+	nonsolid
+	noimpact
+	noshadows
+
+	qer_editorimage	textures/power/decals/sym2_d.tga
+	{
+		blend gl_dst_color,gl_src_color
+		map textures/power/decals/sym2_d.tga
+	}
+	{
+		blend specularMap
+		map	 textures/power/decals/sym2_s.tga
+	}
+}
+
+textures/power/decals/cord1
+{
+	DECAL_MACRO
+	translucent
+	nonsolid
+	noimpact
+	noshadows
+
+	qer_editorimage	textures/power/decals/cord1_d.tga
+	{
+		blend gl_dst_color,gl_src_color
+		map textures/power/decals/cord1_d.tga
+	}
+	{
+		blend specularMap
+		map textures/power/decals/cord1_s.tga
+	}
+}
+
+textures/power/decals/cord2
+{
+	DECAL_MACRO
+	translucent
+	nonsolid
+	noimpact
+	noshadows
+
+	qer_editorimage	textures/power/decals/cord2_d.tga
+	{
+		blend gl_dst_color,gl_src_color
+		map textures/power/decals/cord2_d.tga
+	}
+	{
+		blend specularMap
+		map textures/power/decals/cord1_s.tga
+	}
+}
+
+textures/power/models/pad
+{
+	noselfShadow
+	noshadows
+	nonsolid
+	renderbump  -size 1024 1024 -aa 2 -trace .06 -mergehigh textures/power/models/pad_local.tga models/mapobjects/power/pad_hi.lwo
+
+	bumpmap		textures/power/models/pad_local.tga
+	diffusemap	textures/power/models/pad_d.tga
+	specularmap	textures/power/models/pad_s.tga
+	{
+		map textures/power/models/pad_g.tga
+		blend add
+		colored
+	}
+}
+
+textures/power/models/paddecal
+{
+	noselfShadow
+	noshadows
+	nonsolid
+
+	bumpmap		textures/power/models/paddecal_local.tga
+	specularmap	textures/power/models/paddecal_s.tga
+	{
+		blend diffusemap
+		map textures/power/models/paddecal_d.tga
+		alphaTest 0.5
+	}
+	{
+		map textures/power/models/paddecal_g.tga
+		blend add
+		colored
+	}
+}
+
+// new hotness
+textures/power/fx/lava
+{
+	nonsolid
+	noimpact
+	noshadows
+	qer_editorimage textures/power/fx/lava_hot1.tga
+	{
+		map textures/power/fx/lava_hot1.tga
+		blend diffusemap
+		vertexColor
+		scroll 0,0.05*time * parm7
+		shear 0.04 * firetable2[time*0.05] * parm7, 0
+	}
+	{
+		map textures/power/fx/lava_hot2.tga
+		blend add
+		vertexColor
+		scroll 0,-0.01*time * parm7
+		shear 0.05 * firetable2[time*0.05] * parm7, 0
+	}
+	{
+		map textures/power/fx/lava_hot4.tga
+		blend filter
+		centerscale 0.5,0.5
+		scroll 0, 0.05 * time * parm7
+	}
+}
+
+textures/power/fx/lava_nvx
+{
+	nonsolid
+	noimpact
+	noshadows
+	qer_editorimage textures/power/fx/lava_hot1.tga
+	{
+		map textures/power/fx/lava_hot1.tga
+		blend diffusemap
+		colored
+		scroll 0,0.05*time * parm7
+		shear 0.04 * firetable2[time*0.05] * parm7, 0
+	}
+	{
+		map textures/power/fx/lava_hot2.tga
+		blend add
+		colored
+		scroll 0,-0.01*time * parm7
+		shear 0.05 * firetable2[time*0.05] * parm7, 0
+	}
+	{
+		map textures/power/fx/lava_hot4.tga
+		blend filter
+		centerscale 0.5,0.5
+		scroll 0, 0.05 * time * parm7
+	}
+}
+
+
+// new sliminess
+textures/power/fx/slime
+{
+	nonsolid
+	noimpact
+	noshadows
+	qer_editorimage textures/power/fx/slime1.tga
+	{
+		map textures/power/fx/slime1.tga
+		blend diffusemap
+		colored
+		scroll -0.03 * time, 0.1
+	}
+	{
+		map textures/power/fx/slime2.tga
+		blend GL_DST_COLOR, GL_SRC_COLOR
+		scroll 0.2, 0.06 * time
+	}
+	{
+		map textures/power/fx/slime3.tga
+		blend add
+		colored
+		scroll 0.02 * time, -0.2
+	}
+	{
+		map textures/power/fx/slime2.tga
+		blend GL_DST_COLOR, GL_SRC_COLOR
+		rotate .25
+		scroll -0.04 * time + 0.5, 0.2
+	}
+}
+/*
+textures/power/biggunsky
+{
+	noFragment
+	forceOpaque
+	noImpact
+	noShadows
+	{
+		noPicMip
+		blend		add
+		cameraCubeMap	textures/power/env/gun
+		texgen		skybox
+	}
+}
+*/

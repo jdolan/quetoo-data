@@ -3415,7 +3415,6 @@
 {
 "classname" "item_health_mega"
 "origin" "192 -64 272"
-"angle" "270"
 }
 // entity 4
 {
@@ -3436,7 +3435,6 @@
 {
 "classname" "item_armor_combat"
 "origin" "192 192 48"
-"angle" "180"
 }
 // entity 8
 {
@@ -3447,157 +3445,131 @@
 {
 "classname" "ammo_rockets"
 "origin" "-368 240 16"
-"angle" "180"
 }
 // entity 10
 {
 "classname" "ammo_rockets"
 "origin" "-368 272 16"
-"angle" "180"
 }
 // entity 11
 {
 "classname" "ammo_grenades"
 "origin" "480 -384 400"
-"angle" "180"
 }
 // entity 12
 {
 "classname" "ammo_slugs"
 "origin" "80 -480 400"
-"angle" "180"
 }
 // entity 13
 {
 "classname" "ammo_rockets"
 "origin" "480 -80 400"
-"angle" "180"
 }
 // entity 14
 {
 "classname" "ammo_rockets"
 "origin" "480 -48 400"
-"angle" "180"
 }
 // entity 15
 {
 "classname" "item_armor_shard"
 "origin" "320 352 416"
-"angle" "180"
 }
 // entity 16
 {
 "classname" "item_armor_shard"
 "origin" "192 352 416"
-"angle" "180"
 }
 // entity 17
 {
 "classname" "item_armor_shard"
 "origin" "224 352 416"
-"angle" "180"
 }
 // entity 18
 {
 "classname" "item_armor_shard"
 "origin" "288 352 416"
-"angle" "180"
 }
 // entity 19
 {
 "classname" "item_armor_shard"
 "origin" "256 352 416"
-"angle" "180"
 }
 // entity 20
 {
 "classname" "ammo_bullets"
 "origin" "320 32 16"
-"angle" "0"
 }
 // entity 21
 {
 "classname" "ammo_bullets"
 "origin" "352 32 16"
-"angle" "0"
 }
 // entity 22
 {
 "classname" "ammo_bullets"
 "origin" "288 32 16"
-"angle" "0"
 }
 // entity 23
 {
 "classname" "item_health_small"
 "origin" "-320 -64 16"
-"angle" "90"
 }
 // entity 24
 {
 "classname" "item_health_small"
 "origin" "-320 -32 16"
-"angle" "90"
 }
 // entity 25
 {
 "classname" "item_health_small"
 "origin" "-320 0 16"
-"angle" "90"
 }
 // entity 26
 {
 "classname" "item_health_small"
 "origin" "-320 -96 16"
-"angle" "90"
 }
 // entity 27
 {
 "classname" "item_health_small"
 "origin" "-320 -128 16"
-"angle" "90"
 }
 // entity 28
 {
 "classname" "item_armor_shard"
 "origin" "448 -128 48"
-"angle" "180"
 }
 // entity 29
 {
 "classname" "item_armor_shard"
 "origin" "448 -96 48"
-"angle" "180"
 }
 // entity 30
 {
 "classname" "item_armor_shard"
 "origin" "448 -64 48"
-"angle" "180"
 }
 // entity 31
 {
 "classname" "item_armor_shard"
 "origin" "448 -32 48"
-"angle" "180"
 }
 // entity 32
 {
 "classname" "item_armor_shard"
 "origin" "448 0 48"
-"angle" "180"
 }
 // entity 33
 {
 "classname" "ammo_shells"
 "origin" "480 -352 16"
-"angle" "270"
 }
 // entity 34
 {
 "classname" "ammo_shells"
 "origin" "352 -480 16"
-"angle" "180"
 }
 // entity 35
 {
@@ -3640,49 +3612,41 @@
 {
 "classname" "item_health"
 "origin" "480 352 400"
-"angle" "180"
 }
 // entity 42
 {
 "classname" "item_health"
 "origin" "480 320 400"
-"angle" "180"
 }
 // entity 43
 {
 "classname" "item_health"
 "origin" "-160 32 16"
-"angle" "180"
 }
 // entity 44
 {
 "classname" "item_health"
 "origin" "-192 32 16"
-"angle" "180"
 }
 // entity 45
 {
 "classname" "item_armor_combat"
 "origin" "-320 320 408"
-"angle" "180"
 }
 // entity 46
 {
 "classname" "item_health"
 "origin" "256 -144 16"
-"angle" "180"
 }
 // entity 47
 {
 "classname" "item_health"
 "origin" "288 -144 16"
-"angle" "180"
 }
 // entity 48
 {
 "classname" "item_armor_combat"
 "origin" "-192 -160 408"
-"angle" "90"
 }
 // entity 49
 {
@@ -3693,55 +3657,46 @@
 {
 "classname" "item_health"
 "origin" "352 400 16"
-"angle" "0"
 }
 // entity 51
 {
 "classname" "item_health"
 "origin" "352 368 16"
-"angle" "0"
 }
 // entity 52
 {
 "classname" "item_health"
 "origin" "128 -144 16"
-"angle" "0"
 }
 // entity 53
 {
 "classname" "item_health"
 "origin" "96 -144 16"
-"angle" "0"
 }
 // entity 54
 {
 "classname" "ammo_grenades"
 "origin" "384 -480 400"
-"angle" "0"
 }
 // entity 55
 {
 "classname" "item_adrenaline"
 "origin" "-192 -224 408"
-"angle" "270"
 }
 // entity 56
 {
 "classname" "ammo_slugs"
 "origin" "48 -480 400"
-"angle" "0"
 }
 // entity 57
 {
 "classname" "ammo_shells"
 "origin" "-208 -480 400"
-"angle" "0"
 }
 // entity 58
 {
 "classname" "ammo_shells"
 "origin" "-176 -480 400"
-"angle" "0"
 }
 // entity 59
 {
@@ -3770,11 +3725,11 @@
 {
 "classname" "light"
 "origin" "504 376 504"
-"light" "200"
+"radius" "200"
 }
 // entity 64
 {
-"light" "100"
+"radius" "100"
 "origin" "72 312 456"
 "classname" "light"
 }
@@ -3782,7 +3737,7 @@
 {
 "classname" "light"
 "origin" "480 -64 456"
-"light" "100"
+"radius" "100"
 }
 // entity 66
 {

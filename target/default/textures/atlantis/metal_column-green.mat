@@ -1,0 +1,6 @@
+{
+	diffusemap atlantis/metal_column-green
+	normalmap atlantis/metal_column-green_nm
+	
+	parallax 4
+}

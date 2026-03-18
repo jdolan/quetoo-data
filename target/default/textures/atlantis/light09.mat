@@ -1,0 +1,14 @@
+{
+	diffusemap atlantis/light09
+	normalmap atlantis/light09_nm
+	
+	hardness 2
+	specularity 2
+	parallax 2
+	bloom 2
+	
+	{
+		texture atlantis/light09_glow2
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

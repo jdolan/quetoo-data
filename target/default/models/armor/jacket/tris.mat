@@ -1,7 +1,7 @@
 {
-	material #models/armor/jacket/skin
-	bump 3.0
-	hardness 9.0
-	parallax 0.0
-	specular 12.0
-}
+	diffusemap #models/armor/jacket/skin
+	roughness 3.10204
+	parallax 0.571429
+	hardness 4.81633
+	specularity 2.53061
+	parallax 0.571429

@@ -1,0 +1,6 @@
+{
+	diffusemap atlantis/door03
+	normalmap atlantis/door03_nm
+	parallax 2.5
+	surface ""
+}

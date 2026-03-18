@@ -1,0 +1,8 @@
+{
+	diffusemap common/trak5/dirscreen1_d
+	shadow 0
+	{
+		texture common/trak5/dirscreen1_glo
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

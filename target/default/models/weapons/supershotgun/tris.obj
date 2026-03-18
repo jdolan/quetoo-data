@@ -2432,7 +2432,7 @@ vn 0.230752 0.547848 0.804124
 # 968 normals
 
 g ssggroup
-usemtl Material01
+usemtl skin
 s 16
 f 1/1/1 2/2/2 3/3/3
 f 2/2/2 4/4/4 3/3/3

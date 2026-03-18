@@ -1,0 +1,5 @@
+{
+	diffusemap common/quake/rock4_1
+	normalmap common/quake/rock4_1_norm
+	specularmap common/quake/rock4_1_gloss
+}

@@ -1,0 +1,8 @@
+{
+	material atlantis/metalbase03a
+	
+	hardness 3
+	specularity 2
+	parallax 0
+	bloom 1
+}

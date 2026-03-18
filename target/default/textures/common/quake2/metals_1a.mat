@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/metals_1a
+	normalmap common/quake2/metal4_2a_nm
+	roughness 2.40
+	hardness 1.50
+	specularity 1.70
+	parallax 2.00
+}

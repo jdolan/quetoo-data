@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake/cop1_1trim
+	normalmap common/quake/cop1_1trim_norm
+	roughness 1.25
+	hardness 2.00
+	specularity 1.50
+	parallax 3.25
+	shadow 1.25
+}

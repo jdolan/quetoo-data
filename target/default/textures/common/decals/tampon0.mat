@@ -1,0 +1,12 @@
+{
+	diffusemap common/decals/tampon0
+	specularity 8
+	parallax 1.15
+	surface "blend_100 decal"
+	contents "mist detail"
+	{
+		texture common/decals/tampon0
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 0 0 1
+	}
+}

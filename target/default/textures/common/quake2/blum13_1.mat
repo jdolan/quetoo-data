@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake2/blum13_1
+	roughness 0.80
+	hardness 1.40
+	specularity 2.00
+	shadow 0.00
+}

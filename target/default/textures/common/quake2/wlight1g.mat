@@ -1,0 +1,16 @@
+{
+	diffusemap common/quake2/wlight1g
+	hardness 3.50
+	parallax 3.50
+	shadow 8.00
+	{
+		texture common/quake2/wlight1fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		color 0.90 0.73 0.40 1.00
+		scale.s 1.250
+		scale.t 1.250
+		flare flare_0
+	}
+}

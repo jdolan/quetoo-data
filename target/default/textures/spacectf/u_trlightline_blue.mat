@@ -1,0 +1,16 @@
+{
+	diffusemap spacectf/u_trlightline_blue
+	normalmap spacectf/u_trlightline_blue_nm
+	parallax 2.5
+	shadow 0
+	{
+		texture spacectf/u_trlightline_blue_blend
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		texture spacectf/u_trlightline_blue_blend
+		blend GL_SRC_ALPHA GL_ONE
+		color 2 2 2 0.75
+		pulse 1
+	}
+}

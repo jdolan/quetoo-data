@@ -1,0 +1,6 @@
+{
+	diffusemap common/q4power/grate1_d
+	normalmap common/q4power/grate1_local
+	heightmap common/q4power/grate1_h
+	specularmap common/q4power/grate1_s
+}

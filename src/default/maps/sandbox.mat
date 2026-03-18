@@ -1,226 +1,119 @@
 {
-	material common/caulk
+	diffusemap common/black
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
 }
-
 {
-	material common/black
+	diffusemap common/caulk
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
 }
-
 {
-	material common/sky
+	diffusemap common/ladder
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
 }
-
 {
-	material common/ladder
+	diffusemap common/prototype/dark
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 2.00
+	shadow 1.00
 }
-
 {
-	material sandbox/grid
-	roughness 1.0
-	hardness 0.5
-	specularity 2.0
-	parallax 0.5
-}
-
-{
-	material sandbox/dark
-	roughness 1.0
-	hardness 0.5
-	specularity 2.0
-	parallax 0.5
-}
-
-{
-	material sandbox/trim
-	roughness 1.0
-	hardness 0.5
-	specularity 2.0
-	parallax 0.5
-}
-
-{
-	material sandbox/water
-	roughness 1.0
-	hardness 1.0
-	specularity 2.0
-	parallax 1.0
-	contents water
-	surface material
+	diffusemap common/prototype/green
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+	surface "liquid"
+	contents "slime detail"
 	{
-		texture sandbox/water
-		warp 1 1
-		lightmap
+		texture common/prototype/green
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 0.5
+		warp 0.35 0.35
 	}
 }
-
 {
-	material sandbox/quetoologo
-	roughness 1.2
-	hardness 4.0
-	specularity 6.0
-	parallax 0.3
+	diffusemap common/prototype/grid
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 2.00
+	shadow 1.00
 }
-
 {
-	material sandbox/red_alpha_90
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
+	diffusemap common/prototype/lilac
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 2.00
+	shadow 1.00
 }
-
 {
-	material sandbox/red_alpha_60
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
+	diffusemap common/prototype/ltblue
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+	surface "liquid blend_66"
+	contents "water detail"
+	{
+		texture common/fx/water_fx
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 0.5
+		warp 0.5 0.5
+	}
 }
-
 {
-	material sandbox/red_alpha_30
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
+	diffusemap common/prototype/orange
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
+	surface "liquid"
+	contents "lava detail"
+	{
+		texture common/prototype/orange
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 0.5
+		warp 0.25 0.25
+	}
 }
-
 {
-	material sandbox/green_alpha_90
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
+	diffusemap common/quetoologo
+	roughness 1.00
+	hardness 2.50
+	specularity 2.00
+	parallax 2.50
+	shadow 1.00
+	surface "alpha_test blend_100"
+	contents "mist detail"
+	{
+		texture common/quetoologo_glow
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.5 1.5 1.5 0.65
+	}
 }
-
 {
-	material sandbox/green_alpha_60
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-{
-	material sandbox/green_alpha_30
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-{
-	material sandbox/blue_alpha_90
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-{
-	material sandbox/blue_alpha_60
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-{
-	material sandbox/blue_alpha_30
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-{
-	material sandbox/magenta_alpha_90
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-{
-	material sandbox/magenta_alpha_60
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-{
-	material sandbox/magenta_alpha_30
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-
-{
-	material sandbox/yellow_alpha_90
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-{
-	material sandbox/yellow_alpha_60
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-{
-	material sandbox/yellow_alpha_30
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-
-{
-	material sandbox/cyan_alpha_90
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-{
-	material sandbox/cyan_alpha_60
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
-}
-
-{
-	material sandbox/cyan_alpha_30
-	roughness 1.0
-	hardness 0.5
-	specularity 1.0
-	parallax 0.0
-	surface blend_33 blend_66
+	diffusemap common/sky
+	roughness 1.00
+	hardness 1.00
+	specularity 1.00
+	parallax 1.00
+	shadow 1.00
 }

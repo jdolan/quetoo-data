@@ -1,0 +1,7 @@
+{
+	diffusemap common/decals/moss
+	normalmap common/decals/moss_nm
+	parallax 2.00
+	surface "blend_100"
+	contents "mist detail"
+}

@@ -1,0 +1,24 @@
+{
+	diffusemap common/quake2/water2
+	roughness 0.00
+	hardness 0.00
+	specularity 8.00
+	parallax 0.00
+	shadow 0.00
+	surface "blend_33"
+	{
+		texture common/fx/water2fx
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.s -0.020
+		scale.s 1.250
+		scale.t 1.250
+		warp 0.30 0.30
+	}
+	{
+		texture common/fx/water2fx
+		blend GL_SRC_ALPHA GL_ONE
+		scale.s 1.000
+		scale.t 1.000
+		warp 0.40 0.40
+	}
+}

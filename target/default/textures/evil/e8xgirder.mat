@@ -1,0 +1,8 @@
+{
+	diffusemap evil/e8xgirder
+	roughness 1.50
+	hardness 0.50
+	specularity 1.30
+	shadow 0.00
+	surface "alpha_test"
+}

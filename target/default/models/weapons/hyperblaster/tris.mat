@@ -1,10 +1,11 @@
 {
-	material #models/weapons/hyperblaster/skin
-	bump 2.0
-	hardness 1.8
-	parallax 0.0
-	specular 8.0
-	{
+	diffusemap #models/weapons/hyperblaster/skin
+	roughness 5.22449
+	parallax 0.0816327
+	hardness 8
+	specularity 2.28571
+	parallax 0.0816327
+		{
 		texture #models/weapons/hyperblaster/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 0.6

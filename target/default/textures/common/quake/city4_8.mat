@@ -1,0 +1,6 @@
+{
+	diffusemap common/quake/city4_8
+	normalmap common/quake/city4_1_norm
+	specularmap common/quake/city4_1_gloss
+	parallax 3.67
+}

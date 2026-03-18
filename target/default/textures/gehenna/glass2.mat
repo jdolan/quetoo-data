@@ -1,0 +1,14 @@
+{
+	material gehenna/glass2
+	hardness 2.44898
+	specularity 3.18367
+	surface "blend_100"
+	{
+		texture gehenna/plasma
+		scroll.s 1
+	}
+	{
+		texture gehenna/plasma2
+		scroll.s -1
+	}
+}

@@ -1,0 +1,10 @@
+{
+	diffusemap common/quake/lava1_flow
+	surface "material"
+	contents "lava"
+	{
+		texture common/quake/lava1_flow
+		scroll.t 0.125
+		warp 0.22 0.22
+	}
+}

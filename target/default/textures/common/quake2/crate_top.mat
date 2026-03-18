@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake2/crate_top
+	roughness 2.00
+	hardness 1.80
+	specularity 1.50
+	shadow 0.00
+}

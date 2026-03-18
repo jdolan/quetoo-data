@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/crate256rtc
+	roughness 2.00
+	hardness 1.80
+	specularity 1.50
+	parallax 2.04
+	shadow 0.00
+}

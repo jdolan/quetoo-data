@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake/dr05_2
+	roughness 1.25
+	hardness 2.50
+	specularity 2.00
+	parallax 3.00
+	shadow 1.50
+}

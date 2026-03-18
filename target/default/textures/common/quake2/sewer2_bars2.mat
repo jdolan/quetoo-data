@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake2/sewer2_bars2
+	roughness 0.98
+	hardness 2.04
+	specularity 1.22
+	parallax 2.53
+}

@@ -1,0 +1,6 @@
+{
+	diffusemap common/quake2/cobweb
+	shadow 0.00
+	contents "mist detail"
+	surface "blend_100"
+}

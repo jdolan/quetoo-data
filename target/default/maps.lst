@@ -28,9 +28,12 @@
 #{
 #	name aerowalk
 #}
-#{
-#	name darkzone
-#}
+{
+	name claustrophobopolis
+}
+{
+	name darkzone
+}
 #{
 #	name omf
 #}
@@ -49,9 +52,9 @@
 #{
 #	name lilith
 #}
-{
-	name torn
-}
+#{
+#	name torn
+#}
 #{
 #	name turbo
 #}
@@ -61,5 +64,13 @@
 #{
 #	name wake
 #}
-
+{
+	name fraggin
+}
+{
+	name chthon
+}
+{
+	name longyard
+}
 # End of file

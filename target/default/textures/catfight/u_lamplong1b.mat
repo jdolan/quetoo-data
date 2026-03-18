@@ -1,0 +1,16 @@
+{
+	diffusemap catfight/u_lamplong1b
+	normalmap catfight/u_lamplong1b_nm
+	specularity 1.5
+	parallax 1.5
+	shadow 0.5
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture catfight/u_lamplong1b_fx
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

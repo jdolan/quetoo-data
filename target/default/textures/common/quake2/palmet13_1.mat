@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/palmet13_1
+	roughness 1.19005
+	hardness 0.993304
+	specularity 1.5
+	parallax 3.01499
+	shadow 8
+}

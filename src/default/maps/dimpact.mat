@@ -54,7 +54,7 @@
 	}
 }
 {
-	material diesirae/e8xgirder
+	material evil/e8xgirder
 	bump 1.0
 	hardness 1.0
 	parallax 1.0
@@ -213,7 +213,6 @@
 		flare flare_0
 	}
 }
-
 {
 	material dimpact/light_flouro1a
 	bump 1.0

@@ -1,0 +1,14 @@
+{
+	diffusemap evil/e6v_light
+	normalmap evil/e6v_light_nm
+	shadow 0
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+	{
+		texture evil/e6v_light_blend
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

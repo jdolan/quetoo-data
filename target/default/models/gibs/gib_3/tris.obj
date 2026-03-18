@@ -670,7 +670,7 @@ vn -0.152010 -0.988032 -0.026196
 # 215 normals
 
 g default
-usemtl Material01
+usemtl skin
 s 1
 f 1/1/1 2/2/2 3/3/3
 f 1/1/1 3/3/3 4/4/4

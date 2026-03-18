@@ -1,7 +1,8 @@
 {
-	material #models/ammo/bullets/skin
-	bump 1.5
-	hardness 4.0
-	parallax 0.0
-	specular 5.0
+	diffusemap #models/ammo/bullets/skin
+	roughness 1.06122
+	parallax 0.489796
+	hardness 8
+	specularity 4.57143
+	parallax 0.489796
 }

@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/sublava
+	shadow 0
+	{
+		texture common/quake2/sublava-glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

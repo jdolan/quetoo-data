@@ -1,0 +1,19 @@
+{
+	material atlantis/light05-strip
+	normalmap atlantis/light05-strip_nm
+	
+	parallax 2
+	bloom 1
+		
+	light.radius 500
+	light.intensity 0.75
+	{
+		texture atlantis/light05-strip_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+}

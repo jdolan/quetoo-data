@@ -1,0 +1,6 @@
+{
+	diffusemap common/q4power/hexflr1_d
+	normalmap common/q4power/hexflr1_local
+	heightmap common/q4power/hexflr1_h
+	specularmap common/q4power/hexflr1_s
+}

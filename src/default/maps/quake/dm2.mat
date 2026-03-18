@@ -1,0 +1,277 @@
+{
+	material common/caulk
+	roughness 1
+	hardness 1
+	specularity 1
+}
+{
+	material common/clip
+	roughness 1
+	hardness 1
+	specularity 1
+}
+{
+	material common/dust
+	roughness 1
+	hardness 1
+	specularity 1
+}
+{
+	material common/fog
+	roughness 1
+	hardness 1
+	specularity 1
+}
+{
+	material common/occlude
+	roughness 1
+	hardness 1
+	specularity 1
+}
+{
+	material common/sky
+	roughness 1
+	hardness 1
+	specularity 1
+}
+{
+	material common/trigger
+	roughness 1
+	hardness 1
+	specularity 1
+}
+{
+	material rygel/#04mwat2
+	roughness 0.653061
+	hardness 5.95918
+	specularity 0.244898
+		contents "water"
+	surface "blend_33"
+	{
+		texture rygel/#04mwat2
+	}
+	{
+		texture rygel/#04mwat2
+		warp 0.4 1
+	}
+}
+{
+	material rygel/#lava1
+	roughness 1
+	hardness 1
+	specularity 1.71429
+		contents "lava"
+	surface "blend_66"
+	{
+		texture rygel/#lava1
+		warp 0.2 0.2
+		lightmap
+	}
+}
+{
+	material rygel/#teleport
+	roughness 0.979592
+	hardness 0.979592
+	specularity 0.979592
+		{
+		texture rygel/#teleport
+		warp 0.125 0.5
+		lightmap
+	}
+}
+{
+	material rygel/cop1_1
+	roughness 3.02041
+	hardness 1
+	specularity 3.5102
+}
+{
+	material rygel/cop3_4
+	roughness 1.71429
+	hardness 1
+	specularity 2.85714
+}
+{
+	material rygel/light3_7
+	roughness 1.14286
+	hardness 7.18367
+	specularity 3.02041
+		{
+		texture rygel/light3_7_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare flare_1
+	}
+}
+{
+	material rygel/light3_8
+	roughness 1.46939
+	hardness 5.71429
+	specularity 2.12245
+		{
+		texture rygel/light3_8_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		flare flare_1
+	}
+}
+{
+	material rygel/met5_1
+	roughness 1.06122
+	hardness 4
+	specularity 4.40816
+}
+{
+	material rygel/met5_2
+	roughness 1.55102
+	hardness 1
+	specularity 3.5102
+}
+{
+	material rygel/met5_3
+	roughness 3.26531
+	hardness 5.55102
+	specularity 2.69388
+}
+{
+	material rygel/metal1_3
+	roughness 0.653061
+	hardness 2.44898
+	specularity 5.06122
+}
+{
+	material rygel/metal1_4
+	roughness 0.897959
+	hardness 4.32653
+	specularity 4.65306
+}
+{
+	material rygel/metal2_2
+	roughness 2.12245
+	hardness 1
+	specularity 3.10204
+}
+{
+	material rygel/metal4_3
+	roughness 1
+	hardness 1
+	specularity 1
+}
+{
+	material rygel/metal4_4
+	roughness 1.30612
+	hardness 2.69388
+	specularity 5.14286
+}
+{
+	material rygel/metal4_5
+	roughness 1.55102
+	hardness 1
+	specularity 1.71429
+}
+{
+	material rygel/metalt2_1
+	roughness 0.734694
+	hardness 0.734694
+	specularity 2.36735
+}
+{
+	material rygel/metalt2_8
+	roughness 1.14286
+	hardness 0.653061
+	specularity 4.16327
+}
+{
+	material rygel/mmetal1_2
+	roughness 2.04082
+	hardness 2.36735
+	specularity 1.30612
+}
+{
+	material rygel/muh_bad
+	roughness 1.38776
+	hardness 3.18367
+	specularity 3.7551
+}
+{
+	material rygel/plat_top2
+	roughness 1.63265
+	hardness 4.08163
+	specularity 3.02041
+}
+{
+	material rygel/rune1_1
+	roughness 1
+	hardness 1
+	specularity 2.04082
+}
+{
+	material rygel/rune1_5
+	roughness 1.30612
+	hardness 7.18367
+	specularity 1.95918
+}
+{
+	material rygel/rune1_6
+	roughness 1
+	hardness 2.12245
+	specularity 3.26531
+}
+{
+	material rygel/rune1_7
+	roughness 1
+	hardness 1
+	specularity 3.26531
+}
+{
+	material rygel/rune2_1
+	roughness 1
+	hardness 1
+	specularity 1.79592
+		{
+		texture rygel/rune2_1_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/rune2_2
+	roughness 0.734694
+	hardness 2.85714
+	specularity 3.02041
+		{
+		texture rygel/rune2_2_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
+{
+	material rygel/rune2_3
+	roughness 0.408163
+	hardness 2.69388
+	specularity 3.34694
+		{
+		texture rygel/rune2_3_luma
+		blend GL_ONE GL_ONE
+	}
+}
+{
+	material rygel/rune2_4
+	roughness 1.14286
+	hardness 5.22449
+	specularity 3.59184
+		{
+		texture rygel/rune2_4_luma
+		blend GL_ONE GL_ONE
+	}
+}
+{
+	material rygel/rune2_5
+	roughness 0.653061
+	hardness 3.34694
+	specularity 3.10204
+		{
+		texture rygel/rune2_5_luma
+		blend GL_ONE GL_ONE
+	}
+}

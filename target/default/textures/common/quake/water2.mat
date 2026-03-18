@@ -1,0 +1,14 @@
+{
+	diffusemap common/quake/water2
+	hardness 4.49
+	specularity 1.55
+	parallax 0.98
+	contents "slime detail"
+	surface "liquid"
+	{
+		texture common/quake/water2
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.50 1.50 1.50 0.90
+		warp 0.25 0.25
+	}
+}

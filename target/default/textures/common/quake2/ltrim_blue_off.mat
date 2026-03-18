@@ -1,0 +1,10 @@
+{
+	diffusemap common/quake2/ltrim_blue_off
+	normalmap common/quake2/ltrim_nm
+	roughness 2.00
+	hardness 1.50
+	specularity 1.50
+	parallax 2.00
+	shadow 8.00
+	footsteps metal
+}

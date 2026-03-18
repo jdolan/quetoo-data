@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake/rune2_1
+	{
+		texture common/quake/rune2_1_luma
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.20
+	}
+}

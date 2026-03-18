@@ -1,0 +1,16 @@
+{
+	diffusemap common/quake/light3_7
+	hardness 3.65
+	specularity 1.66
+	shadow 2.83
+	{
+		scale.s .50
+		scale.t .50
+		flare flare_0
+	}
+	{
+		texture common/quake/light3_7_luma
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.48
+	}
+}

@@ -1,0 +1,6 @@
+{
+	diffusemap common/quake2/glassdirt0
+	specularity 1.30
+	shadow 0.00
+	surface "blend_66"
+}

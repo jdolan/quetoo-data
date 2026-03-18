@@ -1,0 +1,7 @@
+{
+	diffusemap catfight/u_gr8_6
+	parallax 0
+	shadow 0
+	surface "alpha_test blend_100"
+	footsteps metal2
+}

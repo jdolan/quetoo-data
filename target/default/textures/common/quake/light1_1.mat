@@ -1,0 +1,20 @@
+{
+	diffusemap common/quake/light1_1
+	normalmap common/quake/light1_1_norm
+	specularmap common/quake/light1_1_gloss
+	roughness 1.50
+	hardness 4.00
+	specularity 1.50
+	parallax 3.00
+	{
+		color 1.00 0.84 0.35 1.00
+		scale.s 0.750
+		scale.t 1.250
+		flare flare_1
+	}
+	{
+		texture common/quake/light1_1_luma
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.50
+	}
+}

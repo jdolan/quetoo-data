@@ -1,0 +1,10 @@
+{
+	diffusemap common/quake2/ometal2_1sub
+	normalmap common/quake2/ometal2_1_nm
+	hardness 1.20
+	parallax 0.40
+	{
+		texture common/quake2/slime_glowedge
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

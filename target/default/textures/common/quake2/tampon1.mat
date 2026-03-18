@@ -1,0 +1,5 @@
+{
+	diffusemap common/quake2/tampon1
+	contents "mist"
+	surface "blend_100"
+}

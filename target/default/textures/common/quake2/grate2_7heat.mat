@@ -1,0 +1,13 @@
+{
+	diffusemap common/quake2/grate2_7heat
+	normalmap common/quake2/grate2_7_nm
+	roughness 1.50
+	hardness 2.67
+	specularity 1.60
+	parallax 3.16
+	shadow 8.00
+	{
+		texture common/quake2/glowedge256
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

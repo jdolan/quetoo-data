@@ -1,0 +1,4 @@
+{
+	diffusemap common/quake2/ltrim
+	normalmap common/quake2/ltrim_blue_nm
+}

@@ -1,0 +1,13 @@
+{
+	diffusemap atlantis/light12
+	normalmap atlantis/light12_nm
+	
+	hardness 2
+	specularity 2
+	parallax 1.5
+	bloom 2
+	{
+		texture atlantis/light12_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}

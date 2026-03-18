@@ -1,0 +1,8 @@
+{
+	material atlantis/metalbase05c
+	
+	hardness 1.5
+	specularity 1.5
+	parallax 0
+	bloom 1
+}

@@ -1,0 +1,6 @@
+{
+	diffusemap common/quake2/wbasic1_4
+	roughness 1.40
+	hardness 1.30
+	shadow 0.00
+}

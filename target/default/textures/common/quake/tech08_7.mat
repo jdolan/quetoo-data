@@ -1,0 +1,7 @@
+{
+	diffusemap common/quake/tech08_7
+	roughness 1.47
+	hardness 2.53
+	specularity 1.47
+	parallax 3.02
+}

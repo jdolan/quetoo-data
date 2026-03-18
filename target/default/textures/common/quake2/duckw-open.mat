@@ -1,0 +1,24 @@
+{
+	diffusemap common/quake2/duckw-open
+	roughness 0.57
+	hardness 4.24
+	specularity 2.45
+	parallax 0.98
+	shadow 0.60
+	contents "water"
+	surface "blend_100"
+	{
+		texture common/quake2/duckw-open
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.00 1.00 1.00 0.15
+		scroll.s 0.020
+		warp 0.25 0.12
+	}
+	{
+		texture common/quake2/duckw-open
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.00 1.00 1.00 0.15
+		scroll.t 0.020
+		warp 0.25 0.12
+	}
+}

@@ -9,11 +9,7 @@
 {
  "classname" "worldspawn"
  "sky" "ozymandias"
- "_ambient" "0"
  "message" "The Chastity Belt Duel  -  by JaLisK0"
- "_sun" "star"
- "_sun_light" "200"
- "_sun_ambient" "30"
  { //brush 0
   (  -112  8192  8192 ) (  -112 -8192  8192 ) (  -112  8192 -8192 ) especiales/Cbold_pasadizo 1248 -256 180 1 1 1 0 0
   (    16 -8192  8192 ) (    16  8192  8192 ) (    16  8192 -8192 ) especiales/Cbold_pasadizo -464 -256 0 1 1 1 0 0
@@ -5239,7 +5235,7 @@
 {
  "classname" "info_player_start"
  "origin" "-464 272 72"
- "angle" "360"
+ "angle" "0"
 }
 {
  "classname" "func_door"
@@ -5329,8 +5325,7 @@
 }
 {
  "classname" "trigger_push"
- "angle" "-1"
- "speed" "79"
+  "speed" "79"
  { //brush 0
   (   128  8192  8192 ) (   128 -8192  8192 ) (   128  8192 -8192 ) e1u1/clip 0 0 0 1 1
   (   168 -8192  8192 ) (   168  8192  8192 ) (   168  8192 -8192 ) e1u1/clip 0 0 0 1 1
@@ -5757,78 +5752,78 @@
 {
  "classname" "light"
  "origin" "-160 496 -160"
- "light" "100"
+ "radius" "100"
 }
 {
  "classname" "light"
- "light" "120"
+ "radius" "120"
  "origin" "528 864 -48"
- "_color" "1 0.5 0"
+ "color" "1 0.5 0"
 }
 {
  "classname" "light"
- "light" "120"
+ "radius" "120"
  "origin" "704 528 -48"
- "_color" "1 0.5 0"
+ "color" "1 0.5 0"
 }
 {
  "classname" "light"
- "light" "100"
+ "radius" "100"
  "origin" "720 704 -48"
- "_color" "1 0.5 0"
+ "color" "1 0.5 0"
 }
 {
  "classname" "light"
- "light" "130"
+ "radius" "130"
  "origin" "656 848 -48"
- "_color" "1 0.5 0"
+ "color" "1 0.5 0"
 }
 {
  "classname" "light"
- "light" "70"
+ "radius" "70"
  "origin" "464 1104 -176"
- "_color" "1 1 1"
+ "color" "1 1 1"
 }
 {
  "classname" "light"
- "light" "70"
+ "radius" "70"
  "origin" "400 1104 -176"
- "_color" "1 1 1"
+ "color" "1 1 1"
 }
 {
  "classname" "light"
- "light" "60"
+ "radius" "60"
  "origin" "336 1104 -176"
- "_color" "1 1 1"
+ "color" "1 1 1"
 }
 {
  "classname" "light"
- "light" "50"
+ "radius" "50"
  "origin" "320 1056 -176"
- "_color" "1 1 1"
+ "color" "1 1 1"
 }
 {
  "classname" "light"
- "light" "100"
+ "radius" "100"
  "origin" "472 1088 -160"
- "_color" "1 0.5 0.5"
+ "color" "1 0.5 0.5"
 }
 {
  "classname" "light"
- "light" "100"
+ "radius" "100"
  "origin" "600 1088 -144"
- "_color" "1 0.5 0.5"
+ "color" "1 0.5 0.5"
 }
 {
  "classname" "light"
- "light" "100"
+ "radius" "100"
  "origin" "976 496 -144"
- "_color" "1 0.5 0.5"
+ "color" "1 0.5 0.5"
 }
 {
  "classname" "light"
  "origin" "-320 64 208"
- "light" "300"
+ "radius" "300"
  "target" "star"
 }
 {

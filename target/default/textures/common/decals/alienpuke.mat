@@ -1,0 +1,4 @@
+{
+	diffusemap common/decals/alienpuke
+	surface "blend_100 decal"
+}

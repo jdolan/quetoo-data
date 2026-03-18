@@ -1,0 +1,8 @@
+{
+	diffusemap common/quake2/rmetal6_1
+	normalmap common/quake2/green3_4_nm
+	roughness 2.40
+	hardness 1.10
+	specularity 1.30
+	shadow 0.00
+}

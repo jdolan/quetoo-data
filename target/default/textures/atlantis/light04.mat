@@ -1,0 +1,19 @@
+{
+	material atlantis/light04
+	normalmap atlantis/light04_nm
+	
+	bloom 2.25
+		
+	light.radius 300
+	light.intensity 0.50
+	light.shadow 0
+	{
+		texture atlantis/light04_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+	{
+		scale.s 1.25
+		scale.t 1.25
+		flare flare_1
+	}
+}

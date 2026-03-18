@@ -1,0 +1,5 @@
+{
+	diffusemap common/quake2/metal15_2sml
+	roughness 2.00
+	hardness 1.50
+}

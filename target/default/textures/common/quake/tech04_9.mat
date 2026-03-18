@@ -1,0 +1,11 @@
+{
+	diffusemap common/quake/tech04_9
+	normalmap common/quake/tech04_9_norm
+	specularmap common/quake/tech04_9_gloss
+	roughness 2.00
+	hardness 2.00
+	specularity 1.25
+	parallax 3.02
+	shadow 1.25
+	footsteps metal
+}

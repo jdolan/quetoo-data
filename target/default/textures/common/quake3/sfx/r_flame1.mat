@@ -1,0 +1,11 @@
+{
+	diffusemap common/quake3/sfx/r_flame1
+	shadow 0.00
+	contents "mist detail"
+	surface "material decal"
+	{
+		texture common/quake3/sfx/r_flame1
+		blend GL_ONE GL_ONE
+		anim 8 12.00
+	}
+}

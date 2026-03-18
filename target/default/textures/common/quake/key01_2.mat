@@ -1,0 +1,9 @@
+{
+	diffusemap common/quake/key01_2
+	normalmap common/quake/key01_1
+	{
+		texture common/quake/key01_2_luma
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 0.25
+	}
+}

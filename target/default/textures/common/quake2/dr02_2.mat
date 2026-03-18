@@ -1,0 +1,12 @@
+{
+	diffusemap common/quake2/dr02_2
+	roughness 2.00
+	hardness 2.00
+	specularity 1.30
+	shadow 0.00
+	{
+		texture common/quake2/dr02_2fx1
+		blend GL_SRC_ALPHA GL_ONE
+		anim 2 0.00
+	}
+}
