@@ -1,14 +1,14 @@
-name: Publish
+name: Release
 
 on:
   push:
-    branches: [ "main" ]
+    tags: [ "v*" ]
 
 permissions:
   contents: write
 
 jobs:
-  publish:
+  release:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,15 +30,13 @@ jobs:
     - name: Build packages
       run: |
         sudo gem install fpm --no-document
-        make -C linux deb rpm
+        make -C linux deb rpm VERSION=${GITHUB_REF_NAME#v}
 
-    - name: Publish latest snapshot release
+    - name: Create release
       run: |
-        gh release delete latest --yes --cleanup-tag 2>/dev/null || true
-        gh release create latest \
-          --prerelease \
-          --title "Latest Snapshot" \
-          --notes "Latest game data snapshot, built from \`main\` at $(git rev-parse --short HEAD)." \
+        gh release create ${{ github.ref_name }} \
+          --title "Quetoo Data ${{ github.ref_name }}" \
+          --notes "Game data package for Quetoo ${{ github.ref_name }}." \
           linux/target/quetoo-data_*_all.deb \
           linux/target/quetoo-data-*.noarch.rpm
       env:
