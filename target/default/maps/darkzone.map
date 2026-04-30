@@ -12522,6 +12522,7 @@
 "style" "zyzzzyzyxxwwwzywzuvvwxyz"
 "team" "torch3"
 "team_master" "1"
+"drift" "1"
 }
 // entity 71
 {
@@ -14481,6 +14482,7 @@
 "style" "wxyzzzxwyxxxzzyyyyzyww"
 "team" "torch2"
 "team_master" "1"
+"drift" "1"
 }
 // entity 111
 {
@@ -14998,6 +15000,7 @@
 "style" "zzyzyzytzzxwuvwxzz"
 "team" "torch"
 "team_master" "1"
+"drift" "1"
 }
 // entity 124
 {
