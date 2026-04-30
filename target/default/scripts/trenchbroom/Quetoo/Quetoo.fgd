@@ -538,4 +538,6 @@
 	capturelimit(integer) : "The capture limit" : 8
 	timelimit(integer) : "The time limit in minutes" : 20
 	give(string) : "A comma-delimited item string to give each player on spawn"
+	author(string) : "Creator of this map and other misc info"
+	version(string) : "Version string in 'major.minor.build' format"
 ]
