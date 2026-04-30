@@ -1,5 +1,5 @@
 e05d1e4d9fdf754de67053798e0cda92 2335 docs/map-fragpipe.txt
-2e7cb530c6923f28a2115fb168802c9a 8670593 maps/fragpipe.bsp
+0f31600740231f8d325421770a0d887f 8670925 maps/fragpipe.bsp
 79f36e984beb388517bc86b09bf98e5d 6260 maps/fragpipe.nav
 46c892b195a0e4021ac8084341d4f119 233326 mapshots/fragpipe/quetoo022.jpg
 a5232cbee6f561d75986c39a86399b34 171053 mapshots/fragpipe/quetoo023.jpg

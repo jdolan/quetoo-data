@@ -1,4 +1,4 @@
-9e7f75fc5bce6e59f0301819b51fe417 4824719 maps/aghast.bsp
+24e6d7485b2ce7fc6e4eb95031662145 4825040 maps/aghast.bsp
 d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 1f22ae1dd4222303ab896d151fa61702 110399 sky/aghast.jpg
 4e78bf1ce12c937109afaf5e0cc8e66e 41496 sounds/ambient/drip_2.wav
@@ -29,11 +29,11 @@ ad400fac2fc8cde9a66ec5ec2ca4f24f 30468 textures/quake/city4_1.jpg
 962078feb5143a3c1079a25f0bfe38d3 138726 textures/quake/city4_1_norm.png
 20daf030949da1dffe9ded36509b3ae2 25966 textures/quake/city4_1_spec.jpg
 0143d25a94f2f58fedeacce1d8283b52 26632 textures/quake/cop1_1.jpg
-34882fa0c6e28c791bd7ee2570143c48 140 textures/quake/cop1_1.mat
+b1779a70ecc8607f7041d492503905e4 140 textures/quake/cop1_1.mat
 cf9201ff29b9b6eb16120d634225c5ba 185372 textures/quake/cop1_1_norm.png
 e80e95a52eae8c1f6d94f932b585ceca 24739 textures/quake/cop1_1_spec.jpg
 ae4196d80e489fe4652b9aa19351d8a1 23253 textures/quake/cop1_7.jpg
-a3a6cbbd15c828c4d57e456113ac586a 88 textures/quake/cop1_7.mat
+b294f1283c429f18940a1be13ce0f9bc 106 textures/quake/cop1_7.mat
 74e63a81ee2c02b2e629b9a508491387 139230 textures/quake/cop1_7_norm.png
 d12756ec4778f82f886bb293972227fc 22764 textures/quake/cop1_7_spec.jpg
 b20212a2626f201784c712053630f7c8 24744 textures/quake/ground1_5.jpg
@@ -59,7 +59,7 @@ f1780c1e079cd932e370fb764a1763b1 28784 textures/quake/light1_1_spec.jpg
 683b5d08f2f119d6372585ac91937d6f 156210 textures/quake/metal4_6_norm.png
 2968be9d520ed9768ce9fec5228a67bf 23008 textures/quake/metal4_6_spec.jpg
 cba4ee4a90e5270e0c53f634ea659a2e 28758 textures/quake/metal4_7.jpg
-4a53a2db61fa754ab471fcb40a261c14 108 textures/quake/metal4_7.mat
+5d9579db08effffb66ac5ae6fa8ba8b0 108 textures/quake/metal4_7.mat
 e59998088ac4a44746d56c8ea7a63ea4 129013 textures/quake/metal4_7_norm.png
 76143b48982c315ec6f4997e447975e0 24432 textures/quake/metal4_7_spec.jpg
 cd3b45359e3946ddb7135edb806dbfc3 95285 textures/quake/mmetal1_2_norm.png
@@ -76,7 +76,7 @@ c93b21d38e618398e29c2566aa2b4056 185 textures/quake/tele_top.mat
 271f7e10b7a2e86ac06b5c60ade9e4f5 296 textures/quake/teleport.mat
 161c669b6dc4fa3bda3ef9727d35e85d 21564 textures/quake/teleport.png
 73d81c5eeb8b75ebf9667a462ff33ce6 11375 textures/quake/water1.jpg
-4e2dd6d5dd94053cdc3414b358eadbb8 534 textures/quake/water1.mat
+9af0de3b3980b37894d39424a04e01df 537 textures/quake/water1.mat
 2225e543b2b03ef1853045b8470ccb30 7802 textures/quake/water1_spec.jpg
 14cb7ee1e44b644679a3340cac862b9f 19647 textures/quake/wizmet1_2.jpg
 8e8352f5ea858d4f25748c96ab3c22ae 175 textures/quake/wizmet1_2.mat
