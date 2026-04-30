@@ -583,6 +583,7 @@
 
  -------- Keys --------
  color : Light color as 3 decimal values from 0.0 - 1.0 (default 1 1 1).
+ drift : Phase offset (0-1) applied to the style animation clock. Use different values on nearby lights with the same style to prevent synchronized flickering (default 0).
  intensity : Light intensity as a positive scalar value (default 1).
  radius : Light radius in units (default 300).
  style : The light style, a string of characters a-z that modulate the light intensity over time (default 'zzz').
@@ -627,15 +628,11 @@
  Client-side flame emitter, useful for torches and ambience.
 
  -------- Keys --------
- color : The light color (default warm orange).
  density : The flame density (default 1).
  drift : The factor of randomized drift applied to the emission rate.
  hz : The emission rate, in events-per-second (default 10).
- intensity : The light intensity (default 1).
- light : The light radius; 0 disables the light (default 12 * flame radius).
  radius : The flame radius (default 16).
  sound : The looping sound to play, or 'none' to disable (default "world/fire").
- style : The light style string (a-z, 10Hz). Modulates both light intensity and sprite count.
 */
 
 /*QUAKED misc_model (.2 .4 1) (-16 -16 -16) (16 16 16)
