@@ -1,0 +1,11 @@
+{
+	diffusemap quake/floorsw
+	roughness 1
+	hardness 1
+	parallax 1
+	shadow 8.00
+	{
+		texture quake/floorsw_luma
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
