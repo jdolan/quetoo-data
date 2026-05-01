@@ -1,7 +1,7 @@
 {
 	material atlantis/metalbase01
+	normalmap atlantis/metalbase_norm
+	specularmap atlantis/metalbase_spec
 	hardness 2.5
 	specularity 1.5
-	parallax 0	
-	surface "phong"
 }

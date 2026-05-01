@@ -1,0 +1,6 @@
+{
+	diffusemap atlantis/display1_0
+	parallax 0
+	surface "blend_100"
+	contents "mist"	
+}

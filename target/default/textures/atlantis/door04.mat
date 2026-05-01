@@ -1,5 +1,17 @@
 {
 	diffusemap atlantis/door04
 	parallax 2
-	surface "blend_100"
+	surface "alpha_test material"
+	contents "window"
+	alpha_test 0.5
+	{
+		texture atlantis/door04_glass
+		blend GL_SRC_ALPHA GL_ONE
+		lighting 1
+	}
+	{
+		texture atlantis/door04
+		lighting 1
+	}
+	
 }

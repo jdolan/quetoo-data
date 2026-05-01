@@ -1,6 +1,7 @@
 {
 	diffusemap atlantis/metalbase04b
+	normalmap atlantis/metalbase_norm
+	specularmap atlantis/metalbase_spec
 	hardness 3
 	specularity 2
-	parallax 0
 }

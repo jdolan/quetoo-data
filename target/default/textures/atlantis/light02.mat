@@ -1,6 +1,6 @@
 {
 	diffusemap atlantis/light02
-	normalmap atlantis/light02_norm
+	normalmap atlantis/light02_a_norm
 	
 	parallax 1.75
 	{

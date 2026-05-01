@@ -1,6 +1,6 @@
 {
 	diffusemap atlantis/light06
-	parallax 0
+	parallax 3.50
 	surface "blend_100"
 	{
 		texture atlantis/light06_glow

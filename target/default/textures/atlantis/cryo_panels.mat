@@ -1,5 +1,6 @@
 {
 	diffusemap atlantis/cryo_panels
+	specularmap atlantis/metalbase_spec
 	parallax 1.5
 	{
 		texture atlantis/cryo_panels_glow
