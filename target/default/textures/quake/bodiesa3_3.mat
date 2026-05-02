@@ -1,8 +1,5 @@
 {
 	diffusemap quake/bodiesa3_3
-	roughness 1.99
-	hardness 6.84
-	specularity 2.19
-	parallax 3.96
-	shadow 8.00
+	roughness 1.02
+	parallax 1.03
 }
