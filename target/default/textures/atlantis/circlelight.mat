@@ -1,9 +1,13 @@
 {
-	diffusemap atlantis/circlelight
+	diffusemap atlantis/CircleLight
+	hardness 0.85
+	specularity 0.27
+	parallax 1.46
+	shadow 0.00
 	surface "alpha_test"
 	{
 		texture atlantis/circlelight_glow
 		blend GL_SRC_ALPHA GL_ONE
-		color 1 1 1 0.75
+		color 1.00 1.00 1.00 0.75
 	}
 }

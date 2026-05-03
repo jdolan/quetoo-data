@@ -1,0 +1,8 @@
+{
+	diffusemap atlantis/door_controls
+	{
+		texture atlantis/door_controls_glow
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 1.5
+	}
+}

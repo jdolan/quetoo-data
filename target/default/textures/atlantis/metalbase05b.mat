@@ -1,7 +1,7 @@
 {
-	diffusemap atlantis/metalbase05b
+	diffusemap atlantis/metalbase05c
 	normalmap atlantis/metalbase_norm
 	specularmap atlantis/metalbase_spec
-	hardness 3
-	specularity 2
+	hardness 1.5
+	specularity 1.5
 }
