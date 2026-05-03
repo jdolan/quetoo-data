@@ -2,6 +2,6 @@
 	diffusemap quake/grate01_1
 	roughness 1.53
 	hardness 2.05
-	parallax 4.21
-	shadow 8.00
+	parallax 2.00
+	shadow 4.04
 }

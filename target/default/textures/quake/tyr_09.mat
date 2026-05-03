@@ -1,7 +1,8 @@
 {
 	diffusemap quake/tyr_09
 	roughness 3.83
-	hardness 1.81
-	parallax 4.00
+	hardness 0.35
+	specularity 1.54
+	parallax 3.04
 	shadow 0.96
 }

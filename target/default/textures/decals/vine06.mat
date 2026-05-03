@@ -1,6 +1,6 @@
 {
 	diffusemap decals/vine06
 	parallax 2.00
-	surface "blend_100"
 	contents "mist detail"
+	surface "blend_100"
 }

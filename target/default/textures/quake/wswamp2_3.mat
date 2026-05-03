@@ -1,9 +1,8 @@
 {
 	diffusemap quake/wswamp2_3
 	normalmap quake/wswamp2_2_norm
-	specularmap quake/wswamp2_2_spec
 	roughness 0.27
 	hardness 0.16
-	parallax 4.53
-	shadow 4.02
+	parallax 2.96
+	shadow 1.96
 }

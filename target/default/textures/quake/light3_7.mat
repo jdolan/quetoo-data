@@ -1,9 +1,9 @@
 {
 	diffusemap quake/light3_7
-	roughness 1.50
+	roughness 4.00
 	hardness 4.02
 	specularity 1.50
-	parallax 3.02
+	parallax 4.04
 	shadow 8.00
 	{
 		texture quake/light3_7_luma

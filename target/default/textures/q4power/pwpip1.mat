@@ -1,3 +1,7 @@
 {
 	diffusemap q4power/pwpip1
+	roughness 1.46
+	hardness 2.46
+	specularity 1.54
+	parallax 4.54
 }

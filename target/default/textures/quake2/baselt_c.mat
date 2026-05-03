@@ -3,6 +3,7 @@
 	roughness 4.00
 	hardness 4.00
 	specularity 3.00
+	parallax 3.04
 	shadow 0.00
 	{
 		texture quake2/baselt_cfx

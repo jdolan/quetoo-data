@@ -1,8 +1,8 @@
 {
 	diffusemap atlantis/metal_trim01
-	roughness 0.90
+	roughness 0.96
 	hardness 2.00
 	specularity 1.50
-	parallax 1.50
-	shadow 0.50
+	parallax 1.54
+	shadow 0.46
 }

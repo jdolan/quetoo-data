@@ -1,5 +1,9 @@
 {
-    diffusemap quake/dem5_3
-    normalmap quake/dem4_4_norm
-    specularmap quake/dem4_4_spec
+	diffusemap quake/dem5_3
+	normalmap quake/dem4_4_norm
+	specularmap quake/dem4_4_spec
+	roughness 0.00
+	hardness 1.27
+	specularity 2.00
+	parallax 2.65
 }

@@ -2,15 +2,13 @@
 	diffusemap quake/light01+0
 	normalmap quake/light01_norm
 	specularmap quake/light01_spec
-	roughness 1.00
-	hardness 1.00
-	specularity 1.00
+	roughness 0.96
 	parallax 2.50
 	shadow 0.00
 	{
 		texture quake/light01+0
-		color 1.5 1.5 1.5 0.9
+		color 1.50 1.50 1.50 0.90
 		anim 3 6.00
-		lighting .5
+		lighting 0.50
 	}
 }

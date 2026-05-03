@@ -1,9 +1,8 @@
 {
 	diffusemap quake/light3_8
-	roughness 1.53
-	hardness 4.01
-	specularity 1.50
-	parallax 1.98
+	roughness 0.88
+	hardness 2.00
+	parallax 3.46
 	shadow 0.00
 	{
 		scale.s 0.500

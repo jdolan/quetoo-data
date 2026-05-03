@@ -1,9 +1,9 @@
 {
 	diffusemap quake/comp1_1
-	roughness 4.17
-	hardness 8.00
-	parallax 4.70
-	shadow 4.72
+	roughness 1.96
+	hardness 3.96
+	parallax 2.50
+	shadow 4.04
 	{
 		texture quake/comp1_1_luma
 		blend GL_SRC_ALPHA GL_ONE

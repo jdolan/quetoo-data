@@ -1,7 +1,7 @@
 {
 	diffusemap quake/du3jed
-	roughness 1.47
-	hardness 4.26
-	specularity 1.31
+	roughness 1.27
+	hardness 0.31
+	specularity 2.00
 	parallax 2.04
 }

@@ -3,8 +3,8 @@
 	normalmap quake/tech05_1_norm
 	specularmap quake/tech05_1_spec
 	roughness 1.96
-	hardness 1.96
-	specularity 1.22
+	hardness 1.04
+	specularity 1.54
 	parallax 3.02
-	shadow 8.00
+	shadow 4.04
 }

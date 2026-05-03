@@ -3,5 +3,5 @@
 	normalmap quake/city4_1_norm
 	specularmap quake/city4_1_spec
 	hardness 0.61
-	parallax 3.67
+	parallax 3.50
 }

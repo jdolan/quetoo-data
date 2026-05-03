@@ -1,3 +1,6 @@
 {
 	diffusemap q4power/hexflr2
+	roughness 1.46
+	hardness 1.50
+	parallax 1.46
 }

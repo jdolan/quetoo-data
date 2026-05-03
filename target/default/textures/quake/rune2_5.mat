@@ -5,7 +5,7 @@
 	roughness 1.53
 	hardness 3.99
 	specularity 1.51
-	parallax 2.01
+	parallax 3.04
 	shadow 8.00
 	{
 		texture quake/rune2_5_luma

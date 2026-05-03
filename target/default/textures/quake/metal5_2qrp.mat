@@ -1,6 +1,6 @@
 {
 	diffusemap quake/metal5_2qrp
-	hardness 1.80
-	specularity 1.5
-	parallax 4.00
+	hardness 2.00
+	specularity 4.04
+	parallax 2.50
 }

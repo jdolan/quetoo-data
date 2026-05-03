@@ -1,8 +1,8 @@
 {
 	diffusemap quake/rock1_2
 	roughness 1.41
-	hardness 3.18
-	specularity 1.87
-	parallax 2.69
-	shadow 2.01
+	hardness 0.00
+	specularity 0.00
+	parallax 3.04
+	shadow 4.00
 }

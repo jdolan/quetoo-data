@@ -1,3 +1,7 @@
 {
 	diffusemap q4power/panel64_7c
+	roughness 1.23
+	hardness 2.04
+	specularity 1.50
+	parallax 3.04
 }
