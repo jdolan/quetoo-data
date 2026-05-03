@@ -1,8 +1,6 @@
 {
 	diffusemap mapobjects/chthon/skin
-	roughness 4.75
+	roughness 2
 	hardness 1
 	specularity 1
-	surface "phong"
-	contents "solid"
 }
