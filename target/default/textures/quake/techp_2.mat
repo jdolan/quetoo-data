@@ -1,3 +1,5 @@
 {
 	diffusemap quake/techp_2
+	hardness 0.54
+	parallax 2.50
 }

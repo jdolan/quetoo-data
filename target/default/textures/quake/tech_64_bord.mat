@@ -1,4 +1,6 @@
 {
 	diffusemap quake/tech_64_bord
-	parallax 0.98
+	hardness 0.50
+	specularity 2.04
+	parallax 2.00
 }

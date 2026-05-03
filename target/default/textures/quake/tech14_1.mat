@@ -1,6 +1,6 @@
 {
 	diffusemap quake/tech14_1
-	hardness 2.53
-	specularity 1.47
+	hardness 0.50
+	specularity 2.00
 	parallax 3.02
 }

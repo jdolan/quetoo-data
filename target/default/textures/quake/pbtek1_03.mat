@@ -1,7 +1,7 @@
 {
 	diffusemap quake/pbtek1_03
 	roughness 1.48
-	hardness 2.04
+	hardness 0.54
 	specularity 1.22
 	parallax 2.53
 	shadow 4.04

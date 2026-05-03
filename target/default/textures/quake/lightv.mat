@@ -1,4 +1,6 @@
 {
 	diffusemap quake/lightv
-	parallax 3.02
+	hardness 1.04
+	specularity 1.96
+	parallax 3.46
 }

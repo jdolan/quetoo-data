@@ -1,7 +1,7 @@
 {
 	diffusemap quake/tech_32bord
 	roughness 2.80
-	hardness 2.33
+	hardness 0.50
 	parallax 0.00
 	shadow 0.70
 }
