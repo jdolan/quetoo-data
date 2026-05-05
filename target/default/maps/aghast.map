@@ -7196,13 +7196,13 @@
 {
 "classname" "light"
 "color" "1 0.7 0.2"
+"drift" "1"
 "intensity" "2.5"
 "origin" "408 -360 456"
 "radius" "380"
 "style" "mmnmmommommnonmmonqnmmo"
 "team" "torch"
 "team_master" "a"
-"drift" "1"
 }
 // entity 153
 {
@@ -7810,10 +7810,10 @@
 // entity 167
 {
 "classname" "misc_dust"
-"type" "bubbles"
 "_tb_layer" "4"
 "density" "2"
 "lifetime" "1.5"
+"type" ""
 "velocity" "0 0 4"
 // brush 0
 {

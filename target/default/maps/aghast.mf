@@ -1,4 +1,4 @@
-24e6d7485b2ce7fc6e4eb95031662145 4825040 maps/aghast.bsp
+6345ba4c300c948dfe70d1f760066aed 4825051 maps/aghast.bsp
 d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 1f22ae1dd4222303ab896d151fa61702 110399 sky/aghast.jpg
 4e78bf1ce12c937109afaf5e0cc8e66e 41496 sounds/ambient/drip_2.wav
@@ -29,7 +29,7 @@ ad400fac2fc8cde9a66ec5ec2ca4f24f 30468 textures/quake/city4_1.jpg
 bf301a4e293a4bccedee125f2baa345e 149532 textures/quake/city4_1_norm.png
 20daf030949da1dffe9ded36509b3ae2 25966 textures/quake/city4_1_spec.jpg
 0143d25a94f2f58fedeacce1d8283b52 26632 textures/quake/cop1_1.jpg
-b1779a70ecc8607f7041d492503905e4 140 textures/quake/cop1_1.mat
+1140ddd5ab86fc91adf7bba674b5e6b5 140 textures/quake/cop1_1.mat
 252a0fdd70f8409f9f83d7129ac26f42 187569 textures/quake/cop1_1_norm.png
 e80e95a52eae8c1f6d94f932b585ceca 24739 textures/quake/cop1_1_spec.jpg
 ae4196d80e489fe4652b9aa19351d8a1 23253 textures/quake/cop1_7.jpg
@@ -41,7 +41,7 @@ eaa81efcc1db6159a8e8d433faed77cb 94 textures/quake/ground1_5.mat
 cf985924842205fc85521f81f98daf01 103819 textures/quake/ground1_5_norm.png
 c6bb13d4130aac92896b2818575fc9cb 12213 textures/quake/ground1_5_spec.jpg
 71d85cabc15e09331350b78ee4069632 9916 textures/quake/light01+0.jpg
-a939c6d3744d0b79f660bb8045f6afd9 254 textures/quake/light01+0.mat
+6bbce663eb5769c6244df24682cbea71 228 textures/quake/light01+0.mat
 bd1b82a421c02d6e8eacff9553e725f6 9854 textures/quake/light01+1.jpg
 aa186acc0e93c245f96a767b4a131f31 9937 textures/quake/light01+2.jpg
 769f57a306502884a0236c1dc42697bb 48307 textures/quake/light01_norm.png
@@ -69,7 +69,7 @@ e8208d982e9d247f5455d9d07f85f286 101388 textures/quake/mmetal1_2_norm.png
 61ddd26e29d5e244ece9064ac29ebd44 553214 textures/quake/rock4_1_norm.png
 bc79e432b4ed2b5c78dbb770e9bef5a8 73679 textures/quake/rock4_1_spec.jpg
 f9c19cfd90c73aeabf0171a0c1d2f867 9974 textures/quake/tele_top.jpg
-c93b21d38e618398e29c2566aa2b4056 185 textures/quake/tele_top.mat
+6258b40180bb765c62a747cd3eb85f19 185 textures/quake/tele_top.mat
 0a6816f7954da070b41c0af4c36b9d63 4883 textures/quake/tele_top_luma.jpg
 1acd33a2c71f39f3e5947a6cdc499667 31950 textures/quake/tele_top_norm.png
 39a50a3d94277c020c47cd4014fdd0c4 7850 textures/quake/tele_top_spec.jpg

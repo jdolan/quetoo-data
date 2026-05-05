@@ -1,4 +1,4 @@
-3351443682a30d8f23c1906d50b1e7a7 5484508 maps/badplace.bsp
+a2977adbf9cf6771d6c6565d5d4cafa2 5484508 maps/badplace.bsp
 3a370595b5778bf3cd9781a4b7a17c9a 2716 maps/badplace.nav
 d8d1928af2743e7a26bdb37cc3530636 254474 mapshots/badplace/quetoo068.jpg
 041b2a6541ec36f1694d2a4a6d94fdb9 222683 mapshots/badplace/quetoo069.jpg
@@ -39,12 +39,12 @@ a689447f5744b0851e8aeccd90987f39 13932 textures/quake/lava2_luma.jpg
 7a40345ecca1b699eae8635fc7928e75 51783 textures/quake/lava2_norm.png
 e3122f6acd4c362831bb98a64e5521c0 16156 textures/quake/lava2_spec.jpg
 3a90a6939e019629b4ef48c5c06af7a5 8954 textures/quake/light3_7.jpg
-144eae2e488abc8d1b6adaaedea6dff7 185 textures/quake/light3_7.mat
+9f39c53b51f444813ab26ef86007d8e8 185 textures/quake/light3_7.mat
 34e8c2c7e803555d1bc3376a0cdd2d56 2165 textures/quake/light3_7_luma.jpg
 af4fcf71e09a5b59aca93d2cff4b5de0 39380 textures/quake/light3_7_norm.png
 6f293c67d5849b81f76b274b25bb1436 7896 textures/quake/light3_7_spec.jpg
 cadae2116592b207564e783012aadf0d 8935 textures/quake/light3_8.jpg
-6093a5b3ea0e4696e55fb2b2bfc1a282 239 textures/quake/light3_8.mat
+f59693ad8c02707f2547048a6686f811 221 textures/quake/light3_8.mat
 f9fd85db739133fae2b128c84c47b251 2380 textures/quake/light3_8_luma.jpg
 f6b1fc492570354f913c2bf18bdf80b1 35956 textures/quake/light3_8_norm.png
 d0142b2fcdb8d060e4f2a383a4b78dc4 7651 textures/quake/light3_8_spec.jpg
@@ -54,7 +54,7 @@ a1601ef78c2aadd7e88022fdfb458fbe 20639 textures/quake/metal1_3.jpg
 2837bf26deaa887e71d47fe9c517c2f2 62 textures/quake/metal1_3.mat
 9a69758dca031542f5bd988c1c150219 17148 textures/quake/metal1_3_spec.jpg
 a7451310253b07e1663aa96f4087986e 24852 textures/quake/metal1_4.jpg
-250cace51ea6a8a8cfa2428a3f29b6b7 108 textures/quake/metal1_4.mat
+e268b4250f1ca33f6c84a5c1db402eb2 108 textures/quake/metal1_4.mat
 7494693758ede81be319b034e5d263d5 128643 textures/quake/metal1_4_norm.png
 e906e41b7a0622e0109ba8bb4bd6a256 22886 textures/quake/metal1_4_spec.jpg
 ab6d436c26d8869e1b224d7373032299 32882 textures/quake/metal1_6.jpg

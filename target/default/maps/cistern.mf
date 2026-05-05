@@ -1,4 +1,4 @@
-ef774ab4c20259cd6a715087ea419520 5124103 maps/cistern.bsp
+55ad2c925fc06ac74bd6dc35f50e6595 5123948 maps/cistern.bsp
 da26e484db328ea5eb702d3fdcb922cf 6116 maps/cistern.nav
 21f3c60743c3bece3d35039ed43935b4 258470 mapshots/cistern/quetoo067.jpg
 0a610466b7d9750645a88cf3ff95263b 243433 mapshots/cistern/quetoo068.jpg
@@ -22,7 +22,7 @@ ab46b620d080018f1e88462a1018ce7c 32 textures/quake/adoor03_3.mat
 41a72a64641b5f65dbe1a3fedf29e60d 8432 textures/quake/adoor03_3_norm.png
 fa851e37bf6cdda36ab3ea2758b89f9c 2045 textures/quake/adoor03_3_spec.jpg
 9044e2cad092221f3784d64e2f3b0b2e 7239 textures/quake/adoor03_6.jpg
-e1f4f959c1a7188ff9d2495e801722bc 91 textures/quake/adoor03_6.mat
+f1af60aa5081cce84fccdda32c9ad078 91 textures/quake/adoor03_6.mat
 7069f1eb168302c994751cf44983d098 42221 textures/quake/adoor03_6_norm.png
 4f411dfb9b97c265dacc965f3746be55 5883 textures/quake/adoor03_6_spec.jpg
 404497c49e04994e8c6f562e1024a842 43675 textures/quake/afloor1_3.jpg
@@ -45,7 +45,8 @@ da9374f02ea50e0193dc89e8ac3d73fb 3813 textures/quake/button+0_spec.jpg
 04041f69b789525c28e9888069a62c22 157163 textures/quake/city2_1_norm.png
 4995e97c09d68b029566225ae8963142 26353 textures/quake/city2_1_spec.jpg
 6956fe314eb1b4719b34db80854ba5b4 33352 textures/quake/city2_3.jpg
-61e1e8da6965930644fde99ee80fa6f3 169 textures/quake/city2_3.mat
+2572cfff471ccd7cdae84e7afb19608f 137 textures/quake/city2_3.mat
+1cc02e7daacd96933bd5c613945d0c1d 26503 textures/quake/city2_3_spec.jpg
 e6c8f0bb5987152d01fdcb29e5468785 32330 textures/quake/city2_6.jpg
 38b9b686e5759bfab3a029c078fa9580 169 textures/quake/city2_6.mat
 cad49196a719da1e004df6c62bdaf252 152166 textures/quake/city3_2_norm.png
@@ -57,7 +58,7 @@ ad400fac2fc8cde9a66ec5ec2ca4f24f 30468 textures/quake/city4_1.jpg
 bf301a4e293a4bccedee125f2baa345e 149532 textures/quake/city4_1_norm.png
 20daf030949da1dffe9ded36509b3ae2 25966 textures/quake/city4_1_spec.jpg
 0143d25a94f2f58fedeacce1d8283b52 26632 textures/quake/cop1_1.jpg
-b1779a70ecc8607f7041d492503905e4 140 textures/quake/cop1_1.mat
+1140ddd5ab86fc91adf7bba674b5e6b5 140 textures/quake/cop1_1.mat
 252a0fdd70f8409f9f83d7129ac26f42 187569 textures/quake/cop1_1_norm.png
 e80e95a52eae8c1f6d94f932b585ceca 24739 textures/quake/cop1_1_spec.jpg
 cdae8f7aa006bdde9b03cde4ce6faebc 24454 textures/quake/cop1_2.jpg
@@ -75,7 +76,7 @@ df19cb2b5e52af55022f34a216f3d55e 112213 textures/quake/door04_1_spec.jpg
 c8c231d848134cb7ad77ae68501edd8f 168769 textures/quake/metal1_7_norm.png
 745bd0d52032e3f0d73ff030cbc32c0b 26323 textures/quake/metal1_7_spec.jpg
 319e419381b8b695b87b82da83bfa68a 25990 textures/quake/metal2_4.jpg
-a6696208e20cbee6b0099dd24a3ea8fc 108 textures/quake/metal2_4.mat
+406d5d55c25e25147fbdef1676e15d55 108 textures/quake/metal2_4.mat
 4ec915af451bd02af77ee982fff594d9 163802 textures/quake/metal2_4_norm.png
 afa937450056f46e62529118b478a828 25031 textures/quake/metal2_4_spec.jpg
 271f7e10b7a2e86ac06b5c60ade9e4f5 296 textures/quake/teleport.mat

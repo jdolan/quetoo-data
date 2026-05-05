@@ -32816,8 +32816,8 @@
 // entity 236
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
+"type" "embers"
 // brush 0
 {
 ( -544 440 544 ) ( -544 176 544 ) ( -544 176 528 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32831,8 +32831,8 @@
 // entity 237
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
+"type" "embers"
 // brush 0
 {
 ( -704 624 544 ) ( -704 360 544 ) ( -704 360 528 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32846,8 +32846,8 @@
 // entity 238
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
+"type" "embers"
 // brush 0
 {
 ( -384 -560 544 ) ( -384 -824 544 ) ( -384 -824 528 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32861,7 +32861,6 @@
 // entity 239
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
 // brush 0
 {
@@ -32876,7 +32875,6 @@
 // entity 240
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
 // brush 0
 {
@@ -32905,8 +32903,8 @@
 // entity 242
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
+"type" "embers"
 // brush 0
 {
 ( -32 -960 568 ) ( -32 -1224 568 ) ( -32 -1224 552 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32921,8 +32919,6 @@
 {
 "classname" "misc_dust"
 "_tb_layer" "5"
-"color" "0 0 .5 1"
-"density" ".5"
 // brush 0
 {
 ( -32 -960 824 ) ( -32 -1224 824 ) ( -32 -1224 808 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32936,8 +32932,8 @@
 // entity 244
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
+"type" "embers"
 // brush 0
 {
 ( 112 -768 600 ) ( 112 -1032 600 ) ( 112 -1032 584 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32951,8 +32947,8 @@
 // entity 245
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
+"type" "embers"
 // brush 0
 {
 ( 704 -720 576 ) ( 704 -984 576 ) ( 704 -984 560 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32981,7 +32977,6 @@
 {
 "classname" "misc_dust"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( 384 944 576 ) ( 384 680 576 ) ( 384 680 560 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32996,7 +32991,6 @@
 {
 "classname" "misc_dust"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( 176 928 600 ) ( 176 664 600 ) ( 176 664 584 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33011,7 +33005,6 @@
 {
 "classname" "misc_dust"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( -288 1120 512 ) ( -288 856 512 ) ( -288 856 496 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33025,7 +33018,6 @@
 // entity 250
 {
 "classname" "misc_dust"
-"type" "bubbles"
 "_tb_layer" "5"
 // brush 0
 {
@@ -33040,8 +33032,8 @@
 // entity 251
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
+"type" "embers"
 // brush 0
 {
 ( 32 1488 328 ) ( 32 1224 328 ) ( 32 1224 312 ) common/dust 0 0 0 0.5 0.5
@@ -33057,8 +33049,8 @@
 // entity 252
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
+"type" "embers"
 // brush 0
 {
 ( -64 1128 304 ) ( -64 864 304 ) ( -64 864 288 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33072,7 +33064,6 @@
 // entity 253
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
 // brush 0
 {
@@ -33087,7 +33078,6 @@
 // entity 254
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
 // brush 0
 {
@@ -33103,7 +33093,6 @@
 {
 "classname" "misc_dust"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( 416 1312 512 ) ( 416 1048 512 ) ( 416 1048 496 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33118,7 +33107,6 @@
 {
 "classname" "misc_dust"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( 224 1088 560 ) ( 224 824 560 ) ( 224 824 544 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33133,7 +33121,6 @@
 {
 "classname" "misc_dust"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( -896 800 656 ) ( -896 536 656 ) ( -896 536 640 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33148,7 +33135,6 @@
 {
 "classname" "misc_dust"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( -752 640 840 ) ( -752 376 840 ) ( -752 376 824 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33163,7 +33149,6 @@
 {
 "classname" "misc_dust"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( -384 616 840 ) ( -384 352 840 ) ( -384 352 824 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33178,7 +33163,6 @@
 {
 "classname" "misc_dust"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( -896 608 760 ) ( -896 344 760 ) ( -896 344 744 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33193,7 +33177,6 @@
 {
 "classname" "misc_dust"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( -768 208 840 ) ( -768 -56 840 ) ( -768 -56 824 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33207,8 +33190,8 @@
 // entity 262
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
+"type" "embers"
 // brush 0
 {
 ( 248 -504 544 ) ( 248 -768 544 ) ( 248 -768 528 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33222,7 +33205,6 @@
 // entity 263
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
 // brush 0
 {
@@ -33237,8 +33219,8 @@
 // entity 264
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
+"type" "embers"
 // brush 0
 {
 ( -800 64 32 ) ( -800 -384 32 ) ( -800 -384 0 ) common/dust 0 0 0 0.5 0.5

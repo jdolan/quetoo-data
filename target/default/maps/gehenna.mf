@@ -1,4 +1,4 @@
-0a9bcd88d2e1f4f9c0cc2683bbf01d32 24017791 maps/gehenna.bsp
+a7bbda8a1a74125809d0e11262f3d5a3 24017223 maps/gehenna.bsp
 c95b0cb18c2e5deeb529abc293fd4bbe 12492 maps/gehenna.nav
 5c920da0cfc3871f720d8594ab55a8eb 223189 mapshots/gehenna/quetoo106.jpg
 af34f46aac080a3a6ad6e68a97dbc4e2 242852 mapshots/gehenna/quetoo107.jpg
@@ -122,7 +122,7 @@ b1df479b31df34efc0ad79309cb1be47 12975 textures/q4power/panel64_2a_spec.jpg
 a3cf093530fb5f7b96d748184ef8eb21 1435 textures/q4power/panel64_2b_norm.png
 2fef27ea4c094cc1159fffdc64383ad3 12589 textures/q4power/panel64_2b_spec.jpg
 567f5a36c7d7ec425c78198dc723c3f7 13896 textures/q4power/panel64_3b.jpg
-f4bc8243004d37fd184657d31d3ffbcd 35 textures/q4power/panel64_3b.mat
+6a8471eb0df2b75299760e5cf204f7ce 50 textures/q4power/panel64_3b.mat
 ac7356fe04ce2ec6e9aedc73150f31d9 12021 textures/q4power/panel64_3b_norm.png
 eb0b08ec062b05b8a43c33c7830ec365 12583 textures/q4power/panel64_3b_spec.jpg
 db0f50c540dbb234a45ec189bb97d872 15030 textures/q4power/panel64_4.jpg
@@ -138,7 +138,7 @@ cf36ca9686f7b0eabbea0f2f80fceb81 14172 textures/q4power/panel64_5.jpg
 5b805deee68f186032785e1f954c3e12 24806 textures/q4power/panel64_5a_norm.png
 15f802ac774ac6968ca2bd8113d05920 13546 textures/q4power/panel64_5a_spec.jpg
 3ba124e9e458d82d4a637d04cf7df1ad 13710 textures/q4power/panel64_6.jpg
-80046bab91947f1d72e856bdb86fc70e 93 textures/q4power/panel64_6.mat
+fb6c29eb10f5fe662baad7642712e143 93 textures/q4power/panel64_6.mat
 50e6021dd63afee249b18f63fe7e9b8c 7819 textures/q4power/panel64_6_norm.png
 86ccf8980024a78b94b59fec90a3a4c2 12650 textures/q4power/panel64_6_spec.jpg
 b68df6be8fd4fc8e7605a5ce5b117bab 14307 textures/q4power/panel64_7b.jpg
@@ -146,7 +146,7 @@ b68df6be8fd4fc8e7605a5ce5b117bab 14307 textures/q4power/panel64_7b.jpg
 34acb9b75d0e4fa21da689a43b06e8ad 27375 textures/q4power/panel64_7b_norm.png
 b89cc793cb5e0a792664d3323abe964b 13081 textures/q4power/panel64_7b_spec.jpg
 99c8dbbc87f87559d8eda6a3a238c327 14670 textures/q4power/panel64_7c.jpg
-c773ce458dc527b436a31d7735caec8e 35 textures/q4power/panel64_7c.mat
+a716fd658c9e4af616b7186decb9a48d 99 textures/q4power/panel64_7c.mat
 e89e328c17a63763cdf765cd35f914d6 26530 textures/q4power/panel64_7c_norm.png
 f9efea866f8815cad8398d6d642a099e 13726 textures/q4power/panel64_7c_spec.jpg
 f0154077f6e068adbfb351bff700d9fa 15167 textures/q4power/panel64_7d.jpg

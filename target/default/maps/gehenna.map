@@ -5,6 +5,7 @@
 "ambient" "0.2"
 "author" "Jester & Panjoo"
 "message" "^1G^7ehenna"
+"model" "*0"
 "sky" "gehenna"
 "version" "1.0.0"
 // brush 0
@@ -34150,6 +34151,7 @@
 // entity 337
 {
 "classname" "func_wall"
+"model" "*8"
 // brush 0
 {
 ( -432 16 -136 ) ( -432 -80 -136 ) ( -432 -80 -140 ) common/caulk 0 8 0 0.5 0.5
@@ -34163,11 +34165,11 @@
 // entity 338
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Clip Brushes"
 "_tb_id" "1"
-"_tb_layer_sort_index" "0"
 "_tb_layer_hidden" "1"
+"_tb_layer_sort_index" "0"
+"_tb_name" "Clip Brushes"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( 160 1024 128 ) ( 160 1024 64 ) ( 160 1032 64 ) common/clip 0 16 0 0.5 0.5 196608 0 0
@@ -35366,10 +35368,10 @@
 // entity 339
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Sky Brushes"
 "_tb_id" "2"
 "_tb_layer_sort_index" "1"
+"_tb_name" "Sky Brushes"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( -432 680 832 ) ( -432 624 832 ) ( -432 624 704 ) common/sky 0 0 0 0.5 0.5
@@ -35637,15 +35639,14 @@
 // entity 340
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Dust"
 "_tb_id" "2252"
 "_tb_layer_sort_index" "2"
+"_tb_name" "Dust"
+"_tb_type" "_tb_layer"
 }
 // entity 341
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "2252"
 // brush 0
 {
@@ -35670,7 +35671,6 @@
 // entity 342
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "2252"
 // brush 0
 {
@@ -35712,8 +35712,8 @@
 // entity 343
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "2252"
+"type" "embers"
 // brush 0
 {
 ( -288 -896 -144 ) ( -288 -895 -144 ) ( -288 -896 -143 ) common/dust 0 0 0 0.25 0.25
@@ -35826,8 +35826,8 @@
 // entity 344
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "2252"
+"type" "embers"
 // brush 0
 {
 ( -448 -528 -156 ) ( -448 -527 -156 ) ( -448 -528 -155 ) common/dust 0 -48 0 0.25 0.25
@@ -35859,10 +35859,10 @@
 // entity 345
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Lava"
 "_tb_id" "2253"
 "_tb_layer_sort_index" "3"
+"_tb_name" "Lava"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( 288 -480 -96 ) ( 288 -480 32 ) ( 288 -608 32 ) quake2/brlava -128 0 0 0.5 0.5 8 33 0

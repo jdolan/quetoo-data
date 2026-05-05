@@ -1,5 +1,5 @@
 67daee51d3ed183ac2c2010a54386148 2140 docs/map-tokays.txt
-70408b63925d19620dcdb67b2acc853a 6799526 maps/tokays.bsp
+54593b7c83d804952eaf4895e2d20bd1 6791410 maps/tokays.bsp
 11c9ca144c4780c952b173798c467d07 5980 maps/tokays.nav
 82c4bd5edf9876726be5628b7c22476e 185671 mapshots/tokays/quetoo018.jpg
 5efa348a845250cfce81ae0552cfc9e1 193044 mapshots/tokays/quetoo019.jpg
@@ -45,7 +45,7 @@ d7aad1407383fc95053c42d354538c0b 9804 textures/quake2/fmet1_2.jpg
 179c337a0453a54727c1ea8ad2b0f009 49151 textures/quake2/fmet1_2_norm.png
 e6f6a05802b07b72af58b38b0d433498 6124 textures/quake2/fmet1_2_spec.jpg
 3bc8efc7001014c64f9ebee9ccd3fa78 11505 textures/quake2/fmet2_3.jpg
-0e9757147de24e09f852799627dc7f26 108 textures/quake2/fmet2_3.mat
+1a54a1d402e5676b030fa5ae65ace9a3 108 textures/quake2/fmet2_3.mat
 39cc6d77dbd934f8fb570ef563eb2281 7905 textures/quake2/fmet2_3_norm.png
 22f81508133b12f3e5077c6d447f538e 7498 textures/quake2/fmet2_3_spec.jpg
 1fb0c2521dd4d61cb4fd8199d892793d 3657 textures/quake2/fmet3_5.jpg
@@ -125,7 +125,7 @@ c96f72f00f34c4c9bbe2f0a486f07f96 11694 textures/quake2/metal23_3_spec.jpg
 697bce6fc4cb1c2a0bfcecef0a2c6efb 5710 textures/quake2/ringu_norm.png
 501729c98953e649456572c44bddf85e 1353 textures/quake2/ringu_spec.jpg
 14e636ab214fe28c5241b59832d81808 24911 textures/quake2/stflr1_3.jpg
-eaca86c771d19c7bf51ed62e5042aa6c 127 textures/quake2/stflr1_3.mat
+4330b5b3e633b37c25aca2e5a6001a26 127 textures/quake2/stflr1_3.mat
 4a13c7964c20ec54e1786cb275edc96a 155226 textures/quake2/stflr1_3_norm.png
 43011b1a24b1a17e05cafe10962cd24c 15126 textures/quake2/stflr1_3_spec.jpg
 db7b958eaf3913d4836d8eadd82610f4 13932 textures/quake2/stflr1_4.jpg
