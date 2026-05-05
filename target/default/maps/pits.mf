@@ -122,7 +122,7 @@ b8efac9db2e63728601e4a74df6814b8 345 textures/quake2/slime0.mat
 430d6c18ff4615a0ebbcae22f801b6d7 16640 textures/quake2/slimefx1.jpg
 e81ae0edae5687f20bb524cedd63809d 130201 textures/quake2/slimefx2.png
 14e636ab214fe28c5241b59832d81808 24911 textures/quake2/stflr1_3.jpg
-eaca86c771d19c7bf51ed62e5042aa6c 127 textures/quake2/stflr1_3.mat
+4330b5b3e633b37c25aca2e5a6001a26 127 textures/quake2/stflr1_3.mat
 4a13c7964c20ec54e1786cb275edc96a 155226 textures/quake2/stflr1_3_norm.png
 43011b1a24b1a17e05cafe10962cd24c 15126 textures/quake2/stflr1_3_spec.jpg
 c1a242b222be43f780b22e553ad78920 50183 textures/quake2/stn_floor.jpg

@@ -129,7 +129,7 @@ ab1d4c28ea8430d73e2d08a3cd765e54 27190 textures/lun3dm3/xpiplun1a.jpg
 63a391960c4357bb2f3cd9c70ba0da9d 133 textures/lun3dm3/xpiplun1a.mat
 014af8595512c997dcc5295673ce9c10 168772 textures/lun3dm3/xpiplun1a_norm.png
 a5f3c100b11426cdce2476159b59af74 1720 textures/quake2/baselt_c.jpg
-78f7640d04104fb40a6cd3539e79dd9d 238 textures/quake2/baselt_c.mat
+c2cfa2aa8498ac67d05e46f51f034b08 253 textures/quake2/baselt_c.mat
 d0fd13a4e590b639d97029cd4977d862 1465 textures/quake2/baselt_c_norm.png
 2f2760754673b83f8215d61a1ef13ef2 1352 textures/quake2/baselt_c_spec.jpg
 c3f4df238c1813f5f147a21c1784ca03 4689 textures/quake2/baselt_cfx.png

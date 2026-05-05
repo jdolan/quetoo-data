@@ -24,7 +24,7 @@ d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 ec0e2c0bddf2997bce205054468b1bf8 76 textures/decals/tampon1.mat
 7174ef5af863e1104d5b53908f21e3ce 194252 textures/decals/tampon1.png
 a5f3c100b11426cdce2476159b59af74 1720 textures/quake2/baselt_c.jpg
-78f7640d04104fb40a6cd3539e79dd9d 238 textures/quake2/baselt_c.mat
+c2cfa2aa8498ac67d05e46f51f034b08 253 textures/quake2/baselt_c.mat
 d0fd13a4e590b639d97029cd4977d862 1465 textures/quake2/baselt_c_norm.png
 2f2760754673b83f8215d61a1ef13ef2 1352 textures/quake2/baselt_c_spec.jpg
 c3f4df238c1813f5f147a21c1784ca03 4689 textures/quake2/baselt_cfx.png
@@ -131,7 +131,7 @@ bdc16a67fc34c15301260e7e8e9dff12 160961 textures/quake2/rockies.jpg
 fd8dabf8eef8e1da6c9750d1aed8c0dc 629719 textures/quake2/rockies_norm.png
 a566b040fc72e28ff88ff843a9e38110 104626 textures/quake2/rockies_spec.jpg
 14e636ab214fe28c5241b59832d81808 24911 textures/quake2/stflr1_3.jpg
-eaca86c771d19c7bf51ed62e5042aa6c 127 textures/quake2/stflr1_3.mat
+4330b5b3e633b37c25aca2e5a6001a26 127 textures/quake2/stflr1_3.mat
 4a13c7964c20ec54e1786cb275edc96a 155226 textures/quake2/stflr1_3_norm.png
 43011b1a24b1a17e05cafe10962cd24c 15126 textures/quake2/stflr1_3_spec.jpg
 e281ad9dd11de7c91f9301dc6e7cfad6 5759 textures/quake2/wmetl6_1.jpg

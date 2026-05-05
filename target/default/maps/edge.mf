@@ -31,7 +31,7 @@ ab5f1471519aa155da5dcb11d8933f68 76 textures/decals/tampon0.mat
 d5dc15b87de7bfa12a2337c7d6bdb931 133 textures/evil/e8xgirder.mat
 e1eef4318d5a14d50887cfbf2ec5335c 49418 textures/evil/e8xgirder.png
 a5f3c100b11426cdce2476159b59af74 1720 textures/quake2/baselt_c.jpg
-78f7640d04104fb40a6cd3539e79dd9d 238 textures/quake2/baselt_c.mat
+c2cfa2aa8498ac67d05e46f51f034b08 253 textures/quake2/baselt_c.mat
 d0fd13a4e590b639d97029cd4977d862 1465 textures/quake2/baselt_c_norm.png
 2f2760754673b83f8215d61a1ef13ef2 1352 textures/quake2/baselt_c_spec.jpg
 c3f4df238c1813f5f147a21c1784ca03 4689 textures/quake2/baselt_cfx.png
