@@ -286,8 +286,8 @@ ac4030ffa48a482786b1ca871a871b1a 79 textures/quake/tech04_8.mat
 8310e3220b261d5bfbd2f33ea947b272 10882 textures/quake/tech04_8_norm.png
 32bbb8a3b8e3ca7c74c01011a83ff227 2978 textures/quake/tech04_8_spec.jpg
 fbc4a5aaf455195fdacc028c35f263ae 6653 textures/quake/tech04_9.jpg
-088442ba2edd39df7cc2e0a119a32aa9 109 textures/quake/tech04_9.mat
-664a08b5926b5d950e54e2f43b81f923 14903 textures/quake/tech04_9_norm.png
+bd291177501d51842c16525030e770e0 109 textures/quake/tech04_9.mat
+d1bacc040311f11e48d99069be48ab7d 11504 textures/quake/tech04_9_norm.png
 53d6860736dc1ee4dc013ff2910afbee 5280 textures/quake/tech04_9_spec.jpg
 7e68eb3c6c09abc3708e79a91921d211 25245 textures/quake/tech05_1.jpg
 9c3c6851d26d3ac5ec829e9800d524a2 64 textures/quake/tech05_1.mat
