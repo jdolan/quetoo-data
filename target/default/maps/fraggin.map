@@ -31104,14 +31104,6 @@
 {
 "classname" "misc_dust"
 "type" "fizz"
-"color" "350 0.25 0.50 1"
-"end_color" "350 0.33 0.18"
-"lifetime" "0.5"
-"velocity" "0 0 10"
-"sprite" "ripple_0"
-"density" "0.1"
-"size" "3"
-"size_acceleration" "8"
 "_tb_layer" "2262"
 // brush 0
 {
@@ -31127,14 +31119,6 @@
 {
 "classname" "misc_dust"
 "type" "fizz"
-"color" "350 0.25 0.50 1"
-"end_color" "350 0.33 0.18"
-"lifetime" "0.25"
-"velocity" "0 0 10"
-"sprite" "ripple_0"
-"density" "0.08"
-"size" "3"
-"size_acceleration" "8"
 "_tb_layer" "2262"
 // brush 0
 {
@@ -31150,14 +31134,6 @@
 {
 "classname" "misc_dust"
 "type" "fizz"
-"color" "350 0.25 0.50 1"
-"end_color" "350 0.33 0.18"
-"lifetime" "0.25"
-"velocity" "0 0 10"
-"sprite" "ripple_0"
-"density" "0.08"
-"size" "3"
-"size_acceleration" "8"
 "_tb_layer" "2262"
 // brush 0
 {
@@ -31173,14 +31149,6 @@
 {
 "classname" "misc_dust"
 "type" "fizz"
-"color" "350 0.25 0.50 1"
-"end_color" "350 0.33 0.18"
-"lifetime" "0.5"
-"velocity" "0 0 10"
-"sprite" "ripple_0"
-"density" "0.1"
-"size" "3"
-"size_acceleration" "8"
 "_tb_layer" "2262"
 // brush 0
 {
@@ -31196,14 +31164,6 @@
 {
 "classname" "misc_dust"
 "type" "fizz"
-"color" "350 0.25 0.50 1"
-"end_color" "350 0.33 0.18"
-"lifetime" "0.5"
-"velocity" "0 0 10"
-"sprite" "ripple_0"
-"density" "0.025"
-"size" "3"
-"size_acceleration" "8"
 "_tb_layer" "2262"
 // brush 0
 {
@@ -31246,14 +31206,6 @@
 {
 "classname" "misc_dust"
 "type" "fizz"
-"color" "350 0.25 0.50 1"
-"end_color" "350 0.33 0.18"
-"lifetime" "0.5"
-"velocity" "0 0 10"
-"sprite" "ripple_0"
-"density" "0.08"
-"size" "3"
-"size_acceleration" "8"
 "_tb_layer" "2262"
 // brush 0
 {
@@ -31269,14 +31221,6 @@
 {
 "classname" "misc_dust"
 "type" "fizz"
-"color" "350 0.25 0.50 1"
-"end_color" "350 0.33 0.18"
-"lifetime" "0.5"
-"velocity" "0 0 10"
-"sprite" "ripple_0"
-"density" "0.08"
-"size" "3"
-"size_acceleration" "8"
 "_tb_layer" "2262"
 // brush 0
 {
@@ -31292,14 +31236,6 @@
 {
 "classname" "misc_dust"
 "type" "fizz"
-"color" "350 0.25 0.50 1"
-"end_color" "350 0.33 0.18"
-"lifetime" "0.5"
-"velocity" "0 0 10"
-"sprite" "ripple_0"
-"density" "0.1"
-"size" "3"
-"size_acceleration" "8"
 "_tb_layer" "2262"
 // brush 0
 {
@@ -31315,14 +31251,6 @@
 {
 "classname" "misc_dust"
 "type" "fizz"
-"color" "350 0.25 0.50 1"
-"end_color" "350 0.33 0.18"
-"lifetime" "0.5"
-"velocity" "0 0 10"
-"sprite" "ripple_0"
-"density" "0.08"
-"size" "3"
-"size_acceleration" "8"
 "_tb_layer" "2262"
 // brush 0
 {

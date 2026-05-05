@@ -12244,11 +12244,6 @@
 {
 "classname" "misc_dust"
 "type" "bubbles"
-"lifetime" "2"
-"size" "1.25"
-"softness" "2.5"
-"sprite" "bubble"
-"velocity" "0 0 10"
 // brush 0
 {
 ( 616 -1080 -352 ) ( 616 -1079 -352 ) ( 616 -1080 -351 ) common/dust 0 0 0 0.25 0.25
@@ -12263,11 +12258,6 @@
 {
 "classname" "misc_dust"
 "type" "bubbles"
-"lifetime" "2"
-"size" "1.25"
-"softness" "2.5"
-"sprite" "bubble"
-"velocity" "0 0 10"
 // brush 0
 {
 ( 840 -856 -352 ) ( 840 -855 -352 ) ( 840 -856 -351 ) common/dust 0 0 0 0.25 0.25
@@ -12282,11 +12272,6 @@
 {
 "classname" "misc_dust"
 "type" "bubbles"
-"lifetime" "2"
-"size" "1.25"
-"softness" "2.5"
-"sprite" "bubble"
-"velocity" "0 0 10"
 // brush 0
 {
 ( 616 -632 -352 ) ( 616 -631 -352 ) ( 616 -632 -351 ) common/dust 0 0 0 0.25 0.25
@@ -12314,7 +12299,6 @@
 "lifetime" "6"
 "size" "3"
 "softness" "4"
-"sprite" "bubble"
 "velocity" "0 0 18"
 "_tb_group" "31"
 // brush 0
@@ -12494,7 +12478,6 @@
 "lifetime" "6"
 "size" "3"
 "softness" "4"
-"sprite" "bubble"
 "velocity" "0 0 18"
 "_tb_group" "33"
 // brush 0

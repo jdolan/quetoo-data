@@ -13401,10 +13401,6 @@
 {
 "classname" "misc_dust"
 "type" "bubbles"
-"color" "0.82 1 0.3"
-"density" "1.000000"
-"softness" "4"
-"sprite" "bubble"
 // brush 0
 {
 ( -512 -2048 0 ) ( -512 -2047 0 ) ( -512 -2048 1 ) common/dust 0 0 0 0.25 0.25

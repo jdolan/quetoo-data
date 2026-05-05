@@ -12554,12 +12554,6 @@
 {
 "classname" "misc_dust"
 "type" "embers"
-"acceleration" "10 10 0"
-"color" "20 0 0.23 1"
-"end_color" "35 0.23 0.23 0.5"
-"lifetime" "1"
-"size" "1.5"
-"velocity" "0 0 15"
 // brush 0
 {
 ( -480 -208 -160 ) ( -480 -207 -160 ) ( -480 -208 -159 ) common/dust 0 0 0 0.25 0.25
@@ -12574,12 +12568,6 @@
 {
 "classname" "misc_dust"
 "type" "embers"
-"acceleration" "10 10 0"
-"color" "20 0 0.23 1"
-"end_color" "35 0.23 0.23 0.5"
-"lifetime" "1"
-"size" "1.5"
-"velocity" "0 0 15"
 // brush 0
 {
 ( -640 -48 -160 ) ( -640 -47 -160 ) ( -640 -48 -159 ) common/dust 0 0 0 0.25 0.25
@@ -12595,12 +12583,6 @@
 {
 "classname" "misc_dust"
 "type" "embers"
-"acceleration" "10 10 0"
-"color" "20 0 0.23 1"
-"end_color" "35 0.23 0.23 0.5"
-"lifetime" "1"
-"size" "1.5"
-"velocity" "0 0 15"
 // brush 0
 {
 ( -528 480 -128 ) ( -528 481 -128 ) ( -528 480 -127 ) common/dust 0 0 0 0.25 0.25
@@ -12615,12 +12597,6 @@
 {
 "classname" "misc_dust"
 "type" "embers"
-"acceleration" "10 10 0"
-"color" "20 0 0.23 1"
-"end_color" "35 0.23 0.23 0.5"
-"lifetime" "1"
-"size" "1.5"
-"velocity" "0 0 15"
 // brush 0
 {
 ( 432 16 -40 ) ( 432 17 -40 ) ( 432 16 -39 ) common/dust 0 -32 0 0.25 0.25

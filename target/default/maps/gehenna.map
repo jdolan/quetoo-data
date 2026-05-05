@@ -35646,9 +35646,6 @@
 {
 "classname" "misc_dust"
 "type" "embers"
-"color" "0 0 1 .7"
-"size" "1.5"
-"velocity" "0 0 4"
 "_tb_layer" "2252"
 // brush 0
 {
@@ -35674,11 +35671,6 @@
 {
 "classname" "misc_dust"
 "type" "embers"
-"color" "0 0 1 .7"
-"size" "1.5"
-"velocity" "0 0 50"
-"lifetime" "4"
-"size_velocity" "0.25"
 "_tb_layer" "2252"
 // brush 0
 {
@@ -35721,16 +35713,6 @@
 {
 "classname" "misc_dust"
 "type" "embers"
-"color" "20 0 0.23 1"
-"end_color" "35 0.23 0.23 0.5"
-"lifetime" "1"
-"size" "2.25"
-"velocity" "0 0 5"
-"density" "0.1"
-"sprite" "particle2"
-"acceleration_spread" "8 12 8"
-"acceleration" "8 8 8"
-"size_velocity" "-0.25"
 "_tb_layer" "2252"
 // brush 0
 {
@@ -35845,16 +35827,6 @@
 {
 "classname" "misc_dust"
 "type" "embers"
-"color" "20 0 0.23 1"
-"end_color" "35 0.23 0.23 0.5"
-"lifetime" "1"
-"size" "2.25"
-"velocity" "0 0 5"
-"density" "0.33"
-"sprite" "particle2"
-"acceleration_spread" "8 12 8"
-"acceleration" "8 8 8"
-"size_velocity" "-0.25"
 "_tb_layer" "2252"
 // brush 0
 {
