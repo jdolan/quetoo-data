@@ -237,11 +237,11 @@
 [
 	radius(integer) : "Light radius" : 300
 	color(string) : "Light color as 3 decimal values from 0.0 - 1.0" : "1 1 1"
-	intensity(float) : "Light intensity as a positive scalar value" : "1"
 	drift(float) : "Phase offset (0-1) for style animation. Use different values on nearby lights with the same style to prevent synchronized flickering." : "0"
+	intensity(float) : "Light intensity as a positive scalar value" : "1"
 	team(string) : "Specifies what 'team' the light is on to get key/values from" : ""
 	team_master(string) : "Setting this value makes this light the 'master' of the specified team. Can be any value." : ""
-	style(choices) : "String of A(0.0) to Z(1.0) that modulates over time as a defined style. Each additional character adds 100ms to the sequence" : "m" =
+	style(choices) : "String of A(0.0) to Z(1.0) that modulates over time as a defined style. Each additional character adds 100ms to the sequence" : "z" =
 	[
 		//Ripped from q1/q2
 		"m" : "Normal"
@@ -264,10 +264,11 @@
 @SolidClass color(180 180 150) = misc_dust : "Dust volumes emit configurable sprites, like localized weather. These are useful for creating dust, bubbles, foam, mist, etc. These are typically contents atmospheric."
 [
 	acceleration(string) : "The sprite acceleration" : "0 0 0"
-	color(string) : "The sprite HSVA color as 4 decimal values" : "0 0 1 1"
+	acceleration_spread(string) : "Per-particle random acceleration range, applied symmetrically on each axis" : "0 0 0"
+	color(string) : "Float RGB sprite color" : "1 1 1"
 	dir(string) : "The sprite directional axis (0 0 0 is billboard)" : "0 0 0"
 	density(float) : "The sprite density" : "1"
-	end_color(string) : "The sprite HSVA end color as 4 decimal values" : "0 0 0 0"
+	end_color(string) : "Float RGB sprite end color" : "1 1 1"
 	height(float) : "The sprite height. Setting this will cause size to be ignored" : "0"
 	hz(float) : "The emission rate, in events-per-second" : "10"
 	lifetime(float) : "The sprite lifetime in seconds" : "10"
@@ -275,12 +276,18 @@
 	rotation(float) : "The sprite rotation in degrees" : "0"
 	rotation_velocity(float) : "The sprite rotation velocity in degrees per second" : "0"
 	size(float) : "The sprite size" : "1"
-	size_velocity(float) : "The sprite size velocity" : "0"
-	size_acceleration(float) : "The sprite size acceleration" : "0"
+	size_velocity(float) : "Rate of size change in world units per second. Negative shrinks the sprite (destroying it at 0), positive grows it" : "0"
+	size_acceleration(float) : "Rate of change of size_velocity in world units per second squared. Use negative values to slow growth or speed shrinking" : "0"
 	softness(float) : "The sprite softness scalar" : "1"
 	sprite(string) : "The sprite image name" : "particle1"
 	velocity(string) : "The sprite velocity" : "0 0 0"
 	width(float) : "The sprite width. Setting this will cause size to be ignored" : "0"
+	type(choices) : "Preset setting to apply" : "" =
+	[
+		"embers" : "Lava/Fire Embers"
+		"bubbles" : "Water Bubbles"
+		"fizz" : "Acid/Slime Fizz"
+	]
 ]
 
 @PointClass color(255 80 20) size(-8 -8 -8, 8 8 8) = misc_fireball : "Spawns an intermittent fireball that damages players. These are typically used above lava traps for ambiance."
@@ -347,8 +354,8 @@
 	rotation(float) : "The sprite rotation in degrees" : "0"
 	rotation_velocity(float) : "The sprite rotation velocity in degrees per second" : "0"
 	size(float) : "The sprite size" : "1"
-	size_velocity(float) : "The sprite size velocity" : "0"
-	size_acceleration(float) : "The sprite size acceleration" : "0"
+	size_velocity(float) : "Rate of size change in world units per second. Negative shrinks the sprite (destroying it at 0), positive grows it" : "0"
+	size_acceleration(float) : "Rate of change of size_velocity in world units per second squared. Use negative values to slow growth or speed shrinking" : "0"
 	softness(float) : "The sprite softness scalar" : "1"
 	sprite(string) : "The sprite image name" : "particle1"
 	team(string) : "The team name, for emitting randomized sprites that mix properties"
