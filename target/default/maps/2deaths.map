@@ -7604,7 +7604,7 @@
 "classname" "func_door"
 "angle" "-2"
 "model" "*5"
-"sounds" "0"
+"sounds" "1"
 "targetname" "t2"
 // brush 0
 {
@@ -12169,12 +12169,6 @@
 }
 // entity 100
 {
-"classname" "misc_sound"
-"origin" "80 512 -80"
-"sound" "ambient/wind_3"
-}
-// entity 101
-{
 "classname" "light"
 "color" "1 0.5 0"
 "drift" "1"
@@ -12185,7 +12179,7 @@
 "team" "torch"
 "team_master" "a"
 }
-// entity 102
+// entity 101
 {
 "classname" "light"
 "color" "1 0.2 0"
@@ -12196,7 +12190,7 @@
 "team" "lava"
 "team_master" "a"
 }
-// entity 103
+// entity 102
 {
 "classname" "light"
 "color" "1 0.8039216 0.34117648"
@@ -12206,7 +12200,7 @@
 "team" "sky"
 "team_master" "a"
 }
-// entity 104
+// entity 103
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -12215,7 +12209,7 @@
 "_tb_linked_group_id" "{69906a42-2ccb-423a-a9da-db8ec00873f5}"
 "_tb_transformation" "1 0 0 -224 0 1 0 -1088 0 0 1 0 0 0 0 1"
 }
-// entity 105
+// entity 104
 {
 "classname" "func_wall"
 "model" "*12"
@@ -12396,7 +12390,7 @@
 ( 416 96 -18 ) ( 728 408 -18 ) ( 728 408 -24 ) quake/cop1_1 0 0 0 0.25 0.25 134217728 0 0
 }
 }
-// entity 106
+// entity 105
 {
 "classname" "func_wall"
 "model" "*13"
@@ -12556,26 +12550,7 @@
 ( 600 144 -24 ) ( 600 136 -24 ) ( 600 136 104 ) quake/cop1_1 0 0 0 0.25 0.25 134217728 0 0
 }
 }
-// entity 107
-{
-"classname" "misc_dust"
-"acceleration" "10 10 0"
-"color" "20 0 0.23 1"
-"end_color" "35 0.23 0.23 0.5"
-"lifetime" "1"
-"size" "1.5"
-"velocity" "0 0 15"
-// brush 0
-{
-( -704 128 -256 ) ( -704 129 -256 ) ( -704 128 -255 ) common/dust 0 0 0 0.25 0.25
-( -672 128 -256 ) ( -672 128 -255 ) ( -671 128 -256 ) common/dust 0 0 0 0.25 0.25
-( -672 128 -256 ) ( -671 128 -256 ) ( -672 129 -256 ) common/dust 0 0 0 0.25 0.25
-( -448 368 -240 ) ( -448 369 -240 ) ( -447 368 -240 ) common/dust 0 0 0 0.25 0.25
-( -448 448 -240 ) ( -447 448 -240 ) ( -448 448 -239 ) common/dust 0 0 0 0.25 0.25
-( -448 368 -240 ) ( -448 368 -239 ) ( -448 369 -240 ) common/dust 0 0 0 0.25 0.25
-}
-}
-// entity 108
+// entity 106
 {
 "classname" "misc_dust"
 "acceleration" "10 10 0"
@@ -12594,7 +12569,7 @@
 ( -336 -208 -160 ) ( -336 -208 -159 ) ( -336 -207 -160 ) common/dust 0 0 0 0.25 0.25
 }
 }
-// entity 109
+// entity 107
 {
 "classname" "misc_dust"
 "acceleration" "10 10 0"
@@ -12614,7 +12589,7 @@
 ( -384 -48 -160 ) ( -384 -48 -159 ) ( -384 -47 -160 ) common/dust 0 0 0 0.25 0.25
 }
 }
-// entity 110
+// entity 108
 {
 "classname" "misc_dust"
 "acceleration" "10 10 0"
@@ -12633,7 +12608,7 @@
 ( -464 480 -128 ) ( -464 480 -127 ) ( -464 481 -128 ) common/dust 0 0 0 0.25 0.25
 }
 }
-// entity 111
+// entity 109
 {
 "classname" "misc_dust"
 "acceleration" "10 10 0"
@@ -12652,7 +12627,7 @@
 ( 600 16 -40 ) ( 600 16 -39 ) ( 600 17 -40 ) common/dust 0 -32 0 0.25 0.25
 }
 }
-// entity 112
+// entity 110
 {
 "classname" "func_group"
 // brush 0
@@ -12731,7 +12706,7 @@
 ( 24 -104 -70 ) ( 24 -102 -74 ) ( 24 -102 -90 ) quake/metal1_3 -160 0 0 0.25 0.25 134217792 0 0
 }
 }
-// entity 113
+// entity 111
 {
 "classname" "func_group"
 // brush 0
@@ -12810,19 +12785,19 @@
 ( -96 -74 80 ) ( -96 -74 104 ) ( -96 -72 100 ) quake/metal1_3 -40 120 179.99998 0.25 -0.25 134217792 0 0
 }
 }
-// entity 114
+// entity 112
 {
 "classname" "misc_flame"
-"origin" "-96 -64 116"
 "angle" "270"
+"origin" "-96 -64 116"
 }
-// entity 115
+// entity 113
 {
 "classname" "light"
 "origin" "-96 -64 124"
 "team" "torch"
 }
-// entity 116
+// entity 114
 {
 "classname" "func_group"
 // brush 0
@@ -12901,42 +12876,54 @@
 ( -90 202 84 ) ( -96 200 84 ) ( -96 200 100 ) quake/metal1_3 128 -136 180.00002 0.25 -0.25 134217792 0 0
 }
 }
-// entity 117
+// entity 115
 {
 "classname" "misc_flame"
-"origin" "-96 192 116"
 "angle" "90"
+"origin" "-96 192 116"
 }
-// entity 118
+// entity 116
 {
 "classname" "light"
 "origin" "-96 192 124"
 "team" "torch"
 }
-// entity 119
+// entity 117
 {
 "classname" "misc_steam"
 "origin" "356 324 0"
 }
-// entity 120
+// entity 118
 {
 "classname" "misc_steam"
 "origin" "676 324 0"
 }
-// entity 121
+// entity 119
 {
 "classname" "misc_steam"
 "origin" "224 224 0"
 }
-// entity 122
+// entity 120
 {
 "classname" "misc_steam"
 "origin" "-496 280 -128"
 }
-// entity 123
+// entity 121
 {
 "classname" "misc_steam"
 "origin" "-496 568 -128"
+}
+// entity 122
+{
+"classname" "misc_sound"
+"origin" "-224 432 288"
+"sound" "ambient/wind_3"
+}
+// entity 123
+{
+"classname" "misc_sound"
+"origin" "-128 64 304"
+"sound" "ambient/wind_3"
 }
 // entity 124
 {
