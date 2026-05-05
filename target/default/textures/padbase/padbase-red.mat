@@ -7,7 +7,7 @@
 	contents "mist detail"
 	surface "blend_100"
 	{
-		color 1 0.1 0.1 1
+		color 1 0.1 0.1 0.75
 		scale.s 0.75
 		scale.t 0.75
 		flare flare_3
