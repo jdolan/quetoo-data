@@ -17691,8 +17691,8 @@
 // entity 85
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "4"
-"density" ".25"
 // brush 0
 {
 ( -176 368 -64 ) ( -176 80 -64 ) ( -176 80 -160 ) common/dust 0 0 0 0.125 0.125

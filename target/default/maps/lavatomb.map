@@ -19208,6 +19208,7 @@
 // entity 259
 {
 "classname" "misc_dust"
+"type" "embers"
 "acceleration" "10 10 0"
 "color" "20 0 0.23 1"
 "end_color" "35 0.23 0.23 0.5"

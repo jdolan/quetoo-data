@@ -24373,6 +24373,7 @@
 // entity 256
 {
 "classname" "misc_dust"
+"type" "embers"
 "size" "2.5"
 "velocity" "0 0 50"
 "lifetime" "1"
@@ -27287,17 +27288,7 @@
 // entity 399
 {
 "classname" "misc_dust"
-"color" "1 0.25 0.0125"
-"end_color" "0.125 0 0"
-"lifetime" "2"
-"size" "2.25"
-"velocity" "0 0 5"
-"density" "0.33"
-"sprite" "particle2"
-"acceleration_spread" "8 12 8"
-"acceleration" "8 8 8"
-"size_velocity" "-0.25"
-"lighting" "0"
+"type" "embers"
 "_tb_layer" "4520"
 // brush 0
 {
@@ -27375,17 +27366,7 @@
 // entity 400
 {
 "classname" "misc_dust"
-"color" "1 0.25 0.0125"
-"end_color" "0.125 0 0"
-"lifetime" "2"
-"size" "2.25"
-"velocity" "0 0 5"
-"density" "0.33"
-"sprite" "particle2"
-"acceleration_spread" "8 12 8"
-"acceleration" "8 8 8"
-"size_velocity" "-0.25"
-"lighting" "0"
+"type" "embers"
 "_tb_layer" "4520"
 // brush 0
 {
@@ -27400,17 +27381,7 @@
 // entity 401
 {
 "classname" "misc_dust"
-"color" "1 0.25 0.0125"
-"end_color" "0.125 0 0"
-"lifetime" "2"
-"size" "2.25"
-"velocity" "0 0 5"
-"density" "0.33"
-"sprite" "particle2"
-"acceleration_spread" "8 12 8"
-"acceleration" "8 8 8"
-"size_velocity" "-0.25"
-"lighting" "0"
+"type" "embers"
 "_tb_layer" "4520"
 // brush 0
 {
@@ -27425,17 +27396,7 @@
 // entity 402
 {
 "classname" "misc_dust"
-"color" "1 0.25 0.0125"
-"end_color" "0.125 0 0"
-"lifetime" "2"
-"size" "2.25"
-"velocity" "0 0 5"
-"density" "0.33"
-"sprite" "particle2"
-"acceleration_spread" "8 12 8"
-"acceleration" "8 8 8"
-"size_velocity" "-0.25"
-"lighting" "0"
+"type" "embers"
 "_tb_layer" "4520"
 // brush 0
 {
@@ -27450,17 +27411,7 @@
 // entity 403
 {
 "classname" "misc_dust"
-"color" "1 0.25 0.0125"
-"end_color" "0.125 0 0"
-"lifetime" "2"
-"size" "2.25"
-"velocity" "0 0 5"
-"density" "0.33"
-"sprite" "particle2"
-"acceleration_spread" "8 12 8"
-"acceleration" "8 8 8"
-"size_velocity" "-0.25"
-"lighting" "0"
+"type" "embers"
 "_tb_layer" "4520"
 // brush 0
 {
@@ -27475,6 +27426,7 @@
 // entity 404
 {
 "classname" "misc_dust"
+"type" "embers"
 "color" "1 0.25 0.0125"
 "end_color" "0.125 0 0"
 "lifetime" "2"
@@ -27500,17 +27452,7 @@
 // entity 405
 {
 "classname" "misc_dust"
-"color" "1 0.25 0.0125"
-"end_color" "0.125 0 0"
-"lifetime" "2"
-"size" "2.25"
-"velocity" "0 0 5"
-"density" "0.33"
-"sprite" "particle2"
-"acceleration_spread" "8 12 8"
-"acceleration" "8 8 8"
-"size_velocity" "-0.25"
-"lighting" "0"
+"type" "embers"
 "_tb_layer" "4520"
 // brush 0
 {
@@ -27525,17 +27467,7 @@
 // entity 406
 {
 "classname" "misc_dust"
-"color" "1 0.25 0.0125"
-"end_color" "0.125 0 0"
-"lifetime" "2"
-"size" "2.25"
-"velocity" "0 0 5"
-"density" "0.33"
-"sprite" "particle2"
-"acceleration_spread" "8 12 8"
-"acceleration" "8 8 8"
-"size_velocity" "-0.25"
-"lighting" "0"
+"type" "embers"
 "_tb_layer" "4520"
 // brush 0
 {

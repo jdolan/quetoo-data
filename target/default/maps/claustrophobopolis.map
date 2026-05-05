@@ -32816,9 +32816,8 @@
 // entity 236
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"color" "0 0 1 1"
-"lifetime" "5"
 // brush 0
 {
 ( -544 440 544 ) ( -544 176 544 ) ( -544 176 528 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32832,10 +32831,8 @@
 // entity 237
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"color" "0 0 1 1"
-"lifetime" "5"
-"velocity" "0 0 10"
 // brush 0
 {
 ( -704 624 544 ) ( -704 360 544 ) ( -704 360 528 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32849,10 +32846,8 @@
 // entity 238
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"color" "0 0 1 1"
-"lifetime" "5"
-"velocity" "0 0 10"
 // brush 0
 {
 ( -384 -560 544 ) ( -384 -824 544 ) ( -384 -824 528 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32866,6 +32861,7 @@
 // entity 239
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
 // brush 0
 {
@@ -32880,6 +32876,7 @@
 // entity 240
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
 // brush 0
 {
@@ -32908,11 +32905,8 @@
 // entity 242
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"color" "0 0 1 1"
-"density" ".5"
-"lifetime" "5"
-"velocity" "0 0 5"
 // brush 0
 {
 ( -32 -960 568 ) ( -32 -1224 568 ) ( -32 -1224 552 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32942,10 +32936,8 @@
 // entity 244
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"color" "0 0 1 1"
-"lifetime" "5"
-"velocity" "0 0 10"
 // brush 0
 {
 ( 112 -768 600 ) ( 112 -1032 600 ) ( 112 -1032 584 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -32959,11 +32951,8 @@
 // entity 245
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"color" "0 0 1 1"
-"density" ".5"
-"lifetime" "5"
-"velocity" "0 0 5"
 // brush 0
 {
 ( 704 -720 576 ) ( 704 -984 576 ) ( 704 -984 560 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33036,8 +33025,8 @@
 // entity 250
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( 32 752 512 ) ( 32 488 512 ) ( 32 488 496 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33051,10 +33040,8 @@
 // entity 251
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"color" "0 0 1 1"
-"lifetime" "5"
-"velocity" "0 0 10"
 // brush 0
 {
 ( 32 1488 328 ) ( 32 1224 328 ) ( 32 1224 312 ) common/dust 0 0 0 0.5 0.5
@@ -33070,10 +33057,8 @@
 // entity 252
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"color" "0 0 1 1"
-"lifetime" "5"
-"velocity" "0 0 10"
 // brush 0
 {
 ( -64 1128 304 ) ( -64 864 304 ) ( -64 864 288 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33087,8 +33072,8 @@
 // entity 253
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( -64 1312 512 ) ( -64 1048 512 ) ( -64 1048 496 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33102,8 +33087,8 @@
 // entity 254
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( 64 1408 512 ) ( 64 1144 512 ) ( 64 1144 496 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33222,11 +33207,8 @@
 // entity 262
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"color" "0 0 1 1"
-"density" ".5"
-"lifetime" "5"
-"velocity" "0 0 5"
 // brush 0
 {
 ( 248 -504 544 ) ( 248 -768 544 ) ( 248 -768 528 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33240,8 +33222,8 @@
 // entity 263
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"color" "0 0 1 1"
 // brush 0
 {
 ( -32 1072 512 ) ( -32 808 512 ) ( -32 808 496 ) common/dust 0 0 0 0.5 0.5 0 1 0
@@ -33255,10 +33237,8 @@
 // entity 264
 {
 "classname" "misc_dust"
+"type" "embers"
 "_tb_layer" "5"
-"density" ".25"
-"lifetime" "5"
-"velocity" "0 0 5"
 // brush 0
 {
 ( -800 64 32 ) ( -800 -384 32 ) ( -800 -384 0 ) common/dust 0 0 0 0.5 0.5

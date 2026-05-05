@@ -12457,6 +12457,7 @@
 // entity 39
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "acceleration" "0 0 -.2"
 "color" "0 0 1 1"
 "density" "6"

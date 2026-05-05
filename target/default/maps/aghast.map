@@ -7810,6 +7810,7 @@
 // entity 167
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "_tb_layer" "4"
 "density" "2"
 "lifetime" "1.5"

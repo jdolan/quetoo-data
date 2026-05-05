@@ -12243,6 +12243,7 @@
 // entity 51
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "lifetime" "2"
 "size" "1.25"
 "softness" "2.5"
@@ -12261,6 +12262,7 @@
 // entity 52
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "lifetime" "2"
 "size" "1.25"
 "softness" "2.5"
@@ -12279,6 +12281,7 @@
 // entity 53
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "lifetime" "2"
 "size" "1.25"
 "softness" "2.5"
@@ -12306,6 +12309,7 @@
 // entity 55
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "density" "1.5"
 "lifetime" "6"
 "size" "3"
@@ -12485,6 +12489,7 @@
 // entity 59
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "density" "1.5"
 "lifetime" "6"
 "size" "3"

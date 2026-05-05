@@ -13400,6 +13400,7 @@
 // entity 90
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "color" "0.82 1 0.3"
 "density" "1.000000"
 "softness" "4"

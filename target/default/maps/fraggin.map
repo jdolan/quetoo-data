@@ -9163,6 +9163,7 @@
 // entity 3
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "color" "0 0.75 1 0.85"
 "density" "3"
 "lifetime" "4"
@@ -9277,6 +9278,7 @@
 // entity 10
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "density" "1"
 "lifetime" "1"
 "size" "1.5"
@@ -9392,6 +9394,7 @@
 // entity 17
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "density" "1"
 "lifetime" "1"
 "size" "1.5"
@@ -9741,6 +9744,7 @@
 // entity 42
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "color" "0 0.75 1 0.85"
 "density" "3"
 "lifetime" "4"
@@ -9801,6 +9805,7 @@
 // entity 46
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "color" "0 0.75 1 0.85"
 "density" "3"
 "lifetime" "4"
@@ -9913,6 +9918,7 @@
 // entity 53
 {
 "classname" "misc_dust"
+"type" "bubbles"
 "density" "1"
 "lifetime" "1"
 "size" "1.5"
@@ -31097,6 +31103,7 @@
 // entity 415
 {
 "classname" "misc_dust"
+"type" "fizz"
 "color" "350 0.25 0.50 1"
 "end_color" "350 0.33 0.18"
 "lifetime" "0.5"
@@ -31119,6 +31126,7 @@
 // entity 416
 {
 "classname" "misc_dust"
+"type" "fizz"
 "color" "350 0.25 0.50 1"
 "end_color" "350 0.33 0.18"
 "lifetime" "0.25"
@@ -31141,6 +31149,7 @@
 // entity 417
 {
 "classname" "misc_dust"
+"type" "fizz"
 "color" "350 0.25 0.50 1"
 "end_color" "350 0.33 0.18"
 "lifetime" "0.25"
@@ -31163,6 +31172,7 @@
 // entity 418
 {
 "classname" "misc_dust"
+"type" "fizz"
 "color" "350 0.25 0.50 1"
 "end_color" "350 0.33 0.18"
 "lifetime" "0.5"
@@ -31185,6 +31195,7 @@
 // entity 419
 {
 "classname" "misc_dust"
+"type" "fizz"
 "color" "350 0.25 0.50 1"
 "end_color" "350 0.33 0.18"
 "lifetime" "0.5"
@@ -31234,6 +31245,7 @@
 // entity 420
 {
 "classname" "misc_dust"
+"type" "fizz"
 "color" "350 0.25 0.50 1"
 "end_color" "350 0.33 0.18"
 "lifetime" "0.5"
@@ -31256,6 +31268,7 @@
 // entity 421
 {
 "classname" "misc_dust"
+"type" "fizz"
 "color" "350 0.25 0.50 1"
 "end_color" "350 0.33 0.18"
 "lifetime" "0.5"
@@ -31278,6 +31291,7 @@
 // entity 422
 {
 "classname" "misc_dust"
+"type" "fizz"
 "color" "350 0.25 0.50 1"
 "end_color" "350 0.33 0.18"
 "lifetime" "0.5"
@@ -31300,6 +31314,7 @@
 // entity 423
 {
 "classname" "misc_dust"
+"type" "fizz"
 "color" "350 0.25 0.50 1"
 "end_color" "350 0.33 0.18"
 "lifetime" "0.5"
