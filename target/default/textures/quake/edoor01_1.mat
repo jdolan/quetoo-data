@@ -1,3 +1,7 @@
 {
 	diffusemap quake/edoor01_1
+	parallax 3.00
+	specularity 1.50
+	hardness 0.50
+	roughness 1.25
 }
