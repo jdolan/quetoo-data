@@ -1,6 +1,5 @@
 .DS_Store
 target/revision
-**/manifest.mf
 .settings
 **/gitignore/
 *.bak
