@@ -123,9 +123,9 @@ c0a84e1d8bdb0b1de8c46a4c1c2cb83f 1478097 maps/chthon.map
 2bdcfd5256571ce5ddc9834d97df2c9e 469689 maps/cistern.map
 0d05d389eccbb0f5a7b076290d3e547d 5783 maps/cistern.mf
 da26e484db328ea5eb702d3fdcb922cf 6116 maps/cistern.nav
-6d70b60f403d8aec679377966b970790 10027574 maps/claustrophobopolis.bsp
-b6fd46becb530b90e67ad1f5998eb6eb 836346 maps/claustrophobopolis.map
-4adf0fa0f9a6c152a2ae9a915ed10eec 9487 maps/claustrophobopolis.mf
+2f04ebbd38ff9c78b03ba6e83bf49660 10027478 maps/claustrophobopolis.bsp
+6d37ce7a7e60a76ccb45a13dbe0bffa8 836254 maps/claustrophobopolis.map
+2386ef20a254ddfcac7ef4a694673b14 9487 maps/claustrophobopolis.mf
 e88cfc3a5cf855047aef392efc982448 5796 maps/claustrophobopolis.nav
 fbad0efdeaceed8f787dfbd76f707993 6140757 maps/darkzone.bsp
 952d2c7b545f9365fcb0aafe0d962a03 505702 maps/darkzone.map
