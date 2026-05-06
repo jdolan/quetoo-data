@@ -100,9 +100,9 @@ ddd883724092ec64358b5105db0759cc 7715231 maps/2deaths.bsp
 57dd51823c07680757fa6c12b7b5799c 792446 maps/2deaths.map
 a221447652f956945cea54938c9a2cb4 7317 maps/2deaths.mf
 5db92fe47355bd8dcfb63eeafcac5abe 8476 maps/2deaths.nav
-23afa52cc370aad9bf0d0774c9e73f1d 12636890 maps/abase.bsp
-c788180e07a975cc17b95c3eec4c3461 910611 maps/abase.map
-b5c9f8d4f20b02815159d9882f790deb 31267 maps/abase.mf
+2f271fbb2ead4791f7b0681b0e97e3c8 12619328 maps/abase.bsp
+4f955e84b4493775cd370bb02faaa68f 916919 maps/abase.map
+eb628ae2d3ae4d36dc4147a85d5cecc2 31277 maps/abase.mf
 ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
 6aade3574e5ec485439f1dcabc8dcb5f 5084675 maps/aerowalk.bsp
 eae48cfbf88297586a4d1e1f5f5bee73 565755 maps/aerowalk.map
@@ -5674,7 +5674,7 @@ cba80bc785d8bd4f2849ca37eccd0884 108 textures/quake/dung02_5.mat
 92c4eae7763518af59794bf3170293ec 174034 textures/quake/dung02_5_norm.png
 8fc2555dea4504b578a4d367010f79e1 29376 textures/quake/dung02_5_spec.jpg
 35d4d9d42ca5f8ed2f3532e8a3ce21fe 49265 textures/quake/edoor01_1.jpg
-0f0a2edd93eea30be0cce19339945a7a 32 textures/quake/edoor01_1.mat
+32fe1f886a4604230860dbd8f9d4c88a 96 textures/quake/edoor01_1.mat
 3a1d18612131403dfa013824d4661c96 156263 textures/quake/edoor01_1_norm.png
 6a4b82a95521c6da947597fb2ff67a28 26331 textures/quake/edoor01_1_spec.jpg
 b05f00e4c27f266cc047424fbf51f91f 30166 textures/quake/elwall1_1.jpg
