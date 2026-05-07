@@ -131,6 +131,9 @@ e88cfc3a5cf855047aef392efc982448 5796 maps/claustrophobopolis.nav
 952d2c7b545f9365fcb0aafe0d962a03 505702 maps/darkzone.map
 de83433cbd61acfb354bc2c7e9909c3d 3808 maps/darkzone.mf
 4994859c2940812dd17f7138e11cf6ea 6132 maps/darkzone.nav
+bfbc76f2de8645df230fad9cde160ccc 7570682 maps/darkzone2.bsp
+a08574d422517cd4bc6fb5825403401b 574847 maps/darkzone2.map
+d19d5a907dfc361fd5b5e8a047a3daf2 6262 maps/darkzone2.mf
 b1fd13c6aea66a404f19844f04991bfc 14202667 maps/edge.bsp
 8cc16dd6b31a7227fe7dbf314e8e7561 1339550 maps/edge.map
 c94a08ebd88f3f8e796f63201daaf9f2 14692 maps/edge.mf
@@ -174,9 +177,9 @@ e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
 51631b110a8eb1b1d9158ae6169914dc 522229 maps/rage.map
 2ff9f083ee367888a442173994e9aa42 9947 maps/rage.mf
 db567133973d9cf43a05e7350e32d9c1 5372 maps/rage.nav
-367d61784761cacaa8080cc217cd4a49 5006037 maps/slimyplace.bsp
-03dec4855f2317f8069ef1695c36a348 552401 maps/slimyplace.map
-e657f7650041f7062ec92bec4815c7d6 8460 maps/slimyplace.mf
+56dcd11432515ece0feaac09bcd7d941 5125483 maps/slimyplace.bsp
+a9802d514868fcd33ccd62d86b2d824e 587088 maps/slimyplace.map
+d9b6b534cd6efa17fdbee6688c9512a8 8586 maps/slimyplace.mf
 2fa04e2985b87b3032dad006dc1882e3 5524 maps/slimyplace.nav
 54593b7c83d804952eaf4895e2d20bd1 6791410 maps/tokays.bsp
 c05a4adc093315f8fb1c97eff943958c 778673 maps/tokays.map
