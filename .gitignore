@@ -1,6 +1,6 @@
 .DS_Store
-target/revision
 .settings
+target/default/maps/autosave/*
 **/gitignore/
 *.bak
 *.zip

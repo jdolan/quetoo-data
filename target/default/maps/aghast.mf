@@ -1,4 +1,4 @@
-6345ba4c300c948dfe70d1f760066aed 4825051 maps/aghast.bsp
+25a387fe234529bc27ec2fea903ca75a 4880301 maps/aghast.bsp
 d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 1f22ae1dd4222303ab896d151fa61702 110399 sky/aghast.jpg
 4e78bf1ce12c937109afaf5e0cc8e66e 41496 sounds/ambient/drip_2.wav
@@ -83,10 +83,10 @@ f9c19cfd90c73aeabf0171a0c1d2f867 9974 textures/quake/tele_top.jpg
 bbf64c7da3ebe1e4dd42974292613354 24772 textures/quake/wmet2_4.jpg
 b947fd3bbe307eca60721f4e0bc85414 171 textures/quake/wmet2_4.mat
 ba6ef4c4ccc1c4a7f9b21eb544391b80 32891 textures/quake/wswamp1_4.jpg
-3b9c7a8bf760bb02f805815d03628229 109 textures/quake/wswamp1_4.mat
+7cf7d71c1f7bf55c0a713dd46e445ff5 109 textures/quake/wswamp1_4.mat
 6cc39ad3a40ce9a40c1cf91d46de228a 179607 textures/quake/wswamp1_4_norm.png
 543d230164f12d7c50db773fd43626d0 28214 textures/quake/wswamp1_4_spec.jpg
 7a8ceb4c9e5719291013db46466893ec 39854 textures/quake/wswamp2_1.jpg
-a60c860973aa2a4b1cd8e96630e76a1f 91 textures/quake/wswamp2_1.mat
+e14cb8020e625bce0244cb4da4bf1c27 109 textures/quake/wswamp2_1.mat
 d3945c4651de90fe4ccac36296f6fb0c 190000 textures/quake/wswamp2_1_norm.png
 2e278f4b3decdab6eb22fe432a04544d 33428 textures/quake/wswamp2_1_spec.jpg
