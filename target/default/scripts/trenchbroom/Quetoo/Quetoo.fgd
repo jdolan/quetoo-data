@@ -284,9 +284,11 @@
 	width(float) : "The sprite width. Setting this will cause size to be ignored" : "0"
 	type(choices) : "Preset setting to apply" : "" =
 	[
-		"embers" : "Lava/Fire Embers"
-		"bubbles" : "Water Bubbles"
-		"fizz" : "Acid/Slime Fizz"
+		"bubbles" : "Rising bubbles"
+		"embers" : "Rishing embers and ash"
+		"fizz" : "Boiling bubbles with ripples"
+		"flame": "Flame and smoke"
+		"steam": "Steam"
 	]
 ]
 
