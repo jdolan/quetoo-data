@@ -1,0 +1,8 @@
+{
+	diffusemap quake/v_dpnail/skin
+	normalmap quake/v_dpnail/skin_norm
+	glossmap quake/v_dpnail/skin_spec
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+}

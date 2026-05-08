@@ -1,0 +1,8 @@
+{
+	diffusemap quake/b_s_key/skin
+	normalmap quake/b_s_key/skin_norm
+	glossmap quake/b_s_key/skin_spec
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+}

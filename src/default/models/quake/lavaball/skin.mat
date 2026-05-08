@@ -1,0 +1,8 @@
+{
+	diffusemap quake/lavaball/skin
+	normalmap quake/lavaball/skin_norm
+	glossmap quake/lavaball/skin_spec
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+}

@@ -1,0 +1,8 @@
+{
+	diffusemap quake/a_rock4/skin
+	normalmap quake/a_rock4/skin_norm
+	glossmap quake/a_rock4/skin_spec
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+}

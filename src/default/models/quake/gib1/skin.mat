@@ -1,0 +1,7 @@
+{
+	diffusemap quake/gib1/skin
+	glossmap quake/gib1/skin_spec
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+}

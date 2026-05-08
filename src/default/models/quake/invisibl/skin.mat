@@ -1,0 +1,8 @@
+{
+	diffusemap quake/invisibl/skin
+	normalmap quake/invisibl/skin_norm
+	glossmap quake/invisibl/skin_spec
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+}

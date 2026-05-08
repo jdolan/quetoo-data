@@ -1,0 +1,8 @@
+{
+	diffusemap quake/end3/skin
+	normalmap quake/end3/skin_norm
+	glossmap quake/end3/skin_spec
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+}
