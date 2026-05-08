@@ -1,8 +1,0 @@
-{
-	diffusemap quake/backpack/skin
-	normalmap quake/backpack/skin_norm
-	glossmap quake/backpack/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-}
