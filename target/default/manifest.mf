@@ -110,7 +110,7 @@ b7fee5665e0fc1f4f036775873427b48 7953 maps/aerowalk.mf
 38a2ff6abc53603499b5c90e03c5e683 3980 maps/aerowalk.nav
 16af2f350047e517ca4c1b89e55c1e9d 6859504 maps/aghast.bsp
 8abcd7b8c29629f1ce0763e8def88455 402446 maps/aghast.map
-457b3c6cdcc3c2da8f1ee49bff66f63b 6409 maps/aghast.mf
+a381f430e28575066ef1d14c1e08aef9 6409 maps/aghast.mf
 d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 a2977adbf9cf6771d6c6565d5d4cafa2 5484508 maps/badplace.bsp
 482a7d7306e7a4af6347fa786be6ccda 481080 maps/badplace.map
@@ -118,7 +118,7 @@ fc0c7dbe7bc0cc89ac73da8751210e88 5439 maps/badplace.mf
 3a370595b5778bf3cd9781a4b7a17c9a 2716 maps/badplace.nav
 7860cc5c5bc2cb4529ad13bdc1967baf 19767299 maps/chthon.bsp
 c0a84e1d8bdb0b1de8c46a4c1c2cb83f 1478097 maps/chthon.map
-7f87defc5a465450f3330d96f7fed847 20234 maps/chthon.mf
+355a1b081517d1b1671a3448877d8ff8 20234 maps/chthon.mf
 55ad2c925fc06ac74bd6dc35f50e6595 5123948 maps/cistern.bsp
 2bdcfd5256571ce5ddc9834d97df2c9e 469689 maps/cistern.map
 77ed233cf877700d86c3ec3b2f3866de 5783 maps/cistern.mf
@@ -5824,7 +5824,7 @@ ce057dde6ab38b189dcfbd1be1d58d94 91 textures/quake/lgmetal.mat
 0d8071a3b27dd0cbb5f098b8472d0e4a 620257 textures/quake/lgmetal_norm.png
 d90ba69a1d8d35d5808885ee0291b232 60414 textures/quake/lgmetal_spec.jpg
 71d85cabc15e09331350b78ee4069632 9916 textures/quake/light01+0.jpg
-6bbce663eb5769c6244df24682cbea71 228 textures/quake/light01+0.mat
+1c5c9b8ce4e47613679fbacf6b5f2e24 237 textures/quake/light01+0.mat
 bd1b82a421c02d6e8eacff9553e725f6 9854 textures/quake/light01+1.jpg
 9c66b46f664b89e358b81c5f4eddf056 6755 textures/quake/light01+1_spec.jpg
 aa186acc0e93c245f96a767b4a131f31 9937 textures/quake/light01+2.jpg
@@ -8900,7 +8900,7 @@ a9077d54ad38c81031c75c6ee23e2974 41200 textures/quake3/proto/rottblock.jpg
 699f8441ae93bc16b6fd1799825d2fe2 77984 textures/quake3/proto/rustytotum.jpg
 6d8aa4c8196b0bdbf0cff35481c00066 2033 textures/quake3/readme.txt
 f705f9957a33892d1b44fbda6cba99c6 6080 textures/quake3/sfx/b_flame1.jpg
-c2601be1b3ba171f04a3f19cdfdb8a0e 166 textures/quake3/sfx/b_flame1.mat
+43aaef80327b23c307fd61a2df7423d9 174 textures/quake3/sfx/b_flame1.mat
 6e0722f376904eb41b8d2e45a9d71d1e 5777 textures/quake3/sfx/b_flame2.jpg
 3d2e371483f385e9730271649bbfe9ed 5931 textures/quake3/sfx/b_flame3.jpg
 e5d9b0b4f5e68b4e14fbb40f6f1f2323 6636 textures/quake3/sfx/b_flame4.jpg
@@ -9031,7 +9031,7 @@ a094d338b6944b5856a5646fd7b40dec 7797 textures/quake3/sfx/proto_zzztblu2.jpg
 a9dcfaf04327b178892fc06170f4bdc1 8716 textures/quake3/sfx/proto_zzztblu3.jpg
 2200a6521f49c9d12476294240eeb57a 7583 textures/quake3/sfx/proto_zzztpink.jpg
 425285740b16081406138374bcb7c48c 6464 textures/quake3/sfx/r_flame1.jpg
-a5ba4dace17d14906569e5ebf24a2a8a 166 textures/quake3/sfx/r_flame1.mat
+9fb8c5159e51dda69869123fb0246716 174 textures/quake3/sfx/r_flame1.mat
 145e2a6754c163b0502d6368365b8296 5765 textures/quake3/sfx/r_flame2.jpg
 bdeff7399c6976bc23e86eb5dd60a07b 6018 textures/quake3/sfx/r_flame3.jpg
 29f86d159149f3e8bf0c44ee944e4305 6698 textures/quake3/sfx/r_flame4.jpg
