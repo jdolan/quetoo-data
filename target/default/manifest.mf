@@ -108,9 +108,9 @@ ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
 eae48cfbf88297586a4d1e1f5f5bee73 565755 maps/aerowalk.map
 b7fee5665e0fc1f4f036775873427b48 7953 maps/aerowalk.mf
 38a2ff6abc53603499b5c90e03c5e683 3980 maps/aerowalk.nav
-8b4e48f61d6106215856308dd876caaf 6859116 maps/aghast.bsp
-bbfaadebc1671c4c2a6a1385b5fbb8a7 402017 maps/aghast.map
-ffc8ccd96306bde086d186f29662f72a 6409 maps/aghast.mf
+16af2f350047e517ca4c1b89e55c1e9d 6859504 maps/aghast.bsp
+8abcd7b8c29629f1ce0763e8def88455 402446 maps/aghast.map
+457b3c6cdcc3c2da8f1ee49bff66f63b 6409 maps/aghast.mf
 d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 a2977adbf9cf6771d6c6565d5d4cafa2 5484508 maps/badplace.bsp
 482a7d7306e7a4af6347fa786be6ccda 481080 maps/badplace.map
