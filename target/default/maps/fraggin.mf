@@ -109,7 +109,7 @@ fc86eda1045daaff7857fa6641fc0271 29409 textures/quake/du3jed_spec.jpg
 b3cfbb11ff3fa55e159990e19c706c51 151924 textures/quake/key03_3_norm.png
 0a2823ff794bed4d7c7bd241350e1bb4 19896 textures/quake/key03_3_spec.jpg
 75d73ef0743b7d61511daa62e00e0d75 34391 textures/quake/light1_1.jpg
-71d4414f4527f5f666c9b62ec7e41f1e 241 textures/quake/light1_1.mat
+f4556f94f402dbb91ce05081b513b145 254 textures/quake/light1_1.mat
 b0281baa7bd0e21ddb87be9f3b371b15 5309 textures/quake/light1_1_luma.jpg
 cff7406cac29c88d8b2ca673a302e6d5 136856 textures/quake/light1_1_norm.png
 f1780c1e079cd932e370fb764a1763b1 28784 textures/quake/light1_1_spec.jpg

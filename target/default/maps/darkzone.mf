@@ -1,4 +1,4 @@
-7d3832d45e647032f17f0d7c6622a563 6140601 maps/darkzone.bsp
+2161f4b740c0a4c5b0226bbadff98fa5 6607365 maps/darkzone.bsp
 4994859c2940812dd17f7138e11cf6ea 6132 maps/darkzone.nav
 fe66b7e6e8ad9c8a611f79919c8c7f9e 254805 mapshots/darkzone/quetoo014.jpg
 a65dcd0e567bba4a5d49f904b575e525 297171 mapshots/darkzone/quetoo015.jpg
@@ -35,7 +35,7 @@ b294f1283c429f18940a1be13ce0f9bc 106 textures/quake/cop1_7.mat
 0f099a7d868be18253fc681364f6125a 146945 textures/quake/cop1_7_norm.png
 d12756ec4778f82f886bb293972227fc 22764 textures/quake/cop1_7_spec.jpg
 b20212a2626f201784c712053630f7c8 24744 textures/quake/ground1_5.jpg
-eaa81efcc1db6159a8e8d433faed77cb 94 textures/quake/ground1_5.mat
+4ca0254126c00aade9ba29d918785305 94 textures/quake/ground1_5.mat
 cf985924842205fc85521f81f98daf01 103819 textures/quake/ground1_5_norm.png
 c6bb13d4130aac92896b2818575fc9cb 12213 textures/quake/ground1_5_spec.jpg
 857330a2c5f8e2a68bfd4a2410ba4545 187333 textures/quake/m5_8_norm.png

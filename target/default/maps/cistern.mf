@@ -54,7 +54,7 @@ cad49196a719da1e004df6c62bdaf252 152166 textures/quake/city3_2_norm.png
 5b0d3ef5af4b6fcbe187ea8e80964106 31211 textures/quake/city3_4.jpg
 999760ea25c4798fa87a07c4166d11c6 169 textures/quake/city3_4.mat
 ad400fac2fc8cde9a66ec5ec2ca4f24f 30468 textures/quake/city4_1.jpg
-777bc04a084e87526f1a5809d5ec17c0 107 textures/quake/city4_1.mat
+00c1d81582740b8eb40d5e133cc85350 107 textures/quake/city4_1.mat
 bf301a4e293a4bccedee125f2baa345e 149532 textures/quake/city4_1_norm.png
 20daf030949da1dffe9ded36509b3ae2 25966 textures/quake/city4_1_spec.jpg
 0143d25a94f2f58fedeacce1d8283b52 26632 textures/quake/cop1_1.jpg

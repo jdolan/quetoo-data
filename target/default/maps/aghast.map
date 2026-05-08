@@ -4,10 +4,10 @@
 {
 "classname" "worldspawn"
 "_tb_textures" "textures/common;textures/decals;textures/effects;textures/prototype;textures/quake"
-"ambient" "0.5"
+"ambient" "1"
 "author" "Vondur"
 "give" "shotgun"
-"message" "^3Aghast"
+"message" "^3Aghast^7 by ^1Vondur^7"
 "model" "*0"
 "sky" "aghast"
 "version" "1.0.0"
@@ -3024,12 +3024,12 @@
 }
 // brush 335
 {
-( 0 400 -164 ) ( 0 48 -164 ) ( 0 48 -176 ) quake/water1 0 0 0 0.5 0.5
-( 400 48 -176 ) ( 0 48 -176 ) ( 0 48 -164 ) quake/water1 0 0 0 0.5 0.5
-( 0 48 -176 ) ( 400 48 -176 ) ( 400 400 -176 ) quake/water1 0 0 0 0.5 0.5
-( 0 400 -164 ) ( 400 400 -164 ) ( 400 48 -164 ) quake/water1 0 0 0 0.5 0.5
-( 400 400 -164 ) ( 0 400 -164 ) ( 0 400 -176 ) quake/water1 0 0 0 0.5 0.5
-( 400 400 -176 ) ( 400 48 -176 ) ( 400 48 -164 ) quake/water1 0 0 0 0.5 0.5
+( 0 400 -164 ) ( 0 48 -164 ) ( 0 48 -176 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 400 48 -176 ) ( 0 48 -176 ) ( 0 48 -164 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 0 48 -176 ) ( 400 48 -176 ) ( 400 400 -176 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 0 400 -164 ) ( 400 400 -164 ) ( 400 48 -164 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 400 400 -164 ) ( 0 400 -164 ) ( 0 400 -176 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 400 400 -176 ) ( 400 48 -176 ) ( 400 48 -164 ) quake/water1 0 0 0 0.5 0.5 0 32 0
 }
 // brush 336
 {
@@ -5060,12 +5060,12 @@
 }
 // brush 561
 {
-( 48 -336 -168 ) ( 48 -640 -168 ) ( 48 -640 -176 ) quake/water1 0 0 0 0.5 0.5
-( 416 -640 -176 ) ( 48 -640 -176 ) ( 48 -640 -168 ) quake/water1 0 0 0 0.5 0.5
-( 48 -640 -176 ) ( 416 -640 -176 ) ( 416 -336 -176 ) quake/water1 0 0 0 0.5 0.5
-( 48 -336 -168 ) ( 416 -336 -168 ) ( 416 -640 -168 ) quake/water1 0 0 0 0.5 0.5
-( 416 -336 -168 ) ( 48 -336 -168 ) ( 48 -336 -176 ) quake/water1 0 0 0 0.5 0.5
-( 416 -336 -176 ) ( 416 -640 -176 ) ( 416 -640 -168 ) quake/water1 0 0 0 0.5 0.5
+( 48 -336 -168 ) ( 48 -640 -168 ) ( 48 -640 -176 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 416 -640 -176 ) ( 48 -640 -176 ) ( 48 -640 -168 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 48 -640 -176 ) ( 416 -640 -176 ) ( 416 -336 -176 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 48 -336 -168 ) ( 416 -336 -168 ) ( 416 -640 -168 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 416 -336 -168 ) ( 48 -336 -168 ) ( 48 -336 -176 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 416 -336 -176 ) ( 416 -640 -176 ) ( 416 -640 -168 ) quake/water1 0 0 0 0.5 0.5 0 32 0
 }
 // brush 562
 {
@@ -5111,12 +5111,12 @@
 }
 // brush 567
 {
-( 448 48 -168 ) ( 448 -336 -168 ) ( 448 -336 -176 ) quake/water1 0 0 0 0.5 0.5
-( 960 -336 -176 ) ( 448 -336 -176 ) ( 448 -336 -168 ) quake/water1 0 0 0 0.5 0.5
-( 448 -336 -176 ) ( 960 -336 -176 ) ( 960 48 -176 ) quake/water1 0 0 0 0.5 0.5
-( 448 48 -168 ) ( 960 48 -168 ) ( 960 -336 -168 ) quake/water1 0 0 0 0.5 0.5
-( 960 48 -168 ) ( 448 48 -168 ) ( 448 48 -176 ) quake/water1 0 0 0 0.5 0.5
-( 960 48 -176 ) ( 960 -336 -176 ) ( 960 -336 -168 ) quake/water1 0 0 0 0.5 0.5
+( 448 48 -168 ) ( 448 -336 -168 ) ( 448 -336 -176 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 960 -336 -176 ) ( 448 -336 -176 ) ( 448 -336 -168 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 448 -336 -176 ) ( 960 -336 -176 ) ( 960 48 -176 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 448 48 -168 ) ( 960 48 -168 ) ( 960 -336 -168 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 960 48 -168 ) ( 448 48 -168 ) ( 448 48 -176 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 960 48 -176 ) ( 960 -336 -176 ) ( 960 -336 -168 ) quake/water1 0 0 0 0.5 0.5 0 32 0
 }
 // brush 568
 {
@@ -5201,7 +5201,7 @@
 }
 // brush 577
 {
-( 896 -544 288 ) ( 896 -544 256 ) ( 896 -480 256 ) quake/wswamp1_4 0 0 0 0.25 0.25
+( 896 -544 288 ) ( 896 -544 256 ) ( 896 -480 256 ) quake/wswamp2_1 0 0 0 0.25 0.25
 ( 896 -544 256 ) ( 896 -544 288 ) ( 960 -544 288 ) quake/wswamp1_4 0 0 0 0.25 0.25
 ( 896 -480 256 ) ( 896 -544 256 ) ( 960 -544 256 ) quake/wswamp1_4 0 0 0 0.25 0.25
 ( 960 -544 288 ) ( 896 -544 288 ) ( 896 -480 288 ) quake/wswamp1_4 0 0 0 0.25 0.25
@@ -5525,13 +5525,13 @@
 }
 // brush 613
 {
-( 640 304 -176 ) ( 640 304 -160 ) ( 640 192 -160 ) quake/water1 0 0 0 0.5 0.5
-( 640 192 -176 ) ( 640 192 -160 ) ( 832 112 -160 ) quake/water1 0 0 0 0.5 0.5
-( 800 272 -176 ) ( 800 160 -176 ) ( 880 160 -176 ) quake/water1 0 0 0 0.5 0.5
-( 768 160 -168 ) ( 768 272 -168 ) ( 848 240 -168 ) quake/water1 0 0 0 0.5 0.5
-( 640 432 -160 ) ( 640 432 -176 ) ( 896 432 -160 ) quake/water1 0 0 0 0.5 0.5
-( 752 432 -48 ) ( 896 304 -48 ) ( 752 432 80 ) quake/water1 0 0 0 0.5 0.5
-( 896 304 -160 ) ( 896 304 -176 ) ( 832 112 -176 ) quake/water1 0 0 0 0.5 0.5
+( 640 304 -176 ) ( 640 304 -160 ) ( 640 192 -160 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 640 192 -176 ) ( 640 192 -160 ) ( 832 112 -160 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 800 272 -176 ) ( 800 160 -176 ) ( 880 160 -176 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 768 160 -168 ) ( 768 272 -168 ) ( 848 240 -168 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 640 432 -160 ) ( 640 432 -176 ) ( 896 432 -160 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 752 432 -48 ) ( 896 304 -48 ) ( 752 432 80 ) quake/water1 0 0 0 0.5 0.5 0 32 0
+( 896 304 -160 ) ( 896 304 -176 ) ( 832 112 -176 ) quake/water1 0 0 0 0.5 0.5 0 32 0
 }
 // brush 614
 {
@@ -5898,6 +5898,7 @@
 "classname" "func_plat"
 "height" "304"
 "model" "*1"
+"sounds" "1"
 "speed" "350"
 // brush 0
 {
@@ -5948,25 +5949,25 @@
 {
 "classname" "info_player_deathmatch"
 "angle" "235"
-"origin" "360 488 24"
+"origin" "360 488 32"
 }
 // entity 9
 {
 "classname" "info_player_deathmatch"
 "angle" "45"
-"origin" "124 -680 -136"
+"origin" "128 -680 -128"
 }
 // entity 10
 {
 "classname" "info_player_deathmatch"
 "angles" "0 67 0"
-"origin" "-224 -224 184"
+"origin" "-224 -224 192"
 }
 // entity 11
 {
 "classname" "info_player_deathmatch"
 "angle" "180"
-"origin" "912 -512 24"
+"origin" "912 -512 32"
 }
 // entity 12
 {
@@ -5985,6 +5986,7 @@
 "angles" "-90 0 0"
 "height" "192"
 "model" "*2"
+"sounds" "1"
 "speed" "300"
 // brush 0
 {
@@ -6009,7 +6011,7 @@
 {
 "classname" "info_player_deathmatch"
 "angle" "90"
-"origin" "608 -472 -136"
+"origin" "608 -472 -128"
 }
 // entity 16
 {
@@ -6021,7 +6023,7 @@
 {
 "classname" "info_player_deathmatch"
 "angle" "225"
-"origin" "936 40 184"
+"origin" "936 40 192"
 }
 // entity 18
 {
@@ -6033,7 +6035,7 @@
 {
 "classname" "info_player_deathmatch"
 "angles" "0 292 0"
-"origin" "544 368 -136"
+"origin" "544 368 -128"
 }
 // entity 20
 {
@@ -6213,8 +6215,8 @@
 {
 "classname" "light"
 "color" "0.9 0.7 0.5"
-"origin" "336 176 304"
-"radius" "220"
+"origin" "336 176 312"
+"radius" "180"
 }
 // entity 50
 {
@@ -6301,19 +6303,19 @@
 {
 "classname" "info_player_deathmatch"
 "angle" "135"
-"origin" "744 -1256 184"
+"origin" "744 -1256 192"
 }
 // entity 64
 {
 "classname" "info_player_deathmatch"
 "angle" "135"
-"origin" "872 -840 24"
+"origin" "872 -840 32"
 }
 // entity 65
 {
 "classname" "info_player_deathmatch"
 "angle" "45"
-"origin" "64 -928 184"
+"origin" "64 -928 192"
 }
 // entity 66
 {
@@ -7002,7 +7004,7 @@
 {
 "classname" "light"
 "color" "1.0 0.65 0.65"
-"intensity" "1"
+"intensity" ".666"
 "origin" "488 -360 456"
 "radius" "2048"
 "team" "sky"
@@ -7014,7 +7016,7 @@
 "color" "1.0 0.9 0.6"
 "intensity" "2"
 "origin" "472 -360 456"
-"radius" "175"
+"radius" "225"
 "team" "med_yellow"
 "team_master" "a"
 }
@@ -7034,9 +7036,11 @@
 {
 "classname" "light"
 "color" "1.0 0.9 0.6"
-"intensity" "2"
+"drift" "1"
+"intensity" "1.5"
 "origin" "456 -360 456"
-"radius" "315"
+"radius" "300"
+"style" "zyxwvutsrqponmlmnopqrstuvwxyz"
 "team" "large"
 "team_master" "a"
 }
@@ -7076,10 +7080,10 @@
 {
 ( 32 240 -96 ) ( 32 241 -96 ) ( 32 240 -95 ) common/trigger 0 0 0 0.25 0.25
 ( 16 224 -96 ) ( 16 224 -95 ) ( 17 224 -96 ) common/trigger 0 0 0 0.25 0.25
-( 16 240 -144 ) ( 17 240 -144 ) ( 16 241 -144 ) common/trigger 0 0 0 0.25 0.25
+( 16 240 -160 ) ( 17 240 -160 ) ( 16 241 -160 ) common/trigger 0 0 0 0.25 0.25
 ( 48 288 -64 ) ( 48 289 -64 ) ( 49 288 -64 ) common/trigger 0 0 0 0.25 0.25
 ( 48 288 -80 ) ( 49 288 -80 ) ( 48 288 -79 ) common/trigger 0 0 0 0.25 0.25
-( 40 288 -80 ) ( 40 288 -79 ) ( 40 289 -80 ) common/trigger 0 0 0 0.25 0.25
+( 48 288 -80 ) ( 48 288 -79 ) ( 48 289 -80 ) common/trigger 0 0 0 0.25 0.25
 }
 }
 // entity 158
@@ -7090,8 +7094,8 @@
 // brush 0
 {
 ( 416 664 248 ) ( 416 665 248 ) ( 416 664 249 ) common/trigger 0 0 0 0.25 0.25
-( 472 664 248 ) ( 472 664 249 ) ( 473 664 248 ) common/trigger 0 0 0 0.25 0.25
-( 472 664 192 ) ( 473 664 192 ) ( 472 665 192 ) common/trigger 0 0 0 0.25 0.25
+( 472 656 248 ) ( 472 656 249 ) ( 473 656 248 ) common/trigger 0 0 0 0.25 0.25
+( 472 664 176 ) ( 473 664 176 ) ( 472 665 176 ) common/trigger 0 0 0 0.25 0.25
 ( 488 672 256 ) ( 488 673 256 ) ( 489 672 256 ) common/trigger 0 0 0 0.25 0.25
 ( 488 672 256 ) ( 489 672 256 ) ( 488 672 257 ) common/trigger 0 0 0 0.25 0.25
 ( 480 672 256 ) ( 480 672 257 ) ( 480 673 256 ) common/trigger 0 0 0 0.25 0.25
@@ -7118,6 +7122,7 @@
 // entity 162
 {
 "classname" "func_train"
+"model" "*6"
 "speed" "4"
 "target" "teletrain_a1"
 // brush 0
@@ -7170,19 +7175,20 @@
 {
 "classname" "path_corner"
 "origin" "24 208 -154"
-"targetname" "teletrain_a1"
 "target" "teletrain_a2"
+"targetname" "teletrain_a1"
 }
 // entity 164
 {
 "classname" "path_corner"
 "origin" "24 208 -162"
-"targetname" "teletrain_a2"
 "target" "teletrain_a1"
+"targetname" "teletrain_a2"
 }
 // entity 165
 {
 "classname" "func_train"
+"model" "*7"
 "speed" "4"
 "target" "teletrain_b1"
 // brush 0
@@ -7235,8 +7241,8 @@
 {
 "classname" "path_corner"
 "origin" "400 680 182"
-"targetname" "teletrain_b1"
 "target" "teletrain_b2"
+"targetname" "teletrain_b1"
 }
 // entity 167
 {
@@ -7247,12 +7253,71 @@
 }
 // entity 168
 {
+"classname" "misc_steam"
+"origin" "512 416 192"
+"velocity" "-24 0 10"
+}
+// entity 169
+{
+"classname" "misc_steam"
+"origin" "160 64 248"
+"velocity" "0 24 10"
+}
+// entity 170
+{
+"classname" "misc_steam"
+"origin" "-256 -32 192"
+"velocity" "24 0 10"
+}
+// entity 171
+{
+"classname" "misc_steam"
+"origin" "128 640 192"
+"velocity" "0 -24 10"
+}
+// entity 172
+{
+"classname" "misc_steam"
+"origin" "-112 384 256"
+"velocity" "24 0 10"
+}
+// entity 173
+{
+"classname" "misc_steam"
+"origin" "192 -128 192"
+"velocity" "0 -24 10"
+}
+// entity 174
+{
+"classname" "misc_steam"
+"origin" "192 -960 256"
+"velocity" "0 24 10"
+}
+// entity 175
+{
+"classname" "misc_steam"
+"origin" "320 -512 192"
+"velocity" "-24 0 10"
+}
+// entity 176
+{
+"classname" "misc_steam"
+"origin" "512 -512 192"
+"velocity" "24 0 10"
+}
+// entity 177
+{
+"classname" "misc_steam"
+"origin" "512 64 256"
+"velocity" "0 -24 10"
+}
+// entity 178
+{
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "Clip"
 "_tb_id" "1"
 "_tb_layer_sort_index" "0"
-"_tb_layer_hidden" "1"
 // brush 0
 {
 ( -128 400 40 ) ( -128 368 40 ) ( -128 368 24 ) common/clip 0 0 0 0.25 0.25 65536 0 0
@@ -7686,14 +7751,13 @@
 ( 288 -176 352 ) ( 288 -896 352 ) ( 288 -896 416 ) common/clip 0 0 0 0.5 0.5 65536 0 0
 }
 }
-// entity 169
+// entity 179
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "Sky"
 "_tb_id" "2"
 "_tb_layer_sort_index" "1"
-"_tb_layer_hidden" "1"
 // brush 0
 {
 ( -64 608 608 ) ( -64 112 608 ) ( -64 112 576 ) common/sky 0 0 0 0.25 0.25
@@ -7866,18 +7930,18 @@
 ( -64 -752 384 ) ( -64 -784 384 ) ( -64 -784 448 ) common/sky 0 0 0 0.25 0.25
 }
 }
-// entity 170
+// entity 180
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "Weather"
 "_tb_id" "3"
 "_tb_layer_sort_index" "2"
-"_tb_layer_hidden" "1"
 }
-// entity 171
+// entity 181
 {
 "classname" "misc_weather"
+"origin" "16 -16 0"
 "weather" "ash"
 "_tb_layer" "3"
 // brush 0
@@ -7926,16 +7990,15 @@
 ( 368 -272 512 ) ( 368 -272 513 ) ( 368 -271 512 ) common/weather 0 0 0 0.25 0.25
 }
 }
-// entity 172
+// entity 182
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "Dust"
 "_tb_id" "4"
 "_tb_layer_sort_index" "3"
-"_tb_layer_hidden" "1"
 }
-// entity 173
+// entity 183
 {
 "classname" "misc_dust"
 "density" "2"
