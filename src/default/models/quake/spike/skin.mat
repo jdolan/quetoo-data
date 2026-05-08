@@ -1,8 +1,0 @@
-{
-	diffusemap quake/spike/skin
-	normalmap quake/spike/skin_norm
-	glossmap quake/spike/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-}

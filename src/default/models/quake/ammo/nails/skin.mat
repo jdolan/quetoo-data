@@ -1,0 +1,8 @@
+{
+	diffusemap quake/ammo/nails/skin
+	normalmap quake/ammo/nails/skin_norm
+	glossmap quake/ammo/nails/skin_spec
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+}

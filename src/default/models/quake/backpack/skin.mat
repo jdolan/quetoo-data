@@ -1,0 +1,6 @@
+{
+	diffusemap quake/backpack/skin
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+}
