@@ -6,6 +6,7 @@
 	{
 		texture quake3/sfx/r_flame1
 		blend GL_ONE GL_ONE
-		anim 8 12.00
+		anim 8 8.00
+		lerp 1
 	}
 }
