@@ -1,8 +1,0 @@
-{
-	diffusemap quake/g_light/skin
-	normalmap quake/g_light/skin_norm
-	glossmap quake/g_light/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-}

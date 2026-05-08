@@ -1,8 +1,0 @@
-{
-	diffusemap quake/quaddama/skin
-	normalmap quake/quaddama/skin_norm
-	glossmap quake/quaddama/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-}

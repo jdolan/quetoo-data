@@ -1,8 +1,0 @@
-{
-	diffusemap quake/a_rock8/skin
-	normalmap quake/a_rock8/skin_norm
-	glossmap quake/a_rock8/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-}

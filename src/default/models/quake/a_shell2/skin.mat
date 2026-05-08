@@ -1,8 +1,0 @@
-{
-	diffusemap quake/a_shell2/skin
-	normalmap quake/a_shell2/skin_norm
-	glossmap quake/a_shell2/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-}
