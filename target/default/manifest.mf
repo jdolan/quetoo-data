@@ -445,6 +445,11 @@ c69189c274faa0845f6cfdf03658e946 79 models/mapobjects/chthon/skin.mat
 291b149e5ec04d489b52ac44848a1f92 12037 models/mapobjects/fern/fern.obj
 5362fa11da0a19f1dfcd27b524b9c0e9 147 models/mapobjects/fern/skin.mat
 639c77d8181df5cd142d01b36d01d643 226318 models/mapobjects/fern/skin.png
+39128cbed0b96bde4ad20f58ce8153e6 12700 models/mapobjects/torch/skin.jpg
+96f200be27fac7c43f6c7c69291dfc46 84 models/mapobjects/torch/skin.mat
+aace304fe8cefe8a46c02997141b65aa 79515 models/mapobjects/torch/skin_norm.png
+46bc2f8dd14be76ab64d7c9ff4e6f400 36978 models/mapobjects/torch/skin_spec.png
+78f238677d42c76dedebc9a9bd6fe62a 123435 models/mapobjects/torch/tris.obj
 37eabcc902bd8e591ff4224c1e4f401c 85 models/platform/base/skin.mat
 eaaad47e1f580607f5bbc847941d0d63 243772 models/platform/base/skin.png
 c485117cd77996843123f7ac537543dc 370077 models/platform/base/skin_norm.png
