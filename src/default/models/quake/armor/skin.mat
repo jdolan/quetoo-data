@@ -1,5 +1,7 @@
 {
 	diffusemap quake/armor/skin
+	normalmap quake/armor/skin_norm
+	glossmap quake/armor/skin_spec
 	roughness 1.0
 	hardness 1.0
 	specularity 1.0
