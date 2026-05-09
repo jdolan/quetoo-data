@@ -6281,6 +6281,15 @@ bf44cfd4f1dc3c112b354f082d6f3a73 104 textures/quake/rune_a.mat
 3d63e561adafaf05bba75708dcd0d028 2693 textures/quake/rune_a_luma.jpg
 74f9e87b3db83242ab75760483bf6af1 36166 textures/quake/rune_a_norm.png
 6ff4527b3225a872bc3c19d498dfe438 7473 textures/quake/rune_a_spec.jpg
+3e2acd74b3745a76ab45a8bf24780574 12024 textures/quake/rune_pad1.jpg
+9ac88245bb5954ba9fa5eedffa2917ec 174 textures/quake/rune_pad1.mat
+2d7ca5859d9e680a4d83dde9c9459930 7598 textures/quake/rune_pad1_glow-blue.png
+006723727f101c836fe1b12f593cf0b4 7583 textures/quake/rune_pad1_glow-green.png
+e9b4615a3fd2ec65b0d9ab5c7d1fcf13 7609 textures/quake/rune_pad1_glow-red.png
+0f893a8be5ec8702fb7f23de0cee283c 7574 textures/quake/rune_pad1_glow-yellow.png
+d2255ca098ffe23cd907ae10c030cac6 7648 textures/quake/rune_pad1_glow.png
+2f8f6c2a71d0e1a9c56de0443be93219 20986 textures/quake/rune_pad1_norm.png
+7679e2395605f0d89f40ff7f02c34d82 12094 textures/quake/rune_pad1_spec.jpg
 44719bc7d6ca263aed729cdba8341ba1 36151 textures/quake/sfloor1_1.jpg
 6e92bced8dfe6e8f5e52f2c72031b60a 133163 textures/quake/sfloor1_1_norm.png
 2fb03106cd8d3be38b3e9fee422620c4 28702 textures/quake/sfloor1_1_spec.jpg
