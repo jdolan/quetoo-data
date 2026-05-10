@@ -13,7 +13,6 @@ cc67394e81f1e0a6a3c6303f0ca126e3 68373 decals/burn_3.png
 d7a2db4cdc405a5d50a23cb9f3b9b8bf 37156 decals/slug_1.png
 3b47009803889265d397dda9e7c515ad 35379 decals/slug_2.png
 06ca57c52a4522151e06fbbcaedaa45d 34606 decals/slug_3.png
-a9891b7d662ad0a387ac91a84ffb4f09 2990 docs/credits.txt
 2f7c095c0e687a85ad1c2fcff56211da 5693 docs/env-criminal_intentions.txt
 ab9535503e06ecc3915a9239150097ac 1310 docs/env-dhollow.txt
 7ddf5900e547ced6bcd33285f39990cb 1274 docs/env-grave.txt
