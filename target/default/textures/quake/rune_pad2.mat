@@ -1,0 +1,12 @@
+{
+	diffusemap quake/rune_pad2
+	roughness 1.25
+	hardness 3.25
+	specularity 2.50
+	parallax 2.00
+	shadow 0.00
+	{
+		texture quake/rune_pad2_glow
+		blend GL_SRC_ALPHA GL_ONE
+	}
+}
