@@ -4,6 +4,10 @@ on:
   push:
     branches: [ "main" ]
 
+concurrency:
+  group: publish-main
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
