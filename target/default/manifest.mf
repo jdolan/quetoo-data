@@ -136,7 +136,7 @@ fc0c7dbe7bc0cc89ac73da8751210e88 5439 maps/badplace.mf
 3a370595b5778bf3cd9781a4b7a17c9a 2716 maps/badplace.nav
 114e75ed1afb816e4f9a8c9cdb23ba82 19801627 maps/chthon.bsp
 f412ce98ce3692c04f2826c075883ebc 1478053 maps/chthon.map
-01794f2c860067000229f148ce5ed834 20577 maps/chthon.mf
+8a194ec2cca191dc7a59e6c2413cd212 20576 maps/chthon.mf
 55ad2c925fc06ac74bd6dc35f50e6595 5123948 maps/cistern.bsp
 2bdcfd5256571ce5ddc9834d97df2c9e 469689 maps/cistern.map
 77ed233cf877700d86c3ec3b2f3866de 5783 maps/cistern.mf
@@ -149,9 +149,9 @@ e88cfc3a5cf855047aef392efc982448 5796 maps/claustrophobopolis.nav
 952d2c7b545f9365fcb0aafe0d962a03 505702 maps/darkzone.map
 5d40c43be621c64c362110bbe98b99a9 3808 maps/darkzone.mf
 4994859c2940812dd17f7138e11cf6ea 6132 maps/darkzone.nav
-b1fd13c6aea66a404f19844f04991bfc 14202667 maps/edge.bsp
-8cc16dd6b31a7227fe7dbf314e8e7561 1339550 maps/edge.map
-c94a08ebd88f3f8e796f63201daaf9f2 14692 maps/edge.mf
+edd2f7127c567215bf1a3b4a25778745 14438447 maps/edge.bsp
+ee2d7a0ec7449b4dc8ffc7f3db6ae8a9 1357146 maps/edge.map
+6a3616018d5260871d6ed2974ec70be2 15331 maps/edge.mf
 a8983acf1707d942b8ca1843dd59732d 9924 maps/edge.nav
 0038853fba280e8ea511d928194e209d 23788155 maps/fraggin.bsp
 b1150ba3007114e64451ea7e9b3f63c4 1764625 maps/fraggin.map
@@ -182,7 +182,7 @@ f6525c8517b14ac91ed2172414646891 1084749 maps/insta-rounding.map
 59f3d5a6db218be288190df245d37fd4 7668 maps/longyard.nav
 eaf6fe18e4f7441eb3b6ff09de68410b 6972392 maps/omf.bsp
 c869de7e44a922fe5f1003a21d48eac5 838608 maps/omf.map
-50e136141fc8b7d8ba9f4327f5ecfab4 14064 maps/omf.mf
+2bfbe6c1fec574ddf029b8b9ecff05c4 14064 maps/omf.mf
 e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
 3cbd5b7cc6db8083482a2f0b2f525203 9414824 maps/pits.bsp
 76fe28872cff59ae82b158c492825d3e 846493 maps/pits.map
@@ -204,9 +204,9 @@ b71505e9505f35b4c59b3ecf977ef5c4 10104 maps/tokays.mf
 01e57c62dbb768646e078d862ac76a8d 1577938 maps/torn.map
 c4c861f1c5c6ba0070620af0dce9a66a 9505 maps/torn.mf
 fa1dc273715e3e6817646f0ff74d52d0 5164 maps/torn.nav
-58617823a3847176b040b26d52877a0e 11923877 maps/warehouse.bsp
-87a2ceb545fa7b62fde4ab3f75149bdf 959972 maps/warehouse.map
-a2ebfe201067cbb71d23a8c096c1b940 11363 maps/warehouse.mf
+d07faab91b1bc0e7cb4b65b9d6ddae6c 12564608 maps/warehouse.bsp
+40c6c27f7e86e9fe0dbd4fb0f2168ee2 987466 maps/warehouse.map
+dc54fa0c8115a1f0d523c823d7407ae1 11493 maps/warehouse.mf
 e4f0ed5f0ad7fb0a7a703e9ca7459c59 9764 maps/warehouse.nav
 9008535dd81e400c4dff83e643fa6bae 216659 mapshots/2deaths/quetoo003.jpg
 49034947a1767fdda10c6303a855ac71 334483 mapshots/2deaths/quetoo004.jpg
