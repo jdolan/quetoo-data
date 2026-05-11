@@ -1,0 +1,20 @@
+Title:       Soul Ripper
+Artist:      Alexandr Zhelanov
+File:        alexandr_zhelanov-soul_ripper.ogg
+Source:      https://opengameart.org/content/soul-ripper
+
+Description:
+  Brutal industrial metal track in the style of Doom 2016 (Mick Gordon).
+
+Attributes:
+  Duration:     4:12
+  Instruments:  Guitar, Bass, Drums, Industrial Electronics
+  Vocals:       None
+
+License:
+  Creative Commons Attribution 4.0 (CC-BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+  Alexandr Zhelanov https://www.youtube.com/channel/UCxmng6_DMIayDwkiWGVzVRQ
+  totalnomus@gmail.com

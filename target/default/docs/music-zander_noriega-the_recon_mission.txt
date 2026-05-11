@@ -1,0 +1,22 @@
+Title:       The Recon Mission
+Artist:      Zander Noriega
+File:        zander_noriega-the_recon_mission.ogg
+Source:      https://opengameart.org/content/the-recon-mission
+
+Description:
+  Very guitar-driven heavy track. Main instruments: guitar, bass, drums.
+
+Attributes:
+  Duration:     3:03
+  Instruments:  Guitar, Bass, Drums
+  Vocals:       None
+
+License:
+  Creative Commons Attribution 3.0 (CC-BY 3.0)
+  http://creativecommons.org/licenses/by/3.0/
+
+Attribution:
+  Credit me as Zander Noriega. And, if sensible (i.e. you're presenting your
+  credits in HTML), link my name to my Twitter, or my OGA profile.
+  Twitter: https://twitter.com/ZanderNoriega
+  OGA:     https://opengameart.org/users/zander-noriega

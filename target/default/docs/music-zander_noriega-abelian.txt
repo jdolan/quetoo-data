@@ -1,0 +1,23 @@
+Title:       Abelian
+Artist:      Zander Noriega
+File:        zander_noriega-abelian.ogg
+Source:      https://opengameart.org/content/abelian
+
+Description:
+  Metal track suitable for action/sci-fi/etc. trailers and similar.
+  Main instruments: guitar, bass, drums.
+
+Attributes:
+  Duration:     2:03
+  Instruments:  Guitar, Bass, Drums
+  Vocals:       None
+
+License:
+  Creative Commons Attribution 3.0 (CC-BY 3.0)
+  http://creativecommons.org/licenses/by/3.0/
+
+Attribution:
+  Credit me as Zander Noriega (and, if feasible, link my name to my
+  Soundcloud or my Twitter).
+  Soundcloud: https://soundcloud.com/zander-noriega
+  Twitter:    https://twitter.com/ZanderNoriega
