@@ -1,0 +1,8 @@
+{
+	diffusemap quake/grenade/skin
+	normalmap quake/grenade/skin_norm
+	glossmap quake/grenade/skin_spec
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+}

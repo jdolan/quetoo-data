@@ -1,0 +1,8 @@
+{
+	diffusemap quake/weapons/grenadelauncher/skin
+	normalmap quake/weapons/grenadelauncher/skin_norm
+	glossmap quake/weapons/grenadelauncher/skin_spec
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+}
