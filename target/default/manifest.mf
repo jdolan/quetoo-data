@@ -200,9 +200,9 @@ a9802d514868fcd33ccd62d86b2d824e 587088 maps/slimyplace.map
 c05a4adc093315f8fb1c97eff943958c 778673 maps/tokays.map
 b71505e9505f35b4c59b3ecf977ef5c4 10104 maps/tokays.mf
 11c9ca144c4780c952b173798c467d07 5980 maps/tokays.nav
-1f308307ba2ee3555dbffd4c0d84e7bd 9743531 maps/torn.bsp
-01e57c62dbb768646e078d862ac76a8d 1577938 maps/torn.map
-c4c861f1c5c6ba0070620af0dce9a66a 9505 maps/torn.mf
+b8e8470ae2c262e2c6eb7a017cbae6ae 9744016 maps/torn.bsp
+041619cccea9c68704f764867f8dcce4 1575506 maps/torn.map
+760b0d8f1adf63c6be71eb8acce3215a 9505 maps/torn.mf
 fa1dc273715e3e6817646f0ff74d52d0 5164 maps/torn.nav
 d07faab91b1bc0e7cb4b65b9d6ddae6c 12564608 maps/warehouse.bsp
 40c6c27f7e86e9fe0dbd4fb0f2168ee2 987466 maps/warehouse.map
