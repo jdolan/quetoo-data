@@ -1,6 +1,6 @@
 eaf6fe18e4f7441eb3b6ff09de68410b 6972392 maps/omf.bsp
 e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
-d545bfc884294e5f58b43a3415b4451b 875579 sky/acheron.png
+60944791079503010618b669a310d51c 128367 sky/acheron.jpg
 41e29703e6f00946fa59b22c88f083cf 420602 sounds/ambient/drip_1.wav
 5eec044be7beee7224da450888f883e9 223548 sounds/ambient/fire_1.wav
 d3dbffff0a91792b48abd53226be1fd5 68510 sounds/ambient/sizzle.wav
