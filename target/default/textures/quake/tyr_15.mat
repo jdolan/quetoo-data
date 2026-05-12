@@ -1,3 +1,7 @@
 {
 	diffusemap quake/tyr_15
+	roughness 0.85
+	hardness 0.50
+	specularity 2.00
+	parallax 2.15
 }
