@@ -1,8 +1,10 @@
+// Game: Quetoo
+// Format: Quake3
 // entity 0
 {
 "classname" "worldspawn"
 "ambient" "0.19"
-"give" "shotgun"
+"give" "quake_shotgun"
 "message" "Claustrophobopolis"
 "sky" "sky1"
 "_tb_textures" "textures/common;textures/effects;textures/quake"
@@ -13151,7 +13153,7 @@
 }
 // entity 18
 {
-"classname" "item_quake_armor"
+"classname" "item_quake_armor_jacket"
 "origin" "624 864 -80"
 }
 // entity 19
@@ -13502,12 +13504,12 @@
 }
 // entity 59
 {
-"classname" "item_quake_armor"
+"classname" "item_quake_armor_combat"
 "origin" "-88 -40 32"
 }
 // entity 60
 {
-"classname" "item_quake_armor"
+"classname" "item_quake_armor_combat"
 "origin" "-864 -56 32"
 }
 // entity 61
@@ -13824,12 +13826,12 @@
 }
 // entity 92
 {
-"classname" "item_quake_armor"
+"classname" "item_quake_armor_body"
 "origin" "304 -1096 112"
 }
 // entity 93
 {
-"classname" "item_quake_armor"
+"classname" "item_quake_armor_body"
 "origin" "240 256 48"
 }
 // entity 94

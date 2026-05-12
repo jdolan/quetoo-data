@@ -1,5 +1,4 @@
-68ed9fd58eb73094780f843d86d1b871 1023 docs/map-claustrophobopolis.txt
-4ef491eb7864a71738c71477ccb7516e 10026981 maps/claustrophobopolis.bsp
+1520efba8e153bf49b74d53896d9f042 10027018 maps/claustrophobopolis.bsp
 e88cfc3a5cf855047aef392efc982448 5796 maps/claustrophobopolis.nav
 bc14677052aca2856ead1ddf1c16ddbf 175634 mapshots/claustrophobopolis/quetoo019.jpg
 f761e389cfb3740265d2638084129858 210966 mapshots/claustrophobopolis/quetoo021.jpg
