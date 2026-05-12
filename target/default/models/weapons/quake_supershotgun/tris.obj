@@ -1,6 +1,6 @@
 # g_shot.mdl frame 0
 
-usemtl quake/weapons/supershotgun/skin
+usemtl weapons/quake_supershotgun/skin
 g g_shot
 v 1.906250 32.046875 1.078125
 v 1.906250 32.046875 -1.078125

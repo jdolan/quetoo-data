@@ -1,7 +1,7 @@
 {
-	diffusemap quake/powerups/pentagram/skin
-	normalmap quake/powerups/pentagram/skin_norm
-	glossmap quake/powerups/pentagram/skin_spec
+	diffusemap powerups/quake_pentagram/skin
+	normalmap powerups/quake_pentagram/skin_norm
+	glossmap powerups/quake_pentagram/skin_spec
 	roughness 1.0
 	hardness 1.0
 	specularity 1.0

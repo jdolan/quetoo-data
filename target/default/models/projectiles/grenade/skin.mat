@@ -1,10 +1,10 @@
 {
-	diffusemap grenade/skin
+	diffusemap projectiles/grenade/skin
 	roughness 4.0
 	hardness 1.5
 	specularity 2.0
 		{	
-		texture grenade/skin_glow
+		texture projectiles/grenade/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 2
 	}

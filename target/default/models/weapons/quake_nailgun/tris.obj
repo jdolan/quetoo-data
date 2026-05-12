@@ -1,6 +1,6 @@
 # g_nail.mdl frame 0
 
-usemtl quake/weapons/nailgun/skin
+usemtl weapons/quake_nailgun/skin
 g g_nail
 v -8.000000 27.812500 0.140625
 v -5.406250 27.812500 0.140625

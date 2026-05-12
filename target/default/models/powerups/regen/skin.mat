@@ -1,10 +1,10 @@
 {
-	diffusemap techs/regen/skin
+	diffusemap powerups/regen/skin
 	roughness 3.18367
 	hardness 3
 	specularity 2.61224
 		{
-		texture techs/regen/skin_glow
+		texture powerups/regen/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 0.75
 	}

@@ -1,7 +1,7 @@
 {
-	diffusemap quake/powerups/shadows/skin
-	normalmap quake/powerups/shadows/skin_norm
-	glossmap quake/powerups/shadows/skin_spec
+	diffusemap powerups/quake_shadows/skin
+	normalmap powerups/quake_shadows/skin_norm
+	glossmap powerups/quake_shadows/skin_spec
 	roughness 1.0
 	hardness 1.0
 	specularity 1.0

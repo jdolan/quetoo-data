@@ -1,7 +1,7 @@
 {
-	diffusemap quake/health/medium/skin
-	normalmap quake/health/medium/skin_norm
-	glossmap quake/health/medium/skin_spec
+	diffusemap health/quake_medium/skin
+	normalmap health/quake_medium/skin_norm
+	glossmap health/quake_medium/skin_spec
 	roughness 1.0
 	hardness 1.0
 	specularity 1.0

@@ -175,7 +175,7 @@ vn -0.049091 -0.998794 0.000000
 # 53 normals
 
 g default
-usemtl rocket/skin
+usemtl projectiles/rocket/skin
 s 1
 f 1/1/1 2/2/2 3/3/3
 f 3/3/3 2/2/2 4/4/4

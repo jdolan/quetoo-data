@@ -1,6 +1,6 @@
 # invisibl.mdl frame 0
 
-usemtl quake/powerups/shadows/skin
+usemtl powerups/quake_shadows/skin
 g invisibl
 v 1.187500 20.140625 0.000000
 v 0.078125 20.281250 0.000000

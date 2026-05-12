@@ -1,6 +1,6 @@
 # g_rock2.mdl frame 0
 
-usemtl quake/weapons/rocketlauncher/skin
+usemtl weapons/quake_rocketlauncher/skin
 g g_rock2
 v -5.562500 32.812500 0.000000
 v -5.562500 35.265625 0.000000

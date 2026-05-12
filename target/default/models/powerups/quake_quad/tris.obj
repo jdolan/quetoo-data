@@ -1,6 +1,6 @@
 # quaddama.mdl frame 0
 
-usemtl quake/powerups/quad/skin
+usemtl powerups/quake_quad/skin
 g quaddama
 v 2.000000 19.015625 8.468750
 v 2.000000 27.500000 12.000000

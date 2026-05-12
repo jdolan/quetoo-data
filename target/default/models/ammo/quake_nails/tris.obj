@@ -5135,7 +5135,7 @@ vt 0.679100 0.616116
 vt 0.679190 0.453658
 vt 0.682944 0.453660
 vt 0.682944 0.616141
-usemtl quake/ammo/nails/skin
+usemtl ammo/quake_nails/skin
 g b_nail0
 f 5/5/5 9/9/9 4/4/4
 f 9/9/9 5/5/5 7/7/7

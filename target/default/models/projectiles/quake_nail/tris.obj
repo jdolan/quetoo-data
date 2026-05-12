@@ -1,6 +1,6 @@
 # spike.mdl frame 0
 
-usemtl quake/nail/skin
+usemtl projectiles/quake_nail/skin
 g spike
 v 0.000000 0.000000 0.000000
 v 0.000000 0.000000 -1.000000

@@ -331,7 +331,7 @@ vt 0.021484 0.306641
 vt 0.138672 0.158203
 vt 0.138672 0.306641
 
-usemtl quake/grenade/skin
+usemtl projectiles/quake_grenade/skin
 vn -1.000000 0.000177 0.000688
 vn -0.969500 -0.000289 -0.245090
 vn -0.969680 -0.211300 -0.122775

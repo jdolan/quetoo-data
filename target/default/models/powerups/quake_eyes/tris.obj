@@ -1,6 +1,6 @@
 # eyes.mdl frame 0
 
-usemtl quake/eyes/skin
+usemtl powerups/quake_eyes/skin
 g Sphere02
 v -1.390625 25.390625 -1.734375
 v -1.281250 25.921875 -1.734375

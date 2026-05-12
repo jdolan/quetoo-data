@@ -1,10 +1,10 @@
 {
-	diffusemap techs/resist/skin
+	diffusemap powerups/resist/skin
 	roughness 3.18367
 	hardness 3
 	specularity 2.61224
 		{
-		texture techs/resist/skin_glow
+		texture powerups/resist/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 0.75
 	}

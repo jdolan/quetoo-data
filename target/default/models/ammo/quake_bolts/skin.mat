@@ -1,7 +1,7 @@
 {
-	diffusemap quake/ammo/bolts/skin
-	normalmap quake/ammo/bolts/skin_norm
-	glossmap quake/ammo/bolts/skin_spec
+	diffusemap ammo/quake_bolts/skin
+	normalmap ammo/quake_bolts/skin_norm
+	glossmap ammo/quake_bolts/skin_spec
 	roughness 1.0
 	hardness 1.0
 	specularity 1.0
