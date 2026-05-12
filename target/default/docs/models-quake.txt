@@ -1,0 +1,6 @@
+The Quake models appearing in Quetoo are from the Rygel Ultra Pack.
+
+All models were converted from Quake .MDL and .BSP to .OBJ using a Python script.
+
+Normalmaps were converted to OpenGL format with heightmaps removed.
+
