@@ -1,7 +1,6 @@
 # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
 # File Created: 27.02.2013 18:42:03
 
-mtllib shotgun.mtl
 
 #
 # object Shotgun
@@ -4750,8 +4749,8 @@ vt 0.6475 0.5022 0.0000
 vt 0.6478 0.9897 0.0000
 # 980 texture coords
 
-g Shotgun
-usemtl 08___Default
+g weapons/quake_shotgun/skin
+usemtl weapons/quake_shotgun/skin
 s 4
 f 98/2/1 99/3/2 100/8/3 97/1/4 
 s 2
