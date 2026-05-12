@@ -1,7 +1,7 @@
 # g_light.mdl frame 0
 
 usemtl weapons/quake_lightning/skin
-g g_light
+g weapons/quake_lightning/skin
 v -3.984375 30.000000 1.484375
 v -4.000000 30.000000 -1.500000
 v -3.984375 32.000000 3.000000

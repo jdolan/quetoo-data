@@ -827,7 +827,7 @@ vn -0.583977 0.000000 0.811770
 vn 0.107710 0.000000 -0.994182
 # 294 normals
 
-g techrune
+g powerups/vampire/skin
 usemtl powerups/vampire/skin
 s 1
 f 1/1/1 2/2/2 3/3/3
@@ -1064,7 +1064,7 @@ f 20/20/20 170/91/160 219/127/205
 f 170/91/160 169/92/159 219/127/205
 # 232 triangles in group
 
-g charm
+g powerups/vampire/skin
 usemtl powerups/vampire/skin
 f 221/129/207 222/130/208 223/131/209
 f 224/132/210 225/133/211 226/134/212

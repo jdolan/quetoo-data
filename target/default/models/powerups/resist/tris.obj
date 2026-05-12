@@ -841,7 +841,7 @@ vn -0.971954 0.135681 -0.192084
 vn 0.512224 -0.845804 -0.149137
 # 298 normals
 
-g techrune
+g powerups/resist/skin
 usemtl powerups/resist/skin
 s 1
 f 1/1/1 2/2/2 3/3/3
@@ -1078,7 +1078,7 @@ f 20/20/20 170/91/160 219/127/205
 f 170/91/160 169/92/159 219/127/205
 # 232 triangles in group
 
-g shield1
+g powerups/resist/skin
 usemtl powerups/resist/skin
 f 221/129/207 222/130/208 223/131/209
 f 224/132/210 225/133/211 226/134/212

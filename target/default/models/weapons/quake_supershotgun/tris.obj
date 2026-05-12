@@ -1,7 +1,7 @@
 # g_shot.mdl frame 0
 
 usemtl weapons/quake_supershotgun/skin
-g g_shot
+g weapons/quake_supershotgun/skin
 v 1.906250 32.046875 1.078125
 v 1.906250 32.046875 -1.078125
 v 1.906250 35.843750 1.703125

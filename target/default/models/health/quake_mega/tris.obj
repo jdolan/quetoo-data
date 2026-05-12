@@ -3384,7 +3384,7 @@ vt 0.091702 0.091648
 vt 0.091702 0.408249
 vt 0.050019 0.449907
 usemtl health/quake_mega/skin
-g b_bh100
+g health/quake_mega/skin
 f 1/1/1 4/4/4 3/3/3
 f 4/4/4 1/1/1 2/2/2
 f 13/13/13 16/16/16 14/14/14

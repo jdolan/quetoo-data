@@ -1750,7 +1750,7 @@ vn 0.000000 0.966562 -0.256433
 vn -0.739160 0.673530 0.000616
 # 770 normals
 
-g tris
+g weapons/railgun/skin
 usemtl weapons/railgun/skin
 s 1
 f 1/1/1 2/2/2 3/3/3

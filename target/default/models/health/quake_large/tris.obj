@@ -3480,7 +3480,7 @@ vt 0.925520 0.882502
 vt 0.925514 0.818858
 vt 0.881335 0.818859
 usemtl health/quake_large/skin
-g b_bh25
+g health/quake_large/skin
 f 6/6/6 2/2/2 1/1/1
 f 2/2/2 6/6/6 5/5/5
 f 13/13/13 16/16/16 14/14/14

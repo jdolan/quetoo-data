@@ -1,7 +1,7 @@
 # g_nail2.mdl frame 0
 
 usemtl weapons/quake_supernailgun/skin
-g g_nail2
+g weapons/quake_supernailgun/skin
 v 5.734375 35.000000 -3.000000
 v 5.734375 33.500000 -2.593750
 v 5.750000 32.390625 -1.484375

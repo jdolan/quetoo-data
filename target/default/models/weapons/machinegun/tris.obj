@@ -1632,7 +1632,7 @@ vn 0.007327 -0.821639 -0.569961
 vn 0.735909 0.308289 -0.602823
 # 505 normals
 
-g default
+g weapons/machinegun/skin
 usemtl weapons/machinegun/skin
 s 1
 f 1/1/1 2/2/1 3/3/1

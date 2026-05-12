@@ -505,7 +505,7 @@ vn 0.951084 0.295309 -0.090734
 vn 0.951876 0.292875 -0.090316
 # 153 normals
 
-g default
+g gibs/gib_2/skin
 usemtl gibs/gib_2/skin
 s 1
 f 1/1/1 2/2/2 3/3/3

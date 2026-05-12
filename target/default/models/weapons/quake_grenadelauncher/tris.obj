@@ -1,7 +1,7 @@
 # g_rock.mdl frame 0
 
 usemtl weapons/quake_grenadelauncher/skin
-g g_rock
+g weapons/quake_grenadelauncher/skin
 v 1.250000 30.000000 -2.250000
 v 1.250000 29.218750 -2.109375
 v 1.234375 28.546875 -1.718750

@@ -2072,7 +2072,7 @@ vn 0.994111 0.000008 0.108364
 vn 0.994112 0.000000 -0.108360
 # 733 normals
 
-g Regroup01
+g weapons/shotgun/skin
 usemtl weapons/shotgun/skin
 s 1
 f 1/1/1 2/2/2 3/3/2
@@ -2111,7 +2111,7 @@ f 35/24/12 25/19/12 22/16/12
 f 36/25/12 25/19/12 35/24/12
 # 34 triangles in group
 
-g Shotty
+g weapons/shotgun/skin
 usemtl weapons/shotgun/skin
 f 37/26/14 38/27/15 39/28/16
 f 40/29/17 41/30/18 42/31/19

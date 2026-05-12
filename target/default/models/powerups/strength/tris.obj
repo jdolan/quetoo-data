@@ -774,7 +774,7 @@ vn 0.474032 0.525310 -0.706642
 vn 0.728143 0.685425 0.000000
 # 269 normals
 
-g techrune
+g powerups/strength/skin
 usemtl powerups/strength/skin
 s 1
 f 1/1/1 2/2/2 3/3/3
@@ -1011,7 +1011,7 @@ f 20/20/20 170/91/160 219/127/205
 f 170/91/160 169/92/159 219/127/205
 # 232 triangles in group
 
-g hammer
+g powerups/strength/skin
 usemtl powerups/strength/skin
 f 221/129/207 222/130/207 223/131/208
 f 224/132/209 222/130/207 221/129/207

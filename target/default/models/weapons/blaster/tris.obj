@@ -3526,7 +3526,7 @@ vn -0.631168 -0.734393 -0.249589
 vn -0.627865 -0.734461 -0.257590
 # 751 normals
 
-g blaster
+g weapons/blaster/skin
 usemtl weapons/blaster/skin
 s 1
 f 1/1/1 2/2/2 1887/3/3

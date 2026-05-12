@@ -1688,7 +1688,7 @@ vn 0.921635 -0.388057 0.000000
 vn 0.000000 -0.644136 -0.764911
 # 356 normals
 
-g hyperz
+g weapons/hyperblaster/skin
 usemtl weapons/hyperblaster/skin
 s 1
 f 1/1/1 2/2/1 3/3/1

@@ -2430,7 +2430,7 @@ vn 0.194300 0.499749 0.844096
 vn 0.230752 0.547848 0.804124
 # 968 normals
 
-g ssggroup
+g weapons/supershotgun/skin
 usemtl weapons/supershotgun/skin
 s 16
 f 1/1/1 2/2/2 3/3/3

@@ -1796,7 +1796,7 @@ vn 0.987087 0.160182 0.000000
 vn 0.948683 0.316228 0.000000
 # 360 normals
 
-g rocketlauncher
+g weapons/rocketlauncher/skin
 usemtl weapons/rocketlauncher/skin
 s 1
 f 1/1/1 2/2/2 3/3/3

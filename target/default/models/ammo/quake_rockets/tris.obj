@@ -1,7 +1,7 @@
 # a_rock4.mdl frame 0
 
 usemtl ammo/quake_rockets/skin
-g b_rock0
+g ammo/quake_rockets/skin
 v 4.250000 37.500000 4.250000
 v 2.781250 36.843750 4.843750
 v 2.781250 36.843750 3.640625

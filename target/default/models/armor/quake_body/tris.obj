@@ -6619,8 +6619,8 @@ vt 0.748047 0.455078
 vt 0.751953 0.443359
 vt 0.748047 0.455078
 vt 0.759766 0.439453
-usemtl armor/quake/skin
-g armor
+usemtl armor/quake_body/skin
+g armor/quake_body/skin
 f 17/1/17 58/2/58 59/3/59
 f 17/4/17 22/5/22 58/6/58
 f 86/7/86 87/8/87 18/9/18

@@ -730,7 +730,7 @@ vn 0.493145 -0.869947 0.000000
 vn -0.749967 0.661475 0.000000
 # 218 normals
 
-g techrune
+g powerups/haste/skin
 usemtl powerups/haste/skin
 s 1
 f 1/1/1 2/2/2 3/3/3
@@ -967,7 +967,7 @@ f 20/20/20 170/91/160 219/127/205
 f 170/91/160 169/92/159 219/127/205
 # 232 triangles in group
 
-g charm
+g powerups/haste/skin
 usemtl powerups/haste/skin
 f 221/129/207 225/130/207 229/131/207
 f 231/129/208 235/130/208 239/132/208

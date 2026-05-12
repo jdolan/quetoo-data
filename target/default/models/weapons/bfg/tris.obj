@@ -1495,7 +1495,7 @@ vn 0.113433 -0.150998 0.982004
 vn 0.568895 -0.758526 0.317801
 # 409 normals
 
-g Regroup02
+g weapons/bfg/skin
 usemtl weapons/bfg/skin
 s 1
 f 1/1/1 2/2/2 3/3/3

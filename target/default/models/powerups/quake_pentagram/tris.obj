@@ -1,7 +1,7 @@
 # invulner.mdl frame 0
 
 usemtl powerups/quake_pentagram/skin
-g invulner
+g powerups/quake_pentagram/skin
 v 1.796875 15.984375 -14.234375
 v 1.796875 19.250000 -13.843750
 v 1.796875 22.250000 -12.781250

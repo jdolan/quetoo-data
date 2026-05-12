@@ -663,7 +663,7 @@ vn 0.000000 0.000000 -1.000000
 vn 0.000000 0.000000 1.000000
 # 208 normals
 
-g techrune
+g powerups/regen/skin
 usemtl powerups/regen/skin
 s 1
 f 1/1/1 2/2/2 3/3/3
@@ -900,7 +900,7 @@ f 20/20/20 170/91/160 219/127/205
 f 170/91/160 169/92/159 219/127/205
 # 232 triangles in group
 
-g charm
+g powerups/regen/skin
 usemtl powerups/regen/skin
 f 221/129/207 222/130/207 223/131/207
 f 221/129/207 223/131/207 224/132/207

@@ -1,7 +1,7 @@
 # a_shell1.mdl frame 0
 
 usemtl ammo/quake_shells/skin
-g b_shell0
+g ammo/quake_shells/skin
 v 1.000000 15.500000 6.000000
 v 1.000000 12.500000 5.984375
 v 0.984375 12.500000 15.984375
