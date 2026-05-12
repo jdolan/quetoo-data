@@ -19963,14 +19963,12 @@
 "classname" "info_player_intermission"
 "origin" "640 0 584"
 "target" "inter"
-"angles" "0 180 0"
 }
 // entity 180
 {
 "classname" "info_notnull"
 "origin" "-544 0 224"
 "targetname" "inter"
-"angle" "180"
 }
 // entity 181
 {
