@@ -7376,56 +7376,56 @@
 }
 // entity 1
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "160 536 -112"
 "spawnflags" "1"
 }
 // entity 2
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "208 536 -112"
 "spawnflags" "1"
 }
 // entity 3
 {
-"classname" "ammo_cells"
+"classname" "ammo_quake_bolts"
 "origin" "248 376 -120"
 }
 // entity 4
 {
-"classname" "ammo_cells"
+"classname" "ammo_quake_bolts"
 "origin" "248 320 -120"
 }
 // entity 5
 {
-"classname" "ammo_shells"
+"classname" "ammo_quake_shells"
 "origin" "-760 -88 24"
 "spawnflags" "1"
 }
 // entity 6
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_quake_grenadelauncher"
 "angle" "180"
 "origin" "-536 0 72"
 }
 // entity 7
 {
-"classname" "weapon_lightning"
+"classname" "weapon_quake_lightning"
 "origin" "872 -360 80"
 }
 // entity 8
 {
-"classname" "item_armor_combat"
+"classname" "item_quake_armor_combat"
 "origin" "-616 328 32"
 }
 // entity 9
 {
-"classname" "item_armor_jacket"
+"classname" "item_quake_armor_jacket"
 "origin" "-568 -328 -120"
 }
 // entity 10
 {
-"classname" "weapon_supershotgun"
+"classname" "weapon_quake_supershotgun"
 "origin" "-176 64 40"
 }
 // entity 11
@@ -7472,62 +7472,62 @@
 }
 // entity 18
 {
-"classname" "ammo_shells"
+"classname" "ammo_quake_shells"
 "origin" "0 -72 24"
 }
 // entity 19
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "24 192 32"
 }
 // entity 20
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-24 192 32"
 }
 // entity 21
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-896 284 24"
 }
 // entity 22
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-896 324 24"
 }
 // entity 23
 {
-"classname" "ammo_cells"
+"classname" "ammo_quake_bolts"
 "origin" "-448 -340 16"
 }
 // entity 24
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "688 -120 32"
 }
 // entity 25
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "688 -32 32"
 }
 // entity 26
 {
-"classname" "ammo_shells"
+"classname" "ammo_quake_shells"
 "origin" "408 -208 24"
 }
 // entity 27
 {
-"classname" "ammo_rockets"
+"classname" "ammo_quake_rockets"
 "origin" "360 -208 24"
 }
 // entity 28
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-496 12 -120"
 }
 // entity 29
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-548 12 -120"
 }
 // entity 30
@@ -7643,12 +7643,12 @@
 }
 // entity 36
 {
-"classname" "weapon_lightning"
+"classname" "weapon_quake_lightning"
 "origin" "-784 296 32"
 }
 // entity 37
 {
-"classname" "ammo_shells"
+"classname" "ammo_quake_shells"
 "origin" "-264 236 -120"
 }
 // entity 38
@@ -7691,36 +7691,7 @@
 ( -288 272 -4 ) ( -288 280 -4 ) ( -288 280 -16 ) quake/metal1_3 0 0 0 0.25 0.25
 }
 }
-// entity 40
-{
-"classname" "item_armor_shard"
-"origin" "416 324 24"
-}
-// entity 41
-{
-"classname" "item_armor_shard"
-"origin" "456 324 24"
-}
-// entity 42
-{
-"classname" "item_armor_shard"
-"origin" "496 324 24"
-}
-// entity 43
-{
-"classname" "item_armor_shard"
-"origin" "536 324 24"
-}
-// entity 44
-{
-"classname" "item_armor_shard"
-"origin" "576 324 24"
-}
-// entity 45
-{
-"classname" "item_armor_shard"
-"origin" "616 324 24"
-}
+
 // entity 46
 {
 "classname" "misc_teleporter_dest"
@@ -12133,7 +12104,7 @@
 }
 // entity 97
 {
-"classname" "item_health_mega"
+"classname" "item_health_quake_mega"
 "origin" "208 -272 24"
 }
 // entity 98
