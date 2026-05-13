@@ -6998,7 +6998,7 @@ e6ff715fbb1c05e0a7851b25eac6e9d2 14853 textures/quake/tyr_09.jpg
 a0ab3cd2786626e459aa966e4517acef 21431 textures/quake/tyr_11_spec.jpg
 97c0bd5225e16af2f75d5192b9a0feeb 38191 textures/quake/tyr_15.jpg
 2ae09648859eb26f6a0785582de4993f 93 textures/quake/tyr_15.mat
-fd67dff1a8ab8b9747f1dabfb59c183c 19184 textures/quake/tyr_15_norm.png
+bfb06ac1ec78b376644340d4496c4a94 31376 textures/quake/tyr_15_norm.png
 473c2523d0035a7ec6a4e735e4621e74 12143 textures/quake/tyr_15_spec.jpg
 eafed75a122e50e1efa6414599e33a97 14507 textures/quake/unnamed10.jpg
 56261147d45e3dd4f1bffd27e68e0191 61752 textures/quake/unnamed10_norm.png
