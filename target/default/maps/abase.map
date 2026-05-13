@@ -1,3 +1,5 @@
+// Game: Quetoo
+// Format: Quake3
 // entity 0
 {
 "classname" "worldspawn"
@@ -6,9 +8,7 @@
 "ambient" "0.125"
 "author" "Skies912 - Remake of DM3 from Quake 1"
 "message" "The Abandoned Base"
-"num_teams" "2"
 "sky" "miramar"
-"teams" "2"
 "version" "1.0.11"
 // brush 0
 {
