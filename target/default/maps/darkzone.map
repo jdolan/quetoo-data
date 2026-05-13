@@ -1,9 +1,9 @@
 // entity 0
 {
 "classname" "worldspawn"
+"items" "quake"
 "_tb_textures" "textures/common;textures/quake;textures/quake"
 "ambient" "0.3"
-"give" "shotgun"
 "message" "^1T^7he ^1D^7arker ^1Z^7one"
 "model" "*0"
 "sky" "sky1"

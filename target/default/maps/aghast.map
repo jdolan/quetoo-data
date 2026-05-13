@@ -3,10 +3,10 @@
 // entity 0
 {
 "classname" "worldspawn"
+"items" "quake"
 "_tb_textures" "textures/common;textures/decals;textures/effects;textures/prototype;textures/quake"
 "ambient" "1"
 "author" "Vondur"
-"give" "shotgun"
 "message" "^3Aghast^7 by ^1Vondur^7"
 "model" "*0"
 "sky" "aghast"

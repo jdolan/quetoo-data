@@ -3,9 +3,9 @@
 // entity 0
 {
 "classname" "worldspawn"
+"items" "quake"
 "_tb_textures" "textures/common;textures/darkzone;textures/prototype;textures/quake"
 "ambient" "1"
-"give" "shotgun"
 "message" "A Place of Two Deaths"
 "model" "*0"
 "sky" "sky1"

@@ -1,10 +1,10 @@
 // entity 0
 {
 "classname" "worldspawn"
+"items" "quake"
 "_tb_textures" "text;textures/common;textures/common/sky;textures/decals;textures/effects;textures/prototype;textures/quake;textures/quake2"
 "ambient" "0.125"
 "author" "Skies912 - Remake of DM3 from Quake 1"
-"give" "shotgun"
 "message" "The Abandoned Base"
 "num_teams" "2"
 "sky" "miramar"

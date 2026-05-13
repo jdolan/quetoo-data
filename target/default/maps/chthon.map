@@ -1,11 +1,11 @@
 // entity 0
 {
 "classname" "worldspawn"
+"items" "quake"
 "_tb_textures" "textures/common;textures/decals;textures/effects;textures/prototype;textures/quake;textures/quake3/sfx;textures/quake3/skin"
 "message" "Chthon's House of Madness"
 "sky" "dragonheart"
 "ambient" "0.175"
-"give" "shotgun"
 "hook" "1"
 "author" "Skies912"
 "version" "1.0.22"

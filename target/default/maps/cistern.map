@@ -1,6 +1,7 @@
 // entity 0
 {
 "classname" "worldspawn"
+"items" "quake"
 "_tb_textures" "textures/common;textures/quake"
 "ambient" "0.5"
 "message" "The Cistern"
