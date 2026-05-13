@@ -1,4 +1,4 @@
-0038853fba280e8ea511d928194e209d 23788155 maps/fraggin.bsp
+92187930a8076909e06eb8fec6eda54c 23791369 maps/fraggin.bsp
 079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
 1f65f3c6ecf8313f34e2508c38fb25db 84548 mapshots/fraggin/fraggin01.jpg
 3fcbee2ddf3ce8de0b59980de1c21a03 109776 mapshots/fraggin/fraggin02.jpg
@@ -155,11 +155,11 @@ ac2fed895564dbc46781edb880bf24ba 161782 textures/quake/metal5_3_norm.png
 d9628a5d8b0a7a5b725ab6104200c2ed 29821 textures/quake/metal5_3_spec.jpg
 bba5b49af39cfd2e4ef25cab865807f0 31644 textures/quake/rock3_8.jpg
 faea8fb1af955b4b18c8e21d481a5a18 89 textures/quake/rock3_8.mat
-4dd4adecd6588adcacd9f5f10644764e 139613 textures/quake/rock3_8_norm.png
+aca15877f01d0522b475d38fda2f2a72 130164 textures/quake/rock3_8_norm.png
 15e7eecd9f1dfdc1f333333babf58712 23101 textures/quake/rock3_8_spec.jpg
 0b132983f29e2fd0c4fd39443a1327d4 101577 textures/quake/rock4_1.jpg
 1655f6e543f9a0b8c8cbd8b9445282c7 107 textures/quake/rock4_1.mat
-61ddd26e29d5e244ece9064ac29ebd44 553214 textures/quake/rock4_1_norm.png
+82d0110eb40352078f4aec075e276587 509374 textures/quake/rock4_1_norm.png
 bc79e432b4ed2b5c78dbb770e9bef5a8 73679 textures/quake/rock4_1_spec.jpg
 8a60636f27ea29ed47e32276e2cc8d76 184778 textures/quake/sfloor4_1_norm.png
 3e93e0c955e85fbf5b9722fd13fae905 25211 textures/quake/sfloor4_1_spec.jpg
@@ -187,9 +187,9 @@ e6ff715fbb1c05e0a7851b25eac6e9d2 14853 textures/quake/tyr_09.jpg
 4dc6ec39716b7d0a99f49fb497709e41 106 textures/quake/tyr_09.mat
 228de68136e274633093a31f59a1bbdc 4288 textures/quake/tyr_09_norm.png
 112ecc9b36b62563f9d65f7429653d4d 12959 textures/quake/tyr_09_spec.jpg
-b96bc0c3b5dd629f341f64708bcc940e 14209 textures/quake/tyr_15.jpg
-547e0f817b946fc502e6d632f7fe673e 29 textures/quake/tyr_15.mat
-f8185212967e21f29520cbc80c1f7900 11593 textures/quake/tyr_15_norm.png
+97c0bd5225e16af2f75d5192b9a0feeb 38191 textures/quake/tyr_15.jpg
+2ae09648859eb26f6a0785582de4993f 93 textures/quake/tyr_15.mat
+bfb06ac1ec78b376644340d4496c4a94 31376 textures/quake/tyr_15_norm.png
 473c2523d0035a7ec6a4e735e4621e74 12143 textures/quake/tyr_15_spec.jpg
 008e9ad3358d5b3393fe971363f56230 11830 textures/quake/water2.jpg
 6091fcf173bb5d5d21ea27337470b5c3 72 textures/quake/water2.mat
