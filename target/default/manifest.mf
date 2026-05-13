@@ -822,7 +822,7 @@ ccd99b392e216967e1ffb1e336588a58 889 pics/a_grenades.png
 10d4ac60ce7412c38f4d32a287816b68 1265 pics/a_handgrenades.png
 31e628e75006d847ad7294e578965722 2550 pics/a_nukes.png
 2595c66d648f75bf25475c3f6eda063c 1312 pics/a_quake_bolts.png
-32b6b2ad370ae34abfda64b03991d825 832 pics/a_quake_nails.png
+1e525385bd95ee697a8fd4f513d30412 952 pics/a_quake_nails.png
 db57c80f745ca2965e6dcc8928617d87 1266 pics/a_quake_rockets.png
 3efb72110851abec15ad6cf3b6450dbb 714 pics/a_quake_shells.png
 db57c80f745ca2965e6dcc8928617d87 1266 pics/a_rockets.png
@@ -907,8 +907,8 @@ c108f871e2a076925ae7af21daaae544 1917 pics/i_flag4.png
 74ce75224c8afb96ddeb832c51ed62ac 769 pics/i_quake_health_medium.png
 69508e48cf83a73748c17927c1f4e4a2 790 pics/i_quake_health_mega.png
 8cf31585405f4f8840c059ba526ac336 2569 pics/i_quake_jacket_armor.png
-6f777187375b94de197697932164194c 3179 pics/i_quake_pentagram.png
-6f777187375b94de197697932164194c 3179 pics/i_quake_shadows.png
+ddea40d7ac670360edcd8dca67914f37 2657 pics/i_quake_pentagram.png
+51bd330cca3d7088120b53e5f01631c6 6815 pics/i_quake_shadows.png
 4fc801ef7f9a7e84e3fdf98dba1d1734 2560 pics/i_shard.png
 6588aa0d1fc86697c6d728d7e47395bc 763 pics/i_small_health.png
 d629ff5f561d883adca2c740788db0d5 1561 pics/p_adrenaline.png
@@ -6437,6 +6437,8 @@ bc79e432b4ed2b5c78dbb770e9bef5a8 73679 textures/quake/rock4_1_spec.jpg
 7ad09846796bc67e86fe58ab1945f3dd 45 textures/quake/rock4_2.mat
 3275f260578e2017a3308d5767c3027a 139758 textures/quake/rock4_2_norm.png
 f875fe7dcf9bf99faf535dc5b64b3636 23145 textures/quake/rock4_2_spec.jpg
+d64acc72465db7c018e442ed7ff95c5d 20518 textures/quake/rock4_2b.jpg
+eebb416f4278f387dbcea637b7a3892b 108 textures/quake/rock4_2b.mat
 67d0ca24de40b9fb5466e005ecb1a6c4 33662 textures/quake/rock5_2.jpg
 df25b18e5113ec1cd13391239656397a 89 textures/quake/rock5_2.mat
 40a64c27f0c3113f5aafac42e26abad8 160035 textures/quake/rock5_2_norm.png
@@ -6994,9 +6996,9 @@ e6ff715fbb1c05e0a7851b25eac6e9d2 14853 textures/quake/tyr_09.jpg
 112ecc9b36b62563f9d65f7429653d4d 12959 textures/quake/tyr_09_spec.jpg
 29d07ba8882da2df4fce24d1952eac83 27886 textures/quake/tyr_11.jpg
 a0ab3cd2786626e459aa966e4517acef 21431 textures/quake/tyr_11_spec.jpg
-b96bc0c3b5dd629f341f64708bcc940e 14209 textures/quake/tyr_15.jpg
-547e0f817b946fc502e6d632f7fe673e 29 textures/quake/tyr_15.mat
-f8185212967e21f29520cbc80c1f7900 11593 textures/quake/tyr_15_norm.png
+97c0bd5225e16af2f75d5192b9a0feeb 38191 textures/quake/tyr_15.jpg
+2ae09648859eb26f6a0785582de4993f 93 textures/quake/tyr_15.mat
+fd67dff1a8ab8b9747f1dabfb59c183c 19184 textures/quake/tyr_15_norm.png
 473c2523d0035a7ec6a4e735e4621e74 12143 textures/quake/tyr_15_spec.jpg
 eafed75a122e50e1efa6414599e33a97 14507 textures/quake/unnamed10.jpg
 56261147d45e3dd4f1bffd27e68e0191 61752 textures/quake/unnamed10_norm.png

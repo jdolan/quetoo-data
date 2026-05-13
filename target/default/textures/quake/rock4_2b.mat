@@ -1,0 +1,6 @@
+{
+	diffusemap quake/rock4_2b
+	normalmap quake/rock4_2_norm
+	specularmap quake/rock4_2_spec
+	parallax 2.69
+}
