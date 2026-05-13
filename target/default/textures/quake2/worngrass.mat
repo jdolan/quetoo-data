@@ -3,7 +3,7 @@
 	roughness 5.96
 	hardness 0.65
 	specularity 0.41
-	parallax 0.90
-	shadow 0.00
+	parallax 1.53
+	shadow 8.00
 	footsteps grass
 }

@@ -1,4 +1,3 @@
-0cab8ce0e2e2d5feed661d0a4451fc53 2023 docs/map-lavatomb.txt
 6e8928a77cdcb2b10b048b7e13e80769 12068241 maps/lavatomb.bsp
 524607c434dac43c53d5ba82cc000dcd 6180 maps/lavatomb.nav
 80336c0e6be6ee6a5f49f3a38c9d551d 281252 mapshots/lavatomb/quetoo098.jpg
@@ -47,7 +46,7 @@ e13cd30b37e6c6fe065868b87cf1f85a 70855 textures/quake2/drag4_3_norm.png
 a1135ac25ecd046694397a0e797b15b3 54347 textures/quake2/glowedge.png
 f1c19bf3d5489d5195565244b1f0a7e8 32058 textures/quake2/glowedge512.png
 9a4329434ecac208eb0cb3328c652920 23509 textures/quake2/grate1_4.jpg
-294ccc21cddb0989792f18d7840f102c 109 textures/quake2/grate1_4.mat
+3551d2de37b2a2294c8156c6ce731c37 109 textures/quake2/grate1_4.mat
 caf849cca62b2120a25dda8c2a8ddee5 91337 textures/quake2/grate1_4_norm.png
 c06c359203068004ecb1839f8fa995a9 15089 textures/quake2/grate1_4_spec.jpg
 ab6832199d1195f1196e50463d271ea9 14930 textures/quake2/lead1_2.jpg
@@ -124,6 +123,6 @@ a93068b33504954e07cf68e967ed5e16 23377 textures/quake2/sublava.jpg
 e281f9f2d907e9d57c7fee5ce9b2b483 25838 textures/quake2/sublavabotm.jpg
 a18496187acdb7cc1f6b540039577fb8 113 textures/quake2/sublavabotm.mat
 dcbec53b4e515e629cf0da4514bb5f9b 42218 textures/quake2/worngrass-noblend.jpg
-a0973a8cd4b59b28b6ad981ec333b97e 118 textures/quake2/worngrass-noblend.mat
+63b51264a57b7f39b6cef3a71d13f53b 118 textures/quake2/worngrass-noblend.mat
 0fb97345de545b9d9a11009916a81f65 149910 textures/quake2/worngrass-noblend_norm.png
 9a0fbd035dd0eaa32482f85148a6dfc3 27857 textures/quake2/worngrass-noblend_spec.jpg

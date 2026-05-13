@@ -37,9 +37,9 @@ REPLACEMENTS = {
     "ammo_nukes":    "ammo_quake_bolts",
 
     # Armor
-    "item_armor_jacket":  "item_quake_armor",
-    "item_armor_combat":  "item_quake_armor",
-    "item_armor_body":    "item_quake_armor",
+    "item_armor_jacket":  "item_quake_armor_jacket",
+    "item_armor_combat":  "item_quake_armor_combat",
+    "item_armor_body":    "item_quake_armor_body",
     "item_armor_shard":   "REMOVE",
 
     # Health

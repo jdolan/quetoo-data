@@ -73,6 +73,66 @@
  model="models/ammo/nukes/tris.md3"
 */
 
+/*QUAKED ammo_quake_bolts (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Bolts for the Quake Thunderbolt (Lightning Gun).
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/ammo/quake_bolts/tris.obj"
+  */
+
+/*QUAKED ammo_quake_nails (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Nails for the Quake Nailgun and Super Nailgun.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/ammo/quake_nails/tris.obj"
+  */
+
+/*QUAKED ammo_quake_rockets (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Rockets for the Quake Grenade Launcher and Rocket Launcher.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/ammo/quake_rockets/tris.obj"
+  */
+
+/*QUAKED ammo_quake_shells (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Shells for the Quake Super Shotgun.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/ammo/quake_shells/tris.obj"
+  */
+
 /*QUAKED ammo_rockets (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
  Rockets for the Rocket Launcher.
 
@@ -548,6 +608,51 @@
  model="models/health/mega/tris.obj"
 */
 
+/*QUAKED item_health_quake_large (1 0 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Large Health (+25).
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/health/quake_large/tris.obj"
+  */
+
+/*QUAKED item_health_quake_medium (.8 .8 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Health (+15).
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/health/quake_medium/tris.obj"
+  */
+
+/*QUAKED item_health_quake_mega (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Mega Health (+100).
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/health/quake_mega/tris.obj"
+  */
+
 /*QUAKED item_health_small (.3 1 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover
  Small health (+3).
 
@@ -577,6 +682,81 @@
  -------- Radiant config --------
  model="models/powerups/quad/tris.obj"
 */
+
+/*QUAKED item_quake_armor_body (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Red Armor (+200). Absorbs 80% of damage.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/armor/quake_body/tris.obj"
+  */
+
+/*QUAKED item_quake_armor_combat (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Yellow Armor (+150). Absorbs 60% of damage.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/armor/quake_combat/tris.obj"
+  */
+
+/*QUAKED item_quake_armor_jacket (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Green Armor (+100). Absorbs 30% of damage.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/armor/quake_jacket/tris.obj"
+  */
+
+/*QUAKED item_quake_pentagram (.8 .1 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Pentagram of Protection. Grants full invulnerability for 30 seconds.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/powerups/quake_pentagram/tris.obj"
+  */
+
+/*QUAKED item_quake_shadows (.2 .2 .4) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Ring of Shadows. Makes the player nearly invisible for 30 seconds.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/powerups/quake_shadows/tris.obj"
+  */
 
 /*QUAKED light (0 1 0) (-8 -8 -8) (8 8 8)
  Point light source.
@@ -706,6 +886,9 @@
 
 /*QUAKED misc_teleporter (1 0 0) (-32 -32 -24) (32 32 -16) no_effects
  Warps players who touch this entity to the targeted misc_teleporter_dest entity.
+
+ -------- Keys --------
+ sound : Sound to play at the teleporter and destination on use (default "misc/teleport").
 
  -------- Spawn flags --------
  no_effects : Suppress the default teleporter particle effects.
@@ -990,6 +1173,111 @@
  model="models/weapons/machinegun/tris.obj"
 */
 
+/*QUAKED weapon_quake_grenadelauncher (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Grenade Launcher. Fires slower, more arcing grenades than the standard launcher.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/weapons/quake_grenadelauncher/tris.obj"
+  */
+
+/*QUAKED weapon_quake_lightning (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Thunderbolt (Lightning Gun). Shorter range than the standard lightning gun.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/weapons/quake_lightning/tris.obj"
+  */
+
+/*QUAKED weapon_quake_nailgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Nailgun. Rapid-fire nail weapon.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/weapons/quake_nailgun/tris.obj"
+  */
+
+/*QUAKED weapon_quake_rocketlauncher (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Rocket Launcher. Fires slightly slower rockets than the standard launcher.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/weapons/quake_rocketlauncher/tris.obj"
+  */
+
+/*QUAKED weapon_quake_shotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Shotgun. The starting weapon; fires a tight spread of pellets.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/weapons/quake_shotgun/tris.obj"
+  */
+
+/*QUAKED weapon_quake_supernailgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Super Nailgun. Fires two nails per shot.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/weapons/quake_supernailgun/tris.obj"
+  */
+
+/*QUAKED weapon_quake_supershotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+  Quake Super Shotgun. Fires a wider spread of shells than the standard super shotgun.
+
+  -------- Keys --------
+  team : The team name for alternating item spawns.
+
+  -------- Spawn flags --------
+  triggered : Item will not appear until triggered.
+  no_touch : Item will interact as solid instead of being picked up by player.
+  hover : Item will spawn where it was placed in the map and won't drop the floor.
+
+  -------- Radiant config --------
+  model="models/weapons/quake_supershotgun/tris.obj"
+  */
+
 /*QUAKED weapon_railgun (.1 .1 .8) (-16 -16 -16) (16 16 16) triggered no_touch hover
  Railgun.
 
@@ -1066,5 +1354,6 @@
  roundlimit : The round limit (default 20).
  capturelimit : The capture limit (default 8).
  timelimit : The time limit in minutes (default 20).
+ items : The item set for this map, one of "quake" (default is Quetoo items).
  give : A comma-delimited item string to give each player on spawn.
 */

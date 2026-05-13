@@ -4,5 +4,6 @@
 	specularmap quake2/rockies_spec
 	roughness 2.00
 	specularity 2.00
+	parallax 2.62
 	shadow 0.00
 }

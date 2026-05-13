@@ -4,7 +4,7 @@
 	hardness 1.60
 	specularity 1.80
 	parallax 1.96
-	shadow 0.00
+	shadow 8.00
 	{
 		texture quake2/metallightfx
 		blend GL_SRC_ALPHA GL_ONE
