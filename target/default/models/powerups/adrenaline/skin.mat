@@ -1,10 +1,10 @@
 {
-	diffusemap powerups/adren/skin
+	diffusemap powerups/adrenaline/skin
 	roughness 3.59184
 	hardness 5.38775
 	specularity 2.04082
 		{
-		texture powerups/adren/skin_glow
+		texture powerups/adrenaline/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 1
 	}

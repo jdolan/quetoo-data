@@ -456,7 +456,7 @@
  hover : Item will spawn where it was placed in the map and won't drop the floor.
 
  -------- Radiant config --------
- model="models/powerups/adren/tris.obj"
+ model="models/powerups/adrenaline/tris.obj"
 */
 
 /*QUAKED item_armor_body (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
