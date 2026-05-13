@@ -1,4 +1,3 @@
-b68295bdd21faa1d656dab9badcf54fd 2032 docs/map-hallways.txt
 b59a1caa9c225b1a8bb84d3f015c0198 15524534 maps/hallways.bsp
 ddbb2038b24723624bb37d03837e0d7f 11732 maps/hallways.nav
 2d23e8e2cab17325fe31c37e7269a932 158789 mapshots/hallways/quetoo026.jpg
@@ -29,7 +28,7 @@ d0fd13a4e590b639d97029cd4977d862 1465 textures/quake2/baselt_c_norm.png
 2f2760754673b83f8215d61a1ef13ef2 1352 textures/quake2/baselt_c_spec.jpg
 c3f4df238c1813f5f147a21c1784ca03 4689 textures/quake2/baselt_cfx.png
 4a7058dae0309be9d4aff7e2597bfca7 11428 textures/quake2/bed4_1.jpg
-c3974c56625e8aa920e70d0d2392160d 107 textures/quake2/bed4_1.mat
+c7d22b364cd1a370cbbb3cc65274b779 107 textures/quake2/bed4_1.mat
 b0e42f64edf8bcd17eba87c6d291101c 11839 textures/quake2/bed4_1_norm.png
 ef6f0345d630c8c0617c753e611d9109 7491 textures/quake2/bed4_1_spec.jpg
 2ca10c7e3f202f26d7c61b820be20705 167468 textures/quake2/brlava.jpg
@@ -117,7 +116,7 @@ eda60e3bfac0d6b6db033657f5d6c3e3 19260 textures/quake2/mine15_1.jpg
 7e2ba9ae27a0f8a69a88be0531d2d601 120852 textures/quake2/mine15_1_norm.png
 87cd18359dd4d322aaaaf6adfaef846a 11814 textures/quake2/mine15_1_spec.jpg
 f8a92be33279586df341eb3f62057923 147703 textures/quake2/mossyrockies.jpg
-01452c5161072f63c93cd51f3aa45ea0 147 textures/quake2/mossyrockies.mat
+37e5bb2da431e91ecbe4fab5b6befa16 147 textures/quake2/mossyrockies.mat
 6b3d5ac4004527dc21a2b686cba77177 7621 textures/quake2/pilr01_3.jpg
 8a6c1001c221232a7d12bbba417508cc 109 textures/quake2/pilr01_3.mat
 a98204859bb0e0ca1fe6d760cdc02e60 65623 textures/quake2/pilr01_3_norm.png

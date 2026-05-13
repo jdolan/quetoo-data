@@ -1088,7 +1088,7 @@ vn 0.000000 -0.175143 0.984543
 vn 0.000000 -0.233068 0.972461
 # 285 normals
 
-g quatoo_default
+g powerups/quad/skin
 usemtl powerups/quad/skin
 s 1
 f 1/1/1 2/2/2 3/3/1

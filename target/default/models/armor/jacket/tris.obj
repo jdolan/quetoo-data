@@ -224,7 +224,7 @@ vn -0.956779 0.159281 -0.243318
 vn 0.958943 0.153554 -0.238430
 # 67 normals
 
-g tris.md2
+g armor/jacket/skin
 usemtl armor/jacket/skin
 s 1
 f 1/1/1 2/2/2 3/3/3

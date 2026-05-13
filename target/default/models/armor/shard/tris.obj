@@ -99,7 +99,7 @@ vn -0.376557 -0.380782 0.844518
 vn -0.841763 -0.451663 0.295695
 # 24 normals
 
-g tris.md2
+g armor/shard/skin
 usemtl armor/shard/skin
 s 1
 f 1/1/1 2/2/2 3/3/3

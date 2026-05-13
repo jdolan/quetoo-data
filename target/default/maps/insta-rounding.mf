@@ -129,7 +129,7 @@ a7c5cdaa63c715fa6fedec072a3b56e4 128586 textures/quake2/bed3_3_norm.png
 e5ddbad68a3bc5497c5c9187e5517c67 70057 textures/quake2/blume4_1_norm.png
 a9408edd5d252a435b6423dfe8496ca9 15101 textures/quake2/blume4_1_spec.jpg
 352d57955180b09a7088bdb7f932f941 27916 textures/quake2/blume7_2.jpg
-db5ed158393ea9d69978391ed6225a54 109 textures/quake2/blume7_2.mat
+129dffe60f85b7490e2af3eec1202476 109 textures/quake2/blume7_2.mat
 ec92d0ec9e780040f97f23aa4acd8f88 105777 textures/quake2/blume7_2_norm.png
 0ed32127a37d99a09ab9892860e13370 18489 textures/quake2/blume7_2_spec.jpg
 ff1abdd7752c10c3bd81f7ca181764a7 2960 textures/quake2/ceil1_aqua.jpg

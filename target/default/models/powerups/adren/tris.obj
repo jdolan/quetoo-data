@@ -451,7 +451,7 @@ vn 0.141989 0.207193 0.967941
 vn -0.003180 0.144868 0.989446
 # 160 normals
 
-g Sphere01
+g powerups/adren/skin
 usemtl powerups/adren/skin
 s 1
 f 115/1/1 96/2/2 1/3/3
@@ -772,7 +772,7 @@ f 140/113/160 131/115/152 151/39/41
 f 151/39/41 160/27/40 140/113/160
 # 316 triangles in group
 
-g default
+g powerups/adren/skin
 usemtl powerups/adren/skin
 # 0 triangles in group
 

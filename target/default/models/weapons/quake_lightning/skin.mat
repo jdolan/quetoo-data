@@ -1,0 +1,8 @@
+{
+	diffusemap weapons/quake_lightning/skin
+	normalmap weapons/quake_lightning/skin_norm
+	glossmap weapons/quake_lightning/skin_spec
+	roughness 1.0
+	hardness 1.0
+	specularity 1.0
+}

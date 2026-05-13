@@ -1,4 +1,3 @@
-454772ee46af1aa8cee31359f2a7ceeb 2035 docs/map-slimyplace.txt
 054b5a96d0ea2b49ac0b1f11d97e6fea 5116975 maps/slimyplace.bsp
 2fa04e2985b87b3032dad006dc1882e3 5524 maps/slimyplace.nav
 8467d6a7679bed3761216ca0640ecb2e 179261 mapshots/slimyplace/quetoo036.jpg
@@ -43,7 +42,7 @@ d7aad1407383fc95053c42d354538c0b 9804 textures/quake2/fmet1_2.jpg
 179c337a0453a54727c1ea8ad2b0f009 49151 textures/quake2/fmet1_2_norm.png
 e6f6a05802b07b72af58b38b0d433498 6124 textures/quake2/fmet1_2_spec.jpg
 9a4329434ecac208eb0cb3328c652920 23509 textures/quake2/grate1_4.jpg
-294ccc21cddb0989792f18d7840f102c 109 textures/quake2/grate1_4.mat
+3551d2de37b2a2294c8156c6ce731c37 109 textures/quake2/grate1_4.mat
 caf849cca62b2120a25dda8c2a8ddee5 91337 textures/quake2/grate1_4_norm.png
 c06c359203068004ecb1839f8fa995a9 15089 textures/quake2/grate1_4_spec.jpg
 f5f7c013b548ecb890168a83e8c06e1f 20537 textures/quake2/grnx2_1.jpg
