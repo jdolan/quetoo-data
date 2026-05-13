@@ -121,9 +121,9 @@ fef94bce9c3841eb59174b2dacee96e1 679 maps.lst
 b7c728e9d8781549d7f78ff42a19a1cf 792246 maps/2deaths.map
 2bb2af364de04e434889b3a42ad771b8 7317 maps/2deaths.mf
 5db92fe47355bd8dcfb63eeafcac5abe 8476 maps/2deaths.nav
-e8d894afc64288fe754aee7a558da534 12620017 maps/abase.bsp
-944bdbbd176e7df611d02a396a61ba1f 916448 maps/abase.map
-65433bdb505d5a2885ebbfe93e228f70 31272 maps/abase.mf
+c9140d7854a085097c82913140d21417 12646543 maps/abase.bsp
+f8e36a8a64151e78d304c2058809f1fe 916454 maps/abase.map
+6297bf205c6c7ae93e4e07a933d59313 31270 maps/abase.mf
 ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
 6aade3574e5ec485439f1dcabc8dcb5f 5084675 maps/aerowalk.bsp
 eae48cfbf88297586a4d1e1f5f5bee73 565755 maps/aerowalk.map
@@ -1393,6 +1393,9 @@ ed340f7396675b7b29e253accb6d01ec 67366 sounds/powerups/haste/haste.wav
 3430f194c53e111367c013c3a1ef62d9 99960 sounds/powerups/quad/attack.wav
 309836d87bc96a516cd7409a72bba658 145614 sounds/powerups/quad/expire.wav
 786964f3d0d651dd5a4f9f52bb96a711 209520 sounds/powerups/quad/pickup.wav
+309836d87bc96a516cd7409a72bba658 145614 sounds/powerups/quake_pentagram/expire.wav
+786964f3d0d651dd5a4f9f52bb96a711 209520 sounds/powerups/quake_pentagram/pickup.wav
+3430f194c53e111367c013c3a1ef62d9 99960 sounds/powerups/quake_pentagram/protect.wav
 56af8118083f954e31215c6a1eb42079 94546 sounds/powerups/regen/regen.wav
 c2b0022674fc61a780c0b6b9832c34d7 66194 sounds/powerups/resist/resist.wav
 8076b911bc8b8be7b0df75ec9542c392 113446 sounds/powerups/strength/strength.wav
