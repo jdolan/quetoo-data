@@ -1,8 +1,0 @@
-{
-	diffusemap powerups/quake_quad/skin
-	normalmap powerups/quake_quad/skin_norm
-	glossmap powerups/quake_quad/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-}

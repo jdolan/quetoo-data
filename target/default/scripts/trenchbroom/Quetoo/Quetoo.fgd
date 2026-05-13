@@ -42,7 +42,7 @@
 @PointClass base(Item) color(80 100 255) studio("") = item_adrenaline : "Adrenaline" []
 @PointClass base(Item) color(20 180 180) studio("") = item_quad : "Quad damage" []
 @PointClass base(Item) color(204 26 26) studio("") = item_invulnerability : "Invulnerability. Grants full invulnerability for 30 seconds." []
-@PointClass base(Item) color(51 51 102) studio("") = item_quake_shadows : "Ring of Shadows. Makes the player nearly invisible for 30 seconds." []
+@PointClass base(Item) color(51 51 102) studio("") = item_invisibility : "Invisibility. Makes the player nearly invisible for 30 seconds." []
 
 @BaseClass base(Item) size(-8 -8 -24, 8 8 32) studio("") = TeamFlag []
 @PointClass base(TeamFlag) color(255 0 0) = item_flag_team1 : "Red flag" []

@@ -16255,7 +16255,7 @@
 }
 // entity 255
 {
-"classname" "item_quake_shadows"
+"classname" "item_invisibility"
 "origin" "-384 0 24"
 }
 // entity 256
