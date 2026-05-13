@@ -1,10 +1,10 @@
 {
-	diffusemap powerups/vampire/skin
+	diffusemap techs/vampire/skin
 	roughness 3.34694
 	hardness 3.67347
 	specularity 2.12245
 		{
-		texture powerups/vampire/skin_glow
+		texture techs/vampire/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 0.75
 	}
