@@ -4,6 +4,6 @@
 	hardness 3.84
 	specularity 2.12
 	parallax 0.75
-	shadow 0.00
+	shadow 0.99
 	footsteps metal
 }

@@ -1,4 +1,3 @@
-50153558ad81ca50f66f9ade2c65583d 2054 docs/map-pits.txt
 3cbd5b7cc6db8083482a2f0b2f525203 9414824 maps/pits.bsp
 0941225f4b0647ca36a5a7b9a6169633 10508 maps/pits.nav
 fe8037ac2e689cc84798186aafc0fd92 186239 mapshots/pits/quetoo031.jpg
@@ -24,7 +23,7 @@ ec0e2c0bddf2997bce205054468b1bf8 76 textures/decals/tampon1.mat
 7174ef5af863e1104d5b53908f21e3ce 194252 textures/decals/tampon1.png
 deedad35444fcc492dfad13f2f305e07 146455 textures/effects/water6fx.png
 4a7058dae0309be9d4aff7e2597bfca7 11428 textures/quake2/bed4_1.jpg
-c3974c56625e8aa920e70d0d2392160d 107 textures/quake2/bed4_1.mat
+c7d22b364cd1a370cbbb3cc65274b779 107 textures/quake2/bed4_1.mat
 b0e42f64edf8bcd17eba87c6d291101c 11839 textures/quake2/bed4_1_norm.png
 ef6f0345d630c8c0617c753e611d9109 7491 textures/quake2/bed4_1_spec.jpg
 67afb00cc79b6c4ac1c18fc83ffda967 24497 textures/quake2/blume4_1.jpg
@@ -36,7 +35,7 @@ a9408edd5d252a435b6423dfe8496ca9 15101 textures/quake2/blume4_1_spec.jpg
 b1463842cf6344201d6c0ba0cb0d7715 85778 textures/quake2/blume6_1_norm.png
 cd07de489c06c93c37b71f0b0f2f05bd 14196 textures/quake2/blume6_1_spec.jpg
 352d57955180b09a7088bdb7f932f941 27916 textures/quake2/blume7_2.jpg
-db5ed158393ea9d69978391ed6225a54 109 textures/quake2/blume7_2.mat
+129dffe60f85b7490e2af3eec1202476 109 textures/quake2/blume7_2.mat
 ec92d0ec9e780040f97f23aa4acd8f88 105777 textures/quake2/blume7_2_norm.png
 0ed32127a37d99a09ab9892860e13370 18489 textures/quake2/blume7_2_spec.jpg
 62afcc30fc988d2471b42be22a41b435 22493 textures/quake2/blume9_2.jpg
@@ -106,7 +105,7 @@ b647c51766d983370cd0149e3a8757ec 253 textures/quake2/metal2_1_subslime.mat
 7ce6f69cba25967ad5660f9235399220 25724 textures/quake2/metalbase2.jpg
 b8a20148b0d2576bc46dcad7e81feba5 166 textures/quake2/metalbase2.mat
 ac34586499951a524c03097ea426ee96 48600 textures/quake2/metals_1.jpg
-c9a895d4b8b01679a4d67e04507db992 96 textures/quake2/metals_1.mat
+e5ee226014016b77bde4bf9eb8b3dec2 109 textures/quake2/metals_1.mat
 70208753f06e9ecc1eb24a8ec628a681 153413 textures/quake2/metals_1_norm.png
 b5c3d2163a59499e563e4566eaa19e4f 29926 textures/quake2/metals_1_spec.jpg
 bbbde4fba2e23fa42a3d38f94c01c8fe 186309 textures/quake2/metl_floor_norm.png
