@@ -132,7 +132,7 @@ b7fee5665e0fc1f4f036775873427b48 7953 maps/aerowalk.mf
 3ac57482f787012b94cb47225b325ae3 6859733 maps/aghast.bsp
 1dbd3ffbc8de90b80fc93d0bdf46b5fc 268 maps/aghast.lin
 dec8f2668264c20ed2b006951b80a3fa 402675 maps/aghast.map
-d36a548da63fa65a00d4b4d7bd106587 6409 maps/aghast.mf
+51b426de970abe194ccf7214bb1b0e63 6409 maps/aghast.mf
 d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 a477f5d4bd2590a9c609200072c85ab8 5484782 maps/badplace.bsp
 f0e689e8054bb8a8ebb6e4a90086107d 476712 maps/badplace.map
@@ -156,7 +156,7 @@ e3bbe345b95be07df8017641edaf72ac 6607534 maps/darkzone.bsp
 4994859c2940812dd17f7138e11cf6ea 6132 maps/darkzone.nav
 b0ee65500b7d474b3676e5c912343ddd 14376631 maps/edge.bsp
 3b6a532436f7abe2b00ccb2d20a1a123 1357159 maps/edge.map
-05d18b3236f82400ef4dfdae920a94c9 15271 maps/edge.mf
+113127f7029b2da1611dbb04e632de4e 15271 maps/edge.mf
 a8983acf1707d942b8ca1843dd59732d 9924 maps/edge.nav
 92187930a8076909e06eb8fec6eda54c 23791369 maps/fraggin.bsp
 370dc20021887ff54fe0ff07927991cf 1764431 maps/fraggin.map
@@ -172,7 +172,7 @@ a7bbda8a1a74125809d0e11262f3d5a3 24017223 maps/gehenna.bsp
 c95b0cb18c2e5deeb529abc293fd4bbe 12492 maps/gehenna.nav
 b59a1caa9c225b1a8bb84d3f015c0198 15524534 maps/hallways.bsp
 66cdd662eb9956b70039fcff5e3e5e52 1368990 maps/hallways.map
-bfdbb5777060e9c56d7071a87881fb5b 9611 maps/hallways.mf
+eee73dad1fb924c06ae3b125488c848a 9611 maps/hallways.mf
 ddbb2038b24723624bb37d03837e0d7f 11732 maps/hallways.nav
 886bebc74bb6b805dc74dbf10ca1511e 26249565 maps/insta-rounding.bsp
 f6525c8517b14ac91ed2172414646891 1084749 maps/insta-rounding.map
@@ -187,11 +187,11 @@ dca30da4cc95a433ce688a389eb3bf6c 8984 maps/lavatomb.mf
 59f3d5a6db218be288190df245d37fd4 7668 maps/longyard.nav
 0cdf3f8670664b5d3d939c40d4bd6c39 6964228 maps/omf.bsp
 c869de7e44a922fe5f1003a21d48eac5 838608 maps/omf.map
-ad5ec4a8703c267558372707c5ded789 14060 maps/omf.mf
+84521b11ae149b1f1d1428ca143bf80d 14060 maps/omf.mf
 e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
 3cbd5b7cc6db8083482a2f0b2f525203 9414824 maps/pits.bsp
 76fe28872cff59ae82b158c492825d3e 846493 maps/pits.map
-2720c5560324f224e5deafe08ddf6b50 10135 maps/pits.mf
+af38246dd3bdcc519fb82373337f7139 10135 maps/pits.mf
 0941225f4b0647ca36a5a7b9a6169633 10508 maps/pits.nav
 3bfea6e1d8cec9b9d19ecd18da04ef29 5447070 maps/rage.bsp
 51631b110a8eb1b1d9158ae6169914dc 522229 maps/rage.map
@@ -199,7 +199,7 @@ e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
 db567133973d9cf43a05e7350e32d9c1 5372 maps/rage.nav
 054b5a96d0ea2b49ac0b1f11d97e6fea 5116975 maps/slimyplace.bsp
 a9802d514868fcd33ccd62d86b2d824e 587088 maps/slimyplace.map
-3c9b200d433d38c9d9fba53dc68ea005 8522 maps/slimyplace.mf
+e2d6cd55fef5fde8d17a291f016d8970 8522 maps/slimyplace.mf
 2fa04e2985b87b3032dad006dc1882e3 5524 maps/slimyplace.nav
 54593b7c83d804952eaf4895e2d20bd1 6791410 maps/tokays.bsp
 c05a4adc093315f8fb1c97eff943958c 778673 maps/tokays.map
@@ -818,6 +818,8 @@ db57c80f745ca2965e6dcc8928617d87 1266 pics/a_rockets.png
 c922a23a9135020e47501acda2ec2029 1916 pics/a_slugs.png
 9cc4ec649c870677e78f2c99066ef790 27057 pics/bf_damage.png
 e669db5d30a45bf733fb730cbca6065c 8195 pics/bf_pickup.png
+1ee71fca98987027d4101cf5388fc0de 6554 pics/bf_powerup_invisibility.png
+b99981846782951d7f7064b2fd20249a 6551 pics/bf_powerup_invulnerability.png
 1bf58982a335bfae9f875f4c594d88a6 11008 pics/bf_powerup_quad.png
 f3cc464cef57557abbe6783227033879 8897 pics/ch1.png
 0b1e2445f668c790d5ca1197cee95eac 7017 pics/ch2.png
