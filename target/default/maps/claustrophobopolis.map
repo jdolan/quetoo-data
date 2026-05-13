@@ -4,7 +4,7 @@
 {
 "classname" "worldspawn"
 "ambient" "0.19"
-"give" "quake_shotgun"
+"items" "quake"
 "message" "Claustrophobopolis"
 "sky" "sky1"
 "_tb_textures" "textures/common;textures/effects;textures/quake"
