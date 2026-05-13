@@ -1,7 +1,7 @@
 {
 	diffusemap ammo/quake_nails/skin
 	normalmap ammo/quake_nails/skin_norm
-	glossmap ammo/quake_nails/skin_spec
+	specularmap ammo/quake_nails/skin_spec
 	roughness 1.0
 	hardness 1.0
 	specularity 1.0

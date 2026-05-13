@@ -1,7 +1,7 @@
 {
 	diffusemap weapons/quake_nailgun/skin
 	normalmap weapons/quake_nailgun/skin_norm
-	glossmap weapons/quake_nailgun/skin_spec
+	specularmap weapons/quake_nailgun/skin_spec
 	roughness 1.0
 	hardness 1.0
 	specularity 1.0

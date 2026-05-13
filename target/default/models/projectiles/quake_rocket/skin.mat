@@ -1,7 +1,7 @@
 {
 	diffusemap projectiles/quake_rocket/skin
 	normalmap projectiles/quake_rocket/skin_norm
-	glossmap projectiles/quake_rocket/skin_spec
+	specularmap projectiles/quake_rocket/skin_spec
 	roughness 1.0
 	hardness 1.0
 	specularity 1.0
