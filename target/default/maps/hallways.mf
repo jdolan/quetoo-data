@@ -116,7 +116,7 @@ eda60e3bfac0d6b6db033657f5d6c3e3 19260 textures/quake2/mine15_1.jpg
 7e2ba9ae27a0f8a69a88be0531d2d601 120852 textures/quake2/mine15_1_norm.png
 87cd18359dd4d322aaaaf6adfaef846a 11814 textures/quake2/mine15_1_spec.jpg
 f8a92be33279586df341eb3f62057923 147703 textures/quake2/mossyrockies.jpg
-37e5bb2da431e91ecbe4fab5b6befa16 147 textures/quake2/mossyrockies.mat
+c44a30e2318f87f5152a52bfaea20adc 162 textures/quake2/mossyrockies.mat
 6b3d5ac4004527dc21a2b686cba77177 7621 textures/quake2/pilr01_3.jpg
 8a6c1001c221232a7d12bbba417508cc 109 textures/quake2/pilr01_3.mat
 a98204859bb0e0ca1fe6d760cdc02e60 65623 textures/quake2/pilr01_3_norm.png

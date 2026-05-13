@@ -69,7 +69,7 @@ e8208d982e9d247f5455d9d07f85f286 101388 textures/quake/mmetal1_2_norm.png
 99ee298c2ba6b5eb85269015e6681ff5 20802 textures/quake/mmetal1_2_spec.jpg
 0b132983f29e2fd0c4fd39443a1327d4 101577 textures/quake/rock4_1.jpg
 1655f6e543f9a0b8c8cbd8b9445282c7 107 textures/quake/rock4_1.mat
-61ddd26e29d5e244ece9064ac29ebd44 553214 textures/quake/rock4_1_norm.png
+82d0110eb40352078f4aec075e276587 509374 textures/quake/rock4_1_norm.png
 bc79e432b4ed2b5c78dbb770e9bef5a8 73679 textures/quake/rock4_1_spec.jpg
 f9c19cfd90c73aeabf0171a0c1d2f867 9974 textures/quake/tele_top.jpg
 6258b40180bb765c62a747cd3eb85f19 185 textures/quake/tele_top.mat

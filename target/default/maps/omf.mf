@@ -161,7 +161,7 @@ aa64a9a7d354ba44c10ef88dba0a2985 28840 textures/quake2/metal18_2vent.jpg
 dbebe8acb56072768f0092dcf238c328 28793 textures/quake2/metal18_3b.jpg
 54162227f182244d0cdb7b3dfc5581da 161 textures/quake2/metal18_3b.mat
 2adac97cd50e4bad4a580a7d8103b88a 121185 textures/quake2/metal19_1_norm.png
-1dfa1113880ceedd8defb2d1354d1ce2 14044 textures/quake2/metal19_1_spec.jpg
+5fa400cf68f42453d324cd1a68ef2e4d 18161 textures/quake2/metal19_1_spec.jpg
 fdffc8ff078d20f992282ba0ff4fd2a3 23515 textures/quake2/metal1_sml.jpg
 f9e1af1167db0b3ca5107af5a1f7f4dd 34 textures/quake2/metal1_sml.mat
 f00558fb1c167743769f01f57ce5e3d7 120322 textures/quake2/metal1_sml_norm.png

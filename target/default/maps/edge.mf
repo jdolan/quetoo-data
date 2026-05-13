@@ -179,7 +179,7 @@ a9b030d5c09e78bda8a45e4d532c83f0 27378 textures/quake2/metl12_1.jpg
 1bfcd9fe20654daf89015e33339c1057 121465 textures/quake2/metl12_1_norm.png
 28b26f9a48b9092462ff1425286d4f50 17362 textures/quake2/metl12_1_spec.jpg
 f8a92be33279586df341eb3f62057923 147703 textures/quake2/mossyrockies.jpg
-37e5bb2da431e91ecbe4fab5b6befa16 147 textures/quake2/mossyrockies.mat
+c44a30e2318f87f5152a52bfaea20adc 162 textures/quake2/mossyrockies.mat
 bdc16a67fc34c15301260e7e8e9dff12 160961 textures/quake2/rockies.jpg
 702795eac733bc83232b5b81229a1275 108 textures/quake2/rockies.mat
 fd8dabf8eef8e1da6c9750d1aed8c0dc 629719 textures/quake2/rockies_norm.png
