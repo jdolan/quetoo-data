@@ -16250,7 +16250,7 @@
 }
 // entity 254
 {
-"classname" "item_quake_pentagram"
+"classname" "item_invulnerability"
 "origin" "-1344 264 16"
 }
 // entity 255

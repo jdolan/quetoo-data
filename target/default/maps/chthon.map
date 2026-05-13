@@ -25123,7 +25123,7 @@
 }
 // entity 261
 {
-"classname" "item_quake_pentagram"
+"classname" "item_invulnerability"
 "origin" "0 0 -64"
 "spawnflags" "4"
 "team" "center"
