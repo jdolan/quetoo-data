@@ -26,7 +26,7 @@ c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 59a6783e357ff7b8c24da2d37e5ae35f 143 textures/ctf/eq2_banner.mat
 395e6ecbc734497359b13408b9607f71 115213 textures/ctf/eq2_banner.png
 4a7058dae0309be9d4aff7e2597bfca7 11428 textures/quake2/bed4_1.jpg
-c3974c56625e8aa920e70d0d2392160d 107 textures/quake2/bed4_1.mat
+c7d22b364cd1a370cbbb3cc65274b779 107 textures/quake2/bed4_1.mat
 b0e42f64edf8bcd17eba87c6d291101c 11839 textures/quake2/bed4_1_norm.png
 ef6f0345d630c8c0617c753e611d9109 7491 textures/quake2/bed4_1_spec.jpg
 b218c810b83c0292c712df095ba039ff 3033 textures/quake2/ceil1_28.jpg

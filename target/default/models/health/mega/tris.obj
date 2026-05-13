@@ -421,7 +421,7 @@ vn -0.399739 0.689642 0.603823
 vn -0.925951 0.373847 -0.053416
 # 138 normals
 
-g mat-tex
+g health/mega/skin
 usemtl health/mega/skin
 s 1
 f 1/1/1 2/2/2 3/3/3

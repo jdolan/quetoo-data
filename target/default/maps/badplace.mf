@@ -1,4 +1,4 @@
-a2977adbf9cf6771d6c6565d5d4cafa2 5484508 maps/badplace.bsp
+a477f5d4bd2590a9c609200072c85ab8 5484782 maps/badplace.bsp
 3a370595b5778bf3cd9781a4b7a17c9a 2716 maps/badplace.nav
 d8d1928af2743e7a26bdb37cc3530636 254474 mapshots/badplace/quetoo068.jpg
 041b2a6541ec36f1694d2a4a6d94fdb9 222683 mapshots/badplace/quetoo069.jpg

@@ -1,10 +1,10 @@
 // entity 0
 {
 "classname" "worldspawn"
+"items" "quake"
 "_tb_textures" "text;textures/common;textures/common/sky;textures/decals;textures/effects;textures/prototype;textures/quake;textures/quake2"
 "ambient" "0.125"
 "author" "Skies912 - Remake of DM3 from Quake 1"
-"give" "shotgun"
 "message" "The Abandoned Base"
 "num_teams" "2"
 "sky" "miramar"
@@ -9679,7 +9679,7 @@
 }
 // entity 4
 {
-"classname" "item_health_mega"
+"classname" "item_health_quake_mega"
 "origin" "32 16 -272"
 }
 // entity 5
@@ -12067,7 +12067,7 @@
 }
 // entity 46
 {
-"classname" "item_armor_body"
+"classname" "item_quake_armor_body"
 "origin" "640 -832 -48"
 }
 // entity 47
@@ -14857,7 +14857,7 @@
 }
 // entity 148
 {
-"classname" "weapon_supershotgun"
+"classname" "weapon_quake_supershotgun"
 "origin" "-608 1632 -158"
 "_tb_group" "60"
 }
@@ -14889,7 +14889,7 @@
 }
 // entity 150
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_quake_rocketlauncher"
 "origin" "320 960 -94"
 "_tb_group" "61"
 }
@@ -14922,7 +14922,7 @@
 }
 // entity 152
 {
-"classname" "weapon_machinegun"
+"classname" "weapon_quake_nailgun"
 "origin" "-720 496 34"
 "_tb_group" "62"
 }
@@ -14955,7 +14955,7 @@
 }
 // entity 154
 {
-"classname" "weapon_lightning"
+"classname" "weapon_quake_lightning"
 "origin" "-800 -1376 114"
 "_tb_group" "63"
 }
@@ -14988,7 +14988,7 @@
 }
 // entity 156
 {
-"classname" "weapon_hyperblaster"
+"classname" "weapon_quake_supernailgun"
 "origin" "-1280 832 -286"
 "_tb_group" "64"
 }
@@ -15021,7 +15021,7 @@
 }
 // entity 158
 {
-"classname" "weapon_machinegun"
+"classname" "weapon_quake_nailgun"
 "origin" "128 -1248 -30"
 "_tb_group" "66"
 }
@@ -15054,7 +15054,7 @@
 }
 // entity 160
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_quake_rocketlauncher"
 "origin" "544 -832 -254"
 "_tb_group" "67"
 }
@@ -15087,7 +15087,7 @@
 }
 // entity 162
 {
-"classname" "weapon_hyperblaster"
+"classname" "weapon_quake_supernailgun"
 "origin" "704 -144 34"
 "team" "red"
 "_tb_group" "68"
@@ -15121,7 +15121,7 @@
 }
 // entity 164
 {
-"classname" "weapon_supershotgun"
+"classname" "weapon_quake_supershotgun"
 "origin" "-672 -224 34"
 "_tb_group" "71"
 }
@@ -15194,18 +15194,18 @@
 }
 // entity 172
 {
-"classname" "weapon_lightning"
+"classname" "weapon_quake_lightning"
 "origin" "912 496 98"
 "_tb_group" "70"
 }
 // entity 173
 {
-"classname" "item_armor_body"
+"classname" "item_quake_armor_body"
 "origin" "-656 960 -400"
 }
 // entity 174
 {
-"classname" "item_armor_jacket"
+"classname" "item_quake_armor_jacket"
 "origin" "-1440 -96 -240"
 }
 // entity 175
@@ -15234,7 +15234,7 @@
 }
 // entity 179
 {
-"classname" "item_armor_combat"
+"classname" "item_quake_armor_combat"
 "origin" "240 0 16"
 }
 // entity 180
@@ -15266,7 +15266,7 @@
 }
 // entity 181
 {
-"classname" "weapon_railgun"
+"classname" "weapon_quake_lightning"
 "origin" "-896 976 34"
 "_tb_group" "74"
 }
@@ -15453,7 +15453,7 @@
 }
 // entity 185
 {
-"classname" "weapon_railgun"
+"classname" "weapon_quake_lightning"
 "origin" "640 -1536 -30"
 "_tb_group" "78"
 }
@@ -15480,271 +15480,232 @@
 }
 // entity 189
 {
-"classname" "ammo_slugs"
+"classname" "ammo_quake_bolts"
 "origin" "-896 736 16"
 }
 // entity 190
 {
-"classname" "ammo_slugs"
+"classname" "ammo_quake_bolts"
 "origin" "640 448 -48"
 }
 // entity 191
 {
-"classname" "ammo_slugs"
+"classname" "ammo_quake_bolts"
 "origin" "704 -1600 -48"
 }
 // entity 192
 {
-"classname" "ammo_slugs"
+"classname" "ammo_quake_bolts"
 "origin" "-928 -1088 96"
 }
 // entity 193
 {
-"classname" "ammo_bolts"
+"classname" "ammo_quake_bolts"
 "origin" "-752 -1424 96"
 }
 // entity 194
 {
-"classname" "ammo_bolts"
+"classname" "ammo_quake_bolts"
 "origin" "-848 -1328 96"
 }
 // entity 195
 {
-"classname" "ammo_bolts"
+"classname" "ammo_quake_bolts"
 "origin" "-384 -384 16"
 }
 // entity 196
 {
-"classname" "ammo_bolts"
+"classname" "ammo_quake_bolts"
 "origin" "384 384 16"
 }
 // entity 197
 {
-"classname" "ammo_bolts"
+"classname" "ammo_quake_bolts"
 "angle" "90"
 "origin" "1008 1312 -48"
 }
 // entity 198
 {
-"classname" "ammo_bolts"
+"classname" "ammo_quake_bolts"
 "angle" "90"
 "origin" "944 1312 -48"
 }
 // entity 199
 {
-"classname" "ammo_rockets"
+"classname" "ammo_quake_rockets"
 "origin" "1040 880 -48"
 }
 // entity 200
 {
-"classname" "ammo_rockets"
+"classname" "ammo_quake_rockets"
 "origin" "592 480 -48"
 }
 // entity 201
 {
-"classname" "ammo_bullets"
+"classname" "ammo_quake_nails"
 "origin" "-528 688 16"
 }
 // entity 202
 {
-"classname" "ammo_bullets"
+"classname" "ammo_quake_nails"
 "origin" "-592 624 16"
 }
 // entity 203
 {
-"classname" "ammo_cells"
+"classname" "ammo_quake_bolts"
 "origin" "-1296 704 -304"
 }
 // entity 204
 {
-"classname" "ammo_cells"
+"classname" "ammo_quake_bolts"
 "origin" "-1296 960 -304"
 }
 // entity 205
 {
-"classname" "ammo_cells"
+"classname" "ammo_quake_bolts"
 "angle" "90"
 "origin" "-480 1280 -176"
 }
 // entity 206
 {
-"classname" "ammo_shells"
+"classname" "ammo_quake_shells"
 "angle" "90"
 "origin" "-480 1408 -176"
 }
 // entity 207
 {
-"classname" "ammo_rockets"
+"classname" "ammo_quake_rockets"
 "origin" "0 960 -272"
 }
 // entity 208
 {
-"classname" "ammo_bullets"
+"classname" "ammo_quake_nails"
 "origin" "832 64 16"
 }
 // entity 209
 {
-"classname" "ammo_shells"
+"classname" "ammo_quake_shells"
 "origin" "768 64 16"
 }
 // entity 210
 {
-"classname" "ammo_cells"
+"classname" "ammo_quake_bolts"
 "origin" "640 -384 16"
 }
 // entity 211
 {
-"classname" "ammo_cells"
+"classname" "ammo_quake_bolts"
 "origin" "704 -384 16"
 }
 // entity 212
 {
-"classname" "ammo_cells"
+"classname" "ammo_quake_bolts"
 "origin" "-80 -672 -48"
 }
 // entity 213
 {
-"classname" "ammo_shells"
+"classname" "ammo_quake_shells"
 "origin" "80 -672 -48"
 }
 // entity 214
 {
-"classname" "ammo_rockets"
+"classname" "ammo_quake_rockets"
 "origin" "720 -832 -272"
 }
 // entity 215
 {
-"classname" "ammo_bullets"
+"classname" "ammo_quake_nails"
 "origin" "224 -1504 -48"
 }
 // entity 216
 {
-"classname" "ammo_bullets"
+"classname" "ammo_quake_nails"
 "origin" "288 -1504 -48"
 }
 // entity 217
 {
-"classname" "ammo_rockets"
+"classname" "ammo_quake_rockets"
 "origin" "-128 -1184 -48"
 }
 // entity 218
 {
-"classname" "ammo_shells"
+"classname" "ammo_quake_shells"
 "origin" "-608 -352 16"
 }
 // entity 219
 {
-"classname" "ammo_shells"
+"classname" "ammo_quake_shells"
 "origin" "-608 -224 16"
 }
-// entity 220
-{
-"classname" "item_health_small"
-"origin" "-1440 736 -249"
-}
-// entity 221
-{
-"classname" "item_health_small"
-"origin" "-1424 768 -249"
-}
-// entity 222
-{
-"classname" "item_health_small"
-"origin" "-1440 800 -249"
-}
-// entity 223
-{
-"classname" "item_health_small"
-"origin" "-1424 832 -249"
-}
-// entity 224
-{
-"classname" "item_health_small"
-"origin" "-1440 864 -249"
-}
-// entity 225
-{
-"classname" "item_health_small"
-"origin" "-1424 896 -249"
-}
-// entity 226
-{
-"classname" "item_health_small"
-"origin" "-1440 928 -249"
-}
-// entity 227
-{
-"classname" "item_health_small"
-"origin" "-1424 960 -249"
-}
+
 // entity 228
 {
-"classname" "ammo_rockets"
+"classname" "ammo_quake_rockets"
 "origin" "-1472 1152 -240"
 }
 // entity 229
 {
-"classname" "item_health_large"
+"classname" "item_health_quake_large"
 "origin" "0 1600 -272"
 }
 // entity 230
 {
-"classname" "item_health_large"
+"classname" "item_health_quake_large"
 "origin" "0 -384 16"
 }
 // entity 231
 {
-"classname" "item_health_large"
+"classname" "item_health_quake_large"
 "origin" "0 384 16"
 }
 // entity 232
 {
-"classname" "item_health_large"
+"classname" "item_health_quake_large"
 "origin" "1088 -864 -48"
 }
 // entity 233
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-224 -1344 -48"
 }
 // entity 234
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-272 -1344 -48"
 }
 // entity 235
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-320 -1344 -48"
 }
 // entity 236
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "256 -544 -272"
 }
 // entity 237
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "288 -576 -272"
 }
 // entity 238
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "752 1200 -48"
 }
 // entity 239
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "784 1232 -48"
 }
 // entity 240
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-512 832 16"
 }
 // entity 241
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-512 784 16"
 }
 // entity 242
@@ -15754,82 +15715,48 @@
 }
 // entity 243
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-320 1280 -496"
 }
 // entity 244
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-256 1280 -496"
 }
 // entity 245
 {
-"classname" "ammo_bolts"
+"classname" "ammo_quake_bolts"
 "origin" "-544 1088 -400"
 }
 // entity 246
 {
-"classname" "ammo_cells"
+"classname" "ammo_quake_bolts"
 "origin" "-544 832 -400"
 }
 // entity 247
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "-1376 -256 -240"
 }
-// entity 248
-{
-"classname" "item_health_small"
-"origin" "1024 -1120 -42"
-}
-// entity 249
-{
-"classname" "item_health_small"
-"origin" "992 -1152 -42"
-}
-// entity 250
-{
-"classname" "item_health_small"
-"origin" "960 -1184 -42"
-}
-// entity 251
-{
-"classname" "item_health_small"
-"origin" "928 -1216 -42"
-}
-// entity 252
-{
-"classname" "item_health_small"
-"origin" "952 -1208 -42"
-}
-// entity 253
-{
-"classname" "item_health_small"
-"origin" "968 -1160 -42"
-}
-// entity 254
-{
-"classname" "item_health_small"
-"origin" "1016 -1144 -42"
-}
+
 // entity 255
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "800 -160 16"
 }
 // entity 256
 {
-"classname" "item_health"
+"classname" "item_health_quake_medium"
 "origin" "560 -1456 -48"
 }
 // entity 257
 {
-"classname" "ammo_rockets"
+"classname" "ammo_quake_rockets"
 "origin" "-928 -1024 96"
 }
 // entity 258
 {
-"classname" "ammo_rockets"
+"classname" "ammo_quake_rockets"
 "origin" "656 -48 16"
 }
 // entity 259

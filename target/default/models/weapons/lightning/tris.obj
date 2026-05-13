@@ -2687,7 +2687,7 @@ vn 0.969308 -0.211773 0.124880
 vn 0.808700 -0.585613 0.055339
 # 806 normals
 
-g Cube.001
+g weapons/lightning/skin
 usemtl weapons/lightning/skin
 s 1
 f 1/1/1 2/2/2 3/3/3

@@ -4,7 +4,7 @@
 	hardness 1.40
 	specularity 1.50
 	parallax 1.96
-	shadow 0.00
+	shadow 8.00
 	{
 		texture quake2/walldeco_fx
 		blend GL_SRC_ALPHA GL_ONE
