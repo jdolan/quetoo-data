@@ -397,6 +397,7 @@
 
 @PointClass base(Target) color(0 255 0) size(-32 -32 -24, 32 32 -16) = misc_teleporter : "Warps players who touch this entity to the targeted misc_teleporter_dest entity."
 [
+	sound(string) : "Sound to play at the teleporter and destination on use" : "misc/teleport"
 	spawnflags(Flags) =
 	[
 		1 : "Suppress the default teleporter particle effects" : 0
