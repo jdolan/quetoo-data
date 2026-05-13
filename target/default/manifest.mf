@@ -121,9 +121,9 @@ fef94bce9c3841eb59174b2dacee96e1 679 maps.lst
 b7c728e9d8781549d7f78ff42a19a1cf 792246 maps/2deaths.map
 2bb2af364de04e434889b3a42ad771b8 7317 maps/2deaths.mf
 5db92fe47355bd8dcfb63eeafcac5abe 8476 maps/2deaths.nav
-24c164108a2d12dc9984dd0e4686f43d 12619009 maps/abase.bsp
-1002b487257184fea1b6f67625fa2000 916444 maps/abase.map
-5d8ceeafecfe0c6d4a74e90357f369d8 31272 maps/abase.mf
+e8d894afc64288fe754aee7a558da534 12620017 maps/abase.bsp
+944bdbbd176e7df611d02a396a61ba1f 916448 maps/abase.map
+65433bdb505d5a2885ebbfe93e228f70 31272 maps/abase.mf
 ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
 6aade3574e5ec485439f1dcabc8dcb5f 5084675 maps/aerowalk.bsp
 eae48cfbf88297586a4d1e1f5f5bee73 565755 maps/aerowalk.map
