@@ -121,9 +121,9 @@ fef94bce9c3841eb59174b2dacee96e1 679 maps.lst
 b7c728e9d8781549d7f78ff42a19a1cf 792246 maps/2deaths.map
 2bb2af364de04e434889b3a42ad771b8 7317 maps/2deaths.mf
 5db92fe47355bd8dcfb63eeafcac5abe 8476 maps/2deaths.nav
-7a6fb108c6d99f72037ca69c5e788b70 12646542 maps/abase.bsp
-e0ebb9acb2ac95733aa21f1bea94fd79 916453 maps/abase.map
-0cb7a78c989e8cde440c70e6e490a24f 31270 maps/abase.mf
+8cfac28e434c4ba7c79677b86a3375a8 12648684 maps/abase.bsp
+2d2986c6bed9a060c3e0721b1bbceca5 916352 maps/abase.map
+c201048de6ebcaaf0090e248a6ea7c8a 31270 maps/abase.mf
 ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
 6aade3574e5ec485439f1dcabc8dcb5f 5084675 maps/aerowalk.bsp
 eae48cfbf88297586a4d1e1f5f5bee73 565755 maps/aerowalk.map
@@ -158,9 +158,9 @@ b0ee65500b7d474b3676e5c912343ddd 14376631 maps/edge.bsp
 3b6a532436f7abe2b00ccb2d20a1a123 1357159 maps/edge.map
 05d18b3236f82400ef4dfdae920a94c9 15271 maps/edge.mf
 a8983acf1707d942b8ca1843dd59732d 9924 maps/edge.nav
-0038853fba280e8ea511d928194e209d 23788155 maps/fraggin.bsp
-b1150ba3007114e64451ea7e9b3f63c4 1764625 maps/fraggin.map
-2df802005b31859af66f57662ea196e0 14551 maps/fraggin.mf
+92187930a8076909e06eb8fec6eda54c 23791369 maps/fraggin.bsp
+370dc20021887ff54fe0ff07927991cf 1764431 maps/fraggin.map
+bf198c85a264095f1e21afb6bad89680 14551 maps/fraggin.mf
 079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
 3772468a26b9e6182baffec5a0e27d50 8822056 maps/fragpipe.bsp
 dffbc2a00f90fc720ba542dba3abdcac 824265 maps/fragpipe.map
