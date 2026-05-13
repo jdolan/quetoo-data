@@ -121,9 +121,9 @@ fef94bce9c3841eb59174b2dacee96e1 679 maps.lst
 b7c728e9d8781549d7f78ff42a19a1cf 792246 maps/2deaths.map
 2bb2af364de04e434889b3a42ad771b8 7317 maps/2deaths.mf
 5db92fe47355bd8dcfb63eeafcac5abe 8476 maps/2deaths.nav
-ffae38804fbc61be81ba1f231f4f6a74 12645440 maps/abase.bsp
-bde329cffccad3d8e2caa721f827078e 916297 maps/abase.map
-e670e2aaaf56bd1146fe9a01bf6d6014 31270 maps/abase.mf
+24c164108a2d12dc9984dd0e4686f43d 12619009 maps/abase.bsp
+1002b487257184fea1b6f67625fa2000 916444 maps/abase.map
+5d8ceeafecfe0c6d4a74e90357f369d8 31272 maps/abase.mf
 ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
 6aade3574e5ec485439f1dcabc8dcb5f 5084675 maps/aerowalk.bsp
 eae48cfbf88297586a4d1e1f5f5bee73 565755 maps/aerowalk.map
@@ -5724,7 +5724,7 @@ a9d7c42592fcedf592bf04fd479d5c41 21816 textures/quake/comp1_5_spec.jpg
 1973749c214f31348fb795be8eee8bb0 129650 textures/quake/comp1_6_norm.png
 3d9b22bdfe4ab820cba45efb9428b1f8 17361 textures/quake/comp1_6_spec.jpg
 86b6e8323d2a5d4eedeaf8ddf57f2d28 39914 textures/quake/comp1_6a.jpg
-e2dfdc7ebfca0d2719acd57598a09382 108 textures/quake/comp1_6a.mat
+6932ea7c00e99a345dce1b43effa95e4 108 textures/quake/comp1_6a.mat
 ed0f79bceb0caed562772de0208bb7e6 3190 textures/quake/comp1_6a_luma.jpg
 846da91c71a163c26573d7de5e115e29 194289 textures/quake/comp1_6a_norm.png
 f908ae7ad65725669d5b86de9948cd1e 26059 textures/quake/comp1_6a_spec.jpg
