@@ -1,4 +1,4 @@
-6e8928a77cdcb2b10b048b7e13e80769 12068241 maps/lavatomb.bsp
+a637619a49fcfe351ba03747b6822061 12068397 maps/lavatomb.bsp
 524607c434dac43c53d5ba82cc000dcd 6180 maps/lavatomb.nav
 80336c0e6be6ee6a5f49f3a38c9d551d 281252 mapshots/lavatomb/quetoo098.jpg
 7f83c172324cb082a471ce0a81ac0ddc 217367 mapshots/lavatomb/quetoo099.jpg
