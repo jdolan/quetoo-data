@@ -742,10 +742,10 @@ ab570b4995a11be708b8b013ba3ee428 26 models/weapons/quake_supernailgun/world.cfg
 ab570b4995a11be708b8b013ba3ee428 26 models/weapons/quake_supershotgun/world.cfg
 dcc458ec1f4a34399aaf3399153d82b6 55 models/weapons/quake_thunderbolt/link.cfg
 b4e795cfe20bec096624620183954af7 15324 models/weapons/quake_thunderbolt/skin.jpg
-470db8788b30442f05da2cdaacfdf3af 183 models/weapons/quake_thunderbolt/skin.mat
+7b751aefb0ddb534857aa5adf1ef656a 189 models/weapons/quake_thunderbolt/skin.mat
 ce6cd7007093534f7428e5edfc56ad86 118702 models/weapons/quake_thunderbolt/skin_norm.png
 bda00c93d208603d36e4a0b899216b67 71496 models/weapons/quake_thunderbolt/skin_spec.png
-5b1d98723bc38707e39ea75e7e9f18b3 248368 models/weapons/quake_thunderbolt/tris.obj
+86ca17b8da6c660539165bbcb74a9c14 248372 models/weapons/quake_thunderbolt/tris.obj
 6768e530a460a4277777878c893eefc9 53 models/weapons/quake_thunderbolt/view.cfg
 ab570b4995a11be708b8b013ba3ee428 26 models/weapons/quake_thunderbolt/world.cfg
 d8df4bbbff678f3462a6c67575142b00 55 models/weapons/railgun/link.cfg
@@ -914,12 +914,12 @@ e3189d0bb9fcf3e898909aa867612737 7097 pics/i_vampire.png
 53cd5bc5ff86116efb96e07161895ce2 1172 pics/w_lightning.png
 c9b0666a828aa41cb1e65891164e0f89 906 pics/w_machinegun.png
 82d9c67d70bb8d42fb5c69fe3038c301 811 pics/w_quake_grenadelauncher.png
-53cd5bc5ff86116efb96e07161895ce2 1172 pics/w_quake_lightning.png
 046d9c524c23882cb70ea3fd6881f0f9 730 pics/w_quake_nailgun.png
 1123bab0499c91603b8aff225cd93994 1222 pics/w_quake_rocketlauncher.png
 479bd982449b0b9735d95fc09f2e29ea 632 pics/w_quake_shotgun.png
 ebf7a1d6e94b1c4a4a0f17abe3d1609a 988 pics/w_quake_supernailgun.png
 c9aced743cef40f3d10c3486c200a09c 683 pics/w_quake_supershotgun.png
+53cd5bc5ff86116efb96e07161895ce2 1172 pics/w_quake_thunderbolt.png
 8bcb2b5e4e3397c051fad17a02de5bd3 1461 pics/w_railgun.png
 1123bab0499c91603b8aff225cd93994 1222 pics/w_rocketlauncher.png
 9f8d8c87639ec95c7dc44085fb9f8eb3 3354 pics/w_select.png
