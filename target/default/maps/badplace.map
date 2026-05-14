@@ -12481,7 +12481,7 @@
 }
 // entity 46
 {
-"classname" "weapon_quake_lightning"
+"classname" "weapon_quake_thunderbolt"
 "origin" "544 -64 -112"
 }
 // entity 47

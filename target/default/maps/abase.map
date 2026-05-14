@@ -14949,7 +14949,7 @@
 }
 // entity 154
 {
-"classname" "weapon_quake_lightning"
+"classname" "weapon_quake_thunderbolt"
 "origin" "-800 -1376 114"
 "_tb_group" "63"
 }
@@ -15188,7 +15188,7 @@
 }
 // entity 172
 {
-"classname" "weapon_quake_lightning"
+"classname" "weapon_quake_thunderbolt"
 "origin" "912 496 98"
 "_tb_group" "70"
 }
@@ -15260,7 +15260,7 @@
 }
 // entity 181
 {
-"classname" "weapon_quake_lightning"
+"classname" "weapon_quake_thunderbolt"
 "origin" "-896 976 34"
 "_tb_group" "74"
 }
@@ -15447,7 +15447,7 @@
 }
 // entity 185
 {
-"classname" "weapon_quake_lightning"
+"classname" "weapon_quake_thunderbolt"
 "origin" "640 -1536 -30"
 "_tb_group" "78"
 }

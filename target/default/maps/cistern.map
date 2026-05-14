@@ -12557,7 +12557,7 @@
 }
 // entity 147
 {
-"classname" "weapon_quake_lightning"
+"classname" "weapon_quake_thunderbolt"
 "_tb_layer" "21"
 "origin" "632 -40 -16"
 }

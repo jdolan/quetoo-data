@@ -7838,7 +7838,7 @@
 }
 // entity 16
 {
-"classname" "weapon_quake_lightning"
+"classname" "weapon_quake_thunderbolt"
 "origin" "-264.000000 0.000000 -280.000000"
 }
 // entity 17
