@@ -1188,7 +1188,7 @@
   model="models/weapons/quake_grenadelauncher/tris.obj"
   */
 
-/*QUAKED weapon_quake_lightning (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_quake_thunderbolt (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover
   Quake Thunderbolt (Lightning Gun). Shorter range than the standard lightning gun.
 
   -------- Keys --------
@@ -1200,7 +1200,7 @@
   hover : Item will spawn where it was placed in the map and won't drop the floor.
 
   -------- Radiant config --------
-  model="models/weapons/quake_lightning/tris.obj"
+  model="models/weapons/quake_thunderbolt/tris.obj"
   */
 
 /*QUAKED weapon_quake_nailgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover

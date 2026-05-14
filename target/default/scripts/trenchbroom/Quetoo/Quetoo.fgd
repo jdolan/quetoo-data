@@ -63,7 +63,7 @@
 @PointClass base(Weapon) color(0 0 200) studio("") = weapon_railgun : "Rail gun" []
 @PointClass base(Weapon) color(80 255 40) studio("") = weapon_bfg : "BFG10K" []
 @PointClass base(Weapon) color(153 153 26) studio("") = weapon_quake_grenadelauncher : "Quake Grenade Launcher. Fires slower, more arcing grenades than the standard launcher." []
-@PointClass base(Weapon) color(230 230 230) studio("") = weapon_quake_lightning : "Quake Thunderbolt (Lightning Gun). Shorter range than the standard lightning gun." []
+@PointClass base(Weapon) color(230 230 230) studio("") = weapon_quake_thunderbolt : "Quake Thunderbolt (Lightning Gun). Shorter range than the standard lightning gun." []
 @PointClass base(Weapon) color(153 153 26) studio("") = weapon_quake_nailgun : "Quake Nailgun. Rapid-fire nail weapon." []
 @PointClass base(Weapon) color(204 51 51) studio("") = weapon_quake_rocketlauncher : "Quake Rocket Launcher. Fires slightly slower rockets than the standard launcher." []
 @PointClass base(Weapon) color(153 153 26) studio("") = weapon_quake_shotgun : "Quake Shotgun. The starting weapon; fires a tight spread of pellets." []
