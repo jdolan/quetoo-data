@@ -2,7 +2,7 @@
 {
 "classname" "worldspawn"
 "ambient" "1"
-"message" "Tokay`s Towers"
+"message" "^4T^7okay's ^4T^7owers"
 "model" "*0"
 "sky" "acheron"
 // brush 0
