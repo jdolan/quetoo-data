@@ -190,9 +190,9 @@ c55864f67e2fb647c10f090ec1ad1ea6 8984 maps/lavatomb.mf
 c869de7e44a922fe5f1003a21d48eac5 838608 maps/omf.map
 84521b11ae149b1f1d1428ca143bf80d 14060 maps/omf.mf
 e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
-3cbd5b7cc6db8083482a2f0b2f525203 9414824 maps/pits.bsp
-76fe28872cff59ae82b158c492825d3e 846493 maps/pits.map
-af38246dd3bdcc519fb82373337f7139 10135 maps/pits.mf
+db81fa985e26e2901e876e1e2f20a5a2 9399991 maps/pits.bsp
+1998007db4e9e0e7bd709e9461ac71ea 844447 maps/pits.map
+bec83d0170f9a9c318a22ba06d122c60 10135 maps/pits.mf
 0941225f4b0647ca36a5a7b9a6169633 10508 maps/pits.nav
 4762576693f24a9b7644ba6731b6267e 5447070 maps/rage.bsp
 6d14ea470d13d07d316a2044443253b5 522159 maps/rage.map
@@ -558,10 +558,10 @@ ce506429e0f83f70e0caba02d0fe031b 92338 models/powerups/invulnerability/skin_spec
 88170b21a4e5eb96f912f7221ad96797 98246 models/powerups/invulnerability/tris.obj
 35b3ed3c3d4cdfb592dace9fb692dc39 26 models/powerups/invulnerability/world.cfg
 6599ac12952b3009611771ba8e371d19 55015 models/powerups/quad/skin.jpg
-98f21a7ea3176f5e2ff0fe2f820b1509 175 models/powerups/quad/skin.mat
-dc488623622105376c994f9faa7966b3 44121 models/powerups/quad/skin_glow.png
+8ab65fe1e6bf5e7aff78611559ad5f3e 381 models/powerups/quad/skin.mat
+41296c36134d6ef6b636f571cb5ff3ee 42166 models/powerups/quad/skin_glow.jpg
 471e62c3937c14be30e6208fe957379c 46752 models/powerups/quad/skin_norm.png
-7580938cab19853d83f1f843b831b105 193153 models/powerups/quad/skin_spec.png
+ee0942c6a19666e2d7855659d2e4459a 75138 models/powerups/quad/skin_spec.jpg
 afb16f368df4fc6857213c257b73f654 27 models/powerups/quad/tris.mtl
 c4025e2d0d7063a48ff263ded28358ea 44794 models/powerups/quad/tris.obj
 c39d4320f93069999e35c4f17f0c1b41 44 models/powerups/quad/world.cfg
