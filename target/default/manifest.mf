@@ -94,6 +94,7 @@ ef0a7559d766517abeaa687d90912e87 670 docs/music-zander_noriega-abelian.txt
 8e7c6983c69097ca85a2290a56e577fe 2042 docs/players-qforcer.txt
 b1291cd62ca9d85fc4a4a851dd6dc2c6 81 docs/sounds-gibs.license.txt
 fe379b669aab15b4c7104378f5a2581e 122 docs/sounds-gibs.txt
+f33a9af1093cce08d912548642a1d53d 19440 docs/sounds-machinegun-fire.txt
 36f3e8d8bb7c882c4d1ec9696f5a2ca6 150 docs/sounds-sizzle.txt
 1887aadd3671b42d3216e38118beb2bb 734 docs/textures-ammo_boxes.txt
 dc494705e8f17f4f8f8c9ed37cfb1b82 2120 docs/textures-andromeda.txt
@@ -154,9 +155,9 @@ e88cfc3a5cf855047aef392efc982448 5796 maps/claustrophobopolis.nav
 5ee21a3b346dae88ebd5f62b880fd5ce 501853 maps/darkzone.map
 340cd6570c089be94ab0df365e5dce41 3808 maps/darkzone.mf
 4994859c2940812dd17f7138e11cf6ea 6132 maps/darkzone.nav
-b0ee65500b7d474b3676e5c912343ddd 14376631 maps/edge.bsp
-3b6a532436f7abe2b00ccb2d20a1a123 1357159 maps/edge.map
-113127f7029b2da1611dbb04e632de4e 15271 maps/edge.mf
+c13bf3b5da87d4f29c64316424fb59e8 14376631 maps/edge.bsp
+5007b59a36451bbf4bbb2e37ea0f4c4e 1356984 maps/edge.map
+8404efce31181706275d8839faba8019 15272 maps/edge.mf
 63f90b4907fda4f189064bfacba265a8 13036 maps/edge.nav
 92187930a8076909e06eb8fec6eda54c 23791369 maps/fraggin.bsp
 370dc20021887ff54fe0ff07927991cf 1764431 maps/fraggin.map
@@ -1417,10 +1418,9 @@ ebc4507ce4da0a54f02265da5dc1c562 63724 sounds/weapons/grenadelauncher/fire.wav
 63b8f98713ae8ea37bbf937d5f0f7033 73428 sounds/weapons/lightning/fire.wav
 d6c1d3b3d46a34437bbcccb2e3cc6b47 81762 sounds/weapons/lightning/fly-old1.wav
 1ea7145c038c315373f4c028ba228bcc 22162 sounds/weapons/lightning/fly.wav
-ebcb9b8bf4fdd6fb93037463177398bd 76716 sounds/weapons/machinegun/fire_1.wav
-64f8190849c6a406ee1ab6447a98a4fe 80268 sounds/weapons/machinegun/fire_2.wav
-6489f71c761e203925f17ce45e0474b4 76716 sounds/weapons/machinegun/fire_3.wav
-e4e8f2c53ecd1cf7451f2bc1a4c62be9 80268 sounds/weapons/machinegun/fire_4.wav
+75f79ded905d2ee6fb1b867fa7dec89f 34428 sounds/weapons/machinegun/fire_1.wav
+cafc8d228c0b6e28f1652f71221e2d3e 29846 sounds/weapons/machinegun/fire_2.wav
+518f8aff05c9b3f5920221d3e3ff3890 33542 sounds/weapons/machinegun/fire_3.wav
 547f19379ba9227bcb63a5138a14751c 131556 sounds/weapons/machinegun/hit_1.wav
 c6e5d2f74b2c66263b1311705c034d7f 129764 sounds/weapons/machinegun/hit_2.wav
 ecc397c69272a9f8d1207e94c6bdb84a 129988 sounds/weapons/machinegun/hit_3.wav
