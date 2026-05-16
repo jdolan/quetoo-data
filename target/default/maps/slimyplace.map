@@ -1,3 +1,5 @@
+// Game: Quetoo
+// Format: Quake3
 // entity 0
 {
 "classname" "worldspawn"
@@ -6,6 +8,7 @@
 "model" "*0"
 "sky" "white"
 "_tb_textures" "textures/common;textures/decals;textures/effects;textures/quake2"
+"_tb_layer_hidden" "1"
 // brush 0
 {
 ( -440 616 -112 ) ( -440 616 16 ) ( -440 488 -112 ) quake2/fmet1_2 0 0 0 0.5 0.5
@@ -9823,6 +9826,7 @@
 "_tb_name" "Slime"
 "_tb_id" "4"
 "_tb_layer_sort_index" "2"
+"_tb_layer_hidden" "1"
 // brush 0
 {
 ( -876 360 -312 ) ( -876 408 -162 ) ( -876 360 -162 ) quake2/slime0 0 0 0 0.5 0.5
@@ -10225,17 +10229,11 @@
 "_tb_name" "Dust"
 "_tb_id" "5"
 "_tb_layer_sort_index" "3"
-"_tb_layer_hidden" "1"
 }
 // entity 128
 {
 "classname" "misc_dust"
 "type" "fizz"
-"color" "0.4 1 0.066"
-"end_color" "0.72 1 0.55"
-"lighting" "0"
-"velocity" "0 0 10"
-"acceleration_spread" "2 2 0"
 "_tb_layer" "5"
 // brush 0
 {
