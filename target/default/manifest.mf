@@ -118,9 +118,9 @@ bfcfda9bcca9960044115a495ad0d789 5472 docs/textures-rygel.txt
 66481b5efeac49b8ab33024325f37738 143249 icons/quetoo.icns
 6afcc108128059fef0b9004dab7db219 150447 icons/quetoo.png
 fef94bce9c3841eb59174b2dacee96e1 679 maps.lst
-7e1cd847ed78f23e1fd130895f9ad18c 8340554 maps/2deaths.bsp
-cba037a0735816ada70c54c8192ec064 790162 maps/2deaths.map
-a70ede553d32f9880981c96464ae2e3b 7317 maps/2deaths.mf
+c72b284ce9be9d9bdbe8084d84f87d9f 8340566 maps/2deaths.bsp
+89ded628a956f6d92948a8f8d740204a 790174 maps/2deaths.map
+e0c6a4134589d2dd12347fa35fabc425 7317 maps/2deaths.mf
 5db92fe47355bd8dcfb63eeafcac5abe 8476 maps/2deaths.nav
 6750b1d517f7382690bfa76324ee0701 12648692 maps/abase.bsp
 3c2682aa2255e89d8c84e2308e088830 916360 maps/abase.map
