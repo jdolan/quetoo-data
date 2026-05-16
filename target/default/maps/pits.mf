@@ -1,4 +1,4 @@
-3cbd5b7cc6db8083482a2f0b2f525203 9414824 maps/pits.bsp
+db81fa985e26e2901e876e1e2f20a5a2 9399991 maps/pits.bsp
 0941225f4b0647ca36a5a7b9a6169633 10508 maps/pits.nav
 fe8037ac2e689cc84798186aafc0fd92 186239 mapshots/pits/quetoo031.jpg
 f1b7b56a0295487e7be5cb4a9d7652c7 222611 mapshots/pits/quetoo032.jpg
