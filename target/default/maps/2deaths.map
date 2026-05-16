@@ -6,7 +6,7 @@
 "items" "quake"
 "_tb_textures" "textures/common;textures/darkzone;textures/prototype;textures/quake"
 "ambient" "1"
-"message" "A Place of Two Deaths"
+"message" "^1A ^3Place ^1of ^3Two ^1Deaths^7"
 "model" "*0"
 "sky" "sky1"
 // brush 0
