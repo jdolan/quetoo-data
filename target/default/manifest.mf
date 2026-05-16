@@ -1233,9 +1233,9 @@ b73d0e13caf52ffa46c88a3b3191bae1 324898 sky/ozymandias.jpg
 2e840d775f75a0314f16966d7182927e 92710 sky/phobos.jpg
 758ffcb331d014c10e1e90f03fd63862 179409 sky/purple_chaos.jpg
 934bfdf0b76abf133bb510c4bfd39e37 338643 sky/sky1.jpg
-3821e1a84db3546c0f4edb3013ada000 76967 sky/template.png
+8fd0bcdd634d8cd1ddaae0d143c3fdcd 219616 sky/template.jpg
 aa3e3e1cdfb72b91be4bb9b65231aef1 293500 sky/violentdays.jpg
-394f20cd9ed787e5087b37927cfafb80 1054 sky/white.png
+2929fbbc0696fde86322f5550205a527 1663 sky/white.jpg
 7c1c7a676986c214894620e8f0124d76 533698 sounds/ambient/100hz.wav
 3784aebe7537ba24b08a4c9bd5f6deac 296290 sounds/ambient/amb_1.wav
 ec41adcaa6bc31c0f6b5db6727330de1 154438 sounds/ambient/amb_2.wav
