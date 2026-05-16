@@ -7662,6 +7662,7 @@ c2b6a7e211fff4f48bfee34c2ae647ef 2568 textures/quake2/lightstrip_spec.png
 ba8abac195f2149b6ec8d296edaf4052 4153 textures/quake2/lightstrips32red.jpg
 b307628aac7633353bee09de9bafecc0 266 textures/quake2/lightstrips32red.mat
 dbb4b653724e64f6c7013922efc93858 1314 textures/quake2/lightstrips32red_glow.png
+9c57a8df8afae227add2747153f193f9 28064 textures/quake2/ltrim.jpg
 4f564d6a4b268ff12b684c3e4d072b70 8664 textures/quake2/ltrim_blue.jpg
 c59da7e35465c242d82ec9dfc7618f1f 180 textures/quake2/ltrim_blue.mat
 681c00a0a13b07a5c83b7cb3a277a722 7033 textures/quake2/ltrim_blue_fx.png
@@ -7669,6 +7670,7 @@ c1284d18b0b6d162b3e5de07a0b74639 31284 textures/quake2/ltrim_blue_norm.png
 f40db2a9e79b2f9d83af3edb9e99165c 8226 textures/quake2/ltrim_blue_off.jpg
 4c5aa4a14d620151ccf4883847718ec6 132 textures/quake2/ltrim_blue_off.mat
 579f023b5d815d6cbb54f185e3162f01 5449 textures/quake2/ltrim_blue_spec.jpg
+df2218c07e4b260146a43b212c652add 25818 textures/quake2/ltrim_norm.png
 3eae4cdb5b4ea089570a326c00eb54c3 8556 textures/quake2/ltrim_orange.jpg
 0c139007a78f08ce1bbe38673ec430a2 184 textures/quake2/ltrim_orange.mat
 5881a9df6a3dc6ec944c17ce71204352 6686 textures/quake2/ltrim_orange_fx.png
@@ -10314,7 +10316,7 @@ dc9a5a6277ceffa942b828941ba2ad7f 94574 textures/trak5/pits1_spec.jpg
 fa7be9bc87e865602584974c01b23294 101 textures/trak5/pits1a.mat
 df924ddd1be530c2ab0aeb25a198b71d 86548 textures/trak5/ribs1.jpg
 ebfdd209ce20f0854b833fea284ab21f 95 textures/trak5/ribs1.mat
-1929062ca43f4f2e2d479a2e1f261c79 472274 textures/trak5/ribs1_norm.png
+1c6d929e1511a8b71386aa3208378da0 65109 textures/trak5/ribs1_norm.png
 40bb7db6c001e33da2d4e56ff8d01f64 71383 textures/trak5/stair1_norm.png
 f506521c8eade268301c455203775bec 14910 textures/trak5/stair1a.jpg
 0f1d91b43acc5b5a0164454bafbb4ca6 73 textures/trak5/stair1a.mat
