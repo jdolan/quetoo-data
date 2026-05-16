@@ -774,6 +774,7 @@
 
  -------- Keys --------
  acceleration : The sprite acceleration (default 0 0 0).
+ acceleration_spread : Per-particle random acceleration range, applied symmetrically on each axis (default 0 0 0).
  color : The sprite HSVA color as 4 decimal values (default 0 0 1 1).
  density : The sprite density (default 1).
  dir : The sprite directional axis (0 0 0 is billboard).
@@ -783,14 +784,17 @@
  lifetime : The sprite lifetime in seconds (default 10).
  lighting : The sprite lighting scalar (default 1).
  rotation : The sprite rotation in degrees (default 0).
+ rotation_spread : Per-particle random initial rotation spread from 0 to 1, where 1 is pi radians (default 0).
  rotation_velocity : The sprite rotation velocity in degrees per second (default 0).
  size : The sprite size (default 1).
- size_acceleration : The sprite size acceleration (default 0).
- size_velocity : The sprite size velocity (default 0).
- softness : The sprite softness scalar (default 1).
- sprite : The sprite image name (default "particle1").
- velocity : The sprite velocity (default 0 0 0).
- width : The sprite width. Setting this will cause size to be ignored (default 0).
+ size_spread : Per-particle random size spread as a +/- fraction of size (default 0.1).
+  size_acceleration : The sprite size acceleration (default 0).
+  size_velocity : The sprite size velocity (default 0).
+  softness : The sprite softness scalar (default 1).
+  sprite : The sprite image name (default "particle1").
+  velocity : The sprite velocity (default 0 0 0).
+ velocity_spread : Per-particle random velocity spread, applied symmetrically on each axis (default 1 1 1).
+  width : The sprite width. Setting this will cause size to be ignored (default 0).
 */
 
 /*QUAKED misc_fireball (1 0.3 0.1) (-6 -6 -6) (6 6 6)

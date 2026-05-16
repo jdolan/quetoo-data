@@ -293,13 +293,16 @@
 	lifetime(float) : "The sprite lifetime in seconds" : "10"
 	lighting(float) : "The sprite lighting scalar" : "1"
 	rotation(float) : "The sprite rotation in degrees" : "0"
+	rotation_spread(float) : "Per-particle random initial rotation spread from 0 to 1, where 1 is pi radians" : "0"
 	rotation_velocity(float) : "The sprite rotation velocity in degrees per second" : "0"
 	size(float) : "The sprite size" : "1"
+	size_spread(float) : "Per-particle random size spread as a +/- fraction of size" : ".1"
 	size_velocity(float) : "Rate of size change in world units per second. Negative shrinks the sprite (destroying it at 0), positive grows it" : "0"
 	size_acceleration(float) : "Rate of change of size_velocity in world units per second squared. Use negative values to slow growth or speed shrinking" : "0"
 	softness(float) : "The sprite softness scalar" : "1"
 	sprite(string) : "The sprite image name" : "particle1"
 	velocity(string) : "The sprite velocity" : "0 0 0"
+	velocity_spread(string) : "Per-particle random velocity spread, applied symmetrically on each axis" : "1 1 1"
 	width(float) : "The sprite width. Setting this will cause size to be ignored" : "0"
 	type(choices) : "Preset setting to apply" : "" =
 	[
