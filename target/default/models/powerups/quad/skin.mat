@@ -3,9 +3,21 @@
 	roughness 5.30612
 	hardness 6.36735
 	specularity 1.71429
-		{
+	{
 		texture powerups/quad/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
-		pulse 1.25
+	}
+	{
+		texture powerups/quad/skin_glow
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 1.5
+	}
+	{
+		envmap envmaps/envmap_3
+		blend GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		color 0 .4 1 .66
+		warp .5 .5
+		scale.s 5.125
+		scale.t 5.125
 	}
 }
