@@ -8,3 +8,5 @@ target/default/maps/autosave/*
 *.rar
 *.tar
 *.tar.gz
+*.pyc
+__pycache__/
