@@ -157,7 +157,7 @@ e88cfc3a5cf855047aef392efc982448 5796 maps/claustrophobopolis.nav
 b0ee65500b7d474b3676e5c912343ddd 14376631 maps/edge.bsp
 3b6a532436f7abe2b00ccb2d20a1a123 1357159 maps/edge.map
 113127f7029b2da1611dbb04e632de4e 15271 maps/edge.mf
-a8983acf1707d942b8ca1843dd59732d 9924 maps/edge.nav
+63f90b4907fda4f189064bfacba265a8 13036 maps/edge.nav
 92187930a8076909e06eb8fec6eda54c 23791369 maps/fraggin.bsp
 370dc20021887ff54fe0ff07927991cf 1764431 maps/fraggin.map
 bf198c85a264095f1e21afb6bad89680 14551 maps/fraggin.mf
@@ -865,6 +865,7 @@ b9f94e11a94707150892059f09f39ead 752 pics/emoji/health.png
 ab9741cb1a15eb6fbb8c33ee9b76140c 1781 pics/emoji/lava.png
 9d607aca13e07671ad3509b0f345ccd1 773 pics/emoji/lightning.png
 7ef8e167d42b31c97ff114972899e469 374 pics/emoji/machinegun.png
+701e277bf8f13173ff830a6f1003dc6b 674 pics/emoji/nailgun.png
 e4e92bb52909d6cfd15b09f0b6efdbc3 3070 pics/emoji/quad.png
 f05c50b65905692008ceea2be29c40cc 805 pics/emoji/railgun.png
 ba9576aa8f8fec66ee112b723248d09a 1547 pics/emoji/regen.png
