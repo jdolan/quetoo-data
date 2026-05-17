@@ -122,9 +122,9 @@ c72b284ce9be9d9bdbe8084d84f87d9f 8340566 maps/2deaths.bsp
 89ded628a956f6d92948a8f8d740204a 790174 maps/2deaths.map
 e0c6a4134589d2dd12347fa35fabc425 7317 maps/2deaths.mf
 5db92fe47355bd8dcfb63eeafcac5abe 8476 maps/2deaths.nav
-6750b1d517f7382690bfa76324ee0701 12648692 maps/abase.bsp
-3c2682aa2255e89d8c84e2308e088830 916360 maps/abase.map
-5a08dd8d5831e97af0258779644bab83 31270 maps/abase.mf
+25df4e52fbc973ecb4adde0e1ba5dbe6 12842882 maps/abase.bsp
+d263cc9bb1b58b5eeabff901fbdd6f7f 933506 maps/abase.map
+bd635880665dea0fb4706a96f7b8ac80 31696 maps/abase.mf
 ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
 3bcaadfaa1f977330f8b332f5ce98e39 5084675 maps/aerowalk.bsp
 a137bffdc9c56b8ceba2d11394359b2f 565340 maps/aerowalk.map
@@ -1233,9 +1233,9 @@ b73d0e13caf52ffa46c88a3b3191bae1 324898 sky/ozymandias.jpg
 2e840d775f75a0314f16966d7182927e 92710 sky/phobos.jpg
 758ffcb331d014c10e1e90f03fd63862 179409 sky/purple_chaos.jpg
 934bfdf0b76abf133bb510c4bfd39e37 338643 sky/sky1.jpg
-3821e1a84db3546c0f4edb3013ada000 76967 sky/template.png
+8fd0bcdd634d8cd1ddaae0d143c3fdcd 219616 sky/template.jpg
 aa3e3e1cdfb72b91be4bb9b65231aef1 293500 sky/violentdays.jpg
-394f20cd9ed787e5087b37927cfafb80 1054 sky/white.png
+2929fbbc0696fde86322f5550205a527 1663 sky/white.jpg
 7c1c7a676986c214894620e8f0124d76 533698 sounds/ambient/100hz.wav
 3784aebe7537ba24b08a4c9bd5f6deac 296290 sounds/ambient/amb_1.wav
 ec41adcaa6bc31c0f6b5db6727330de1 154438 sounds/ambient/amb_2.wav
@@ -3602,6 +3602,7 @@ a0d31026518787e8fa63db56a7115461 1961 textures/evil/e6basicstrip_yellow.jpg
 fcc43255e0ec216027319ef9769d9eb7 4464 textures/evil/e6boltstrip.jpg
 e6381909f5429a87d49f58213d2ccca9 34278 textures/evil/e6brnmetal.jpg
 42cc39fccc6f70439237d4e11b8d0ab8 29787 textures/evil/e6bsegrtflr128.png
+e709a93b451547ccc061b5fbee87c94a 89 textures/evil/e6bsegrtflr256.mat
 5b1297f12df7b1e16fd58f95aec703d4 100534 textures/evil/e6bsegrtflr256.png
 c91d1e776fe5daa28d20f259e469a612 20880 textures/evil/e6btrim_light.jpg
 583f4e185d2d4f27a36dd6be9534626b 7246 textures/evil/e6btrim_light_blend.jpg
@@ -3615,6 +3616,7 @@ e34b594ac001ba4ca1a6d89a34a22a1d 71927 textures/evil/e6cyb0rpipes.jpg
 540135082c92ffc9a9373637cf64db47 62770 textures/evil/e6drstmetal.jpg
 36c56e33b4835f189ee9b020279b9c11 47596 textures/evil/e6drstmetal_b.jpg
 5b2331ef50b41dfccb251d8fc6202745 14659 textures/evil/e6dtrimnd.jpg
+ee8856ee929e33683491d0c56e711bff 88 textures/evil/e6girdergrate.mat
 d5a970fb9919c536fab32281370fc2cf 84276 textures/evil/e6girdergrate.png
 46fa0b119c4498e58be99c101426f61e 168927 textures/evil/e6girdergrate2b.png
 c383893f1b8660c6b0f5af62dc7b4a80 58418 textures/evil/e6girdersupport.png
@@ -8313,7 +8315,10 @@ fa15adbd045ea2da61013ffff17e91d8 135532 textures/quake3/base_floor/metalbridge04
 5a71995705e3975a25b40ff4d15f91e6 108249 textures/quake3/base_floor/metaltechfloor01final.jpg
 8af6201004719672e9cab44dfdf875a0 4113 textures/quake3/base_floor/metfloor1.jpg
 7f4fc7cc2db38d28d2ed3c7123faa6ae 102363 textures/quake3/base_floor/pjgrate1.png
+835dbcfd6982c5d9f62391dba2f93b8f 477584 textures/quake3/base_floor/pjgrate2.kra
+5cc73f0cf72f7c73d27cee755c231a3e 160 textures/quake3/base_floor/pjgrate2.mat
 66c2ac882663804833589240acc771ac 117412 textures/quake3/base_floor/pjgrate2.png
+6ccaf41d4ba1f8eea3ee8c2d5b65fc72 7292 textures/quake3/base_floor/pjgrate2_norm.png
 cd33d2e2acb68ac2f621d8641682c1ce 120878 textures/quake3/base_floor/proto_grate.png
 7dbef378797d25393e6f5ca75fb32c4e 132736 textures/quake3/base_floor/proto_grate3.png
 8487a1b340c6fa0a4a5e469524b82244 76879 textures/quake3/base_floor/proto_grate4.png
