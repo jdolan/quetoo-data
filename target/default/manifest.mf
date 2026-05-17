@@ -139,9 +139,9 @@ d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 46ddd6066fa092b93aa6a0a78d2ae928 476714 maps/badplace.map
 ee7d0fe836755753e374051ca5fbc7a8 5439 maps/badplace.mf
 3a370595b5778bf3cd9781a4b7a17c9a 2716 maps/badplace.nav
-f82258747418c61e30b33752e579caa0 19764766 maps/chthon.bsp
-c4ffab1536e2e54884b87295cfd61d5b 1476617 maps/chthon.map
-2c4686ca87a1c78aa0700593c84c72bd 20782 maps/chthon.mf
+bb1446e0689e3756cdf3c4acc3503d98 19807051 maps/chthon.bsp
+5cb1a4730f66d49ecbf3e9a8e2f58f86 1478991 maps/chthon.map
+b2dfaca2c08e54bc8aa3b6de8cb7c30e 20785 maps/chthon.mf
 df9e549ba7aaf46759571d269362b888 6492 maps/chthon.nav
 4f2521e0f102c669f7a58bb7a24f9311 5124208 maps/cistern.bsp
 f5122dfa7492410c5eea64d034e880b0 464814 maps/cistern.map
