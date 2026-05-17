@@ -1,9 +1,11 @@
 {
 	diffusemap quake2/ltrim_orange
+	normalmap quake2/ltrim_lt_norm
+	specularmap quake2/ltrim_lt_spec
 	roughness 2.00
 	hardness 1.50
 	specularity 1.50
-	parallax 3.55
+	parallax 3.00
 	footsteps metal
 	{
 		texture quake2/ltrim_orange_fx
