@@ -7671,7 +7671,7 @@ dbb4b653724e64f6c7013922efc93858 1314 textures/quake2/lightstrips32red_glow.png
 681c00a0a13b07a5c83b7cb3a277a722 7033 textures/quake2/ltrim_blue_fx.png
 f40db2a9e79b2f9d83af3edb9e99165c 8226 textures/quake2/ltrim_blue_off.jpg
 c1284d18b0b6d162b3e5de07a0b74639 31284 textures/quake2/ltrim_lt_norm.png
-745d7e93792004b0a66e5290498df6bb 25881 textures/quake2/ltrim_lt_spec.jpg
+b08d07de1c5b1b6b27daa47772958466 25745 textures/quake2/ltrim_lt_spec.jpg
 df2218c07e4b260146a43b212c652add 25818 textures/quake2/ltrim_norm.png
 3eae4cdb5b4ea089570a326c00eb54c3 8556 textures/quake2/ltrim_orange.jpg
 4c1df87def76efc83e0a3c4c39b8c894 250 textures/quake2/ltrim_orange.mat
