@@ -8,12 +8,9 @@ BSPS = $(MAPS:.map=.bsp)
 default: $(BSPS)
 
 $(TARGET)/default/maps/%.bsp: $(TARGET)/default/maps/%.map
-	quemap -w $(TARGET)/default -bsp maps/$*.map
+	python3 scripts/map-fu/map_fu.py $< && quemap -w $(TARGET)/default -bsp maps/$*.map
 
-.PHONY: map-fu maps
-map-fu:
-	python3 scripts/map-fu/map_fu.py $(MAPS)
-
+.PHONY: maps
 maps: $(BSPS)
 
 QUETOO_DATA_S3_BUCKET = s3://quetoo-data
