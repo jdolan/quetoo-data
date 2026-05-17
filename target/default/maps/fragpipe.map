@@ -2,7 +2,7 @@
 {
 "classname" "worldspawn"
 "ambient" "0.125"
-"message" "The Frag Pipe"
+"message" "^1The ^3Frag ^1Pipe^7"
 "sky" "habp"
 "_tb_textures" "textures/common;textures/decals;textures/effects;textures/prototype;textures/quake2"
 "version" "1.0.5"
