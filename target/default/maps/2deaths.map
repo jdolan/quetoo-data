@@ -1,11 +1,9 @@
-// Game: Quetoo
-// Format: Quake3
 // entity 0
 {
 "classname" "worldspawn"
-"items" "quake"
 "_tb_textures" "textures/common;textures/darkzone;textures/prototype;textures/quake"
 "ambient" "1"
+"items" "quake"
 "message" "^1A ^3Place ^1of ^3Two ^1Deaths^7"
 "model" "*0"
 "sky" "sky1"
@@ -5157,12 +5155,12 @@
 }
 // brush 572
 {
-( 40 536 -28 ) ( 40 488 -28 ) ( 40 488 -132 ) quake/teleport 0 0 0 0.25 0.25 0 32 0
-( 40 488 -28 ) ( 44 488 -28 ) ( 44 488 -132 ) quake/teleport 0 0 0 0.25 0.25 0 32 0
-( 44 488 -132 ) ( 44 536 -132 ) ( 40 536 -132 ) quake/teleport 0 0 0 0.25 0.25 0 32 0
-( 40 536 -28 ) ( 44 536 -28 ) ( 44 488 -28 ) quake/teleport 0 0 0 0.25 0.25 0 32 0
-( 44 536 -132 ) ( 44 536 -28 ) ( 40 536 -28 ) quake/teleport 0 0 0 0.25 0.25 0 32 0
-( 44 488 -28 ) ( 44 536 -28 ) ( 44 536 -132 ) quake/teleport 0 0 0 0.25 0.25 0 32 0
+( 40 536 -28 ) ( 40 488 -28 ) ( 40 488 -132 ) quake/teleport 0 0 0 0.25 0.25 0 16 0
+( 40 488 -28 ) ( 44 488 -28 ) ( 44 488 -132 ) quake/teleport 0 0 0 0.25 0.25 0 16 0
+( 44 488 -132 ) ( 44 536 -132 ) ( 40 536 -132 ) quake/teleport 0 0 0 0.25 0.25 0 16 0
+( 40 536 -28 ) ( 44 536 -28 ) ( 44 488 -28 ) quake/teleport 0 0 0 0.25 0.25 0 16 0
+( 44 536 -132 ) ( 44 536 -28 ) ( 40 536 -28 ) quake/teleport 0 0 0 0.25 0.25 0 16 0
+( 44 488 -28 ) ( 44 536 -28 ) ( 44 536 -132 ) quake/teleport 0 0 0 0.25 0.25 0 16 0
 }
 // brush 573
 {
@@ -7377,158 +7375,155 @@
 // entity 1
 {
 "classname" "item_health_quake_medium"
-"origin" "160 536 -112"
-"spawnflags" "1"
+"origin" "160 536 -128"
 }
 // entity 2
 {
 "classname" "item_health_quake_medium"
-"origin" "208 536 -112"
-"spawnflags" "1"
+"origin" "208 536 -128"
 }
 // entity 3
 {
 "classname" "ammo_quake_bolts"
-"origin" "248 376 -120"
+"origin" "256 400 -128"
 }
 // entity 4
 {
 "classname" "ammo_quake_bolts"
-"origin" "248 320 -120"
+"origin" "256 352 -128"
 }
 // entity 5
 {
 "classname" "ammo_quake_shells"
-"origin" "-760 -88 24"
-"spawnflags" "1"
+"origin" "-760 -88 16"
 }
 // entity 6
 {
 "classname" "weapon_quake_grenadelauncher"
 "angle" "180"
-"origin" "-536 0 72"
+"origin" "-536 0 60"
 }
 // entity 7
 {
 "classname" "weapon_quake_rocketlauncher"
-"origin" "872 -360 80"
+"origin" "872 -360 64"
 }
 // entity 8
 {
 "classname" "item_quake_armor_combat"
-"origin" "-616 328 32"
+"origin" "-616 328 16"
 }
 // entity 9
 {
 "classname" "item_quake_armor_jacket"
-"origin" "-568 -328 -120"
+"origin" "-568 -328 -132"
 }
 // entity 10
 {
 "classname" "weapon_quake_supershotgun"
-"origin" "-176 64 40"
+"origin" "-176 64 16"
 }
 // entity 11
 {
 "classname" "info_player_deathmatch"
 "angle" "180"
-"origin" "56 328 -120"
+"origin" "56 328 -112"
 }
 // entity 12
 {
 "classname" "info_player_deathmatch"
 "angle" "225"
-"origin" "904 336 72"
+"origin" "904 336 76"
 }
 // entity 13
 {
 "classname" "info_player_deathmatch"
 "angle" "90"
-"origin" "-120 304 24"
+"origin" "-120 304 28"
 }
 // entity 14
 {
 "classname" "info_player_deathmatch"
 "angle" "180"
-"origin" "-656 508 24"
+"origin" "-656 508 28"
 }
 // entity 15
 {
 "classname" "info_player_deathmatch"
 "angle" "90"
-"origin" "-880 -112 24"
+"origin" "-880 -116 28"
 }
 // entity 16
 {
 "classname" "info_player_deathmatch"
 "angle" "0"
-"origin" "-784 -320 24"
+"origin" "-784 -320 28"
 }
 // entity 17
 {
 "classname" "info_player_deathmatch"
 "angle" "0"
-"origin" "352 -336 24"
+"origin" "352 -336 28"
 }
 // entity 18
 {
 "classname" "ammo_quake_shells"
-"origin" "0 -72 24"
+"origin" "0 -72 16"
 }
 // entity 19
 {
 "classname" "item_health_quake_medium"
-"origin" "24 192 32"
+"origin" "24 192 16"
 }
 // entity 20
 {
 "classname" "item_health_quake_medium"
-"origin" "-24 192 32"
+"origin" "-24 192 16"
 }
 // entity 21
 {
 "classname" "item_health_quake_medium"
-"origin" "-896 284 24"
+"origin" "-896 288 16"
 }
 // entity 22
 {
 "classname" "item_health_quake_medium"
-"origin" "-896 324 24"
+"origin" "-896 328 16"
 }
 // entity 23
 {
 "classname" "ammo_quake_bolts"
-"origin" "-448 -340 16"
+"origin" "-448 -344 16"
 }
 // entity 24
 {
 "classname" "item_health_quake_medium"
-"origin" "688 -120 32"
+"origin" "688 -120 8"
 }
 // entity 25
 {
 "classname" "item_health_quake_medium"
-"origin" "688 -32 32"
+"origin" "688 -32 8"
 }
 // entity 26
 {
 "classname" "ammo_quake_shells"
-"origin" "408 -208 24"
+"origin" "408 -208 8"
 }
 // entity 27
 {
 "classname" "ammo_quake_rockets"
-"origin" "360 -208 24"
+"origin" "360 -208 8"
 }
 // entity 28
 {
 "classname" "item_health_quake_medium"
-"origin" "-496 12 -120"
+"origin" "-496 12 -128"
 }
 // entity 29
 {
 "classname" "item_health_quake_medium"
-"origin" "-548 12 -120"
+"origin" "-548 12 -128"
 }
 // entity 30
 {
@@ -7644,12 +7639,12 @@
 // entity 36
 {
 "classname" "weapon_quake_thunderbolt"
-"origin" "-784 296 32"
+"origin" "-784 296 16"
 }
 // entity 37
 {
 "classname" "ammo_quake_shells"
-"origin" "-264 236 -120"
+"origin" "-264 224 -136"
 }
 // entity 38
 {
@@ -10387,17 +10382,17 @@
 // entity 75
 {
 "classname" "func_group"
-"_tb_type" "_tb_group"
-"_tb_name" "grate"
 "_tb_id" "3"
 "_tb_linked_group_id" "{3786f35b-db48-4d5f-90fd-df20ee20d2ef}"
+"_tb_name" "grate"
 "_tb_transformation" "1 0 0 -224 0 1 0 -1088 0 0 1 0 0 0 0 1"
+"_tb_type" "_tb_group"
 }
 // entity 76
 {
 "classname" "func_wall"
-"model" "*9"
 "_tb_group" "3"
+"model" "*9"
 // brush 0
 {
 ( 56 376 -2 ) ( 56 280 -2 ) ( 56 280 -8 ) quake/cop1_1 0 0 0 0.25 0.25 134217728 0 0
@@ -10479,8 +10474,8 @@
 // entity 77
 {
 "classname" "func_wall"
-"model" "*10"
 "_tb_group" "3"
+"model" "*10"
 // brush 0
 {
 ( -216 368 -2 ) ( -216 366 0 ) ( -216 362 0 ) quake/cop1_1 0 0 0 0.25 0.25 134217728 0 0
@@ -12104,7 +12099,7 @@
 // entity 91
 {
 "classname" "item_health_quake_mega"
-"origin" "208 -272 24"
+"origin" "208 -272 16"
 }
 // entity 92
 {
@@ -12124,9 +12119,15 @@
 // entity 93
 {
 "classname" "misc_dust"
+"acceleration" "-200 10 10"
+"acceleration_spread" "0 1 1"
+"color" "10 10 10"
 "density" "3"
-"lifetime" "0.5"
-"velocity" "-20 0 0"
+"end_color" "0 0 0"
+"lifetime" "0.3"
+"lighting" "1"
+"size_velocity" "4"
+"velocity" "0 0 0"
 // brush 0
 {
 ( 48 480 -128 ) ( 48 481 -128 ) ( 48 480 -127 ) common/dust 0 0 0 0.25 0.25
@@ -12173,17 +12174,17 @@
 // entity 97
 {
 "classname" "func_group"
-"_tb_type" "_tb_group"
-"_tb_name" "Unnamed"
 "_tb_id" "11"
 "_tb_linked_group_id" "{69906a42-2ccb-423a-a9da-db8ec00873f5}"
+"_tb_name" "Unnamed"
 "_tb_transformation" "1 0 0 -224 0 1 0 -1088 0 0 1 0 0 0 0 1"
+"_tb_type" "_tb_group"
 }
 // entity 98
 {
 "classname" "func_wall"
-"model" "*12"
 "_tb_group" "11"
+"model" "*12"
 // brush 0
 {
 ( 432 -208 -24 ) ( 432 -200 -24 ) ( 432 -200 104 ) quake/cop1_1 0 0 0 0.25 0.25 134217728 0 0
@@ -12363,8 +12364,8 @@
 // entity 99
 {
 "classname" "func_wall"
-"model" "*13"
 "_tb_group" "11"
+"model" "*13"
 // brush 0
 {
 ( 432 -208 -24 ) ( 432 -200 -24 ) ( 432 -200 104 ) quake/cop1_1 0 0 0 0.25 0.25 134217728 0 0
@@ -12841,36 +12842,36 @@
 // entity 111
 {
 "classname" "misc_steam"
-"origin" "356 324 0"
 "hz" "5"
+"origin" "356 324 0"
 "size" "64"
 }
 // entity 112
 {
 "classname" "misc_steam"
-"origin" "676 324 0"
 "hz" "5"
+"origin" "676 324 0"
 "size" "64"
 }
 // entity 113
 {
 "classname" "misc_steam"
+"hz" "5"
 "origin" "224 224 0"
 "size" "64"
-"hz" "5"
 }
 // entity 114
 {
 "classname" "misc_steam"
-"origin" "-496 280 -128"
 "hz" "5"
+"origin" "-496 280 -128"
 "size" "64"
 }
 // entity 115
 {
 "classname" "misc_steam"
-"origin" "-496 568 -128"
 "hz" "5"
+"origin" "-496 568 -128"
 "size" "64"
 }
 // entity 116
@@ -12903,12 +12904,12 @@
 // entity 121
 {
 "classname" "ammo_quake_nails"
-"origin" "-200 -520 8"
+"origin" "-200 -520 16"
 }
 // entity 122
 {
 "classname" "weapon_quake_nailgun"
-"origin" "40 120 -144"
+"origin" "40 120 -140"
 }
 // entity 123
 {
@@ -12923,18 +12924,18 @@
 // entity 125
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Clip Brushes"
 "_tb_id" "1"
 "_tb_layer_sort_index" "0"
+"_tb_name" "Clip Brushes"
+"_tb_type" "_tb_layer"
 }
 // entity 126
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Lava"
 "_tb_id" "6"
 "_tb_layer_sort_index" "1"
+"_tb_name" "Lava"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( -528 576 -128 ) ( -528 272 -128 ) ( -528 272 -240 ) quake2/brlava 128 0 0 0.5 0.5
@@ -12966,509 +12967,509 @@
 // entity 127
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Fog"
 "_tb_id" "7"
 "_tb_layer_sort_index" "2"
+"_tb_name" "Fog"
+"_tb_type" "_tb_layer"
 }
 // entity 128
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "lights"
 "_tb_id" "8"
 "_tb_layer_sort_index" "3"
+"_tb_name" "lights"
+"_tb_type" "_tb_layer"
 }
 // entity 129
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "512 -32 -96"
 "radius" "600"
 "team" "lava"
-"_tb_layer" "8"
 }
 // entity 130
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-400 -320 -160"
 "team" "lava"
-"_tb_layer" "8"
 }
 // entity 131
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-544 -176 -160"
 "team" "lava"
-"_tb_layer" "8"
 }
 // entity 132
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-496 416 -152"
 "team" "lava"
-"_tb_layer" "8"
 }
 // entity 133
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-64 373 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 134
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-264 245 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 135
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "40 245 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 136
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-248 -93 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 137
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "24 -93 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 138
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "277 -272 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 139
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-576 -390 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 140
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "277 -272 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 141
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-520 45 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 142
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-744 -390 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 143
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-744 -35 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 144
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-918 -88 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 145
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "24 -139 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 146
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-248 -139 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 147
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-518 416 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 148
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-112 -390 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 149
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-368 566 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 150
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "118 344 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 151
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "840 -406 142"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 152
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "918 -72 142"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 153
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "918 232 142"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 154
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "528 350 110"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 155
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "277 496 -50"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 156
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "330 -352 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 157
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "88 -542 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 158
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-384 -390 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 159
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-722 292 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 160
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-532 174 118"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 161
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "278 480 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 162
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "278 64 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 163
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-152 -542 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 164
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-654 328 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 165
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "480 -238 110"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 166
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "702 128 110"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 167
 {
 "classname" "light"
+"_tb_layer" "8"
 "origin" "-800 566 94"
 "team" "torch"
-"_tb_layer" "8"
 }
 // entity 168
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "flames"
 "_tb_id" "9"
 "_tb_layer_sort_index" "4"
+"_tb_name" "flames"
+"_tb_type" "_tb_layer"
 }
 // entity 169
 {
 "classname" "misc_flame"
-"origin" "-64 373 -58"
 "_tb_layer" "9"
+"origin" "-64 373 -58"
 }
 // entity 170
 {
 "classname" "misc_flame"
-"origin" "-264 245 -58"
 "_tb_layer" "9"
+"origin" "-264 245 -58"
 }
 // entity 171
 {
 "classname" "misc_flame"
-"origin" "40 245 -58"
 "_tb_layer" "9"
+"origin" "40 245 -58"
 }
 // entity 172
 {
 "classname" "misc_flame"
-"origin" "-248 -93 -58"
 "_tb_layer" "9"
+"origin" "-248 -93 -58"
 }
 // entity 173
 {
 "classname" "misc_flame"
-"origin" "24 -93 -58"
 "_tb_layer" "9"
+"origin" "24 -93 -58"
 }
 // entity 174
 {
 "classname" "misc_flame"
-"origin" "277 -272 -58"
 "_tb_layer" "9"
+"origin" "277 -272 -58"
 }
 // entity 175
 {
 "classname" "misc_flame"
-"origin" "-576 -390 -58"
 "_tb_layer" "9"
+"origin" "-576 -390 -58"
 }
 // entity 176
 {
 "classname" "misc_flame"
-"origin" "277 -272 86"
 "_tb_layer" "9"
+"origin" "277 -272 86"
 }
 // entity 177
 {
 "classname" "misc_flame"
-"origin" "-520 45 -58"
 "_tb_layer" "9"
+"origin" "-520 45 -58"
 }
 // entity 178
 {
 "classname" "misc_flame"
-"origin" "-744 -390 86"
 "_tb_layer" "9"
+"origin" "-744 -390 86"
 }
 // entity 179
 {
 "classname" "misc_flame"
-"origin" "-744 -35 86"
 "_tb_layer" "9"
+"origin" "-744 -35 86"
 }
 // entity 180
 {
 "classname" "misc_flame"
-"origin" "-918 -88 86"
 "_tb_layer" "9"
+"origin" "-918 -88 86"
 }
 // entity 181
 {
 "classname" "misc_flame"
-"origin" "24 -139 -58"
 "_tb_layer" "9"
+"origin" "24 -139 -58"
 }
 // entity 182
 {
 "classname" "misc_flame"
-"origin" "-248 -139 -58"
 "_tb_layer" "9"
+"origin" "-248 -139 -58"
 }
 // entity 183
 {
 "classname" "misc_flame"
-"origin" "-518 416 86"
 "_tb_layer" "9"
+"origin" "-518 416 86"
 }
 // entity 184
 {
 "classname" "misc_flame"
-"origin" "-112 -390 -58"
 "_tb_layer" "9"
+"origin" "-112 -390 -58"
 }
 // entity 185
 {
 "classname" "misc_flame"
+"_tb_layer" "9"
 "angle" "90"
 "origin" "-368 566 -58"
-"_tb_layer" "9"
 }
 // entity 186
 {
 "classname" "misc_flame"
-"origin" "118 344 86"
 "_tb_layer" "9"
+"origin" "118 344 86"
 }
 // entity 187
 {
 "classname" "misc_flame"
-"origin" "840 -406 134"
 "_tb_layer" "9"
+"origin" "840 -406 134"
 }
 // entity 188
 {
 "classname" "misc_flame"
-"origin" "918 -72 134"
 "_tb_layer" "9"
+"origin" "918 -72 134"
 }
 // entity 189
 {
 "classname" "misc_flame"
-"origin" "918 232 134"
 "_tb_layer" "9"
+"origin" "918 232 134"
 }
 // entity 190
 {
 "classname" "misc_flame"
-"origin" "528 350 102"
 "_tb_layer" "9"
+"origin" "528 350 102"
 }
 // entity 191
 {
 "classname" "misc_flame"
-"origin" "277 496 -58"
 "_tb_layer" "9"
+"origin" "277 496 -58"
 }
 // entity 192
 {
 "classname" "misc_flame"
-"origin" "330 -352 86"
 "_tb_layer" "9"
+"origin" "330 -352 86"
 }
 // entity 193
 {
 "classname" "misc_flame"
-"origin" "88 -542 86"
 "_tb_layer" "9"
+"origin" "88 -542 86"
 }
 // entity 194
 {
 "classname" "misc_flame"
-"origin" "-384 -390 86"
 "_tb_layer" "9"
+"origin" "-384 -390 86"
 }
 // entity 195
 {
 "classname" "misc_flame"
-"origin" "-722 292 86"
 "_tb_layer" "9"
+"origin" "-722 292 86"
 }
 // entity 196
 {
 "classname" "misc_flame"
-"origin" "-532 174 110"
 "_tb_layer" "9"
+"origin" "-532 174 110"
 }
 // entity 197
 {
 "classname" "misc_flame"
-"origin" "278 480 86"
 "_tb_layer" "9"
+"origin" "278 480 86"
 }
 // entity 198
 {
 "classname" "misc_flame"
-"origin" "278 64 86"
 "_tb_layer" "9"
+"origin" "278 64 86"
 }
 // entity 199
 {
 "classname" "misc_flame"
-"origin" "-152 -542 86"
 "_tb_layer" "9"
+"origin" "-152 -542 86"
 }
 // entity 200
 {
 "classname" "misc_flame"
-"origin" "-654 328 86"
 "_tb_layer" "9"
+"origin" "-654 328 86"
 }
 // entity 201
 {
 "classname" "misc_flame"
-"origin" "480 -238 102"
 "_tb_layer" "9"
+"origin" "480 -238 102"
 }
 // entity 202
 {
 "classname" "misc_flame"
-"origin" "702 128 102"
 "_tb_layer" "9"
+"origin" "702 128 102"
 }
 // entity 203
 {
 "classname" "misc_flame"
-"origin" "-800 566 86"
 "_tb_layer" "9"
+"origin" "-800 566 86"
 }
