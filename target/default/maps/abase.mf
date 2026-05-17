@@ -1,4 +1,4 @@
-81695c1994244da36690badb9826178a 12766282 maps/abase.bsp
+25df4e52fbc973ecb4adde0e1ba5dbe6 12842882 maps/abase.bsp
 ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
 9bba06fe7223bcd1d20711bdd950d547 127700 mapshots/abase/quetoo001.jpg
 97ef68c5d030e7a0d49e6c9022aad638 170339 mapshots/abase/quetoo002.jpg
@@ -12,6 +12,7 @@ f91a1120de804f7cd4dbba4f12c748e9 62734 sounds/ambient/comp.wav
 c86918993b5821761349e1ead2bc2621 110846 sounds/ambient/crickets_1.wav
 ffd2ba30591918147789ef7a7940bd8b 125798 sounds/ambient/frogs_1.wav
 fe2ddbc6270bfb5c83d07cb66d51c550 90090 sounds/ambient/wind_2.wav
+2d6aa5b46fafaee0bf8a1f5d2e00061f 88244 sounds/empty.wav
 9a832755b20df1aca0c656a7edfb09e5 34732 sprites/flare_1.png
 beb7b099e54dd3eb86d44f308e2c41ed 54562 sprites/flare_3.png
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
@@ -21,6 +22,8 @@ cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 4495dd84862adc3bbcf3e0006e16b545 1627 textures/common/dust.jpg
 4c68ea1f264ac2e46c3e826b83fe9e75 31 textures/common/dust.mat
 91dd63875eb668f99b05c86c0572c13f 1757 textures/common/ladder.jpg
+2a1b49cbfe055dec00b23d65163f56f6 2115 textures/common/origin.jpg
+1b0da23f5bde6bacddb928ebfd94c4c3 33 textures/common/origin.mat
 9243c7ad7e16a9a96f4a5f89b4212458 1512 textures/common/sky.jpg
 1265f6b957bcb89faf13288cc1cd6511 30 textures/common/sky.mat
 a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
@@ -454,3 +457,6 @@ e2f1092d7dffc479cf17e69281ee2b9d 28122 textures/quake/wmet3_3_spec.jpg
 03b1aea461446046426701dcae6c59a3 97659 textures/quake2/duckw_spec.jpg
 a9af14584f56cfa95e784d8f7b1e1eda 70 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png
+6729d8d905046ff4c3bbf1ce55343666 170 textures/quake3/base_floor/pjgrate2.mat
+66c2ac882663804833589240acc771ac 117412 textures/quake3/base_floor/pjgrate2.png
+6ccaf41d4ba1f8eea3ee8c2d5b65fc72 7292 textures/quake3/base_floor/pjgrate2_norm.png

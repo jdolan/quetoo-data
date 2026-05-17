@@ -1,0 +1,7 @@
+{
+	diffusemap evil/e6bsegrtflr256
+	shadow 0.00
+	
+	surface "alpha_test"
+	alpha_test 0.5
+}
