@@ -1,0 +1,13 @@
+{
+	diffusemap quake3/sfx/electricslime2
+	shadow 0.00
+	contents "detail"
+	surface "material alpha_test"
+	alpha_test 0.5
+	{
+		texture quake3/sfx/electricslime2
+		blend GL_SRC_ALPHA GL_ONE
+		scroll.t 1.65
+		warp 1 1
+	}
+}
