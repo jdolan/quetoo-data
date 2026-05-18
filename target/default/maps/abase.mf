@@ -1,4 +1,4 @@
-451b6603025ed2b205e50f395908bfaa 12870172 maps/abase.bsp
+cdbf0ccf3080366725af7c9ab19f6b2e 13465948 maps/abase.bsp
 ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
 9bba06fe7223bcd1d20711bdd950d547 127700 mapshots/abase/quetoo001.jpg
 97ef68c5d030e7a0d49e6c9022aad638 170339 mapshots/abase/quetoo002.jpg
@@ -57,6 +57,7 @@ b7f9a37e49826266f5ac8ac7f1feb934 290 textures/effects/black.png
 5efea9479fa9e2f7742be13a7988eaa9 215693 textures/effects/sky1-layer1.png
 47936c4785ed7e3ad2aea6bbeb28bd11 425 textures/effects/sky1.mat
 d20862d28e97f0a9426f072795b86e2f 536000 textures/effects/sky1.png
+0c15ecca50d058e338d6e250d1a2241b 57594 textures/envmaps/envmap_1.jpg
 0907113d51417666b7d74a58b324a640 351 textures/padbase/padbase.mat
 318a6ccdc992bacd45ca6079e6e0c221 163522 textures/padbase/padbase.png
 59f417af38fd6830821430e5aeb48d10 105839 textures/padbase/padbase_norm.png
@@ -455,7 +456,7 @@ dd3c25bc39cdf9f13ecbea63f9a2843f 299 textures/quake2/duckw.mat
 385e0f57544bf2f258c89815489df521 615506 textures/quake2/duckw.png
 8ed0b727acd885b2a4ebbf92eb5fc3f7 613418 textures/quake2/duckw_norm.png
 03b1aea461446046426701dcae6c59a3 97659 textures/quake2/duckw_spec.jpg
-1e8452b6692e321e60adc62a942b496f 65 textures/quake2/wndow1_2.mat
+6c392c3775e46047ec2ece2a2b1928e9 198 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png
 5cc73f0cf72f7c73d27cee755c231a3e 160 textures/quake3/base_floor/pjgrate2.mat
 66c2ac882663804833589240acc771ac 117412 textures/quake3/base_floor/pjgrate2.png

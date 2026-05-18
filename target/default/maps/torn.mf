@@ -1,4 +1,4 @@
-9ac254401f4d14fe4600d1478d15fa22 9743998 maps/torn.bsp
+e4f4152f7f19136412172806bd3449c3 9973630 maps/torn.bsp
 fa1dc273715e3e6817646f0ff74d52d0 5164 maps/torn.nav
 93ae2ece3072be66e19652510b10fc3c 215003 mapshots/torn/quetoo021.jpg
 8f87a1a3140a1dd9be0e1cc1fcaf501e 256261 mapshots/torn/quetoo022.jpg

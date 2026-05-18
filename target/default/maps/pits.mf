@@ -1,4 +1,4 @@
-db81fa985e26e2901e876e1e2f20a5a2 9399991 maps/pits.bsp
+ec6e2d93f7a8d5fd4306d261f51ec76d 9760228 maps/pits.bsp
 0941225f4b0647ca36a5a7b9a6169633 10508 maps/pits.nav
 fe8037ac2e689cc84798186aafc0fd92 186239 mapshots/pits/quetoo031.jpg
 f1b7b56a0295487e7be5cb4a9d7652c7 222611 mapshots/pits/quetoo032.jpg
@@ -15,6 +15,8 @@ f81dd582c8a3148e826395481c9b1ef5 33959 sky/khaki.jpg
 ab6846eab04f23e52489df2d2e7dea1b 29 textures/common/caulk.mat
 c3c95e362ae53ceec4571095fd470c91 28 textures/common/clip.mat
 cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
+4495dd84862adc3bbcf3e0006e16b545 1627 textures/common/dust.jpg
+8f12552545ad2657743357b89cb4c72f 28 textures/common/dust.mat
 2a1b49cbfe055dec00b23d65163f56f6 2115 textures/common/origin.jpg
 68c96aad25d1fa26d3e6b8e612a84dfe 30 textures/common/origin.mat
 9243c7ad7e16a9a96f4a5f89b4212458 1512 textures/common/sky.jpg

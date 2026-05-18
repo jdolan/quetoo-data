@@ -1,4 +1,4 @@
-8701f66dde76a94034706442855d476d 5272833 maps/slimyplace.bsp
+9b7a133bd5ff44ef38f8ea908179c540 5435283 maps/slimyplace.bsp
 2fa04e2985b87b3032dad006dc1882e3 5524 maps/slimyplace.nav
 8467d6a7679bed3761216ca0640ecb2e 179261 mapshots/slimyplace/quetoo036.jpg
 6b87681e37cb245aab34e7e303a7b8dc 197170 mapshots/slimyplace/quetoo037.jpg

@@ -1,4 +1,4 @@
-aed572e804f4761fc89975dd9b69b416 26249565 maps/insta-rounding.bsp
+a725050442b6c3a9c077fe538f68aa56 27114845 maps/insta-rounding.bsp
 3c9e6b24410f76aef59c896971c43be2 586383 sky/midnight_silence.jpg
 9a832755b20df1aca0c656a7edfb09e5 34732 sprites/flare_1.png
 649ffcd19896ebe708b38f5dfb8e657c 61888 sprites/flare_2.png
@@ -18,6 +18,7 @@ cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
+0c15ecca50d058e338d6e250d1a2241b 57594 textures/envmaps/envmap_1.jpg
 16e69851c6e37b91d765a7a3bfc6abc8 11511 textures/omf/metal3_6b.jpg
 79270e801e4a8fb000f0aea50026d387 91 textures/omf/metal3_6b.mat
 8828dd2303f70413daf52ab9e660ee22 55616 textures/omf/metal3_6b_norm.png
@@ -184,5 +185,5 @@ b8f0eac66d84f9f0a152c0e217792e85 3386 textures/quake2/trimmet2_1.jpg
 e37e1a6a99f3c2886707c5669d08e8ce 93 textures/quake2/trimmet2_1.mat
 38c5ff84c9fee5e5b937154ca14e9713 14268 textures/quake2/trimmet2_1_norm.png
 4e26ebce2b110274cca69597610ac7e0 2522 textures/quake2/trimmet2_1_spec.jpg
-1e8452b6692e321e60adc62a942b496f 65 textures/quake2/wndow1_2.mat
+6c392c3775e46047ec2ece2a2b1928e9 198 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png
