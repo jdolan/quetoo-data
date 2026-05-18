@@ -538,7 +538,7 @@ c42286198d4efd783f5a7aba5f053275 143111 models/platform/center/skin.png
 afb16f368df4fc6857213c257b73f654 27 models/platform/center/tris.mtl
 0077a9da32949137d26a893aadb72b91 75871 models/platform/center/tris.obj
 6c98d5c1278266a4d5cfb22ee61bb8e1 61921 models/powerups/adrenaline/skin.jpg
-3b8047cec81320adead09faca24dd923 184 models/powerups/adrenaline/skin.mat
+8d375454e5e673d50cc1251e56990bc2 321 models/powerups/adrenaline/skin.mat
 4337f11d088971aae8313417404b69a7 9326 models/powerups/adrenaline/skin_glow.jpg
 b36abd24232c4294eef709c71baddecc 270242 models/powerups/adrenaline/skin_norm.png
 1ef9303ace3d5f40270a0decfa0c1a5a 161649 models/powerups/adrenaline/skin_spec.png
@@ -546,7 +546,7 @@ afb16f368df4fc6857213c257b73f654 27 models/powerups/adrenaline/tris.mtl
 838a19108c347320c3d03c4be42278cc 22869 models/powerups/adrenaline/tris.obj
 8a3da7f8dd25a7489f4d09e7f424b2f0 45 models/powerups/adrenaline/world.cfg
 a4d614f81b24a65643124afb3385519c 39843 models/powerups/invisibility/skin.jpg
-2ce6cf4676e646ac931f41351c007c87 177 models/powerups/invisibility/skin.mat
+1c6bcc6149c87e4eb5f1133b6ba4add6 332 models/powerups/invisibility/skin.mat
 49e70d302f60e455cda4c583ae834c98 122007 models/powerups/invisibility/skin_norm.png
 31bd973947e3eedc1a42ad20726d539c 128620 models/powerups/invisibility/skin_spec.png
 b17879991aa21f6dbe2f9aa559e7ada0 95638 models/powerups/invisibility/tris.obj
