@@ -182,9 +182,9 @@ e560794648a23ba8642d036593cfbc1c 13175 maps/insta-rounding.mf
 a2fa5f5532d14eb0749d922daf3249b2 1144029 maps/lavatomb.map
 c55864f67e2fb647c10f090ec1ad1ea6 8984 maps/lavatomb.mf
 524607c434dac43c53d5ba82cc000dcd 6180 maps/lavatomb.nav
-15b0f910c101f5405fcfd01c3f6113d7 32894807 maps/longyard.bsp
-963c8891f986ef4904a7a5c5a784daaf 1148059 maps/longyard.map
-2ab2e2229824ef7506103851e7fa0ab6 10017 maps/longyard.mf
+0fcc2f706623975ce618ac4767df0dfd 33667448 maps/longyard.bsp
+d60acb0b5339b212707727c7771b6eac 1223232 maps/longyard.map
+6ed774be5efb5f02790bd69c45358ebb 10313 maps/longyard.mf
 59f3d5a6db218be288190df245d37fd4 7668 maps/longyard.nav
 0cdf3f8670664b5d3d939c40d4bd6c39 6964228 maps/omf.bsp
 c869de7e44a922fe5f1003a21d48eac5 838608 maps/omf.map
@@ -3621,6 +3621,7 @@ d5a970fb9919c536fab32281370fc2cf 84276 textures/evil/e6girdergrate.png
 46fa0b119c4498e58be99c101426f61e 168927 textures/evil/e6girdergrate2b.png
 c383893f1b8660c6b0f5af62dc7b4a80 58418 textures/evil/e6girdersupport.png
 e314f2c145a3f416491a2d31391ea707 71401 textures/evil/e6grate2_flr.png
+7e8ea81914e413e142bcfc307371d0ea 107 textures/evil/e6grate2_flr_b.mat
 4ff1ba031f7895ef7c624275bedb7e5b 61672 textures/evil/e6grate2_flr_b.png
 34f23a2055b585f61ed000d275f98c48 128808 textures/evil/e6grate_flr.png
 a13e8d65977c00e70439c2b8bc8f48b1 106809 textures/evil/e6grate_flr_b.png
@@ -9212,6 +9213,7 @@ d5a00e0042fbde4b9506915b19e6cff3 8732 textures/quake3/sfx/dust_puppy2.png
 0269f187250ce67e3b91d4b6502e94a6 5787 textures/quake3/sfx/electricgrade3.jpg
 9a13893059aa93e08262578d485bb761 10835 textures/quake3/sfx/electricslime.jpg
 c0dd53707863755a5d61bc058c547ee0 7579 textures/quake3/sfx/electricslime2.jpg
+7b4d735ca9b2d38e8611510477e253ae 218 textures/quake3/sfx/electricslime2.mat
 61bcee90da322e8621570cbeb2e98c6f 8805 textures/quake3/sfx/electricslime_old.jpg
 d6938bc5325af2c11a4262d668f04136 256184 textures/quake3/sfx/fan.png
 9b8032d51207339f25b475c68a5da643 110702 textures/quake3/sfx/fan3.png
