@@ -3,4 +3,15 @@
 	roughness 1
 	hardness 3
 	specularity 2
+	{
+		shell 2
+		envmap envmaps/gold
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 .2
+		lighting 1 flat
+		scale.s .5
+		scale.t .5
+		scroll.s .5
+		scroll.t .5
+	}
 }

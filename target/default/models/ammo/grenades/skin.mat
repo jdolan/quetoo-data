@@ -4,4 +4,15 @@
 	roughness 3.91837
 	hardness 5.38775
 	specularity 1.08844
+	{
+		shell 1
+		envmap envmaps/green
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 .5 .25
+		lighting 1 flat
+		scale.s .5
+		scale.t .5
+		scroll.s .5
+		scroll.t .5
+	}
 }

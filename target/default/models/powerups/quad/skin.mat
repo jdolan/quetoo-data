@@ -6,18 +6,15 @@
 	{
 		texture powerups/quad/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
-	}
-	{
-		texture powerups/quad/skin_glow
-		blend GL_SRC_ALPHA GL_ONE
 		pulse 1.5
 	}
 	{
-		envmap envmaps/envmap_3
-		blend GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-		color 0 .4 1 .66
-		warp .5 .5
-		scale.s 5.125
-		scale.t 5.125
+		envmap quake3/effects/quadmap2
+		blend GL_SRC_ALPHA GL_ONE
+		color .666 1 1 4
+		lighting 1 flat
+		scale.s .5
+		scale.t .5
+		shell 2
 	}
 }
