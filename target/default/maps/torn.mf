@@ -1,4 +1,4 @@
-b8e8470ae2c262e2c6eb7a017cbae6ae 9744016 maps/torn.bsp
+9ac254401f4d14fe4600d1478d15fa22 9743998 maps/torn.bsp
 fa1dc273715e3e6817646f0ff74d52d0 5164 maps/torn.nav
 93ae2ece3072be66e19652510b10fc3c 215003 mapshots/torn/quetoo021.jpg
 8f87a1a3140a1dd9be0e1cc1fcaf501e 256261 mapshots/torn/quetoo022.jpg
@@ -98,7 +98,7 @@ a5228f4bd234a4056e6ba2b0d6778b3b 109 textures/lun3dm3/q1comp2.mat
 bff2ad00cee3ff20bfbe4ed1f9b6199c 40183 textures/lun3dm3/q1comp4_norm.png
 46562ebc0dd2c2023ba56088f0eb0757 1938 textures/lun3dm3/q1comp4glow.jpg
 bab8427bcd2066a7cf1a7a637fbabe09 6752 textures/lun3dm3/q1comp6.jpg
-868b52d6720928abfb4947a03bdfc011 186 textures/lun3dm3/q1comp6.mat
+f12f5b630e94d987607e4064819da157 188 textures/lun3dm3/q1comp6.mat
 1592a330a428dd17b1a64729aa5a6b8b 15067 textures/lun3dm3/q1comp6_norm.png
 a54038b42442ae0f1d934b59c75c6613 1824 textures/lun3dm3/q1comp6fx0.jpg
 7dd0e35f678781f50bcd81e004c9ec56 3882 textures/lun3dm3/q1comp6fx1.jpg

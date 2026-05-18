@@ -5,4 +5,10 @@
 	roughness 1.0
 	hardness 1.0
 	specularity 1.0
+	{
+		texture ammo/quake_shells/skin_glow
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 1.5 1
+		color 1 1 0 1
+	}
 }

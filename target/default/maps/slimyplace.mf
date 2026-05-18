@@ -5,7 +5,7 @@
 8749416809f0a36a2f9f40e1e985dcea 168346 mapshots/slimyplace/quetoo038.jpg
 2cdb723ff41ac78a04e0d2c4d73ba7a6 196512 mapshots/slimyplace/quetoo039.jpg
 8fbcec86d74c7a15eb13ad858f0503f6 122795 mapshots/slimyplace/quetoo040.jpg
-394f20cd9ed787e5087b37927cfafb80 1054 sky/white.png
+2929fbbc0696fde86322f5550205a527 1663 sky/white.jpg
 3ca759946c896a7488f339a18d74e801 698830 sounds/ambient/slime_1.wav
 93a193c6297f052781a4e02051aa4fd7 747312 sounds/ambient/water_1.wav
 4b1146f6da1472b65b2f6ffdbdfe8a64 23409 sprites/flare_0.png

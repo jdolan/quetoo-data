@@ -26211,7 +26211,6 @@
 // entity 97
 {
 "classname" "misc_dust"
-"origin" "0 0 0"
 // brush 0
 {
 ( -80 -336 272 ) ( -80 -336 112 ) ( -80 -224 112 ) common/dust -32 0 0 0.5 0.5 128 0 0

@@ -1,8 +1,13 @@
 {
 	diffusemap health/quake_mega/skin
-	normalmap health/quake_mega/skin_norm
-	specularmap health/quake_mega/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
+	roughness 3.04
+	hardness 2.47
+	parallax 1.00
+	shadow 0.96
+	{
+		texture health/quake_mega/skin_glow
+		blend GL_SRC_ALPHA GL_ONE
+		color 1.00 0.00 0.00 1.00
+		pulse 1.00
+	}
 }

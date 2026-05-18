@@ -1,4 +1,4 @@
-e86e167408197792cd33a816584cf8b4 8822064 maps/fragpipe.bsp
+e512bfd7b64021479d0ac7ff5ad17028 8821967 maps/fragpipe.bsp
 79f36e984beb388517bc86b09bf98e5d 6260 maps/fragpipe.nav
 46c892b195a0e4021ac8084341d4f119 233326 mapshots/fragpipe/quetoo022.jpg
 a5232cbee6f561d75986c39a86399b34 171053 mapshots/fragpipe/quetoo023.jpg
@@ -26,6 +26,7 @@ c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 9ad348c3a38508a5e13d7752a0d3b70d 178 textures/effects/lightbeam.mat
 4da786615b9fe0bc388318430adc5288 8505 textures/effects/lightbeam.png
 81c2b3b3baedaad33926e9d7dd0cf88c 2442 textures/effects/lightbeamdust.png
+0c15ecca50d058e338d6e250d1a2241b 57594 textures/envmaps/envmap_1.jpg
 2ca10c7e3f202f26d7c61b820be20705 167468 textures/quake2/brlava.jpg
 4a759e217d77e90eaa080c9d1e8a62c7 296 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg
@@ -74,7 +75,7 @@ f204e5c713174065317355a975ed66b4 13434 textures/quake2/ggrat4_2add.jpg
 c404257fa214d9bccac3bafb63c3290a 82 textures/quake2/ggrat4_2add.mat
 247b110afe888a360edeefa5793941ea 66494 textures/quake2/ggrat4_2add_norm.png
 08b2dcc39b049559390a8d7582739c05 8459 textures/quake2/ggrat4_2add_spec.jpg
-28c4286905146dd0918c3e12ae4d78fe 131 textures/quake2/glassdirt0.mat
+fbcf0c5befc5e11c912f95f716e431dd 207 textures/quake2/glassdirt0.mat
 05c21dca041672568c450a2e59e7703c 219638 textures/quake2/glassdirt0.png
 4ee6a65433671b89b3b18e6bb654d972 51264 textures/quake2/glowedge256.png
 92581d351d3fcd5adefac257a7aef827 153467 textures/quake2/glowlavadown.png
@@ -160,5 +161,5 @@ ceaba3427c5e865c29ae48b83b4e90d5 20421 textures/quake2/subslimebotm.jpg
 cf5061ea5bda5238d587313fe4b39a9f 92 textures/quake2/wbasic1_4.mat
 406b60c8031a53f9acfbc919d8e3afc2 199292 textures/quake2/wbasic1_4_norm.png
 ee6184ae1fe1d35a69c1254381bc91e5 15251 textures/quake2/wbasic1_4_spec.jpg
-1e8452b6692e321e60adc62a942b496f 65 textures/quake2/wndow1_2.mat
+6c392c3775e46047ec2ece2a2b1928e9 198 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png

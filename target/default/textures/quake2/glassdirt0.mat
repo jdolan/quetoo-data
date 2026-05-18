@@ -5,5 +5,11 @@
 	specularity 0.99
 	parallax 0.00
 	shadow 0.00
-	surface "blend_66"
+	surface "blend_33"
+	{
+		envmap envmaps/envmap_1
+		scale.s .5
+		scale.t .5
+		lighting 1 flat
+	}
 }

@@ -1,8 +1,11 @@
 {
 	diffusemap ammo/quake_nails/skin
-	normalmap ammo/quake_nails/skin_norm
-	specularmap ammo/quake_nails/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
+	roughness 1.53
+	hardness 2.04
+	{
+		texture ammo/quake_nails/skin_glow
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.50 0.50 0.00 1.00
+		pulse 1.00 1.000
+	}
 }

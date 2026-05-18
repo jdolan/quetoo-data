@@ -50,8 +50,8 @@ cba4ee4a90e5270e0c53f634ea659a2e 28758 textures/quake/metal4_7.jpg
 5d9579db08effffb66ac5ae6fa8ba8b0 108 textures/quake/metal4_7.mat
 0c0963d866921e1423b4d72874bae8c5 139533 textures/quake/metal4_7_norm.png
 76143b48982c315ec6f4997e447975e0 24432 textures/quake/metal4_7_spec.jpg
-271f7e10b7a2e86ac06b5c60ade9e4f5 296 textures/quake/teleport.mat
-161c669b6dc4fa3bda3ef9727d35e85d 21564 textures/quake/teleport.png
+54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
+eb98791d94c2a961846fbd3320f29d89 332 textures/quake/teleport.mat
 bde6b610a9696433425cf8ef9782c0bd 11083 textures/quake/water0.jpg
 902ed0f31bf846900a8e2d7cca307c09 248 textures/quake/water0.mat
 70350b37ed7b9d3ffd5ad38447de5afe 7647 textures/quake/water0_spec.jpg

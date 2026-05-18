@@ -77,5 +77,5 @@ aa668755deaa50b1db65101f939361b2 11197 textures/quake/techlight_01.jpg
 88bb3327b57f1632b32e4f1df66cc3c0 94 textures/quake/techlight_01.mat
 5390440c35e1e939fac6ee45cbe77945 44205 textures/quake/techlight_01_norm.png
 404001ea3995d07de55a93c75ccf3202 8546 textures/quake/techlight_01_spec.jpg
-271f7e10b7a2e86ac06b5c60ade9e4f5 296 textures/quake/teleport.mat
-161c669b6dc4fa3bda3ef9727d35e85d 21564 textures/quake/teleport.png
+54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
+eb98791d94c2a961846fbd3320f29d89 332 textures/quake/teleport.mat

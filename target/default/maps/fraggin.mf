@@ -1,4 +1,4 @@
-92187930a8076909e06eb8fec6eda54c 23791369 maps/fraggin.bsp
+80d27dca905bb5ce71969b43d72871d8 23791369 maps/fraggin.bsp
 079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
 1f65f3c6ecf8313f34e2508c38fb25db 84548 mapshots/fraggin/fraggin01.jpg
 3fcbee2ddf3ce8de0b59980de1c21a03 109776 mapshots/fraggin/fraggin02.jpg
@@ -179,8 +179,7 @@ bd291177501d51842c16525030e770e0 109 textures/quake/tech04_9.mat
 d1bacc040311f11e48d99069be48ab7d 11504 textures/quake/tech04_9_norm.png
 53d6860736dc1ee4dc013ff2910afbee 5280 textures/quake/tech04_9_spec.jpg
 b4bc19bd5c505d85d4ca80e022f5a346 6513 textures/quake/teleport2.jpg
-ec273b39dbb5bfbfec3eec3f62999c77 110 textures/quake/teleport2.mat
-2af8078ef99341947dada523435b7db7 7176 textures/quake/teleport2_luma.jpg
+7a1b3c43c3617518eae2e2ea8a98779d 300 textures/quake/teleport2.mat
 11a24ee02ffcd9dfa5202fbd41055cf1 36462 textures/quake/teleport2_norm.png
 d732a2670d93d6ebd80e75bcf0a800df 5409 textures/quake/teleport2_spec.jpg
 e6ff715fbb1c05e0a7851b25eac6e9d2 14853 textures/quake/tyr_09.jpg

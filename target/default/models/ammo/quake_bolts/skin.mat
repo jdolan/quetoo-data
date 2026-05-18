@@ -1,8 +1,11 @@
 {
 	diffusemap ammo/quake_bolts/skin
-	normalmap ammo/quake_bolts/skin_norm
-	specularmap ammo/quake_bolts/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
+	roughness 1.47
+	hardness 2.96
+	{
+		texture ammo/quake_bolts/skin_glow
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.88 1.00 0.00 1.00
+		pulse 1.50 1.000
+	}
 }

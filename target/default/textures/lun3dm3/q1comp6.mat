@@ -8,6 +8,6 @@
 	{
 		texture lun3dm3/q1comp6fx0
 		blend GL_SRC_ALPHA GL_ONE
-		anim 6 0.50
+		anim 6 0.50 1
 	}
 }

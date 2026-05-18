@@ -1,10 +1,13 @@
+// Game: Quetoo
+// Format: Quake3
 // entity 0
 {
 "classname" "worldspawn"
+"_tb_textures" "textures/common;textures/decals;textures/effects;textures/prototype;textures/quake2"
 "ambient" "0.125"
 "message" "^1The ^3Frag ^1Pipe^7"
+"model" "*0"
 "sky" "habp"
-"_tb_textures" "textures/common;textures/decals;textures/effects;textures/prototype;textures/quake2"
 "version" "1.0.5"
 // brush 0
 {
@@ -12588,7 +12591,7 @@
 // entity 65
 {
 "classname" "item_quad"
-"origin" "960.000000 944.000000 320.000000"
+"origin" "960 944 312"
 }
 // entity 66
 {
@@ -14197,8 +14200,8 @@
 "classname" "misc_steam"
 "count" "2"
 "drift" "0.03"
-"hz" "0.3"
-"origin" "1584.000000 1312.000000 84.000000"
+"hz" "5"
+"origin" "1616 1312 72"
 "size" "128"
 "sound" "empty"
 }
@@ -14206,9 +14209,10 @@
 {
 "classname" "misc_steam"
 "count" "2"
-"hz" "0.5"
-"origin" "1456.000000 1344.000000 84.000000"
-"size" "72"
+"drift" "0.125"
+"hz" "6"
+"origin" "1456 1344 64"
+"size" "192"
 "sound" "empty"
 }
 // entity 182
@@ -14365,9 +14369,9 @@
 {
 "classname" "light"
 "origin" "960 680 368"
+"style" "zx"
 "target" "quad_express"
 "team" "lt_SmOrange_decor"
-"style" "zx"
 }
 // entity 206
 {
@@ -14382,7 +14386,6 @@
 "_tb_name" "Clip Brushes"
 "_tb_id" "1"
 "_tb_layer_sort_index" "0"
-"_tb_layer_hidden" "1"
 // brush 0
 {
 ( 1504 640 544 ) ( 1504 896 544 ) ( 1504 640 560 ) common/clip 0 0 0 0.25 0.25
@@ -14780,7 +14783,6 @@
 "_tb_name" "Sky Brushes"
 "_tb_id" "2"
 "_tb_layer_sort_index" "1"
-"_tb_layer_hidden" "1"
 // brush 0
 {
 ( 976 -40 72 ) ( 976 -16 72 ) ( 976 -40 528 ) common/sky 0 0 0 0.25 0.25
@@ -15360,12 +15362,12 @@
 // entity 212
 {
 "classname" "misc_dust"
-"type" "fizz"
+"acceleration_spread" "2 2 0"
 "color" "0.4 1 0.066"
 "end_color" "0.72 1 0.55"
 "lighting" "0"
+"type" "fizz"
 "velocity" "0 0 10"
-"acceleration_spread" "2 2 0"
 "_tb_layer" "4"
 // brush 0
 {
@@ -15551,10 +15553,10 @@
 // entity 214
 {
 "classname" "misc_dust"
-"velocity" "0 0 -10"
-"lifetime" "1"
 "density" "0.33"
+"lifetime" "1"
 "size" "1.5"
+"velocity" "0 0 -20"
 "_tb_layer" "4"
 // brush 0
 {

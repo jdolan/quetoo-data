@@ -79,8 +79,8 @@ c8c231d848134cb7ad77ae68501edd8f 168769 textures/quake/metal1_7_norm.png
 406d5d55c25e25147fbdef1676e15d55 108 textures/quake/metal2_4.mat
 4ec915af451bd02af77ee982fff594d9 163802 textures/quake/metal2_4_norm.png
 afa937450056f46e62529118b478a828 25031 textures/quake/metal2_4_spec.jpg
-271f7e10b7a2e86ac06b5c60ade9e4f5 296 textures/quake/teleport.mat
-161c669b6dc4fa3bda3ef9727d35e85d 21564 textures/quake/teleport.png
+54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
+eb98791d94c2a961846fbd3320f29d89 332 textures/quake/teleport.mat
 73d81c5eeb8b75ebf9667a462ff33ce6 11375 textures/quake/water1.jpg
 9af0de3b3980b37894d39424a04e01df 537 textures/quake/water1.mat
 2225e543b2b03ef1853045b8470ccb30 7802 textures/quake/water1_spec.jpg

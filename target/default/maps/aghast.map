@@ -1,12 +1,10 @@
-// Game: Quetoo
-// Format: Quake3
 // entity 0
 {
 "classname" "worldspawn"
-"items" "quake"
 "_tb_textures" "textures/common;textures/decals;textures/effects;textures/prototype;textures/quake"
 "ambient" "1"
 "author" "Vondur"
+"items" "quake"
 "message" "^3Aghast^7 by ^1Vondur^7"
 "model" "*0"
 "sky" "aghast"
@@ -7255,12 +7253,14 @@
 {
 "classname" "misc_steam"
 "origin" "512 416 192"
+"size" "64"
 "velocity" "-24 0 10"
 }
 // entity 169
 {
 "classname" "misc_steam"
 "origin" "160 64 248"
+"size" "64"
 "velocity" "0 24 10"
 }
 // entity 170
@@ -7273,12 +7273,14 @@
 {
 "classname" "misc_steam"
 "origin" "128 640 192"
+"size" "48"
 "velocity" "0 -24 10"
 }
 // entity 172
 {
 "classname" "misc_steam"
 "origin" "-112 384 256"
+"size" "64"
 "velocity" "24 0 10"
 }
 // entity 173
@@ -7291,18 +7293,21 @@
 {
 "classname" "misc_steam"
 "origin" "192 -960 256"
+"size" "48"
 "velocity" "0 24 10"
 }
 // entity 175
 {
 "classname" "misc_steam"
 "origin" "320 -512 192"
+"size" "64"
 "velocity" "-24 0 10"
 }
 // entity 176
 {
 "classname" "misc_steam"
 "origin" "512 -512 192"
+"size" "64"
 "velocity" "24 0 10"
 }
 // entity 177
@@ -7314,10 +7319,10 @@
 // entity 178
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Clip"
 "_tb_id" "1"
 "_tb_layer_sort_index" "0"
+"_tb_name" "Clip"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( -128 400 40 ) ( -128 368 40 ) ( -128 368 24 ) quake/city4_1 0 0 0 0.25 0.25 65536 0 0
@@ -7754,11 +7759,11 @@
 // entity 179
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Sky"
 "_tb_id" "2"
-"_tb_layer_sort_index" "1"
 "_tb_layer_hidden" "1"
+"_tb_layer_sort_index" "1"
+"_tb_name" "Sky"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( -64 608 608 ) ( -64 112 608 ) ( -64 112 576 ) common/sky 0 0 0 0.25 0.25
@@ -7934,18 +7939,17 @@
 // entity 180
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Weather"
 "_tb_id" "3"
-"_tb_layer_sort_index" "2"
 "_tb_layer_hidden" "1"
+"_tb_layer_sort_index" "2"
+"_tb_name" "Weather"
+"_tb_type" "_tb_layer"
 }
 // entity 181
 {
 "classname" "misc_weather"
-"origin" "16 -16 0"
-"weather" "ash"
 "_tb_layer" "3"
+"weather" "ash"
 // brush 0
 {
 ( -48 -448 496 ) ( -48 -447 496 ) ( -48 -448 497 ) common/weather 0 0 0 0.25 0.25
@@ -7995,20 +7999,20 @@
 // entity 182
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Dust"
 "_tb_id" "4"
-"_tb_layer_sort_index" "3"
 "_tb_layer_hidden" "1"
+"_tb_layer_sort_index" "3"
+"_tb_name" "Dust"
+"_tb_type" "_tb_layer"
 }
 // entity 183
 {
 "classname" "misc_dust"
+"_tb_layer" "4"
 "density" "2"
 "lifetime" "1.5"
 "type" ""
 "velocity" "0 0 4"
-"_tb_layer" "4"
 // brush 0
 {
 ( -352 288 -160 ) ( -352 289 -160 ) ( -352 288 -159 ) common/dust 0 0 0 0.25 0.25

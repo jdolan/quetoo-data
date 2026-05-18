@@ -1,8 +1,11 @@
 {
 	diffusemap ammo/quake_rockets/skin
-	normalmap ammo/quake_rockets/skin_norm
-	specularmap ammo/quake_rockets/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
+	roughness 1.98
+	hardness 5.01
+	{
+		texture ammo/quake_rockets/skin_glow
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.50 0.50 0.50 1.00
+		pulse 1.00
+	}
 }

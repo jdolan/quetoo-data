@@ -133,8 +133,8 @@ febf9184d0815ea3ab825181cc47545e 37237 textures/quake/rune2_4_norm.png
 9dfe7a219190eee9285a89eacd017eca 9825 textures/quake/rune2_5.jpg
 ef7eb0b9d7216a584a93d1fa0cfe3562 245 textures/quake/rune2_5.mat
 020f5df9bd544d388f9c2aff70109116 3461 textures/quake/rune2_5_luma.jpg
-271f7e10b7a2e86ac06b5c60ade9e4f5 296 textures/quake/teleport.mat
-161c669b6dc4fa3bda3ef9727d35e85d 21564 textures/quake/teleport.png
+54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
+eb98791d94c2a961846fbd3320f29d89 332 textures/quake/teleport.mat
 bde6b610a9696433425cf8ef9782c0bd 11083 textures/quake/water0.jpg
 902ed0f31bf846900a8e2d7cca307c09 248 textures/quake/water0.mat
 70350b37ed7b9d3ffd5ad38447de5afe 7647 textures/quake/water0_spec.jpg

@@ -1,5 +1,15 @@
 {
 	diffusemap quake2/wndow1_2
-	shadow 0.00
+	parallax 0
+	shadow 0
 	surface "blend_33"
+	hardness 8
+	specularity .33
+	{
+		envmap envmaps/envmap_1
+		scale.s .5
+		scale.t .5
+		lighting 1 flat
+		color 1 1 1 .125
+	}
 }
