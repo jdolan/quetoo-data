@@ -3,9 +3,18 @@
 	roughness 3.59184
 	hardness 5.38775
 	specularity 2.04082
-		{
+	{
 		texture powerups/adrenaline/skin_glow
 		blend GL_SRC_ALPHA GL_ONE
 		pulse 1
+	}
+	{
+		envmap quake3/effects/envmapbfg
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 2
+		lighting 1 flat
+		scale.s .5
+		scale.t .5
+		shell 2
 	}
 }
