@@ -1,0 +1,8 @@
+{
+	diffusemap evil/e6grate2_flr_b
+	shadow 0.00
+	
+	surface "alpha_test"
+	alpha_test 0.5
+	footsteps metal2
+}
