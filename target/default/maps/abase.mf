@@ -1,4 +1,4 @@
-cdbf0ccf3080366725af7c9ab19f6b2e 13465948 maps/abase.bsp
+4428dfa25924e7659598f278ecd0a8a1 13529809 maps/abase.bsp
 ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
 9bba06fe7223bcd1d20711bdd950d547 127700 mapshots/abase/quetoo001.jpg
 97ef68c5d030e7a0d49e6c9022aad638 170339 mapshots/abase/quetoo002.jpg
@@ -288,7 +288,7 @@ bd291177501d51842c16525030e770e0 109 textures/quake/tech04_9.mat
 d1bacc040311f11e48d99069be48ab7d 11504 textures/quake/tech04_9_norm.png
 53d6860736dc1ee4dc013ff2910afbee 5280 textures/quake/tech04_9_spec.jpg
 7e68eb3c6c09abc3708e79a91921d211 25245 textures/quake/tech05_1.jpg
-9c3c6851d26d3ac5ec829e9800d524a2 64 textures/quake/tech05_1.mat
+e12da46cd676bd085fddf58b6f9781ff 108 textures/quake/tech05_1.mat
 8534af5f1c240db7f1bda4559046efcb 94902 textures/quake/tech05_1_norm.png
 5c25ae62e25541ad979b90260535d3c0 21514 textures/quake/tech05_1_spec.jpg
 b0b8cb9d69e8422362d691e602e0fab2 27552 textures/quake/tech05_2.jpg
