@@ -67,6 +67,9 @@
 {
 	name gehenna
 }
+{
+	name insta-rounding
+}
 #{
 #	name lilith
 #}

@@ -190,7 +190,7 @@ f165232696270d713698e2103761c4df 262 textures/quake2/metllamp_strip.mat
 f88f22ba2d560e5273aa9a53340571b5 3227 textures/quake2/metllamp_strip_norm.png
 bbf27739bcbf0825497389314a02dace 2551 textures/quake2/metllamp_strip_spec.jpg
 51ea4cb707460eb6a9b5787deff7e342 9266 textures/quake2/sewer1.jpg
-6de5f1af5716d7c913cb4005fa31c4e2 523 textures/quake2/sewer1.mat
+8e110e53a9acc0937ba54832fc200d68 368 textures/quake2/sewer1.mat
 f521fb353badc9b5bf4d6740d469b393 84400 textures/quake2/sewer1fx.png
 7c72fad22a77d87c4f3f2c9dc6ca0167 227 textures/quake2/sewer2_bars2.mat
 9ab453989dc70f3291b12f57daf1cdf9 117843 textures/quake2/sewer2_bars2.png
@@ -200,7 +200,6 @@ d2fa9b4a7a05b790fd56c39850f903da 57262 textures/quake2/sewer_bars_norm.png
 c1ff89562396d0c9e6de20df9d3fecd6 109 textures/quake2/sign1_2b.mat
 6c434fd8342f54d7d78bc7ff5870c330 30061 textures/quake2/sign1_2b_norm.png
 735a0dff20c3cfbefb32100866f68e7e 4871 textures/quake2/sign1_2b_spec.jpg
-430d6c18ff4615a0ebbcae22f801b6d7 16640 textures/quake2/slimefx1.jpg
 7de527ac027787a9be5bff39c68889c2 2499 textures/quake2/yellow1_4.jpg
 ab2d72f7155edd70866420f461e2e052 110 textures/quake2/yellow1_4.mat
 ed68bcec5588be1fa8d32b6d105d4c09 4601 textures/quake2/yellow1_4_norm.png
