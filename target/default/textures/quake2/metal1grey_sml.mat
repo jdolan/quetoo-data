@@ -1,3 +1,6 @@
 {
 	diffusemap quake2/metal1grey_sml
+	roughness 0.95
+	parallax 0.95
+	shadow 1.02
 }

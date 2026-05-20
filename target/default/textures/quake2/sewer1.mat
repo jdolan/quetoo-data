@@ -15,4 +15,19 @@
 		blend GL_SRC_ALPHA GL_ONE
 		warp 0.25 0.25
 	}
+	{
+		texture quake2/sewer1fx
+		blend GL_SRC_ALPHA GL_ONE
+		warp 0.25 -0.25
+	}
+	{
+		texture quake2/slimefx1
+		blend GL_SRC_ALPHA GL_ONE
+		warp 0.33 0.33
+	}
+	{
+		texture quake2/slimefx1
+		blend GL_SRC_ALPHA GL_ONE
+		warp 0.33 -0.33
+	}
 }

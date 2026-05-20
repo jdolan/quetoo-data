@@ -1,3 +1,7 @@
 {
 	diffusemap quake2/metal1_sml
+	roughness 2.02
+	hardness 1.99
+	parallax 2.96
+	shadow 8.00
 }

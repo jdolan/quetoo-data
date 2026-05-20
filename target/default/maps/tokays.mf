@@ -53,7 +53,7 @@ e6f6a05802b07b72af58b38b0d433498 6124 textures/quake2/fmet1_2_spec.jpg
 371fffedf34195fc68b785c2f30fecf1 2591 textures/quake2/fmet3_5_spec.jpg
 5cbf0cde6fc2b79f44de8ce163e76093 4881 textures/quake2/fmet3_5fx.png
 7d6c733ba4992398aab210f6d66c7022 19409 textures/quake2/metal13_1.jpg
-7c98b40a437b26660af25473f85550e8 95 textures/quake2/metal13_1.mat
+f997767fadefe42c4c01a87d66daf890 110 textures/quake2/metal13_1.mat
 5303324cbad1bdff945db153d20e62f3 142697 textures/quake2/metal13_1_norm.png
 8e51475a6a0d159ed6323f70fe30ca84 11754 textures/quake2/metal13_1_spec.jpg
 7bdfa0c95d27d00f0ed82f62acde0e1a 20543 textures/quake2/metal14_1.jpg

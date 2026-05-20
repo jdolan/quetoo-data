@@ -1,7 +1,8 @@
 {
 	diffusemap omf/metlsteps_24u
+	roughness 1.99
 	hardness 1.96
 	specularity 1.22
 	parallax 1.96
-	shadow 1.47
+	shadow 8.00
 }

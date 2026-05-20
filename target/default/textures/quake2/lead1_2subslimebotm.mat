@@ -1,3 +1,5 @@
 {
 	diffusemap quake2/lead1_2subslimebotm
+	roughness 0.97
+	hardness 0.99
 }

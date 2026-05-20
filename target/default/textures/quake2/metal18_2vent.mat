@@ -1,4 +1,8 @@
 {
 	diffusemap quake2/metal18_2vent
+	roughness 1.96
+	hardness 1.96
+	specularity 1.37
 	parallax 2.45
+	shadow 8.00
 }

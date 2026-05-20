@@ -6,4 +6,7 @@
 	hardness 2.04
 	specularity 1.22
 	parallax 2.53
+	contents "mist"
+	surface "alpha_test"
+	alpha_test 0.805
 }

@@ -92,7 +92,7 @@ b9ba0948170f3031520d9b3239fac4ee 55707 textures/quake2/liftgirder_norm.png
 1d6dd996ad75680a75a7d75c5ddf807e 911 textures/quake2/lightstrips32_norm.png
 4d81d11a07d12b07ae0c16dcce50b1a0 2707 textures/quake2/lightstrips32_spec.jpg
 7d6c733ba4992398aab210f6d66c7022 19409 textures/quake2/metal13_1.jpg
-7c98b40a437b26660af25473f85550e8 95 textures/quake2/metal13_1.mat
+f997767fadefe42c4c01a87d66daf890 110 textures/quake2/metal13_1.mat
 5303324cbad1bdff945db153d20e62f3 142697 textures/quake2/metal13_1_norm.png
 8e51475a6a0d159ed6323f70fe30ca84 11754 textures/quake2/metal13_1_spec.jpg
 64b4f217e35d02e6f15c1341e891270c 5503 textures/quake2/metal14_1edge.jpg
