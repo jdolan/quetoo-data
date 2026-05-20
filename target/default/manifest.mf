@@ -1388,11 +1388,11 @@ d2a7fc12c5dc86baf3f055b9b38c91ab 176444 sounds/misc/teleport_hum.wav
 79454dd2e451b49e06dcea599ec1b8d1 107150 sounds/misc/water_out.wav
 6fa0cbd594df73e04c1ee8cee1238db6 133676 sounds/powerups/adrenaline/pickup.wav
 348e3a8e50409268521b5719108846c9 98090 sounds/powerups/common/pickup.wav
-309836d87bc96a516cd7409a72bba658 145614 sounds/powerups/invisibility/expire.wav
-786964f3d0d651dd5a4f9f52bb96a711 209520 sounds/powerups/invisibility/pickup.wav
-309836d87bc96a516cd7409a72bba658 145614 sounds/powerups/invulnerability/expire.wav
-786964f3d0d651dd5a4f9f52bb96a711 209520 sounds/powerups/invulnerability/pickup.wav
-3430f194c53e111367c013c3a1ef62d9 99960 sounds/powerups/invulnerability/protect.wav
+4a6190859f37b7be0c7556a710993bb5 266006 sounds/powerups/invisibility/expire.wav
+447e26a57b97350186d4d51b3a59cc21 109244 sounds/powerups/invisibility/pickup.wav
+4a6190859f37b7be0c7556a710993bb5 266006 sounds/powerups/invulnerability/expire.wav
+447e26a57b97350186d4d51b3a59cc21 109244 sounds/powerups/invulnerability/pickup.wav
+8d1ced7494805f94a7710623460ed305 44100 sounds/powerups/invulnerability/protect.wav
 3430f194c53e111367c013c3a1ef62d9 99960 sounds/powerups/quad/attack.wav
 309836d87bc96a516cd7409a72bba658 145614 sounds/powerups/quad/expire.wav
 786964f3d0d651dd5a4f9f52bb96a711 209520 sounds/powerups/quad/pickup.wav
