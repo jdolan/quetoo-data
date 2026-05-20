@@ -1,8 +1,0 @@
-{
-	diffusemap quake/rocket/skin
-	normalmap quake/rocket/skin_norm
-	glossmap quake/rocket/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-}

@@ -1,8 +1,0 @@
-{
-	diffusemap quake/health/mega/skin
-	normalmap quake/health/mega/skin_norm
-	glossmap quake/health/mega/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-}

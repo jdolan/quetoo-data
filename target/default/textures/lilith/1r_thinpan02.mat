@@ -1,6 +1,5 @@
 {
 	material lilith/1r_thinpan02
-	normalmap lilith/1r_thinpan02_norm
 	bump 1.2
 	hardness 2.5
 	specular 1.7

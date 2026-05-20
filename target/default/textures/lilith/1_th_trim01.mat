@@ -1,6 +1,5 @@
 {
 	material lilith/1_th_trim01
-	normalmap lilith/1_th_trim01_norm
 	bump 1.2
 	hardness 2.5
 	specular 1.5

@@ -1,8 +1,0 @@
-{
-	diffusemap quake/weapons/rocketlauncher/skin
-	normalmap quake/weapons/rocketlauncher/skin_norm
-	glossmap quake/weapons/rocketlauncher/skin_spec
-	roughness 1.0
-	hardness 1.0
-	specularity 1.0
-}

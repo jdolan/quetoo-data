@@ -1,7 +1,5 @@
 {
 	diffusemap models/armor/quake_combat/skin
-	normalmap armor/quake_combat/skin_norm
-	specularmap armor/quake_combat/skin_spec
 	hardness 2.48
 	specularity 2.47
 }

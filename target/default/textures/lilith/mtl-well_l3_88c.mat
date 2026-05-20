@@ -1,6 +1,5 @@
 {
 	material lilith/mtl-well_l3_88c
-	normalmap lilith/mtl-well_l3_88c_norm
 	bump 0.8
 	hardness 2.0
 	specular 2.5

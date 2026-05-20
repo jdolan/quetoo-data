@@ -1,6 +1,5 @@
 {
 	material lilith/hh3_ms_light01
-	normalmap lilith/hh3_ms_light01_norm
 	bump 0.8
 	hardness 2.0
 	specular 0.5

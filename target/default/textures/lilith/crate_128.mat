@@ -1,6 +1,5 @@
 {
 	material lilith/crate_128
-	normalmap lilith/crate_128_norm
 	bump 0.8
 	hardness 2.8
 	specular 1.8

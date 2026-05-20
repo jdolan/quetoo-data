@@ -1,6 +1,5 @@
 {
 	material lilith/1r_squ_panside
-	normalmap lilith/1r_squ_panside_norm
 	bump 1.2
 	hardness 2.5
 	specular 1.7

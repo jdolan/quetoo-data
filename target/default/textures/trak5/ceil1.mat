@@ -1,6 +1,4 @@
 {
 	diffusemap trak5/ceil1
-	normalmap trak5/ceil1_norm
-	specularmap trak5/ceil1_spec
 	parallax 2.5
 }
