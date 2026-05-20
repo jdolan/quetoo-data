@@ -117,7 +117,7 @@ bfcfda9bcca9960044115a495ad0d789 5472 docs/textures-rygel.txt
 61bd1909e77592b12a16626e4a96f19f 215518 icons/quemap.png
 66481b5efeac49b8ab33024325f37738 143249 icons/quetoo.icns
 6afcc108128059fef0b9004dab7db219 150447 icons/quetoo.png
-fef94bce9c3841eb59174b2dacee96e1 679 maps.lst
+dd6cd8156488b80ed462950bc273832b 704 maps.lst
 1e8205d68b18de3177d96b7ec4f2e358 8755113 maps/2deaths.bsp
 ec516019df4e3004bb74c61e6bc32054 790216 maps/2deaths.map
 2d8b1c62e1a5f52eb5b75c4e6a7ad91a 7317 maps/2deaths.mf
@@ -175,8 +175,9 @@ c95b0cb18c2e5deeb529abc293fd4bbe 12492 maps/gehenna.nav
 aeea7fa941a49f7857381a0f36e0fa57 9611 maps/hallways.mf
 ddbb2038b24723624bb37d03837e0d7f 11732 maps/hallways.nav
 c37bddcdf8f7532b6df97c7e38d945f2 27285305 maps/insta-rounding.bsp
-985c044d51641385408373e4e24ac3da 1084637 maps/insta-rounding.map
+bab60bde7d06212fa6e1b8ac69d3cf50 1084753 maps/insta-rounding.map
 3f3ef608a47f6f76f0e94334f02ff330 13245 maps/insta-rounding.mf
+a022a4a2365fc29e7ee8f926970994b1 12060 maps/insta-rounding.nav
 efd25898687dcc9ac58c753f7f95cb27 12723777 maps/lavatomb.bsp
 a2fa5f5532d14eb0749d922daf3249b2 1144029 maps/lavatomb.map
 9ed0fa414a65994f260ced7f1ad4099a 8984 maps/lavatomb.mf
@@ -187,7 +188,7 @@ f2ed25331aa5f2db3b5da85ee443bdc7 10311 maps/longyard.mf
 59f3d5a6db218be288190df245d37fd4 7668 maps/longyard.nav
 5d58042846211c2a1147323559202a90 7238206 maps/omf.bsp
 0c29308a450e6e34c29e3f9e8ab44c2a 834112 maps/omf.map
-3ffa64a00a2d5082a1c468525d443be0 14401 maps/omf.mf
+8784ca23e16df867ade1ec0615450246 14333 maps/omf.mf
 e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
 b88bdf22db1113d4bf069227011c1f14 9872740 maps/pits.bsp
 fc5aa72ce6ba007cc43f8554ff931fbe 852816 maps/pits.map
@@ -270,6 +271,9 @@ e1dd6dabcb63d6718e89180bb549415d 308477 mapshots/gehenna/quetoo109.jpg
 5787b8ad5572fcc005aff2603163138f 167857 mapshots/hallways/quetoo028.jpg
 cfa52ff65cfa9ecdbf03455bcc34c2f9 158041 mapshots/hallways/quetoo029.jpg
 782405c2c981143ab8f87d92fc1c5458 239445 mapshots/hallways/quetoo030.jpg
+d9be304ce19b6d74aeea0580e67190b9 143513 mapshots/insta-rounding/quetoo079.jpg
+37d15de81b47a08c56fe2120a10e5389 99218 mapshots/insta-rounding/quetoo080.jpg
+4a4de84b8dc65ca64e80c3dff3ca18b0 141264 mapshots/insta-rounding/quetoo081.jpg
 80336c0e6be6ee6a5f49f3a38c9d551d 281252 mapshots/lavatomb/quetoo098.jpg
 7f83c172324cb082a471ce0a81ac0ddc 217367 mapshots/lavatomb/quetoo099.jpg
 b81fd46af461370e2277bcbca5c6cfc2 180660 mapshots/lavatomb/quetoo101.jpg
@@ -5220,7 +5224,7 @@ a5458a497356a70b4f500ff829cb736e 11683 textures/q4power/green1_norm.png
 a06cbd0dc63f7c83ed5a52aac8eb7c69 15520 textures/q4power/hexflr1_norm.png
 1aa6efca9db98bcdee09435157c5c008 23917 textures/q4power/hexflr1_spec.jpg
 bf5ea3525926d18defb1e2be0112a9b0 20496 textures/q4power/hexflr2.jpg
-4d48f2baee5591cff91be2d461f749f5 78 textures/q4power/hexflr2.mat
+4ec7990f02401526973c41fb264c3bc2 91 textures/q4power/hexflr2.mat
 ab16a519a6e2bbeac4f8a9f196323bc6 10570 textures/q4power/hexflr2_norm.png
 3099e987a638f26698575a715579c66f 27419 textures/q4power/hexflr2_spec.jpg
 db2766c016337119e9e21f010ab80ffd 1182 textures/q4power/light_ceil1.jpg
@@ -7295,7 +7299,7 @@ a47c97f72fc54d5191f53cb48418352c 2036 textures/quake2/baseltwhite_c.jpg
 4dddc2797c324cbde4e8fbcc4bb6eb24 222 textures/quake2/baseltwhite_c.mat
 13e176199bd1cddebfc24386072a2ab2 2404 textures/quake2/baseltwhite_cfx.png
 00bf2e2f679fa7ae84514e7c66fc8584 28817 textures/quake2/bed3_3.jpg
-6077526027aa5022bfa7691a9173adc6 107 textures/quake2/bed3_3.mat
+2e8c086ba0db98bd8b90e2df57e1a5df 107 textures/quake2/bed3_3.mat
 a7c5cdaa63c715fa6fedec072a3b56e4 128586 textures/quake2/bed3_3_norm.png
 3fa6fadb66d55de9c4753a160ae08d2e 18776 textures/quake2/bed3_3_spec.jpg
 4a7058dae0309be9d4aff7e2597bfca7 11428 textures/quake2/bed4_1.jpg
@@ -8125,7 +8129,7 @@ bdc16a67fc34c15301260e7e8e9dff12 160961 textures/quake2/rockies.jpg
 fd8dabf8eef8e1da6c9750d1aed8c0dc 629719 textures/quake2/rockies_norm.png
 a566b040fc72e28ff88ff843a9e38110 104626 textures/quake2/rockies_spec.jpg
 51ea4cb707460eb6a9b5787deff7e342 9266 textures/quake2/sewer1.jpg
-6de5f1af5716d7c913cb4005fa31c4e2 523 textures/quake2/sewer1.mat
+8e110e53a9acc0937ba54832fc200d68 368 textures/quake2/sewer1.mat
 f521fb353badc9b5bf4d6740d469b393 84400 textures/quake2/sewer1fx.png
 1968ddd4796f349fdb9e03110f1ffbcf 238 textures/quake2/sewer2_bars.mat
 56b83220d55db1785000cb53fd4f470c 114032 textures/quake2/sewer2_bars.png
