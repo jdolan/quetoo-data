@@ -1,4 +1,8 @@
-c37bddcdf8f7532b6df97c7e38d945f2 27285305 maps/insta-rounding.bsp
+006f83b2a17b5973379737835a996338 24974668 maps/insta-rounding.bsp
+a022a4a2365fc29e7ee8f926970994b1 12060 maps/insta-rounding.nav
+d9be304ce19b6d74aeea0580e67190b9 143513 mapshots/insta-rounding/quetoo079.jpg
+37d15de81b47a08c56fe2120a10e5389 99218 mapshots/insta-rounding/quetoo080.jpg
+4a4de84b8dc65ca64e80c3dff3ca18b0 141264 mapshots/insta-rounding/quetoo081.jpg
 3c9e6b24410f76aef59c896971c43be2 586383 sky/midnight_silence.jpg
 9a832755b20df1aca0c656a7edfb09e5 34732 sprites/flare_1.png
 649ffcd19896ebe708b38f5dfb8e657c 61888 sprites/flare_2.png
@@ -31,7 +35,7 @@ f859320db345c1bcb007dde0d5449f2e 30 textures/q4power/glue1.mat
 cf37f8cb7db9a33f166a414d6695a037 48462 textures/q4power/glue1_norm.png
 a6f078afa94044ce41335b948491d8f6 6411 textures/q4power/glue1_spec.jpg
 bf5ea3525926d18defb1e2be0112a9b0 20496 textures/q4power/hexflr2.jpg
-4d48f2baee5591cff91be2d461f749f5 78 textures/q4power/hexflr2.mat
+4ec7990f02401526973c41fb264c3bc2 91 textures/q4power/hexflr2.mat
 ab16a519a6e2bbeac4f8a9f196323bc6 10570 textures/q4power/hexflr2_norm.png
 3099e987a638f26698575a715579c66f 27419 textures/q4power/hexflr2_spec.jpg
 c9fe9c9a48d1740a156840bb91848577 1776 textures/q4power/light_r1.jpg
@@ -122,7 +126,7 @@ d0fd13a4e590b639d97029cd4977d862 1465 textures/quake2/baselt_c_norm.png
 2f2760754673b83f8215d61a1ef13ef2 1352 textures/quake2/baselt_c_spec.jpg
 c3f4df238c1813f5f147a21c1784ca03 4689 textures/quake2/baselt_cfx.png
 00bf2e2f679fa7ae84514e7c66fc8584 28817 textures/quake2/bed3_3.jpg
-6077526027aa5022bfa7691a9173adc6 107 textures/quake2/bed3_3.mat
+2e8c086ba0db98bd8b90e2df57e1a5df 107 textures/quake2/bed3_3.mat
 a7c5cdaa63c715fa6fedec072a3b56e4 128586 textures/quake2/bed3_3_norm.png
 3fa6fadb66d55de9c4753a160ae08d2e 18776 textures/quake2/bed3_3_spec.jpg
 67afb00cc79b6c4ac1c18fc83ffda967 24497 textures/quake2/blume4_1.jpg
