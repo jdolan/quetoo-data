@@ -97,7 +97,7 @@ f53e222bf018d055e4847567c3bfd5cf 29101 textures/quake/cop3_4_spec.jpg
 e84063586aaffcd15adef7321f7ee69f 13268 textures/quake/dem4_1.jpg
 e87140b2debba14720956ed6168298f7 135 textures/quake/dem4_1.mat
 a265be7d068900eaf4b4cf02f928b6d2 12966 textures/quake/dem4_4.jpg
-b1502feb8d994f8399d3a89f80c13a45 98 textures/quake/dem4_4.mat
+97381859f679ff00eb248222f9303551 32 textures/quake/dem4_4.mat
 fe8a89bd180a4f0439f5cb1cf7af5af1 72405 textures/quake/dem4_4_norm.png
 515aafa81e23f69e5be9c406d234e242 6813 textures/quake/dem4_4_spec.jpg
 55091ca0496f452e474735e0a4b1e6f6 14691 textures/quake/dem5_3.jpg

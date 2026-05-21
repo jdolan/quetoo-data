@@ -102,7 +102,7 @@ ac02cb57ebc070f4b394a6eafc1db5d7 43446 textures/quake2/metal4_2.jpg
 a358bb421f8e8cd0daf6d4bf10bfa26f 279080 textures/quake2/metal4_2_norm.png
 5d94470146c8c514bb0ff4f348e1a1db 26580 textures/quake2/metal4_2_spec.jpg
 ea34b7a249ec2444aef061b430a9b206 42904 textures/quake2/metal4_2a.jpg
-11eb2dbb388134383f9a1359c822285a 178 textures/quake2/metal4_2a.mat
+0f7896be2d699e5d758365ea8d2d408a 110 textures/quake2/metal4_2a.mat
 45fdd4500337d35809ad4a282d670af7 238822 textures/quake2/metal4_2a_norm.png
 650070bda48b3e686db2032a6acc0244 37303 textures/quake2/metal4_2a_spec.jpg
 15fff846e2b0d01c3a0203a98faf51a3 21348 textures/quake2/metal4_2light.jpg

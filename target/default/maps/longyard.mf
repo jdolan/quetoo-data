@@ -137,7 +137,7 @@ be8697ed98c40948d11b441db9d9182f 7861 textures/trak5/light2_fx.png
 1630fc0c3299a46618266c9ce7877845 24504 textures/trak5/light2_norm.png
 7289cb148f925717ff91de4abc3f392f 8699 textures/trak5/light2_spec.jpg
 df924ddd1be530c2ab0aeb25a198b71d 86548 textures/trak5/ribs1.jpg
-ebfdd209ce20f0854b833fea284ab21f 95 textures/trak5/ribs1.mat
+347d3af36f10dacefe75117a0303ff50 67 textures/trak5/ribs1.mat
 1c6d929e1511a8b71386aa3208378da0 65109 textures/trak5/ribs1_norm.png
 896c77ce6ca73abd5d3bc96f132828bf 131236 textures/trak5/trim1_norm.png
 4124d4137d38a04e44a48610c2b0621d 30554 textures/trak5/trim1a.jpg

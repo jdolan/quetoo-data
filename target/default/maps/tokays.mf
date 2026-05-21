@@ -24,7 +24,7 @@ c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 9ec429af755181c3a281b1d526203b59 38357 textures/decals/stroggwall1_256.png
 e2b767ca608390c6a6c6fd5f145302b8 88418 textures/effects/water2fx.png
 00bf2e2f679fa7ae84514e7c66fc8584 28817 textures/quake2/bed3_3.jpg
-6077526027aa5022bfa7691a9173adc6 107 textures/quake2/bed3_3.mat
+2e8c086ba0db98bd8b90e2df57e1a5df 107 textures/quake2/bed3_3.mat
 a7c5cdaa63c715fa6fedec072a3b56e4 128586 textures/quake2/bed3_3_norm.png
 3fa6fadb66d55de9c4753a160ae08d2e 18776 textures/quake2/bed3_3_spec.jpg
 4a7058dae0309be9d4aff7e2597bfca7 11428 textures/quake2/bed4_1.jpg

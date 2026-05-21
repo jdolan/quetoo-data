@@ -87,7 +87,7 @@ cdf47a722a9426f5675d9652191f2a82 111 textures/quake2/liftgirder.mat
 b9ba0948170f3031520d9b3239fac4ee 55707 textures/quake2/liftgirder_norm.png
 88a288295857de167bedffdf57868ab9 20670 textures/quake2/liftgirder_spec.jpg
 939b04993fbc5f4f127e3e6a3f3bac97 4294 textures/quake2/lightstrips32.jpg
-4305f6c4eae699d4478865c0f450b8eb 275 textures/quake2/lightstrips32.mat
+3f9116163f3ead19541d8298222e4031 199 textures/quake2/lightstrips32.mat
 8eafd07e2ceeff1801c8592058eff58f 821 textures/quake2/lightstrips32_glow.png
 1d6dd996ad75680a75a7d75c5ddf807e 911 textures/quake2/lightstrips32_norm.png
 4d81d11a07d12b07ae0c16dcce50b1a0 2707 textures/quake2/lightstrips32_spec.jpg
@@ -108,7 +108,7 @@ b0b83be89d365dff27a765999be4b7be 22238 textures/quake2/metal2_1q.jpg
 0098001894ca3df6138450a52663f07c 132928 textures/quake2/metal2_1q_norm.png
 8951d84770f4790a2ad22cf07dba256c 14251 textures/quake2/metal2_1q_spec.jpg
 e0e4f8ae93f91a2a8ddc7a828ac01366 5222 textures/quake2/metal3_6.jpg
-ef44a937ea9996e5fb31bf72e462e6d9 157 textures/quake2/metal3_6.mat
+199fc944e16c5298b214a2471663e317 91 textures/quake2/metal3_6.mat
 ae0d7cea583f3122d6a201f3f4c2512b 25830 textures/quake2/metal3_6_norm.png
 d27600c5d6c7ae7318dd9d802df62e86 3519 textures/quake2/metal3_6_spec.jpg
 62842d4203693a81036c7b22a7c85488 4981 textures/quake2/metal3_6b.jpg
