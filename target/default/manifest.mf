@@ -731,13 +731,13 @@ e5ef34125d8be93676bb54349a8885cd 68093 models/weapons/quake_rocketlauncher/skin_
 01175fd30b5911769dbb330af7d8040d 56 models/weapons/quake_rocketlauncher/view.cfg
 ab570b4995a11be708b8b013ba3ee428 26 models/weapons/quake_rocketlauncher/world.cfg
 73813c7080deb431bf5a7fe7410c76e7 12288 models/weapons/quake_shotgun/.view.cfg.swp
-277dd2b64a404858c850963d3716188f 52 models/weapons/quake_shotgun/link.cfg
+dcb40419f8701bc3a10020ebe0618e7f 52 models/weapons/quake_shotgun/link.cfg
 652760b1b7f37b8f470cd4b32b262fe9 134658 models/weapons/quake_shotgun/skin.jpg
 b4b60fab924e054158944b3bcf9440a0 89 models/weapons/quake_shotgun/skin.mat
 583f029565b6b97a2f599465b9fbb081 1890155 models/weapons/quake_shotgun/skin_norm.png
-b150f72cc8f8248a538222abb078cca5 179483 models/weapons/quake_shotgun/tris.obj
-d20905a63f983a7b686bfa414dde20af 55 models/weapons/quake_shotgun/view.cfg
-e6b180ceefc7c841477ea4894181291c 38 models/weapons/quake_shotgun/world.cfg
+110e215086acccd0ad3cb7cee5f8365b 178869 models/weapons/quake_shotgun/tris.obj
+f42e4d6e62cc33ee69cf376be7783db9 55 models/weapons/quake_shotgun/view.cfg
+4d2ba942abca7ec5f178166b9cdab701 25 models/weapons/quake_shotgun/world.cfg
 6e1079632713edd9e74161ee47108fd1 56 models/weapons/quake_supernailgun/link.cfg
 e369518b5143967563571be130996135 15745 models/weapons/quake_supernailgun/skin.jpg
 8f01b495f30fe54e793c784f00aba771 97 models/weapons/quake_supernailgun/skin.mat
