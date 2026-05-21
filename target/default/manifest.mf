@@ -422,7 +422,7 @@ a3e357bb2c820814f19aa6978cb5329c 269422 models/armor/quake_jacket/skin_norm.png
 4b2e341ead35bf4c9c3df050ca7157bd 215494 models/armor/quake_jacket/tris.obj
 35b3ed3c3d4cdfb592dace9fb692dc39 26 models/armor/quake_jacket/world.cfg
 daadeeb098207ab12b234c947b088763 16305 models/armor/shard/skin.jpg
-9c0a32c6b2d8742c1135d273737f551f 362 models/armor/shard/skin.mat
+ca7c46471c47c34181cf4729d2386b5b 364 models/armor/shard/skin.mat
 83a10be6c50927c438d1bca92334a504 3869 models/armor/shard/skin_glow.png
 9974b81d09ec6ffa60242d3805090fad 21559 models/armor/shard/skin_norm.png
 0515dc385d591f060f6bf14437d8bd3e 56918 models/armor/shard/skin_spec.png
