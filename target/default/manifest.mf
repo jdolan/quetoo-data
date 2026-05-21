@@ -731,13 +731,13 @@ e5ef34125d8be93676bb54349a8885cd 68093 models/weapons/quake_rocketlauncher/skin_
 01175fd30b5911769dbb330af7d8040d 56 models/weapons/quake_rocketlauncher/view.cfg
 ab570b4995a11be708b8b013ba3ee428 26 models/weapons/quake_rocketlauncher/world.cfg
 73813c7080deb431bf5a7fe7410c76e7 12288 models/weapons/quake_shotgun/.view.cfg.swp
-277dd2b64a404858c850963d3716188f 52 models/weapons/quake_shotgun/link.cfg
+dcb40419f8701bc3a10020ebe0618e7f 52 models/weapons/quake_shotgun/link.cfg
 652760b1b7f37b8f470cd4b32b262fe9 134658 models/weapons/quake_shotgun/skin.jpg
 b4b60fab924e054158944b3bcf9440a0 89 models/weapons/quake_shotgun/skin.mat
 583f029565b6b97a2f599465b9fbb081 1890155 models/weapons/quake_shotgun/skin_norm.png
-b150f72cc8f8248a538222abb078cca5 179483 models/weapons/quake_shotgun/tris.obj
-d20905a63f983a7b686bfa414dde20af 55 models/weapons/quake_shotgun/view.cfg
-e6b180ceefc7c841477ea4894181291c 38 models/weapons/quake_shotgun/world.cfg
+110e215086acccd0ad3cb7cee5f8365b 178869 models/weapons/quake_shotgun/tris.obj
+f42e4d6e62cc33ee69cf376be7783db9 55 models/weapons/quake_shotgun/view.cfg
+4d2ba942abca7ec5f178166b9cdab701 25 models/weapons/quake_shotgun/world.cfg
 6e1079632713edd9e74161ee47108fd1 56 models/weapons/quake_supernailgun/link.cfg
 e369518b5143967563571be130996135 15745 models/weapons/quake_supernailgun/skin.jpg
 8f01b495f30fe54e793c784f00aba771 97 models/weapons/quake_supernailgun/skin.mat
@@ -6550,7 +6550,7 @@ bf44cfd4f1dc3c112b354f082d6f3a73 104 textures/quake/rune_a.mat
 6ff4527b3225a872bc3c19d498dfe438 7473 textures/quake/rune_a_spec.jpg
 9c7c4cece173bcab6aedcb1ea20a6060 11825 textures/quake/rune_pad.jpg
 3e2acd74b3745a76ab45a8bf24780574 12024 textures/quake/rune_pad1.jpg
-9ac88245bb5954ba9fa5eedffa2917ec 174 textures/quake/rune_pad1.mat
+85726913449e29250c4944f3e4c95db4 197 textures/quake/rune_pad1.mat
 2d7ca5859d9e680a4d83dde9c9459930 7598 textures/quake/rune_pad1_glow-blue.png
 006723727f101c836fe1b12f593cf0b4 7583 textures/quake/rune_pad1_glow-green.png
 e9b4615a3fd2ec65b0d9ab5c7d1fcf13 7609 textures/quake/rune_pad1_glow-red.png
@@ -6559,7 +6559,7 @@ d2255ca098ffe23cd907ae10c030cac6 7648 textures/quake/rune_pad1_glow.png
 2f8f6c2a71d0e1a9c56de0443be93219 20986 textures/quake/rune_pad1_norm.png
 7679e2395605f0d89f40ff7f02c34d82 12094 textures/quake/rune_pad1_spec.jpg
 f3c119fefdaa6581f79d49155f379a67 11988 textures/quake/rune_pad2.jpg
-35104cc404cb1f57999a368dc2331628 174 textures/quake/rune_pad2.mat
+b91f85649cad603b3f916a44982411a3 197 textures/quake/rune_pad2.mat
 41ef1dbbea3cbefa73b5a1d099b7b227 8398 textures/quake/rune_pad2_glow.png
 3d27c2f23ef72f2fb9e320bed3f81eef 20524 textures/quake/rune_pad2_norm.png
 f8d3df8c0d4e392649dca8dde93c9d12 12112 textures/quake/rune_pad2_spec.jpg
@@ -10328,7 +10328,7 @@ aa7c011d01e30c6f0eca678432146667 167 textures/trak5/panel1a.mat
 f0b7bba2f2266aab7187d88e609995cd 290738 textures/trak5/panel2_norm.png
 cf4e6b34bf8d586f70b2979539b1f0c3 91529 textures/trak5/panel2a.jpg
 b8f201a32057ac46ea7377ff9f7bf529 104 textures/trak5/panel2a.mat
-17a05515e9072d03b70e1f1595719675 459 textures/trak5/pipe1_norm.png
+e7475097f6a5630cb6dfa4d29164c74e 84419 textures/trak5/pipe1_norm.png
 91d3b72495a024e549f9f28b5947045a 16741 textures/trak5/pipe1a.jpg
 8093f4de14c5337f50ee36cd0ee86647 71 textures/trak5/pipe1a.mat
 168f4ffe780d0b9928fa7b30c2d2fcfd 11572 textures/trak5/pipe1b.jpg
@@ -10336,7 +10336,7 @@ b3ecad770827dcb79dc1fec721977eec 71 textures/trak5/pipe1b.mat
 bee08a2c192d687bfe31f709c44be134 11613 textures/trak5/pipe1c.jpg
 fbb448d022d5161b5fd10f30cbae83f0 71 textures/trak5/pipe1c.mat
 d385049e652ee65fcc608625a4f5a6ec 12196 textures/trak5/pipe1d.jpg
-4172c34a5415230b3c695ed6bd143e39 134 textures/trak5/pipe1d.mat
+a2feec42db15f2433169bb9b91f0851c 71 textures/trak5/pipe1d.mat
 de71d066e2b39bf969014a395492b142 258810 textures/trak5/pipes1.jpg
 594f6197e2d072cf52dae73ac5aa4fad 106 textures/trak5/pipes1.mat
 c3cd6f2272bfb18215864009587e7dd9 1102836 textures/trak5/pipes1_norm.png
