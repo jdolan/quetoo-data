@@ -1,8 +1,8 @@
 {
 	diffusemap quake/exit02_3
-	roughness 2.00
-	hardness 2.00
-	specularity 1.25
-	parallax 1.50
-	shadow 0.00
+	roughness 4.97
+	hardness 4.04
+	specularity 2.04
+	parallax 2.98
+	shadow 8.00
 }

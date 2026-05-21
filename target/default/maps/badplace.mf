@@ -39,7 +39,7 @@ a689447f5744b0851e8aeccd90987f39 13932 textures/quake/lava2_luma.jpg
 7a40345ecca1b699eae8635fc7928e75 51783 textures/quake/lava2_norm.png
 e3122f6acd4c362831bb98a64e5521c0 16156 textures/quake/lava2_spec.jpg
 3a90a6939e019629b4ef48c5c06af7a5 8954 textures/quake/light3_7.jpg
-9f39c53b51f444813ab26ef86007d8e8 185 textures/quake/light3_7.mat
+2be20ef88c2e7224616237047e831e1d 185 textures/quake/light3_7.mat
 34e8c2c7e803555d1bc3376a0cdd2d56 2165 textures/quake/light3_7_luma.jpg
 af4fcf71e09a5b59aca93d2cff4b5de0 39380 textures/quake/light3_7_norm.png
 6f293c67d5849b81f76b274b25bb1436 7896 textures/quake/light3_7_spec.jpg

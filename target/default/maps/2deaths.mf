@@ -54,7 +54,7 @@ cdae8f7aa006bdde9b03cde4ce6faebc 24454 textures/quake/cop1_2.jpg
 0e32c8d01d1252f5633ca861ac04a836 156899 textures/quake/cop1_4_norm.png
 6f72e87f058b2528af285d8b34e32f02 27073 textures/quake/cop1_4_spec.jpg
 89c1cf88670404c048548b088d3a4db3 28758 textures/quake/cop1_5.jpg
-ea20798333b3f5965bb65ef0af62c6bd 137 textures/quake/cop1_5.mat
+39589004ad530ab707933ad9af80b6b0 150 textures/quake/cop1_5.mat
 ae4196d80e489fe4652b9aa19351d8a1 23253 textures/quake/cop1_7.jpg
 b294f1283c429f18940a1be13ce0f9bc 106 textures/quake/cop1_7.mat
 0f099a7d868be18253fc681364f6125a 146945 textures/quake/cop1_7_norm.png

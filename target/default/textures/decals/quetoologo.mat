@@ -1,13 +1,13 @@
 {
 	diffusemap decals/quetoologo
-	roughness 2.00
+	roughness 8.00
 	hardness 8.00
-	specularity 4.04
-	parallax 3.00
+	specularity 1.97
+	parallax 2.96
 	shadow 4.04
 	contents "mist detail"
 	surface "blend_100 alpha_test"
-	alpha_test 0.332
+	alpha_test 0.477
 	{
 		texture decals/quetoologo_glow
 		blend GL_SRC_ALPHA GL_ONE

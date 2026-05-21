@@ -15,6 +15,6 @@
 		lighting 1 flat
 		scale.s .5
 		scale.t .5
-		shell 2
+		shell .5
 	}
 }

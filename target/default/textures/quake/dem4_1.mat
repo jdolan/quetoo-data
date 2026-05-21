@@ -2,7 +2,8 @@
 	diffusemap quake/dem4_1
 	normalmap quake/dem4_4_norm
 	specularmap quake/dem4_4_spec
-	roughness 0.00
+	roughness 0.99
 	hardness 2.50
-	parallax 2.73
+	parallax 2.02
+	shadow 8.00
 }
