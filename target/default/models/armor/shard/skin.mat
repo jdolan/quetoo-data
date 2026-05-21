@@ -14,7 +14,7 @@
 		shell 2
 		envmap envmaps/green
 		blend GL_SRC_ALPHA GL_ONE
-		color .5 1 .5 .2
+		color .2 .4 .2 .15
 		lighting 1 flat
 		scale.s .5
 		scale.t .5
