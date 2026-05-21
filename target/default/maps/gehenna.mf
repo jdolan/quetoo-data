@@ -174,6 +174,6 @@ c568931caee8172e6422861191505d7f 9139 textures/trak5/light2.jpg
 be8697ed98c40948d11b441db9d9182f 7861 textures/trak5/light2_fx.png
 1630fc0c3299a46618266c9ce7877845 24504 textures/trak5/light2_norm.png
 7289cb148f925717ff91de4abc3f392f 8699 textures/trak5/light2_spec.jpg
-17a05515e9072d03b70e1f1595719675 459 textures/trak5/pipe1_norm.png
+e7475097f6a5630cb6dfa4d29164c74e 84419 textures/trak5/pipe1_norm.png
 91d3b72495a024e549f9f28b5947045a 16741 textures/trak5/pipe1a.jpg
 8093f4de14c5337f50ee36cd0ee86647 71 textures/trak5/pipe1a.mat
