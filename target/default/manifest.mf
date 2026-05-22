@@ -150,9 +150,9 @@ d905d05aa91637132e0721081cbda11f 10605449 maps/claustrophobopolis.bsp
 68b443a7efbc810e01570b897753f760 836518 maps/claustrophobopolis.map
 0ea72aefeb2c06e931b103512a168b2c 9485 maps/claustrophobopolis.mf
 e88cfc3a5cf855047aef392efc982448 5796 maps/claustrophobopolis.nav
-bf295f08bc632c2dba8d67f42f44fdb9 6929552 maps/darkzone.bsp
-76cdb96fa6bb58ce7b4baecbeb51ec46 499412 maps/darkzone.map
-e77c2837e4fec19712e9d6613aa959a4 3808 maps/darkzone.mf
+4768f9b6520baea6ebd212b06c633a9c 6929501 maps/darkzone.bsp
+8729a99577f4714a51ac3193bfa86fb3 495173 maps/darkzone.map
+02cf5c51cf223a5b8fb901b544a2585d 3808 maps/darkzone.mf
 4994859c2940812dd17f7138e11cf6ea 6132 maps/darkzone.nav
 767df350370841e0d5415055643a0389 15094765 maps/edge.bsp
 55d9eaedd63a0076f78c9ae016f8abe7 1360201 maps/edge.map
