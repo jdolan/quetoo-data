@@ -3,11 +3,11 @@
 // entity 0
 {
 "classname" "worldspawn"
+"_tb_textures" "textures/common;textures/decals;textures/effects;textures/quake2"
 "ambient" "0.2"
 "message" "The Slimy Place"
 "model" "*0"
 "sky" "white"
-"_tb_textures" "textures/common;textures/decals;textures/effects;textures/quake2"
 // brush 0
 {
 ( -440 616 -112 ) ( -440 616 16 ) ( -440 488 -112 ) quake2/fmet1_2 0 0 0 0.5 0.5
@@ -9373,10 +9373,9 @@
 // entity 66
 {
 "classname" "target_light"
-"color" ".8 0 0"
-"intensity" "0.75"
+"color" "1 0 0"
 "origin" "-488 -52 114"
-"radius" "40"
+"radius" "80"
 "team" "light2"
 "wait" "2"
 }
@@ -9384,10 +9383,9 @@
 {
 "classname" "target_light"
 "angle" "270"
-"color" "0 .8 0"
-"intensity" "0.75"
+"color" "0 1 0"
 "origin" "-488 -76 114"
-"radius" "40"
+"radius" "80"
 "spawnflags" "1"
 "targetname" "itsatrap"
 "team" "light2"
@@ -9811,10 +9809,10 @@
 // entity 129
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Clip Brushes"
 "_tb_id" "3"
 "_tb_layer_sort_index" "1"
+"_tb_name" "Clip Brushes"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( 800 268 -20 ) ( 800 288 -24 ) ( 800 288 -20 ) common/clip 0 0 0 0.25 0.25
@@ -9909,10 +9907,10 @@
 // entity 130
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Slime"
 "_tb_id" "4"
 "_tb_layer_sort_index" "2"
+"_tb_name" "Slime"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( -876 360 -312 ) ( -876 408 -162 ) ( -876 360 -162 ) quake2/slime0 0 0 0 0.5 0.5
@@ -10338,16 +10336,16 @@
 // entity 131
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Dust"
 "_tb_id" "5"
 "_tb_layer_sort_index" "3"
+"_tb_name" "Dust"
+"_tb_type" "_tb_layer"
 }
 // entity 132
 {
 "classname" "misc_dust"
-"type" "fizz"
 "_tb_layer" "5"
+"type" "fizz"
 // brush 0
 {
 ( -80 -80 -224 ) ( -80 -20 -124 ) ( -80 -80 -124 ) common/dust 0 0 0 0.25 0.25
