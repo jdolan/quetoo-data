@@ -122,9 +122,9 @@ dd6cd8156488b80ed462950bc273832b 704 maps.lst
 ec516019df4e3004bb74c61e6bc32054 790216 maps/2deaths.map
 f7c1ba5636d35d2d70824b393e21785e 7317 maps/2deaths.mf
 5db92fe47355bd8dcfb63eeafcac5abe 8476 maps/2deaths.nav
-c683e60e9a70c9cb3fc169d4d3d48f17 13529809 maps/abase.bsp
-1665c7325962f9f922266d2db2284142 933310 maps/abase.map
-220cbe80c1ed71b4762556f9b4959645 31767 maps/abase.mf
+d2322929e92fcabd002c5c321985a67b 13536601 maps/abase.bsp
+453eaaab4ababd3ae59a88b58e0d2755 935398 maps/abase.map
+cd059d3a52f343e71995d92392bfaa23 31769 maps/abase.mf
 ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
 92a752760f9ee307639ee4c495ff1d14 5333011 maps/aerowalk.bsp
 a137bffdc9c56b8ceba2d11394359b2f 565340 maps/aerowalk.map
@@ -3373,7 +3373,7 @@ f5201754343a466b7f3e3e412eba13af 1960225 textures/decals/cweb1.png
 0dc880ba7a86e143bb2284d566bba109 12076 textures/decals/dirt1.png
 64283409a4636677d949151b28a0f5f7 89 textures/decals/dirt2.mat
 e9e748280026386b544f7f0e701f4014 39639 textures/decals/dirt2.png
-6b04eddd1221e673d4856d215a0349ac 80 textures/decals/eq2_wires_01.mat
+bd809f31fecdcafd86485f32ccaf580c 97 textures/decals/eq2_wires_01.mat
 d8f062e0782cc61e7b30f048af60ea41 36069 textures/decals/eq2_wires_01.png
 727962b160f2f65412d9fe290c738255 7067 textures/decals/fence.png
 037c791352c497c5e1551a96bc12804e 184 textures/decals/flr3_mark.mat
