@@ -1,5 +1,6 @@
 {
 	diffusemap decals/eq2_wires_01
-	surface "blend_100"
+	surface "alpha_test"
 	contents "mist detail"
+	alpha_test 0.5
 }
