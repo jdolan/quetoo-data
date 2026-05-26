@@ -198,9 +198,9 @@ e6d3dd4f1d5984fb9ea439c49568061d 5731686 maps/rage.bsp
 6d14ea470d13d07d316a2044443253b5 522159 maps/rage.map
 adefd55882435c03508be19f255ea784 9947 maps/rage.mf
 db567133973d9cf43a05e7350e32d9c1 5372 maps/rage.nav
-d9e9f9736f516f5f8a2aaf1bfb450909 5561001 maps/slimyplace.bsp
-0fcb1a34c0ed789e762d63e5cd67c662 592489 maps/slimyplace.map
-68898b93f596a6f71cd153d89c491bd2 8522 maps/slimyplace.mf
+25ec8bb7d627cd6b6497e3dab21fe705 5674133 maps/slimyplace.bsp
+f4a82335d9909df26839a8ccb19ffe92 600973 maps/slimyplace.map
+b6e9ac56c836bcbc876fa615dd353d2e 8522 maps/slimyplace.mf
 2fa04e2985b87b3032dad006dc1882e3 5524 maps/slimyplace.nav
 ee37469d3934f08d9e5c30635d516bd8 7114444 maps/tokays.bsp
 a2ae01272ff78576b34dbfe3b6a674da 778681 maps/tokays.map
