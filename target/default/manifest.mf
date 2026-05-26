@@ -170,9 +170,9 @@ ebedada09b987b64581382315fc3fec4 24994809 maps/gehenna.bsp
 067810cdae1f06e3b1f4296ae425aaaa 1948422 maps/gehenna.map
 804588f633a018819ce40c80afc72465 12562 maps/gehenna.mf
 c95b0cb18c2e5deeb529abc293fd4bbe 12492 maps/gehenna.nav
-6d7f4612eb26440202b4127d9000dab5 16493086 maps/hallways.bsp
-c7ec278580367ba5c287ef995f0b0d14 1367192 maps/hallways.map
-75912532d8f68e2fb8f08164f4d78c73 9611 maps/hallways.mf
+44a03eb85441483179245cea0212b89b 16547100 maps/hallways.bsp
+a2cb572bb1f47eb52f8a804765d20d3f 1373029 maps/hallways.map
+17c82bab7f94a15c8456ceaf20d9fffb 9678 maps/hallways.mf
 ddbb2038b24723624bb37d03837e0d7f 11732 maps/hallways.nav
 006f83b2a17b5973379737835a996338 24974668 maps/insta-rounding.bsp
 bab60bde7d06212fa6e1b8ac69d3cf50 1084753 maps/insta-rounding.map
