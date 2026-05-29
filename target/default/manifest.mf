@@ -162,10 +162,10 @@ e88cfc3a5cf855047aef392efc982448 5796 maps/claustrophobopolis.nav
 a7d408be1a867973002a4e235c67409a 1764276 maps/fraggin.map
 9dfeaf22e7c65b96da7aad1c6e7c2621 14479 maps/fraggin.mf
 079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
-eae833c122779ba388936f032b11164e 9211603 maps/fragpipe.bsp
-8dde6b25d1f6bae059df584e5fb3fdbe 824220 maps/fragpipe.map
-11abc27c0c095beea5ac23f8c6482aff 11473 maps/fragpipe.mf
-79f36e984beb388517bc86b09bf98e5d 6260 maps/fragpipe.nav
+73fadba5ccaadc49bc2ebe151a2854df 9220033 maps/fragpipe.bsp
+fb9a63fc024a06638b00bf7733d8f7ab 824257 maps/fragpipe.map
+b7f68b85c2b0417f2adb44853c99175a 11476 maps/fragpipe.mf
+a2e4df8258fb16bd6200967790355a77 5876 maps/fragpipe.nav
 ebedada09b987b64581382315fc3fec4 24994809 maps/gehenna.bsp
 067810cdae1f06e3b1f4296ae425aaaa 1948422 maps/gehenna.map
 804588f633a018819ce40c80afc72465 12562 maps/gehenna.mf
