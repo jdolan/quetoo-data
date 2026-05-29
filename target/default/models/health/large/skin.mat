@@ -4,7 +4,7 @@
 	hardness 3
 	specularity 2
 	{
-		shell 3
+		shell 1
 		envmap envmaps/red
 		blend GL_SRC_ALPHA GL_ONE
 		color 1 1 1 .2

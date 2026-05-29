@@ -8,6 +8,7 @@
 "items" "quake"
 "message" "^1T^7he ^1D^7arker ^1Z^7one"
 "model" "*0"
+"author": "Remake by jdolan"
 "sky" "sky1"
 // brush 0
 {

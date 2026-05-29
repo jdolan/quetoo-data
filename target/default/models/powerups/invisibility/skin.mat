@@ -6,8 +6,8 @@
 	{
 		envmap envmaps/gold
 		blend GL_SRC_ALPHA GL_ONE
-		color 1 1 1 1
-		lighting 1 flat
+		color .33 .33 .33 .5
+		lighting .33 flat
 		scale.s .5
 		scale.t .5
 		scroll.s .5

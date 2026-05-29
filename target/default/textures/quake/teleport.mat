@@ -7,13 +7,13 @@
 		blend GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		color 1.00 1.00 1.00 0.666
 		warp 0.33 3.00
-		lighting 1 flat
+		lighting 2 flat
 	}
 	{
 		texture quake/teleport
 		blend GL_SRC_ALPHA GL_ONE
 		color 1.00 1.00 1.00 0.666
 		warp -0.33 -3.00
-		lighting 1 flat
+		lighting 2 flat
 	}
 }

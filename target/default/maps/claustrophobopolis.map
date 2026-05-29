@@ -5,11 +5,11 @@
 "classname" "worldspawn"
 "ambient" "0.19"
 "items" "quake"
-"message" "Claustrophobopolis"
+"message" "^1Claustro^8phobopolis^7"
 "sky" "sky1"
 "_tb_textures" "textures/common;textures/effects;textures/quake"
 "version" "1.0.11"
-"author" "Remake by ____"
+"author" "Remake by jdolan"
 // brush 0
 {
 ( -64 -736 -32 ) ( -64 -704 -32 ) ( -64 -704 192 ) quake/metal4_4 0 0 0 0.25 0.25

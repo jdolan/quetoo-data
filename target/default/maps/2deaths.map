@@ -7,6 +7,7 @@
 "message" "^1A ^3Place ^1of ^3Two ^1Deaths^7"
 "model" "*0"
 "sky" "sky1"
+"author" "Remake by Thorn, jdolan"
 // brush 0
 {
 ( -560 384 160 ) ( -560 272 160 ) ( -560 272 144 ) quake/metal1_3 0 0 0 0.25 0.25 134217728 0 0

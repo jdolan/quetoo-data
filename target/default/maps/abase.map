@@ -7,7 +7,7 @@
 "ambient" "0.125"
 "author" "Skies912 - Remake of DM3 from Quake 1"
 "items" "quake"
-"message" "The Abandoned Base"
+"message" "^7The ^2Abandoned ^3Base^7"
 "model" "*0"
 "sky" "miramar"
 "version" "1.0.14"

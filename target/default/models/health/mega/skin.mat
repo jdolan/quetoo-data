@@ -7,7 +7,7 @@
 		shell 5
 		envmap envmaps/blue
 		blend GL_SRC_ALPHA GL_ONE
-		color .666 .888 1 .2
+		color 0 1 .333 .333
 		lighting 1 flat
 		scale.s .5
 		scale.t .5

@@ -1,4 +1,4 @@
-d905d05aa91637132e0721081cbda11f 10605449 maps/claustrophobopolis.bsp
+975e43ec10b7708f8e237413947128f9 10605457 maps/claustrophobopolis.bsp
 e88cfc3a5cf855047aef392efc982448 5796 maps/claustrophobopolis.nav
 bc14677052aca2856ead1ddf1c16ddbf 175634 mapshots/claustrophobopolis/quetoo019.jpg
 f761e389cfb3740265d2638084129858 210966 mapshots/claustrophobopolis/quetoo021.jpg
@@ -134,7 +134,7 @@ febf9184d0815ea3ab825181cc47545e 37237 textures/quake/rune2_4_norm.png
 ef7eb0b9d7216a584a93d1fa0cfe3562 245 textures/quake/rune2_5.mat
 020f5df9bd544d388f9c2aff70109116 3461 textures/quake/rune2_5_luma.jpg
 54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
-eb98791d94c2a961846fbd3320f29d89 332 textures/quake/teleport.mat
+de40f7e6ecfe6644e1e85636f919a0af 332 textures/quake/teleport.mat
 bde6b610a9696433425cf8ef9782c0bd 11083 textures/quake/water0.jpg
 902ed0f31bf846900a8e2d7cca307c09 248 textures/quake/water0.mat
 70350b37ed7b9d3ffd5ad38447de5afe 7647 textures/quake/water0_spec.jpg

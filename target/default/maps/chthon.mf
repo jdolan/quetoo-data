@@ -1,4 +1,4 @@
-a054135f40910e820d9a3c9c221a0ac5 20937468 maps/chthon.bsp
+707fa75acc58c639bd5c92bce9de133b 20937468 maps/chthon.bsp
 df9e549ba7aaf46759571d269362b888 6492 maps/chthon.nav
 eb01a62943d8de39d1cc71ec86080492 167477 mapshots/chthon/quetoo084.jpg
 d577d529b30c0b40a30ed234498f7c36 166484 mapshots/chthon/quetoo085.jpg
@@ -287,7 +287,7 @@ bd291177501d51842c16525030e770e0 109 textures/quake/tech04_9.mat
 d1bacc040311f11e48d99069be48ab7d 11504 textures/quake/tech04_9_norm.png
 53d6860736dc1ee4dc013ff2910afbee 5280 textures/quake/tech04_9_spec.jpg
 54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
-eb98791d94c2a961846fbd3320f29d89 332 textures/quake/teleport.mat
+de40f7e6ecfe6644e1e85636f919a0af 332 textures/quake/teleport.mat
 c9f4356075ae0261128577c1ff5c2b23 26607 textures/quake/wizmet1_1.jpg
 0ffc07a72f1965e5979753e049672b68 45 textures/quake/wizmet1_1.mat
 99b05ea146a5459bc61dcad587c5fcee 177793 textures/quake/wizmet1_1_norm.png

@@ -1,4 +1,4 @@
-1e8205d68b18de3177d96b7ec4f2e358 8755113 maps/2deaths.bsp
+8581beced66605b3736edf8668da255d 8755149 maps/2deaths.bsp
 5db92fe47355bd8dcfb63eeafcac5abe 8476 maps/2deaths.nav
 9008535dd81e400c4dff83e643fa6bae 216659 mapshots/2deaths/quetoo003.jpg
 49034947a1767fdda10c6303a855ac71 334483 mapshots/2deaths/quetoo004.jpg
@@ -102,7 +102,7 @@ a1601ef78c2aadd7e88022fdfb458fbe 20639 textures/quake/metal1_3.jpg
 944d8f8e758479bedc324f60043e1e96 29613 textures/quake/metal2_2.jpg
 b6ef81f8b71a4752a312ef7e5b00040c 102 textures/quake/metal2_2.mat
 54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
-eb98791d94c2a961846fbd3320f29d89 332 textures/quake/teleport.mat
+de40f7e6ecfe6644e1e85636f919a0af 332 textures/quake/teleport.mat
 2ca10c7e3f202f26d7c61b820be20705 167468 textures/quake2/brlava.jpg
 4a759e217d77e90eaa080c9d1e8a62c7 296 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg

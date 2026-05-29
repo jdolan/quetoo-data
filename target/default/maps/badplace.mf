@@ -1,4 +1,4 @@
-0fe11642e7af8b42666fab005b6ba025 5745808 maps/badplace.bsp
+5f8add628b9dc570b2cf54197cdca98e 5746034 maps/badplace.bsp
 3a370595b5778bf3cd9781a4b7a17c9a 2716 maps/badplace.nav
 d8d1928af2743e7a26bdb37cc3530636 254474 mapshots/badplace/quetoo068.jpg
 041b2a6541ec36f1694d2a4a6d94fdb9 222683 mapshots/badplace/quetoo069.jpg
@@ -78,4 +78,4 @@ aa668755deaa50b1db65101f939361b2 11197 textures/quake/techlight_01.jpg
 5390440c35e1e939fac6ee45cbe77945 44205 textures/quake/techlight_01_norm.png
 404001ea3995d07de55a93c75ccf3202 8546 textures/quake/techlight_01_spec.jpg
 54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
-eb98791d94c2a961846fbd3320f29d89 332 textures/quake/teleport.mat
+de40f7e6ecfe6644e1e85636f919a0af 332 textures/quake/teleport.mat
