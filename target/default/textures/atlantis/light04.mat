@@ -3,6 +3,7 @@
 	{
 		texture atlantis/light04_glow
 		blend GL_SRC_ALPHA GL_ONE
+		emissive 0.5
 	}
 	{
 		scale.s 1.25

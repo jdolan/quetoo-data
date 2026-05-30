@@ -4,5 +4,6 @@
 	{
 		texture atlantis/light03_glow
 		blend GL_SRC_ALPHA GL_ONE
+		emissive 1
 	}
 }

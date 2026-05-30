@@ -9,5 +9,6 @@
 		texture atlantis/circlelight_glow
 		blend GL_SRC_ALPHA GL_ONE
 		color 1.00 1.00 1.00 0.75
+		emissive 0.65
 	}
 }

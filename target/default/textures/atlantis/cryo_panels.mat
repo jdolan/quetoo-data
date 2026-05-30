@@ -5,5 +5,6 @@
 	{
 		texture atlantis/cryo_panels_glow
 		blend GL_SRC_ALPHA GL_ONE
+		emissive 0.65
 	}
 }

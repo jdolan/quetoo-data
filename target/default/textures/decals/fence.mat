@@ -1,0 +1,6 @@
+{
+	diffusemap decals/fence
+	surface "alpha_test"
+	contents "mist detail"
+	alpha_test 0.5
+}
