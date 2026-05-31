@@ -188,7 +188,6 @@
  wait : Number of seconds the button stays pressed (default 1, -1 = indefinitely).
  lip : Lip remaining at end of move (default 4 units).
  sounds : The sound set for the button (0 default, -1 silent).
- atten : The attenuation level for button sounds (0 = none, 1 = linear, 2 = square, 3 = cubic, default = 2).
  health : If set, the button must be killed instead of touched to use.
  targetname : The target name of this entity if it is to be triggered.
 */
@@ -216,7 +215,6 @@
  wait : wait before returning (3 default, -1 = never return).
  lip : The lip remaining at end of move (default 8 units).
  sounds : The sound set for the door (0 default, 1 stone, -1 silent).
- atten : The attenuation level for door sounds (0 = none, 1 = linear, 2 = square, 3 = cubic, default = 2).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
  targetname : The target name of this entity if it is to be triggered.
 
@@ -235,7 +233,6 @@
  rotation : The rotation the door will open, in degrees (default 90).
  wait : wait before returning (3 default, -1 = never return).
  sounds : The sound set for the door (0 default, 1 stone, -1 silent).
- atten : The attenuation level for door sounds (0 = none, 1 = linear, 2 = square, 3 = cubic, default = 2).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
  targetname : The target name of this entity if it is to be triggered.
 
@@ -259,7 +256,6 @@
  wait : wait before returning (3 default, -1 = never return).
  lip : The lip remaining at end of move (default 8 units).
  sounds : The sound set for the door (0 default, 1 stone, -1 silent).
- atten : The attenuation level for door sounds (0 = none, 1 = linear, 2 = square, 3 = cubic, default = 2).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
  targetname : The target name of this entity if it is to be triggered.
 
@@ -288,7 +284,6 @@
  lip : The lip remaining at end of move (default 8 units).
  height : If set, this will determine the extent of the platform's movement, rather than implicitly using the platform's height.
  sounds : The sound set for the platform (0 default, 1 stone, -1 silent).
- atten : The attenuation level for platform sounds (0 = none, 1 = linear, 2 = square, 3 = cubic, default = 2).
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags --------
@@ -334,7 +329,6 @@
  speed : The speed with which the train moves (default 100).
  dmg : The damage inflicted on players who block the train (default 2).
  sound : The looping sound to play while the train is in motion.
- atten : The attenuation level for train sounds (0 = none, 1 = linear, 2 = square, 3 = cubic, default = 2).
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags --------
@@ -838,7 +832,6 @@
  Client-side emission of ambient sounds.
 
  -------- Keys --------
- atten : The attenuation (0 = none, 1 = linear, 2 = exponential, 3 = cubic, default = 2).
  drift : The factor of randomized drift applied to the emission rate.
  hz : The emission rate, in events-per-second (default 0).
  sound : The sound name, e.g. edge/wind.
@@ -959,11 +952,6 @@
 
  -------- Keys --------
  sound : The name of the sample to play, e.g. voices/haunting.
- atten : The attenuation level; higher levels drop off more quickly (default 1):
- 0 : No attenuation, send the sound to the entire level.
- 1 : Normal attenuation, hearable to all those in PHS of entity.
- 2 : Idle attenuation, hearable only by those near to entity.
- 3 : Static attenuation, hearable only by those very close to entity.
  targetname : The target name of this entity.
 
  -------- Spawn flags --------

@@ -1,4 +1,4 @@
-a1858c0b874142a7fc2ad4563b0fc1fd 15094765 maps/edge.bsp
+552577c7bb80847337fa0dcb64b68108 15346537 maps/edge.bsp
 63f90b4907fda4f189064bfacba265a8 13036 maps/edge.nav
 fc8b5e8534faed21b9be46d1abcc0902 167231 mapshots/edge/quetoo014.jpg
 070eb7d1762f9c3097298daeb1046488 297476 mapshots/edge/quetoo015.jpg
