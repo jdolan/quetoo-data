@@ -210,9 +210,9 @@ a77c468fdf6c3e0000b6f5eceea4445a 10047 maps/tokays.mf
 ebbb140bb3b3889bdc5002c6881d46c4 1575489 maps/torn.map
 f7a32ce835864d07946f1b0e567012b5 9450 maps/torn.mf
 fa1dc273715e3e6817646f0ff74d52d0 5164 maps/torn.nav
-d6a2e8e2059986267634beb999718704 13891449 maps/warehouse.bsp
-27a0bfed9a853a5667a6a12e921497d6 1000876 maps/warehouse.map
-fbb1f3dc7f7e2e2f45c172855f7e70cf 11398 maps/warehouse.mf
+b4c564f2c037661481f435a58fd62081 14264783 maps/warehouse.bsp
+38f1c69b724b62ea35b6c4b956beede3 1002524 maps/warehouse.map
+1599da53380af8917cd166f137aa8e68 11398 maps/warehouse.mf
 e4f0ed5f0ad7fb0a7a703e9ca7459c59 9764 maps/warehouse.nav
 9008535dd81e400c4dff83e643fa6bae 216659 mapshots/2deaths/quetoo003.jpg
 49034947a1767fdda10c6303a855ac71 334483 mapshots/2deaths/quetoo004.jpg
