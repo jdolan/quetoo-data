@@ -6,7 +6,7 @@
 	{
 		texture atlantis/light07_glow
 		blend GL_SRC_ALPHA GL_ONE
-		emissive 0.5
+		color 1.5 1.5 1.5 1
 	}
 	{
 		scale.s 1.25

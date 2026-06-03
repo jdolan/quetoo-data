@@ -1,8 +1,0 @@
-{
-	diffusemap atlantis/metal_thing1
-	parallax 1.5
-	{
-		texture atlantis/metal_thing1_glow
-		blend GL_SRC_ALPHA GL_ONE
-	}
-}
