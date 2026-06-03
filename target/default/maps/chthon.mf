@@ -8,7 +8,7 @@ b257b5354aeac03ea22908a323a4cdf2 148826 mapshots/chthon/quetoo091.jpg
 caf99ebf081180613f2b32a8bdf21ecc 224440 models/mapobjects/chthon/chthon.obj
 503f7b45a4778dd2f78703ad37e580bf 72898 models/mapobjects/chthon/skin.jpg
 c69189c274faa0845f6cfdf03658e946 79 models/mapobjects/chthon/skin.mat
-7ccaaa3cfe08c43d314272874013901c 374525 models/mapobjects/chthon/skin_norm.png
+751296c445b6d64fddfeea33d48edfc5 92532 models/mapobjects/chthon/skin_norm.jpg
 434b93b2e3621b16d8f7af4c995200cf 37842 models/mapobjects/chthon/skin_spec.jpg
 5891de7e77de369f985f27cae2a17f62 335704 sky/dragonheart.jpg
 97c29e0cfecbbe2a200b341dd312e6f1 160412 sounds/ambient/drone_3.wav
