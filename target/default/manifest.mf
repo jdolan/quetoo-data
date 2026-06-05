@@ -990,6 +990,7 @@ d648055594967f2a6817776b815eea13 187399 players/bunker/hax_spec.jpg
 4f27acd9603e1913491e9168fb83940c 176233 players/bunker/rustee_fx.jpg
 02d767a119424a742d758012da7a1801 572408 players/bunker/upper.md3
 20b5667349e466013b950446f102041d 49436 players/common/death_1.wav
+d6f1600337c0b4d6c4b1b2775a612075 29898 players/common/death_2.wav
 3551300f1c95c8b266c7bf5ae03731dc 135872 players/common/drown_1.wav
 6b66bce81184e90c33e9c8a07d831045 89676 players/common/fall_1.wav
 9e1513d4fe0f1e9e3cdcaa34d0f4071f 97580 players/common/fall_2.wav
@@ -1144,7 +1145,7 @@ e6e1650c609491f252d94ffcc24a57d9 196 players/guard/ctf.skin
 3e3738d410cf30e8ada637a03a97e000 91761 players/guard/ctf_i.png
 6bc503c3a58ff2159d9594ec265b6329 569544 players/guard/ctf_spec.jpg
 c0bf1b697a7b210ff81e8c86292e9aaf 1715917 players/guard/ctf_tint.png
-a66738918d8d2cc13bbd26a77d007945 357592 players/guard/death_1.wav
+660808259eab31ff5949061c15e9a3b8 121274 players/guard/death_1.wav
 4ad8d362c254386853f667fbc290358e 269564 players/guard/death_2.wav
 cda4557628704f1f88c4ff94d6bf51f5 115 players/guard/default.mat
 3be78f68db3b3a4bc6ed18559e6a2372 7130380 players/guard/default.png
