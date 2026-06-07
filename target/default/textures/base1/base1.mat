@@ -204,29 +204,5 @@
 	bump 1
 	hardness 2.5
 	specular 0.4
-	parallax 0.25
-}
-
-{
-	diffusemap common/caulk
-	bump 1
-	hardness 1
-	specular 1
-	parallax 1
-}
-
-{
-	diffusemap common/clip
-	bump 1
-	hardness 1
-	specular 1
-	parallax 1
-}
-
-{
-	diffusemap common/sky
-	bump 1
-	hardness 1
-	specular 1
-	parallax 1
+	parallax 4.5
 }

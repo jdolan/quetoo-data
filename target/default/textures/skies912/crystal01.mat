@@ -1,0 +1,20 @@
+{
+	diffusemap skies912/crystal01
+	{
+		texture fractures/ice1_2
+		blend GL_SRC_ALPHA GL_ONE
+		color 0.5 0.65 1.0 0.33
+		lighting 1
+	}
+	{
+		texture fractures/ice1_2-65
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 0.75
+		lighting 1
+	}
+	{
+		envmap base1/base1_r01_f02
+		color 1 1 1 0.085
+		lighting 1
+	}
+}
