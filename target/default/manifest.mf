@@ -2924,7 +2924,7 @@ b7c34c877b2304a885cc49d42a0486da 9657 textures/atlantis/light01_side.jpg
 0b1e182fa744ac4887a0a01fddbf0849 428 textures/atlantis/light02_norm.png
 09e50e3aab7640c8841039eb712a2b4d 3718 textures/atlantis/light02_off.jpg
 41e4b3079fc57844a798ec5c565574f3 5090 textures/atlantis/light03.jpg
-9c92317e1451b1d3be9e1acaca86b5b1 117 textures/atlantis/light03.mat
+0ef01ee2e1deb4dcb3e2c4a0d45dfa5e 117 textures/atlantis/light03.mat
 1fde8f436757b0c2062b0b37156d96cf 818 textures/atlantis/light03_glow.png
 18c9fd8e148caba1b18ba47e0635afc4 5060 textures/atlantis/light04.jpg
 8da9b7738296beabcb99a1e179da3fb8 173 textures/atlantis/light04.mat
@@ -3048,7 +3048,7 @@ b6695baa096bb0367ecf6939d73e65d0 173 textures/atlantis/sconce01.mat
 075ad9fb9a5060e61d883aa4af1628ff 2743 textures/atlantis/trim01.jpg
 2a909370f51002a6f49c2228e57dfb2d 46 textures/atlantis/trim01.mat
 0d972cf9fe8bd95ca7f2cf97bb8da601 399 textures/atlantis/trim01_norm.png
-66af86e9494c383f4d8588543bd574d2 2467 textures/base1/base1.mat
+dfe39c6bb6f293f59a0ec648c8e99976 2247 textures/base1/base1.mat
 6adbfd8f6952e51337a702d586812907 414130 textures/base1/base1_m01f01.jpg
 888f435e0b27ef3d7a79135b60f1c9b1 622011 textures/base1/base1_m01f01_norm.png
 37e2c1156d9c9240491512e194a92e3b 407790 textures/base1/base1_m01f02.jpg
@@ -3105,6 +3105,9 @@ e6534707b133a65053de024f92b91bd7 784581 textures/base1/base1_m01x03_spec.jpg
 0a0981ca9dd4994a5c4ba50566bfc824 6690926 textures/base1/base1_r01_f01_norm.png
 714d4f884aef3a15ba1067d622b971a3 1064858 textures/base1/base1_r01_f01_spec.jpg
 afb970051f0f166d2c4951fa650a1faf 1979430 textures/base1/base1_r01_f02.jpg
+02aa82d93cd06134e8128976159c3f6e 82 textures/base1/base1_r01_f02.mat
+b9a98764fd6db8aac84ad7fdfa78f083 3172342 textures/base1/base1_r01_f02_lava.jpg
+b48fc8b8d4752674534a0e4eacb5398e 212 textures/base1/base1_r01_f02_lava.mat
 d44aee7627fc39d541aae96b4d1f2bcb 8679820 textures/base1/base1_r01_f02_norm.png
 e852ad31cc694104af00f11f03620130 3108414 textures/base1/base1_r01_f02_spec.jpg
 dc258b0307f87efa9ac8041c0de0175a 27269 textures/catfight/e8_base1_noise.jpg
@@ -7349,7 +7352,7 @@ e49788d803fa634155ba06a7f2bdf5ea 111 textures/quake2/brickfloor.mat
 c960fa990a4f9059e3400dc6e680aef1 100957 textures/quake2/brickfloor_norm.png
 f5aa1f2dad80a131187c2a7b4b00897a 21114 textures/quake2/brickfloor_spec.jpg
 2ca10c7e3f202f26d7c61b820be20705 167468 textures/quake2/brlava.jpg
-4a759e217d77e90eaa080c9d1e8a62c7 296 textures/quake2/brlava.mat
+a280cb01374b5983b14f9925b16611b4 367 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg
 f0f2951fac46049ceb7fd2b88f2a206c 5219 textures/quake2/btactmach0.jpg
 961ca476de6908c8882ace203a256218 175 textures/quake2/btactmach0.mat
@@ -9375,6 +9378,7 @@ f8ce70f335b26954f47c966947ed6cef 39625 textures/quake3/stone/pjrock1.jpg
 2a0d71470bc60f9f19493b19c25d7006 31946 textures/quake3/stone/pjrock6.jpg
 68436949bc4eacb4b6fa635aa27ee67d 129581 textures/quake3/stone/rockwall.jpg
 d2e7d8a1a3b5a393bf1326927affdd48 60072 textures/skies912/crystal01.jpg
+421b77e6fb78060f3769b3aed32b28d8 299 textures/skies912/crystal01.mat
 bcbc53a3d3da8639ce8626cba4e12be5 65670 textures/skies912/crystal02.jpg
 7276cdf5c906c020218cac5784f68037 38526 textures/skies912/crystal03.jpg
 d5ed25fbf6c269639ff7e389d4b38d49 17191 textures/skies912/crystal_light.jpg
