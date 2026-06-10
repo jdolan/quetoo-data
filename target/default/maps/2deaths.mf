@@ -104,5 +104,5 @@ b6ef81f8b71a4752a312ef7e5b00040c 102 textures/quake/metal2_2.mat
 54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
 de40f7e6ecfe6644e1e85636f919a0af 332 textures/quake/teleport.mat
 2ca10c7e3f202f26d7c61b820be20705 167468 textures/quake2/brlava.jpg
-4a759e217d77e90eaa080c9d1e8a62c7 296 textures/quake2/brlava.mat
+a280cb01374b5983b14f9925b16611b4 367 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg

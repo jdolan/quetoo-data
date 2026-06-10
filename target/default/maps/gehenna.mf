@@ -162,7 +162,7 @@ d1cc6e2b618feffbb496f9b3c1414aed 89 textures/q4power/rock1.mat
 fdf515d67d63b459d2dbec4996ac35d4 188569 textures/q4power/wires1_norm.png
 8e2d33a57ecb365c5ad0b76cb974b3a4 27786 textures/q4power/wires1_spec.jpg
 2ca10c7e3f202f26d7c61b820be20705 167468 textures/quake2/brlava.jpg
-4a759e217d77e90eaa080c9d1e8a62c7 296 textures/quake2/brlava.mat
+a280cb01374b5983b14f9925b16611b4 367 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg
 7e70d11649fff4b6cd950f2089143bbf 5977 textures/quake2/grate1.jpg
 a24a0d53219dadf827ff1a9d5df07782 89 textures/quake2/grate1.mat

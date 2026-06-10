@@ -33,7 +33,7 @@ c7d22b364cd1a370cbbb3cc65274b779 107 textures/quake2/bed4_1.mat
 b0e42f64edf8bcd17eba87c6d291101c 11839 textures/quake2/bed4_1_norm.png
 ef6f0345d630c8c0617c753e611d9109 7491 textures/quake2/bed4_1_spec.jpg
 2ca10c7e3f202f26d7c61b820be20705 167468 textures/quake2/brlava.jpg
-4a759e217d77e90eaa080c9d1e8a62c7 296 textures/quake2/brlava.mat
+a280cb01374b5983b14f9925b16611b4 367 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg
 b218c810b83c0292c712df095ba039ff 3033 textures/quake2/ceil1_28.jpg
 5ed77990cfe0efa9c6a14a31be68bab7 281 textures/quake2/ceil1_28.mat

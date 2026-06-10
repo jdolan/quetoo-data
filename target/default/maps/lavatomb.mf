@@ -23,7 +23,7 @@ c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 2ca10c7e3f202f26d7c61b820be20705 167468 textures/quake2/brlava.jpg
-4a759e217d77e90eaa080c9d1e8a62c7 296 textures/quake2/brlava.mat
+a280cb01374b5983b14f9925b16611b4 367 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg
 d0e17a50b836ad259acaf60bdae3e2b2 3208 textures/quake2/ceil1_4.jpg
 0615c82feb0e48440fa70290d3beb001 279 textures/quake2/ceil1_4.mat

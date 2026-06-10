@@ -28,7 +28,7 @@ c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 81c2b3b3baedaad33926e9d7dd0cf88c 2442 textures/effects/lightbeamdust.png
 0c15ecca50d058e338d6e250d1a2241b 57594 textures/envmaps/envmap_1.jpg
 2ca10c7e3f202f26d7c61b820be20705 167468 textures/quake2/brlava.jpg
-4a759e217d77e90eaa080c9d1e8a62c7 296 textures/quake2/brlava.mat
+a280cb01374b5983b14f9925b16611b4 367 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg
 f0f2951fac46049ceb7fd2b88f2a206c 5219 textures/quake2/btactmach0.jpg
 961ca476de6908c8882ace203a256218 175 textures/quake2/btactmach0.mat
