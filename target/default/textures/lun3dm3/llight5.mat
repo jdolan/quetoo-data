@@ -3,6 +3,7 @@
 	{
 		texture lun3dm3/llight5blend
 		blend GL_SRC_ALPHA GL_ONE
+		color 1.5 1.5 1.5 0.9
 	}
 	{
 		flare flare_1
