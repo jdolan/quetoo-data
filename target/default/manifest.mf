@@ -206,9 +206,9 @@ b549ad8249c34baa35143e4ec5cc11df 7226139 maps/tokays.bsp
 a2ae01272ff78576b34dbfe3b6a674da 778681 maps/tokays.map
 a77c468fdf6c3e0000b6f5eceea4445a 10047 maps/tokays.mf
 11c9ca144c4780c952b173798c467d07 5980 maps/tokays.nav
-722ca19d714448c8b51aee96abd55fc1 10932688 maps/torn.bsp
-b81b66d49e661c77376c61c01a3efeb5 1612501 maps/torn.map
-bb7f04d813b6c8a2bcf09a12a0a02cce 9450 maps/torn.mf
+267f63f78a8b2c11ccf05833cafe95e1 10971812 maps/torn.bsp
+5edfd0d3b421b8138402b26dbb8b282d 1647700 maps/torn.map
+ca3ae2acf7137f90505a587e22f4e81e 9655 maps/torn.mf
 fa1dc273715e3e6817646f0ff74d52d0 5164 maps/torn.nav
 b4c564f2c037661481f435a58fd62081 14264783 maps/warehouse.bsp
 38f1c69b724b62ea35b6c4b956beede3 1002524 maps/warehouse.map
@@ -3055,6 +3055,8 @@ dfe39c6bb6f293f59a0ec648c8e99976 2247 textures/base1/base1.mat
 b2d9f8a1e3672536beb2d623f88fec07 576479 textures/base1/base1_m01f02_norm.png
 27373e058434a25e84010fa5e8c4c8eb 103109 textures/base1/base1_m01f03.jpg
 d6376cdc03beca7869d41468bdfc1226 193721 textures/base1/base1_m01f03_norm.png
+968136beb5638b6ac0220122e49f6363 20482 textures/base1/base1_m01g01-hex32.jpg
+2345a9443f5890f7c00d38885c7ccce9 20471 textures/base1/base1_m01g01-hex32_norm.png
 fea4061b3af4db33d7b8da0e72b15e5a 366624 textures/base1/base1_m01g01.jpg
 49deba63f0885e556c23ed4135213a0c 2635562 textures/base1/base1_m01g01_norm.png
 fb37053ceeeb232fbe447edf6da57bc2 360844 textures/base1/base1_m01t01.jpg
@@ -3102,6 +3104,7 @@ ab6473217392e0534c462720892e70d7 487320 textures/base1/base1_m01x03.jpg
 7fab0820909602fa041da7c7f9277517 1704205 textures/base1/base1_m01x03_norm.png
 e6534707b133a65053de024f92b91bd7 784581 textures/base1/base1_m01x03_spec.jpg
 256395c6197c94c00e4a354156ce3cda 1978785 textures/base1/base1_r01_f01.jpg
+c7849c2fc1d23a77f430f3a496a5ca80 82 textures/base1/base1_r01_f01.mat
 0a0981ca9dd4994a5c4ba50566bfc824 6690926 textures/base1/base1_r01_f01_norm.png
 714d4f884aef3a15ba1067d622b971a3 1064858 textures/base1/base1_r01_f01_spec.jpg
 afb970051f0f166d2c4951fa650a1faf 1979430 textures/base1/base1_r01_f02.jpg
@@ -4453,7 +4456,7 @@ dc55576d132ce8e1628cb541ca06bffc 112342 textures/lun3dm3/floor2stripe.jpg
 20185dc182d6395f2b7a9d3ea4e8318c 38881 textures/lun3dm3/lite1_norm.png
 51cc1d3952ac8a2b744f2920a8051e0a 4735 textures/lun3dm3/lite1fx.jpg
 726b6bade4bcec2ee8940813fca5c85b 1371 textures/lun3dm3/llight5.jpg
-0ca2c3a39ab9963f1bc1c66c183988f5 119 textures/lun3dm3/llight5.mat
+2b25370bb465b5a306bed3298faefad5 143 textures/lun3dm3/llight5.mat
 1c72e76cf24f0bc3aed31fe0f7ed5f27 1447 textures/lun3dm3/llight5blend.jpg
 7742707067bedebc96e0b1ac6619801a 29210 textures/lun3dm3/metglu.jpg
 ee651868dd6b0f69c4d7bb6b9adfd9d0 64 textures/lun3dm3/metglu.mat
@@ -5269,9 +5272,9 @@ c26e3ea6340554e53b18a346e8941d17 5018 textures/q4power/light_flouro1_spec.jpg
 b725aa7c2a948c206e01da8e4819db33 6085 textures/q4power/light_flouro1a_norm.png
 e373772a455f91729af2ed4c09d578ab 2766 textures/q4power/light_flouro1a_spec.jpg
 fa9b6f735ea075fce38f61259150c01b 2557 textures/q4power/light_jail.jpg
-a9d592f387ca31ed0ba24f881232b861 162 textures/q4power/light_jail.mat
+1e0c747543f12edfb6e45463e1bcf016 192 textures/q4power/light_jail.mat
+ca1bffe42266810d1b4ed3bb68ab0896 843 textures/q4power/light_jail_glow.png
 daf3badcf08ce8331266c39e13298223 8692 textures/q4power/light_jail_norm.png
-ca1bffe42266810d1b4ed3bb68ab0896 843 textures/q4power/light_jail_spec.png
 c9fe9c9a48d1740a156840bb91848577 1776 textures/q4power/light_r1.jpg
 283c84397c61895ad93d1ef3ac9c1c3f 161 textures/q4power/light_r1.mat
 dd9dac585a4d350498ed3e350d84be1d 4815 textures/q4power/light_r1_glow.png
