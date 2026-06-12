@@ -206,9 +206,9 @@ b549ad8249c34baa35143e4ec5cc11df 7226139 maps/tokays.bsp
 a2ae01272ff78576b34dbfe3b6a674da 778681 maps/tokays.map
 a77c468fdf6c3e0000b6f5eceea4445a 10047 maps/tokays.mf
 11c9ca144c4780c952b173798c467d07 5980 maps/tokays.nav
-267f63f78a8b2c11ccf05833cafe95e1 10971812 maps/torn.bsp
-5edfd0d3b421b8138402b26dbb8b282d 1647700 maps/torn.map
-ca3ae2acf7137f90505a587e22f4e81e 9655 maps/torn.mf
+85302a7bcc75bc878a97df12f6253e9a 11002132 maps/torn.bsp
+d787b84e238409b74de6b02fddb529c3 1549732 maps/torn.map
+fc01bb955fb5c1a1171fa02184c4f87a 9449 maps/torn.mf
 fa1dc273715e3e6817646f0ff74d52d0 5164 maps/torn.nav
 b4c564f2c037661481f435a58fd62081 14264783 maps/warehouse.bsp
 38f1c69b724b62ea35b6c4b956beede3 1002524 maps/warehouse.map
@@ -4570,7 +4570,7 @@ b377ddb190295f0349499af77bd1abbd 1126 textures/lun3dm3/than_button1fx.jpg
 bf63cbc91fa17263efc027422fd8d59a 1106 textures/lun3dm3/than_buttonsides.jpg
 bdbdf69c91a1024cb0c270c727991027 41 textures/lun3dm3/than_buttonsides.mat
 ab1d4c28ea8430d73e2d08a3cd765e54 27190 textures/lun3dm3/xpiplun1a.jpg
-63a391960c4357bb2f3cd9c70ba0da9d 133 textures/lun3dm3/xpiplun1a.mat
+f2216ec99001115ed7ce57a79496b78c 111 textures/lun3dm3/xpiplun1a.mat
 014af8595512c997dcc5295673ce9c10 168772 textures/lun3dm3/xpiplun1a_norm.png
 3b7fe70c04db14850825002ee854d163 30 textures/lun3dm3/zoot1.mat
 78583d9e89572897188410102114a78c 378 textures/lun3dm3/zoot1.png
