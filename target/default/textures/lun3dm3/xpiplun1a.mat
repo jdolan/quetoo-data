@@ -5,5 +5,4 @@
 	specularity 0.32
 	parallax 2.30
 	shadow 8.00
-	surface "alpha_test"
 }

@@ -1,4 +1,4 @@
-267f63f78a8b2c11ccf05833cafe95e1 10971812 maps/torn.bsp
+85302a7bcc75bc878a97df12f6253e9a 11002132 maps/torn.bsp
 fa1dc273715e3e6817646f0ff74d52d0 5164 maps/torn.nav
 93ae2ece3072be66e19652510b10fc3c 215003 mapshots/torn/quetoo021.jpg
 8f87a1a3140a1dd9be0e1cc1fcaf501e 256261 mapshots/torn/quetoo022.jpg
@@ -118,9 +118,6 @@ e4f1494a60b20f086aa9347679dd3ed6 19194 textures/lun3dm3/stair1.jpg
 2e274791a22c27c2f02b53f0836a8385 18086 textures/lun3dm3/star6.jpg
 f1917a2fab5193be426c5238cab69478 74 textures/lun3dm3/star6.mat
 c0a0353fa0d8acdc076553ed81d6a366 79963 textures/lun3dm3/star6_norm.png
-e0f824f93ba692e8d690039869e7787f 54 textures/lun3dm3/starb2a.mat
-fa6ec161e546946b2d7cad3d977f528e 85129 textures/lun3dm3/starb2a.png
-696c29bb66e994fbfac92b0abf1514ee 59334 textures/lun3dm3/starb2a_norm.png
 c4d4b3d43de79e6e4992c55f6f2f399a 35938 textures/lun3dm3/starc.jpg
 9f445faea73d8f7c0875507b314b2d82 89 textures/lun3dm3/starc.mat
 65260ef8ddf3430e282ff622594cbebe 175362 textures/lun3dm3/starc_norm.png
@@ -128,7 +125,7 @@ c4d4b3d43de79e6e4992c55f6f2f399a 35938 textures/lun3dm3/starc.jpg
 0bc0f21936e96daec31dc3a8765a333f 74 textures/lun3dm3/stard.mat
 a1f5eb5b70b134125aea1c4e2f07a53f 143472 textures/lun3dm3/stard_norm.png
 ab1d4c28ea8430d73e2d08a3cd765e54 27190 textures/lun3dm3/xpiplun1a.jpg
-63a391960c4357bb2f3cd9c70ba0da9d 133 textures/lun3dm3/xpiplun1a.mat
+f2216ec99001115ed7ce57a79496b78c 111 textures/lun3dm3/xpiplun1a.mat
 014af8595512c997dcc5295673ce9c10 168772 textures/lun3dm3/xpiplun1a_norm.png
 a5f3c100b11426cdce2476159b59af74 1720 textures/quake2/baselt_c.jpg
 c2cfa2aa8498ac67d05e46f51f034b08 253 textures/quake2/baselt_c.mat
