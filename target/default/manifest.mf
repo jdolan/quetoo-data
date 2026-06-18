@@ -1227,7 +1227,7 @@ e01db75add7928e951b3f19c1022291f 584932 players/qforcer/lower.md3
 6f7b81da39c358825afcab61ef9c2245 3797 scripts/default_project.proj
 02d39cea6d389325aff2a16fe57f7ee0 53680 scripts/entities.def
 2dacd278744e75ce3c66a4de9382f029 7 scripts/shaderlist.txt
-d3ec1309a2baccaf26be2bbf9ff7e770 7643 scripts/trenchbroom/Quetoo/GameConfig.cfg
+b53f2cdd2c63704e93e7a552ad8f46d5 7677 scripts/trenchbroom/Quetoo/GameConfig.cfg
 3aa1e0296c8357875feded038afed8f2 1855 scripts/trenchbroom/Quetoo/Icon.png
 e1909a9d4f78dd6ce891a7eb2e7714c7 31865 scripts/trenchbroom/Quetoo/Quetoo.fgd
 60944791079503010618b669a310d51c 128367 sky/acheron.jpg
@@ -9381,7 +9381,7 @@ f8ce70f335b26954f47c966947ed6cef 39625 textures/quake3/stone/pjrock1.jpg
 2a0d71470bc60f9f19493b19c25d7006 31946 textures/quake3/stone/pjrock6.jpg
 68436949bc4eacb4b6fa635aa27ee67d 129581 textures/quake3/stone/rockwall.jpg
 d2e7d8a1a3b5a393bf1326927affdd48 60072 textures/skies912/crystal01.jpg
-421b77e6fb78060f3769b3aed32b28d8 299 textures/skies912/crystal01.mat
+470d7d92c8fa3b5cda29c1612bd3ab3e 403 textures/skies912/crystal01.mat
 bcbc53a3d3da8639ce8626cba4e12be5 65670 textures/skies912/crystal02.jpg
 7276cdf5c906c020218cac5784f68037 38526 textures/skies912/crystal03.jpg
 d5ed25fbf6c269639ff7e389d4b38d49 17191 textures/skies912/crystal_light.jpg
