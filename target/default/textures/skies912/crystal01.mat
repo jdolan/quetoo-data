@@ -1,20 +1,22 @@
 {
 	diffusemap skies912/crystal01
+	normalmap fractures/ice1_1_norm
+	specularmap skies912/hex_crystal_spec
 	{
 		texture fractures/ice1_2
-		blend GL_SRC_ALPHA GL_ONE
+		blend GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		color 0.5 0.65 1.0 0.33
 		lighting 1
 	}
 	{
 		texture fractures/ice1_2-65
-		blend GL_SRC_ALPHA GL_ONE
+		blend GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		color 1 1 1 0.75
 		lighting 1
 	}
 	{
 		envmap base1/base1_r01_f02
-		color 1 1 1 0.085
+		color 1 1 1 0.175
 		lighting 1
 	}
 }
