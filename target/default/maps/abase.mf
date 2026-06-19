@@ -1,10 +1,10 @@
-15b7f30d88cdd8041564e6379094ac93 13875209 maps/abase.bsp
+85337db4dc29e5a4224e2362878253ea 13828345 maps/abase.bsp
 ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
 9bba06fe7223bcd1d20711bdd950d547 127700 mapshots/abase/quetoo001.jpg
 97ef68c5d030e7a0d49e6c9022aad638 170339 mapshots/abase/quetoo002.jpg
 813d9338cfcf1ef90e0963faa59b803c 202442 mapshots/abase/quetoo003.jpg
 1c6c92ccd65292817edbc58ea0bd9b28 138250 mapshots/abase/quetoo004.jpg
-291b149e5ec04d489b52ac44848a1f92 12037 models/mapobjects/fern/fern.obj
+39a5a7e63446e62d860df457ba5ffd5b 12471 models/mapobjects/fern/fern.obj
 5362fa11da0a19f1dfcd27b524b9c0e9 147 models/mapobjects/fern/skin.mat
 639c77d8181df5cd142d01b36d01d643 226318 models/mapobjects/fern/skin.png
 d08014541d19ab6b5807c5ea8e18ea08 629588 sky/miramar.jpg
