@@ -1,10 +1,10 @@
-552577c7bb80847337fa0dcb64b68108 15346537 maps/edge.bsp
+ea1c1d4c32555140a6a1e2bc51414c94 15430585 maps/edge.bsp
 63f90b4907fda4f189064bfacba265a8 13036 maps/edge.nav
 fc8b5e8534faed21b9be46d1abcc0902 167231 mapshots/edge/quetoo014.jpg
 070eb7d1762f9c3097298daeb1046488 297476 mapshots/edge/quetoo015.jpg
 0ec95d3b67704bb489d06dec83fa7ee2 223308 mapshots/edge/quetoo016.jpg
 bb7bbb78055c9b98b72b6efa15451b78 200961 mapshots/edge/quetoo017.jpg
-291b149e5ec04d489b52ac44848a1f92 12037 models/mapobjects/fern/fern.obj
+39a5a7e63446e62d860df457ba5ffd5b 12471 models/mapobjects/fern/fern.obj
 5362fa11da0a19f1dfcd27b524b9c0e9 147 models/mapobjects/fern/skin.mat
 639c77d8181df5cd142d01b36d01d643 226318 models/mapobjects/fern/skin.png
 5891de7e77de369f985f27cae2a17f62 335704 sky/dragonheart.jpg
