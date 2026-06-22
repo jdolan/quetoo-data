@@ -1,4 +1,4 @@
-9636470c5ea913d425d3e78585b81758 5417819 maps/aghast.bsp
+325bc7805a81fc7ba421999585cf8cd1 5410511 maps/aghast.bsp
 d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 f9f045c1738a99810c1cddc8817599a5 275072 mapshots/aghast/quetoo012.jpg
 9244fe27b99ffb58ff1de02ba94836db 322159 mapshots/aghast/quetoo013.jpg
@@ -77,7 +77,7 @@ f9c19cfd90c73aeabf0171a0c1d2f867 9974 textures/quake/tele_top.jpg
 1acd33a2c71f39f3e5947a6cdc499667 31950 textures/quake/tele_top_norm.png
 39a50a3d94277c020c47cd4014fdd0c4 7850 textures/quake/tele_top_spec.jpg
 54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
-de40f7e6ecfe6644e1e85636f919a0af 332 textures/quake/teleport.mat
+a0fe871b1ed4d33bf3cd388acbf933c7 348 textures/quake/teleport.mat
 73d81c5eeb8b75ebf9667a462ff33ce6 11375 textures/quake/water1.jpg
 9af0de3b3980b37894d39424a04e01df 537 textures/quake/water1.mat
 2225e543b2b03ef1853045b8470ccb30 7802 textures/quake/water1_spec.jpg

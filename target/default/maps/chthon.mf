@@ -1,11 +1,11 @@
-9fd40a419f44934b35c18dea91aec6be 21444774 maps/chthon.bsp
+545930225e6590e791d02b78673b9362 21405542 maps/chthon.bsp
 df9e549ba7aaf46759571d269362b888 6492 maps/chthon.nav
 eb01a62943d8de39d1cc71ec86080492 167477 mapshots/chthon/quetoo084.jpg
 d577d529b30c0b40a30ed234498f7c36 166484 mapshots/chthon/quetoo085.jpg
 49c3ebd4aa76cfd88292e3d13e14eb91 180052 mapshots/chthon/quetoo086.jpg
 b257b5354aeac03ea22908a323a4cdf2 148826 mapshots/chthon/quetoo091.jpg
 22308a557b715a0bef4e4d587dbadf52 188243 mapshots/chthon/quetoo092.jpg
-a5a67884720ef7927e2a6c88a4bc6a84 230284 models/mapobjects/chthon/chthon.obj
+caf99ebf081180613f2b32a8bdf21ecc 224440 models/mapobjects/chthon/chthon.obj
 503f7b45a4778dd2f78703ad37e580bf 72898 models/mapobjects/chthon/skin.jpg
 c69189c274faa0845f6cfdf03658e946 79 models/mapobjects/chthon/skin.mat
 751296c445b6d64fddfeea33d48edfc5 92532 models/mapobjects/chthon/skin_norm.jpg
@@ -287,7 +287,7 @@ bd291177501d51842c16525030e770e0 109 textures/quake/tech04_9.mat
 d1bacc040311f11e48d99069be48ab7d 11504 textures/quake/tech04_9_norm.png
 53d6860736dc1ee4dc013ff2910afbee 5280 textures/quake/tech04_9_spec.jpg
 54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
-de40f7e6ecfe6644e1e85636f919a0af 332 textures/quake/teleport.mat
+a0fe871b1ed4d33bf3cd388acbf933c7 348 textures/quake/teleport.mat
 c9f4356075ae0261128577c1ff5c2b23 26607 textures/quake/wizmet1_1.jpg
 0ffc07a72f1965e5979753e049672b68 45 textures/quake/wizmet1_1.mat
 99b05ea146a5459bc61dcad587c5fcee 177793 textures/quake/wizmet1_1_norm.png
