@@ -1,4 +1,4 @@
-e15f81e0863789fecbc449d8a0daeeab 12894297 maps/lavatomb.bsp
+594169bf02d97bf14991f51cea0477f1 12897141 maps/lavatomb.bsp
 524607c434dac43c53d5ba82cc000dcd 6180 maps/lavatomb.nav
 80336c0e6be6ee6a5f49f3a38c9d551d 281252 mapshots/lavatomb/quetoo098.jpg
 7f83c172324cb082a471ce0a81ac0ddc 217367 mapshots/lavatomb/quetoo099.jpg
@@ -26,10 +26,10 @@ d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 a280cb01374b5983b14f9925b16611b4 367 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg
 d0e17a50b836ad259acaf60bdae3e2b2 3208 textures/quake2/ceil1_4.jpg
-0615c82feb0e48440fa70290d3beb001 279 textures/quake2/ceil1_4.mat
+352656f2afcc9f2e0cd0910a414e2238 279 textures/quake2/ceil1_4.mat
 677424b9ce9b134979ebbfc9d04512ef 8449 textures/quake2/ceil1_4fx.png
-e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
+7cd970a33f19bea081deec7d908ef6d0 3671 textures/quake2/ceil2_norm.png
 9644b6d547d77fddadaf4e4f5ce7ed5e 50784 textures/quake2/drag2_3.jpg
 b5beee0c468b3735bc51eca11aeb91ea 117 textures/quake2/drag2_3.mat
 dfb632d5cdf2c6a7e84bd2a0cadae7a3 268526 textures/quake2/drag2_3_norm.png

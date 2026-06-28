@@ -1,4 +1,4 @@
-c0fdc8d1567353ef7fbcc23988e905c5 9321329 maps/fragpipe.bsp
+e081ca57f32664eda769a6a28a3e5d86 9329677 maps/fragpipe.bsp
 a2e4df8258fb16bd6200967790355a77 5876 maps/fragpipe.nav
 46c892b195a0e4021ac8084341d4f119 233326 mapshots/fragpipe/quetoo022.jpg
 a5232cbee6f561d75986c39a86399b34 171053 mapshots/fragpipe/quetoo023.jpg
@@ -37,10 +37,10 @@ f0f2951fac46049ceb7fd2b88f2a206c 5219 textures/quake2/btactmach0.jpg
 bc617e0b5831c8c2ab566f8ca7ef75ec 5081 textures/quake2/btactmach0fx1.png
 95976f76bfa2a627686b577182827f6c 5587 textures/quake2/btactmach0fx2.png
 d0e17a50b836ad259acaf60bdae3e2b2 3208 textures/quake2/ceil1_4.jpg
-0615c82feb0e48440fa70290d3beb001 279 textures/quake2/ceil1_4.mat
+352656f2afcc9f2e0cd0910a414e2238 279 textures/quake2/ceil1_4.mat
 677424b9ce9b134979ebbfc9d04512ef 8449 textures/quake2/ceil1_4fx.png
-e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
+7cd970a33f19bea081deec7d908ef6d0 3671 textures/quake2/ceil2_norm.png
 7a9fdf09c438507186756ec6714ea17f 23094 textures/quake2/color1_1.jpg
 2f97dd138f59603b651496ac07b88dd8 126 textures/quake2/color1_1.mat
 9b4db3d6030ea129242d09f0ffe95381 95419 textures/quake2/color1_1_norm.png

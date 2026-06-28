@@ -1,10 +1,10 @@
-bdd3dc8586038fcdf9295b88e44349f6 15346537 maps/edge.bsp
+ca893e13152f3525c9343f4ef0fe9d34 15430585 maps/edge.bsp
 63f90b4907fda4f189064bfacba265a8 13036 maps/edge.nav
 fc8b5e8534faed21b9be46d1abcc0902 167231 mapshots/edge/quetoo014.jpg
 070eb7d1762f9c3097298daeb1046488 297476 mapshots/edge/quetoo015.jpg
 0ec95d3b67704bb489d06dec83fa7ee2 223308 mapshots/edge/quetoo016.jpg
 bb7bbb78055c9b98b72b6efa15451b78 200961 mapshots/edge/quetoo017.jpg
-291b149e5ec04d489b52ac44848a1f92 12037 models/mapobjects/fern/fern.obj
+39a5a7e63446e62d860df457ba5ffd5b 12471 models/mapobjects/fern/fern.obj
 5362fa11da0a19f1dfcd27b524b9c0e9 147 models/mapobjects/fern/skin.mat
 639c77d8181df5cd142d01b36d01d643 226318 models/mapobjects/fern/skin.png
 5891de7e77de369f985f27cae2a17f62 335704 sky/dragonheart.jpg
@@ -67,10 +67,11 @@ f5aa1f2dad80a131187c2a7b4b00897a 21114 textures/quake2/brickfloor_spec.jpg
 4c1300936015fb8f8536b712773ae253 251 textures/quake2/ceil1_2.mat
 a0d8d314065ccbac99328b7b1a9d0155 5263 textures/quake2/ceil1_2fx.png
 d0e17a50b836ad259acaf60bdae3e2b2 3208 textures/quake2/ceil1_4.jpg
-0615c82feb0e48440fa70290d3beb001 279 textures/quake2/ceil1_4.mat
+352656f2afcc9f2e0cd0910a414e2238 279 textures/quake2/ceil1_4.mat
 677424b9ce9b134979ebbfc9d04512ef 8449 textures/quake2/ceil1_4fx.png
 e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
+7cd970a33f19bea081deec7d908ef6d0 3671 textures/quake2/ceil2_norm.png
 33e40cfe076df1cd3b74c2a5aad0b7cd 126250 textures/quake2/clangfloor_1b.jpg
 fbdb88395f54318fe8e5f6a123a1b1dc 131 textures/quake2/clangfloor_1b.mat
 3587c04dbbb6539f43376d07bc1125fc 602285 textures/quake2/clangfloor_1b_norm.png

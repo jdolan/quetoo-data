@@ -1,4 +1,4 @@
-05b13f72f5e3e5526d9dc44db218938c 10733545 maps/claustrophobopolis.bsp
+f0f145c03502d9e7c7cfafb6dbc22e9c 10911231 maps/claustrophobopolis.bsp
 e88cfc3a5cf855047aef392efc982448 5796 maps/claustrophobopolis.nav
 bc14677052aca2856ead1ddf1c16ddbf 175634 mapshots/claustrophobopolis/quetoo019.jpg
 f761e389cfb3740265d2638084129858 210966 mapshots/claustrophobopolis/quetoo021.jpg
@@ -77,6 +77,10 @@ a38e79ec6fcfd2bfc25fcb433c0b58b1 28040 textures/quake/metal4_4.jpg
 0bdd4898c25f6e8734a41e58f945fc5b 90 textures/quake/metal4_4.mat
 bdf9aa8fb403b940ef23e8c2bbdc7b83 130518 textures/quake/metal4_4_norm.png
 8828fc3651c8cae7a8ee33915ee9bcc8 25450 textures/quake/metal4_4_spec.jpg
+7fdcd79969874212ce2659ebf13a7393 14844 textures/quake/metal4_4d.jpg
+3945b7d926e3ed53af8f75434c352600 62 textures/quake/metal4_4d.mat
+e6f5d0b187aa7ff15ef5c7531c6d3fad 64184 textures/quake/metal4_4d_norm.png
+d2289775bb0e228b305a01a45cebe4a0 11271 textures/quake/metal4_4d_spec.jpg
 9344ed0aefaccc05aa1b16edd30bb36e 27389 textures/quake/metal4_5.jpg
 180afd129fe787b86716722d90de65ef 31 textures/quake/metal4_5.mat
 2d78ae261453429a386438075659f4b4 25307 textures/quake/metal4_5_spec.jpg

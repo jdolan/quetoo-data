@@ -1,4 +1,4 @@
-717fd4b32ef5d74bec12a5c90fe84aa3 10040162 maps/pits.bsp
+9dcb07058de18fb9dd6db8e02b78e59f 10052390 maps/pits.bsp
 0941225f4b0647ca36a5a7b9a6169633 10508 maps/pits.nav
 fe8037ac2e689cc84798186aafc0fd92 186239 mapshots/pits/quetoo031.jpg
 f1b7b56a0295487e7be5cb4a9d7652c7 222611 mapshots/pits/quetoo032.jpg
@@ -51,13 +51,14 @@ f0f2951fac46049ceb7fd2b88f2a206c 5219 textures/quake2/btactmach0.jpg
 bc617e0b5831c8c2ab566f8ca7ef75ec 5081 textures/quake2/btactmach0fx1.png
 95976f76bfa2a627686b577182827f6c 5587 textures/quake2/btactmach0fx2.png
 d0e17a50b836ad259acaf60bdae3e2b2 3208 textures/quake2/ceil1_4.jpg
-0615c82feb0e48440fa70290d3beb001 279 textures/quake2/ceil1_4.mat
+352656f2afcc9f2e0cd0910a414e2238 279 textures/quake2/ceil1_4.mat
 677424b9ce9b134979ebbfc9d04512ef 8449 textures/quake2/ceil1_4fx.png
 7adf79fca5ea67539d517ab6b8798b15 3184 textures/quake2/ceil1_lime.jpg
 cc18876d273ef9d4158beaf19e497ca0 285 textures/quake2/ceil1_lime.mat
 9978f008e18e793453f4026c80f9f662 8161 textures/quake2/ceil1_limefx.png
 e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
+7cd970a33f19bea081deec7d908ef6d0 3671 textures/quake2/ceil2_norm.png
 6450d57790958c7ae062580a8066bbb6 150 textures/quake2/chainlink.mat
 855ae1fea68d268a6b5264b05a72d4e2 36292 textures/quake2/chainlink.png
 acfea3eebb4f7b02637ebd50938974c2 12521 textures/quake2/chainlink_norm.png

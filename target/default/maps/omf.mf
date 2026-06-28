@@ -1,4 +1,4 @@
-12252e2e5f65e0972f67b0ac9dc67c42 7329031 maps/omf.bsp
+6c0282d1c5cdecf5086d99b74c25272b 7338951 maps/omf.bsp
 e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
 850435dfbb6f762dd7655f0ec3a0a585 257403 mapshots/omf/quetoo073.jpg
 f95e1e30a91651c35b9c49c838035709 245537 mapshots/omf/quetoo074.jpg
@@ -76,16 +76,17 @@ b218c810b83c0292c712df095ba039ff 3033 textures/quake2/ceil1_28.jpg
 5ed77990cfe0efa9c6a14a31be68bab7 281 textures/quake2/ceil1_28.mat
 4770915d98757150615bd627d2a21ae6 8213 textures/quake2/ceil1_28fx.png
 d0e17a50b836ad259acaf60bdae3e2b2 3208 textures/quake2/ceil1_4.jpg
-0615c82feb0e48440fa70290d3beb001 279 textures/quake2/ceil1_4.mat
+352656f2afcc9f2e0cd0910a414e2238 279 textures/quake2/ceil1_4.mat
 677424b9ce9b134979ebbfc9d04512ef 8449 textures/quake2/ceil1_4fx.png
 e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
+7cd970a33f19bea081deec7d908ef6d0 3671 textures/quake2/ceil2_norm.png
 33ece21cf528fc322eb9979145f3e076 129643 textures/quake2/floor1_6_norm.png
 5a19eee1dd2297e0bcc541f15e9ed84f 15266 textures/quake2/floor1_6_spec.jpg
 768941e9ff816919273cee3acb212696 22937 textures/quake2/floor2_8g.jpg
 8bf7c2abb62a7d8f16269dbba79bac9b 176 textures/quake2/floor2_8g.mat
 7e70d11649fff4b6cd950f2089143bbf 5977 textures/quake2/grate1.jpg
-a24a0d53219dadf827ff1a9d5df07782 89 textures/quake2/grate1.mat
+756f279a3b722bace6198d95dc5a3fc0 76 textures/quake2/grate1.mat
 9a4329434ecac208eb0cb3328c652920 23509 textures/quake2/grate1_4.jpg
 3551d2de37b2a2294c8156c6ce731c37 109 textures/quake2/grate1_4.mat
 caf849cca62b2120a25dda8c2a8ddee5 91337 textures/quake2/grate1_4_norm.png

@@ -1,4 +1,4 @@
-33869b2b11c3feb9fd3e26f3f832bfd1 25234908 maps/gehenna.bsp
+93d0646fca36c49c01967f2615ac2fd3 25237496 maps/gehenna.bsp
 c95b0cb18c2e5deeb529abc293fd4bbe 12492 maps/gehenna.nav
 5c920da0cfc3871f720d8594ab55a8eb 223189 mapshots/gehenna/quetoo106.jpg
 af34f46aac080a3a6ad6e68a97dbc4e2 242852 mapshots/gehenna/quetoo107.jpg
@@ -165,7 +165,7 @@ fdf515d67d63b459d2dbec4996ac35d4 188569 textures/q4power/wires1_norm.png
 a280cb01374b5983b14f9925b16611b4 367 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg
 7e70d11649fff4b6cd950f2089143bbf 5977 textures/quake2/grate1.jpg
-a24a0d53219dadf827ff1a9d5df07782 89 textures/quake2/grate1.mat
+756f279a3b722bace6198d95dc5a3fc0 76 textures/quake2/grate1.mat
 769da5d4f182cc5f7579f87bee3bcb98 11733 textures/quake2/grate1_norm.png
 261f4c3dcf82e932bbfcaaecabf8bfe9 4301 textures/quake2/grate1_spec.jpg
 c568931caee8172e6422861191505d7f 9139 textures/trak5/light2.jpg

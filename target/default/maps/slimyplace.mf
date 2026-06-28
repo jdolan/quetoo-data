@@ -1,4 +1,4 @@
-2634516918b61aa614de158729d9b392 5755382 maps/slimyplace.bsp
+88de93f44d661dbaa1a48d753bfb4efc 5760450 maps/slimyplace.bsp
 2fa04e2985b87b3032dad006dc1882e3 5524 maps/slimyplace.nav
 8467d6a7679bed3761216ca0640ecb2e 179261 mapshots/slimyplace/quetoo036.jpg
 6b87681e37cb245aab34e7e303a7b8dc 197170 mapshots/slimyplace/quetoo037.jpg
@@ -26,13 +26,14 @@ f0f2951fac46049ceb7fd2b88f2a206c 5219 textures/quake2/btactmach0.jpg
 bc617e0b5831c8c2ab566f8ca7ef75ec 5081 textures/quake2/btactmach0fx1.png
 95976f76bfa2a627686b577182827f6c 5587 textures/quake2/btactmach0fx2.png
 d0e17a50b836ad259acaf60bdae3e2b2 3208 textures/quake2/ceil1_4.jpg
-0615c82feb0e48440fa70290d3beb001 279 textures/quake2/ceil1_4.mat
+352656f2afcc9f2e0cd0910a414e2238 279 textures/quake2/ceil1_4.mat
 677424b9ce9b134979ebbfc9d04512ef 8449 textures/quake2/ceil1_4fx.png
 7adf79fca5ea67539d517ab6b8798b15 3184 textures/quake2/ceil1_lime.jpg
 cc18876d273ef9d4158beaf19e497ca0 285 textures/quake2/ceil1_lime.mat
 9978f008e18e793453f4026c80f9f662 8161 textures/quake2/ceil1_limefx.png
 e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
+7cd970a33f19bea081deec7d908ef6d0 3671 textures/quake2/ceil2_norm.png
 33ece21cf528fc322eb9979145f3e076 129643 textures/quake2/floor1_6_norm.png
 5a19eee1dd2297e0bcc541f15e9ed84f 15266 textures/quake2/floor1_6_spec.jpg
 b567f8959167d467f464946f5e9c2bc7 25236 textures/quake2/floor2_7.jpg
