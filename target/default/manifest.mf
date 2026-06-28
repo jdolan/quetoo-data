@@ -1227,7 +1227,7 @@ e01db75add7928e951b3f19c1022291f 584932 players/qforcer/lower.md3
 6f7b81da39c358825afcab61ef9c2245 3797 scripts/default_project.proj
 02d39cea6d389325aff2a16fe57f7ee0 53680 scripts/entities.def
 2dacd278744e75ce3c66a4de9382f029 7 scripts/shaderlist.txt
-b53f2cdd2c63704e93e7a552ad8f46d5 7677 scripts/trenchbroom/Quetoo/GameConfig.cfg
+6432ba2b55e5dfc6ea9f1ea07731207f 7683 scripts/trenchbroom/Quetoo/GameConfig.cfg
 3aa1e0296c8357875feded038afed8f2 1855 scripts/trenchbroom/Quetoo/Icon.png
 e1909a9d4f78dd6ce891a7eb2e7714c7 31865 scripts/trenchbroom/Quetoo/Quetoo.fgd
 60944791079503010618b669a310d51c 128367 sky/acheron.jpg
