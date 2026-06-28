@@ -9,5 +9,6 @@
 		texture quake2/lightstrips32_glow
 		blend GL_SRC_ALPHA GL_ONE
 		scroll.t 1.5
+		lighting flat
 	}
 }

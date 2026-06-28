@@ -1,8 +1,6 @@
 {
 	diffusemap quake2/grate1
-	roughness 3
-	hardness 6
-	specular 3
-	parallax 3
-	shadow 1
+	roughness 3.00
+	hardness 6.00
+	parallax 1.53
 }

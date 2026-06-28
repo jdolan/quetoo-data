@@ -1,6 +1,6 @@
 {
 	diffusemap quake2/ceil1_4
-	normalmap quake2/ceil1_norm
+	normalmap quake2/ceil2_norm
 	specularmap quake2/ceil1_spec
 	roughness 1.33
 	hardness 3.00
