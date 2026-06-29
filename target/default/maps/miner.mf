@@ -1,5 +1,5 @@
-4e4748f1e6b11245b664d5d28df11a64 43584113 maps/miner.bsp
-8e8b6f15b101e8823bfc5744f5d72f66 5308 maps/miner.nav
+9f2b74ec93aa315694edf045fbc04138 43668399 maps/miner.bsp
+a1cf2d01675c3e4ffd8e852cbe478574 5324 maps/miner.nav
 d08014541d19ab6b5807c5ea8e18ea08 629588 sky/miramar.jpg
 081942a69b06f9e823fd88ec67d11cc4 270702 sounds/ambient/fan_1.wav
 649ffcd19896ebe708b38f5dfb8e657c 61888 sprites/flare_2.png
