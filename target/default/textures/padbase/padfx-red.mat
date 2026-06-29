@@ -1,0 +1,26 @@
+{
+	diffusemap padbase/padbase
+	roughness 2.00
+	hardness 2.50
+	specularity 1.50
+	parallax 2.00
+	contents "mist detail"
+	surface "blend_100"
+	{
+		texture padbase/padfx-iris-red
+		blend GL_SRC_ALPHA GL_ONE
+		pulse 1
+		stretch 0.5 1
+	}
+	{
+		texture padbase/padfx-red
+		blend GL_SRC_ALPHA GL_ONE
+		color 1 1 1 0.75
+	}
+	{
+		color 1 0.15 0.15 0.75
+		scale.s 0.75
+		scale.t 0.75
+		flare flare_3
+	}
+}

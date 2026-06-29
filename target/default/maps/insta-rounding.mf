@@ -10,7 +10,7 @@ ab805fc24abb7b5dddbf661ab9677356 4743 textures/aerowalk/arvnt1_4.jpg
 af7bdbfa9aeb2eef621e77754cb47b6d 78 textures/aerowalk/arvnt1_4.mat
 53d7e0b939fe6d41b4723ac2f7b0977a 4183 textures/aerowalk/arvnt1_4_norm.png
 1a52028b78ccc11b5de4eded8df1722c 1792 textures/aerowalk/light4_2.jpg
-adcc3683cffdd6ea68fe678da37d8049 230 textures/aerowalk/light4_2.mat
+364e4f2df4e8f8eefc69fb7004b2d134 235 textures/aerowalk/light4_2.mat
 f79c035f2d07e8a2214338347a0e347c 1343 textures/aerowalk/light4_2_norm.png
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
 ab6846eab04f23e52489df2d2e7dea1b 29 textures/common/caulk.mat
@@ -26,7 +26,7 @@ d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 16e69851c6e37b91d765a7a3bfc6abc8 11511 textures/omf/metal3_6b.jpg
 79270e801e4a8fb000f0aea50026d387 91 textures/omf/metal3_6b.mat
 8828dd2303f70413daf52ab9e660ee22 55616 textures/omf/metal3_6b_norm.png
-f9b471dcb96cdd2a15c68b6afc4ea24e 9521 textures/padbase/padfx.jpg
+f9b471dcb96cdd2a15c68b6afc4ea24e 9521 textures/padbase/padfx-cyan.jpg
 cf959717c754b0672d70aa195b4196f3 44 textures/prototype/grid.mat
 5ab934b4234ebfe0396313e425cdb356 3584 textures/prototype/grid.png
 699cc6c8ff40bb006eb8ea166d6f86a8 857 textures/prototype/grid_norm.png

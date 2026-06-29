@@ -1,5 +1,5 @@
-93d0646fca36c49c01967f2615ac2fd3 25237496 maps/gehenna.bsp
-c95b0cb18c2e5deeb529abc293fd4bbe 12492 maps/gehenna.nav
+220e6ffb185cf92a3d76596ba35a7961 25237364 maps/gehenna.bsp
+39b59b9a524298160edb037b74ac1b52 5732 maps/gehenna.nav
 5c920da0cfc3871f720d8594ab55a8eb 223189 mapshots/gehenna/quetoo106.jpg
 af34f46aac080a3a6ad6e68a97dbc4e2 242852 mapshots/gehenna/quetoo107.jpg
 0b99620e3fef61d86471a582497553f0 295076 mapshots/gehenna/quetoo108.jpg
@@ -81,10 +81,10 @@ de667e4f586ac60a003645a6617595c5 67635 textures/gehenna/plasma.png
 6d0f05fcc4d40edae35069cd3e2bd18b 21163 textures/gehenna/wbasic1_7.jpg
 9cb030906d0f078e555c47ee997ded2b 111 textures/gehenna/wbasic1_7.mat
 406b60c8031a53f9acfbc919d8e3afc2 199292 textures/gehenna/wbasic1_7_norm.png
-c3f8c3c0effe173791a5574226e61d66 321 textures/padbase/padbase-yellow.mat
 318a6ccdc992bacd45ca6079e6e0c221 163522 textures/padbase/padbase.png
-c474276da9982e8bd26716a19bf5525f 50374 textures/padbase/padfx-iris2.png
-2f6ac0104ee0f3bfd71432104581e52d 8608 textures/padbase/padfx2.jpg
+c474276da9982e8bd26716a19bf5525f 50374 textures/padbase/padfx-iris-yellow.png
+2f6ac0104ee0f3bfd71432104581e52d 8608 textures/padbase/padfx-yellow.jpg
+1d891c80523ef77a307cb033aeabefce 396 textures/padbase/padfx-yellow.mat
 cf959717c754b0672d70aa195b4196f3 44 textures/prototype/grid.mat
 5ab934b4234ebfe0396313e425cdb356 3584 textures/prototype/grid.png
 699cc6c8ff40bb006eb8ea166d6f86a8 857 textures/prototype/grid_norm.png

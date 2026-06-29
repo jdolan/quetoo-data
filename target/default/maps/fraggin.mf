@@ -1,4 +1,4 @@
-43117024f6a1aaa222ef3b939ae7830f 25820549 maps/fraggin.bsp
+4e16e9e81e60c054aea9609651121c6d 26105559 maps/fraggin.bsp
 079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
 1f65f3c6ecf8313f34e2508c38fb25db 84548 mapshots/fraggin/fraggin01.jpg
 3fcbee2ddf3ce8de0b59980de1c21a03 109776 mapshots/fraggin/fraggin02.jpg
@@ -26,10 +26,13 @@ a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 59a6783e357ff7b8c24da2d37e5ae35f 143 textures/ctf/eq2_banner.mat
 395e6ecbc734497359b13408b9607f71 115213 textures/ctf/eq2_banner.png
-037c791352c497c5e1551a96bc12804e 184 textures/decals/flr3_mark.mat
 2d77da7b64413c1bd078d8a76a1d37e0 356905 textures/decals/flr3_mark.png
+037c791352c497c5e1551a96bc12804e 184 textures/decals/flr3_mark_fx-cyan.mat
 9d2c328847dfb26db530e536a4cdc53e 92330 textures/decals/flr3_mark_fx-cyan.png
-3a09dba6ccf8a4105d72881e1e6f7370 253413 textures/decals/flr3_mark_norm.png
+c078576bfb210134a85ba0e016ef2cda 185 textures/decals/flr3_mark_fx-green.mat
+dc5ec3ceb14c5d34b3df435059c50110 83725 textures/decals/flr3_mark_fx-green.png
+1b88a059c8de09f20b9fbcf0f26fbfc5 186 textures/decals/flr3_mark_fx-yellow.mat
+47a81a9182d99e2ff99e585043c2230b 83566 textures/decals/flr3_mark_fx-yellow.png
 292e91897db76221cf0e57d9db2d3c8e 280 textures/decals/quetoologo.mat
 f148d1d3b95bb838d5d5a541d28c103f 125461 textures/decals/quetoologo.png
 9726620a0a1b6a13783c675e233b2c38 108727 textures/decals/quetoologo_glow.png
@@ -39,10 +42,10 @@ f148d1d3b95bb838d5d5a541d28c103f 125461 textures/decals/quetoologo.png
 84616ace82d3c22e2b08e2e2bf7cf66c 3114 textures/effects/wpadg.jpg
 4aff7164518b64c87db9137b845f2a08 224 textures/effects/wpadg.mat
 a7252ab539fc5b0464bc79d6e0ed27ac 4829 textures/effects/wpadg_fx.png
-f8b0485a0899003388b305529e4c2282 351 textures/padbase/padbase-red.mat
 318a6ccdc992bacd45ca6079e6e0c221 163522 textures/padbase/padbase.png
-7b4ad4a5f9a2ac08fa684d831b4f1e49 49192 textures/padbase/padfx-iris3.png
-9ed110fe54fdb2ca7f7fcc4c765cd1a8 6925 textures/padbase/padfx3.jpg
+7b4ad4a5f9a2ac08fa684d831b4f1e49 49192 textures/padbase/padfx-iris-red.png
+9ed110fe54fdb2ca7f7fcc4c765cd1a8 6925 textures/padbase/padfx-red.jpg
+b3fcb83611564a4c36477e9b5e20fd43 392 textures/padbase/padfx-red.mat
 cf959717c754b0672d70aa195b4196f3 44 textures/prototype/grid.mat
 5ab934b4234ebfe0396313e425cdb356 3584 textures/prototype/grid.png
 699cc6c8ff40bb006eb8ea166d6f86a8 857 textures/prototype/grid_norm.png

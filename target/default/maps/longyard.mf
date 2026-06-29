@@ -1,4 +1,4 @@
-589814b74e680866dc9da98b75e3c91a 38111509 maps/longyard.bsp
+ff2b563dfbacda135ccf71e93b0fdfa7 38111509 maps/longyard.bsp
 2582dc7595a72dcf20557bfd595c7f0a 7276 maps/longyard.nav
 44130708393c1733cbf7b03941609c5a 83295 mapshots/longyard/longyard01.jpg
 a6c721a108337deaab4a419443de6e55 76435 mapshots/longyard/longyard02.jpg
@@ -59,10 +59,9 @@ cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
-037c791352c497c5e1551a96bc12804e 184 textures/decals/flr3_mark.mat
 2d77da7b64413c1bd078d8a76a1d37e0 356905 textures/decals/flr3_mark.png
+037c791352c497c5e1551a96bc12804e 184 textures/decals/flr3_mark_fx-cyan.mat
 9d2c328847dfb26db530e536a4cdc53e 92330 textures/decals/flr3_mark_fx-cyan.png
-3a09dba6ccf8a4105d72881e1e6f7370 253413 textures/decals/flr3_mark_norm.png
 292e91897db76221cf0e57d9db2d3c8e 280 textures/decals/quetoologo.mat
 f148d1d3b95bb838d5d5a541d28c103f 125461 textures/decals/quetoologo.png
 9726620a0a1b6a13783c675e233b2c38 108727 textures/decals/quetoologo_glow.png
@@ -95,7 +94,7 @@ ae9ba69188fc74e8b7e34ceba19031e8 20713 textures/quake2/metalbase03.jpg
 a95b2d338d10035b572372a8ae4c986d 144221 textures/quake2/metalbase03_norm.png
 efd204c674b0e45f303f2e201272ffc4 12610 textures/quake2/metalbase03_spec.jpg
 c0dd53707863755a5d61bc058c547ee0 7579 textures/quake3/sfx/electricslime2.jpg
-7b4d735ca9b2d38e8611510477e253ae 218 textures/quake3/sfx/electricslime2.mat
+b42f26488488602993d8d58c6346ba18 200 textures/quake3/sfx/electricslime2.mat
 841529068c809132ccfc1a7f7cb37448 8698 textures/spacectf/r_trim_17.jpg
 85ee6d096cdfd12b93f11cce2132e644 94 textures/spacectf/r_trim_17.mat
 1c2a0aaac60e61dbcdf77c4399cf237a 1155 textures/spacectf/r_trim_17_norm.png

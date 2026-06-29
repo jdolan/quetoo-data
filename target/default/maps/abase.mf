@@ -1,5 +1,5 @@
-50a143846786aa65f9a2be46b73ca840 13828345 maps/abase.bsp
-ea61c85e3a6332ef5b0fc50bd0db1802 14580 maps/abase.nav
+54f7fc602cc78682fa935cd4ead6735b 13832321 maps/abase.bsp
+a96f38decbf7ac420f2bf32a5c50838d 9924 maps/abase.nav
 9bba06fe7223bcd1d20711bdd950d547 127700 mapshots/abase/quetoo001.jpg
 97ef68c5d030e7a0d49e6c9022aad638 170339 mapshots/abase/quetoo002.jpg
 813d9338cfcf1ef90e0963faa59b803c 202442 mapshots/abase/quetoo003.jpg
@@ -58,11 +58,8 @@ b7f9a37e49826266f5ac8ac7f1feb934 290 textures/effects/black.png
 47936c4785ed7e3ad2aea6bbeb28bd11 425 textures/effects/sky1.mat
 d20862d28e97f0a9426f072795b86e2f 536000 textures/effects/sky1.png
 0c15ecca50d058e338d6e250d1a2241b 57594 textures/envmaps/envmap_1.jpg
-0907113d51417666b7d74a58b324a640 351 textures/padbase/padbase.mat
 318a6ccdc992bacd45ca6079e6e0c221 163522 textures/padbase/padbase.png
 59f417af38fd6830821430e5aeb48d10 105839 textures/padbase/padbase_norm.png
-4d60ab72cc80140fdc23ac7b1b75a67a 24432 textures/padbase/padfx-iris.png
-f9b471dcb96cdd2a15c68b6afc4ea24e 9521 textures/padbase/padfx.jpg
 cf959717c754b0672d70aa195b4196f3 44 textures/prototype/grid.mat
 5ab934b4234ebfe0396313e425cdb356 3584 textures/prototype/grid.png
 699cc6c8ff40bb006eb8ea166d6f86a8 857 textures/prototype/grid_norm.png

@@ -1,4 +1,4 @@
-32cbe677c17d1e675ee0479f97b8aba0 5404283 maps/aerowalk.bsp
+4bc249c9e9085af8761e831a9cecfbde 5404283 maps/aerowalk.bsp
 38a2ff6abc53603499b5c90e03c5e683 3980 maps/aerowalk.nav
 cccca2095d99897d571aa4cb5304b4c8 218881 mapshots/aerowalk/quetoo080.jpg
 4cdfd52234f37f9f698c846929ab24df 229670 mapshots/aerowalk/quetoo081.jpg
@@ -31,7 +31,7 @@ ce1ad48402c081d23b881fe0d9ff19ec 5577 textures/aerowalk/grnx2_24u.jpg
 b0ce0e679a14ab2f5f85203e21045b73 112 textures/aerowalk/grnx2_24u.mat
 6c68f6351296a8cb2425afe0f3424bc5 7076 textures/aerowalk/grnx2_24u_norm.png
 1a52028b78ccc11b5de4eded8df1722c 1792 textures/aerowalk/light4_2.jpg
-adcc3683cffdd6ea68fe678da37d8049 230 textures/aerowalk/light4_2.mat
+364e4f2df4e8f8eefc69fb7004b2d134 235 textures/aerowalk/light4_2.mat
 f79c035f2d07e8a2214338347a0e347c 1343 textures/aerowalk/light4_2_norm.png
 e08eaf6c02cf5aedcb056b7035271609 3969 textures/aerowalk/lightline32.jpg
 002605466d6be98d28dca2933eac9851 191 textures/aerowalk/lightline32.mat
@@ -56,11 +56,10 @@ cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
-0907113d51417666b7d74a58b324a640 351 textures/padbase/padbase.mat
 318a6ccdc992bacd45ca6079e6e0c221 163522 textures/padbase/padbase.png
-59f417af38fd6830821430e5aeb48d10 105839 textures/padbase/padbase_norm.png
-4d60ab72cc80140fdc23ac7b1b75a67a 24432 textures/padbase/padfx-iris.png
-f9b471dcb96cdd2a15c68b6afc4ea24e 9521 textures/padbase/padfx.jpg
+f9b471dcb96cdd2a15c68b6afc4ea24e 9521 textures/padbase/padfx-cyan.jpg
+60f04cabc407bb7f4f15b9d7443d3ecf 392 textures/padbase/padfx-cyan.mat
+4d60ab72cc80140fdc23ac7b1b75a67a 24432 textures/padbase/padfx-iris-cyan.png
 cf959717c754b0672d70aa195b4196f3 44 textures/prototype/grid.mat
 5ab934b4234ebfe0396313e425cdb356 3584 textures/prototype/grid.png
 699cc6c8ff40bb006eb8ea166d6f86a8 857 textures/prototype/grid_norm.png
