@@ -4,7 +4,7 @@
 	hardness 1.97
 	{
 		texture health/quake_medium/skin_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1.00 0.00 0.00 1.00
 		pulse 2.00 1.000
 	}

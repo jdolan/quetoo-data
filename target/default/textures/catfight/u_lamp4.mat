@@ -12,7 +12,7 @@
 	}
 	{
 		texture catfight/u_lamp4_blend
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1.00 1.00 1.00 0.85
 	}
 }

@@ -5,7 +5,7 @@
 	specularity 2
 	{
 		texture weapons/blaster/skin_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 1.25
 	}
 }

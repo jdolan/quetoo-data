@@ -5,7 +5,7 @@
 	specularity 1
 	{
 		texture weapons/rocketlauncher/skin_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 0.75
 	}
 }

@@ -2,7 +2,7 @@
 	diffusemap quake/azswitch3
 	{
 		texture quake/azswitch3_luma
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 0.23
 	}
 }

@@ -11,7 +11,7 @@
 	}
 	{
 		texture quake/light3_8_luma
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 0.44
 	}
 }

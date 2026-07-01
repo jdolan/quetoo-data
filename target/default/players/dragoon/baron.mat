@@ -4,6 +4,6 @@
 	tintmap.tint_g_default 0.55 0.4 0.3
         {
 		texture players/dragoon/baron_fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

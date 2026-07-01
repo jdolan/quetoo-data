@@ -8,7 +8,7 @@
 	surface ""
 	{
 		texture ctf/ctfbb5_fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 	{
 		flare flare_2

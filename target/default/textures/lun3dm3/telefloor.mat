@@ -3,6 +3,6 @@
 	surface "blend_66"
 	{
 		texture lun3dm3/telefloorfx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

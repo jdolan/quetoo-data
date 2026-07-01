@@ -3,6 +3,6 @@
 	shadow 0
 	{
 		texture trak5/dirscreen1_glo
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

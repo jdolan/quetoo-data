@@ -2,7 +2,7 @@
 	diffusemap atlantis/light04
 	{
 		texture atlantis/light04_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1.5 1.5 1.5 1
 	}
 	{

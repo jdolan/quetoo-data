@@ -13,6 +13,6 @@
 	}
 	{
 		texture quake/light1_1_luma
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

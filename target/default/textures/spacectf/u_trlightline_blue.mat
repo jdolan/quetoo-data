@@ -5,11 +5,11 @@
 	shadow 0
 	{
 		texture spacectf/u_trlightline_blue_blend
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 	{
 		texture spacectf/u_trlightline_blue_blend
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 2 2 2 0.75
 		pulse 1
 	}

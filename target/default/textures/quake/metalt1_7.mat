@@ -2,7 +2,7 @@
 	diffusemap quake/metalt1_7
 	{
 		texture quake/metalt1_7_luma
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 0.30
 	}
 }

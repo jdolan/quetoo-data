@@ -10,6 +10,6 @@
     }
     {
         texture pk02/pk02_light02c_glow
-        blend GL_SRC_ALPHA GL_ONE
+        blend src_alpha one
     }
 }

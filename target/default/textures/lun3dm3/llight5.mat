@@ -2,7 +2,7 @@
 	diffusemap lun3dm3/llight5
 	{
 		texture lun3dm3/llight5blend
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1.5 1.5 1.5 0.9
 	}
 	{

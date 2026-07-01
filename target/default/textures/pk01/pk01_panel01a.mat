@@ -2,6 +2,6 @@
     diffusemap pk01/pk01_panel01a_d
     {
         texture pk01/pk01_panel01a_glow
-        blend GL_SRC_ALPHA GL_ONE
+        blend src_alpha one
     }
 }

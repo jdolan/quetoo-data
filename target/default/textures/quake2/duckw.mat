@@ -9,7 +9,7 @@
 	surface "blend_100"
 	{
 		texture quake2/duckw
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1.00 1.00 1.00 0.15
 		lighting 1
 		scroll.s 0.002

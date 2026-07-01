@@ -4,7 +4,7 @@
 	parallax 3.50
 	{
 		texture turbo/wlight2_160fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 	{
 		color 1 0.9 0.8 1.00

@@ -6,13 +6,13 @@
 	contents "water"
 	{
 		texture gehenna/plasma
-		blend GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blend src_alpha one_minus_src_alpha
 		scroll.s 1
 		lighting .333
 	}
 	{
 		texture gehenna/plasma2
-		blend GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blend src_alpha one_minus_src_alpha
 		scroll.s -1
 		lighting .333
 	}

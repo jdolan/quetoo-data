@@ -2,7 +2,7 @@
 	diffusemap quake/slipside
 	{
 		texture quake/slipside_luma
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 0.51
 	}
 }

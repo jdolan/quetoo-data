@@ -8,7 +8,7 @@
 	contents "detail"
 	surface "blend_66"
 	{
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1.00 1.00 1.00 1.00
 		scale.s 0.250
 		scale.t 0.250

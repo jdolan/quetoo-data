@@ -8,6 +8,6 @@
 	}
 	{
 		texture q4power/light_fifty_g
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

@@ -4,7 +4,7 @@
 	contents "mist"
 	{
 		texture effects/lightbeamdust
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1 1 1 0.5
 		scale.s 2
 		scale.t 2

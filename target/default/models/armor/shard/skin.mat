@@ -7,13 +7,13 @@
 	parallax 5.38775
 	{
 		texture armor/shard/skin_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 1.5
 	}
 	{
 		shell 2
 		envmap envmaps/green
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color .2 .4 .2 .15
 		lighting 1 flat
 		scale.s .5

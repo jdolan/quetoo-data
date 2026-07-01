@@ -9,7 +9,7 @@
 	shadow 8.00
 	{
 		texture quake2/ceil2_orange
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1.75 1.75 1.75 0.9
 	}
 	{

@@ -3,7 +3,7 @@
 	
 	{
 		texture atlantis/light03_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 3 3 3 1
 	}
 }

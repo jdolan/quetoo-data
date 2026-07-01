@@ -7,7 +7,7 @@
 	shadow 6.51
 	{
 		texture lun3dm3/q1comp6fx0
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		anim 6 0.50 1
 	}
 }

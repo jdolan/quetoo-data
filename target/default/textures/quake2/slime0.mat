@@ -6,14 +6,14 @@
 	surface "liquid blend_66"
 	{
 		texture quake2/slimefx1
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		scale.s 0.800
 		scale.t 0.750
 		warp 0.30 0.30
 	}
 	{
 		texture quake2/slimefx2
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		scroll.t 0.020
 		scale.s 0.900
 		scale.t 0.900

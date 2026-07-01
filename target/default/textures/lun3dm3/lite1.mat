@@ -7,7 +7,7 @@
 	shadow 8.00
 	{
 		texture lun3dm3/lite1fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 	{
 		flare flare_1

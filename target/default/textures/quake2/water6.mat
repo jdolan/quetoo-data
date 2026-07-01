@@ -9,7 +9,7 @@
 	surface "blend_66"
 	{
 		texture quake2/slimefx2
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 0.32 0.26 0.22 0.25
 		scroll.t 0.010
 		scale.s 1.250
@@ -18,7 +18,7 @@
 	}
 	{
 		texture effects/water6fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 0.32 0.26 0.22 0.30
 		scroll.s -0.020
 		scale.s 1.000

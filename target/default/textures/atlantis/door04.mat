@@ -6,7 +6,7 @@
 	alpha_test 0.5
 	{
 		texture atlantis/door04_glass
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		lighting 1
 	}
 	{

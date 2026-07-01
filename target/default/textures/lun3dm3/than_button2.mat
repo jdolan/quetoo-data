@@ -4,7 +4,7 @@
 	parallax 1.04
 	{
 		texture lun3dm3/than_button2fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 0.25
 	}
 	{

@@ -7,7 +7,7 @@
 	shadow 0.00
 	{
 		texture quake2/wlighttallfx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 	{
 		scale.s 1.250

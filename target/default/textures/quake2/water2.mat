@@ -9,7 +9,7 @@
 	surface "blend_33"
 	{
 		texture effects/water2fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		scroll.s -0.020
 		scale.s 1.250
 		scale.t 1.250
@@ -18,7 +18,7 @@
 	}
 	{
 		texture effects/water2fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		scale.s 1.000
 		scale.t 1.000
 		warp 0.40 0.30
@@ -26,7 +26,7 @@
 	}
 	{
 		texture effects/water2fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		scale.s 1.000
 		scale.t 1.000
 		warp 0.50 0.30
