@@ -666,7 +666,7 @@ afb16f368df4fc6857213c257b73f654 27 models/weapons/bfg/tris.mtl
 39e4ddc17d7393528ed9c9428f3e8b37 38 models/weapons/bfg/world.cfg
 340442fba8d0a171aa4117362f75e8db 55 models/weapons/blaster/link.cfg
 a7a5ee97ab1a184e3af89c5554763ba2 108550 models/weapons/blaster/skin.jpg
-62b2d636a672caa8ae60658a3a4ddb8d 171 models/weapons/blaster/skin.mat
+ed4c654a8f5cae1f0761e2dfaa0700e6 161 models/weapons/blaster/skin.mat
 85fb5ea2f0dc896cbfedac25a51810e7 15656 models/weapons/blaster/skin_glow.jpg
 57e3e426d554e871cc8b3db0054f3b09 522231 models/weapons/blaster/skin_norm.jpg
 f0ef6fe14cb6fa073bd878a0adde0130 157297 models/weapons/blaster/skin_spec.jpg
@@ -676,7 +676,7 @@ afb16f368df4fc6857213c257b73f654 27 models/weapons/blaster/tris.mtl
 39e4ddc17d7393528ed9c9428f3e8b37 38 models/weapons/blaster/world.cfg
 84f3b8c0936494a8ea050744e372c3da 56 models/weapons/grenadelauncher/link.cfg
 8637fb955c494897bd21e99848f6d6fc 288229 models/weapons/grenadelauncher/skin.jpg
-6f11ddb801fd07bd503ec3c8de3cec3c 178 models/weapons/grenadelauncher/skin.mat
+25e0c57fd12435ce4f598177721ee1ab 176 models/weapons/grenadelauncher/skin.mat
 12c5a8b7be8351e6c9e9bbac57a19294 16020 models/weapons/grenadelauncher/skin_glow.jpg
 2c334b4443d43bcdac3d0b02222a568a 354011 models/weapons/grenadelauncher/skin_norm.jpg
 e82c2e132c3c9278bd42080f205f4244 309675 models/weapons/grenadelauncher/skin_spec.jpg
@@ -696,7 +696,7 @@ f50094e7cca3d689edc5bc2449b8f195 69100 models/weapons/hyperblaster/tris.obj
 39e4ddc17d7393528ed9c9428f3e8b37 38 models/weapons/hyperblaster/world.cfg
 56c0d59990db3b251536dda6032a8970 44 models/weapons/lightning/link.cfg
 d770a789e0d0eb7fae0f929aedbf5155 228868 models/weapons/lightning/skin.jpg
-aee5ff6dc5aefc994c994176ac0df6b1 168 models/weapons/lightning/skin.mat
+d523e9f5eb2380b6d9aa7d1f191b3efb 166 models/weapons/lightning/skin.mat
 3359561a6b8e56fa64c2064cbd198f79 16921 models/weapons/lightning/skin_glow.jpg
 fa275d40b1d590397f5f67b51c272859 478085 models/weapons/lightning/skin_norm.jpg
 2095479e8af1d3014cf129df05401038 167514 models/weapons/lightning/skin_spec.jpg
@@ -706,7 +706,7 @@ efaafa11e69003d22e58a744dd4f49d6 55 models/weapons/lightning/view.cfg
 5d3376335df27ff6fe8ce32a8f9c568c 59 models/weapons/lightning/world.cfg
 9f919a36af8cbab16a837f16ba45cb40 43 models/weapons/machinegun/link.cfg
 c383cb88bef42d322c7b5a361b4409ed 161640 models/weapons/machinegun/skin.jpg
-cf0afa6c1c6db3ecb67fae99ecd09bab 81 models/weapons/machinegun/skin.mat
+c27c998bc2637decac0a9ab66e3d236f 79 models/weapons/machinegun/skin.mat
 fffc420f66455ec78a0e41f0e321fa8e 444611 models/weapons/machinegun/skin_norm.jpg
 232747274aa50a15841c7d86bbaca398 155752 models/weapons/machinegun/skin_spec.jpg
 afb16f368df4fc6857213c257b73f654 27 models/weapons/machinegun/tris.mtl
@@ -772,7 +772,7 @@ c8e5349859973de78b9ebb3794b3835d 33652 models/weapons/quake_thunderbolt/skin_nor
 ab570b4995a11be708b8b013ba3ee428 26 models/weapons/quake_thunderbolt/world.cfg
 d8df4bbbff678f3462a6c67575142b00 55 models/weapons/railgun/link.cfg
 4597cb24aa9b403bf5a7c858d2e53cbe 145575 models/weapons/railgun/skin.jpg
-e05732f468436227bf4fa04b2164738c 165 models/weapons/railgun/skin.mat
+89651897263c9d98b1ffa065e7685a61 163 models/weapons/railgun/skin.mat
 5f9a38a61f6f1ba383fde6b87d3e0ead 18029 models/weapons/railgun/skin_glow.jpg
 3137cb45c9487bb3492c2eee8f0c3a0f 468338 models/weapons/railgun/skin_norm.jpg
 2cd7cbc3e12f9115e273ec57c4402ae8 166664 models/weapons/railgun/skin_spec.jpg
@@ -802,7 +802,7 @@ ad8e11ee3df8ca796ca566d466222755 97243 models/weapons/shotgun/tris.obj
 5d3376335df27ff6fe8ce32a8f9c568c 59 models/weapons/shotgun/world.cfg
 5097672ff77547c03984143a6aa678a3 43 models/weapons/supershotgun/link.cfg
 37b47a736911c1e114c920b22e59d266 161667 models/weapons/supershotgun/skin.jpg
-654d8c54f47d3ba983c3f98ca75205af 160 models/weapons/supershotgun/skin.mat
+2309bad51a11d82340223ba58758f04c 159 models/weapons/supershotgun/skin.mat
 4e87cfe9a67849fd37c2eade2b54a89a 15313 models/weapons/supershotgun/skin_glow.jpg
 7785b573d173c62dc062b29342cb8076 413114 models/weapons/supershotgun/skin_norm.jpg
 38d51e2b45681849d849fabe21660e7f 124364 models/weapons/supershotgun/skin_spec.jpg
@@ -1221,7 +1221,7 @@ e3c9d0847d60305f6323e5679795e25d 73384 players/guard/sizzle_1.wav
 9e06eacf7c66f893b67473fccddfa668 547278 players/qforcer/default_norm.jpg
 befbdbd40ec1fcf290217564f3ba89b1 107135 players/qforcer/default_spec.jpg
 49ad57d1f38f2afd3f6acf298831a581 703484 players/qforcer/default_tint.png
-4585d092b29950a246aa39d8eeaad68a 107 players/qforcer/default_v.mat
+90df7839f12381fc51103db055afdf75 100 players/qforcer/default_v.mat
 d0dc8b996d4a0b8f583a82aa96e2f2c0 67549 players/qforcer/default_v.png
 d9c33290301c4ff3cce7e7237a943eec 6745 players/qforcer/default_v_norm.jpg
 8bea5af6ee486f1472b921e441144347 5832 players/qforcer/default_v_spec.jpg
