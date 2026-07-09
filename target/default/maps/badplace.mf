@@ -1,4 +1,4 @@
-8ca438c158355321992e5dec4dd9e2a6 5826786 maps/badplace.bsp
+e11e442a29c4e36847bd5d91768b847a 7894922 maps/badplace.bsp
 3a370595b5778bf3cd9781a4b7a17c9a 2716 maps/badplace.nav
 d8d1928af2743e7a26bdb37cc3530636 254474 mapshots/badplace/quetoo068.jpg
 041b2a6541ec36f1694d2a4a6d94fdb9 222683 mapshots/badplace/quetoo069.jpg
@@ -33,18 +33,18 @@ ba950a27488726e3b406f39fd477c97a 106 textures/quake/cop3_4.mat
 acdcce9f5bc9bd25f7b6084f0129ded9 174998 textures/quake/cop3_4_norm.png
 f53e222bf018d055e4847567c3bfd5cf 29101 textures/quake/cop3_4_spec.jpg
 55b33e0259f869472c53bd618521c823 17420 textures/quake/lava2.jpg
-754e5446d9ca22955e7f2f70deec2ad6 491 textures/quake/lava2.mat
+9c8a06eacff5b7ca256b3c545995ab45 479 textures/quake/lava2.mat
 42bcddd68ca4323e00053c541a855db3 8917 textures/quake/lava2_glow.jpg
 a689447f5744b0851e8aeccd90987f39 13932 textures/quake/lava2_luma.jpg
 7a40345ecca1b699eae8635fc7928e75 51783 textures/quake/lava2_norm.png
 e3122f6acd4c362831bb98a64e5521c0 16156 textures/quake/lava2_spec.jpg
 3a90a6939e019629b4ef48c5c06af7a5 8954 textures/quake/light3_7.jpg
-2be20ef88c2e7224616237047e831e1d 185 textures/quake/light3_7.mat
+b075257ac546dac84f5ace72b14eb331 179 textures/quake/light3_7.mat
 34e8c2c7e803555d1bc3376a0cdd2d56 2165 textures/quake/light3_7_luma.jpg
 af4fcf71e09a5b59aca93d2cff4b5de0 39380 textures/quake/light3_7_norm.png
 6f293c67d5849b81f76b274b25bb1436 7896 textures/quake/light3_7_spec.jpg
 cadae2116592b207564e783012aadf0d 8935 textures/quake/light3_8.jpg
-f59693ad8c02707f2547048a6686f811 221 textures/quake/light3_8.mat
+dc3b02dc662de8cd58c8430e3c263334 215 textures/quake/light3_8.mat
 f9fd85db739133fae2b128c84c47b251 2380 textures/quake/light3_8_luma.jpg
 f6b1fc492570354f913c2bf18bdf80b1 35956 textures/quake/light3_8_norm.png
 d0142b2fcdb8d060e4f2a383a4b78dc4 7651 textures/quake/light3_8_spec.jpg
@@ -78,4 +78,4 @@ aa668755deaa50b1db65101f939361b2 11197 textures/quake/techlight_01.jpg
 5390440c35e1e939fac6ee45cbe77945 44205 textures/quake/techlight_01_norm.png
 404001ea3995d07de55a93c75ccf3202 8546 textures/quake/techlight_01_spec.jpg
 54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
-a0fe871b1ed4d33bf3cd388acbf933c7 348 textures/quake/teleport.mat
+197a40e5889d5650a0b4c4348815306f 336 textures/quake/teleport.mat

@@ -1,4 +1,4 @@
-ac967b2487515b3e92c670560080ea94 7220203 maps/tokays.bsp
+2aef6a8d313bb60a49382d9228d50969 9268431 maps/tokays.bsp
 11c9ca144c4780c952b173798c467d07 5980 maps/tokays.nav
 82c4bd5edf9876726be5628b7c22476e 185671 mapshots/tokays/quetoo018.jpg
 5efa348a845250cfce81ae0552cfc9e1 193044 mapshots/tokays/quetoo019.jpg
@@ -32,10 +32,10 @@ c7d22b364cd1a370cbbb3cc65274b779 107 textures/quake2/bed4_1.mat
 b0e42f64edf8bcd17eba87c6d291101c 11839 textures/quake2/bed4_1_norm.png
 ef6f0345d630c8c0617c753e611d9109 7491 textures/quake2/bed4_1_spec.jpg
 b218c810b83c0292c712df095ba039ff 3033 textures/quake2/ceil1_28.jpg
-5ed77990cfe0efa9c6a14a31be68bab7 281 textures/quake2/ceil1_28.mat
+82aae46b1de2539fc3ca210d15dba121 275 textures/quake2/ceil1_28.mat
 4770915d98757150615bd627d2a21ae6 8213 textures/quake2/ceil1_28fx.png
 ff1abdd7752c10c3bd81f7ca181764a7 2960 textures/quake2/ceil1_aqua.jpg
-b8eee11663549c6045c43273e607f9bf 285 textures/quake2/ceil1_aqua.mat
+4423eff6d47334a67c9b1592ddbeb72f 279 textures/quake2/ceil1_aqua.mat
 8815026ff3b7757170c16efce35e2a01 7452 textures/quake2/ceil1_aquafx.png
 e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
@@ -48,7 +48,7 @@ e6f6a05802b07b72af58b38b0d433498 6124 textures/quake2/fmet1_2_spec.jpg
 39cc6d77dbd934f8fb570ef563eb2281 7905 textures/quake2/fmet2_3_norm.png
 22f81508133b12f3e5077c6d447f538e 7498 textures/quake2/fmet2_3_spec.jpg
 1fb0c2521dd4d61cb4fd8199d892793d 3657 textures/quake2/fmet3_5.jpg
-032e779e54fe70c1cb59030e670c5ce0 169 textures/quake2/fmet3_5.mat
+6627e58dbf6ca5c7fcfc5823e5468982 163 textures/quake2/fmet3_5.mat
 73bda4af7eec43543d3a789fffd1eddd 1796 textures/quake2/fmet3_5_norm.png
 371fffedf34195fc68b785c2f30fecf1 2591 textures/quake2/fmet3_5_spec.jpg
 5cbf0cde6fc2b79f44de8ce163e76093 4881 textures/quake2/fmet3_5fx.png
@@ -103,7 +103,7 @@ fab096f4798987c372c1c60e836f669b 25085 textures/quake2/metal21_2.jpg
 ce68362593568ed259611e7232eb9cfa 93249 textures/quake2/metal21_2_norm.png
 e6822b414cff3982e5552f7dc94f89d9 15596 textures/quake2/metal21_2_spec.jpg
 0acbcdbb2272603c83003c2444cac133 5838 textures/quake2/metal21_2lamp.jpg
-a5c31deef55df6c9caefa36b2acd1d9a 181 textures/quake2/metal21_2lamp.mat
+45aee73215ee4c3b09c3d6a83b1827e5 175 textures/quake2/metal21_2lamp.mat
 a251fb7eb7f26379ec61328f63f99db7 5246 textures/quake2/metal21_2lamp_norm.png
 4d430f8265c98cecfac18a0a6f632aee 3685 textures/quake2/metal21_2lamp_spec.jpg
 0e8b031547c0f5eb535b6a346c111534 7034 textures/quake2/metal21_2lampfx.png
@@ -138,7 +138,7 @@ c323e7182febdeedf49a8303ed6a4741 116857 textures/quake2/troof4_2_norm.png
 404935ea96a6aa3a36d581a5e9ea1616 21339 textures/quake2/troof4_5.jpg
 f6ad26ea717d19e6e07b2234a4cb6807 192 textures/quake2/troof4_5.mat
 86f35d8414b8b5fc8115bec341004f10 2974 textures/quake2/water2.jpg
-ed712805f3ab791875224b861ae05576 536 textures/quake2/water2.mat
+007fd3e8cedae7a87acfb75b849c0e4e 518 textures/quake2/water2.mat
 7de527ac027787a9be5bff39c68889c2 2499 textures/quake2/yellow1_4.jpg
 ab2d72f7155edd70866420f461e2e052 110 textures/quake2/yellow1_4.mat
 ed68bcec5588be1fa8d32b6d105d4c09 4601 textures/quake2/yellow1_4_norm.png
