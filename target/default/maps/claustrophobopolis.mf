@@ -1,4 +1,4 @@
-50abff75a3b4818acaeecaec82d54ee5 13485267 maps/claustrophobopolis.bsp
+d61d2e9c9bdecbd6de64fec23214c7c1 13485627 maps/claustrophobopolis.bsp
 e88cfc3a5cf855047aef392efc982448 5796 maps/claustrophobopolis.nav
 bc14677052aca2856ead1ddf1c16ddbf 175634 mapshots/claustrophobopolis/quetoo019.jpg
 f761e389cfb3740265d2638084129858 210966 mapshots/claustrophobopolis/quetoo021.jpg
@@ -38,7 +38,7 @@ ba950a27488726e3b406f39fd477c97a 106 textures/quake/cop3_4.mat
 acdcce9f5bc9bd25f7b6084f0129ded9 174998 textures/quake/cop3_4_norm.png
 f53e222bf018d055e4847567c3bfd5cf 29101 textures/quake/cop3_4_spec.jpg
 80ba02608bdf6d29eb942ed2f6361163 25315 textures/quake/lava1.jpg
-9b40784c2e5b4871098c6510e4131e02 183 textures/quake/lava1.mat
+335bdb356033a1f97ec33f1a359a9cf2 143 textures/quake/lava1.mat
 706c164325e4d538c9cc8e843945b4ac 12896 textures/quake/lava1_spec.jpg
 3a90a6939e019629b4ef48c5c06af7a5 8954 textures/quake/light3_7.jpg
 b075257ac546dac84f5ace72b14eb331 179 textures/quake/light3_7.mat

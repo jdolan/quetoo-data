@@ -1,4 +1,4 @@
-e0da145a9d8392a5c54e853ea1f14331 26684067 maps/chthon.bsp
+b6fe5385d66272233106e0f3072b282d 26685507 maps/chthon.bsp
 608349b1004dad0284cb6e27b748523e 6020 maps/chthon.nav
 eb01a62943d8de39d1cc71ec86080492 167477 mapshots/chthon/quetoo084.jpg
 d577d529b30c0b40a30ed234498f7c36 166484 mapshots/chthon/quetoo085.jpg
@@ -115,9 +115,9 @@ b3d1ecd8f8f87d56430e21120bb5b773 41228 textures/quake/exit02_3.jpg
 c986f61d402e473c85dcf65ec63f007b 171268 textures/quake/exit02_3_norm.png
 0ce19ac620576e8108898cbafc656c87 23251 textures/quake/exit02_3_spec.jpg
 80ba02608bdf6d29eb942ed2f6361163 25315 textures/quake/lava1.jpg
-9b40784c2e5b4871098c6510e4131e02 183 textures/quake/lava1.mat
+335bdb356033a1f97ec33f1a359a9cf2 143 textures/quake/lava1.mat
 80ba02608bdf6d29eb942ed2f6361163 25315 textures/quake/lava1_flow.jpg
-16dca83ea9183a7d7688eca86189e9fd 137 textures/quake/lava1_flow.mat
+675709d1d660106b5e49f2a9c2778d9a 170 textures/quake/lava1_flow.mat
 706c164325e4d538c9cc8e843945b4ac 12896 textures/quake/lava1_flow_spec.jpg
 706c164325e4d538c9cc8e843945b4ac 12896 textures/quake/lava1_spec.jpg
 90066c2e805a9ed88ac8974f84906f54 79377 textures/quake/lgmetal.jpg
