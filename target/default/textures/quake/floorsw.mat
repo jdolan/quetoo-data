@@ -6,6 +6,6 @@
 	shadow 8.00
 	{
 		texture quake/floorsw_luma
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

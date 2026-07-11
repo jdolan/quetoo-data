@@ -6,6 +6,6 @@
 	shadow 0
 	{
 		texture quake2/pilr03_3-glowedge
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

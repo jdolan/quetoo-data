@@ -7,6 +7,6 @@
 	shadow 5.57685
 	{
 		texture quake2/glowedge512
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

@@ -10,7 +10,7 @@
 	}
 	{
 		texture spacectf/u_floor3_pad_7b_blend
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 1
 	}
 }

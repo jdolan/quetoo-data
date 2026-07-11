@@ -4,13 +4,13 @@
 	specularmap skies912/hex_crystal_spec
 	{
 		texture fractures/ice1_2
-		blend GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blend src_alpha one_minus_src_alpha
 		color 0.5 0.65 1.0 0.33
 		lighting 1
 	}
 	{
 		texture fractures/ice1_2-65
-		blend GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blend src_alpha one_minus_src_alpha
 		color 1 1 1 0.75
 		lighting 1
 	}

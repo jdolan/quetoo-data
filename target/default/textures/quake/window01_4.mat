@@ -7,7 +7,7 @@
 	shadow 0.00
 	{
 		texture quake/window01_4
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1.50 1.50 1.50 0.35
 	}
 }

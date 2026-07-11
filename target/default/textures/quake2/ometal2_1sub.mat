@@ -6,6 +6,6 @@
 	parallax 0.40
 	{
 		texture quake2/slime_glowedge
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

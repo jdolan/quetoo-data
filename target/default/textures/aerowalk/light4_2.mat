@@ -7,7 +7,7 @@
 	shadow 8.00
 	{
 		texture padbase/padfx-cyan
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 	{
 		color 0.30 0.30 0.30 1.00

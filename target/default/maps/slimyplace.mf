@@ -1,4 +1,4 @@
-88de93f44d661dbaa1a48d753bfb4efc 5760450 maps/slimyplace.bsp
+badb0545e7639733e43f955f19b2e4ca 7000158 maps/slimyplace.bsp
 2fa04e2985b87b3032dad006dc1882e3 5524 maps/slimyplace.nav
 8467d6a7679bed3761216ca0640ecb2e 179261 mapshots/slimyplace/quetoo036.jpg
 6b87681e37cb245aab34e7e303a7b8dc 197170 mapshots/slimyplace/quetoo037.jpg
@@ -20,16 +20,16 @@ cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 6b90b4a0628db07be8c1f79fe3e6b193 54 textures/decals/alienpuke.mat
 c2e3b395fd3be34955376c201d1cef88 27497 textures/decals/alienpuke.png
 f0f2951fac46049ceb7fd2b88f2a206c 5219 textures/quake2/btactmach0.jpg
-961ca476de6908c8882ace203a256218 175 textures/quake2/btactmach0.mat
+3e614683ddadaf790bb80fc49f4edcd8 169 textures/quake2/btactmach0.mat
 1510b1856c07c577c728b8f8bbee79ed 19971 textures/quake2/btactmach0_norm.png
 95c647956e0cd46dd01b220a98af8d49 3793 textures/quake2/btactmach0_spec.jpg
 bc617e0b5831c8c2ab566f8ca7ef75ec 5081 textures/quake2/btactmach0fx1.png
 95976f76bfa2a627686b577182827f6c 5587 textures/quake2/btactmach0fx2.png
 d0e17a50b836ad259acaf60bdae3e2b2 3208 textures/quake2/ceil1_4.jpg
-352656f2afcc9f2e0cd0910a414e2238 279 textures/quake2/ceil1_4.mat
+a6f02649418304137ccec34e452e6bfb 273 textures/quake2/ceil1_4.mat
 677424b9ce9b134979ebbfc9d04512ef 8449 textures/quake2/ceil1_4fx.png
 7adf79fca5ea67539d517ab6b8798b15 3184 textures/quake2/ceil1_lime.jpg
-cc18876d273ef9d4158beaf19e497ca0 285 textures/quake2/ceil1_lime.mat
+73336a5b99a9ee9b6000eccaca841eeb 279 textures/quake2/ceil1_lime.mat
 9978f008e18e793453f4026c80f9f662 8161 textures/quake2/ceil1_limefx.png
 e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
@@ -92,7 +92,7 @@ b7849cec7eaab0f2ef24c6c1a215ef38 14997 textures/quake2/metal18_2side_spec.jpg
 64212e4fb198f516d77f153173214cb0 63376 textures/quake2/metal2_1_norm.png
 3a3a6e1a144af82d0c28c26c1ba9dced 6655 textures/quake2/metal2_1_spec.jpg
 4e6fbaa03e05a650278e873e5f9a1b96 21844 textures/quake2/metal_subslime.jpg
-9c4dd85710db4580699ab481d55ec3ce 181 textures/quake2/metal_subslime.mat
+98b46442f7943478923e4d5ddd5fd996 175 textures/quake2/metal_subslime.mat
 e8cfb6318a4c50b964dac91fd0c05d08 101114 textures/quake2/metal_subslime_norm.png
 8184c05e1d6d97f874a4c7f8d83f18af 13154 textures/quake2/metal_subslime_spec.jpg
 bbbde4fba2e23fa42a3d38f94c01c8fe 186309 textures/quake2/metl_floor_norm.png
@@ -102,7 +102,7 @@ bb56777e9fcc52d122b9e1077052345a 79 textures/quake2/ometal2_1.mat
 72d2ef4e65b7b229131eae3214a2224f 123131 textures/quake2/ometal2_1_norm.png
 42267569535d9e7e25123ed5840467d1 15231 textures/quake2/ometal2_1_spec.jpg
 ff28b80ce7dc325869f62c4152f35f5d 21028 textures/quake2/ometal2_1sub.jpg
-e2789cf485f14eda730deb02db03c989 200 textures/quake2/ometal2_1sub.mat
+a07c919add6e164b8b6c895f7123237b 194 textures/quake2/ometal2_1sub.mat
 6b3d5ac4004527dc21a2b686cba77177 7621 textures/quake2/pilr01_3.jpg
 8a6c1001c221232a7d12bbba417508cc 109 textures/quake2/pilr01_3.mat
 a98204859bb0e0ca1fe6d760cdc02e60 65623 textures/quake2/pilr01_3_norm.png
@@ -111,7 +111,7 @@ a98204859bb0e0ca1fe6d760cdc02e60 65623 textures/quake2/pilr01_3_norm.png
 56b83220d55db1785000cb53fd4f470c 114032 textures/quake2/sewer2_bars.png
 d2fa9b4a7a05b790fd56c39850f903da 57262 textures/quake2/sewer_bars_norm.png
 906d5c2d0f3c49a6078021d83f93c8ab 13611 textures/quake2/sewer_bars_spec.jpg
-b8efac9db2e63728601e4a74df6814b8 345 textures/quake2/slime0.mat
+31bc7b3f2122136626f5c038ff867831 333 textures/quake2/slime0.mat
 7e7e151d5abfff9174cc86d672de953e 1414 textures/quake2/slime0.png
 8c2d2d0520b05690a641f6bc48db3366 124166 textures/quake2/slime_glowedge.png
 430d6c18ff4615a0ebbcae22f801b6d7 16640 textures/quake2/slimefx1.jpg
@@ -120,4 +120,4 @@ ceaba3427c5e865c29ae48b83b4e90d5 20421 textures/quake2/subslimebotm.jpg
 130e5bf5cff4b5063e467b2c09c57867 135 textures/quake2/subslimebotm.mat
 3dddafbebfb6bea8b74f17d4cf91bc45 19133 textures/quake2/wlight1fx.png
 c8ebec84b598bb6c95878768e5e084bc 8557 textures/quake2/wlight1g.jpg
-eafceb3a74524b50e83509092c954c60 218 textures/quake2/wlight1g.mat
+104a0d58492de0fcc832b7d2c12ba905 212 textures/quake2/wlight1g.mat

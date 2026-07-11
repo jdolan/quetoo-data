@@ -7,11 +7,11 @@
 	shadow 8.00
 	{
 		texture trak5/light2_fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 	{
 		texture trak5/light2_blend
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 	{
 		flare flare_1

@@ -10,6 +10,6 @@
 	}
 	{
 		texture evil/e6v_light_blend
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

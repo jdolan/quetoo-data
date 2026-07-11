@@ -1,4 +1,4 @@
-220e6ffb185cf92a3d76596ba35a7961 25237364 maps/gehenna.bsp
+2172f7960c2e061f2d6b5d521a94e66d 30702748 maps/gehenna.bsp
 39b59b9a524298160edb037b74ac1b52 5732 maps/gehenna.nav
 5c920da0cfc3871f720d8594ab55a8eb 223189 mapshots/gehenna/quetoo106.jpg
 af34f46aac080a3a6ad6e68a97dbc4e2 242852 mapshots/gehenna/quetoo107.jpg
@@ -59,12 +59,12 @@ b21f2dc96466149a52d4a58b285e41ed 64582 textures/evil/exmetalbase03_d.jpg
 08d29f12b3bf0259445b67d1d2b6331b 118 textures/gehenna/clangfloor_01b.mat
 b8225117cda6c9c1d12c7fc8c456a21c 28551 textures/gehenna/clangfloor_01b_d.jpg
 8cbef423087d6ff6d807902ff805b78f 11269 textures/gehenna/clangfloor_01b_norm.png
-f0c994be2dcdfcee991317e4bc375d1f 261 textures/gehenna/glass.mat
+649501f464dff10bf6674ad09c630ada 255 textures/gehenna/glass.mat
 c9c40627c524bbd5136265625cd4200e 10231 textures/gehenna/glass.png
-0e17c3f4a8223394bff3d191db8a94c7 313 textures/gehenna/glass2.mat
+91b0bc4f4d95da49c6e0d2379c9a99d3 301 textures/gehenna/glass2.mat
 a2c923e06c940e01a6aa1b91e15d382b 10234 textures/gehenna/glass2.png
 e7a95871d755327ceda6db8f66f02a78 12859 textures/gehenna/light4.jpg
-25f0864a62a1423edb48cfba2a75db3b 179 textures/gehenna/light4.mat
+3d5c3da0a09fd6f7367af808f0f343de 173 textures/gehenna/light4.mat
 39ff18b66129d55e1642d122625f0d27 44469 textures/gehenna/light4_fx.png
 71f8da43d94e977af6e045f66b77c098 45989 textures/gehenna/light4_norm.png
 c9ec0a1e23e1deb673ee16309a3dc152 114 textures/gehenna/mtl_wrn_01.mat
@@ -84,7 +84,7 @@ de667e4f586ac60a003645a6617595c5 67635 textures/gehenna/plasma.png
 318a6ccdc992bacd45ca6079e6e0c221 163522 textures/padbase/padbase.png
 c474276da9982e8bd26716a19bf5525f 50374 textures/padbase/padfx-iris-yellow.png
 2f6ac0104ee0f3bfd71432104581e52d 8608 textures/padbase/padfx-yellow.jpg
-1d891c80523ef77a307cb033aeabefce 396 textures/padbase/padfx-yellow.mat
+ee1a51e081fa1a964c1e5d6596476cd9 384 textures/padbase/padfx-yellow.mat
 cf959717c754b0672d70aa195b4196f3 44 textures/prototype/grid.mat
 5ab934b4234ebfe0396313e425cdb356 3584 textures/prototype/grid.png
 699cc6c8ff40bb006eb8ea166d6f86a8 857 textures/prototype/grid_norm.png
@@ -101,7 +101,7 @@ a6f078afa94044ce41335b948491d8f6 6411 textures/q4power/glue1_spec.jpg
 09c9cf3d96294a21721cba95891eb593 50420 textures/q4power/glue2_norm.png
 0522c40025c7f5286a39cdda6e09790c 6584 textures/q4power/glue2_spec.jpg
 54b408ddc4a47457541fea4d26aa3d1f 17473 textures/q4power/mech1.jpg
-f3dee8c18cf1387936d4059dbc061b2e 211 textures/q4power/mech1.mat
+7e00a16344ba9a372e814834c6b56ddb 205 textures/q4power/mech1.mat
 7bb3572d7851f81ae29846828c974515 48474 textures/q4power/mech1_glow.jpg
 d3b276e662875f8f6894ddf242ece14b 127668 textures/q4power/mech1_norm.png
 8b4c71a77fc5cc4a0a8fc913746f2e7d 24825 textures/q4power/mech1_spec.jpg
@@ -162,14 +162,14 @@ d1cc6e2b618feffbb496f9b3c1414aed 89 textures/q4power/rock1.mat
 fdf515d67d63b459d2dbec4996ac35d4 188569 textures/q4power/wires1_norm.png
 8e2d33a57ecb365c5ad0b76cb974b3a4 27786 textures/q4power/wires1_spec.jpg
 2ca10c7e3f202f26d7c61b820be20705 167468 textures/quake2/brlava.jpg
-a280cb01374b5983b14f9925b16611b4 367 textures/quake2/brlava.mat
+ef052954406f2f784a6a507f121ca591 355 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg
 7e70d11649fff4b6cd950f2089143bbf 5977 textures/quake2/grate1.jpg
 756f279a3b722bace6198d95dc5a3fc0 76 textures/quake2/grate1.mat
 769da5d4f182cc5f7579f87bee3bcb98 11733 textures/quake2/grate1_norm.png
 261f4c3dcf82e932bbfcaaecabf8bfe9 4301 textures/quake2/grate1_spec.jpg
 c568931caee8172e6422861191505d7f 9139 textures/trak5/light2.jpg
-2b495bc4f5885c02f979af104081b756 251 textures/trak5/light2.mat
+ebb5b25a5a50b50a20990c06f6f06d89 239 textures/trak5/light2.mat
 195ab48dde69d6a3f703fee0726f3f17 7711 textures/trak5/light2_blend.png
 be8697ed98c40948d11b441db9d9182f 7861 textures/trak5/light2_fx.png
 1630fc0c3299a46618266c9ce7877845 24504 textures/trak5/light2_norm.png

@@ -7,7 +7,7 @@
 	shadow 0.00
 	{
 		texture quake2/baselt_cfx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 	{
 		color 1.00 0.21 0.11 1.00

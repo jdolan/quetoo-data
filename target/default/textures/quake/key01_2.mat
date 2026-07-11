@@ -4,7 +4,7 @@
 	specularmap quake/key01_1_spec
 	{
 		texture quake/key01_2_luma
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 0.25
 	}
 }

@@ -7,7 +7,7 @@
 	shadow 4.66
 	{
 		texture quake/comp1_2_luma
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 0.35
 	}
 }

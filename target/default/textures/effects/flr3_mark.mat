@@ -13,7 +13,7 @@
 ========
 		texture	common/fx/flr3_mark_fx-cyan
 >>>>>>>> Stashed changes:target/default/textures/effects/flr3_mark.mat
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 1
 	}
 }

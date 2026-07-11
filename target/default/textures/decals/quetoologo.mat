@@ -10,7 +10,7 @@
 	alpha_test 0.477
 	{
 		texture decals/quetoologo_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1.00 1.00 1.00 0.75
 	}
 }

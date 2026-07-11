@@ -5,6 +5,6 @@
 	specularity 2
 	{
 		texture weapons/shotgun/skin_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

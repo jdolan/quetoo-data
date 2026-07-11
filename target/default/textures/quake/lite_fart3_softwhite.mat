@@ -8,7 +8,7 @@
 	contents "detail"
 	{
 		texture quake/lite_fart3_softwhite_luma
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 0.42
 	}
 	{

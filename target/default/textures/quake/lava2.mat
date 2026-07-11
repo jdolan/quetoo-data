@@ -9,7 +9,7 @@
 	surface "liquid"
 	{
 		texture quake/lava2_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		scroll.s 0.014
 		scroll.t -0.018
 		scale.s 0.900
@@ -19,7 +19,7 @@
 	}
 	{
 		texture quake/lava2_luma
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1 1 1 0.85
 		scroll.s 0.014
 		scroll.t 0.038

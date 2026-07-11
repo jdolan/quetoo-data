@@ -1,4 +1,4 @@
-7f26af4aa13aaa7993abc00e8c27f756 25451152 maps/insta-rounding.bsp
+2cc5cf9476bb5d2f15e71b98b67be433 33231760 maps/insta-rounding.bsp
 a022a4a2365fc29e7ee8f926970994b1 12060 maps/insta-rounding.nav
 d9be304ce19b6d74aeea0580e67190b9 143513 mapshots/insta-rounding/quetoo079.jpg
 37d15de81b47a08c56fe2120a10e5389 99218 mapshots/insta-rounding/quetoo080.jpg
@@ -10,7 +10,7 @@ ab805fc24abb7b5dddbf661ab9677356 4743 textures/aerowalk/arvnt1_4.jpg
 af7bdbfa9aeb2eef621e77754cb47b6d 78 textures/aerowalk/arvnt1_4.mat
 53d7e0b939fe6d41b4723ac2f7b0977a 4183 textures/aerowalk/arvnt1_4_norm.png
 1a52028b78ccc11b5de4eded8df1722c 1792 textures/aerowalk/light4_2.jpg
-364e4f2df4e8f8eefc69fb7004b2d134 235 textures/aerowalk/light4_2.mat
+59e2412604db115be12d438b25544276 229 textures/aerowalk/light4_2.mat
 f79c035f2d07e8a2214338347a0e347c 1343 textures/aerowalk/light4_2_norm.png
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
 ab6846eab04f23e52489df2d2e7dea1b 29 textures/common/caulk.mat
@@ -39,12 +39,12 @@ bf5ea3525926d18defb1e2be0112a9b0 20496 textures/q4power/hexflr2.jpg
 ab16a519a6e2bbeac4f8a9f196323bc6 10570 textures/q4power/hexflr2_norm.png
 3099e987a638f26698575a715579c66f 27419 textures/q4power/hexflr2_spec.jpg
 c9fe9c9a48d1740a156840bb91848577 1776 textures/q4power/light_r1.jpg
-283c84397c61895ad93d1ef3ac9c1c3f 161 textures/q4power/light_r1.mat
+3cc31fc931dd37e22940162ba63e85e9 155 textures/q4power/light_r1.mat
 dd9dac585a4d350498ed3e350d84be1d 4815 textures/q4power/light_r1_glow.png
 f2723649e758d57f7a7fcde8931dbbcf 9906 textures/q4power/light_r1_norm.png
 0d631dadf09923819bd62e87786e63a3 2319 textures/q4power/light_r1_spec.jpg
 54b408ddc4a47457541fea4d26aa3d1f 17473 textures/q4power/mech1.jpg
-f3dee8c18cf1387936d4059dbc061b2e 211 textures/q4power/mech1.mat
+7e00a16344ba9a372e814834c6b56ddb 205 textures/q4power/mech1.mat
 7bb3572d7851f81ae29846828c974515 48474 textures/q4power/mech1_glow.jpg
 d3b276e662875f8f6894ddf242ece14b 127668 textures/q4power/mech1_norm.png
 8b4c71a77fc5cc4a0a8fc913746f2e7d 24825 textures/q4power/mech1_spec.jpg
@@ -121,7 +121,7 @@ af51206f86b1089a4d025e640bfae39f 22896 textures/q4power/pwpip1_spec.jpg
 fdf515d67d63b459d2dbec4996ac35d4 188569 textures/q4power/wires1_norm.png
 8e2d33a57ecb365c5ad0b76cb974b3a4 27786 textures/q4power/wires1_spec.jpg
 a5f3c100b11426cdce2476159b59af74 1720 textures/quake2/baselt_c.jpg
-c2cfa2aa8498ac67d05e46f51f034b08 253 textures/quake2/baselt_c.mat
+797adfd3bffc921f346da83dfb1e3025 247 textures/quake2/baselt_c.mat
 d0fd13a4e590b639d97029cd4977d862 1465 textures/quake2/baselt_c_norm.png
 2f2760754673b83f8215d61a1ef13ef2 1352 textures/quake2/baselt_c_spec.jpg
 c3f4df238c1813f5f147a21c1784ca03 4689 textures/quake2/baselt_cfx.png
@@ -138,7 +138,7 @@ a9408edd5d252a435b6423dfe8496ca9 15101 textures/quake2/blume4_1_spec.jpg
 ec92d0ec9e780040f97f23aa4acd8f88 105777 textures/quake2/blume7_2_norm.png
 0ed32127a37d99a09ab9892860e13370 18489 textures/quake2/blume7_2_spec.jpg
 ff1abdd7752c10c3bd81f7ca181764a7 2960 textures/quake2/ceil1_aqua.jpg
-b8eee11663549c6045c43273e607f9bf 285 textures/quake2/ceil1_aqua.mat
+4423eff6d47334a67c9b1592ddbeb72f 279 textures/quake2/ceil1_aqua.mat
 8815026ff3b7757170c16efce35e2a01 7452 textures/quake2/ceil1_aquafx.png
 e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
@@ -163,7 +163,7 @@ ac468435f2c64fff600202d393201df7 94 textures/quake2/green3_4.mat
 21e329c54a90b9b51ad09048f984c7bb 72738 textures/quake2/green3_4_norm.png
 7be5237caf5ee0f6bc11ab31237f8630 7193 textures/quake2/green3_4_spec.jpg
 fa93060f5c848f79bff98e65ba8c8bbf 4382 textures/quake2/light1.jpg
-60372c8beb32563a27014d00088f96ca 190 textures/quake2/light1.mat
+d987bffeeab85c34927970934aac00e0 184 textures/quake2/light1.mat
 eaa811ea73cf637e9d261c0095bdcfda 4215 textures/quake2/light1_fx.png
 3c17d4af9d4d833537437aaae9aa8884 23846 textures/quake2/light1_norm.png
 d6fe1590ed8daf95b01053bba6628830 3368 textures/quake2/light1_spec.jpg

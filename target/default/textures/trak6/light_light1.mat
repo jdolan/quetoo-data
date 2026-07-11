@@ -8,6 +8,6 @@
 	}
 	{
 		texture trak6/light_light1_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

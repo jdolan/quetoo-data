@@ -3,7 +3,7 @@
 	surface sky
 	{
 		texture effects/sky3
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1 1 1 .666
 		scroll.s -.1
 		scroll.t -.1
@@ -12,7 +12,7 @@
 	}
 	{
 		texture effects/sky3
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1 1 1 .666
 		scroll.s .05
 		scroll.t .05

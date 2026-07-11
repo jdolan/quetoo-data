@@ -4,7 +4,7 @@
 	hardness 5.01
 	{
 		texture ammo/quake_rockets/skin_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 0.50 0.50 0.50 1.00
 		pulse 1.00
 	}

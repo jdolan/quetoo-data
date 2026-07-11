@@ -6,7 +6,7 @@
 	shadow 0.00
 	{
 		texture quake2/btactmach0fx1
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		anim 2 0.00
 	}
 }

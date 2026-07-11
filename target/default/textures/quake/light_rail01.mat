@@ -7,7 +7,7 @@
 	shadow 4.00
 	{
 		texture quake/light_rail01_luma
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 0.44
 	}
 }

@@ -8,13 +8,13 @@
 	surface "blend_66 material"
 	{
 		texture ctf/flagpadfx_blue
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		stretch 0.5 1
 		rotate 0.75
 	}
 	{
 		texture ctf/flagpadfx_blue
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		stretch 0.5 0.25
 		rotate -0.5
 	}

@@ -1,4 +1,4 @@
-594169bf02d97bf14991f51cea0477f1 12897141 maps/lavatomb.bsp
+3b42e84d4612da4d2aea9cdb540b38d7 16711473 maps/lavatomb.bsp
 524607c434dac43c53d5ba82cc000dcd 6180 maps/lavatomb.nav
 80336c0e6be6ee6a5f49f3a38c9d551d 281252 mapshots/lavatomb/quetoo098.jpg
 7f83c172324cb082a471ce0a81ac0ddc 217367 mapshots/lavatomb/quetoo099.jpg
@@ -23,10 +23,10 @@ c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 2ca10c7e3f202f26d7c61b820be20705 167468 textures/quake2/brlava.jpg
-a280cb01374b5983b14f9925b16611b4 367 textures/quake2/brlava.mat
+ef052954406f2f784a6a507f121ca591 355 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg
 d0e17a50b836ad259acaf60bdae3e2b2 3208 textures/quake2/ceil1_4.jpg
-352656f2afcc9f2e0cd0910a414e2238 279 textures/quake2/ceil1_4.mat
+a6f02649418304137ccec34e452e6bfb 273 textures/quake2/ceil1_4.mat
 677424b9ce9b134979ebbfc9d04512ef 8449 textures/quake2/ceil1_4fx.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
 7cd970a33f19bea081deec7d908ef6d0 3671 textures/quake2/ceil2_norm.png
@@ -58,9 +58,9 @@ e93e5f493eef7bc2f5d5abe7c480d26b 116 textures/quake2/palmet10_2.mat
 f7d5052a9491a2fca66802f3d305a9fb 104184 textures/quake2/palmet10_2_norm.png
 79feca94778d861289441217cec2f1e0 19307 textures/quake2/palmet10_2_spec.jpg
 b2c4801f6b174288b16b2f362b57aba3 30708 textures/quake2/palmet11_2-heat.jpg
-7b43c047c2ea7b0a23ed0a3ce2a6a94a 210 textures/quake2/palmet11_2-heat.mat
+567f3f215b31b568c2db0b24c62a6d2c 204 textures/quake2/palmet11_2-heat.mat
 17e024b9a2790573c9f2757f11de992c 15133 textures/quake2/palmet11_2-heathalf.jpg
-dd528b0751664d605f0e92f6b05d4434 191 textures/quake2/palmet11_2-heathalf.mat
+e16bc3ea10ff734f33eca0b5d082ab9c 185 textures/quake2/palmet11_2-heathalf.mat
 39ae67ae7a33219bc797b4e39867c9fc 63565 textures/quake2/palmet11_2-heathalf_norm.png
 fd6ab0ad8988997c1bbd4fd2a45cc1a0 9487 textures/quake2/palmet11_2-heathalf_spec.jpg
 df3b6211c8c972f75f5abf82d2f7cb50 31205 textures/quake2/palmet11_2.jpg
@@ -97,7 +97,7 @@ d800222266053e0e07ac8b15f777a213 115 textures/quake2/palmet5_1.mat
 2c05cbe80b70c1a0b99ddaeb4fe9041a 18734 textures/quake2/palmet5_2_spec.jpg
 f4cb2b1ad1242d71c51f2aeb7d6a2500 6170 textures/quake2/pilr03_3-glowedge.png
 e28fc938c67bff3876e7684ed3041ca6 1983 textures/quake2/pilr03_3-heat.jpg
-4994be334f7fad357d851843dd6b5124 157 textures/quake2/pilr03_3-heat.mat
+b9a3b9c4eaeda4ad3cc6fff467c65290 151 textures/quake2/pilr03_3-heat.mat
 0dd4fb6233dec902d128b376847ca16d 7109 textures/quake2/pilr03_3-heat_norm.png
 b75e92106c304e1cdfff8826d21e5f62 1462 textures/quake2/pilr03_3-heat_spec.jpg
 079c434c2c563bbe8c03c196d9edc346 9704 textures/quake2/pilr03_3.jpg
@@ -109,7 +109,7 @@ e5f108ad1d37e772cf1f9d7c93735e84 73784 textures/quake2/pilr03_3_norm.png
 57b10506ed2e0197efbe4c29b48caa66 10986 textures/quake2/pyramids_norm.png
 d98473c4d0bd557c97454ac4172708aa 11783 textures/quake2/pyramids_spec.jpg
 714de9e6edc7b4ea5ca76b211c8ef0ee 80791 textures/quake2/rockies-heat.jpg
-c7587fc02b398f359acb175a34a09ab3 186 textures/quake2/rockies-heat.mat
+f60ffdb2c1fe22562f7b5621264795c4 180 textures/quake2/rockies-heat.mat
 24179c323b6eedb6f47910313b089058 318870 textures/quake2/rockies-heat_norm.png
 deed609a9ade1ddb35ef048dac51fe7c 52129 textures/quake2/rockies-heat_spec.jpg
 bdc16a67fc34c15301260e7e8e9dff12 160961 textures/quake2/rockies.jpg
@@ -118,10 +118,10 @@ fd8dabf8eef8e1da6c9750d1aed8c0dc 629719 textures/quake2/rockies_norm.png
 a566b040fc72e28ff88ff843a9e38110 104626 textures/quake2/rockies_spec.jpg
 3ff01356acbdd03a12004e754a72b51e 119968 textures/quake2/sublava-glow.png
 a93068b33504954e07cf68e967ed5e16 23377 textures/quake2/sublava.jpg
-4d27bb93e5a18ac4727df727d4b0fb3b 105 textures/quake2/sublava.mat
+bbc422bbffa0ec4701a193f2fee1aa11 99 textures/quake2/sublava.mat
 0ee2e84cd66cebf18ec38a5df952468e 121886 textures/quake2/sublavabotm-glow.png
 e281f9f2d907e9d57c7fee5ce9b2b483 25838 textures/quake2/sublavabotm.jpg
-a18496187acdb7cc1f6b540039577fb8 113 textures/quake2/sublavabotm.mat
+a959ce826f58ae934d2f4a7bfbf577dd 107 textures/quake2/sublavabotm.mat
 dcbec53b4e515e629cf0da4514bb5f9b 42218 textures/quake2/worngrass-noblend.jpg
 63b51264a57b7f39b6cef3a71d13f53b 118 textures/quake2/worngrass-noblend.mat
 0fb97345de545b9d9a11009916a81f65 149910 textures/quake2/worngrass-noblend_norm.png

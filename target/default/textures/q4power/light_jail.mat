@@ -8,7 +8,7 @@
 	}
 	{
 		texture q4power/light_jail_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1.25 1.25 1.25 0.9
 	}
 }

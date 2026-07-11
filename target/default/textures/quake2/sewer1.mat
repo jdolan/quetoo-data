@@ -6,18 +6,18 @@
 	surface "liquid blend_66"
 	{
 		texture quake2/sewer1
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 1.50 1.50 1.50 0.50
 		warp 0.30 0.30
 	}
 	{
 		texture quake2/sewer1fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		warp 0.25 0.25
 	}
 	{
 		texture quake2/sewer1fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		warp 0.25 -0.25
 	}
 }

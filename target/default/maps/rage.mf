@@ -1,4 +1,4 @@
-f54ac8e2143957a30bf99c9776378192 5805420 maps/rage.bsp
+77ad536b60e49943cb092041ab46a69d 7955776 maps/rage.bsp
 db567133973d9cf43a05e7350e32d9c1 5372 maps/rage.nav
 339a2d91dbfb6ccbdd0ec3cdcb34a38e 181861 mapshots/rage/quetoo072.jpg
 e460c74429553de74b6e4f58d868410d 197551 mapshots/rage/quetoo075.jpg
@@ -30,7 +30,7 @@ c7d22b364cd1a370cbbb3cc65274b779 107 textures/quake2/bed4_1.mat
 b0e42f64edf8bcd17eba87c6d291101c 11839 textures/quake2/bed4_1_norm.png
 ef6f0345d630c8c0617c753e611d9109 7491 textures/quake2/bed4_1_spec.jpg
 b218c810b83c0292c712df095ba039ff 3033 textures/quake2/ceil1_28.jpg
-5ed77990cfe0efa9c6a14a31be68bab7 281 textures/quake2/ceil1_28.mat
+82aae46b1de2539fc3ca210d15dba121 275 textures/quake2/ceil1_28.mat
 4770915d98757150615bd627d2a21ae6 8213 textures/quake2/ceil1_28fx.png
 e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
@@ -71,7 +71,7 @@ c404257fa214d9bccac3bafb63c3290a 82 textures/quake2/ggrat4_2add.mat
 7a9e1583d62445acc063c4301165db46 21503 textures/quake2/ggrat6_1.jpg
 266af6feaf96ae7e51ec5b6534f4eb27 48 textures/quake2/ggrat6_1.mat
 7e70d11649fff4b6cd950f2089143bbf 5977 textures/quake2/grate1.jpg
-a24a0d53219dadf827ff1a9d5df07782 89 textures/quake2/grate1.mat
+756f279a3b722bace6198d95dc5a3fc0 76 textures/quake2/grate1.mat
 769da5d4f182cc5f7579f87bee3bcb98 11733 textures/quake2/grate1_norm.png
 261f4c3dcf82e932bbfcaaecabf8bfe9 4301 textures/quake2/grate1_spec.jpg
 09f55c0391ac3547ff3b01beef44c714 5724 textures/quake2/grate2_2.jpg
@@ -87,7 +87,7 @@ cdf47a722a9426f5675d9652191f2a82 111 textures/quake2/liftgirder.mat
 b9ba0948170f3031520d9b3239fac4ee 55707 textures/quake2/liftgirder_norm.png
 88a288295857de167bedffdf57868ab9 20670 textures/quake2/liftgirder_spec.jpg
 939b04993fbc5f4f127e3e6a3f3bac97 4294 textures/quake2/lightstrips32.jpg
-3f9116163f3ead19541d8298222e4031 199 textures/quake2/lightstrips32.mat
+0af668afbbc6bf92869df689cdecf601 209 textures/quake2/lightstrips32.mat
 8eafd07e2ceeff1801c8592058eff58f 821 textures/quake2/lightstrips32_glow.png
 1d6dd996ad75680a75a7d75c5ddf807e 911 textures/quake2/lightstrips32_norm.png
 4d81d11a07d12b07ae0c16dcce50b1a0 2707 textures/quake2/lightstrips32_spec.jpg
@@ -139,6 +139,6 @@ e37e1a6a99f3c2886707c5669d08e8ce 93 textures/quake2/trimmet2_1.mat
 1330c6cbfef118fbf057c7925a1161de 19592 textures/quake2/wlight1_160_norm.png
 abb7b2d9c0ff5e15d39eda1704568e59 7900 textures/quake2/wlight1_160_spec.jpg
 187d4fa44675c4e04dda33d24fa9cd07 15421 textures/quake2/wlight1_160fx.png
-3be00c3f0d1b121881c05748b17d8a47 11927 textures/quake2/wlight2_160.jpg
+b74b070e65d622160a247b88562c083c 29950 textures/quake2/wlight2_160.jpg
 700c13d7f2a92e1de84631c3d0de00db 256 textures/quake2/wlight2_160.mat
 e9f19b707e0ddd1356ad98e8bdbb0616 13352 textures/quake2/wlight2_160fx.png

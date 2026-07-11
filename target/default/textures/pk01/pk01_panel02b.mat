@@ -4,6 +4,6 @@
     specularmap pk01/pk01_panel02a_spec
     {
         texture pk01/pk01_panel02b_glow
-        blend GL_SRC_ALPHA GL_ONE
+        blend src_alpha one
     }
 }

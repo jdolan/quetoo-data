@@ -1,10 +1,10 @@
-9f2b74ec93aa315694edf045fbc04138 43668399 maps/miner.bsp
+cf62f534352db4219e695454c0d054c2 52384650 maps/miner.bsp
 a1cf2d01675c3e4ffd8e852cbe478574 5324 maps/miner.nav
 d08014541d19ab6b5807c5ea8e18ea08 629588 sky/miramar.jpg
 081942a69b06f9e823fd88ec67d11cc4 270702 sounds/ambient/fan_1.wav
 649ffcd19896ebe708b38f5dfb8e657c 61888 sprites/flare_2.png
 41e4b3079fc57844a798ec5c565574f3 5090 textures/atlantis/light03.jpg
-0ef01ee2e1deb4dcb3e2c4a0d45dfa5e 117 textures/atlantis/light03.mat
+a2ecc594ad4c19c94b673a64d450dc2e 111 textures/atlantis/light03.mat
 1fde8f436757b0c2062b0b37156d96cf 818 textures/atlantis/light03_glow.png
 968136beb5638b6ac0220122e49f6363 20482 textures/base1/base1_m01g01-hex32.jpg
 2345a9443f5890f7c00d38885c7ccce9 20471 textures/base1/base1_m01g01-hex32_norm.png
@@ -17,7 +17,7 @@ c7849c2fc1d23a77f430f3a496a5ca80 82 textures/base1/base1_r01_f01.mat
 afb970051f0f166d2c4951fa650a1faf 1979430 textures/base1/base1_r01_f02.jpg
 02aa82d93cd06134e8128976159c3f6e 82 textures/base1/base1_r01_f02.mat
 b9a98764fd6db8aac84ad7fdfa78f083 3172342 textures/base1/base1_r01_f02_lava.jpg
-b48fc8b8d4752674534a0e4eacb5398e 212 textures/base1/base1_r01_f02_lava.mat
+d378495284267163d560007a2b8bbb7d 206 textures/base1/base1_r01_f02_lava.mat
 d44aee7627fc39d541aae96b4d1f2bcb 8679820 textures/base1/base1_r01_f02_norm.png
 e852ad31cc694104af00f11f03620130 3108414 textures/base1/base1_r01_f02_spec.jpg
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
@@ -86,7 +86,7 @@ b5dc8844a00e3830110906359b08d65d 7910 textures/q4power/qcomp1_spec.jpg
 3711f3176ae8da496ef97c107c1387f9 36812 textures/q4power/qcomp3_norm.png
 957604ce37864085fe94297dc73d0b24 7534 textures/q4power/qcomp3_spec.jpg
 0a8050f8d4d764b41b51145697b777a3 7701 textures/q4power/qcomp5.jpg
-3399768bbb747cbbe10410e11d6db0eb 95 textures/q4power/qcomp5.mat
+e62b9b354e3cf05a95df689d0a1638fd 89 textures/q4power/qcomp5.mat
 c79aacbd58b91199b0074b0291765944 2163 textures/q4power/qcomp5_glow.png
 ea414474935e3fe3d5f12beee650706e 28966 textures/q4power/qcomp5_norm.png
 d546944c5c11c6688ccdf1f1e1da5832 6451 textures/q4power/qcomp5_spec.jpg
@@ -110,13 +110,13 @@ ae03a08f440fbe13ca316bf69d39411b 22562 textures/quake/wood1_7_spec.jpg
 b1463842cf6344201d6c0ba0cb0d7715 85778 textures/quake2/blume6_1_norm.png
 cd07de489c06c93c37b71f0b0f2f05bd 14196 textures/quake2/blume6_1_spec.jpg
 2ca10c7e3f202f26d7c61b820be20705 167468 textures/quake2/brlava.jpg
-a280cb01374b5983b14f9925b16611b4 367 textures/quake2/brlava.mat
+ef052954406f2f784a6a507f121ca591 355 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg
 b218c810b83c0292c712df095ba039ff 3033 textures/quake2/ceil1_28.jpg
-5ed77990cfe0efa9c6a14a31be68bab7 281 textures/quake2/ceil1_28.mat
+82aae46b1de2539fc3ca210d15dba121 275 textures/quake2/ceil1_28.mat
 4770915d98757150615bd627d2a21ae6 8213 textures/quake2/ceil1_28fx.png
 d0e17a50b836ad259acaf60bdae3e2b2 3208 textures/quake2/ceil1_4.jpg
-352656f2afcc9f2e0cd0910a414e2238 279 textures/quake2/ceil1_4.mat
+a6f02649418304137ccec34e452e6bfb 273 textures/quake2/ceil1_4.mat
 677424b9ce9b134979ebbfc9d04512ef 8449 textures/quake2/ceil1_4fx.png
 e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
@@ -190,7 +190,7 @@ cdf47a722a9426f5675d9652191f2a82 111 textures/quake2/liftgirder.mat
 b9ba0948170f3031520d9b3239fac4ee 55707 textures/quake2/liftgirder_norm.png
 88a288295857de167bedffdf57868ab9 20670 textures/quake2/liftgirder_spec.jpg
 fa93060f5c848f79bff98e65ba8c8bbf 4382 textures/quake2/light1.jpg
-60372c8beb32563a27014d00088f96ca 190 textures/quake2/light1.mat
+d987bffeeab85c34927970934aac00e0 184 textures/quake2/light1.mat
 eaa811ea73cf637e9d261c0095bdcfda 4215 textures/quake2/light1_fx.png
 3c17d4af9d4d833537437aaae9aa8884 23846 textures/quake2/light1_norm.png
 d6fe1590ed8daf95b01053bba6628830 3368 textures/quake2/light1_spec.jpg
@@ -213,7 +213,7 @@ d7569c108056d96107296a0736c0d4e7 96 textures/quake2/metalbase1.mat
 7ce6f69cba25967ad5660f9235399220 25724 textures/quake2/metalbase2.jpg
 b8a20148b0d2576bc46dcad7e81feba5 166 textures/quake2/metalbase2.mat
 1c4d12627726346b1b6ecf1dd28fe164 13809 textures/quake2/metallight.jpg
-d313064806239c00ac27d26c7a6ea64c 175 textures/quake2/metallight.mat
+8d7118f92ceafb9b4aa9ccc409a9940f 169 textures/quake2/metallight.mat
 c49832cd5a99b97a52f7ee1a7ea65090 24671 textures/quake2/metallight_norm.png
 97f30a80703ff013320e394a9763995b 8758 textures/quake2/metallight_spec.jpg
 0865f5dc599dbb65fa8d0e13baf529d5 4792 textures/quake2/metallightfx.png
@@ -265,7 +265,7 @@ c323e7182febdeedf49a8303ed6a4741 116857 textures/quake2/troof4_2_norm.png
 1d4163522586b3be5a8e53332b654236 132 textures/quake2/wndow1dirt.mat
 fe442af173d7f95063339faf765a31c8 185831 textures/quake2/wndow1dirt.png
 d2e7d8a1a3b5a393bf1326927affdd48 60072 textures/skies912/crystal01.jpg
-bbb9bee2097845bab2629adeed1dd57b 425 textures/skies912/crystal01.mat
+244a2e67f2cffae0d3f5c3c09d7217c1 391 textures/skies912/crystal01.mat
 e6400e478389defaad4baf7018051689 85907 textures/skies912/hex_crystal_spec.jpg
 e7475097f6a5630cb6dfa4d29164c74e 84419 textures/trak5/pipe1_norm.png
 168f4ffe780d0b9928fa7b30c2d2fcfd 11572 textures/trak5/pipe1b.jpg

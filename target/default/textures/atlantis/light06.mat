@@ -4,7 +4,7 @@
 	surface "blend_100"
 	{
 		texture atlantis/light06_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color 2 2 2 1
 	}
 	{

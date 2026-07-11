@@ -1,4 +1,4 @@
-6c0282d1c5cdecf5086d99b74c25272b 7338951 maps/omf.bsp
+0fc2695849740bc9833f39d99e058e13 9404663 maps/omf.bsp
 e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
 850435dfbb6f762dd7655f0ec3a0a585 257403 mapshots/omf/quetoo073.jpg
 f95e1e30a91651c35b9c49c838035709 245537 mapshots/omf/quetoo074.jpg
@@ -24,11 +24,11 @@ a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 6b90b4a0628db07be8c1f79fe3e6b193 54 textures/decals/alienpuke.mat
 c2e3b395fd3be34955376c201d1cef88 27497 textures/decals/alienpuke.png
-c7d57f56016ac2252358d73d14add7ef 216 textures/effects/meggerpad.mat
+4d2f7e1260a81b5b241d932ba074cdfd 210 textures/effects/meggerpad.mat
 985ab2e7b7929b7d1479774ec14a1d68 1010 textures/effects/meggerpad.png
 2193638b73f5455b6008d541a7b79ed0 1132 textures/effects/meggerpad_fx.png
 84616ace82d3c22e2b08e2e2bf7cf66c 3114 textures/effects/wpadg.jpg
-4aff7164518b64c87db9137b845f2a08 224 textures/effects/wpadg.mat
+a89b0cf29a2e13dc64a08fdc5ed8eacc 218 textures/effects/wpadg.mat
 a7252ab539fc5b0464bc79d6e0ed27ac 4829 textures/effects/wpadg_fx.png
 115705dda97444be0b332671e524326b 9249 textures/omf/eq2_grate_02.jpg
 2c49bc865abedf64e962f8dc4ce49714 77 textures/omf/eq2_grate_02.mat
@@ -36,7 +36,7 @@ d1417c0ed829e5cb07ab619d2849b660 32813 textures/omf/eq2_grate_02_norm.png
 636b71ad2425d761443b86b41900573f 30304 textures/omf/liftgirder.jpg
 65793052a29d8707afad51b6b20a6520 108 textures/omf/liftgirder.mat
 6ad6fa4e4dc94e0c0e719648bd883932 66646 textures/omf/liftgirder_norm.png
-ddc193e278ace6bbaba0c7ceffa71b21 178 textures/omf/metal15_2que2.mat
+fa63439d561d101341d08676e7cc4ab2 172 textures/omf/metal15_2que2.mat
 4d8a4e69a25bf115385811541072c6ce 151808 textures/omf/metal15_2que2.png
 e00a066ba2a62dda502530e76754597f 18267 textures/omf/metal15_2que2_fx.jpg
 cae3128679614c880a65645bf0f67bee 130787 textures/omf/metal15_2que2_norm.png
@@ -54,7 +54,7 @@ b85ed3c70b90b462dd0119bfc1d094fb 7858 textures/omf/metlsteps_24u.jpg
 f489b30d3bdb5339c74ccfa6d34eaaa9 109 textures/omf/metlsupport.mat
 156f84206052887d233832508bf92dca 13413 textures/omf/metlsupport_norm.png
 97bc5bbca0e54e34a01f2c5bf2518499 4081 textures/omf/wlight1.jpg
-f8fad8b58b2c015ef138fee75544ca0b 229 textures/omf/wlight1.mat
+faf5ff93a439833e1aa69714bb97a98d 223 textures/omf/wlight1.mat
 12d6b06e6f2581d5a4feff7e3b962c3a 7311 textures/omf/wlight1_norm.png
 20e7eff9c53e1694f412a0bfb194c67c 10482 textures/omf/wlight1fx.png
 cf959717c754b0672d70aa195b4196f3 44 textures/prototype/grid.mat
@@ -73,10 +73,10 @@ e49788d803fa634155ba06a7f2bdf5ea 111 textures/quake2/brickfloor.mat
 c960fa990a4f9059e3400dc6e680aef1 100957 textures/quake2/brickfloor_norm.png
 f5aa1f2dad80a131187c2a7b4b00897a 21114 textures/quake2/brickfloor_spec.jpg
 b218c810b83c0292c712df095ba039ff 3033 textures/quake2/ceil1_28.jpg
-5ed77990cfe0efa9c6a14a31be68bab7 281 textures/quake2/ceil1_28.mat
+82aae46b1de2539fc3ca210d15dba121 275 textures/quake2/ceil1_28.mat
 4770915d98757150615bd627d2a21ae6 8213 textures/quake2/ceil1_28fx.png
 d0e17a50b836ad259acaf60bdae3e2b2 3208 textures/quake2/ceil1_4.jpg
-352656f2afcc9f2e0cd0910a414e2238 279 textures/quake2/ceil1_4.mat
+a6f02649418304137ccec34e452e6bfb 273 textures/quake2/ceil1_4.mat
 677424b9ce9b134979ebbfc9d04512ef 8449 textures/quake2/ceil1_4fx.png
 e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
@@ -186,12 +186,12 @@ a9b030d5c09e78bda8a45e4d532c83f0 27378 textures/quake2/metl12_1.jpg
 1bfcd9fe20654daf89015e33339c1057 121465 textures/quake2/metl12_1_norm.png
 28b26f9a48b9092462ff1425286d4f50 17362 textures/quake2/metl12_1_spec.jpg
 60a93e5e313b847e56fec16e7777daf0 4054 textures/quake2/metllamp_strip.jpg
-f165232696270d713698e2103761c4df 262 textures/quake2/metllamp_strip.mat
+e2ef519af0ab60f29799e23395b25791 256 textures/quake2/metllamp_strip.mat
 61b5ebe114b5b2e97422129effce35d2 1360 textures/quake2/metllamp_strip_fx.png
 f88f22ba2d560e5273aa9a53340571b5 3227 textures/quake2/metllamp_strip_norm.png
 bbf27739bcbf0825497389314a02dace 2551 textures/quake2/metllamp_strip_spec.jpg
 51ea4cb707460eb6a9b5787deff7e342 9266 textures/quake2/sewer1.jpg
-8e110e53a9acc0937ba54832fc200d68 368 textures/quake2/sewer1.mat
+c9b18b9a1b0f9b9dc00729ff97325028 350 textures/quake2/sewer1.mat
 f521fb353badc9b5bf4d6740d469b393 84400 textures/quake2/sewer1fx.png
 7c72fad22a77d87c4f3f2c9dc6ca0167 227 textures/quake2/sewer2_bars2.mat
 9ab453989dc70f3291b12f57daf1cdf9 117843 textures/quake2/sewer2_bars2.png

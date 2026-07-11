@@ -4,6 +4,6 @@
 	parallax 1.96
 	{
 		texture lilith/hh3_m_light03_fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

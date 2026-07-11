@@ -9,7 +9,7 @@
 	shadow 0.00
 	{
 		texture quake2/ceil1_aquafx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 	{
 		color 0.00 1.00 0.67 1.00

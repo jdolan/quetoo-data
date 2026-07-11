@@ -7,6 +7,6 @@
 	shadow 0.00
 	{
 		texture quake2/fmet3_5fx
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 	}
 }

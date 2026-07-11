@@ -5,12 +5,12 @@
 	specularity 1.71429
 	{
 		texture powerups/quad/skin_glow
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 1.5
 	}
 	{
 		envmap quake3/effects/quadmap2
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		color .666 1 1 4
 		lighting 1 flat
 		scale.s .5

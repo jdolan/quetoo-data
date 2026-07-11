@@ -2,7 +2,7 @@
 	diffusemap players/bunker/fidget_h
 	{
 		texture players/bunker/rustee_fx
-		blend GL_ONE GL_ONE
+		blend one one
 		pulse .5
 	}
 }

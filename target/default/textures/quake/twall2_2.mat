@@ -2,7 +2,7 @@
 	diffusemap quake/twall2_2
 	{
 		texture quake/twall2_2_luma
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 0.23
 	}
 }

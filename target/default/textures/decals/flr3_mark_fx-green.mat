@@ -6,7 +6,7 @@
 	shadow 4.00
 	{
 		texture decals/flr3_mark_fx-green
-		blend GL_SRC_ALPHA GL_ONE
+		blend src_alpha one
 		pulse 1
 	}
 }
