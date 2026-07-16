@@ -1,0 +1,11 @@
+{
+	diffusemap evil/e6cyb0rpipes
+	
+	{
+		texture evil/e6mtltpnl_light_fx
+		blend src_alpha one
+		scroll.t 2
+		scale.t 0.5
+		warp 0.1 0.1
+	}
+}

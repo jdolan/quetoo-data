@@ -1,0 +1,5 @@
+{
+	diffusemap evil/e6n_support
+	surface alpha_test
+	alpha_test 0.5
+}

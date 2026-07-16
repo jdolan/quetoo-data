@@ -1,0 +1,13 @@
+{
+	diffusemap quake3/base_light/proto_light
+	{
+		texture quake3/base_light/proto_light2
+		blend one one
+		pulse 25
+	}
+	{
+		texture quake3/base_light/proto_lightmap
+		blend one one
+		color 1.5 1.5 1.5 0.9
+	}
+}

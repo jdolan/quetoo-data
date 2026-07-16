@@ -1,0 +1,20 @@
+{
+	diffusemap evil/e6mtltpnl_light
+	surface alpha_test
+	contents mist
+	alpha_test 0.5
+	{
+		texture evil/e6mtltpnl_light
+		color 1 1 1 0.5
+		lighting 0.5
+	}
+	{
+		texture evil/e6mtltpnl_light_blend
+		blend src_alpha one
+		color 1.25 1.25 1.25 1
+		lighting flat
+	}	
+	{
+		flare flare_1
+	}
+}
