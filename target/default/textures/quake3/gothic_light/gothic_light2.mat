@@ -1,0 +1,14 @@
+{
+	diffusemap quake3/gothic_light/gothic_light2
+	shadow 0.00
+	{
+		texture quake3/gothic_light/gothic_light2_blend
+		blend src_alpha one
+		color 1.5 1.5 1.5 0.75
+	}
+	{
+		flare flare_0
+		scale.s 1.25
+		scale.t 1.25
+	}
+}
