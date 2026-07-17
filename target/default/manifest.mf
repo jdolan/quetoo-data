@@ -3601,6 +3601,11 @@ d6621c7d564c4bb56e0c970f2b2f8b1e 172 textures/effects/lightbeam.mat
 4d2f7e1260a81b5b241d932ba074cdfd 210 textures/effects/meggerpad.mat
 985ab2e7b7929b7d1479774ec14a1d68 1010 textures/effects/meggerpad.png
 2193638b73f5455b6008d541a7b79ed0 1132 textures/effects/meggerpad_fx.png
+3dfbdc6c5a1c8caea3b4afb537efaa26 313 textures/effects/noise1-0.mat
+a9e702a86012fda6e4c4507099d07802 1158993 textures/effects/noise1-0.png
+d92902a41826a1de475de2aada5efbf2 1193035 textures/effects/noise1-1.png
+55eb41a72f92b67dea12ee7ce1e61a48 1197359 textures/effects/noise1-2.png
+c3fe83cb63e46ab35c6acaa03f6c1666 1160817 textures/effects/noise1-3.png
 388ee293c4a048fc55835af87fd6efe2 497462 textures/effects/sky1-layer0.png
 5efea9479fa9e2f7742be13a7988eaa9 215693 textures/effects/sky1-layer1.png
 8df6b10cdc62b528f55e7165279ca66e 413 textures/effects/sky1.mat
@@ -3654,6 +3659,7 @@ c91d1e776fe5daa28d20f259e469a612 20880 textures/evil/e6btrim_light.jpg
 332bba1262d8f4823cbde6d0ce50e196 56519 textures/evil/e6c_floordented.jpg
 1dc59ca138a0f9c1104a69bf2e6b6835 4547 textures/evil/e6c_stepedge.jpg
 e34b594ac001ba4ca1a6d89a34a22a1d 71927 textures/evil/e6cyb0rpipes.jpg
+733f76f16fd5d54a01a04cd675cf4699 140 textures/evil/e6cyb0rpipes.mat
 3e205c8d486c60f2d9b0c9655a8a419d 33154 textures/evil/e6dmetal.jpg
 175f267970a6d458c28150691e289b20 33634 textures/evil/e6drkbmetalscatched.jpg
 540135082c92ffc9a9373637cf64db47 62770 textures/evil/e6drstmetal.jpg
@@ -3669,6 +3675,7 @@ e314f2c145a3f416491a2d31391ea707 71401 textures/evil/e6grate2_flr.png
 34f23a2055b585f61ed000d275f98c48 128808 textures/evil/e6grate_flr.png
 a13e8d65977c00e70439c2b8bc8f48b1 106809 textures/evil/e6grate_flr_b.png
 6d4e26764c6487b34ada9460f9542fea 54729 textures/evil/e6gridergrtwll.jpg
+6c0ed9e8151da7d7679050ae9d67e7d4 89 textures/evil/e6grtfloorceil.mat
 16533d26d17cd07bd00e50cd6719d705 137078 textures/evil/e6grtfloorceil.png
 f73a6a57d7d28b802db8fee3a896245d 103725 textures/evil/e6grtflr2bl.png
 1fd08ee17dd97b784ef1e787ea88e3b7 24912 textures/evil/e6h_support.png
@@ -3693,9 +3700,11 @@ d689ddda2020c43ef389f7152cf67fef 19667 textures/evil/e6launchengine_glow.jpg
 44747db81cfa9ce8a09f719b129570f7 18061 textures/evil/e6launchlfloor_glow.jpg
 9d70bba50f06b74d85b7c74452eb2539 133711 textures/evil/e6metalfan.png
 3afc9eccb9d8177e828e4332dc6634b6 31937 textures/evil/e6metalfan_blade.png
+5a5c2d5d60cca9864762cb9bd4061364 286 textures/evil/e6mtltpnl_light.mat
 9ea134ecf97f41e54b4ab2b91198744b 63783 textures/evil/e6mtltpnl_light.png
 4381dfb6fa6c72a0996472ee5c890a67 11290 textures/evil/e6mtltpnl_light_blend.jpg
 06bd516ed2a5b06c89392c5f42485643 6642 textures/evil/e6mtltpnl_light_fx.jpg
+95981388c9239100ee31b9e0026c8b7e 69 textures/evil/e6n_support.mat
 8e0528c59e1669e7374e83b6a5e0e248 28650 textures/evil/e6n_support.png
 d440aa9d2d709d32f9552899faec206b 45345 textures/evil/e6panelgrill.jpg
 b9c2902a6d60d91e7b588608ed64529e 11563 textures/evil/e6panelsym.jpg
@@ -3832,6 +3841,7 @@ eddbe7f065ac00992cad3a7b7ae33121 85436 textures/evil/e8_mtlwall3b.jpg
 aea807cf095b25ac3faca58367c74948 90350 textures/evil/e8_mtlwall4.jpg
 fe20f785fef322733c41662001ca06c2 4502 textures/evil/e8_rlight.blend.jpg
 988ffe29f4807c4bea22fb0f123d8de4 7610 textures/evil/e8_rlight.jpg
+e30477a7004a110af3774abed27adc13 264 textures/evil/e8_rlight.mat
 a205a814a99f5239ae320a1d3e656a63 17336 textures/evil/e8_rlight_upscayl_4x_remacri-4x.jpg
 13f3331ef73268bd1eae855475e0502e 13936 textures/evil/e8_rlight_upscayl_4x_ultramix-balanced-4x.jpg
 b4e5a8c4ae8d4d9cb08a1b28f4e2cafa 19220 textures/evil/e8_rlight_upscayl_4x_ultrasharp-4x.jpg
@@ -8441,6 +8451,7 @@ fd17973f32da3cc347bcec4186d62f04 26330 textures/quake3/base_light/patch10_pj_lit
 0bc9975d639ab1b94551bca05a383d3b 5923 textures/quake3/base_light/patch10_pj_lite2.blend.jpg
 537f0e01173a232d9951b16f4ca863d6 13389 textures/quake3/base_light/patch10_pj_lite2.jpg
 00e2b213e09e82c258864d533c7f8c3d 9114 textures/quake3/base_light/proto_light.jpg
+c296356d5f6d6f30d4f1b95616a2b016 208 textures/quake3/base_light/proto_light.mat
 e12624edbe02ee161c8acb5ac4348ccc 2600 textures/quake3/base_light/proto_light2.jpg
 588f757f771caf1321013fa7a7008dd0 7086 textures/quake3/base_light/proto_lightmap.jpg
 bfe5cc8ae1f55d8fcccf18d8665a88be 10886 textures/quake3/base_light/proto_lightred.jpg
@@ -8974,6 +8985,7 @@ cc83c57505f579034b030fbc3feec652 2604 textures/quake3/gothic_light/border7_ceil3
 cce22988fe9a309c423ae46078800e63 31606 textures/quake3/gothic_light/border7_ceil39b.jpg
 15fddc6f5e499090bc72e33233a9eff3 2446 textures/quake3/gothic_light/border_ceil39.blend.jpg
 1f7c8d9ef94b6dc852de638f70851194 10140 textures/quake3/gothic_light/gothic_light2.jpg
+317f286f2215cc5a1faba3f261356f1c 217 textures/quake3/gothic_light/gothic_light2.mat
 61b00d33d0893f504716a97a35a7f18d 5717 textures/quake3/gothic_light/gothic_light2_blend.jpg
 bbae94e91dbd410c0213b0116fa4eccb 10456 textures/quake3/gothic_light/gothic_light3.jpg
 88bd2a82d77992e3d5317ef80c36b21d 3180 textures/quake3/gothic_light/ironcrosslt2.blend.jpg
