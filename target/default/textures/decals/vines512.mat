@@ -1,6 +1,7 @@
 {
 	diffusemap decals/vines512
 	parallax 2.00
-	surface "blend_100"
+	alpha_test .5
+	surface "alpha_test"
 	contents "mist detail"
 }

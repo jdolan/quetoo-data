@@ -1,4 +1,4 @@
-be8b2b61452232b1001c5de031297eab 17621869 maps/abase.bsp
+a74228edefcc7ce53336f503007f08bb 17647453 maps/abase.bsp
 a96f38decbf7ac420f2bf32a5c50838d 9924 maps/abase.nav
 9bba06fe7223bcd1d20711bdd950d547 127700 mapshots/abase/quetoo001.jpg
 97ef68c5d030e7a0d49e6c9022aad638 170339 mapshots/abase/quetoo002.jpg
@@ -43,11 +43,11 @@ ec0e2c0bddf2997bce205054468b1bf8 76 textures/decals/tampon1.mat
 7174ef5af863e1104d5b53908f21e3ce 194252 textures/decals/tampon1.png
 cd4dd7487c00ec8d08eedf8f1e1fedd8 175 textures/decals/tampon2.mat
 7079a93f3c94e94ae77735f762f4471b 54007 textures/decals/tampon2.png
-b31c758fdd4bb41644dc322125e0967e 90 textures/decals/vine06.mat
+0d33d7181b470ad7b65e0e31a5c35048 106 textures/decals/vine06.mat
 19010ef292b96b1510973416afd53a9e 92065 textures/decals/vine06.png
-9f11c9691b4ba9b89de8edea2146f927 90 textures/decals/vines01.mat
+049001239504f07514a507fb756f8d73 107 textures/decals/vines01.mat
 d9927518940fdd7236bea834edc120c8 2259438 textures/decals/vines01.png
-8b9223d87ae2766124f0165823b0aa8d 91 textures/decals/vines512.mat
+35b0008e0de2e30a2eda5306b92e5475 108 textures/decals/vines512.mat
 bc736aaa9645193513f72c5d0f68b6ec 346586 textures/decals/vines512.png
 f170034fbd13bdcb580c80e0fadb0f56 355995 textures/decals/vines512_norm.png
 6992329ad5caffea20b1e3773301d7f2 93 textures/effects/beam-yellow.mat
