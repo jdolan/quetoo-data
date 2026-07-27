@@ -1,4 +1,4 @@
-50835f629f73c9b6e0703469150cfd70 20748043 maps/hallways.bsp
+a93030c3894bdea87027e7c941f07bb7 20748043 maps/hallways.bsp
 ddbb2038b24723624bb37d03837e0d7f 11732 maps/hallways.nav
 2d23e8e2cab17325fe31c37e7269a932 158789 mapshots/hallways/quetoo026.jpg
 9f15829fbc437c7e677c2de7ecab1392 154308 mapshots/hallways/quetoo027.jpg
