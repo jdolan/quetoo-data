@@ -4091,7 +4091,8 @@ bfbd81099e2c1e555f4b566ee999616b 77323 textures/evil/ex_metalplate_01_d.jpg
 d4b6dc20102c1fbe323a8ab4fc392006 277073 textures/evil/ex_metalplate_01_norm.png
 d0dc1554f251882e5d9e379e4c1a8198 15299 textures/evil/ex_metalplate_01_spec.jpg
 2631ea6ec4bb085e8321df1912a6c785 21514 textures/evil/ex_metalsupp01_d.jpg
-ce1abf8f34a6fcec352fd8c206ac0268 87400 textures/evil/ex_metalsupp01_norm.png
+68de79cc29e3c15dfe1ac339dd1652cd 303384 textures/evil/ex_metalsupp01_d.kra
+ae3aa1ef4d005b22dad31699fdb9d574 17101 textures/evil/ex_metalsupp01_norm.png
 027a630f61b7048e3a94556dce173963 26146 textures/evil/ex_metalsupp01_spec.jpg
 389260ad83a4349c07e50e8d36d1ac69 85513 textures/evil/ex_metalwall02_d.jpg
 b8d3fabbfa1ce08233d58e0efcd8080a 303705 textures/evil/ex_metalwall02_norm.png
@@ -8497,6 +8498,7 @@ d61d1fbbf1e6dc6766147fa793a7cab9 81862 textures/quake3/base_support/z_support.pn
 9bf8e0054a398b71350edbf8c5872692 46789 textures/quake3/base_trim/border11.jpg
 59b50f01f7f6a4688d0e998e1ec39040 3834 textures/quake3/base_trim/border11b.jpg
 3821e76f4150203dace83ebaeae2bf3f 44128 textures/quake3/base_trim/border11c.jpg
+548a603da54d9217c93b2c39fcd8f4ef 171 textures/quake3/base_trim/border11c.mat
 8f94704284ec3491df8a32add5fb64bc 4387 textures/quake3/base_trim/border11c_light.jpg
 c5b07b0386bc651ab8a7137aa2fa4eeb 8276 textures/quake3/base_trim/border11c_pulse1b.jpg
 e2edc02bae9db4d375a8b72140d43663 2279 textures/quake3/base_trim/border11light.glow.jpg
@@ -8786,7 +8788,10 @@ ec8e62a02130b87f1f79075d1ae86920 120059 textures/quake3/gothic_block/blocks17k.j
 737f67c24242312a017c1f758a12f3af 626111 textures/quake3/gothic_block/blocks18b_ow.png
 f0a55753cb9f6a2aeae1ade1cdc6a14f 116955 textures/quake3/gothic_block/blocks18c.jpg
 d5bac3c3110bb8e5854589176408b4d9 105615 textures/quake3/gothic_block/blocks18c_1a.jpg
+95a9e73ca7e9f4e6227ba7d0d8d54877 18355 textures/quake3/gothic_block/blocks18c_1a_norm.png
 b70ac2eee7ae3118fe573cc35610694b 117292 textures/quake3/gothic_block/blocks18c_3.jpg
+a245d0aa83de2fc01c773cd10c8a25b5 2409277 textures/quake3/gothic_block/blocks18c_3.kra
+345bf30224237eb6b5601ee7ddd87ba8 18795 textures/quake3/gothic_block/blocks18c_3_norm.png
 7fac21a6927aa59995a69d3043e13493 118500 textures/quake3/gothic_block/blocks18cblood.jpg
 46ea68acf0f250daa7bc2fe8dc042d7b 119361 textures/quake3/gothic_block/blocks18cbloodhead.jpg
 55c4d766ce8bef091faea16bc65755f4 126528 textures/quake3/gothic_block/blocks18cgeom.jpg
