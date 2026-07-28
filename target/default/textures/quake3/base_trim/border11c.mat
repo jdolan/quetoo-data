@@ -1,0 +1,12 @@
+{
+	diffusemap quake3/base_trim/border11c
+	{
+		texture quake3/sfx/xian_dm3padwallglow
+		blend src_alpha one
+		scale.s 0.25
+		scale.t 0.25
+		scroll.s 4
+		lighting 0.5
+	}
+	
+}
