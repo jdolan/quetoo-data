@@ -178,6 +178,23 @@
  model="models/ammo/slugs/tris.md3"
 */
 
+/*QUAKED func_bob (0 .5 .8) ? start_off
+ A solid brush that bobs continuously back and forth along a vector. Unlike func_train, no path_corners or triggers are required, making it cheap to place in quantity (e.g. an array of small ambient platforms).
+
+ -------- Keys --------
+ velocity : The direction and distance to travel from the spawn origin, e.g. "0 0 32".
+ speed : The peak speed reached at the midpoint of travel (default 100). Motion eases from 0 up to this and back down to 0 at each end, like a pendulum or a floating object bobbing.
+ compression : Shapes the ease curve (default 1, pure sine). Greater than 1 narrows the peak and adds "hang time" at each end; less than 1 flattens/widens the peak.
+ wait : Seconds to pause at each end before reversing (default 0, i.e. continuous bobbing).
+ drift : Multiplier (default 1) on the entity's own natural cycle length, used to pick a random startup delay so multiple func_bobs with identical keys don't move in lockstep. 1 spans one full cycle (complete phase coverage); raise it for extra margin, lower it to allow more visible clustering.
+ dmg : The damage inflicted on players who block the entity (default 2).
+ sound : The looping sound to play while moving.
+ targetname : The target name of this entity if it is to be triggered, to toggle it on or off.
+
+ -------- Spawn flags --------
+ start_off : If set, the entity starts motionless and waits to be triggered.
+*/
+
 /*QUAKED func_button (0 .5 .8) ?
  When a button is touched by a player, it moves in the direction set by the "angle" key, triggers all its targets, stays pressed by the amount of time set by the "wait" key, then returns to its original position where it can be operated again.
 
@@ -849,7 +866,7 @@
 */
 
 /*QUAKED misc_sprite (.6 .8 .6) (-8 -8 -8) (8 8 8)
- Highly configurable client-side emission of sprites. These are useful for light volumes, blood dripping from walls, or anything else you can think of. If two instances of this entity are teamed, the game will emit randomized instances that mix the properties of both teammates.
+ Highly configurable client-side emission of sprites. These are useful for light volumes, blood dripping from walls, or anything else you can think of. Team two or more instances via the same team key to chain them: each entity mixes its emitted sprite properties with the next misc_sprite sharing that team key (in map file order), not the whole group at once. The last entity in the chain has no successor, so it emits unmixed.
 
  -------- Keys --------
  acceleration : The sprite acceleration (default 0 0 0).
@@ -869,7 +886,7 @@
  size_velocity : The sprite size velocity (default 0).
  softness : The sprite softness scalar (default 1).
  sprite : The sprite image name (default "particle1").
- team : The team name, for emitting randomized sprites that mix properties.
+ team : The team name. Mixes this entity's sprite properties with the next misc_sprite sharing the same team key (chain order, not a full group). The last entity in the chain has no successor and emits unmixed.
  velocity : The sprite velocity (default 0 0 0).
  width : The sprite width. Setting this will cause size to be ignored (default 0).
 */
