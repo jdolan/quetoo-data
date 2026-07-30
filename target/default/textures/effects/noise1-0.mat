@@ -1,19 +1,19 @@
 {
-    diffusemap effects/noise1-0
-    surface "material blend_100"
-    {
-        texture effects/noise1-0
-        blend src_alpha one
-		color 0.333 0.333 0.333 0.125
-		anim 4 24
+	diffusemap effects/noise1-0
+	surface "material"
+	{
+		texture effects/noise1-0
+		blend src_alpha one
+		color 0.19 0.19 0.42 0.40
+		anim 4 24.00
 		lerp 1
-    }
+	}
 	{
 		texture quake3/sfx/zap_scroll2
 		blend src_alpha one
-		color 1 0 0 1
-		scroll.t -0.33
-		scale.t 1.5
-		warp 1 1
+		color 0.00 1.85 2.72 1.00
+		scroll.t -0.330
+		scale.t 1.800
+		warp 2.00 0.50
 	}
 }
