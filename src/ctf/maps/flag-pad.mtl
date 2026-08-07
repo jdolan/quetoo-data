@@ -1,0 +1,18 @@
+newmtl common/caulk
+map_Kd 
+
+newmtl ctf/flagpad_red
+map_Kd 
+
+newmtl quake2/blume6_1
+map_Kd 
+
+newmtl quake2/lightstrips32red
+map_Kd 
+
+newmtl quake2/trimmet2_1
+map_Kd 
+
+newmtl trak5/thingy1
+map_Kd 
+
