@@ -1,5 +1,6 @@
 {
 	diffusemap decals/flr3_mark
+	normalmap decals/flr3_mark_norm
 	surface "blend_100"
 	contents "mist detail"
 	parallax 3.50

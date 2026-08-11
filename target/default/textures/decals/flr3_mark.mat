@@ -1,13 +1,7 @@
 {
 	diffusemap decals/flr3_mark
-	normalmap decals/flr3_mark_norm
 	surface "blend_100"
 	contents "mist detail"
 	parallax 3.50
 	shadow 4.00
-	{
-		texture decals/flr3_mark_fx-red
-		blend src_alpha one
-		pulse 1
-	}
 }
