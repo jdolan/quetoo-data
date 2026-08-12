@@ -92,9 +92,9 @@
 	]
 	velocity(string) : "The direction and distance to travel from the spawn origin, e.g. '0 0 32'"
 	speed(integer) : "The peak speed reached at the midpoint of travel. Motion eases from 0 up to this and back down to 0 at each end, like a pendulum or a floating object bobbing." : 100
-	compression(float) : "Shapes the ease curve (1 = pure sine). Greater than 1 narrows the peak and adds 'hang time' at each end; less than 1 flattens/widens the peak." : "1"
+	compression(float) : "Shapes the ease curve. Greater than 1 narrows the peak and adds 'hang time' at each end; less than 1 flattens/widens the peak. If unset, auto-derived from how long the leg takes to traverse (velocity's distance divided by speed) so legs far from a ~1 second sweet spot in either direction - too short (stutters) or too long (a slow crawl before the entity gets moving) - get a flatter curve instead of always defaulting to a pure sine; set explicitly to override."
 	wait(integer) : "Seconds to pause at each end before reversing (0 = continuous bobbing)" : 0
-	drift(float) : "Multiplier on the entity's own natural cycle length, used to pick a random startup delay so multiple func_bobs with identical keys don't move in lockstep. 1 spans one full cycle; raise it for extra margin, lower it to allow more visible clustering." : "1"
+	drift(float) : "Multiplier (0 = no startup delay) on the entity's own natural cycle length, used to pick a random startup delay so multiple func_bobs with identical keys don't move in lockstep - set this on an array of identical func_bobs to desync them. 1 spans one full cycle; raise it for extra margin, lower it to allow more visible clustering." : "0"
 	dmg(integer) : "The damage inflicted on players who block the entity" : 2
 	sound(string) : "The looping sound to play while moving"
 ]
@@ -169,6 +169,7 @@
 	health(integer) : "If set, door must take damage to open"
 	speed(integer) : "The speed with which the door opens" : 100
 	wait(integer) : "Wait before returning (-1 = never return)" : 3
+	lip(integer) : "The lip remaining at end of move" : 8
 	dmg(integer) : "The damage inflicted on players who block the door as it closes" : 2
 	sounds(integer) : "The sound set for the door (0 default, 1 stone, -1 silent)" : 0
 ]
@@ -262,7 +263,7 @@
 @PointClass base(Spawn) color(255 255 0) = info_player_team3 : "Player spawn point for yellow team in teams or CTF gameplay." []
 @PointClass base(Spawn) color(0 255 0) = info_player_team4 : "Player spawn point for green team in teams or CTF gameplay." []
 @PointClass base(Spawn) color(128 128 128) = info_player_team_any : "Player spawn point for any team in teams or CTF gameplay." []
-@PointClass base(Spawn, Target) color(0 255 255) = info_player_intermission : "Camera for intermission screen between matches."
+@PointClass base(Target) color(0 255 255) = info_player_intermission : "Camera for intermission screen between matches."
 [
 	angles(string) : "The pitch yaw roll angles for the camera (e.g. 20 270 0)."
 ]
@@ -517,12 +518,14 @@
 	delay(integer) : "The delay in seconds between activation and execution of the commands."
 ]
 
-@SolidClass base(Phong) color(180 120 64) = trigger_push : "Pushes the player in any direction. These are commonly used to make jump pads to send the player upwards. Using the angles key, you can project the player in any direction using 'pitch yaw roll.'"
+@SolidClass base(Phong, Targetname) color(180 120 64) = trigger_push : "Pushes the player in any direction. These are commonly used to make jump pads to send the player upwards. Using the angles key, you can project the player in any direction using 'pitch yaw roll.'"
 [
 	spawnflags(Flags) =
 	[
 		1 : "The pusher is freed after it is used once" : 0
 		2 : "The pusher emits sprite effects to indicate its location" : 0
+		4 : "The entity must be activated before it will push players" : 0
+		8 : "The entity is toggled each time it is activated" : 0
 	]
 	angles(string) : "The direction to push the player in" : "0 0 0"
 	sound(string) : "The sound effect to play when the player is pushed" : "common/jumppad"

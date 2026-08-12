@@ -184,9 +184,9 @@
  -------- Keys --------
  velocity : The direction and distance to travel from the spawn origin, e.g. "0 0 32".
  speed : The peak speed reached at the midpoint of travel (default 100). Motion eases from 0 up to this and back down to 0 at each end, like a pendulum or a floating object bobbing.
- compression : Shapes the ease curve (default 1, pure sine). Greater than 1 narrows the peak and adds "hang time" at each end; less than 1 flattens/widens the peak.
+ compression : Shapes the ease curve. Greater than 1 narrows the peak and adds "hang time" at each end; less than 1 flattens/widens the peak. If unset, auto-derived from how long the leg takes to traverse (velocity's distance divided by speed) so legs far from a ~1 second sweet spot in either direction - too short (stutters) or too long (a slow crawl before the entity gets moving) - get a flatter curve instead of always defaulting to a pure sine; set explicitly to override.
  wait : Seconds to pause at each end before reversing (default 0, i.e. continuous bobbing).
- drift : Multiplier (default 1) on the entity's own natural cycle length, used to pick a random startup delay so multiple func_bobs with identical keys don't move in lockstep. 1 spans one full cycle (complete phase coverage); raise it for extra margin, lower it to allow more visible clustering.
+ drift : Multiplier (default 0, i.e. no startup delay) on the entity's own natural cycle length, used to pick a random startup delay so multiple func_bobs with identical keys don't move in lockstep - set this on an array of identical func_bobs to desync them. 1 spans one full cycle (complete phase coverage); raise it for extra margin, lower it to allow more visible clustering.
  dmg : The damage inflicted on players who block the entity (default 2).
  sound : The looping sound to play while moving.
  targetname : The target name of this entity if it is to be triggered, to toggle it on or off.
@@ -1051,17 +1051,20 @@
  triggered : If set, this trigger must be targeted before it will activate.
 */
 
-/*QUAKED trigger_push (.5 .5 .5) ? push_once push_effects
+/*QUAKED trigger_push (.5 .5 .5) ? push_once push_effects start_off toggle
  Pushes the player in any direction. These are commonly used to make jump pads to send the player upwards. Using the angles key, you can project the player in any direction using "pitch yaw roll."
 
  -------- Keys --------
  angles : The direction to push the player in "pitch yaw roll" notation (e.g. -80 270 0).
  sound : The sound effect to play when the player is pushed (default "common/jumppad").
  speed : The speed with which to push the player (default 100).
+ targetname : The target name of this entity, if it is to be triggered.
 
  -------- Spawn flags --------
  push_once : If set, the pusher is freed after it is used once.
  push_effects : If set, emit particle effects to indicate that a pusher is here.
+ start_off : If set, this entity must be activated before it will push players.
+ toggle : If set, this entity is toggled each time it is activated.
 */
 
 /*QUAKED trigger_relay (.5 .5 .5) (-8 -8 -8) (8 8 8)
