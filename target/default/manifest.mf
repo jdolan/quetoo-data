@@ -1230,11 +1230,11 @@ a46dfadc01182f5ae3e9d0644588e000 6472 players/qforcer/head.md3
 e01db75add7928e951b3f19c1022291f 584932 players/qforcer/lower.md3
 171db6d9618a9ff1b958c85fa396c7f5 693276 players/qforcer/upper.md3
 6f7b81da39c358825afcab61ef9c2245 3797 scripts/default_project.proj
-3942c1a3f57b93f06268b812229b73d0 55394 scripts/entities.def
+05cb02eda9cdef60eb7eeb712544fa20 56029 scripts/entities.def
 2dacd278744e75ce3c66a4de9382f029 7 scripts/shaderlist.txt
 6432ba2b55e5dfc6ea9f1ea07731207f 7683 scripts/trenchbroom/Quetoo/GameConfig.cfg
 3aa1e0296c8357875feded038afed8f2 1855 scripts/trenchbroom/Quetoo/Icon.png
-9debf69baeb5aaa358a2d32198d057f1 33483 scripts/trenchbroom/Quetoo/Quetoo.fgd
+a3a94cc6de4dde7205f33c6e06cddb56 34071 scripts/trenchbroom/Quetoo/Quetoo.fgd
 60944791079503010618b669a310d51c 128367 sky/acheron.jpg
 1f22ae1dd4222303ab896d151fa61702 110399 sky/aghast.jpg
 c53efff9f3c4fa4c19cd0ffb0135a82f 304070 sky/atsea.jpg
