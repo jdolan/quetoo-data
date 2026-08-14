@@ -43,6 +43,8 @@
 @PointClass base(Item) color(20 180 180) studio("") = item_quad : "Quad damage" []
 @PointClass base(Item) color(204 26 26) studio("") = item_invulnerability : "Invulnerability. Grants full invulnerability for 30 seconds." []
 @PointClass base(Item) color(51 51 102) studio("") = item_invisibility : "Invisibility. Makes the player nearly invisible for 30 seconds." []
+@PointClass base(Item) color(204 26 26) studio("") = item_quake_pentagram : "Pentagram of Protection. Grants full invulnerability for 30 seconds." []
+@PointClass base(Item) color(51 51 102) studio("") = item_quake_shadows : "Ring of Shadows. Makes the player nearly invisible for 30 seconds." []
 
 @BaseClass base(Item) size(-8 -8 -24, 8 8 32) studio("") = TeamFlag []
 @PointClass base(TeamFlag) color(255 0 0) = item_flag_team1 : "Red flag" []
@@ -141,9 +143,9 @@
 [
 	spawnflags(Flags) =
 	[
-		1 : "The door to moves to its destination when spawned, and operates in reverse" : 0
-		2 : "The door will rotate in the opposite (negative) direction along its axis" : 0
-		4 : "The door will wait in both the start and end states for a trigger event" : 0
+		1 : "The door moves to its destination when spawned, and operates in reverse" : 0
+		2 : "The door will wait in both the start and end states for a trigger event" : 0
+		4 : "The door will rotate in the opposite (negative) direction along its axis" : 0
 		8 : "The door will rotate along its X axis" : 0
 		16 : "The door will rotate along its Y axis" : 0
 	]
@@ -215,7 +217,7 @@
 	delay(integer) : "Additional delay before the first firing when start_on" : 0
 ]
 
-@SolidClass base(Phong, Targetname) color(0 255 255) = func_train : "Trains are moving solids that players can ride along a series of path_corners. The origin of each corner specifies the lower bounding point of the train at that corner. If the train is the target of a button or trigger, it will not begin moving until activated."
+@SolidClass base(Phong, Target, Targetname) color(0 255 255) = func_train : "Trains are moving solids that players can ride along a series of path_corners. Target the first path_corner of the route. If the train is the target of a button or trigger, it will not begin moving until activated. Given a common/origin brush, each corner specifies the train's own origin and the train rotates about it, turning and pitching to face each leg of its route; without one, each corner specifies the train's lower bounding point and the train cannot rotate."
 [
 	spawnflags(Flags) =
 	[
@@ -224,7 +226,7 @@
 		4 : "The train will stop when blocked, and inflict no damage" : 0
 	]
 	dmg(integer) : "The damage inflicted on players who block the train" : 2
-	speed(integer) : "The speed with which the train moves" : 100
+	speed(integer) : "The speed with which the train moves, and the default for corners that omit it" : 100
 	sound(string) : "The looping sound to play while the train is in motion"
 ]
 
@@ -252,6 +254,13 @@
 
 @PointClass base(Targetname) color(0 180 0) size(-4 -4 -4, 4 4 4) = info_null : "A positional target for other entities, etc. These are inhibited in the game and are only useful to the editor and BSP compiler." []
 @PointClass base(Targetname) color(0 180 180) size(-4 -4 -4, 4 4 4) = info_notnull : "A positional target for other entities. Unlike info_null, these are available in the game and can be targeted by other entities (e.g. info_player_intermission)." []
+@PointClass color(255 0 0) size(-1 -1 -1, 1 1 1) = info_luxel : "A luxel origin, for debugging lightmap compilation. These are inhibited in the game and are only useful to the editor and BSP compiler."
+[
+	face(integer) : "The face number"
+	normal(string) : "The normal vector"
+	s(integer) : "The s coordinate"
+	t(integer) : "The t coordinate"
+]
 
 @BaseClass size(-16 -16 -24, 16 16 32) = Spawn [
 	angle(integer) : "The angle at which the player will face when spawned"
@@ -429,15 +438,18 @@
 	hz(string) : "Spawn rate in Hz" : "5"
 ]
 
-@PointClass base(Target, Targetname) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "Path corner for func_trains."
+@PointClass base(Target, Targetname) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "Path corner for func_trains. Point the last corner of a route back at the first, flagged teleport and silent, to loop a train back to its start."
 [
 	spawnflags(Flags) =
 	[
-		1 : "The path corner teleports the train as soon as it is selected" : 0
-		2 : "Suppress the default teleport effects" : 0
+		1 : "The train jumps to this corner instead of travelling to it, then carries on to this corner's target" : 0
+		2 : "Suppress the teleport effect" : 0
 	]
 	target(string) : "The next corner in the path"
 	pathtarget(string) : "An entity to be used by this path corner when targeted"
+	wait(float) : "Seconds to wait here before moving on; -1 with the train's toggle flag parks it here until triggered" : "0"
+	speed(integer) : "The speed the train is doing on arriving here, blended from the speed of the corner it departed. Defaults to the train's own speed. Avoid exceeding 2400, above which the client stops smoothing the train's motion"
+	angles(string) : "The orientation the train holds on arriving here, rotating into it over the leg. Requires the train to have an origin brush. Omit to have the train face its direction of travel"
 ]
 
 @PointClass base(Targetname) color(255 255 80) size(-8 -8 -8, 8 8 8) = target_light : "Emits a user-defined light when used. Lights can be chained with teams. Use this entity to add switched lights. Use the wait key to synchronize color cycles with other entities."
@@ -511,7 +523,7 @@
 	dmg(integer) : "The damage this trigger inflicts per activation" : 2
 ]
 
-@PointClass base(Target) color(128 128 128) = trigger_exec : "Executes a console command or script file when activated."
+@SolidClass color(128 128 128) = trigger_exec : "Executes a console command or script file when activated."
 [
 	command(string) : "The console command(s) to execute."
 	script(string) : "The script file (.cfg) to execute."
