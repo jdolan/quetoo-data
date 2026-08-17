@@ -1,0 +1,20 @@
+{
+	diffusemap trak5/thingy1_no-center
+	parallax 2.5
+	surface material
+	{
+		texture trak5/thingy1
+		lighting 1
+	}
+	{
+		texture quake3/effects/jumpcircblue
+		blend src_alpha one
+		color 1.5 1.5 1.5 0.9
+		rotate 1
+		stretch 0.25 1
+	}
+	{
+		texture trak5/thingy1_no-center
+		lighting 1
+	}
+}

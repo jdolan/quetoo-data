@@ -1,0 +1,17 @@
+{
+	diffusemap evil/ex_floor_grate_03_d
+	normalmap evil/ex_floor_grate_03_d_norm
+	specularmap evil/ex_floor_grate_03_d_spec
+	{
+		texture quake3/sfx/xian_dm3padwallglow
+		blend src_alpha one
+		scroll.s 1
+		warp 0.5 0.5
+		color 2 2 2 0.9
+	}
+	{
+		texture evil/ex_floor_grate_03_e
+		blend src_alpha one_minus_src_alpha
+		lighting 1
+	}
+}

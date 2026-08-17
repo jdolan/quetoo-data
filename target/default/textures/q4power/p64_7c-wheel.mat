@@ -1,0 +1,14 @@
+{
+	diffusemap q4power/p64_7c-wheel
+	roughness 1.10
+	hardness 2.00
+	specularity 1.50
+	parallax 2.00
+	shadow 2.00
+	surface material
+	{
+		texture q4power/p64_7c-wheel
+		rotate -0.5
+		lighting 1
+	}
+}
