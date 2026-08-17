@@ -1,10 +1,10 @@
 [![Build Status](https://github.com/jdolan/quetoo-data/actions/workflows/publish.yml/badge.svg)](https://github.com/jdolan/quetoo-data/actions/workflows/publish.yml)
-[![CC-BY-SA License](https://img.shields.io/badge/license-CC--BY--SA-brightgreen.svg)](LICENSE.md)
-![This software is BETA](https://img.shields.io/badge/development_stage-BETA-yellowgreen.svg)
+[![CC-BY-SA License](https://img.shields.io/badge/license-CC--BY--SA-2ea44f.svg)](LICENSE.md)
+![This software is stable](https://img.shields.io/badge/development_stage-stable-2ea44f.svg)
 
-# Quetoo BETA Game Data
+# Quetoo Game Data
 
-![Quetoo BETA](https://raw.githubusercontent.com/jdolan/quetoo/main/quetoo-edge.jpg)
+![Quetoo](https://raw.githubusercontent.com/jdolan/quetoo/main/quetoo-edge.jpg)
 
 ## Overview
 
