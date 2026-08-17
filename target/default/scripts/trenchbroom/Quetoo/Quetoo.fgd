@@ -438,7 +438,7 @@
 	hz(string) : "Spawn rate in Hz" : "5"
 ]
 
-@PointClass base(Target, Targetname) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "Path corner for func_trains. Point the last corner of a route back at the first, flagged teleport and silent, to loop a train back to its start."
+@PointClass base(Target, Targetname) color(128 76 0) size(-8 -8 -8, 8 8 8) = path_corner : "Path corner for func_trains. To loop a train back to its start, point the last corner of the route at the first corner, and set both spawnflags on that first corner. Riders are not carried through the jump, and the mapper is responsible for hiding both corners from view."
 [
 	spawnflags(Flags) =
 	[

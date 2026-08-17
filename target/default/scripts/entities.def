@@ -353,7 +353,8 @@
 
  -------- Keys --------
  target : The first path_corner of the train's route. Required.
- speed : The speed with which the train moves (default 100).
+ speed : The speed with which the train moves (default 100). This is also the speed used for any
+ path_corner that does not specify a speed of its own.
  dmg : The damage inflicted on players who block the train (default 2).
  sound : The looping sound to play while the train is in motion.
  targetname : The target name of this entity if it is to be triggered.
