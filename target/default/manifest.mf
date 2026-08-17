@@ -908,6 +908,8 @@ d629ff5f561d883adca2c740788db0d5 1561 pics/i_adrenaline.png
 6a783d8ece3c08bb6e58deba82c43ed1 2625 pics/i_armor_combat.png
 8cf31585405f4f8840c059ba526ac336 2569 pics/i_armor_jacket.png
 4fc801ef7f9a7e84e3fdf98dba1d1734 2560 pics/i_armor_shard.png
+543813cac1f18fafae14e947f2f0d4cd 43674 pics/i_ctf.kra
+954ce332f8868c15e783422fd42335e9 2797 pics/i_ctf.png
 0d45e1b7eab408c02ebc132229d7f38d 2195 pics/i_flag1.png
 7700b562e3fc75a846a03be0d462bc51 2314 pics/i_flag2.png
 56f09deabc46113abfe6ae5836887caf 1879 pics/i_flag3.png
@@ -3602,11 +3604,11 @@ d6621c7d564c4bb56e0c970f2b2f8b1e 172 textures/effects/lightbeam.mat
 4d2f7e1260a81b5b241d932ba074cdfd 210 textures/effects/meggerpad.mat
 985ab2e7b7929b7d1479774ec14a1d68 1010 textures/effects/meggerpad.png
 2193638b73f5455b6008d541a7b79ed0 1132 textures/effects/meggerpad_fx.png
-e3e204d5a8b5e1ad91d77550fc102be1 300 textures/effects/noise1-0.mat
-a9e702a86012fda6e4c4507099d07802 1158993 textures/effects/noise1-0.png
-d92902a41826a1de475de2aada5efbf2 1193035 textures/effects/noise1-1.png
-55eb41a72f92b67dea12ee7ce1e61a48 1197359 textures/effects/noise1-2.png
-c3fe83cb63e46ab35c6acaa03f6c1666 1160817 textures/effects/noise1-3.png
+077f1f2dc37d8d88081bdb8ca59c3b61 181257 textures/effects/noise1-0.jpg
+e459185979d47e85c70737301fbaf507 271 textures/effects/noise1-0.mat
+8f682fa3d06cb3af1816ea6d5acb2662 194170 textures/effects/noise1-1.jpg
+c062a6f8b2efebf9148c3e7e0adcdd97 195995 textures/effects/noise1-2.jpg
+831e80c386cee1faf8e44bd84da51814 181248 textures/effects/noise1-3.jpg
 388ee293c4a048fc55835af87fd6efe2 497462 textures/effects/sky1-layer0.png
 5efea9479fa9e2f7742be13a7988eaa9 215693 textures/effects/sky1-layer1.png
 8df6b10cdc62b528f55e7165279ca66e 413 textures/effects/sky1.mat
@@ -4057,6 +4059,8 @@ fdfc13bb5373c593b5e64dd98d1c1aee 72683 textures/evil/ex_floor_grate03_spec.jpg
 77881d83f54c30fc3efa3448739d2c9f 22377 textures/evil/ex_floor_grate_03_128_norm.png
 df2d78c28149d2cc78d779fd37e3761c 6767 textures/evil/ex_floor_grate_03_128_spec.jpg
 2d24203b5a1deb58bdba2fee0af45f53 72175 textures/evil/ex_floor_grate_03_d.jpg
+08c4b17154b2556500de6f6e3f783b50 332 textures/evil/ex_floor_grate_03_e.mat
+b964c4f9a0c1df0bbd3fcd76f9c199d0 393209 textures/evil/ex_floor_grate_03_e.png
 2d025749f9330b84fe11e11015800adf 291682 textures/evil/ex_floor_grate_03_norm.png
 84a9b320b9c414597ca316549fdef496 95935 textures/evil/ex_floor_grate_03_spec.jpg
 5eb66d84f4ee372f50937b4d417a6fa1 45 textures/evil/ex_floor_mtl_grate_01.mat
@@ -5306,6 +5310,9 @@ f2723649e758d57f7a7fcde8931dbbcf 9906 textures/q4power/light_r1_norm.png
 7bb3572d7851f81ae29846828c974515 48474 textures/q4power/mech1_glow.jpg
 d3b276e662875f8f6894ddf242ece14b 127668 textures/q4power/mech1_norm.png
 8b4c71a77fc5cc4a0a8fc913746f2e7d 24825 textures/q4power/mech1_spec.jpg
+2051343d0202b2e0df85296cdc6f94ee 15078 textures/q4power/p64_7c-wheel.jpg
+9744bf048380ab52be5b686f54187ded 196 textures/q4power/p64_7c-wheel.mat
+929fc3fa66ee91d06d1c931e59e5c69f 10738 textures/q4power/p64_7c-wheel_norm.png
 2ef7c064ccbdbca8f5ed9f3e0e17440a 26916 textures/q4power/panel128_1.jpg
 180e0e6ea9f07610a4df3603e1a50ecd 94 textures/q4power/panel128_1.mat
 4e9e9a85cc13197e9ad7f777a82b116a 29676 textures/q4power/panel128_1_norm.png
@@ -10411,6 +10418,9 @@ f506521c8eade268301c455203775bec 14910 textures/trak5/stair1a.jpg
 0f1d91b43acc5b5a0164454bafbb4ca6 73 textures/trak5/stair1a.mat
 3b301044f8600516b94e031655f1e80e 21922 textures/trak5/thingy1.jpg
 511ebe911498af7c51cb0c76b5ca2c67 44 textures/trak5/thingy1.mat
+005c3bc017b38a65770d0492a86e3eae 286 textures/trak5/thingy1_no-center.mat
+beb01092006830ea13dfb11ff8bd3969 84518 textures/trak5/thingy1_no-center.png
+abab7c68f1795938302025fa763fb607 42028 textures/trak5/thingy1_no-center_norm.png
 2517ea982402f9d2005183f02d22b930 43899 textures/trak5/thingy1_norm.png
 5ebd07b5f25fbfa8661d750591293c46 20944 textures/trak5/thinpanel1.jpg
 27daf9743785acb201ff149c11bc3287 47 textures/trak5/thinpanel1.mat
