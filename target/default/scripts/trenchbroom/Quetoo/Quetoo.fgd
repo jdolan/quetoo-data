@@ -19,6 +19,7 @@
 		1 : "triggered" : 0
 		2 : "no_touch" : 0
 		4 : "hover" : 0
+		8 : "hazard_respawn" : 0
 	]
 	team(string) : "The team name for alternating item spawns"
 ]

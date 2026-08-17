@@ -1,4 +1,4 @@
-/*QUAKED ammo_bolts (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_bolts (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Bolts for the Lightning.
 
  -------- Keys --------
@@ -8,12 +8,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/ammo/bolts/tris.md3"
 */
 
-/*QUAKED ammo_bullets (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_bullets (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Bullets for the Machinegun.
 
  -------- Keys --------
@@ -23,12 +24,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/ammo/bullets/tris.md3"
 */
 
-/*QUAKED ammo_cells (.4 .7 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_cells (.4 .7 1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Cells for the Hyperblaster.
 
  -------- Keys --------
@@ -38,12 +40,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/ammo/cells/tris.md3"
 */
 
-/*QUAKED ammo_grenades (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_grenades (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Grenades for the Grenade Launcher.
 
  -------- Keys --------
@@ -53,12 +56,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/ammo/grenades/tris.md3"
 */
 
-/*QUAKED ammo_nukes (.4 1 .5) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_nukes (.4 1 .5) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Nukes for the BFG10K.
 
  -------- Keys --------
@@ -68,12 +72,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/ammo/nukes/tris.md3"
 */
 
-/*QUAKED ammo_quake_bolts (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_quake_bolts (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Bolts for the Quake Thunderbolt (Lightning Gun).
 
   -------- Keys --------
@@ -83,12 +88,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/ammo/quake_bolts/tris.obj"
   */
 
-/*QUAKED ammo_quake_nails (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_quake_nails (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Nails for the Quake Nailgun and Super Nailgun.
 
   -------- Keys --------
@@ -98,12 +104,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/ammo/quake_nails/tris.obj"
   */
 
-/*QUAKED ammo_quake_rockets (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_quake_rockets (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Rockets for the Quake Grenade Launcher and Rocket Launcher.
 
   -------- Keys --------
@@ -113,12 +120,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/ammo/quake_rockets/tris.obj"
   */
 
-/*QUAKED ammo_quake_shells (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_quake_shells (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Shells for the Quake Super Shotgun.
 
   -------- Keys --------
@@ -128,12 +136,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/ammo/quake_shells/tris.obj"
   */
 
-/*QUAKED ammo_rockets (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_rockets (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Rockets for the Rocket Launcher.
 
  -------- Keys --------
@@ -143,12 +152,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/ammo/rockets/tris.md3"
 */
 
-/*QUAKED ammo_shells (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_shells (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Shells for the Shotgun and Super Shotgun.
 
  -------- Keys --------
@@ -158,12 +168,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/ammo/shells/tris.md3"
 */
 
-/*QUAKED ammo_slugs (.1 .1 .8) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED ammo_slugs (.1 .1 .8) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Slugs for the Railgun.
 
  -------- Keys --------
@@ -173,6 +184,7 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/ammo/slugs/tris.md3"
@@ -472,7 +484,7 @@
  angle : The angle at which the player will face when spawned.
 */
 
-/*QUAKED item_adrenaline (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_adrenaline (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Adrenaline (=100).
 
  -------- Keys --------
@@ -482,12 +494,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/powerups/adrenaline/tris.obj"
 */
 
-/*QUAKED item_armor_body (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_armor_body (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Body armor (+200).
 
  -------- Keys --------
@@ -497,12 +510,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/armor/body/tris.md3"
 */
 
-/*QUAKED item_armor_combat (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_armor_combat (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Combat armor (+100).
 
  -------- Keys --------
@@ -512,12 +526,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/armor/combat/tris.md3"
 */
 
-/*QUAKED item_armor_jacket (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_armor_jacket (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Jacket armor (+50).
 
  -------- Keys --------
@@ -527,12 +542,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/armor/jacket/tris.md3"
 */
 
-/*QUAKED item_armor_shard (.1 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_armor_shard (.1 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Shard armor (+3).
 
  -------- Keys --------
@@ -542,56 +558,61 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/armor/shard/tris.md3"
 */
 
-/*QUAKED item_flag_team1 (.2 .2 1) (-16 -16 -24) (16 16 32) triggered no_touch hover
+/*QUAKED item_flag_team1 (.2 .2 1) (-16 -16 -24) (16 16 32) triggered no_touch hover hazard_respawn
 
  -------- Spawn flags --------
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/ctf/flag/tris.obj"
 */
 
-/*QUAKED item_flag_team2 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
+/*QUAKED item_flag_team2 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover hazard_respawn
 
  -------- Spawn flags --------
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/ctf/flag/tris.obj"
 */
 
-/*QUAKED item_flag_team3 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
+/*QUAKED item_flag_team3 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover hazard_respawn
 
  -------- Spawn flags --------
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/ctf/flag/tris.obj"
 */
 
-/*QUAKED item_flag_team4 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover
+/*QUAKED item_flag_team4 (1 .2 .2) (-16 -16 -24) (16 16 32) triggered no_touch hover hazard_respawn
 
  -------- Spawn flags --------
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/ctf/flag/tris.obj"
 */
 
-/*QUAKED item_health (.8 .8 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_health (.8 .8 0) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Health (+15).
 
  -------- Keys --------
@@ -601,12 +622,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/health/medium/tris.obj"
 */
 
-/*QUAKED item_health_large (1 0 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_health_large (1 0 0) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Large health (+25).
 
  -------- Keys --------
@@ -616,12 +638,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/health/large/tris.obj"
 */
 
-/*QUAKED item_health_mega (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_health_mega (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Mega health (+75).
 
  -------- Keys --------
@@ -631,12 +654,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/health/mega/tris.obj"
 */
 
-/*QUAKED item_health_quake_large (1 0 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_health_quake_large (1 0 0) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Large Health (+25).
 
   -------- Keys --------
@@ -646,12 +670,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/health/quake_large/tris.obj"
   */
 
-/*QUAKED item_health_quake_medium (.8 .8 0) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_health_quake_medium (.8 .8 0) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Health (+15).
 
   -------- Keys --------
@@ -661,12 +686,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/health/quake_medium/tris.obj"
   */
 
-/*QUAKED item_health_quake_mega (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_health_quake_mega (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Mega Health (+100).
 
   -------- Keys --------
@@ -676,12 +702,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/health/quake_mega/tris.obj"
   */
 
-/*QUAKED item_health_small (.3 1 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_health_small (.3 1 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Small health (+3).
 
  -------- Keys --------
@@ -691,12 +718,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/health/small/tris.obj"
 */
 
-/*QUAKED item_quad (.2 .4 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_quad (.2 .4 1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Quad damage.
 
  -------- Keys --------
@@ -706,12 +734,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/powerups/quad/tris.obj"
 */
 
-/*QUAKED item_quake_armor_body (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_quake_armor_body (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Red Armor (+200). Absorbs 80% of damage.
 
   -------- Keys --------
@@ -721,12 +750,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/armor/quake_body/tris.obj"
   */
 
-/*QUAKED item_quake_armor_combat (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_quake_armor_combat (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Yellow Armor (+150). Absorbs 60% of damage.
 
   -------- Keys --------
@@ -736,12 +766,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/armor/quake_combat/tris.obj"
   */
 
-/*QUAKED item_quake_armor_jacket (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_quake_armor_jacket (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Green Armor (+100). Absorbs 30% of damage.
 
   -------- Keys --------
@@ -751,12 +782,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/armor/quake_jacket/tris.obj"
   */
 
-/*QUAKED item_quake_pentagram (.8 .1 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_quake_pentagram (.8 .1 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Pentagram of Protection. Grants full invulnerability for 30 seconds.
 
   -------- Keys --------
@@ -766,12 +798,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/powerups/quake_pentagram/tris.obj"
   */
 
-/*QUAKED item_quake_shadows (.2 .2 .4) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED item_quake_shadows (.2 .2 .4) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Ring of Shadows. Makes the player nearly invisible for 30 seconds.
 
   -------- Keys --------
@@ -781,6 +814,7 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/powerups/quake_shadows/tris.obj"
@@ -1111,7 +1145,7 @@
  target : The target name of a misc_teleporter_dest.
 */
 
-/*QUAKED weapon_bfg (.4 1 .5) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_bfg (.4 1 .5) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  BFG10K.
 
  -------- Keys --------
@@ -1121,12 +1155,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/weapons/bfg/tris.obj"
 */
 
-/*QUAKED weapon_blaster (.8 .8 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_blaster (.8 .8 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Blaster.
 
  -------- Keys --------
@@ -1136,12 +1171,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/weapons/shotgun/tris.obj"
 */
 
-/*QUAKED weapon_grenadelauncher (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_grenadelauncher (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Grenade Launcher.
 
  -------- Keys --------
@@ -1151,12 +1187,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/weapons/grenadelauncher/tris.obj"
 */
 
-/*QUAKED weapon_handgrenades (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_handgrenades (.2 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Hand Grenades.
 
  -------- Keys --------
@@ -1166,12 +1203,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/objects/grenade/tris.md3"
 */
 
-/*QUAKED weapon_hyperblaster (.4 .7 1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_hyperblaster (.4 .7 1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Hyperblaster.
 
  -------- Keys --------
@@ -1181,12 +1219,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/weapons/hyperblaster/tris.obj"
 */
 
-/*QUAKED weapon_lightning (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_lightning (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Lightning.
 
  -------- Keys --------
@@ -1196,12 +1235,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/weapons/lightning/tris.obj"
 */
 
-/*QUAKED weapon_machinegun (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_machinegun (.8 .8 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Machinegun.
 
  -------- Keys --------
@@ -1211,12 +1251,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/weapons/machinegun/tris.obj"
 */
 
-/*QUAKED weapon_quake_grenadelauncher (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_quake_grenadelauncher (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Grenade Launcher. Fires slower, more arcing grenades than the standard launcher.
 
   -------- Keys --------
@@ -1226,12 +1267,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/weapons/quake_grenadelauncher/tris.obj"
   */
 
-/*QUAKED weapon_quake_thunderbolt (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_quake_thunderbolt (.9 .9 .9) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Thunderbolt (Lightning Gun). Shorter range than the standard lightning gun.
 
   -------- Keys --------
@@ -1241,12 +1283,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/weapons/quake_thunderbolt/tris.obj"
   */
 
-/*QUAKED weapon_quake_nailgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_quake_nailgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Nailgun. Rapid-fire nail weapon.
 
   -------- Keys --------
@@ -1256,12 +1299,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/weapons/quake_nailgun/tris.obj"
   */
 
-/*QUAKED weapon_quake_rocketlauncher (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_quake_rocketlauncher (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Rocket Launcher. Fires slightly slower rockets than the standard launcher.
 
   -------- Keys --------
@@ -1271,12 +1315,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/weapons/quake_rocketlauncher/tris.obj"
   */
 
-/*QUAKED weapon_quake_shotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_quake_shotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Shotgun. The starting weapon; fires a tight spread of pellets.
 
   -------- Keys --------
@@ -1286,12 +1331,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/weapons/quake_shotgun/tris.obj"
   */
 
-/*QUAKED weapon_quake_supernailgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_quake_supernailgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Super Nailgun. Fires two nails per shot.
 
   -------- Keys --------
@@ -1301,12 +1347,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/weapons/quake_supernailgun/tris.obj"
   */
 
-/*QUAKED weapon_quake_supershotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_quake_supershotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Super Shotgun. Fires a wider spread of shells than the standard super shotgun.
 
   -------- Keys --------
@@ -1316,12 +1363,13 @@
   triggered : Item will not appear until triggered.
   no_touch : Item will interact as solid instead of being picked up by player.
   hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
   model="models/weapons/quake_supershotgun/tris.obj"
   */
 
-/*QUAKED weapon_railgun (.1 .1 .8) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_railgun (.1 .1 .8) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Railgun.
 
  -------- Keys --------
@@ -1331,12 +1379,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/weapons/railgun/tris.obj"
 */
 
-/*QUAKED weapon_rocketlauncher (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_rocketlauncher (.8 .2 .2) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Rocket Launcher.
 
  -------- Keys --------
@@ -1346,12 +1395,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/weapons/rocketlauncher/tris.md3"
 */
 
-/*QUAKED weapon_shotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_shotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Shotgun.
 
  -------- Keys --------
@@ -1361,12 +1411,13 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/weapons/shotgun/tris.obj"
 */
 
-/*QUAKED weapon_supershotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover
+/*QUAKED weapon_supershotgun (.6 .6 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Super shotgun.
 
  -------- Keys --------
@@ -1376,6 +1427,7 @@
  triggered : Item will not appear until triggered.
  no_touch : Item will interact as solid instead of being picked up by player.
  hover : Item will spawn where it was placed in the map and won't drop the floor.
+ hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
  -------- Radiant config --------
  model="models/weapons/supershotgun/tris.obj"
