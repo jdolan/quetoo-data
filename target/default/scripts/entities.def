@@ -1004,6 +1004,40 @@
  no_effects : Suppress the default teleport effects.
 */
 
+/*QUAKED target_ballistics (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle blaster nail rocket grenade laser giblets
+ Fires projectiles at an interval, or each time it is used. Use these to build wall traps,
+ spike shooters and lasers.
+
+ -------- Keys --------
+ angles : The angles at which projectiles are fired. Use -1 for up, -2 for down.
+ delay : The delay in seconds between being used and firing (default 0).
+ dmg : The damage inflicted by each projectile (default varies by projectile).
+ knockback : The knockback applied by each projectile (default varies by projectile).
+ random : Random time variance in seconds added to "wait" (default 0).
+ speed : The projectile speed in units per second (default varies by projectile).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0). Only the laser may set 0.
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+ blaster : Fires blaster bolts. This is the default.
+ nail : Fires spikes.
+ rocket : Fires rockets.
+ grenade : Fires grenades.
+ laser : Fires an instant traced beam. Set "wait" to 0 for a continuous laser.
+ giblets : Fires giblets.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ Set exactly one projectile flag. Traps do not spare whoever triggered them. For a version
+ players can aim and take credit for, use target_turret.
+*/
+
 /*QUAKED target_light (1 1 1) (-4 -4 -4) (4 4 4) start_on
  Emits a user-defined light when used. Lights can be chained with teams.
 
@@ -1044,6 +1078,40 @@
  -------- KEYS --------
  message : The message to display.
  targetname : The target name of this entity.
+*/
+
+/*QUAKED target_turret (1 .6 .2) (-8 -8 -8) (8 8 8) x x blaster nail rocket grenade laser giblets
+ Fires a projectile along the view of whoever uses it, and credits them with the kill.
+ Surround it with a trigger_multiple that targets it, and players who step in behind it
+ will operate it.
+
+ -------- Keys --------
+ angles : The angles to fire at when used by something other than a player.
+ dmg : The damage inflicted by each projectile (default varies by projectile).
+ knockback : The knockback applied by each projectile (default varies by projectile).
+ speed : The projectile speed in units per second (default varies by projectile).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ x
+ x
+ blaster : Fires blaster bolts. This is the default.
+ nail : Fires spikes.
+ rocket : Fires rockets.
+ grenade : Fires grenades.
+ laser : Fires an instant traced beam.
+ giblets : Fires giblets.
+
+ -------- Notes --------
+ Projectiles leave the turret, not the player, but carry the player's colors and are
+ credited to them. The muzzle flash uses the weapon's own colors.
+
+ The operator cannot be struck by their own projectiles, but the rocket and grenade
+ types still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands in it.
 */
 
 /*QUAKED trigger_always (.5 .5 .5) (-8 -8 -8) (8 8 8)

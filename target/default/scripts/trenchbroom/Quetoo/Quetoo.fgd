@@ -453,6 +453,29 @@
 	angles(string) : "The orientation the train holds on arriving here, rotating into it over the leg. Requires the train to have an origin brush. Omit to have the train face its direction of travel"
 ]
 
+@PointClass base(Target, Targetname) color(255 77 77) size(-8 -8 -8, 8 8 8) = target_ballistics : "Fires projectiles at an interval, or each time it is used. Use these to build wall traps, spike shooters and lasers. Place the entity in open air, in front of the brushwork that represents it, not embedded within it. Set exactly one projectile flag. Traps do not spare whoever triggered them; for a version players can aim and take credit for, use target_turret."
+[
+	spawnflags(Flags) =
+	[
+		1 : "Fires on its own from level start, without being used" : 0
+		2 : "Using this entity toggles it on and off, rather than firing one shot" : 0
+		4 : "Fires blaster bolts. This is the default" : 0
+		8 : "Fires spikes" : 0
+		16 : "Fires rockets" : 0
+		32 : "Fires grenades" : 0
+		64 : "Fires an instant traced beam. Set wait to 0 for a continuous laser" : 0
+		128 : "Fires giblets" : 0
+	]
+	angle(integer) : "The angle at which projectiles are fired (up = -1, down = -2)"
+	delay(float) : "The delay in seconds between being used and firing" : "0"
+	dmg(integer) : "The damage inflicted by each projectile, defaulting per projectile"
+	knockback(integer) : "The knockback applied by each projectile, defaulting per projectile"
+	random(float) : "Random time variance in seconds added to wait" : "0"
+	speed(integer) : "The projectile speed in units per second, defaulting per projectile"
+	spread(float) : "The cone of fire, from 0.0 for pinpoint to 1.0 for wild" : "0"
+	wait(float) : "The interval in seconds between shots. Only the laser may set 0" : "1.0"
+]
+
 @PointClass base(Targetname) color(255 255 80) size(-8 -8 -8, 8 8 8) = target_light : "Emits a user-defined light when used. Lights can be chained with teams. Use this entity to add switched lights. Use the wait key to synchronize color cycles with other entities."
 [
 	spawnflags(Flags) =
@@ -479,6 +502,25 @@
 @PointClass base(Targetname) color(128 128 160) size(-8 -8 -8, 8 8 8) = target_string : "Displays a center-printed message to the player when used."
 [
 	message(string) : "The message to display"
+]
+
+@PointClass base(Targetname) color(255 153 51) size(-8 -8 -8, 8 8 8) = target_turret : "Fires a projectile along the view of whoever uses it, and credits them with the kill. Surround it with a trigger_multiple that targets it, and players who step in behind it will operate it. Projectiles leave the turret, not the player, but carry the player's colors. The operator cannot be struck by their own projectiles, but the rocket and grenade types still splash them."
+[
+	spawnflags(Flags) =
+	[
+		4 : "Fires blaster bolts. This is the default" : 0
+		8 : "Fires spikes" : 0
+		16 : "Fires rockets" : 0
+		32 : "Fires grenades" : 0
+		64 : "Fires an instant traced beam" : 0
+		128 : "Fires giblets" : 0
+	]
+	angle(integer) : "The angle to fire at when used by something other than a player"
+	dmg(integer) : "The damage inflicted by each projectile, defaulting per projectile"
+	knockback(integer) : "The knockback applied by each projectile, defaulting per projectile"
+	speed(integer) : "The projectile speed in units per second, defaulting per projectile"
+	spread(float) : "The cone of fire, from 0.0 for pinpoint to 1.0 for wild" : "0"
+	wait(float) : "The minimum interval in seconds between shots" : "1.0"
 ]
 
 @SolidClass base(trigger_once) = trigger_multiple : "Triggers multiple targets at fixed intervals."
