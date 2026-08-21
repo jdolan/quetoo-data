@@ -1,4 +1,4 @@
-0e3a7f921299c889b6f20f49fb40971b 13007666 maps/pits.bsp
+ab6b1a45026b194c77cac25a0fc0cc19 12979142 maps/pits.bsp
 0941225f4b0647ca36a5a7b9a6169633 10508 maps/pits.nav
 fe8037ac2e689cc84798186aafc0fd92 186239 mapshots/pits/quetoo031.jpg
 f1b7b56a0295487e7be5cb4a9d7652c7 222611 mapshots/pits/quetoo032.jpg
@@ -13,10 +13,8 @@ f81dd582c8a3148e826395481c9b1ef5 33959 sky/khaki.jpg
 649ffcd19896ebe708b38f5dfb8e657c 61888 sprites/flare_2.png
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
 ab6846eab04f23e52489df2d2e7dea1b 29 textures/common/caulk.mat
-c3c95e362ae53ceec4571095fd470c91 28 textures/common/clip.mat
+0aeeff745b942c9945b72c562f1bb632 43 textures/common/clip.mat
 cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
-4495dd84862adc3bbcf3e0006e16b545 1627 textures/common/dust.jpg
-8f12552545ad2657743357b89cb4c72f 28 textures/common/dust.mat
 2a1b49cbfe055dec00b23d65163f56f6 2115 textures/common/origin.jpg
 68c96aad25d1fa26d3e6b8e612a84dfe 30 textures/common/origin.mat
 9243c7ad7e16a9a96f4a5f89b4212458 1512 textures/common/sky.jpg
@@ -44,12 +42,6 @@ ec92d0ec9e780040f97f23aa4acd8f88 105777 textures/quake2/blume7_2_norm.png
 4a068768f63f41ae998810d1820cbd15 96 textures/quake2/blume9_2.mat
 aa35b9f0bb1efb02bb1a52db75dc62db 111068 textures/quake2/blume9_2_norm.png
 f6c278d49042ccdfd3631b5d6526f9c0 14191 textures/quake2/blume9_2_spec.jpg
-f0f2951fac46049ceb7fd2b88f2a206c 5219 textures/quake2/btactmach0.jpg
-3e614683ddadaf790bb80fc49f4edcd8 169 textures/quake2/btactmach0.mat
-1510b1856c07c577c728b8f8bbee79ed 19971 textures/quake2/btactmach0_norm.png
-95c647956e0cd46dd01b220a98af8d49 3793 textures/quake2/btactmach0_spec.jpg
-bc617e0b5831c8c2ab566f8ca7ef75ec 5081 textures/quake2/btactmach0fx1.png
-95976f76bfa2a627686b577182827f6c 5587 textures/quake2/btactmach0fx2.png
 d0e17a50b836ad259acaf60bdae3e2b2 3208 textures/quake2/ceil1_4.jpg
 a6f02649418304137ccec34e452e6bfb 273 textures/quake2/ceil1_4.mat
 677424b9ce9b134979ebbfc9d04512ef 8449 textures/quake2/ceil1_4fx.png

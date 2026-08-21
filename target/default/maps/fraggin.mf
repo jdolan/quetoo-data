@@ -1,4 +1,4 @@
-96b6f87fa8254b30157b349c026e54a3 33507559 maps/fraggin.bsp
+a716c8e5c7830ceae75812ac90f695a5 33530671 maps/fraggin.bsp
 079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
 1f65f3c6ecf8313f34e2508c38fb25db 84548 mapshots/fraggin/fraggin01.jpg
 3fcbee2ddf3ce8de0b59980de1c21a03 109776 mapshots/fraggin/fraggin02.jpg
@@ -16,7 +16,7 @@ cd05f966902f204859c3282ce7971c06 151 textures/chastity/clanggrate.mat
 e7c398104fbcf35b80aa2c16055573ff 21866 textures/chastity/clanggrate_norm.png
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
 ab6846eab04f23e52489df2d2e7dea1b 29 textures/common/caulk.mat
-c3c95e362ae53ceec4571095fd470c91 28 textures/common/clip.mat
+0aeeff745b942c9945b72c562f1bb632 43 textures/common/clip.mat
 cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 4495dd84862adc3bbcf3e0006e16b545 1627 textures/common/dust.jpg
 8f12552545ad2657743357b89cb4c72f 28 textures/common/dust.mat
@@ -27,12 +27,13 @@ d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 59a6783e357ff7b8c24da2d37e5ae35f 143 textures/ctf/eq2_banner.mat
 395e6ecbc734497359b13408b9607f71 115213 textures/ctf/eq2_banner.png
 2d77da7b64413c1bd078d8a76a1d37e0 356905 textures/decals/flr3_mark.png
-6eabb0965c8c1a6ead31fa0cec0fe27c 178 textures/decals/flr3_mark_fx-cyan.mat
+24674a8cd9ab60eb424ceec3a07f42a0 211 textures/decals/flr3_mark_fx-cyan.mat
 9d2c328847dfb26db530e536a4cdc53e 92330 textures/decals/flr3_mark_fx-cyan.png
-ff0b089f1c9b2b1f73c0f8dd3c106fac 179 textures/decals/flr3_mark_fx-green.mat
+f0f15389100ba02e69f27262e4b6c3f6 212 textures/decals/flr3_mark_fx-green.mat
 dc5ec3ceb14c5d34b3df435059c50110 83725 textures/decals/flr3_mark_fx-green.png
-8f4cccd36a2773b89f08722edf46c941 180 textures/decals/flr3_mark_fx-yellow.mat
+57a403fc703cffa62e9a1bc30c7b6766 213 textures/decals/flr3_mark_fx-yellow.mat
 47a81a9182d99e2ff99e585043c2230b 83566 textures/decals/flr3_mark_fx-yellow.png
+3a09dba6ccf8a4105d72881e1e6f7370 253413 textures/decals/flr3_mark_norm.png
 df1f3bfef1050e533b358c0004f50456 274 textures/decals/quetoologo.mat
 f148d1d3b95bb838d5d5a541d28c103f 125461 textures/decals/quetoologo.png
 9726620a0a1b6a13783c675e233b2c38 108727 textures/decals/quetoologo_glow.png

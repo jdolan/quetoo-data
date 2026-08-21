@@ -1,4 +1,4 @@
-f16225c2c6f10f6730718596d877c3ac 6313254 maps/cistern.bsp
+0527f249d07d6c750d333c1d0b270b95 6333230 maps/cistern.bsp
 da26e484db328ea5eb702d3fdcb922cf 6116 maps/cistern.nav
 21f3c60743c3bece3d35039ed43935b4 258470 mapshots/cistern/quetoo067.jpg
 0a610466b7d9750645a88cf3ff95263b 243433 mapshots/cistern/quetoo068.jpg
@@ -8,7 +8,7 @@ aa74591a7bb44cb5e588b00115f32c5b 4603364 sky/nebula2.jpg
 01a3009417ffcacc75069643bc626589 110314 sounds/ambient/water_2.wav
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
 ab6846eab04f23e52489df2d2e7dea1b 29 textures/common/caulk.mat
-c3c95e362ae53ceec4571095fd470c91 28 textures/common/clip.mat
+0aeeff745b942c9945b72c562f1bb632 43 textures/common/clip.mat
 cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 4495dd84862adc3bbcf3e0006e16b545 1627 textures/common/dust.jpg
 8f12552545ad2657743357b89cb4c72f 28 textures/common/dust.mat

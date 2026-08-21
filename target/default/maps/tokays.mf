@@ -1,4 +1,4 @@
-ecb13a72fe8022e736984c5ce9d905ee 9273535 maps/tokays.bsp
+95688ac68d8fb590215f06d7ea35cfe9 9263447 maps/tokays.bsp
 11c9ca144c4780c952b173798c467d07 5980 maps/tokays.nav
 82c4bd5edf9876726be5628b7c22476e 185671 mapshots/tokays/quetoo018.jpg
 5efa348a845250cfce81ae0552cfc9e1 193044 mapshots/tokays/quetoo019.jpg
@@ -14,7 +14,7 @@ ecb13a72fe8022e736984c5ce9d905ee 9273535 maps/tokays.bsp
 649ffcd19896ebe708b38f5dfb8e657c 61888 sprites/flare_2.png
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
 ab6846eab04f23e52489df2d2e7dea1b 29 textures/common/caulk.mat
-c3c95e362ae53ceec4571095fd470c91 28 textures/common/clip.mat
+0aeeff745b942c9945b72c562f1bb632 43 textures/common/clip.mat
 cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 4495dd84862adc3bbcf3e0006e16b545 1627 textures/common/dust.jpg
 8f12552545ad2657743357b89cb4c72f 28 textures/common/dust.mat
