@@ -162,9 +162,9 @@ a716c8e5c7830ceae75812ac90f695a5 33530671 maps/fraggin.bsp
 2dea62236992d7eb0fb26b535f4db85c 2176189 maps/fraggin.map
 a52229f8b21d432848e9a7767f44665c 14801 maps/fraggin.mf
 079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
-840cd386797f564ca99b67bcfc8a8aa3 11752849 maps/fragpipe.bsp
-669a7a5fe53ba373407dc0714fb59837 1027962 maps/fragpipe.map
-dcc6657de437f3e96024f8be7e3f9179 11474 maps/fragpipe.mf
+6b9e72bcae6fee3aafe55cd6046dafa3 11753405 maps/fragpipe.bsp
+b5324123479c98e2098a21493935479d 1027947 maps/fragpipe.map
+26960382ea6e1f9eca05fac09e0b59be 11474 maps/fragpipe.mf
 a2e4df8258fb16bd6200967790355a77 5876 maps/fragpipe.nav
 bd4c8c42e1a22d506e46b2f1b885f83d 30708308 maps/gehenna.bsp
 2bd2c49712b8ed73a6154a03757263f2 2434485 maps/gehenna.map
@@ -1298,6 +1298,7 @@ ff7dbdd64e8a874461500c4df67f1b55 52270 sounds/ambient/flow.wav
 ffd2ba30591918147789ef7a7940bd8b 125798 sounds/ambient/frogs_1.wav
 e19ffb0c9feff27628b56f9a8b72f941 1104394 sounds/ambient/gigacor.wav
 34c303e94ccd9e8ba21a299c931f30e5 182706 sounds/ambient/hum.wav
+fa718de8e683dbc0c8e278b121113b20 175306 sounds/ambient/hum2.wav
 ec1f1a24735c65bbb9d4dbaa8c4fd87b 107140 sounds/ambient/impact.wav
 1d5de8d1525ad3155df01e795382e09e 85406 sounds/ambient/lava_1.wav
 9b48cbb4eed62b68bb675a66858887e3 83218 sounds/ambient/lava_2.wav
@@ -3344,6 +3345,9 @@ bc1473d3c24f02a21cc730438a3050a4 349974 textures/ctf/ctf_banner1-red.png
 7200b06ae091eac03bdaf424c2a60ebd 302905 textures/ctf/ctf_banner2-blue.png
 1ca92b5d63f027773d64e722acd16f8f 148 textures/ctf/ctf_banner2-red.mat
 882b4a7a17ed3abd2fb5e022ad5f89b6 308931 textures/ctf/ctf_banner2-red.png
+88c89ebd5c555816e3c4dbdc1f002852 166 textures/ctf/ctf_banner3-blue.mat
+95638b6006c2b69a00418aa6739ba5f9 341565 textures/ctf/ctf_banner3-blue.png
+c0687b4a46825b814bc5cc1543827d43 10559 textures/ctf/ctf_banner3-blue_norm.png
 1c177785d4a4f581a395ed78f5d0ab9f 157 textures/ctf/ctf_flr-arrows_blue.mat
 2c6e7c1d2c43f4f6921871c4664ad080 31148 textures/ctf/ctf_flr-arrows_blue.png
 805aca9d82a16b69cc1c725fb76c5628 156 textures/ctf/ctf_flr-arrows_red.mat
