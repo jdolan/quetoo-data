@@ -3667,7 +3667,7 @@ c91d1e776fe5daa28d20f259e469a612 20880 textures/evil/e6btrim_light.jpg
 332bba1262d8f4823cbde6d0ce50e196 56519 textures/evil/e6c_floordented.jpg
 1dc59ca138a0f9c1104a69bf2e6b6835 4547 textures/evil/e6c_stepedge.jpg
 e34b594ac001ba4ca1a6d89a34a22a1d 71927 textures/evil/e6cyb0rpipes.jpg
-a763d62a6f929ce97f313ac0d7512f16 188 textures/evil/e6cyb0rpipes.mat
+11faa3dfcbbf7a69eabf6c6c7874ef6a 211 textures/evil/e6cyb0rpipes.mat
 3e205c8d486c60f2d9b0c9655a8a419d 33154 textures/evil/e6dmetal.jpg
 175f267970a6d458c28150691e289b20 33634 textures/evil/e6drkbmetalscatched.jpg
 540135082c92ffc9a9373637cf64db47 62770 textures/evil/e6drstmetal.jpg
@@ -3684,7 +3684,7 @@ e314f2c145a3f416491a2d31391ea707 71401 textures/evil/e6grate2_flr.png
 34f23a2055b585f61ed000d275f98c48 128808 textures/evil/e6grate_flr.png
 a13e8d65977c00e70439c2b8bc8f48b1 106809 textures/evil/e6grate_flr_b.png
 6d4e26764c6487b34ada9460f9542fea 54729 textures/evil/e6gridergrtwll.jpg
-6c0ed9e8151da7d7679050ae9d67e7d4 89 textures/evil/e6grtfloorceil.mat
+10113628683377e4665813b92ebf08d0 104 textures/evil/e6grtfloorceil.mat
 16533d26d17cd07bd00e50cd6719d705 137078 textures/evil/e6grtfloorceil.png
 f73a6a57d7d28b802db8fee3a896245d 103725 textures/evil/e6grtflr2bl.png
 1fd08ee17dd97b784ef1e787ea88e3b7 24912 textures/evil/e6h_support.png
@@ -3850,7 +3850,7 @@ eddbe7f065ac00992cad3a7b7ae33121 85436 textures/evil/e8_mtlwall3b.jpg
 aea807cf095b25ac3faca58367c74948 90350 textures/evil/e8_mtlwall4.jpg
 fe20f785fef322733c41662001ca06c2 4502 textures/evil/e8_rlight.blend.jpg
 988ffe29f4807c4bea22fb0f123d8de4 7610 textures/evil/e8_rlight.jpg
-e30477a7004a110af3774abed27adc13 264 textures/evil/e8_rlight.mat
+0f505716f38329c4b8fecbec13a3eb51 294 textures/evil/e8_rlight.mat
 a205a814a99f5239ae320a1d3e656a63 17336 textures/evil/e8_rlight_upscayl_4x_remacri-4x.jpg
 13f3331ef73268bd1eae855475e0502e 13936 textures/evil/e8_rlight_upscayl_4x_ultramix-balanced-4x.jpg
 b4e5a8c4ae8d4d9cb08a1b28f4e2cafa 19220 textures/evil/e8_rlight_upscayl_4x_ultrasharp-4x.jpg
@@ -3874,6 +3874,7 @@ b23ddfe6c1ea98a171fb5e07ba24eb52 32301 textures/evil/e8basictrim2_red.jpg
 1caa0b3763d1344525175daee787f6a5 22714 textures/evil/e8beam01b.jpg
 248be8888555c1a8025177ed72788a84 44123 textures/evil/e8beam02.jpg
 3b883bb561109263a063234e694eb896 3725 textures/evil/e8beam_blue.jpg
+d2fa0e3d3e91c6fd6940022d48b8c57f 149 textures/evil/e8bgrate01.mat
 dc84b6198968cb3a531746768fea5853 210460 textures/evil/e8bgrate01.png
 bf66d7ba920696fe4cf114e5b7deaa32 6780 textures/evil/e8blue_dcl.png
 8f2a125e7685734c9c255e2ae2ae7e04 7086 textures/evil/e8bolttrim.jpg
@@ -4060,6 +4061,7 @@ bb75ac67b0be3b7a8ef82b50d59db095 109777 textures/evil/ex_deswall_01_spec.jpg
 01332e6ef8ff2d53e4ab775760fff03a 91264 textures/evil/ex_floor_grate03_d.jpg
 0a589fd23b39971559cd6dea53bee308 255034 textures/evil/ex_floor_grate03_norm.png
 fdfc13bb5373c593b5e64dd98d1c1aee 72683 textures/evil/ex_floor_grate03_spec.jpg
+65c49a7e541b6ad375288a9053f83dfd 56 textures/evil/ex_floor_grate_03.mat
 5d4534fad695ee4f8467e0a8310d2619 5597 textures/evil/ex_floor_grate_03_128_d.jpg
 77881d83f54c30fc3efa3448739d2c9f 22377 textures/evil/ex_floor_grate_03_128_norm.png
 df2d78c28149d2cc78d779fd37e3761c 6767 textures/evil/ex_floor_grate_03_128_spec.jpg
@@ -4098,9 +4100,11 @@ d484ed3badbf13d7ec979f6ac94bcf42 19062 textures/evil/ex_light_u201_spec.jpg
 40fc3128d8f8c1f46fa9304b654a2e81 21954 textures/evil/ex_lightpanel_01_d.jpg
 4246f1a71292ffc2e902d0dd571c7b82 80643 textures/evil/ex_lightpanel_01_norm.png
 494e2ea0c830fa8c2b8586a010d68e37 28992 textures/evil/ex_lightpanel_01_spec.jpg
+f2df385ea26bda0db31270e96bce2c49 55 textures/evil/ex_metalplate_01.mat
 bfbd81099e2c1e555f4b566ee999616b 77323 textures/evil/ex_metalplate_01_d.jpg
 d4b6dc20102c1fbe323a8ab4fc392006 277073 textures/evil/ex_metalplate_01_norm.png
 d0dc1554f251882e5d9e379e4c1a8198 15299 textures/evil/ex_metalplate_01_spec.jpg
+d3d6df079daf15716398ba4d016d5608 53 textures/evil/ex_metalsupp01.mat
 2631ea6ec4bb085e8321df1912a6c785 21514 textures/evil/ex_metalsupp01_d.jpg
 68de79cc29e3c15dfe1ac339dd1652cd 303384 textures/evil/ex_metalsupp01_d.kra
 ae3aa1ef4d005b22dad31699fdb9d574 17101 textures/evil/ex_metalsupp01_norm.png
@@ -4153,6 +4157,8 @@ efd54f5231aad88d952846d2e3ef7182 15057 textures/evil/ex_steptop_01_d.jpg
 6b7be3b179b96052b94c37320a2d612f 11483 textures/evil/ex_trim_01_d.jpg
 676b96b21897552f5b4220249f65fcf3 42111 textures/evil/ex_trim_01_norm.png
 ff6bdaba049ecba5424a04bc3255332f 17260 textures/evil/ex_trim_01_spec.jpg
+5b317cba222e27ee4e0fb2047e38c139 56 textures/evil/ex_trim_baseboard.mat
+e450b34f77c90d54f7553708125028c6 72 textures/evil/ex_trim_baseboard_02.mat
 02a2314da0ec0b256ea7d46d3277dc74 21252 textures/evil/ex_trim_baseboard_02_d.jpg
 2bde7599b4f81335ccaa59d25effeca5 55578 textures/evil/ex_trim_baseboard_02_norm.png
 5b7b68d7fe4c7a1d3ebd6abe438ea9fa 20038 textures/evil/ex_trim_baseboard_02_spec.jpg
@@ -4165,6 +4171,7 @@ b92f7f73fe78e4adee1216bd9096f231 8002 textures/evil/ex_trim_baseboard_03_d.jpg
 41022ef9fbe7ce7de5201567dea498a5 23910 textures/evil/ex_trim_psimple_04_d.jpg
 22385da7a12511b148d7571d4b55e54a 76879 textures/evil/ex_trim_psimple_04_norm.png
 2ca353ab42370a4af4463dd604381ce0 23671 textures/evil/ex_trim_psimple_04_spec.jpg
+46a41f22cd40cf172d4dad60cb90cd39 57 textures/evil/ex_trim_psimple_05.mat
 e46ea1b2142333895fb346ab07550304 46008 textures/evil/ex_trim_psimple_05_d.jpg
 fcb35a8ab16f88ef3ec177b175c13542 139831 textures/evil/ex_trim_psimple_05_norm.png
 f09d4133a5d36cfb5e6184c7d77492d9 61851 textures/evil/ex_trim_psimple_05_spec.jpg
@@ -4187,6 +4194,7 @@ ef376895623b3e170d82f87563234b64 93485 textures/evil/ex_wall_01_spec.jpg
 f9ec10c0050e54d4ce571f947d953704 84525 textures/evil/ex_wall_b01_d.jpg
 29864f02e14e454955d53582c61c8821 227249 textures/evil/ex_wall_b01_norm.png
 046d8d4b6db060ec326b94f95ff7d38e 131255 textures/evil/ex_wall_b01_spec.jpg
+ef2d3598e10e11c454578fe7f21a80ec 56 textures/evil/ex_wall_bigrib_02.mat
 f85ba92341ef72a5adf2b336c8fb651b 83293 textures/evil/ex_wall_bigrib_02_d.jpg
 284de7d2746e71a3b701db69e8d34787 251146 textures/evil/ex_wall_bigrib_02_norm.png
 509a5dfff8bc9565a2158a0d7c2a2b3e 130691 textures/evil/ex_wall_bigrib_02_spec.jpg
