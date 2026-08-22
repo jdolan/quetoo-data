@@ -1,9 +1,10 @@
 {
 	diffusemap quake/floorsw
-	roughness 1
-	hardness 1
-	parallax 1
-	shadow 8.00
+	roughness 1.24
+	hardness 3.53
+	specularity 1.51
+	parallax 2.99
+	shadow 1.98
 	{
 		texture quake/floorsw_luma
 		blend src_alpha one

@@ -1,0 +1,8 @@
+{
+	diffusemap quake/cop1_trim1a
+	roughness 1.25
+	hardness 3.50
+	specularity 1.50
+	parallax 2.75
+	shadow 2.00
+}
