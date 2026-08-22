@@ -1,7 +1,7 @@
 {
 	diffusemap evil/e6grtfloorceil
+	hardness 3.48
 	shadow 0.00
-	
 	surface "alpha_test"
-	alpha_test 0.5
+	alpha_test 0.500
 }

@@ -1,5 +1,6 @@
 {
 	diffusemap evil/e6cyb0rpipes
+	parallax 1.01
 	{
 		texture evil/e6cyb0rpipes
 		lighting 0.85
@@ -7,8 +8,8 @@
 	{
 		texture evil/e6mtltpnl_light_fx
 		blend src_alpha one
-		scroll.t 2
-		scale.t 0.5
-		warp 0.1 0.1
+		scroll.t 2.000
+		scale.t 0.500
+		warp 0.10 0.10
 	}
 }

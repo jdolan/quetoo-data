@@ -1,18 +1,19 @@
 {
 	diffusemap evil/e8_rlight
+	parallax 1.01
 	{
 		texture evil/e8_rlight.blend
 		blend src_alpha one
-		color 1.5 1.5 1.5 0.5
+		color 1.50 1.50 1.50 0.50
 	}
 	{
 		texture quake3/base_light/proto_light2
 		blend src_alpha one
-		color 1.25 1.25 1.25 0.9
-		pulse 25
+		color 1.25 1.25 1.25 0.90
+		pulse 25.00
 	}
 	{
+		color 1.00 0.95 0.90 1.00
 		flare flare_2
-		color 1 0.95 0.9 1
 	}
 }
