@@ -403,16 +403,6 @@
  start_open : If set, causes the water to move to its destination when spawned and operate in reverse.
 */
 
-/*QUAKED info_luxel (1 0 0) (-1 -1 -1) (1 1 1)
- A luxel origin, for debugging lightmap compilation. These are inhibited in the game and are only useful to the editor and BSP compiler.
-
- -------- Keys --------
- face : The face number.
- normal : The normal vector.
- s : The s coordinate.
- t : The t coordinate.
-*/
-
 /*QUAKED info_notnull (0 .5 0) (-4 -4 -4) (4 4 4)
  A positional target for other entities. Unlike info_null, these are available in the game and can be targeted by other entities (e.g. info_player_intermission).
 
