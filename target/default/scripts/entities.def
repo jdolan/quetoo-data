@@ -363,12 +363,18 @@
  its route, turning and pitching to follow the rails, without any corner being angled by hand.
  Angle a corner explicitly only where that is not what you want.
 
+ A cart is rarely modeled facing world east, though. Give the train its own angle key to declare
+ the compass heading its brushwork actually faces at rest, and every auto-computed leg above turns
+ relative to that heading instead of world east.
+
  -------- Keys --------
  target : The first path_corner of the train's route. Required.
  speed : The speed with which the train moves (default 100). This is also the speed used for any
  path_corner that does not specify a speed of its own.
  dmg : The damage inflicted on players who block the train (default 2).
  sound : The looping sound to play while the train is in motion.
+ angle : The compass heading the train's brushwork faces at rest (angles 0 0 0). Requires an origin
+ brush. angles is accepted in its place; only its yaw component is used.
  targetname : The target name of this entity if it is to be triggered.
 
  -------- Spawn flags --------

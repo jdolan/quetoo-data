@@ -218,7 +218,7 @@
 	delay(integer) : "Additional delay before the first firing when start_on" : 0
 ]
 
-@SolidClass base(Phong, Target, Targetname) color(0 255 255) = func_train : "Trains are moving solids that players can ride along a series of path_corners. Target the first path_corner of the route. If the train is the target of a button or trigger, it will not begin moving until activated. Given a common/origin brush, each corner specifies the train's own origin and the train rotates about it, turning and pitching to face each leg of its route; without one, each corner specifies the train's lower bounding point and the train cannot rotate."
+@SolidClass base(Phong, Target, Targetname) color(0 255 255) = func_train : "Trains are moving solids that players can ride along a series of path_corners. Target the first path_corner of the route. If the train is the target of a button or trigger, it will not begin moving until activated. Given a common/origin brush, each corner specifies the train's own origin and the train rotates about it, turning and pitching to face each leg of its route; without one, each corner specifies the train's lower bounding point and the train cannot rotate. A cart is rarely modeled facing world east, though: give the train its own angle key to declare the compass heading its brushwork actually faces at rest, and every auto-computed leg turns relative to that heading instead of world east."
 [
 	spawnflags(Flags) =
 	[
@@ -229,6 +229,7 @@
 	dmg(integer) : "The damage inflicted on players who block the train" : 2
 	speed(integer) : "The speed with which the train moves, and the default for corners that omit it" : 100
 	sound(string) : "The looping sound to play while the train is in motion"
+	angle(integer) : "The compass heading the train's brushwork faces at rest (angles 0 0 0). Requires an origin brush"
 ]
 
 @SolidClass base(Phong, Targetname) color(0 255 255) = func_wall : "A solid that may spawn into existence via trigger."
