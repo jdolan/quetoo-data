@@ -2054,7 +2054,8 @@
 
  -------- Keys --------
  delay : Delay in seconds between activation and firing of targets (default 0).
- wait : Interval in seconds between activations (default 0.2).
+ wait : Interval in seconds between activations (default 0, activating for as long as it is
+ touched). Give it a value to debounce, e.g. "wait" "3".
  message : An optional string to display when activated.
  target : The name of the entity or team to use on activation.
  killtarget : The name of the entity or team to kill on activation.
