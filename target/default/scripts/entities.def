@@ -1004,38 +1004,983 @@
  no_effects : Suppress the default teleport effects.
 */
 
-/*QUAKED target_ballistics (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle blaster nail rocket grenade laser giblets
- Fires projectiles at an interval, or each time it is used. Use these to build wall traps,
- spike shooters and lasers.
+/*QUAKED ballistics_blaster (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires blaster bolts at an interval, or each time it is used.
 
  -------- Keys --------
- angles : The angles at which projectiles are fired. Use -1 for up, -2 for down.
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
  delay : The delay in seconds between being used and firing (default 0).
- dmg : The damage inflicted by each projectile (default varies by projectile).
- knockback : The knockback applied by each projectile (default varies by projectile).
  random : Random time variance in seconds added to "wait" (default 0).
- speed : The projectile speed in units per second (default varies by projectile).
+ speed : The projectile speed in units per second (default varies by weapon).
  spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
  target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
  targetname : The target name of this entity.
- wait : The interval in seconds between shots (default 1.0). Only the laser may set 0.
+ wait : The interval in seconds between shots (default 1.0).
 
  -------- Spawn flags --------
  start_on : Fires on its own from level start, without being used.
  toggle : Using this entity toggles it on and off, rather than firing one shot.
- blaster : Fires blaster bolts. This is the default.
- nail : Fires spikes.
- rocket : Fires rockets.
- grenade : Fires grenades.
- laser : Fires an instant traced beam. Set "wait" to 0 for a continuous laser.
- giblets : Fires giblets.
 
  -------- Notes --------
  Place this entity in open air, in front of the brushwork that represents it, not embedded
  within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
 
- Set exactly one projectile flag. Traps do not spare whoever triggered them. For a version
- players can aim and take credit for, use target_turret.
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_blaster.
+*/
+
+/*QUAKED ballistics_shotgun (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires a spread of shotgun pellets at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_shotgun.
+*/
+
+/*QUAKED ballistics_supershotgun (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires a wide spread of pellets at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_supershotgun.
+*/
+
+/*QUAKED ballistics_machinegun (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires bullets at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_machinegun.
+*/
+
+/*QUAKED ballistics_grenadelauncher (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires bouncing grenades at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_grenadelauncher.
+*/
+
+/*QUAKED ballistics_rocketlauncher (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires rockets at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_rocketlauncher.
+*/
+
+/*QUAKED ballistics_hyperblaster (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires hyperblaster bolts at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_hyperblaster.
+*/
+
+/*QUAKED ballistics_lightning (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Emits a lightning beam that burns whatever it crosses, for as long as it is on.
+ Give it start_on or toggle.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ color : The beam color (default "1 1 1").
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between damage (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_lightning.
+*/
+
+/*QUAKED ballistics_railgun (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires railgun slugs at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_railgun.
+*/
+
+/*QUAKED ballistics_bfg (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires BFG orbs at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_bfg.
+*/
+
+/*QUAKED ballistics_quake_shotgun (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires Quake buckshot at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_quake_shotgun.
+*/
+
+/*QUAKED ballistics_quake_supershotgun (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires a double load of Quake buckshot at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_quake_supershotgun.
+*/
+
+/*QUAKED ballistics_quake_nailgun (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires Quake nails at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_quake_nailgun.
+*/
+
+/*QUAKED ballistics_quake_supernailgun (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires Quake nails, harder and faster at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_quake_supernailgun.
+*/
+
+/*QUAKED ballistics_quake_grenadelauncher (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires Quake grenades at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_quake_grenadelauncher.
+*/
+
+/*QUAKED ballistics_quake_rocketlauncher (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires Quake rockets at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_quake_rocketlauncher.
+*/
+
+/*QUAKED ballistics_quake_thunderbolt (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Emits a Quake thunderbolt beam that burns whatever it crosses, for as long as it is on.
+ Give it start_on or toggle.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ color : The beam color (default "1 1 1").
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between damage (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_quake_thunderbolt.
+*/
+
+/*QUAKED ballistics_laser (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Emits a laser beam that burns whatever it crosses, for as long as it is on.
+ Give it start_on or toggle.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ color : The beam color (default "1 1 1").
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between damage (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_laser.
+*/
+
+/*QUAKED ballistics_giblets (1 .3 .3) (-8 -8 -8) (8 8 8) start_on toggle
+ Fires giblets at an interval, or each time it is used.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ delay : The delay in seconds between being used and firing (default 0).
+ random : Random time variance in seconds added to "wait" (default 0).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between shots (default 1.0).
+
+ -------- Spawn flags --------
+ start_on : Fires on its own from level start, without being used.
+ toggle : Using this entity toggles it on and off, rather than firing one shot.
+
+ -------- Notes --------
+ Place this entity in open air, in front of the brushwork that represents it, not embedded
+ within it. Projectiles that would spawn inside a wall are pulled back to the entity origin.
+
+ It does not spare whoever triggered it. For a version players can aim and take credit for,
+ use turret_giblets.
+*/
+
+/*QUAKED turret_blaster (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires blaster bolts along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_shotgun (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires a spread of shotgun pellets along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_supershotgun (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires a wide spread of pellets along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_machinegun (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires bullets along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_grenadelauncher (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires bouncing grenades along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_rocketlauncher (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires rockets along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_hyperblaster (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires hyperblaster bolts along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_lightning (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Emits a lightning beam along the view of whoever uses it, crediting them with any kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ color : The beam color (default "1 1 1").
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between damage (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ The beam lasts as long as it is being used, so give the trigger_multiple a short
+ "wait" to hold it open while the player stands in it.
+*/
+
+/*QUAKED turret_railgun (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires railgun slugs along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_bfg (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires BFG orbs along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_quake_shotgun (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires Quake buckshot along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_quake_supershotgun (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires a double load of Quake buckshot along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_quake_nailgun (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires Quake nails along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_quake_supernailgun (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires Quake nails, harder and faster along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_quake_grenadelauncher (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires Quake grenades along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_quake_rocketlauncher (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires Quake rockets along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
+*/
+
+/*QUAKED turret_quake_thunderbolt (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Emits a Quake thunderbolt beam along the view of whoever uses it, crediting them with any kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ color : The beam color (default "1 1 1").
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between damage (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ The beam lasts as long as it is being used, so give the trigger_multiple a short
+ "wait" to hold it open while the player stands in it.
+*/
+
+/*QUAKED turret_laser (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Emits a laser beam along the view of whoever uses it, crediting them with any kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ color : The beam color (default "1 1 1").
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The interval in seconds between damage (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ The beam lasts as long as it is being used, so give the trigger_multiple a short
+ "wait" to hold it open while the player stands in it.
+*/
+
+/*QUAKED turret_giblets (1 .6 .2) (-8 -8 -8) (8 8 8)
+ Fires giblets along the view of whoever uses it, and credits them with the kill.
+
+ -------- Keys --------
+ angles : The direction fired in. Use -1 for up, -2 for down.
+ dmg : The damage inflicted per projectile (default varies by weapon).
+ knockback : The knockback applied per projectile (default varies by weapon).
+ speed : The projectile speed in units per second (default varies by weapon).
+ spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
+ target : An entity to aim at, re-evaluated on every shot. Overrides "angles".
+ targetname : The target name of this entity.
+ wait : The minimum interval in seconds between shots (default 1.0).
+
+ -------- Notes --------
+ Surround it with a trigger_multiple that targets it, and players who step in behind it will
+ operate it. Projectiles leave the turret, not the player, but carry the player's colors and
+ are credited to them.
+
+ The operator cannot be struck by their own projectiles, but the rocket, grenade and BFG types
+ still splash them, so leave room behind the turret.
+
+ Give the trigger_multiple a short "wait" for sustained fire while the player stands
+ in it.
 */
 
 /*QUAKED target_light (1 1 1) (-4 -4 -4) (4 4 4) start_on
@@ -1078,40 +2023,6 @@
  -------- KEYS --------
  message : The message to display.
  targetname : The target name of this entity.
-*/
-
-/*QUAKED target_turret (1 .6 .2) (-8 -8 -8) (8 8 8) x x blaster nail rocket grenade laser giblets
- Fires a projectile along the view of whoever uses it, and credits them with the kill.
- Surround it with a trigger_multiple that targets it, and players who step in behind it
- will operate it.
-
- -------- Keys --------
- angles : The angles to fire at when used by something other than a player.
- dmg : The damage inflicted by each projectile (default varies by projectile).
- knockback : The knockback applied by each projectile (default varies by projectile).
- speed : The projectile speed in units per second (default varies by projectile).
- spread : The cone of fire, from 0.0 for pinpoint to 1.0 for wild (default 0).
- targetname : The target name of this entity.
- wait : The minimum interval in seconds between shots (default 1.0).
-
- -------- Spawn flags --------
- x
- x
- blaster : Fires blaster bolts. This is the default.
- nail : Fires spikes.
- rocket : Fires rockets.
- grenade : Fires grenades.
- laser : Fires an instant traced beam.
- giblets : Fires giblets.
-
- -------- Notes --------
- Projectiles leave the turret, not the player, but carry the player's colors and are
- credited to them. The muzzle flash uses the weapon's own colors.
-
- The operator cannot be struck by their own projectiles, but the rocket and grenade
- types still splash them, so leave room behind the turret.
-
- Give the trigger_multiple a short "wait" for sustained fire while the player stands in it.
 */
 
 /*QUAKED trigger_always (.5 .5 .5) (-8 -8 -8) (8 8 8)
