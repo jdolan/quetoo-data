@@ -94,6 +94,7 @@ ef0a7559d766517abeaa687d90912e87 670 docs/music-zander_noriega-abelian.txt
 8e7c6983c69097ca85a2290a56e577fe 2042 docs/players-qforcer.txt
 b1291cd62ca9d85fc4a4a851dd6dc2c6 81 docs/sounds-gibs.license.txt
 fe379b669aab15b4c7104378f5a2581e 122 docs/sounds-gibs.txt
+4d6c5d9d79d480602d0762d19cab507c 173 docs/sounds-laser.txt
 f33a9af1093cce08d912548642a1d53d 19440 docs/sounds-machinegun-fire.txt
 36f3e8d8bb7c882c4d1ec9696f5a2ca6 150 docs/sounds-sizzle.txt
 1887aadd3671b42d3216e38118beb2bb 734 docs/textures-ammo_boxes.txt
@@ -1425,6 +1426,8 @@ ed340f7396675b7b29e253accb6d01ec 67366 sounds/techs/haste/haste.wav
 c2b0022674fc61a780c0b6b9832c34d7 66194 sounds/techs/resist/resist.wav
 8076b911bc8b8be7b0df75ec9542c392 113446 sounds/techs/strength/strength.wav
 45d8245c20ac08aa5e3bf48f9a45e77c 317838 sounds/techs/vampire/vampire.wav
+75618420283aa498e68b8111360cebe2 267976 sounds/trigger/laser/fire.wav
+b6ef8b3c337f0f3e2789909000169f36 7372 sounds/trigger/laser/fly.wav
 7ff2f004800ed259bb628b5e405f843b 158362 sounds/trigger/push.wav
 f119c87065b50a3c2766a0e2f287b5fa 205550 sounds/weapons/bfg/fire.wav
 6f25daf858789d4f733d7e6c68c6bdaf 299052 sounds/weapons/bfg/hit.wav
@@ -1443,7 +1446,6 @@ ebc4507ce4da0a54f02265da5dc1c562 63724 sounds/weapons/grenadelauncher/fire.wav
 9827441a3503ed17e768ce0dcf260a3c 60712 sounds/weapons/hyperblaster/hit.wav
 00a2c3fbc81f1102c09c9fbc3fccf7f8 668718 sounds/weapons/lightning/discharge.wav
 63b8f98713ae8ea37bbf937d5f0f7033 73428 sounds/weapons/lightning/fire.wav
-d6c1d3b3d46a34437bbcccb2e3cc6b47 81762 sounds/weapons/lightning/fly-old1.wav
 1ea7145c038c315373f4c028ba228bcc 22162 sounds/weapons/lightning/fly.wav
 75f79ded905d2ee6fb1b867fa7dec89f 34428 sounds/weapons/machinegun/fire_1.wav
 cafc8d228c0b6e28f1652f71221e2d3e 29846 sounds/weapons/machinegun/fire_2.wav
