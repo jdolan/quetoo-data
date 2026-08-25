@@ -4,7 +4,7 @@
 {
 "classname" "worldspawn"
 "_tb_textures" "textures/common;textures/effects;textures/quake"
-"ambient" "0.19"
+"ambient" "0.33"
 "author" "Remake by jdolan"
 "items" "quake"
 "message" "^1Claustro^8phobopolis^7"
@@ -13028,6 +13028,7 @@
 "classname" "func_door"
 "angle" "180"
 "model" "*1"
+"sounds" "1"
 "speed" "250"
 "targetname" "t1"
 "team" "lava_doors"
@@ -13046,6 +13047,7 @@
 "classname" "func_door"
 "angle" "0"
 "model" "*2"
+"sounds" "1"
 "speed" "250"
 "targetname" "t1"
 "team" "lava_doors"
@@ -13064,6 +13066,7 @@
 "classname" "func_button"
 "angle" "90"
 "model" "*3"
+"sounds" "1"
 "target" "t1"
 // brush 0
 {
@@ -13080,6 +13083,7 @@
 "classname" "func_door"
 "angle" "270"
 "model" "*4"
+"sounds" "1"
 "speed" "250"
 "targetname" "t1"
 "team" "lava_doors2"
@@ -13143,6 +13147,7 @@
 "angle" "0"
 "dmg" "1000"
 "model" "*7"
+"sounds" "1"
 "spawnflags" "4"
 "speed" "200"
 "targetname" "t3"
@@ -13161,6 +13166,7 @@
 "classname" "func_button"
 "angle" "90"
 "model" "*8"
+"sounds" "1"
 "target" "t1"
 // brush 0
 {
@@ -13178,6 +13184,7 @@
 "angle" "180"
 "dmg" "1000"
 "model" "*9"
+"sounds" "1"
 "spawnflags" "4"
 "speed" "200"
 "targetname" "t3"
@@ -13201,6 +13208,7 @@
 {
 "classname" "func_door"
 "model" "*10"
+"sounds" "1"
 "speed" "200"
 "targetname" "t6"
 "wait" "6"
@@ -13218,6 +13226,7 @@
 {
 "classname" "func_door"
 "model" "*11"
+"sounds" "1"
 "speed" "200"
 "targetname" "t6"
 "wait" "6"
@@ -13311,6 +13320,7 @@
 "classname" "func_door"
 "angle" "270"
 "model" "*12"
+"sounds" "1"
 "spawnflags" "1"
 "speed" "200"
 "targetname" "t10"
@@ -13330,6 +13340,7 @@
 "classname" "func_button"
 "angle" "270"
 "model" "*13"
+"sounds" "1"
 "spawnflags" "1"
 "target" "t10"
 // brush 0
@@ -13362,6 +13373,7 @@
 "classname" "func_door"
 "lip" "64"
 "model" "*14"
+"sounds" "1"
 "speed" "300"
 "targetname" "t11"
 "wait" "5"
@@ -13379,6 +13391,7 @@
 {
 "classname" "func_button"
 "model" "*15"
+"sounds" "1"
 "target" "t11"
 // brush 0
 {
@@ -13419,6 +13432,7 @@
 "angle" "90"
 "lip" "-8"
 "model" "*16"
+"sounds" "1"
 "spawnflags" "1"
 "speed" "200"
 "targetname" "t9"
@@ -13438,6 +13452,7 @@
 "angle" "270"
 "lip" "-8"
 "model" "*17"
+"sounds" "1"
 "spawnflags" "1"
 "speed" "200"
 "targetname" "t9"
@@ -13456,6 +13471,7 @@
 "classname" "func_button"
 "angle" "270"
 "model" "*18"
+"sounds" "1"
 "target" "t9"
 // brush 0
 {
@@ -13532,6 +13548,7 @@
 "classname" "func_door"
 "angle" "180"
 "model" "*20"
+"sounds" "1"
 "targetname" "t15"
 // brush 0
 {
@@ -13548,6 +13565,7 @@
 "classname" "func_door"
 "angle" "0"
 "model" "*21"
+"sounds" "1"
 "targetname" "t15"
 // brush 0
 {
@@ -13635,6 +13653,7 @@
 "angle" "270"
 "lip" "-8"
 "model" "*24"
+"sounds" "1"
 "targetname" "t18"
 // brush 0
 {
@@ -13652,6 +13671,7 @@
 "angle" "270"
 "health" "1"
 "model" "*25"
+"sounds" "1"
 "target" "t18"
 // brush 0
 {
@@ -13667,6 +13687,7 @@
 {
 "classname" "func_plat"
 "model" "*26"
+"sounds" "1"
 // brush 0
 {
 ( -912 224 304 ) ( -912 200 304 ) ( -912 200 288 ) quake/metal1_4 [ 0 1 0 -192 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -13715,6 +13736,7 @@
 "classname" "func_button"
 "angle" "0"
 "model" "*27"
+"sounds" "1"
 "target" "t3"
 "wait" "5"
 // brush 0
@@ -13732,6 +13754,7 @@
 "classname" "func_button"
 "angle" "0"
 "model" "*28"
+"sounds" "1"
 "target" "t3"
 "wait" "5"
 // brush 0
@@ -13748,6 +13771,7 @@
 {
 "classname" "func_plat"
 "model" "*29"
+"sounds" "1"
 // brush 0
 {
 ( 336 -56 80 ) ( 336 -80 80 ) ( 336 -80 64 ) quake/metal1_4 [ 0 1 0 -48 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -13963,6 +13987,7 @@
 // entity 98
 {
 "classname" "misc_sound"
+"hz" ".2"
 "origin" "-264 -800 -32"
 "sound" "ambient/lava_2"
 }
@@ -14037,6 +14062,7 @@
 "classname" "func_button"
 "angle" "270"
 "model" "*33"
+"sounds" "1"
 "spawnflags" "1"
 "target" "t6"
 // brush 0
@@ -14069,8 +14095,9 @@
 {
 "classname" "light"
 "color" "1 0 0"
-"intensity" "1.5"
+"intensity" "2"
 "origin" "-736 -240 208"
+"radius" "180"
 "team" "rune"
 "team_master" "1"
 }
@@ -14250,6 +14277,7 @@
 "color" "1.0 0.8 1.0"
 "intensity" "1.5"
 "origin" "464 -568 48"
+"radius" "200"
 "team" "cross"
 "team_master" "1"
 }
@@ -14332,7 +14360,7 @@
 "color" "1.0 0.3 0.2"
 "intensity" "4"
 "origin" "-336 -184 -72"
-"radius" "400"
+"radius" "360"
 "team" "lava"
 "team_master" "1"
 }
@@ -14450,7 +14478,7 @@
 "color" ".7 .4 .7"
 "intensity" "2"
 "origin" "-476 -128 572"
-"radius" "1024"
+"radius" "768"
 "team" "sun"
 "team_master" "1"
 }
@@ -14499,7 +14527,7 @@
 // entity 182
 {
 "classname" "light"
-"origin" "416 592 308"
+"origin" "416 480 304"
 "team" "sun"
 }
 // entity 183
@@ -16077,4 +16105,34 @@
 "classname" "light"
 "origin" "-624 -496 176"
 "team" "rune"
+}
+// entity 273
+{
+"classname" "light"
+"origin" "192 -1568 400"
+"team" "sun"
+}
+// entity 274
+{
+"classname" "light"
+"origin" "96 -1568 400"
+"team" "sun"
+}
+// entity 275
+{
+"classname" "light"
+"origin" "304 -448 272"
+"team" "sun"
+}
+// entity 276
+{
+"classname" "light"
+"origin" "432 128 304"
+"team" "sun"
+}
+// entity 277
+{
+"classname" "light"
+"origin" "416 672 304"
+"team" "sun"
 }
