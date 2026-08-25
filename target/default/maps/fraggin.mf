@@ -1,4 +1,4 @@
-a716c8e5c7830ceae75812ac90f695a5 33530671 maps/fraggin.bsp
+bab2561267ce47d5e9d7f25f18ef4041 33506667 maps/fraggin.bsp
 079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
 1f65f3c6ecf8313f34e2508c38fb25db 84548 mapshots/fraggin/fraggin01.jpg
 3fcbee2ddf3ce8de0b59980de1c21a03 109776 mapshots/fraggin/fraggin02.jpg
@@ -16,7 +16,7 @@ cd05f966902f204859c3282ce7971c06 151 textures/chastity/clanggrate.mat
 e7c398104fbcf35b80aa2c16055573ff 21866 textures/chastity/clanggrate_norm.png
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
 ab6846eab04f23e52489df2d2e7dea1b 29 textures/common/caulk.mat
-0aeeff745b942c9945b72c562f1bb632 43 textures/common/clip.mat
+c3c95e362ae53ceec4571095fd470c91 28 textures/common/clip.mat
 cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 4495dd84862adc3bbcf3e0006e16b545 1627 textures/common/dust.jpg
 8f12552545ad2657743357b89cb4c72f 28 textures/common/dust.mat

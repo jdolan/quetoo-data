@@ -1,4 +1,4 @@
-bd4c8c42e1a22d506e46b2f1b885f83d 30708308 maps/gehenna.bsp
+e33b9a500e88b2bd252026b1487d2802 30708308 maps/gehenna.bsp
 39b59b9a524298160edb037b74ac1b52 5732 maps/gehenna.nav
 5c920da0cfc3871f720d8594ab55a8eb 223189 mapshots/gehenna/quetoo106.jpg
 af34f46aac080a3a6ad6e68a97dbc4e2 242852 mapshots/gehenna/quetoo107.jpg
@@ -36,7 +36,7 @@ e7d09f47d5256374c8a7ef33634d460c 629185 textures/evil/ex_cretebase_01_norm.png
 7da09f8822c7f0d6abbf1df031d5ec35 129721 textures/evil/ex_cretefloor_01_d.jpg
 f9e573ce900481ebaf6542d9e02650e4 600344 textures/evil/ex_cretefloor_01_norm.png
 b687920f91c39c5a2d166eca27443399 13337 textures/evil/ex_cretefloor_01_spec.jpg
-48b7f03c812ee4309c0c25c444281766 100 textures/evil/ex_cretefloor_01b.mat
+5d4dbb21f18eb232a7a00afe1da51209 118 textures/evil/ex_cretefloor_01b.mat
 46a8cc5f7267d64bf86daa5f970bf7a3 105893 textures/evil/ex_cretefloor_01b_d.jpg
 f519da17f6a71c76ea6dac125a3e4e29 641194 textures/evil/ex_cretefloor_01b_norm.png
 e1bd7404780ca4b84f7fea22f4058dc8 95234 textures/evil/ex_cretefloor_01b_spec.jpg

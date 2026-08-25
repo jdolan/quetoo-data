@@ -60,8 +60,9 @@ c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 2d77da7b64413c1bd078d8a76a1d37e0 356905 textures/decals/flr3_mark.png
-6eabb0965c8c1a6ead31fa0cec0fe27c 178 textures/decals/flr3_mark_fx-cyan.mat
+24674a8cd9ab60eb424ceec3a07f42a0 211 textures/decals/flr3_mark_fx-cyan.mat
 9d2c328847dfb26db530e536a4cdc53e 92330 textures/decals/flr3_mark_fx-cyan.png
+3a09dba6ccf8a4105d72881e1e6f7370 253413 textures/decals/flr3_mark_norm.png
 df1f3bfef1050e533b358c0004f50456 274 textures/decals/quetoologo.mat
 f148d1d3b95bb838d5d5a541d28c103f 125461 textures/decals/quetoologo.png
 9726620a0a1b6a13783c675e233b2c38 108727 textures/decals/quetoologo_glow.png

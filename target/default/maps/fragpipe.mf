@@ -1,4 +1,4 @@
-6b9e72bcae6fee3aafe55cd6046dafa3 11753405 maps/fragpipe.bsp
+9425f70dfe684fd973576fb207cf7170 11752729 maps/fragpipe.bsp
 a2e4df8258fb16bd6200967790355a77 5876 maps/fragpipe.nav
 46c892b195a0e4021ac8084341d4f119 233326 mapshots/fragpipe/quetoo022.jpg
 a5232cbee6f561d75986c39a86399b34 171053 mapshots/fragpipe/quetoo023.jpg
@@ -14,7 +14,7 @@ df868c8b950d239ea7b2c8fcf788e379 113152 sounds/ambient/lava_flow_2.wav
 649ffcd19896ebe708b38f5dfb8e657c 61888 sprites/flare_2.png
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
 ab6846eab04f23e52489df2d2e7dea1b 29 textures/common/caulk.mat
-0aeeff745b942c9945b72c562f1bb632 43 textures/common/clip.mat
+c3c95e362ae53ceec4571095fd470c91 28 textures/common/clip.mat
 cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 4495dd84862adc3bbcf3e0006e16b545 1627 textures/common/dust.jpg
 8f12552545ad2657743357b89cb4c72f 28 textures/common/dust.mat
