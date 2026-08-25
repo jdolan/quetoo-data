@@ -1352,6 +1352,8 @@ bcb6025384c30b80f78651673ecad350 447212 sounds/armor/combat/pickup.wav
 044a4d0538efef32ed69d9b4a1ffc9ee 125172 sounds/ctf/return.wav
 aa729e2612853cad7e62a3523d90280a 176444 sounds/ctf/steal.wav
 2d6aa5b46fafaee0bf8a1f5d2e00061f 88244 sounds/empty.wav
+59a610db5f59704195da5cddd3f5ebe7 142726 sounds/func/button_1.wav
+5ab98c8432789e33db899ba74914d71f 39386 sounds/func/button_2.wav
 0542939e7c79585ad4ae859333415965 100408 sounds/func/door_end_1.wav
 dfcc14504968b016cee7a1e38e0d0c55 147204 sounds/func/door_end_2.wav
 e38a98fc473549c24632ff871151c710 85100 sounds/func/door_middle_1.wav
@@ -1364,7 +1366,6 @@ cf8c7c4186cafd47fff4d34edec0a655 44144 sounds/func/plat_end_2.wav
 481786342ba1d9927c6763d7d6fa02c4 176444 sounds/func/plat_middle_2.wav
 d3002856b946474c4c65bbe039d92ca3 38646 sounds/func/plat_start_1.wav
 2676e2f20efaadbb12d815b01b5fca79 44144 sounds/func/plat_start_2.wav
-59a610db5f59704195da5cddd3f5ebe7 142726 sounds/func/switch.wav
 aaaa4a2cc7186a02c3c73d44520318ae 41616 sounds/gibs/common/gib.wav
 a5818ebce5dc05012c874b3a690329c0 53222 sounds/gibs/gib_1/hit.wav
 b5d10f0328144c2c2c3b61cfaefc4e32 54014 sounds/gibs/gib_2/hit.wav
