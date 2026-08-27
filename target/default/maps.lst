@@ -52,29 +52,14 @@
 {
 	name aghast
 }
-#{
-#	name fractures
-#}
 {
 	name fraggin
 }
-#{
-#	name grunt
-#}
-#{
-#	name gym
-#}
 {
 	name gehenna
 }
 {
 	name insta-rounding
-}
-#{
-#	name lilith
-#}
-{
-	name longyard
 }
 {
 	name omf
@@ -85,10 +70,30 @@
 {
 	name torn
 }
+#Q3 Remakes
+{
+	name longyard
+}
+{
+	name campgrounds
+}
+#----------
+#{
+#	name fractures
+#}
 #{
 #	name turbo
 #}
 #{
 #	name wake
+#}
+#{
+#	name lilith
+#}
+#{
+#	name grunt
+#}
+#{
+#	name gym
 #}
 # End of file
