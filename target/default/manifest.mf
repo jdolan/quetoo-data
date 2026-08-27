@@ -139,6 +139,10 @@ d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 18e0847fc43769c5b99d15dc3ec335df 586363 maps/badplace.map
 60204e7ec4c3b621c62c65d3400d1661 5439 maps/badplace.mf
 3a370595b5778bf3cd9781a4b7a17c9a 2716 maps/badplace.nav
+4c1e09e8f485890271f5f778819e6849 33003847 maps/campgrounds.bsp
+c4d8237c732da62a4af4657bbbb698a0 2389386 maps/campgrounds.map
+9a0bd9eebe96529a8289afba800b8dc8 15897 maps/campgrounds.mf
+93baec914a98812d7189357ce7cd4dc6 8028 maps/campgrounds.nav
 0541555f4e32ed23bfbd2d51d701af46 26691267 maps/chthon.bsp
 4258e5a06dc331ca85e9f3cdce35fb94 1823668 maps/chthon.map
 e9421e7ef60a07f78e8fb02bab58e421 20780 maps/chthon.mf
@@ -3349,7 +3353,7 @@ bc1473d3c24f02a21cc730438a3050a4 349974 textures/ctf/ctf_banner1-red.png
 1ca92b5d63f027773d64e722acd16f8f 148 textures/ctf/ctf_banner2-red.mat
 882b4a7a17ed3abd2fb5e022ad5f89b6 308931 textures/ctf/ctf_banner2-red.png
 88c89ebd5c555816e3c4dbdc1f002852 166 textures/ctf/ctf_banner3-blue.mat
-95638b6006c2b69a00418aa6739ba5f9 341565 textures/ctf/ctf_banner3-blue.png
+c18d2d11b4f4c92e8bb4a6d7f9270bb6 344318 textures/ctf/ctf_banner3-blue.png
 c0687b4a46825b814bc5cc1543827d43 10559 textures/ctf/ctf_banner3-blue_norm.png
 1c177785d4a4f581a395ed78f5d0ab9f 157 textures/ctf/ctf_flr-arrows_blue.mat
 2c6e7c1d2c43f4f6921871c4664ad080 31148 textures/ctf/ctf_flr-arrows_blue.png
@@ -3474,6 +3478,7 @@ fa101a0ccfadddd1edfadc249c61b109 45 textures/diesirae/ex_cretebase_03_dark.mat
 ea15184c6f68b5c4b3fcc29fdbc66a4d 30522 textures/diesirae/ex_cretefloor_01.jpg
 e3d66510a0246c98d1974c42023cda7f 164791 textures/diesirae/ex_cretefloor_01_norm.png
 725fe5d1f597a47b03d05ee5633084fd 24273 textures/diesirae/ex_cretefloor_01b.jpg
+ce6f3e83102520eb3a86c777986062c3 102 textures/diesirae/ex_cretefloor_01b.mat
 ebbe9a516e7907552a8294ac999023a1 169734 textures/diesirae/ex_cretefloor_01b_norm.png
 ef3aaf8ee9a6c8872e5274f07a3d3370 28559 textures/diesirae/ex_cretewall_01.jpg
 29923fcb060c6899a1b841d93826afd5 136545 textures/diesirae/ex_cretewall_01_norm.png
@@ -3530,6 +3535,7 @@ b96b0ca204e7a17df65023b0f5444fff 1763 textures/diesirae/ex_trim_01_nm_1.png
 97dd8982aa7d519be8b86228c83111a2 5394 textures/diesirae/ex_trim_01_norm.png
 986ee0d1cd870fb8897fdf9a909c81b6 10495 textures/diesirae/ex_trim_baseboard.jpg
 4b53d63458a689175341dc8811df6df2 5597 textures/diesirae/ex_trim_baseboard_02.jpg
+ef2c9b18edbaa952569de297070cfd3c 94 textures/diesirae/ex_trim_baseboard_02.mat
 1a213bfc325f11a93920c16aa81be703 8937 textures/diesirae/ex_trim_baseboard_02_norm.png
 f1a6bfbb98698830c170d933dfe02fc3 11100 textures/diesirae/ex_trim_baseboard_norm.png
 8bcf43f9c1f9a070e5a604deb9051e44 6217 textures/diesirae/ex_trim_psimple_04.jpg
@@ -3537,6 +3543,7 @@ f1a6bfbb98698830c170d933dfe02fc3 11100 textures/diesirae/ex_trim_baseboard_norm.
 cbcac7210613d74f77a466ba67c37af2 11568 textures/diesirae/ex_trim_psimple_05.jpg
 dc590151b9b0dc08a82dda4d7f32bb43 21289 textures/diesirae/ex_trim_psimple_05_norm.png
 49977c37cf73f836b1f215d60eea6bef 20940 textures/diesirae/ex_wall_01.jpg
+ae266867ea7b7c9c2592cd324717a103 113 textures/diesirae/ex_wall_01.mat
 2a09c24ea7c36c0ebe7f26075944a31a 35070 textures/diesirae/ex_wall_01_norm.png
 f0acc93681553cb3b58a60e4e3973782 19960 textures/diesirae/ex_wall_01b.jpg
 1e12486ad233983875022f2d4c885ed4 40 textures/diesirae/ex_wall_01b.mat
@@ -3572,6 +3579,7 @@ bd7c29bdfd489bd2bb1d7aa8df41f7aa 26235 textures/diesirae/exmetalbase06rust.jpg
 098c15665bedc74a1f7c1430d9ef904b 13996 textures/diesirae/exmetalfloor02_nm_1.png
 5ca6b0b5feeccf634f2932b1c90e18a4 39076 textures/diesirae/exmetalfloor02_norm.png
 e55dc66b283cdab1d04d1d3922fbe793 21650 textures/diesirae/exmetalrib01.jpg
+f0f5361d0ecf25ce2da1fd6a4c3f2861 66 textures/diesirae/exmetalrib01.mat
 73f247e52bf6c0887d898690671bb1d5 128904 textures/diesirae/exmetalrib01_norm.png
 0fec17be5e907778c59ffef11a78b957 92 textures/effects/beam-blue.mat
 d2d4119c6d6b3be50170d3270b0ff6ab 3993 textures/effects/beam-blue.png
@@ -3613,10 +3621,11 @@ d6621c7d564c4bb56e0c970f2b2f8b1e 172 textures/effects/lightbeam.mat
 985ab2e7b7929b7d1479774ec14a1d68 1010 textures/effects/meggerpad.png
 2193638b73f5455b6008d541a7b79ed0 1132 textures/effects/meggerpad_fx.png
 077f1f2dc37d8d88081bdb8ca59c3b61 181257 textures/effects/noise1-0.jpg
-e459185979d47e85c70737301fbaf507 271 textures/effects/noise1-0.mat
 8f682fa3d06cb3af1816ea6d5acb2662 194170 textures/effects/noise1-1.jpg
 c062a6f8b2efebf9148c3e7e0adcdd97 195995 textures/effects/noise1-2.jpg
 831e80c386cee1faf8e44bd84da51814 181248 textures/effects/noise1-3.jpg
+077f1f2dc37d8d88081bdb8ca59c3b61 181257 textures/effects/screen_logo.jpg
+7d8c7a931009344a1759ff93d9527155 354 textures/effects/screen_logo.mat
 388ee293c4a048fc55835af87fd6efe2 497462 textures/effects/sky1-layer0.png
 5efea9479fa9e2f7742be13a7988eaa9 215693 textures/effects/sky1-layer1.png
 8df6b10cdc62b528f55e7165279ca66e 413 textures/effects/sky1.mat
@@ -4179,6 +4188,8 @@ e46ea1b2142333895fb346ab07550304 46008 textures/evil/ex_trim_psimple_05_d.jpg
 fcb35a8ab16f88ef3ec177b175c13542 139831 textures/evil/ex_trim_psimple_05_norm.png
 f09d4133a5d36cfb5e6184c7d77492d9 61851 textures/evil/ex_trim_psimple_05_spec.jpg
 8274761dd6ed5b7fc1d3ec659f9c05f7 19254 textures/evil/ex_trim_simple03_d.jpg
+804d6693592d078c30522fb4b95bfbec 336 textures/evil/ex_trim_simple03_e.mat
+7bd1c021284cbbe2525276e7af2dcb77 91675 textures/evil/ex_trim_simple03_e.png
 b95ddadc0bae73355f52562f95f05580 97801 textures/evil/ex_trim_simple03_norm.png
 a4605110339451dcee796325714af997 15218 textures/evil/ex_trim_simple03_spec.jpg
 2e7b7e9fb87a8c46ead3fd38f9dbec11 13709 textures/evil/ex_trim_simple_01_d.jpg
@@ -8824,9 +8835,11 @@ ec8e62a02130b87f1f79075d1ae86920 120059 textures/quake3/gothic_block/blocks17k.j
 737f67c24242312a017c1f758a12f3af 626111 textures/quake3/gothic_block/blocks18b_ow.png
 f0a55753cb9f6a2aeae1ade1cdc6a14f 116955 textures/quake3/gothic_block/blocks18c.jpg
 d5bac3c3110bb8e5854589176408b4d9 105615 textures/quake3/gothic_block/blocks18c_1a.jpg
+cdb38eed2c0b6c53b3eb104b2ab4c400 64 textures/quake3/gothic_block/blocks18c_1a.mat
 95a9e73ca7e9f4e6227ba7d0d8d54877 18355 textures/quake3/gothic_block/blocks18c_1a_norm.png
 b70ac2eee7ae3118fe573cc35610694b 117292 textures/quake3/gothic_block/blocks18c_3.jpg
 a245d0aa83de2fc01c773cd10c8a25b5 2409277 textures/quake3/gothic_block/blocks18c_3.kra
+13b92e059f059548e282e1eb91c47d1f 63 textures/quake3/gothic_block/blocks18c_3.mat
 345bf30224237eb6b5601ee7ddd87ba8 18795 textures/quake3/gothic_block/blocks18c_3_norm.png
 7fac21a6927aa59995a69d3043e13493 118500 textures/quake3/gothic_block/blocks18cblood.jpg
 46ea68acf0f250daa7bc2fe8dc042d7b 119361 textures/quake3/gothic_block/blocks18cbloodhead.jpg
@@ -10085,10 +10098,10 @@ cda6e15e8a2302bc3c05bdeeb3f6e24a 9355 textures/spacectf/u_trlightline_red.jpg
 14ab1d8ff4aaa1bd493b103526f678f4 7943 textures/spacectf/ubase_trim447.jpg
 48f0d1d4f5afe2305ee532fb8d8584d1 3307 textures/spacectf/ubase_trim447_norm.png
 8778afc48140f4408a3dcb4202b031a7 85918 textures/trak4/base_concrete1a.jpg
-0211f25b3f36604621316f7085c6ad34 38 textures/trak4/base_concrete1a.mat
+de8e45a541b72e4e2373a14922c6d84d 82 textures/trak4/base_concrete1a.mat
 2726d8d9238671f1b5342ee4a68e7aff 657871 textures/trak4/base_concrete1a_norm.png
 ed5e7625ca6763d711de461801e6cf1c 88104 textures/trak4/base_concrete1b.jpg
-c83dfb6eb8da1cfd6940b6dc6167c945 76 textures/trak4/base_concrete1b.mat
+d0f4720632a6a5f511283e883214e011 91 textures/trak4/base_concrete1b.mat
 c479b622057b550fe17c85591c987d39 89303 textures/trak4/base_concrete2a.jpg
 85a1c34f99af606962d8838b418c717b 38 textures/trak4/base_concrete2a.mat
 bf92c2a680ae1def35d61d641796aac0 171156 textures/trak4/base_concrete2a_norm.png
@@ -10096,14 +10109,14 @@ cc4b8f69d913a986f5e28c632f0a85c7 78314 textures/trak4/base_concrete3.jpg
 d51aebdf9581d4a3ed0e720b78c0292c 37 textures/trak4/base_concrete3.mat
 2d468baae5487cac0eb15dcb9517d400 196411 textures/trak4/base_concrete3_norm.png
 255c57547d05d55baea24daad811c220 108955 textures/trak4/base_concrete4a.jpg
-0f7b86c096fdbb9f8c15ab97d37c3cd8 38 textures/trak4/base_concrete4a.mat
+d08adb4766ddfc93e947fcc60f36e7fa 82 textures/trak4/base_concrete4a.mat
 dd0dd94c9aa612f80202381c77d5471f 82042 textures/trak4/base_concrete4a_norm.png
 a1280db84529777b451284d7b3685599 112873 textures/trak4/base_concrete4b.jpg
-9502e19272194732073e86e26e96ff28 76 textures/trak4/base_concrete4b.mat
+0e0f23a7b00896d89aa850d393d47063 120 textures/trak4/base_concrete4b.mat
 46d241c58e9d6b2b9a12037fe4d5c41f 130161 textures/trak4/base_concrete5a.jpg
 093b7a0ead34882990fbe7f15d82f831 75 textures/trak4/base_concrete5a.mat
 4da529c68c7e5b214c57bba56c5d1e34 122104 textures/trak4/base_concrete5b.jpg
-5f6a585f7da5e6e1fde2b47a449c1384 75 textures/trak4/base_concrete5b.mat
+60a3d7777741815f246085928b073b6e 140 textures/trak4/base_concrete5b.mat
 ce536c7589823372596e68dc26df43da 119680 textures/trak4/base_concrete6.jpg
 41f336f0c9c226fde84dab5be1bf3a90 37 textures/trak4/base_concrete6.mat
 1d928beb276531ce7aaa9902b816f046 594993 textures/trak4/base_concrete6_norm.png
