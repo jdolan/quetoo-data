@@ -1,3 +1,6 @@
 {
 	diffusemap trak4/base_concrete1a
+	roughness 1.51
+	parallax 1.75
+	shadow 0.98
 }

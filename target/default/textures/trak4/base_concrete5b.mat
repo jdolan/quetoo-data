@@ -1,4 +1,9 @@
 {
 	diffusemap trak4/base_concrete5b
 	normalmap trak4/base_concrete6_norm
+	{
+		envmap envmaps/envmap_2
+		color 1 1 1 0.333
+		lighting 1
+	}
 }

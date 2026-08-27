@@ -1,0 +1,19 @@
+{
+	diffusemap evil/ex_trim_simple03_d
+	normalmap evil/ex_trim_simple03_norm
+	specularmap evil/ex_trim_simple03_spec
+	parallax 3.00
+	{
+		texture evil/e8trimfx_b
+		blend one one
+		scroll.s -3.5
+		scale.s 0.125
+		warp 0.1 0.1
+		color 2 2 2 0.9
+	}
+	{
+		texture evil/ex_trim_simple03_e
+		blend src_alpha one_minus_src_alpha
+		lighting 1
+	}
+}

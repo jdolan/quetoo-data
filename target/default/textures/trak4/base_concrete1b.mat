@@ -1,4 +1,5 @@
 {
 	diffusemap trak4/base_concrete1b
 	normalmap trak4/base_concrete1a_norm
+	parallax 1.55
 }
