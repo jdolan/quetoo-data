@@ -4,8 +4,8 @@
 	hardness 0
 	specularity 0
 	parallax 0 
-	contents "mist detail"
-	surface "blend_100 material"
+	contents "decoration"
+	surface "material"
 	{
 		texture effects/wpadg_fx
 		blend src_alpha one

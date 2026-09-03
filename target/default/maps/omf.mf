@@ -1,4 +1,4 @@
-96e2ec6cb96ec99c8555cd7f241b4bbf 9415991 maps/omf.bsp
+6c859af3fe8a66cfa38e06520593e87d 9425911 maps/omf.bsp
 e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
 850435dfbb6f762dd7655f0ec3a0a585 257403 mapshots/omf/quetoo073.jpg
 f95e1e30a91651c35b9c49c838035709 245537 mapshots/omf/quetoo074.jpg
@@ -28,7 +28,7 @@ c2e3b395fd3be34955376c201d1cef88 27497 textures/decals/alienpuke.png
 985ab2e7b7929b7d1479774ec14a1d68 1010 textures/effects/meggerpad.png
 2193638b73f5455b6008d541a7b79ed0 1132 textures/effects/meggerpad_fx.png
 84616ace82d3c22e2b08e2e2bf7cf66c 3114 textures/effects/wpadg.jpg
-a89b0cf29a2e13dc64a08fdc5ed8eacc 218 textures/effects/wpadg.mat
+61c6222dd983eaf2aabe72a874ab08b8 207 textures/effects/wpadg.mat
 a7252ab539fc5b0464bc79d6e0ed27ac 4829 textures/effects/wpadg_fx.png
 115705dda97444be0b332671e524326b 9249 textures/omf/eq2_grate_02.jpg
 2c49bc865abedf64e962f8dc4ce49714 77 textures/omf/eq2_grate_02.mat

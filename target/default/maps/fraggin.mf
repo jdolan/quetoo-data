@@ -1,4 +1,4 @@
-bab2561267ce47d5e9d7f25f18ef4041 33506667 maps/fraggin.bsp
+0e5d5cf5998403ecc4dfb3c158509ae8 33537079 maps/fraggin.bsp
 079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
 1f65f3c6ecf8313f34e2508c38fb25db 84548 mapshots/fraggin/fraggin01.jpg
 3fcbee2ddf3ce8de0b59980de1c21a03 109776 mapshots/fraggin/fraggin02.jpg
@@ -41,7 +41,7 @@ f148d1d3b95bb838d5d5a541d28c103f 125461 textures/decals/quetoologo.png
 cd4dd7487c00ec8d08eedf8f1e1fedd8 175 textures/decals/tampon2.mat
 7079a93f3c94e94ae77735f762f4471b 54007 textures/decals/tampon2.png
 84616ace82d3c22e2b08e2e2bf7cf66c 3114 textures/effects/wpadg.jpg
-a89b0cf29a2e13dc64a08fdc5ed8eacc 218 textures/effects/wpadg.mat
+61c6222dd983eaf2aabe72a874ab08b8 207 textures/effects/wpadg.mat
 a7252ab539fc5b0464bc79d6e0ed27ac 4829 textures/effects/wpadg_fx.png
 318a6ccdc992bacd45ca6079e6e0c221 163522 textures/padbase/padbase.png
 7b4ad4a5f9a2ac08fa684d831b4f1e49 49192 textures/padbase/padfx-iris-red.png
@@ -87,7 +87,7 @@ ee5cc53082b58167b2b9e828de67056f 30072 textures/quake/city4_7.jpg
 2bee6eabe237856624e42e26bd28dfac 32150 textures/quake/city4_8.jpg
 f592cf87a34c165f4131369932a3da79 122 textures/quake/city4_8.mat
 499453770b42f11dfcfd4bdeb404f357 29511 textures/quake/city5_3.jpg
-c3d0be8d05f8b53414bceb89441e7a31 30 textures/quake/city5_3.mat
+da02ec552844984e2291fea9dec4b8b5 45 textures/quake/city5_3.mat
 a75d214152337bb5757b4a33bdd4dc20 167912 textures/quake/city5_3_norm.png
 2fcce72e4403a7b50339e064b06a3e3a 20700 textures/quake/city5_3_spec.jpg
 0143d25a94f2f58fedeacce1d8283b52 26632 textures/quake/cop1_1.jpg
@@ -170,7 +170,7 @@ bc79e432b4ed2b5c78dbb770e9bef5a8 73679 textures/quake/rock4_1_spec.jpg
 00e26ad9d6dfc3440b04d4208f2540e7 29566 textures/quake/sfloor4_6.jpg
 ce77856bde66acdd477de637f43874ee 157 textures/quake/sfloor4_6.mat
 05344a485db2207ddf9ef5caaee3715c 4375 textures/quake/sliplite.jpg
-2af2a1e5a2ff6ce2bfe185ea5c761cd6 102 textures/quake/sliplite.mat
+a38874a7a97b26874af9a04d60abc8f1 117 textures/quake/sliplite.mat
 3fe040a89931d6b7627c7bab1788ae2c 2917 textures/quake/sliplite_luma.jpg
 7f110524f847c474cc1c6032676a13a1 16372 textures/quake/sliplite_norm.png
 c2b58c9d200da87b2aa1af69601a53d3 3066 textures/quake/sliplite_spec.jpg
@@ -183,7 +183,7 @@ bd291177501d51842c16525030e770e0 109 textures/quake/tech04_9.mat
 d1bacc040311f11e48d99069be48ab7d 11504 textures/quake/tech04_9_norm.png
 53d6860736dc1ee4dc013ff2910afbee 5280 textures/quake/tech04_9_spec.jpg
 b4bc19bd5c505d85d4ca80e022f5a346 6513 textures/quake/teleport2.jpg
-54824f3a5f72cc2c222bfef9bcebd7b2 288 textures/quake/teleport2.mat
+16d67546a189866326a1fdec7799fc2d 312 textures/quake/teleport2.mat
 11a24ee02ffcd9dfa5202fbd41055cf1 36462 textures/quake/teleport2_norm.png
 d732a2670d93d6ebd80e75bcf0a800df 5409 textures/quake/teleport2_spec.jpg
 e6ff715fbb1c05e0a7851b25eac6e9d2 14853 textures/quake/tyr_09.jpg

@@ -1,4 +1,4 @@
-a750d06c31d564da0f6a42e02c15377c 50418693 maps/longyard.bsp
+2cbeccc3baad47b729a47ea900ed80ed 47596137 maps/longyard.bsp
 2582dc7595a72dcf20557bfd595c7f0a 7276 maps/longyard.nav
 44130708393c1733cbf7b03941609c5a 83295 mapshots/longyard/longyard01.jpg
 a6c721a108337deaab4a419443de6e55 76435 mapshots/longyard/longyard02.jpg
@@ -71,7 +71,7 @@ d6621c7d564c4bb56e0c970f2b2f8b1e 172 textures/effects/lightbeam.mat
 4da786615b9fe0bc388318430adc5288 8505 textures/effects/lightbeam.png
 81c2b3b3baedaad33926e9d7dd0cf88c 2442 textures/effects/lightbeamdust.png
 84616ace82d3c22e2b08e2e2bf7cf66c 3114 textures/effects/wpadg.jpg
-a89b0cf29a2e13dc64a08fdc5ed8eacc 218 textures/effects/wpadg.mat
+61c6222dd983eaf2aabe72a874ab08b8 207 textures/effects/wpadg.mat
 a7252ab539fc5b0464bc79d6e0ed27ac 4829 textures/effects/wpadg_fx.png
 5e1ecf2dbdcd7f19bb5f8979417f7c5e 7380 textures/envmaps/envmap_2.jpg
 7e8ea81914e413e142bcfc307371d0ea 107 textures/evil/e6grate2_flr_b.mat
@@ -87,15 +87,12 @@ f048c4cd91baa7e45a943d7ce8e15877 184 textures/evil/e6v_light.mat
 9de75963b996ecaaf1f6bf5283b4173f 74 textures/evil/e8trimlight2.mat
 4fccd55dc244e1774fb0f7894e6a37d6 264 textures/gehenna/glass90.mat
 b5e5284f2fe235e5e8b22df3baf62a95 12308 textures/gehenna/glass90.png
-cf959717c754b0672d70aa195b4196f3 44 textures/prototype/grid.mat
-5ab934b4234ebfe0396313e425cdb356 3584 textures/prototype/grid.png
-699cc6c8ff40bb006eb8ea166d6f86a8 857 textures/prototype/grid_norm.png
 ae9ba69188fc74e8b7e34ceba19031e8 20713 textures/quake2/metalbase03.jpg
 36424a0777688acb7afca4bee849088a 84 textures/quake2/metalbase03.mat
 a95b2d338d10035b572372a8ae4c986d 144221 textures/quake2/metalbase03_norm.png
 efd204c674b0e45f303f2e201272ffc4 12610 textures/quake2/metalbase03_spec.jpg
 c0dd53707863755a5d61bc058c547ee0 7579 textures/quake3/sfx/electricslime2.jpg
-7bd7249044700bfc9ca7cad6d079b539 194 textures/quake3/sfx/electricslime2.mat
+e0c8e548199e3d3b3025aab9e5b97357 184 textures/quake3/sfx/electricslime2.mat
 841529068c809132ccfc1a7f7cb37448 8698 textures/spacectf/r_trim_17.jpg
 85ee6d096cdfd12b93f11cce2132e644 94 textures/spacectf/r_trim_17.mat
 1c2a0aaac60e61dbcdf77c4399cf237a 1155 textures/spacectf/r_trim_17_norm.png
