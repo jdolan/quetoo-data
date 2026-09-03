@@ -196,9 +196,9 @@ b56e95f47d742770e1493a9a59fd12ae 10119 maps/longyard.mf
 ee4049820cc5970357ec32da33dae2dc 3591690 maps/miner.map
 4c5eb2e9cbed086a6dc9bc2b329d3075 18979 maps/miner.mf
 a1cf2d01675c3e4ffd8e852cbe478574 5324 maps/miner.nav
-6c859af3fe8a66cfa38e06520593e87d 9425911 maps/omf.bsp
+0eed01fe650fa4792ffa66a9ccb1fec5 8272782 maps/omf.bsp
 adff4ce1bf491ae1137f967df07f4b61 1026197 maps/omf.map
-bc2f2e4471e42c8e2fb1468d85ea4c66 14402 maps/omf.mf
+ef224d346dbb47ee528466c61983b548 14202 maps/omf.mf
 e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
 8ce3e553cf95e84be8b7841c283137ab 12977113 maps/pits.bsp
 a26ef6f443f28f8ddbbf28bf66001bfd 1052408 maps/pits.map
@@ -3617,7 +3617,7 @@ a6e09ac4c3a56e8d45fbcf1e87029cd8 156815 textures/effects/fx-yellow.png
 d6621c7d564c4bb56e0c970f2b2f8b1e 172 textures/effects/lightbeam.mat
 4da786615b9fe0bc388318430adc5288 8505 textures/effects/lightbeam.png
 81c2b3b3baedaad33926e9d7dd0cf88c 2442 textures/effects/lightbeamdust.png
-4d2f7e1260a81b5b241d932ba074cdfd 210 textures/effects/meggerpad.mat
+c3bdb2493eec5d912498bd1c0e2c2576 199 textures/effects/meggerpad.mat
 985ab2e7b7929b7d1479774ec14a1d68 1010 textures/effects/meggerpad.png
 2193638b73f5455b6008d541a7b79ed0 1132 textures/effects/meggerpad_fx.png
 077f1f2dc37d8d88081bdb8ca59c3b61 181257 textures/effects/noise1-0.jpg
