@@ -1,4 +1,4 @@
-6c859af3fe8a66cfa38e06520593e87d 9425911 maps/omf.bsp
+0eed01fe650fa4792ffa66a9ccb1fec5 8272782 maps/omf.bsp
 e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
 850435dfbb6f762dd7655f0ec3a0a585 257403 mapshots/omf/quetoo073.jpg
 f95e1e30a91651c35b9c49c838035709 245537 mapshots/omf/quetoo074.jpg
@@ -24,7 +24,7 @@ a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 6b90b4a0628db07be8c1f79fe3e6b193 54 textures/decals/alienpuke.mat
 c2e3b395fd3be34955376c201d1cef88 27497 textures/decals/alienpuke.png
-4d2f7e1260a81b5b241d932ba074cdfd 210 textures/effects/meggerpad.mat
+c3bdb2493eec5d912498bd1c0e2c2576 199 textures/effects/meggerpad.mat
 985ab2e7b7929b7d1479774ec14a1d68 1010 textures/effects/meggerpad.png
 2193638b73f5455b6008d541a7b79ed0 1132 textures/effects/meggerpad_fx.png
 84616ace82d3c22e2b08e2e2bf7cf66c 3114 textures/effects/wpadg.jpg
@@ -57,9 +57,6 @@ f489b30d3bdb5339c74ccfa6d34eaaa9 109 textures/omf/metlsupport.mat
 faf5ff93a439833e1aa69714bb97a98d 223 textures/omf/wlight1.mat
 12d6b06e6f2581d5a4feff7e3b962c3a 7311 textures/omf/wlight1_norm.png
 20e7eff9c53e1694f412a0bfb194c67c 10482 textures/omf/wlight1fx.png
-cf959717c754b0672d70aa195b4196f3 44 textures/prototype/grid.mat
-5ab934b4234ebfe0396313e425cdb356 3584 textures/prototype/grid.png
-699cc6c8ff40bb006eb8ea166d6f86a8 857 textures/prototype/grid_norm.png
 87c09ca25873e03be350b000be62b677 6845 textures/quake2/angle1_sml.jpg
 e10109f805499e0cdcf0c3390a2fb50c 34 textures/quake2/angle1_sml.mat
 559382384bd3bc616b2cd5c5a959e100 35396 textures/quake2/angle1_sml_norm.png
