@@ -1,4 +1,4 @@
-8516de8da80023f551e1b88b830737dd 32376894 maps/campgrounds.bsp
+26c2bb39e4ba77c5bc64444f9f041ea4 32760756 maps/campgrounds.bsp
 93baec914a98812d7189357ce7cd4dc6 8028 maps/campgrounds.nav
 bf5f522aad13f6d7c741e4dcc6992d20 141879 mapshots/campgrounds/campgrounds01.jpg
 52fa965f6fa95108ba85bcd07764f4c4 251497 mapshots/campgrounds/campgrounds02.jpg
@@ -31,10 +31,7 @@ a96e4be42f6c4acf51e2585c29ae0d70 105 textures/decals/flr3_mark.mat
 57a403fc703cffa62e9a1bc30c7b6766 213 textures/decals/flr3_mark_fx-yellow.mat
 47a81a9182d99e2ff99e585043c2230b 83566 textures/decals/flr3_mark_fx-yellow.png
 3a09dba6ccf8a4105d72881e1e6f7370 253413 textures/decals/flr3_mark_norm.png
-df1f3bfef1050e533b358c0004f50456 274 textures/decals/quetoologo.mat
-f148d1d3b95bb838d5d5a541d28c103f 125461 textures/decals/quetoologo.png
 9726620a0a1b6a13783c675e233b2c38 108727 textures/decals/quetoologo_glow.png
-46909bb2e0078425ba7856e34707806f 61883 textures/decals/quetoologo_norm.png
 a06041efd649beead14b196aa8dcbe05 73 textures/decals/rust1.mat
 f38fe1c0731ef62ce82538b13d25cc3f 337675 textures/decals/rust1.png
 ab5f1471519aa155da5dcb11d8933f68 76 textures/decals/tampon0.mat
@@ -71,6 +68,11 @@ d6621c7d564c4bb56e0c970f2b2f8b1e 172 textures/effects/lightbeam.mat
 4da786615b9fe0bc388318430adc5288 8505 textures/effects/lightbeam.png
 81c2b3b3baedaad33926e9d7dd0cf88c 2442 textures/effects/lightbeamdust.png
 077f1f2dc37d8d88081bdb8ca59c3b61 181257 textures/effects/noise1-0.jpg
+8f682fa3d06cb3af1816ea6d5acb2662 194170 textures/effects/noise1-1.jpg
+c062a6f8b2efebf9148c3e7e0adcdd97 195995 textures/effects/noise1-2.jpg
+831e80c386cee1faf8e44bd84da51814 181248 textures/effects/noise1-3.jpg
+077f1f2dc37d8d88081bdb8ca59c3b61 181257 textures/effects/screen_logo.jpg
+7d8c7a931009344a1759ff93d9527155 354 textures/effects/screen_logo.mat
 5e1ecf2dbdcd7f19bb5f8979417f7c5e 7380 textures/envmaps/envmap_2.jpg
 e34b594ac001ba4ca1a6d89a34a22a1d 71927 textures/evil/e6cyb0rpipes.jpg
 11faa3dfcbbf7a69eabf6c6c7874ef6a 211 textures/evil/e6cyb0rpipes.mat
@@ -89,7 +91,9 @@ fe20f785fef322733c41662001ca06c2 4502 textures/evil/e8_rlight.blend.jpg
 0f505716f38329c4b8fecbec13a3eb51 294 textures/evil/e8_rlight.mat
 a8e7345221cc4475768b2751db98ae23 32 textures/evil/e8bgrate01.mat
 dc84b6198968cb3a531746768fea5853 210460 textures/evil/e8bgrate01.png
+e0f7f1410e0837cc2cdd6c0bab40ee40 4434 textures/evil/e8trimfx_b.jpg
 56eb694134ae6e530a7c5ff5742d4b03 110062 textures/evil/ex_cretebase_02_d.jpg
+9d996ab476b41cef5b608963a6ee51d2 98884 textures/evil/ex_cretebase_03_dark_d.jpg
 5d4dbb21f18eb232a7a00afe1da51209 118 textures/evil/ex_cretefloor_01b.mat
 46a8cc5f7267d64bf86daa5f970bf7a3 105893 textures/evil/ex_cretefloor_01b_d.jpg
 f519da17f6a71c76ea6dac125a3e4e29 641194 textures/evil/ex_cretefloor_01b_norm.png
@@ -135,6 +139,11 @@ e450b34f77c90d54f7553708125028c6 72 textures/evil/ex_trim_baseboard_02.mat
 e46ea1b2142333895fb346ab07550304 46008 textures/evil/ex_trim_psimple_05_d.jpg
 fcb35a8ab16f88ef3ec177b175c13542 139831 textures/evil/ex_trim_psimple_05_norm.png
 f09d4133a5d36cfb5e6184c7d77492d9 61851 textures/evil/ex_trim_psimple_05_spec.jpg
+8274761dd6ed5b7fc1d3ec659f9c05f7 19254 textures/evil/ex_trim_simple03_d.jpg
+804d6693592d078c30522fb4b95bfbec 336 textures/evil/ex_trim_simple03_e.mat
+7bd1c021284cbbe2525276e7af2dcb77 91675 textures/evil/ex_trim_simple03_e.png
+b95ddadc0bae73355f52562f95f05580 97801 textures/evil/ex_trim_simple03_norm.png
+a4605110339451dcee796325714af997 15218 textures/evil/ex_trim_simple03_spec.jpg
 01b13827cbe59c386297c2190778de6c 24525 textures/evil/ex_trim_support_03_d.jpg
 fdc291f036375a74e8d0adb388b7b3f1 96712 textures/evil/ex_trim_support_03_norm.png
 93ddfb73ab34252b36e1b63bf08a720e 30886 textures/evil/ex_trim_support_03_spec.jpg
@@ -151,6 +160,9 @@ e02813cbe2b24df61c6fc2ce6188ce4b 267952 textures/evil/ex_wall_bplate_06_norm.png
 3f06c619fb232f8c137808c27c273295 91855 textures/evil/exmetal_plate01c_d.jpg
 e1ea7510072fed6622dfab7051d878b3 296818 textures/evil/exmetal_plate01c_norm.png
 c38e35d58b2a6294eddc8490bc9fd8f2 125563 textures/evil/exmetal_plate01c_spec.jpg
+ec512f0d111cffcea045f51f43298f4a 78650 textures/evil/exmetalbase01_d.jpg
+839a14c04fc95ca6bfb4eb78ee9a0de8 593414 textures/evil/exmetalbase01_norm.png
+a38787f511ca381b900afec075ca9845 133978 textures/evil/exmetalbase01_spec.jpg
 d5ddf9938aa29f3107eb00e5c7909661 92644 textures/evil/exmetalbase04_d.jpg
 e2aec67a41be5e97067f9cd74d529b81 96158 textures/evil/exmetalrib01_d.jpg
 ee5fd57605c003a7791cea19dcab2500 549050 textures/evil/exmetalrib01_norm.png
@@ -179,7 +191,9 @@ b70ac2eee7ae3118fe573cc35610694b 117292 textures/quake3/gothic_block/blocks18c_3
 1f7c8d9ef94b6dc852de638f70851194 10140 textures/quake3/gothic_light/gothic_light2.jpg
 317f286f2215cc5a1faba3f261356f1c 217 textures/quake3/gothic_light/gothic_light2.mat
 61b00d33d0893f504716a97a35a7f18d 5717 textures/quake3/gothic_light/gothic_light2_blend.jpg
+46eed53e77b833cc368d0c6afc8aa5f4 131367 textures/quake3/gothic_trim/pitted_rust3_black.jpg
 1097377cb8b622729956ce8392bc6201 4445 textures/quake3/sfx/xian_dm3padwallglow.jpg
+da11eca72a3ee41d9fb90534f8ace2f5 3913 textures/quake3/sfx/zap_scroll2.jpg
 8778afc48140f4408a3dcb4202b031a7 85918 textures/trak4/base_concrete1a.jpg
 de8e45a541b72e4e2373a14922c6d84d 82 textures/trak4/base_concrete1a.mat
 2726d8d9238671f1b5342ee4a68e7aff 657871 textures/trak4/base_concrete1a_norm.png
