@@ -17,7 +17,7 @@ def main():
     for dirpath, dirnames, filenames in os.walk(game_dir):
         dirnames.sort()
         for filename in sorted(filenames):
-            if filename == "manifest.mf":
+            if filename in ("manifest.mf", ".DS_Store"):
                 continue
             filepath = os.path.join(dirpath, filename)
             relpath  = os.path.relpath(filepath, game_dir)
