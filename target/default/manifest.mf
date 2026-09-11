@@ -745,12 +745,12 @@ ab570b4995a11be708b8b013ba3ee428 26 models/weapons/quake_nailgun/world.cfg
 01175fd30b5911769dbb330af7d8040d 56 models/weapons/quake_rocketlauncher/view.cfg
 ab570b4995a11be708b8b013ba3ee428 26 models/weapons/quake_rocketlauncher/world.cfg
 73813c7080deb431bf5a7fe7410c76e7 12288 models/weapons/quake_shotgun/.view.cfg.swp
-dcb40419f8701bc3a10020ebe0618e7f 52 models/weapons/quake_shotgun/link.cfg
+031ecbc03fc333959c47b7dadce22196 52 models/weapons/quake_shotgun/link.cfg
 652760b1b7f37b8f470cd4b32b262fe9 134658 models/weapons/quake_shotgun/skin.jpg
 b4b60fab924e054158944b3bcf9440a0 89 models/weapons/quake_shotgun/skin.mat
 f7af717f251b2c659008d6bda80663f8 519362 models/weapons/quake_shotgun/skin_norm.jpg
 110e215086acccd0ad3cb7cee5f8365b 178869 models/weapons/quake_shotgun/tris.obj
-f42e4d6e62cc33ee69cf376be7783db9 55 models/weapons/quake_shotgun/view.cfg
+3d03b86ba3e277e23f9c42aa1814eee9 55 models/weapons/quake_shotgun/view.cfg
 4d2ba942abca7ec5f178166b9cdab701 25 models/weapons/quake_shotgun/world.cfg
 6e1079632713edd9e74161ee47108fd1 56 models/weapons/quake_supernailgun/link.cfg
 e369518b5143967563571be130996135 15745 models/weapons/quake_supernailgun/skin.jpg
@@ -3308,6 +3308,7 @@ a5bbe263f04501a2d7230f62d657370e 1368 textures/common/hint.png
 dfcc10b269bcba29bd8716cef085b7d4 37058 textures/common/notex.jpg
 2a1b49cbfe055dec00b23d65163f56f6 2115 textures/common/origin.jpg
 68c96aad25d1fa26d3e6b8e612a84dfe 30 textures/common/origin.mat
+831be62777965e67a577868ed263f7bb 10843 textures/common/portal.jpg
 fffcc49d41ecfd1d3e51fec21282f9f5 2142 textures/common/projectile_clip.jpg
 be48a3891c88c5a37c32980212ca8aaa 1846 textures/common/skip.jpg
 9243c7ad7e16a9a96f4a5f89b4212458 1512 textures/common/sky.jpg
