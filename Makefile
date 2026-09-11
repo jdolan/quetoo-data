@@ -25,6 +25,26 @@ manifest:
 s3: manifest
 	aws s3 sync --delete $(TARGET) $(QUETOO_DATA_S3_BUCKET)
 
+# Cold-install archive, published as a GitHub Releases asset. Engine installs
+# with no local manifest fetch this in one shot rather than pulling thousands of
+# files from S3, which keeps first-run downloads on GitHub's free egress.
+# Inter-release deltas still come from S3, so the `s3` target stays.
+#
+# Built at the repo root, not under $(TARGET), so `s3` above does not sync a
+# ~1GB archive into the bucket.
+#
+# Do not add -9. It silently overrides -n, deflating the JPG/PNG/OGG that are
+# most of the payload for under 1% gain and a far slower build.
+ZIP = quetoo-data.zip
+
+.PHONY: zip
+zip: manifest
+	@echo "Writing $(ZIP)..."
+	@rm -f $(ZIP)
+	@cd $(TARGET) && zip -r -q -n .jpg:.png:.ogg ../$(ZIP) default -x '*/.DS_Store'
+	@echo "Wrote $$(du -h $(ZIP) | cut -f1 | tr -d ' \t') to $(ZIP)."
+
+
 # Compact git history to reclaim disk space. Purges history of all files that
 # no longer exist in the working tree (deleted binaries, old assets, etc.).
 # Current files are untouched. Text-based formats keep full history.
