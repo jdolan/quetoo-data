@@ -1,11 +1,11 @@
-89bef42d2f223739e90016c2ec6071c4 9162209 maps/chthon.bsp
+b38d751311c0139046a6e2a7b9dfff06 26691267 maps/chthon.bsp
 608349b1004dad0284cb6e27b748523e 6020 maps/chthon.nav
 eb01a62943d8de39d1cc71ec86080492 167477 mapshots/chthon/quetoo084.jpg
 d577d529b30c0b40a30ed234498f7c36 166484 mapshots/chthon/quetoo085.jpg
 49c3ebd4aa76cfd88292e3d13e14eb91 180052 mapshots/chthon/quetoo086.jpg
 b257b5354aeac03ea22908a323a4cdf2 148826 mapshots/chthon/quetoo091.jpg
 22308a557b715a0bef4e4d587dbadf52 188243 mapshots/chthon/quetoo092.jpg
-a5a67884720ef7927e2a6c88a4bc6a84 230284 models/mapobjects/chthon/chthon.obj
+caf99ebf081180613f2b32a8bdf21ecc 224440 models/mapobjects/chthon/chthon.obj
 503f7b45a4778dd2f78703ad37e580bf 72898 models/mapobjects/chthon/skin.jpg
 c69189c274faa0845f6cfdf03658e946 79 models/mapobjects/chthon/skin.mat
 751296c445b6d64fddfeea33d48edfc5 92532 models/mapobjects/chthon/skin_norm.jpg
@@ -42,7 +42,7 @@ cf959717c754b0672d70aa195b4196f3 44 textures/prototype/grid.mat
 abf7018c058939156365f73cff15e2b7 123083 textures/quake/altar1_6_norm.png
 02dfe8c3d13d47e7262aeec7c519fae7 20523 textures/quake/altar1_6_spec.jpg
 ca33b365837f6d423559517b07caa9a1 32026 textures/quake/altar1_7.jpg
-2d94ab3f6554f8e42356c21d98753780 110 textures/quake/altar1_7.mat
+845ac503ae6979616663fbe84cce3892 68 textures/quake/altar1_7.mat
 7dbc56326525b850615e87b12299184d 7620 textures/quake/butn+0.jpg
 87c4b43d4a84b06c7c90de490f9e5c89 98 textures/quake/butn+0.mat
 a59fe2d5bd205b7aa0a5975cbabb86e9 1613 textures/quake/butn+0_luma.jpg
@@ -103,7 +103,7 @@ fe8a89bd180a4f0439f5cb1cf7af5af1 72405 textures/quake/dem4_4_norm.png
 55091ca0496f452e474735e0a4b1e6f6 14691 textures/quake/dem5_3.jpg
 9c808f82ea0e89c5fcea2d7474e6e07f 153 textures/quake/dem5_3.mat
 36d35b7261221621601cde930619e946 14267 textures/quake/dr05_2.jpg
-87d7c39344d126dd2f07cf9b570c51cf 106 textures/quake/dr05_2.mat
+481ca2a1f92edec3bd6e83fb87bae3d7 106 textures/quake/dr05_2.mat
 53ec9ff04690597a1ec96c42688de454 92228 textures/quake/dr05_2_norm.png
 e73fb4c82717eb3f5e41e4cc6213a179 14820 textures/quake/dr05_2_spec.jpg
 b1b2fefeb39e4b4e1eae48953989326b 22153 textures/quake/dr07_1.jpg
