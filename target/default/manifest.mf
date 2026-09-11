@@ -140,9 +140,9 @@ d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 18e0847fc43769c5b99d15dc3ec335df 586363 maps/badplace.map
 a0490e3de54b482af37e7a9d7625de82 5439 maps/badplace.mf
 3a370595b5778bf3cd9781a4b7a17c9a 2716 maps/badplace.nav
-cf2c925c248060b3bd040849b3711893 32593610 maps/campgrounds.bsp
+26c2bb39e4ba77c5bc64444f9f041ea4 32760756 maps/campgrounds.bsp
 c4d8237c732da62a4af4657bbbb698a0 2389386 maps/campgrounds.map
-18f89dbff97e337cb500a121f22d144e 15150 maps/campgrounds.mf
+3478cd9ed8fb53878f18dd4db594db8d 16212 maps/campgrounds.mf
 93baec914a98812d7189357ce7cd4dc6 8028 maps/campgrounds.nav
 b38d751311c0139046a6e2a7b9dfff06 26691267 maps/chthon.bsp
 4258e5a06dc331ca85e9f3cdce35fb94 1823668 maps/chthon.map
@@ -192,10 +192,10 @@ a022a4a2365fc29e7ee8f926970994b1 12060 maps/insta-rounding.nav
 973081f2b9aeb95f1750987c315318bf 1484120 maps/longyard.map
 341ded83950dcb38341ec3547241859e 10119 maps/longyard.mf
 2582dc7595a72dcf20557bfd595c7f0a 7276 maps/longyard.nav
-c989b5c4be0916f50d1007db2697e65b 52546917 maps/miner.bsp
+6d06785d7bb82c8722cdc5e23a73c51d 52428178 maps/miner.bsp
 25145cf0a83be36eb8c21c685bba824b 3121 maps/miner.lin
 ee4049820cc5970357ec32da33dae2dc 3591690 maps/miner.map
-fae0df2f19c237b2a54c4c0052d5cd76 18979 maps/miner.mf
+6b0491a77f41ea7835f2212032785f72 18979 maps/miner.mf
 a1cf2d01675c3e4ffd8e852cbe478574 5324 maps/miner.nav
 abcff3b30c9a22788461dbd272639a0e 8263042 maps/omf.bsp
 adff4ce1bf491ae1137f967df07f4b61 1026197 maps/omf.map
