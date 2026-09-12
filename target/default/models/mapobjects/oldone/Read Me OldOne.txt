@@ -1,0 +1,19 @@
+Old One model replacement for the game Quake by Id Software.
+
+Old One model and skins by Tea Monster 2021. 
+
+Email: tea(underscore)monster(at)yahoo(dot)com
+
+Model is issued under a Creative Commons Attribution-NonCommercial 3.0 Unported License
+
+http://creativecommons.org/licenses/by-nc/3.0/
+
+Files include: 
+
+1 Textures - PBR metallic material textures for modern engines.
+
+2. Oldone_tm_PBR_Blender291.blend - origin file in Blender format (version 2.91). Contains skeleton and animations. 
+  - Animation oldone - 1 - 70 idle and death animation of the Oldone from the original Quake game. 
+  - Animation attack - 71 - 149 A tentacle swipe attack for the Old one. 
+  - Animation crawl - 150 - 228 a crawling animation where the Old one creeps forward. 
+
