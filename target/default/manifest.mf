@@ -552,6 +552,15 @@ c69189c274faa0845f6cfdf03658e946 79 models/mapobjects/chthon/skin.mat
 291b149e5ec04d489b52ac44848a1f92 12037 models/mapobjects/fern/fern.obj
 5362fa11da0a19f1dfcd27b524b9c0e9 147 models/mapobjects/fern/skin.mat
 639c77d8181df5cd142d01b36d01d643 226318 models/mapobjects/fern/skin.png
+b44312c2ef690b2c45beb7cefcc34830 756 models/mapobjects/oldone/Read Me OldOne.txt
+fd231d5aa4f17966c0a179cf5a77dd2e 1239396 models/mapobjects/oldone/shubby.md3
+655bc99327f3328f475f90adb5874e7f 8575 models/mapobjects/oldone/shubby_newretopo_04_Default_OBJ_Height.png
+9b417d7c8a8ab13ae9996f6990e17044 4166 models/mapobjects/oldone/shubby_newretopo_04_Default_OBJ_Metallic.png
+32cb997a82c9a6b4a2379245132cc3e4 2089492 models/mapobjects/oldone/shubby_newretopo_04_Default_OBJ_Roughness.png
+1bf2364bafe4e03d614d474013c97c61 155 models/mapobjects/oldone/skin.mat
+2c045d2a80c5056492edd52a3e81197e 4097254 models/mapobjects/oldone/skin.png
+768825985b42fe4ec8ea74a182a0749e 3572234 models/mapobjects/oldone/skin_norm.png
+c470296cf24e089bab96f66f01c3deb3 458178 models/mapobjects/oldone/tris.obj
 39128cbed0b96bde4ad20f58ce8153e6 12700 models/mapobjects/torch/skin.jpg
 96f200be27fac7c43f6c7c69291dfc46 84 models/mapobjects/torch/skin.mat
 f6d24732403c35c39ce9dd7a4c5c8796 14590 models/mapobjects/torch/skin_norm.jpg
