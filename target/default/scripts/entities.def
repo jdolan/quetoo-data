@@ -319,6 +319,29 @@
  low_trigger : If set, the touch field for this platform will only exist at the lower position.
 */
 
+/*QUAKED func_race_checkpoint_gate (0 .5 .8) ?
+ A brush that is solid to a racer until the run satisfies its checkpoint
+ condition, and solid to everything else always. A client with no run under way
+ passes freely. Texture it with clip so that it is never seen. The gate opens
+ the frame after its checkpoint is reached, so leave a stride between them.
+
+ -------- Keys --------
+ cp : The checkpoint the gate is about, from 1.
+ mode : atleast (default) opens the gate once checkpoint cp has been reached; exact opens it only while cp is the last one reached.
+ invert : 1 to close the gate under the condition instead of opening it.
+*/
+
+/*QUAKED func_race_oneway_wall (0 .5 .8) ?
+ A brush that a racer passes through in one direction and not the other, and
+ that is solid to everything else. Texture it with clip so that it is never seen.
+ The wall is judged by which side of its centre a racer stands: it passes them
+ from its entry side in any direction, and stops them from the far side. Make it
+ one thin brush from floor to ceiling, so that there is no over, under or gap.
+
+ -------- Keys --------
+ angle : The direction of travel that passes, in the horizontal plane.
+*/
+
 /*QUAKED func_rotating (0 .5 .8) ? start_on reverse x_axis y_axis touch_pain stop
  Solid entity that rotates continuously. Rotates on the Z axis by default and requires an origin brush. It will always start on in the game and is not targetable.
 
@@ -2100,6 +2123,67 @@
  push_effects : If set, emit particle effects to indicate that a pusher is here.
  start_off : If set, this entity must be activated before it will push players.
  toggle : If set, this entity is toggled each time it is activated.
+*/
+
+/*QUAKED trigger_race_checkpoint (.5 .5 .5) ?
+ A checkpoint. A course's checkpoints must be numbered 1 through N with none
+ missing, and are passed in that order.
+
+ -------- Keys --------
+ cp : This checkpoint's number, from 1.
+ wait : Seconds before the same client is heard from again (default 0.5).
+ message : An optional string to display when the checkpoint is reached.
+ target : The name of the entity or team to use when the checkpoint is reached.
+*/
+
+/*QUAKED trigger_race_finish (.5 .5 .5) ?
+ Where a run ends, once every checkpoint has been passed. A course needs at
+ least one.
+
+ -------- Keys --------
+ wait : Seconds before the same client is heard from again (default 0.5).
+ message : An optional string to display when the run ends.
+ target : The name of the entity or team to use when the run ends.
+*/
+
+/*QUAKED trigger_race_split (.5 .5 .5) ?
+ A timing point. A course's splits are numbered 1 through N with none missing
+ and are passed in that order, but they only time the run: one missed does not
+ spoil it.
+
+ -------- Keys --------
+ split : This split's number, from 1.
+ label : An optional name, printed with the time (default "Split N").
+ wait : Seconds before the same client is heard from again (default 0.5).
+ message : An optional string to display when the split is reached.
+ target : The name of the entity or team to use when the split is reached.
+*/
+
+/*QUAKED trigger_race_stage (.5 .5 .5) ?
+ Where a stage of the course begins. A run begins in stage 1, so stages are
+ numbered 2 through N with none missing and entered in that order, and each is
+ timed as a split is. A practicing client who reaches one has its restart_target
+ stored, as store would, so that kill returns to the stage rather than the spawn.
+
+ -------- Keys --------
+ stage : This stage's number, from 2.
+ restart_target : The targetname of the info_notnull to return to, placed as a spawn point would be.
+ label : An optional name, printed with the time (default "Stage N").
+ wait : Seconds before the same client is heard from again (default 0.5).
+ message : An optional string to display when the stage is reached.
+ target : The name of the entity or team to use when the stage is reached.
+*/
+
+/*QUAKED trigger_race_start (.5 .5 .5) ?
+ Where a run begins. A course may have several, or none: with none, the run
+ begins on the client's first movement.
+
+ -------- Keys --------
+ start_mode : When the run begins: touch (default) on entering, exit on leaving,
+ or jump on the first jump from inside.
+ wait : Seconds before the same client is heard from again (default 0.5).
+ message : An optional string to display when the run begins.
+ target : The name of the entity or team to use when the run begins.
 */
 
 /*QUAKED trigger_relay (.5 .5 .5) (-8 -8 -8) (8 8 8)
