@@ -5,11 +5,4 @@ l_pads,players/gladiator/upper_gladiagreen
 l_HUD,players/gladiator/miniscreen2r
 l_HUDpro,players/gladiator/lasersmoker
 l_head,players/gladiator/head_gladiagreen
-u_gunfx1,players/gladiator/gladiagreen_gunfx1
-u_gunfx2,players/gladiator/lightredq4
-u_gun,players/gladiator/gladiagreen_gun
-u_quake4ever,players/gladiator/glad_q4red
-u_backfire,players/gladiator/q4backfire
-u_drill,players/gladiator/drill_01
-u_Drilltip,players/gladiator/drilltip01
 h_head,players/gladiator/head_gladiagreen
