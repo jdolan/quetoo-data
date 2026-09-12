@@ -1,0 +1,7 @@
+{
+	diffusemap players/bloodseeker/red_lower
+	normalmap players/bloodseeker/blue_lower_norm
+	roughness 2
+	hardness 6
+	specularity 2
+}

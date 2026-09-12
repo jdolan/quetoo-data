@@ -1,0 +1,5 @@
+{
+	diffusemap players/creech/handboots_tourinusred
+	normalmap players/creech/handboots_tourinus_norm
+	specularmap players/creech/handboots_tourinus_spec
+}

@@ -1,5 +1,5 @@
-l_legs,players/bloodseeker/mesh_lower_red
-u_bones,players/bloodseeker/bone-arco
-u_harness,players/bloodseeker/mesh_lower_red
-u_torso,players/bloodseeker/arco-blood-torso_red
-h_head,players/bloodseeker/bone-arco
+l_legs,players/bloodseeker/red_lower
+u_bones,players/bloodseeker/default_bones
+u_harness,players/bloodseeker/red_lower
+u_torso,players/bloodseeker/red_upper
+h_head,players/bloodseeker/default_bones

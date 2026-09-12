@@ -1,0 +1,5 @@
+{
+	diffusemap players/creech/body_blue
+	normalmap players/creech/body_norm
+	specularmap players/creech/body_spec
+}

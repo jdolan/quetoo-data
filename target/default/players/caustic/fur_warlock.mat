@@ -1,4 +1,5 @@
 {
-	diffusemap players/caustic/fur_default
+	diffusemap players/caustic/fur_warlock
 	surface alpha_test
+	alpha_test .33
 }
