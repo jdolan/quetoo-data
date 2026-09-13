@@ -38,20 +38,3 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_DEFAULT_REGION: us-east-1
       run: aws s3 sync --delete target/ s3://quetoo-data
-
-    - name: Build packages
-      run: |
-        sudo gem install fpm --no-document
-        make -C linux deb rpm
-
-    - name: Publish latest snapshot release
-      run: |
-        gh release delete latest --yes --cleanup-tag 2>/dev/null || true
-        gh release create latest \
-          --prerelease \
-          --title "Latest Snapshot" \
-          --notes "Latest game data snapshot, built from \`main\` at $(git rev-parse --short HEAD)." \
-          linux/target/quetoo-data_*_all.deb \
-          linux/target/quetoo-data-*.noarch.rpm
-      env:
-        GH_TOKEN: ${{ github.token }}
