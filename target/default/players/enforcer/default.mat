@@ -1,5 +1,5 @@
 {
-	diffusemap players/qforcer/default
+	diffusemap players/enforcer/default
 	tintmap.tint_r_default 0.75 0.55 0.35
 	tintmap.tint_g_default 0.45 0.25 0.1
 	roughness .5
