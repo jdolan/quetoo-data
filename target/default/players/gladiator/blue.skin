@@ -1,7 +1,8 @@
-l_upper,players/gladiator/q4g_upper_blue
-l_lower,players/gladiator/q4g_lower_blue
-l_claw,players/gladiator/q4g_upper_blue
-l_pads,players/gladiator/q4g_upper_blue
+l_upper,players/gladiator/blue_upper
+l_lower,players/gladiator/blue_lower
+l_claw,players/gladiator/blue_upper
+l_pads,players/gladiator/blue_upper
+l_HUD,players/gladiator/miniscreen2r
 l_HUDpro,players/gladiator/lasersmoke
-l_head,players/gladiator/q4g_head_blue
-h_head,players/gladiator/q4g_head_blue
+l_head,players/gladiator/blue_head
+h_head,players/gladiator/blue_head

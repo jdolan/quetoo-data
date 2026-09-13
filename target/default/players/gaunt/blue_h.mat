@@ -1,0 +1,5 @@
+{
+	diffusemap players/gaunt/blue_h
+	normalmap players/gaunt/red_h_norm
+	specularmap players/gaunt/red_h_spec
+}

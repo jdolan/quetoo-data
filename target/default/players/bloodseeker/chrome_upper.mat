@@ -1,6 +1,6 @@
 {
 	diffusemap players/bloodseeker/chrome_upper
-	roughness 2
+	roughness 1
 	hardness 8
-	specularity 3
+	specularity 2
 }

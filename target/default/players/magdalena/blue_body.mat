@@ -1,0 +1,5 @@
+{
+	diffusemap players/magdalena/blue_body
+	normalmap players/magdalena/red_body_norm
+	specularmap players/magdalena/red_body_spec
+}

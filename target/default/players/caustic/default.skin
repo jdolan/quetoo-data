@@ -1,8 +1,8 @@
-l_legs,players/caustic/body_default
-u_torso,players/caustic/body_default
-u_larm,players/caustic/body_default
-u_rarm,players/caustic/body_default
-u_fur,players/caustic/fur_default
-h_head,players/caustic/body_default
-h_fur1,players/caustic/fur_default
-h_fur2,players/caustic/fur_default
+l_legs,players/caustic/default_body
+u_torso,players/caustic/default_body
+u_larm,players/caustic/default_body
+u_rarm,players/caustic/default_body
+u_fur,players/caustic/default_fur
+h_head,players/caustic/default_body
+h_fur1,players/caustic/default_fur
+h_fur2,players/caustic/default_fur

@@ -1,0 +1,5 @@
+{
+	diffusemap players/gladiator/blue_lower
+	normalmap players/gladiator/red_lower_norm
+	specularmap players/gladiator/red_lower_spec
+}

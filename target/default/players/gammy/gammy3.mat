@@ -1,0 +1,5 @@
+{
+	diffusemap players/gammy/gammy3
+	surface alpha_test
+	alpha_test .5
+}

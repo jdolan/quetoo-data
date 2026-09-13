@@ -1,0 +1,5 @@
+{
+	diffusemap players/creech/w_flame1
+	surface alpha_test
+	alpha_test .125
+}

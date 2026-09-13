@@ -1,0 +1,7 @@
+{
+	diffusemap players/gaunt/gaunt_e
+	{
+		texture players/gaunt/gaunt_e
+		pulse 4
+	}
+}

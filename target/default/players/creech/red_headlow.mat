@@ -1,0 +1,5 @@
+{
+	diffusemap players/creech/red_headlow
+	normalmap players/creech/tourinus_headlow_norm
+	specularmap players/creech/tourinus_headlow_spec
+}

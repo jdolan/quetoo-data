@@ -1,6 +1,6 @@
-l_lower,players/merc/mercbodya
-u_neck,players/merc/mercbodya_head
-u_torso,players/merc/mercbodya
-u_Rhand,players/merc/mercbodya
-u_Lhand,players/merc/mercbodya
-h_head,players/merc/mercbodya_head
+l_lower,players/merc/blue
+u_neck,players/merc/blue_head
+u_torso,players/merc/blue
+u_Rhand,players/merc/blue
+u_Lhand,players/merc/blue
+h_head,players/merc/blue_head

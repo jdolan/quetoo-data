@@ -1,7 +1,7 @@
-l_lower,players/violator/violatorskinred
-u_eyes,players/violator/per128_violator_red_eye
-u_upper,players/violator/violatorskinred
-u_teeth,players/violator/violatorteethred
+l_lower,players/violator/red
+u_eyes,players/violator/red_eye
+u_upper,players/violator/red
+u_teeth,players/violator/red_teeth
 u_m01,players/violator/magic1
 u_m02,players/violator/magic1
 u_m03,players/violator/magic1
@@ -12,4 +12,4 @@ u_m07,players/violator/magic2
 u_m08,players/violator/magic2
 u_m09,players/violator/magic2
 u_m10,players/violator/magic2
-h_head,players/violator/lowheadred
+h_head,players/violator/red_head

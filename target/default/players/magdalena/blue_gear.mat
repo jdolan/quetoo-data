@@ -1,0 +1,5 @@
+{
+	diffusemap players/magdalena/blue_gear
+	normalmap players/magdalena/red_gear_norm
+	specularmap players/magdalena/red_gear_spec
+}

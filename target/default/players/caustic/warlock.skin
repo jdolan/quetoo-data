@@ -1,8 +1,8 @@
-l_legs,players/caustic/body_warlock
-u_torso,players/caustic/body_warlock
-u_larm,players/caustic/body_warlock
-u_rarm,players/caustic/body_warlock
-u_fur,players/caustic/fur_warlock
-h_head,players/caustic/body_warlock
-h_fur1,players/caustic/fur_warlock
-h_fur2,players/caustic/fur_warlock
+l_legs,players/caustic/warlock_body
+u_torso,players/caustic/warlock_body
+u_larm,players/caustic/warlock_body
+u_rarm,players/caustic/warlock_body
+u_fur,players/caustic/warlock_fur
+h_head,players/caustic/warlock_body
+h_fur1,players/caustic/warlock_fur
+h_fur2,players/caustic/warlock_fur

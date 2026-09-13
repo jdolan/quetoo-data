@@ -1,0 +1,11 @@
+{
+	diffusemap players/nitro/red_visor
+	hardness 10
+	specularity 4
+		{
+		envmap envmaps/envmap_2
+		blend one one
+		scroll.t 1
+		color 1 .5 .5 .125
+	}
+}

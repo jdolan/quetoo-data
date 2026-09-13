@@ -1,0 +1,5 @@
+{
+	diffusemap players/gladiator/blue_upper
+	normalmap players/gladiator/red_upper_norm
+	specularmap players/gladiator/red_upper_spec
+}

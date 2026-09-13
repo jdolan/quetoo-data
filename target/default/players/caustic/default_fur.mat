@@ -1,0 +1,5 @@
+{
+	diffusemap players/caustic/default_fur
+	surface alpha_test
+	alpha_test .33
+}

@@ -1,5 +1,5 @@
-l_lower,players/nitro/lower_red
+l_lower,players/nitro/red_lower
 u_torso,players/nitro/upper
-u_buste,players/nitro/lower_red
+u_buste,players/nitro/red_lower
 h_head,players/nitro/nitro_h
-h_visor,players/nitro/visor_red
+h_visor,players/nitro/red_visor

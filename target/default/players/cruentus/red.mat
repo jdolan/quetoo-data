@@ -1,0 +1,5 @@
+{
+	diffusemap players/cruentus/red
+	normalmap players/cruentus/default_norm
+	specularmap players/cruentus/default_spec
+}

@@ -1,5 +1,0 @@
-{
-	diffusemap players/caustic/body_blue
-	normalmap players/caustic/body_default_norm
-	specularmap players/caustic/body_default_spec
-}

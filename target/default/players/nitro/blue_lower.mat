@@ -1,0 +1,5 @@
+{
+	diffusemap players/nitro/blue_lower
+	normalmap players/nitro/red_lower_norm
+	specularmap players/nitro/red_lower_spec
+}

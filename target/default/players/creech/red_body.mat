@@ -1,0 +1,5 @@
+{
+	diffusemap players/creech/red_body
+	normalmap players/creech/tourinus_body_norm
+	specularmap players/creech/tourinus_body_spec
+}

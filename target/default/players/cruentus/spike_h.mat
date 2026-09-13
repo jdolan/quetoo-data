@@ -1,0 +1,5 @@
+{
+	diffusemap players/cruentus/spike_h
+	surface alpha_test
+	alpha_test .666
+}

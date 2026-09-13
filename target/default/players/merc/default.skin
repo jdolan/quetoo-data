@@ -1,6 +1,6 @@
-l_lower,players/merc/mercbodyb
-u_neck,players/merc/mercbodyb_head
-u_torso,players/merc/mercbodyb
-u_Rhand,players/merc/mercbodyb
-u_Lhand,players/merc/mercbodyb
-h_head,players/merc/mercbodyb_head
+l_lower,players/merc/default
+u_neck,players/merc/default_head
+u_torso,players/merc/default
+u_Rhand,players/merc/default
+u_Lhand,players/merc/default
+h_head,players/merc/default_head

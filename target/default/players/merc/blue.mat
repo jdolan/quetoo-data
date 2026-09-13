@@ -1,0 +1,5 @@
+{
+	diffusemap players/merc/blue
+	normalmap players/merc/red_norm
+	specularmap players/merc/red_spec
+}

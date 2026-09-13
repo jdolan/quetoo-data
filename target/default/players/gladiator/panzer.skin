@@ -1,5 +1,8 @@
-l_upper,players/gladiator/panzerjotun_upper
-l_lower,players/gladiator/panzerjotun_lower
-l_claw,players/gladiator/panzerjotun_upper
-l_pads,players/gladiator/panzerjotun_upper
-l_HUDpro,players/gladiator/lasersmoke
+l_upper,players/gladiator/panzer_upper
+l_lower,players/gladiator/panzer_lower
+l_claw,players/gladiator/panzer_upper
+l_pads,players/gladiator/panzer_upper
+l_HUD,players/gladiator/miniscreen2r
+l_HUDpro,players/gladiator/lasersmoker
+l_head,players/gladiator/default_head
+h_head,players/gladiator/default_head

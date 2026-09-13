@@ -1,3 +1,3 @@
-h_eye,players/gork/upper_default
-u_upper,players/gork/upper_default
-l_lower,players/gork/lower_default
+h_eye,players/gork/default_upper
+u_upper,players/gork/default_upper
+l_lower,players/gork/default_lower

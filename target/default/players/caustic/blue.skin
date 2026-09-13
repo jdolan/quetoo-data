@@ -1,8 +1,8 @@
-l_legs,players/caustic/body_blue
-u_torso,players/caustic/body_blue
-u_larm,players/caustic/body_blue
-u_rarm,players/caustic/body_blue
-u_fur,players/caustic/fur_default
-h_head,players/caustic/body_blue
-h_fur1,players/caustic/fur_default
-h_fur2,players/caustic/fur_default
+l_legs,players/caustic/blue_body
+u_torso,players/caustic/blue_body
+u_larm,players/caustic/blue_body
+u_rarm,players/caustic/blue_body
+u_fur,players/caustic/default_fur
+h_head,players/caustic/blue_body
+h_fur1,players/caustic/default_fur
+h_fur2,players/caustic/default_fur
