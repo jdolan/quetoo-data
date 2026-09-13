@@ -1,0 +1,5 @@
+{
+	diffusemap players/sarge/red
+	normalmap players/sarge/default_norm
+	specularmap players/sarge/default_spec
+}
