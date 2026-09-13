@@ -1,0 +1,37 @@
+
+12-15-00
+================================================================
+Model Name              : Cruentus
+installation directory  : quake3arena/baseq3
+Author                  : Demon
+Skin Authors 		: KingofDaveness, Admiral Lilwall, Khasmo, DarkRose
+Email Address           : snifter42@hotmail.com
+
+Model description       : The second of the Demon Lords to arise.  And probably the last unfortunately.  He is my second model for q3 and has been sitting on my back burner for a long ass time.  But now it's time to let him go.  Hope you all like it
+
+
+Other info              : he's just cool
+
+Additional Credits to   : Popnfresh, Npherno
+================================================================
+* Play Information *
+
+New Sounds              : Uses orbb sounds
+CTF Skins               : yessiree
+
+
+* Construction *
+Poly Count              : 990
+Skin Count              : 6
+Editor used             : 3DS Max 3.1
+Known Bugs              : none
+Build/Animation time    : in my copius free time over 3 months
+
+
+* How to use this model *
+
+just unzip the md3-cruentus.pk3 into your baseq3 directory and you're good to go.
+
+* Copyright / Permissions *
+
+QUAKE(R) and QUAKE II(R) are registered trademarks of id Software, Inc.

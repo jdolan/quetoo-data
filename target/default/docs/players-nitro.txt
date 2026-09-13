@@ -1,0 +1,71 @@
+
+================================================================
+
+
+Description             : Robot d'infiltration "N2"
+                          Consortium Nitro-Prouny                      
+                          
+
+Auteur                  : r.gyrus 
+                          jyr@voight-kampff.org
+                          www.voight-kampff.org/gyr
+
+
+Textures                : modifications de textures de Quake3
+                          (Lucy, Major, Keel, Tank Jr, Crash, Angel, Bitterman...)
+                                           
+                          
+Merci                   : ID Software
+                          Polycount
+                          
+                          
+================================================================
+
+*Information *
+
+
+Sons                    : oui
+
+
+CTF                     : oui
+
+
+bot                     : oui 
+                          
+
+
+* Construction *
+
+Poly Count              : Nitro  : 1050
+                          LOD2   :  815
+                          
+
+Logiciels utilisés      : 3dsmaxR3 + C.Studio
+                          Pop n'fresh plugin
+                          Photoshop
+                          Npherno md3 compiler
+                          Quake3 (Asus Geforce 1280/1024)
+
+
+
+------------------------------------------------------------------------
+
+COPYRIGHT / PERMISSIONS
+
+QUAKE(R) and QUAKE III Arena(R) are registered trademarks of id Software, Inc.
+r.gyrus
+
+------------------------------------------------------------------------
+
+
+* How to use this model *
+<INSTALLATION INFO>
+Unzip q3a_nitro.zip in the baseq3 folder.
+
+
+
+
+
+
+
+

@@ -1,0 +1,184 @@
+03/20/02   Do not repack this model for any reason!
+/-----------------------------------------------------\
+---[ Q4 Gladiator Player Model for Quake III Arena ]---
+\-----------------------------------------------------/
+ |                                                   |
+/-----------------------------------------------------\
+
+A few words from Per128...
+
+---[ Whois ]---[ Per Abrahamsen / Per128 ]---  
+---[ Email ]---[ per@n-en.com ]---
+---[ Web   ]---[ www.polycount.com/cottages/pixelated ]---
+
+---[ Optimised mesh and new UV-maps ]---
+
+I found a model on one of my visits to the polycount forums that I felt
+looked cool and skinnable. Upon downloading the sdk, though, Flaws in the
+making of the mesh and skinmaps stopped me from being able to draw a texture
+for it, which was a shame as the main bulk of shape was very nicely blocked
+out. Then what started out as a helping hand to MoP turned into to something
+else.. I took it upon me to redo most of the model, all the uvmaps, and get
+the brothers Grim involved in the project, and the result came to be one of
+the most popular in-progress ppm's on polycount.com in quite a while. The
+discussions around and the people involved with this project escalated..
+unfortunately I couldn't partake much since the initial work was done, but
+it's been fun watching this baby grow, and has it ever! Great job from
+everybody involved!
+
+---[ Per Abrahamsen / Per128 ]---
+
+\-----------------------------------------------------/
+ |                                                   |
+/-----------------------------------------------------\
+
+A few words from MoP...
+
+---[ Whois ]---[ Paul Greveson / MoP ]---  
+---[ Email ]---[ paul@greveson.co.uk ]---
+---[ Web   ]---[ www.titaniumfrag.freeserve.co.uk/news.html ]---
+
+---[ Model and original rubbish UV-maps :) ]---
+
+Well, I'd like to thank people, but if I listed them all I'd be here all week. Gigantic thanks to Per128
+and the Brothers Grim for picking up my sorry-looking project and throwing it to the top of the Q3 player
+pile... Without those guys, this model would have just been an average, nothing-special PPM which would
+probably have disappeared over time. Now, I hope it will strike fear into the hearts of Quake3'ers everywhere :)
+
+Also large thanks to HyPer for indirectly tutorialising me on the ways of mesh construction and UV-mapping
+(which I'm much better at now, incidentally), and to all the people in #model_design on ETG, and all the nice
+fellows in #q3mods on irc.telefragged.com for keeping me happy in my old age. And let's not forget EvilD from
+CroTeam (of Serious Sam fame), who popped up unexpectedly with an amazing skin for us, and he kindly did the Red
+and Blue CTF variants (which also look damn cool).
+
+This is a model and a project which has taught me a hell of a lot - my modelling, skinning and skinmeshing skills
+have increased greatly since going through with this, so look out for future models from me :)
+
+Erm, I would have included my Chaos skin for this pack, but I've been too busy to get it finished (and the fact
+that my skinning techniques changed since it took so long for me to do it...I think I'll start again from
+scratch and release it as an add-on skin, maybe along with Per128's skin if he gets time to finish it.)
+
+---[ Paul Greveson / MoP ]---
+
+\-----------------------------------------------------/
+ |                                                   |
+/-----------------------------------------------------\
+
+A few words from the Brothers Grim. Heh ;)
+Animations, Sounds, Shaders, bots files and into the game.
+Who:         Mike and Bill Jukes / aka The Brothers Grim   
+Email:       Mike3d@mindlessgrafx.com 
+Web:         www.mindlessgrafx.com 
+
+---[ Animations , Sounds, Shaders, bots files and into the game. ]---
+
+Place in your baseq3 dir and bring down console to set your /com_hunkmegs 150  then /vid_restart
+Thats only if you get bumped out of Quake3 trying to load Q4Gladiator.
+
+We would like to start off by saying thank you to the polycount community in general for your support
+and crits during our contribution to this model. A few in particular Wrath and skullbox,  for your
+suggestions on what you saw in the animation's and had a direct influence on the outcome skullbox mainly
+for the weight issues and Wrath for that also, along with giving us the idea on the punch action on walk 
+and run. James harlyquinn taylor for bringing to our attention the animated icon which was originally seen
+in his all-american-hero skin although the beta version did not work for us. We used the idea for warning sign icon on the high detail Q4gladiator. Thankx goes to Ogro and Magarinal..  and a big thumbs up to
+Paul Jaquays for his technical support, and really constantly being there for the entire quake community,
+a solitary voice which carried our thoughts to the heart of id. He fought hard for you all ;) We wish him
+all the  best at his new job.
+
+Now comes the Q4Gladiator:
+We have included 2 versions of the character one to look at as we envisioned it named Q4Gladiator.pk3
+And a low version Q4Gladiator_Lo which consists of approx. 2000 fewer frames of animation and smaller
+Skin files along with shorter sounds. You could actually get around the game pretty comfortable with this 
+Smaller version of Gladiator.
+--------------------------------------------------------------------------------------------------
+There is a special .cfg file that will extend the respawn time that allows you to see the long death 
+animation's play in the HUD. This .cfg file will also place the gladiators weapon on your shoulder so you 
+get more of the gladiator feel.  It will also load a model viewer which works off the standard 5 on the 
+keypad, use 4 and 6 to rotate around and 8 & 2 to zoom in and out.
+You will first have to bring down the console and type /devmap Q3dm17 or what ever level you want to get
+Cheats enabled then type the .cfg file name /exec Q4   you will notice the gun immediately jump to your 
+right shoulder. The death sounds are quite long and if you wish to respawn quickly they will continue to 
+run. We have taken care of that as well by binding K on your key pad to KILL the death sounds only.
+The low version has short sounds and is not necessary but is included in the pk3.
+Gun position is cheat protected so you have to /devmap "mapname" to make it work.
+---------------------------------------------------------------------------------------------------
+You already know the Q4Gladiator comes with his own custom weapon but we have also included a 
+custom gauntlet that will flip up the front barrel of the gun and drill down your enemies. 
+We also gave him a custom hologram location device that he uses to locate his enemies that he will turn on 
+from time to time in the idle animation. In the High version of the model you will notice that the gladiator 
+will practice working on his weapon handling skills.
+There is also custom foot steps which sound differently than the stock mech footsteps, they are named
+snd-Q4Gladiator-footsteps.pk3. Place them in the baseq3 dir, they will override the stock mech footsteps 
+you can easily add or remove them because they are a separate pk3 file. 
+This was a nice model to work on we learned a ton and we hope you all enjoy it as much as we do. ;)
+
+:Some technical notes about adding additional CTF skins to quake3 arena:
+There are extra CTF skins available in Q4Gladiator this explains how we did it.
+This is just our version on how to add the new selectable ctf skins.
+For this example I will be using the TIMEX blue skin as the additional CTF blue in the HI version.
+1)Create an extra directory off the main directory of your model
+e.g /models/players/Q4Gladiator/TIMEX_blue  a special skin file goes in here.
+2) Add one file in the newly created directory. Head_blue.skin.
+The name is different from the one that goes in the main dir explained in the next
+step but they have the same contents.
+3) You will now need 2 sets of complete skin files in the main directory /models/players/Q4Gladiator
+The first will be what quake3 will read in the select screen the second set will be what quake3 needs to
+Read for ingame CTF play. 
+To make sense of which added skins are available for CTF i used the "_blue" naming convention.
+head_TIMEX_blue.skin, head_TIMEX_blue_blue.skin, lower_TIMEX_blue.skin, lower_TIMEX_blue_blue.skin,
+upper_TIMEX_blue.skin, upper_TIMEX_blue_blue.skin
+The skin files in head, lower, upper are identical. Just a little crazy redundant, but hey it works.
+Now add the icon_TIMEX_blue.tga in the main directory /models/players/Q4Gladiator
+If you would like to do Red CTF just repeat 1-3 and substitute red for blue. 
+Simple enough, go into your favorite CTF level and pick the new additional _blue skin ;D 
+
+Known Bugs:
+Lightning gun trail in sky, This is due to throwing the tag weapon so far off screen as to hide the weapon.  We have included a pk3 that will hide the lightning gun trail.
+Q4Gladiator-No_Trail_lightninggun.pk3
+
+The Q4Gladiator was compiled with popNfresh in conjuction with Npherno. 2,812 total frames at 15fps.
+Fhew... that was as short as we could possibly make it. 
+
+
+---[ Mike and Bill Jukes / The Brothers Grim ]---
+
+\-----------------------------------------------------/
+
+Skinning TEAM
+BIG SKINNING THANKX GOES TO:                    SKIN NAMES:
+
+François-Xavier Delmotte [ogro@planetquake.com] OgroFix Default and Ogro_red skins
+Web: http://www.planetquake.com/pandemonium 
+
+
+Mat Ferguson [arco2002@hotmail.com] ARCO        Arco skin 
+Web address: www.polycount.com/cottages/genq3/
+
+mike winder [mikew@firetoads.com] DUR           DUR_red skin CTF skin
+
+
+Dinko Pavicic [dinko99@softhome.net] EvilD      EvilD and Red/Blue CTF skins
+Web address: http://www26.brinkster.com/evild/
+
+gutboy@btinternet.com  Gutboy                   Tweety-bird Skin
+http://www.planetquake.com/polycount/cottages/gutboy 
+
+glenn@cglenn.com - Glen                         PanzerJotun Skin
+web: http://www.cglenn.com 
+
+timex@gargore.com                               TIMEX_red / TIMEX_blue CTF skins
+Web address: www.gargore.com  Timex  
+
+              
+
+* Play Information *
+Custom Animation Yes 
+New Sounds:	 Yes
+CTF Skins:	 Yes
+Bot              Yes
+
+
+/-----------------------------------------------------\
+* Copyright / Permissions *
+QUAKE(R) and QUAKE III Arena(R) are registered trademarks of id Software, Inc.
+Do not repack this model for any reason!

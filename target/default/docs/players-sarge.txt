@@ -1,0 +1,62 @@
+
+SUW Captain Otherian the 3rd, Exterminator of the Mons.
+
+At 6 years old Otherian had is first encounter with the Mon, his family ripped from him, taken to a Mon offworld to 
+be used as seen fit by Tark the Mon Overlord. He himself escaped by hiding under the dead, however he did not escape 
+untouched. Some type of Mon Virus had infested his system, probably contracted through the dead in which he had 
+hidden. This virus gave him the ability to know where the Mons are,a kind of 6th sense, Which he now uses to guide
+him and his Men to where they are. In the hope that one day he will meet Tark and avenge his family. But time is 
+Short and the virus is spreading quick, Only he know what he is becoming.
+
+Quote
+
+"If you see a Squid face the best thing to do is stick your rail in its face and pull the trigger."
+
+" I will purify this universe, in the field or in the Arena. The Mon must be exterminated, No Man or Mon will
+prevent me from this."
+
+Place Suwcap.pk3 file into the baseq3 folder.
+
+Also you may need to create a Baseq3/models/players/Suwcap if you are having problems
+seeing the icons in the characters select screen.
+
+Feb 20, 2000
+================================================================
+Model Name:		Suwcap
+Pack file:		baseq3/Suwcap.pk3
+Author:			ALPHAwolf
+Skin Author:		ALPHAwolf
+Shaders 		Npherno
+Sounds                  ID Software "Grunt"  
+Email Address:		ALPHAwolf@Planatquake.com  ALPHAwolf@Wolfdenstudios.com
+
+                        http://www.planetquake.com/Q2pmp/hostings/Alphawolf/
+
+                        Http://www.Wolfdenstudios.com
+
+Model description       : Captain of the Special Unit Warriors.
+
+================================================================
+Game ideas..
+Now that Auto Downloading is Available in the lataest point realease,it would be possible to set up your server for team games with
+SUWs v's Mons, or CTF games too. 
+================================================================  
+
+
+
+Additional Credits to   : id Software 
+
+
+Thanks to:
+Npherno for the tools and help.
+
+And the people that help me test it..:)
+
+I am Also Available for Contract work through my Studio.
+please stop by and take a peek.
+
+Http://www.Wolfdenstudios.com
+
+================================================================
+SUW troops on the way.....
+

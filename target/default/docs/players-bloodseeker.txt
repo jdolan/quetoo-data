@@ -1,0 +1,117 @@
+
+Bloodseeker Player Model, created for Quake 3: Arena. Readme compiled by Jason Seip (bonemonkey@enter.net).
+
+I am looking to get hired as a modeler/animator if anybody needs full-time or freelance support. Just thought I'd sneak in a plug for myself. =)
+
+
+<01/27/03>
+=======================================================================
+
+Model Name				"Bloodseeker"
+
+Concept/3D Model/Skinmap/Animations	Jason Seip 
+					<bonemonkey@enter.net>
+
+Skins					"CTF Blue and Red" by:
+					Arco
+					<arco2002@hotmail.com>
+
+					"Mercury" by:
+					Fardreamer
+					<oscar.bergh@telia.com>
+
+					"Chrome" by:
+					Fardreamer (skin)
+					Jason Seip (shaders)
+
+					"Bloodseeker" default by:
+					Arco (CTF Blue skin elements)
+					Fardreamer (Mercury skin elements)
+					Jason Seip (compilation and shaders)
+
+Sounds					"Borrowed" from the following:
+					Take No Prisoners
+					Shadows of the Empire
+					HeadHunters3 mod (Boiler model)
+					SiN
+
+Additional Credits to:   		id Software, creaters of Quake3  
+					
+
+=======================================================================
+
+Model Description and Info:
+
+New Sounds              : YES
+New Model		: YES
+New Animation		: YES
+CTF Skins               : YES
+Bot Enabled		: YES
+Poly Count              : 1651 polys
+Skin Count              : 3 DM, 2 CTF
+
+Tools Used:
+3D Studio Max Release 3
+Photoshop 6.0
+Pop 'n Fresh md3 Exporter for Max
+NPherno's md3 Compiler
+
+
+=======================================================================
+
+Installation and Usage:
+
+Unzip the files to the "baseq3" folder under your Quake3 folder using folder names. This will put "md3-bloodseeker.pk3" and "md3-bloodseeker.txt" in the baseq3 folder. It will also create a models/players/bloodseeker/ folder with the "md3-bloodseeker.txt" in that as well. I did this because Bloodseeker doesn't seem to show up in the player model selection screen unless there is a specific player model folder created for him. I don't know why some models need this, but Bloodseeker seems to be one of them. When you start Quake3 again Bloodseeker will appear in your model selection menu.  You can also choose to use Bloodseeker as a bot (only the default Bloodseeker character is supported for this).
+
+
+=======================================================================
+
+Origin:
+
+Bloodseeker was a last-ditch attempt by the Strogg to make a cybernetic soldier that could rival the human marines in speed and weapon mastery. His right arm is a "weapon harness" that can hold various types of armament, allowing him to switch weapons mid-fight. This made him unpredictable and deadly. Unfortunately for the Stroggs, his creation came too late to affect the war with the humans. Seeing his potential for combat, the gods of the arenas stole him from his creators, forever imprisoning him in the field of battle.
+
+Bloodseeker started off as an idea for a Quake2 monster that could actually switch weapons the way a player can, kind of like a deathmatch bot but in single player mode. He is a cybernetic skeleton/zombie, fitting in with Quake2's theme. When I decided to make him for Quake3 Arena, I changed his design to make him less of a lumbering brute, and more of a fleet-footed killing machine. The name comes from the expression "dry as a bone". I figured since he was mostly bones, Bloodseeker would have a thirst for blood, to replace that which he no longer possessed.
+ 
+
+Model Info:
+
+Bloodseeker was my attempt at making a complicated model with a LOT of animation. The upper/lower body standing idle sequences are quite long, and are different lengths so that the character effectively never repeats his motion. It worked very well overall, with minimal clipping issues. The pistons were done using Max's default bones added to the character studio biped. The hardest part may have been separating the torso of the model from the legs/hips. I had to add an additional piece to mount the pistons on, but I think it worked pretty well. The only thing I don't like about the model is his profile from the front. His legs and arms come off looking skinny, and he doesn't have the same impact as when viewed from the side.
+
+I made some LOD (Level of Detail) models for use with the model, but decided against including them for a couple reasons. First, with so much animation the base md3 files are already big, and adding LOD's raised the filesize of the pk3 to 22.5MB(!). And that was if I included them with maximum compression. The second reason is that with today's processor speeds, I just don't think Bloodseeker's lack of LOD models is going to be the factor that makes the game crunch. If you REALLY want the LOD's, email me. So I can laugh at you. =)
+
+
+Skin Info:
+
+Fardreamer and Arco did an admirable job of deciphering Bloodseeker's skins. He's a complicated model, spread out over 3 skin maps. If I were to do it again, I would definitely reduce the number of seams in the skins. Trying to get all the surfaces as "flat" as possible ultimately made skinning Bloodseeker seem like a mammoth task. The default skin I made was pieced together from Arco's and Fardreamer's skins, with a couple edits here and there to add things I wanted to see. I think it works *just* well enough to stand on its own and be the default skin.
+
+
+Bot Info:
+
+Bloodseeker "speaks" using the same dialogue lines as another player model I made called R7. She used hisses and broken speech and I think it works just fine for Bloodseeker. Frankly, I don't give much thought to what the bots are saying as I blast them, so I didn't feel like spending time on creating new dialogue. As for fighting skills, Bloodseeker has a penchant for using the rocket launcher. It just looks right in his weapon harness.
+
+
+Sound Info:
+
+All the sounds were taken from games/projects that have been released for sometime, so I don't think they should do any disservice to the creators. If anyone responsible for the original creation of these sounds objects, I will remove them. Artistically, they are about as close as I could get to the feel I wanted without creating all new sounds. Bloodseeker's concept was as a cybernetic skeleton/zombie, so the sounds feature a combination of animal-like organic yelps and cold-metal clangs. The wind that plays when you fall off a cliff was an experiment I thought worked reasonably well.
+
+
+=======================================================================
+
+Bugs:
+
+- The model files are pretty big because they have a lot of animation in them. If you try to start a game with Bloodseeker and get knocked back to the main menu, it may be because he's demanding too much memory. Exit the game and open up the file called "q3config.cfg" in a text editor (this file is located in the Quake III Arena/baseq3 folder). You need to edit the line "seta com_hunkMegs "XXX". This line tells the machine how much memory to allocate for Quake3, and should obviously be less than the total amount of RAM you have. For reference, my computer has 512Megs of RAM and I have this line as seta com_hunkMegs "128" and the game works fine with that.
+
+- Not a bug, really, but Bloodseeker stands a little too tall for a player model. I wanted him to look big but he's a little TOO big. Shots to the head may not register as hits. Sorry.
+
+
+=======================================================================
+
+* Copyright / Permissions *
+
+The character Bloodseeker is an original concept of Jason Seip.
+
+QUAKE(R) and QUAKE III Arena(R) are registered trademarks of id Software, Inc.
+
+This model may be freely distributed UNALTERED.  Which means, you can't pull 
+the readme file out of the zip,or add your own stuff to it and pass it along 
+as your own!

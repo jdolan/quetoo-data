@@ -1,0 +1,51 @@
+
+<10/20/01>. 
+=========================================================================
+Model Name:		 "Violator128.pk3"
+
+Author Mesh & Skins:     Per 'Per128' Abrahamsen 
+Web address:             http://www.n-en.com  
+Email 		         per@n-en.com   
+
+
+Authors:
+Animations, Sounds       Mesh, Mike and Bill Jukes
+Web address:             www.mindlessgrafx.com  
+Email 		         mike3d@mindlessgrafx.com 
+
+Concept:                 Based on photos of the Spawn series 20 violator figure
+                         914 faces, fligz. I believe this was my first modeling attempt..
+                         was made april 2001 
+
+info:                   The Violator is simply the Clown in demon form. Violator
+                        possesses unlimited strength and agility, and has a really
+                        short temper. The Violator and Spawn have fought several times,
+                        but no one ever seemed to come out on top. There are many other
+                        demons called Violators, but this one Malebolgia values the most.
+                        He is the most vicious and cruel. He has this attitude because
+                        Malebolgia first said that he wasn't good enough to lead his army
+                        against the forces of Heaven.
+
+==========================================================================
+
+The Brothers Grim say a few words:
+
+This is a beautifully constructed model, we found it to deform perfectly ;) Per128 did
+a fantastic job for a first time mesh;) Notice the segmentation it almost looks like a
+solid 1 piece mesh "Clever"  and the default skin WoW! I don’t have to say 
+much, you all know how talented this guy is when he puts his heart into it. 
+So when he asked us to animate it we just couldn’t pass this guy up. ;) 
+Thumbs up again Per128 you got a nice one here. Please download the newest point
+release 1.30 www.quake3world because we are using fixedtorso in the animation.cfg
+
+==========================================================================
+*Information *
+
+Polycount:    914
+CTF           Yes
+bots          Yes
+Custom sounds Yes
+
+* Copyright / Permissions *
+The character Violator is copyright Todd Mcfarlane www.spawn.com.
+QUAKE(R) and QUAKE III Arena(R) are registered trademarks of id Software, Inc.

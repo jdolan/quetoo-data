@@ -1,0 +1,150 @@
+
+<2/2/01> Please do not repack this file for any reason.
+================================================================
+Model Name:		"Creech"
+
+Authors:	       Mesh , Animations, Sounds, Shaders	
+Mike and Bill Jukes    "Brothers Grimm"
+Web address:           www.mindlessgrafx.com
+Email Address:	       mike3d@mindlessgrafx.com
+Quake3 skin name:      Glacier
+Team Arena skin name:  Intruders
+  
+Skin Author:           Matt "Arco" Ferguson
+Email Address:         arco2002@hotmail.com
+Web address:           www.polycount.com/cottages/genq3/
+Quake3 skin name:      Creech default and Blue team skin
+Team Arena skin name:  Pagans
+
+Skin Author:           James "HarlequiN" Taylor
+Web address:           www.polycount.com/cottages/qbranch/
+Email Address:         harlequin@planetquake.com 
+Quake3 skin name:      Monturo
+Team Arena skin name:  The Fallen
+
+Skin Author:           Brian "Bobotheseal" Jones
+Web address:           www.3dpalette.org/~bobo/
+Email Address:         Bobotheseal@hotmail.com
+Quake3 skin name:      Tourinus
+Team Arena skin name:  Crusaders
+
+Skin Author:           "Jan  Lyew"
+Email Address:         res049sw@gte.net
+Quake3 skin name:      Trank
+Team Arena skin name:  Stroggs
+
+Special Thanks to:
+We would like to thank Arco, Harlequin, Bobotheseal and Jan, for all their
+hard work in making the fine Creech skins. It was great to work with you guys
+your talents are greatly appreciated.
+
+Model description:       "Creech"
+
+"Through the combination of genetic material borrowed from both alien 
+and human sources, The Creech is an in vito engineered life form. He is the 
+science of cloning's epitome of achievement. Extreme measures where taken 
+when creating The Creech's mind. He was raised in complete isolation where 
+only controlled data was fed into his brain. Such carefully chosen bits of 
+information enable him to function on a much higher level of consciousness 
+than normal. The result is a eing that, although lacking sentience, 
+possesses a mind untainted by the concept of limitation, the absence of 
+which in turn removes all physical limitations."
+
+This Creech model was suggested by Arco, one of the skinners who worked with us 
+on him. We considered doing Creech because of his interesting characteristics, 
+one being his head is part of the torso and sticks out the center of his chest, 
+accompanied with the flowing hair tendrils just added to the fun and would work
+great with the hidden head technique. We noticed from the original pictures sent
+to us by Arco that it looked like his boots might fire off like jet boots, so he
+seemed like an all around fun project. ;) After trying and failing to get a PPMs
+correctly into Team Arena we were forced to do the next best thing. A mini conversion
+for Team Arena that would not be considered a conventional PPM. What we did was 
+completely removed the James character and replaced him with Creech we also did 
+over 500 custom sounds that are being used for the head models. We wanted Creech
+to have a voice that sounded monster like but still be audible.  The Team Arena skins
+That were done are different from the quake 3 skins there more colored for the game.
+With this model in Team Arena no head models can be changed in game you will only 
+notice the new head model in the HUD and the voice will change. 
+This pk3 should work with pure server and team arena demo.
+
+The animations:
+
+The animations are all custom we used over 700 frames of animation on Creech.
+This was not possible with the old Q3data.exe converter because it would crash at
+Over 510 frames but we got our hands on a new converter that we have tested 
+to over  850 frames so it looks like it is unlimited one thing to note is that when
+doing an export of the ASE file you will have to put a zero for the last digit in the
+qdt file to export correctly because it will ask for the first frame of head animation.  
+This is still an unknown and we will be looking into it.
+Hope you all can do some fun animations with out restrictions.
+Example: Creech.qdt  file
+$aseanimconvert models/players/Creech/Creech.ase   -playerparms 130 390 0 
+you can get it here http://www.mindlessgrafx.com/Q3data-JukesBros.exe
+
+
+Back ground story for "Monturo" skin by: James "HarlequiN" Taylor
+We liked the story so we thought we would put in in. ;)
+
+Specimen 218 looked up to the sky and saw the moon for the first time, framed silver in a halo of clouds.  
+A momentary diversion, it seemed to last a lifetime.  The spell was broken by the crack of a twig behind 
+him, and he was running once more...
+
+The lab in which he'd spent most of his life was long behind him now, but the soldiers followed him still, 
+he was a prize they could ill afford to lose.  Out of 220 genetic mixes, only 218 had lived to reach maturity.  
+He had been well treated for a time, his wishes mostly granted, music in his quarters fulfilling his love of 
+Metal music, clothes in the styles he chose tailored to fit his massive frame, though band T-shirts were out 
+of the question, for obvious reasons.  When it reached 18 years of age though, things began to change.  The 
+head of the genetics lab regrettably passed away leaving his position to a bureaucrat more interested in how 
+much the specimen cost them than what it's needs might be.  It's quarters were locked and it was left to rot 
+in it's own filth.
+
+Time passed, and far from becoming tamed by it's incarceration 218 became determined to escape.  Months 
+of hard work honed its muscles and reflexes, months of living in it's cell hardened it to disease.  Eventually 
+it was ready to make its move.
+
+The guard was taken by surprise as the seemingly lifeless creature rose up from its sickbed and grasped him 
+by the throat - he did not have time to feel another emotion.  218 had of course been feigning its illness, and 
+now it had  its chance.  The alarms did not rig until the Guards body was discovered 1twelve minutes 
+later...
+
+For another hour the creature ran, smashing through ranks of trees, wading through swamp.  The pursuers 
+trailed him still.  "Enough" it thought - it's mind more acute than his jailers had thought, now it was time to 
+stand and fight.  Turning to face the dogs that had reached him first he flexed his muscles and prepared for 
+this attack.  No longer "it" - he was "he", no longer "specimen" - he was MONTURO.
+
+James "HarlequiN" Taylor
+
+
+A few words now from "Jan  Lyew" skin author of "Trank"
+
+Skins description:  This is a skin of my own creation for the excellent Creech player model. I made this as a 
+thank you to the Brothers Grimm for animating the Judge Dredd model. Thanks again, guys!
+
+Sure we had more to write but we thought we would keep it short he he..  
+Brothers Grimm  
+
+
+|=33|_ 50|\/|37|-|1|\|6 4641|\|                          
+================================================================
+* Play Information *
+New Sounds:	Yes
+CTF Skins:	Yes
+Bot support     Yes
+
+
+* How to use this model *
+<INSTALLATION INFO>
+Creech for Quake 3 arena
+Unzip Creech.pk3 and bot-Creech.pk3 in the baseq3 folder.
+
+Creech for Team Arena
+Unzip pack99Bros-Grimm.pk3 in the Mission pack folder.
+
+
+* Copyright / Permissions *
+QUAKE(R) and QUAKE III Arena(R) are registered trademarks of id Software, Inc.
+Creech character copyright by Greg Capullio.
+
+This model may be freely distributed UNALTERED.  Which means, you can't pull 
+the readme file out of the zip, or add your own stuff to it and pass it along
+as your own! Please do not repack this file for any reason.

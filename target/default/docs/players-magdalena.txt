@@ -1,0 +1,88 @@
+September 22nd 2001
+================================================================
+Model Name              : Magdalena
+installation directory  : quake III Arena/baseq3
+
+Model			: Bastiaan "SkullboX" Schravendeel
+
+
+Animations		: Bastiaan "SkullboX" Schravendeel
+			  SkullboX@planetquake.com
+			  http://www.planetquake.com/polycount/cottages/skullbox/
+			  
+
+Skin default/maynard	: Jason "Dark_Horizon" Sallenbach
+			  dark_horizon_hl@hotmail.com
+			  http://www.planetquake.com/polycount/cottages/darkhorizon/
+
+
+Skin le_Chuk		: Eyal "shotgun" Shoham
+			  shotgun@netvision.net.il
+			  http://www.planetquake.com/skingun
+
+
+Skin red/blue		: David "Kingofdaveness" King		        
+			  kingofdaveness@yahoo.co.uk
+			  http://www.dazking.com
+
+
+Skin albert		: Scott "Marine" Sissons
+			  marine@subdimension.com
+
+
+Skin eier_von_satan	: Paul "SouL" David
+			  soul@polycount.com
+			  http://www.planetquake.com/polycount/cottages/souldesigns
+
+
+Model description       : 
+
+
+Magdalena is my second released Player model for quake3. The name is from an 'A Perfect Cirle' song, which I was playing when I first saved the model, and I needed a name. It got stuck to it. Magdalena is what came out of a project that Bobotheseal and I were going to do, he unfortunatly had to drop out in the design stages but he left me with the idea of making a character with big arms, that supported most of it. I was very pleased about the outcome of the model I modeled pretty fast.
+
+The animations were the first set I ever did with Max4 bones, they're awesome to work with. After about 5 different setups I animated Magdalena, and here is the final result. The animations are a little excessive, and perhaps a bit high on framecounts. It runs pretty good in game, mainly because of the LODs. The Deaths will look a bit weird on opponents, because of the long length, but when you die as a player, they look as they should. I wish I had done some more with the upper body (the turret) so I could have made a better taunt and other anims for that. It didn't turn out too bad though.
+
+The skin all turned out great thanks to the awfully talented skinning team. Dark Horizon made default, and pretty much made that skin about as I had it in mind, but alot better. The other skins are all awesome, and different, just as I hoped.
+
+
+Thanks to               :
+
+Big thanks to the skinners for making this release possible, especially Jason, for making 2 skins, doing custom sounds and the mapping. I'd also like to thank Anders "Susse" Anderson for commenting my work, and supporting me and Bobotheseal for originally starting this project with me. Finally, a big thanks goes out to everybody at polycount (www.polycount.com) and the boards, with rogue especially for running the whole thing.
+
+
+
+================================================================
+* Play Information *
+
+New Sounds              : Yes, Jason kicks ass!
+CTF Skins               : yes
+LOD			: yes (1583, 1082, 725)
+New anims:		: All the anims are custom built with a max4 skeleton.
+Bots			: Magdalena (default)
+			  Judith (red)
+			  Orestes (blue)
+			  Brena (Maynard)
+			  le_chuk (le_chuk)
+			  Renholder (eier von satan)
+			  Thomas (albert)
+
+
+* Construction *
+Poly Count	        : 1583 (1460 + 123 for hidden hud_head)
+Vert Count              : 867 Verts
+Skin Count              : 7
+Base                    : new model
+Editor used             : 3D Studio Max 4, physique, Q3data, Npherno's MD3 Compiler, Photoshop
+Known Bugs              : no
+Build/Animation time    : 2 months working on and off.
+
+
+* How to use this model *
+
+Just put the md3-kern.pk3 file in your baseq3 folder and set /com_hunkmegs to something higher if necassary.
+
+* Copyright / Permissions *
+
+Quake III Arena is a registered trademark of id Software, Inc. 
+
+Don't modify this model or any of the skins (this means using one of the existing skins ass base aswell) and distribute it without asking permission of the rightfull authors. If you make additional skins please drop me a note: SkullboX@planetquake.com

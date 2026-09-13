@@ -1,0 +1,55 @@
+June 2001
+================================================================
+Model Name:		Caustic
+installation directory:		quake3/baseq3
+Author:			Justin "Odd" Hayward
+Skin Author:		Justin "Odd" Hayward
+Email Address:		scrubjay333@yahoo.com
+
+Model description:		
+A ancient combat cyborg unit and an alien wizard of a little-known species.
+
+Other info:			
+Sounds are by the talented Mark "Bar-B-Q" Klem  ( bar-b-q@c-gate.net ) ; animations are a modified Grunt set.
+
+Additional Credits to:	
+id Software (game, sounds, bot scipts and chats); Paul Steed (animations). 
+
+Author's notes:		
+Be SURE to read "story.txt" for a little background on each of the creatures found here. 
+Although this model has been gathering dust on my hard drive for almost a year, I had fun with this one. I got to grapple with shaders and wrestle with Level-of-Detail.  Again l went with some slightly altered stock Q3A animations and bot scripts mainly because I simply wanted to get this model completed and was concentrating on the modelling and the skinning. 
+As far as modelling goes, I was aiming for a "lean" efficient model polygon-wise and making a strange, distintive character while still maintaining a humanoid shape. Custom animations would certainly have contributed to the uniqueness of this character, but like I said, at this point I just want to get him off my hard drive.
+The sounds were created by Mark "Bar-B-Q" Klem of Silicon Ice Development, makers of the Q3 mod "Urban Terror".
+Enjoy and please let me know what y'all think.
+
+
+Thanks to :		
+Mark, Abraham Lincoln, Jim Henson and the the riff-raff down at the Polycount message boards.
+
+================================================================
+* Play Information *
+
+New Sounds           	  : Yes
+CTF Skins             	  : Yes
+
+* Construction *
+Poly Count             	 : 762
+Vert Count             	 : 531
+Skin Count             	 : 4
+Base                   	 : new model
+Editor used            	 : 3d Studio Max, Photoshop, Paint Shop Pro, Q3data
+Known Bugs             	 : none
+Build/Animation time    : Oh, WAY too long. (3 months, maybe)
+
+
+*Installation *
+
+Unzip into your "baseq3" directory or unpack and place "MD3-Caustic.pk3" in the "baseq3" directory.
+
+* Copyright / Permissions *
+
+QUAKE(R), QUAKE II(R), and  QUAKE 3 Arena(R) are registered trademarks of id Software, Inc.
+
+This zip file and all contained may be freely distributed , UNALTERED .Under no circumstances can it be used for any commercial purpose without express permission .
+
+

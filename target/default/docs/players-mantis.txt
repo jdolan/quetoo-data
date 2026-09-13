@@ -1,0 +1,51 @@
+August 1, 2000
+================================================================
+Model Name              :Mantis
+installation directory  :quake3/baseq3
+Author                 	 :Odd
+Skin Author	 :Odd
+Email Address           : scrubjay333@yahoo.com
+
+Model description      : A predatory alien on the hunt. My 1st Q3A model.
+
+
+Other info             	 : Sounds and Bot script are from Uriel; Animation is a modified Doom set; 		 	Chat script is modified from Sorlag
+
+Additional Credits to   : id Software (game, sounds, bot scipts and chats); Paul Steed (animations); 
+
+Thanks to              	 : The riff-raff down at the Polycount message boards for answering my (almost) daily 		questions. 
+
+Author's notes	:
+This model is my first game model. I've done a little 3d modelling and 2d work prior to this, butalmost no low-poly work. The model is insipired by the alien in Predator (one of my faves). I think the model screams out for some custom shader work, but I didn't get a chance. It was my first time using the Unwrap UVW modifier in 3DSMax so I'm not all that happy with the fuzziness of the body's skin. But I think I got the point across. 
+As for the animations, I wanted to do something custom for this guy , but a decent model and maps were a higher priority for me so I just did some Id .bip modifying. I'm learning one step at a time.
+ Please let me know what you think.
+================================================================
+* Play Information *
+
+New Sounds           	  : No
+CTF Skins             	  : Yes
+VWEP Support           : No
+
+
+* Construction *
+Poly Count             	 : 831
+Vert Count             	 : 1145
+Skin Count             	 : 3
+Base                   	 : new model
+Editor used            	 : 3d Studio Max, Photoshop, Paint Shop Pro, Q3data, BotStudio
+Known Bugs             	 : none
+Build/Animation time    : Oh, WAY too long. (3 months, maybe)
+
+
+* How to use this model *
+
+Unzip into your baseq3 directory.
+
+* Copyright / Permissions *
+
+QUAKE(R), QUAKE II(R), and  QUAKE 3 Arena(R) are registered trademarks of id Software, Inc.
+PREDATOR is a registered trademark of Warner Bros, Inc.
+
+This zip file and all contained may be freely distributed , UNALTERED .Under no circumstances can it be used for any commercial purpose without express permission .
+
+
