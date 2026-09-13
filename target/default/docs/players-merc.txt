@@ -1,0 +1,24 @@
+NOTE: This model ships with no original author readme/license file.
+The information below was compiled by the Quetoo team from public
+research, not copied from an included source document.
+================================================================
+Model Name              : Merc
+Origin                  : Port/re-animation of Epic Games' "Malcolm"
+                          character from Unreal Tournament, credited to
+                          a modder known as "Steel Painter"
+
+Model description       :
+
+Merc appears to be a fan port of Malcolm, a player character from
+Epic Games' Unreal Tournament, re-modeled and re-animated for use as
+a Quake III Arena player skin. The model itself carries a small
+Unreal logo on its cap, consistent with this origin. Community
+sources attribute the Q3A conversion to a modder known as "Steel
+Painter," though this could not be verified against an original
+readme, as none was included with the downloaded package.
+
+* Copyright / Permissions *
+
+QUAKE(R) and QUAKE III(R) Arena are registered trademarks of id
+Software, Inc. Malcolm and associated artwork are property of Epic
+Games, Inc.

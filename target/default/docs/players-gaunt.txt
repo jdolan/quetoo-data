@@ -1,0 +1,24 @@
+NOTE: This model ships with no original author readme/license file.
+The information below was compiled by the Quetoo team from public
+research, not copied from an included source document.
+================================================================
+Model Name              : Gaunt
+Origin                  : id Software, Quake III: Team Arena (2000)
+
+Model description       :
+
+Gaunt is a member of "The Fallen," one of the five bot clans
+introduced in Quake III: Team Arena, alongside Gammy. These were
+originally shipped as non-selectable AI opponent skins bundled with
+Team Arena, not as standalone downloadable player models.
+
+This model file was later extracted from the Team Arena assets and
+repackaged by a third party as a selectable multiplayer skin (widely
+circulated online as part of a "Quake 3 Clan Model Pack"), without any
+accompanying readme or additional license terms.
+
+* Copyright / Permissions *
+
+QUAKE(R) and QUAKE III(R) Arena are registered trademarks of id
+Software, Inc. Gaunt is a character created by id Software for Quake
+III: Team Arena and remains their property.
