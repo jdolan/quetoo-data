@@ -1,5 +1,0 @@
-{
-	diffusemap players/creech/jet&strap
-	surface alpha_test
-	alpha_test .5
-}
