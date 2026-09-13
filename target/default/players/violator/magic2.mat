@@ -1,0 +1,10 @@
+{
+	diffusemap players/violator/magic2
+	surface material
+	{
+		texture players/violator/magic2
+		blend one one
+		pulse 3
+		rotate 1
+	}
+}
