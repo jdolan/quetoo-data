@@ -936,7 +936,7 @@ d9d4e0c3f02a87893a8747bc1d3fa35f 312 pics/haste.svg
 bdc2ebde5f3704858ac467376a04b0b4 231 pics/health_medium.svg
 b3aeb13cc0b0079bb9a22070afd402b4 231 pics/health_mega.svg
 d5e60e511b9745c33e164408d43a1b40 231 pics/health_small.svg
-b60d93c11c0aeae2651332b0cbd32608 235 pics/heart.svg
+44b60034d043cd97c2278c6eff946f49 290 pics/heart.svg
 c9b5e52ccff71fc70393726d334f2f4a 276 pics/hyperblaster.svg
 755d5327d5b68ef5563fc46ff0debabc 341 pics/invisibility.svg
 913e24c00e8ffded859723b025fb44d4 377 pics/invulnerability.svg
@@ -969,7 +969,7 @@ cc6d3360dede7335ba681f2dc13239a2 355 pics/rocketlauncher.svg
 d9053e94016016397e2fa10b50122e78 383 pics/shotgun.svg
 ceabb6bc94247f64cbe37dfbb7e26c4f 417 pics/strength.svg
 151ec6add4e1687ca70fe4f6527ac570 614 pics/supershotgun.svg
-a731603030b89dfb1944f9c955ae3a28 264 pics/trash.svg
+2cdcdc16281d0c0966b2e037fdecfd7a 287 pics/trash.svg
 e6e43b31a6cfddc68d125aff020e270b 488 pics/vampire.svg
 3c55bb535d2ae633044fda32d59e7b5e 944 players/bloodseeker/animation.cfg
 2fee5fc0357172ca884cc89be4722f9b 195 players/bloodseeker/blue.skin
