@@ -379,6 +379,11 @@
 	model(string) : "The static model name, e.g. trees/mytree"
 ]
 
+@SolidClass base(Phong) color(0 128 204) = misc_portal : "A brush entity showing the world as seen from the point it names. Give the face the player looks at a material declaring surface portal; the remaining faces are drawn normally. A portal face may be put on any brush entity, not only this one, which is why the viewpoint is named by a portal key rather than target: a func_train already owes target to the first path_corner of its route. The portal is not solid: to let players travel through it, place a trigger_teleporter behind the portal face, so that they cross the face before the trigger fires."
+[
+	portal(target_destination) : "The info_null this portal views the world from"
+]
+
 @PointClass color(40 120 40) size(-8 -8 -8, 8 8 8) = misc_sound : "Client-side emission of ambient sounds."
 [
 	drift(float) : "The factor of randomized drift applied to the emission rate"

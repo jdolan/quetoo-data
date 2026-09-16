@@ -909,6 +909,18 @@
  scale : The scale for a static model.
 */
 
+/*QUAKED misc_portal (0 .5 .8) ?
+ A brush entity showing the world as seen from the point it names. Give the face the player looks at a material declaring surface "portal"; the remaining faces are drawn normally.
+
+ A portal face may be put on any brush entity, not only this one, which is why the viewpoint is named by a "portal" key rather than "target": a func_train already owes "target" to the first path_corner of its route, and a func_button to whatever it fires.
+
+ The portal is not solid. To let players travel through it, place a trigger_teleporter behind the portal face, so that they cross the face before the trigger fires.
+
+ -------- Keys --------
+ phong : The Phong shading threshold for this model, in degrees (default 60).
+ portal : The info_null this portal views the world from. Required.
+*/
+
 /*QUAKED misc_sound (1 0 1) (-8 -8 -8) (8 8 8)
  Client-side emission of ambient sounds.
 
