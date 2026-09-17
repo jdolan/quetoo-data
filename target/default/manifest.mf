@@ -923,7 +923,7 @@ effb3d0d76d1dd7116b2492ae85e4503 391 pics/emoji/strength.svg
 8927d991c5e4a1d7104d0a62e1d80647 351 pics/emoji/telefrag.svg
 c378b63457733fc0b427f88feb805bc8 647 pics/emoji/thinq.svg
 c7eaf036fec0103ab55b0473252378c0 462 pics/emoji/vampire.svg
-4a4afe7ee25bc801bddfc520264fda16 195 pics/fast_forward.svg
+8f5a602a5a4892f38f313bbfa963954e 256 pics/fast_forward.svg
 2809ded7b5e96060dae9c77ad7daa5db 484 pics/flag1.svg
 834477b380d9c39bbc81c20cc531ebb5 484 pics/flag2.svg
 5139b9a6d638da040d05fbb4c1bbb806 484 pics/flag3.svg
@@ -964,9 +964,11 @@ f59d891eda9dcd7d68a9f75636ff64e9 213 pics/quake_thunderbolt.svg
 ec6c7e099ddb3aaf7722ad136e53aa4a 363 pics/railgun.svg
 8a4a1eb50526545a2627b84e7bdb039e 328 pics/regen.svg
 6d47260d7ba22b564feb88593ae4925b 463 pics/resist.svg
-0c70426677a9660c264fcad19a2a2f76 196 pics/rewind.svg
+bcde58d72bf8727a4ccb7f9f17205a44 256 pics/rewind.svg
 cc6d3360dede7335ba681f2dc13239a2 355 pics/rocketlauncher.svg
 d9053e94016016397e2fa10b50122e78 383 pics/shotgun.svg
+5051ebe6c310114199d2e3b5306d3f31 224 pics/step_back.svg
+bd878390a12281c207eab2b94f6fc753 224 pics/step_forward.svg
 ceabb6bc94247f64cbe37dfbb7e26c4f 417 pics/strength.svg
 151ec6add4e1687ca70fe4f6527ac570 614 pics/supershotgun.svg
 2cdcdc16281d0c0966b2e037fdecfd7a 287 pics/trash.svg
