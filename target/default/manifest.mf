@@ -4073,7 +4073,7 @@ f478424cac70b010f403cb3fc5b6858a 3152 textures/effects/beam-white.png
 ef399efff2f4846c617d5fc00740ab5c 3995 textures/effects/beam-yellow.png
 b7f9a37e49826266f5ac8ac7f1feb934 290 textures/effects/black.png
 3c87cbf5d1aedc896917ed72396f5d46 50 textures/effects/bolt.mat
-bbfa4212f863955450436bae48d3eaf4 7024 textures/effects/bolt.png
+d2afa6e5279dd0e84f1222391eaa5a2b 5665 textures/effects/bolt.png
 2c7ccd788ef7df165f98fca5f0b06801 36300 textures/effects/clouds_filter.png
 25cf21922876d73f8f8bd1914672dfdd 99 textures/effects/floorfx.mat
 31ae959fac167e28369bcbe97c519dc4 13480 textures/effects/floorfx.png
