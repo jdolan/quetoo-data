@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<g transform="rotate(45 32 32)"><path d="M32,2 L36,8 V38 H28 V8 Z M22,38 H42 V43 H22 Z M30,43 H34 V55 H30 Z M32,58 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0 Z" fill="#ffffff"/></g>
+<g transform="rotate(-45 32 32)"><path d="M32,2 L36,8 V38 H28 V8 Z M22,38 H42 V43 H22 Z M30,43 H34 V55 H30 Z M32,58 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0 Z" fill="#ffffff"/></g>
+</svg>
