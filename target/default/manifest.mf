@@ -862,6 +862,10 @@ bf7b602e2fd0394e10d723ddd60f24b6 379 pics/armor_body.svg
 0dcc45509466a342570ffce00ecac8d8 262 pics/armor_shard.svg
 cfe1744fd660ce1e0c9bb7e182157340 512 pics/bfg.svg
 9bd62673020a218ba0026981f249472e 292 pics/blaster.svg
+45ece1244a15317f2f85b083caf8f056 279 pics/camera-first_person.svg
+55863674d5b3f75bf7fc0ab52392a6cd 307 pics/camera-follow.svg
+a92fbedc0f8477dccb519282e6924717 360 pics/camera-spectate.svg
+4cb97a7a4ac81e2facfa426318e4ae90 260 pics/camera-third_person.svg
 a92fdad7123f28266d741f512ccd0e02 225 pics/ch1.svg
 186f4ce7b3b966fae299c0d105af764d 214 pics/ch2.svg
 ec7b59fd6fdc81cd91959b701136c612 300 pics/ch3.svg
@@ -979,6 +983,7 @@ ceabb6bc94247f64cbe37dfbb7e26c4f 417 pics/strength.svg
 151ec6add4e1687ca70fe4f6527ac570 614 pics/supershotgun.svg
 2cdcdc16281d0c0966b2e037fdecfd7a 287 pics/trash.svg
 e6e43b31a6cfddc68d125aff020e270b 488 pics/vampire.svg
+b95e6abbc7c886ae2df8166a771e383f 312 pics/voice.svg
 3c55bb535d2ae633044fda32d59e7b5e 944 players/bloodseeker/animation.cfg
 2fee5fc0357172ca884cc89be4722f9b 195 players/bloodseeker/blue.skin
 c000e532351e1636a6ce25c71df17c10 936559 players/bloodseeker/blue_bones.jpg
