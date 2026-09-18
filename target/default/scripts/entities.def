@@ -2509,6 +2509,7 @@
  The worldspawn entity defines global conditions and behavior for the entire level. All brushes not belonging to an explicit entity implicitly belong to worldspawn.
  -------- KEYS --------
  message : The map title.
+ games : Space-delimited games this map is made for, one or more of dm, tdm, duel, ctf, instagib, race (default dm).
  sky : The sky environment map (default unit1_).
  ambient : The ambient light level (e.g. 0.14 0.11 0.12).
  gravity : Gravity for the level (default 800).

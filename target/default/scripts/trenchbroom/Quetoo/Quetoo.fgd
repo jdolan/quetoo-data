@@ -852,6 +852,7 @@
 @SolidClass base(Phong) = worldspawn : "The worldspawn entity defines global conditions and behavior for the entire level. All brushes not belonging to an explicit entity implicitly belong to worldspawn."
 [
 	message(string) : "The map title"
+	games(string) : "Space-delimited games this map is made for, shown as badges in the Create Server map browser: dm tdm duel ctf instagib race" : "dm"
 	sky(string) : "The sky environment map" : "template"
 	ambient(float) : "The ambient light level" : "0"
 	gravity(integer) : "Gravity" : 800
