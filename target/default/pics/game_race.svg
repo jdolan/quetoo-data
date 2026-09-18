@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<path fill-rule="evenodd" d="M32,37 m-23,0 a23,23 0 1,0 46,0 a23,23 0 1,0 -46,0 Z M32,37 m-17,0 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0 Z" fill="#ffffff"/>
+<path d="M26,2 H38 V8 H35 V14 H29 V8 H26 Z M29.5,37 V22 H34.5 V39.5 H29.5 Z" fill="#ffffff"/>
+<path d="M45,11 H55 V16 H45 Z" transform="rotate(45 50 13.5)" fill="#ffffff"/>
+</svg>
