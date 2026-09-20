@@ -984,7 +984,7 @@ ceabb6bc94247f64cbe37dfbb7e26c4f 417 pics/strength.svg
 2cdcdc16281d0c0966b2e037fdecfd7a 287 pics/trash.svg
 e6e43b31a6cfddc68d125aff020e270b 488 pics/vampire.svg
 b95e6abbc7c886ae2df8166a771e383f 312 pics/voice.svg
-3c55bb535d2ae633044fda32d59e7b5e 944 players/bloodseeker/animation.cfg
+3c3edf50dd35aac76947edc9b90e2c9d 1004 players/bloodseeker/animation.cfg
 2fee5fc0357172ca884cc89be4722f9b 195 players/bloodseeker/blue.skin
 c000e532351e1636a6ce25c71df17c10 936559 players/bloodseeker/blue_bones.jpg
 e7a9e89f413f65375a24e10ef09d7029 98709 players/bloodseeker/blue_i.png
@@ -1680,7 +1680,7 @@ e4736ed1df195d2045d89944e160da86 81 players/sarge/red.skin
 b837da54db89a03b3790b651c3981a9c 158831 players/sarge/red_i.png
 1ba2399da406f522d8947c0fc311fee1 517172 players/sarge/upper.md3
 b5e262b7ad08493288a14c002de0c69b 46 players/sarge/world.cfg
-636ee8fb59a2fe970e90ed6638bfed9f 1100 players/violator/animation.cfg
+8ed526ab6df27585677630921eaeb222 1129 players/violator/animation.cfg
 fe2924de0aec30b431ffabae5ad98370 478 players/violator/blue.skin
 756db07e7e7d20f65c36bc4f00c0123f 130015 players/violator/blue_i.png
 94bfd93ecbc084fe3b13c4b7448ff04d 2122262 players/violator/default.jpg
