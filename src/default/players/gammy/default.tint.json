@@ -7,7 +7,7 @@
     "speck_area": 1000
   },
   "textures": {
-    "red": {
+    "default": {
       "surfaces": {
         "u_torso": "shirt",
         "u_shoulders": "shirt",

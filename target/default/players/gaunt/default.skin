@@ -1,6 +1,6 @@
-l_legs,players/gaunt/red
-l_sash,players/gaunt/red
-u_arms,players/gaunt/red
-u_torso,players/gaunt/red
-h_head,players/gaunt/red_h
+l_legs,players/gaunt/default
+l_sash,players/gaunt/default
+u_arms,players/gaunt/default
+u_torso,players/gaunt/default
+h_head,players/gaunt/default_h
 h_head02,players/gaunt/gaunt_e

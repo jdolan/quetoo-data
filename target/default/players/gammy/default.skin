@@ -1,8 +1,8 @@
-l_legs,players/gammy/red
-l_tail,players/gammy/red
-l_sash,players/gammy/red
-u_shoulders,players/gammy/red
-u_torso,players/gammy/red
-h_head,players/gammy/red_h
+l_legs,players/gammy/default
+l_tail,players/gammy/default
+l_sash,players/gammy/default
+u_shoulders,players/gammy/default
+u_torso,players/gammy/default
+h_head,players/gammy/default_h
 h_teeth,players/gammy/gammy2
 h_hair,players/gammy/gammy3

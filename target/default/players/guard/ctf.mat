@@ -1,6 +1,0 @@
-{
-	diffusemap players/guard/ctf
-	normalmap players/guard/default_norm
-	tintmap.tint_r_default 1.0 0.0 0.0
-	tintmap.tint_g_default 1.0 0.0 0.0
-}

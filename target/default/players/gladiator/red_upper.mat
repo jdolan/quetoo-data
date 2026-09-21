@@ -1,6 +1,0 @@
-{
-	diffusemap players/gladiator/red_upper
-	tintmap.tint_r_default 0.987 0.106 0.066
-	normalmap players/gladiator/red_upper_norm
-	specularmap players/gladiator/red_upper_spec
-}

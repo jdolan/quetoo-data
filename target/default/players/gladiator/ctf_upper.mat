@@ -1,0 +1,6 @@
+{
+	diffusemap players/gladiator/ctf_upper
+	tintmap.tint_r_default 0.987 0.106 0.066
+	normalmap players/gladiator/ctf_upper_norm
+	specularmap players/gladiator/ctf_upper_spec
+}

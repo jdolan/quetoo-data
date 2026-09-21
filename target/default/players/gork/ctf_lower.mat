@@ -1,6 +1,0 @@
-{
-	diffusemap players/gork/ctf_lower
-	normalmap players/gork/default_lower_norm 
-	tintmap.tint_r_default 0.8 0.3 0.2
-	tintmap.tint_g_default 0.6 0.3 0.2
-}

@@ -1,7 +1,0 @@
-{
-	diffusemap players/bloodseeker/blue_upper
-	normalmap players/bloodseeker/blue_upper_norm
-	roughness 2
-	hardness 6
-	specularity 2
-}
