@@ -1,0 +1,36 @@
+{
+  "segmentation": {
+    "segments": 400,
+    "compactness": 10,
+    "threshold": 12,
+    "min_area": 64,
+    "speck_area": 1000
+  },
+  "textures": {
+    "red": {
+      "surfaces": {
+        "u_torso": "shirt",
+        "u_arms": "shirt",
+        "l_legs": "pants",
+        "l_sash": "pants"
+      },
+      "regions": {
+        "75": "none",
+        "76": "none",
+        "8": "none",
+        "86": "none",
+        "87": "none",
+        "88": "none",
+        "89": "none",
+        "90": "none",
+        "91": "none",
+        "92": "none",
+        "93": "none",
+        "94": "none",
+        "6": "none",
+        "62": "none",
+        "66": "none"
+      }
+    }
+  }
+}
