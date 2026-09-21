@@ -1,7 +1,7 @@
 {
 	diffusemap players/mantis/default
 	tintmap.tint_r_default 0.263 0.166 0.082
-	tintmap.tint_g_default 0.227 0.141 0.047
+	tintmap.tint_g_default 0.226 0.141 0.047
 	normalmap players/mantis/default_norm
 	specularmap players/mantis/default_spec
 }

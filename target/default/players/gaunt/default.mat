@@ -1,7 +1,7 @@
 {
 	diffusemap players/gaunt/default
-	tintmap.tint_r_default 0.769 0.183 0.134
-	tintmap.tint_g_default 0.550 0.111 0.078
+	tintmap.tint_r_default 0.772 0.186 0.136
+	tintmap.tint_g_default 0.549 0.114 0.081
 	normalmap players/gaunt/default_norm
 	specularmap players/gaunt/default_spec
 }
