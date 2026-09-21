@@ -1,15 +1,35 @@
 {
-  "segmentation": {"segments": 400, "compactness": 10, "threshold": 12, "min_area": 64, "speck_area": 1000},
+  "segmentation": {
+    "segments": 400,
+    "compactness": 10,
+    "threshold": 12,
+    "min_area": 64,
+    "speck_area": 1000
+  },
   "textures": {
     "default_body": {
       "surfaces": {
-        "u_hair01": "helmet", "u_hair02": "helmet", "u_hair03": "helmet", "u_hair04": "helmet",
-        "u_hair05": "helmet", "u_hair06": "helmet", "u_hair07": "helmet", "u_hair08": "helmet"
+        "u_hair01": "helmet",
+        "u_hair02": "helmet",
+        "u_hair03": "helmet",
+        "u_hair04": "helmet",
+        "u_hair05": "helmet",
+        "u_hair06": "helmet",
+        "u_hair07": "helmet",
+        "u_hair08": "helmet"
       },
-      "regions": {"1": "shirt", "3": "shirt", "4": "shirt", "12": "shirt"}
+      "regions": {
+        "1": "shirt",
+        "3": "shirt",
+        "4": "shirt",
+        "12": "shirt"
+      }
     },
     "default_hands": {
-      "surfaces": {"l_bootl": "pants", "l_bootr": "pants"}
+      "surfaces": {
+        "l_bootl": "pants",
+        "l_bootr": "pants"
+      }
     }
   }
 }

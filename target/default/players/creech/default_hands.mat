@@ -1,6 +1,6 @@
 {
 	diffusemap players/creech/default_hands
-	tintmap.tint_g_default 0.593 0.601 0.612
+	tintmap.tint_g_default 0.582 0.590 0.603
 	normalmap players/creech/default_hands_norm
 	specularmap players/creech/default_hands_spec
 }
