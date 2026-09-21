@@ -1,0 +1,6 @@
+{
+	diffusemap players/dragoon/default_h
+	tintmap.tint_b_default 0.461 0.442 0.409
+	normalmap players/dragoon/default_h_norm
+	specularmap players/dragoon/default_h_spec
+}

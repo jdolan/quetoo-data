@@ -1,5 +1,6 @@
 {
 	diffusemap players/dragoon/default
-	tintmap.tint_r_default 0.2 0.08 0.07
-	tintmap.tint_g_default 0.2 0.18 0.3
+	tintmap.tint_r_default 0.407 0.398 0.367
+	tintmap.tint_g_default 0.528 0.515 0.473
+	tintmap.tint_b_default 0.661 0.653 0.614
 }
