@@ -1,7 +1,8 @@
 {
 	diffusemap players/enforcer/default
-	tintmap.tint_r_default 0.75 0.55 0.35
-	tintmap.tint_g_default 0.45 0.25 0.1
+	tintmap.tint_r_default 0.778 0.782 0.789
+	tintmap.tint_g_default 0.599 0.389 0.153
+	tintmap.tint_b_default 0.619 0.618 0.621
 	roughness .5
 	hardness .5
 	specularity 1

@@ -1,0 +1,6 @@
+{
+	diffusemap players/enforcer/default_h
+	tintmap.tint_b_default 0.269 0.189 0.145
+	normalmap players/enforcer/default_h_norm
+	specularmap players/enforcer/default_h_spec
+}
