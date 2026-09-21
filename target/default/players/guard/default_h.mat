@@ -1,0 +1,6 @@
+{
+	diffusemap players/guard/default_h
+	tintmap.tint_b_default 0.483 0.344 0.216
+	normalmap players/guard/default_h_norm
+	specularmap players/guard/default_h_spec
+}
