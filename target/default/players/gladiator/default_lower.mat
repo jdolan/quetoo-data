@@ -1,0 +1,6 @@
+{
+	diffusemap players/gladiator/default_lower
+	tintmap.tint_g_default 0.555 0.528 0.377
+	normalmap players/gladiator/default_lower_norm
+	specularmap players/gladiator/default_lower_spec
+}

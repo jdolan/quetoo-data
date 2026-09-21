@@ -1,0 +1,58 @@
+{
+  "segmentation": {
+    "segments": 900,
+    "compactness": 10,
+    "threshold": 7,
+    "min_area": 100,
+    "speck_area": 300
+  },
+  "textures": {
+    "default_upper": {
+      "regions": {
+        "58": "shirt",
+        "59": "shirt",
+        "64": "shirt"
+      }
+    },
+    "default_lower": {
+      "examples": {
+        "pants": [
+          15,
+          12,
+          47,
+          49,
+          14
+        ],
+        "none": [
+          50,
+          38,
+          25,
+          45,
+          37,
+          36,
+          26,
+          19,
+          8,
+          10,
+          20,
+          24,
+          32,
+          30,
+          63,
+          66,
+          59,
+          2,
+          6,
+          21,
+          46,
+          52,
+          61,
+          64,
+          72,
+          42,
+          43
+        ]
+      }
+    }
+  }
+}
