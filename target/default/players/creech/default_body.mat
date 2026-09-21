@@ -1,0 +1,7 @@
+{
+	diffusemap players/creech/default_body
+	tintmap.tint_r_default 0.689 0.469 0.292
+	tintmap.tint_b_default 0.829 0.432 0.317
+	normalmap players/creech/default_body_norm
+	specularmap players/creech/default_body_spec
+}

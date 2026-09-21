@@ -1,5 +1,7 @@
 {
 	diffusemap players/bloodseeker/default_upper
+	tintmap.tint_r_default 0.536 0.461 0.210
+	tintmap.tint_b_default 0.843 0.812 0.766
 	roughness 2
 	hardness 6
 	specularity 2

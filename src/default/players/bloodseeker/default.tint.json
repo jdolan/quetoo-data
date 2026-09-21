@@ -1,0 +1,71 @@
+{
+  "segmentation": {
+    "segments": 400,
+    "compactness": 10,
+    "threshold": 12,
+    "min_area": 64,
+    "speck_area": 1000
+  },
+  "textures": {
+    "default_upper": {
+      "examples": {
+        "auto": [
+          1,
+          38,
+          32,
+          11,
+          12
+        ],
+        "none": [
+          25,
+          15,
+          21,
+          39,
+          55,
+          56,
+          54,
+          23,
+          40,
+          51,
+          63
+        ]
+      },
+      "regions": {
+        "22": "helmet",
+        "39": "none"
+      }
+    },
+    "default_lower": {
+      "examples": {
+        "auto": [
+          2,
+          7,
+          8,
+          30,
+          31
+        ],
+        "none": [
+          4,
+          9,
+          15,
+          22,
+          33,
+          34,
+          36,
+          38,
+          39,
+          46,
+          55,
+          64,
+          67
+        ]
+      },
+      "regions": {
+        "30": "pants",
+        "31": "pants",
+        "32": "pants",
+        "35": "pants"
+      }
+    }
+  }
+}

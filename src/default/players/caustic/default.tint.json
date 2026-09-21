@@ -1,0 +1,36 @@
+{
+  "segmentation": {
+    "segments": 900,
+    "compactness": 10,
+    "threshold": 6,
+    "min_area": 200,
+    "speck_area": 1500
+  },
+  "textures": {
+    "default_body": {
+      "examples": {
+        "auto": [
+          48,
+          87
+        ],
+        "none": [
+          95,
+          120,
+          152,
+          31,
+          3,
+          150,
+          8,
+          25,
+          32,
+          6,
+          24,
+          96,
+          109,
+          85,
+          81
+        ]
+      }
+    }
+  }
+}
