@@ -1,0 +1,86 @@
+{
+  "segmentation": {
+    "segments": 400,
+    "compactness": 10,
+    "threshold": 12,
+    "min_area": 64,
+    "speck_area": 1000
+  },
+  "textures": {
+    "default_upper": {
+      "surfaces": {
+        "u_upper": "shirt",
+        "h_eye": "none"
+      },
+      "regions": {
+        "5": "none",
+        "6": "none",
+        "7": "none",
+        "8": "none",
+        "10": "none",
+        "12": "none",
+        "15": "none"
+      }
+    },
+    "default_lower": {
+      "surfaces": {
+        "l_lower": "shirt"
+      },
+      "regions": {
+        "1": "pants",
+        "5": "pants",
+        "6": "pants",
+        "7": "pants",
+        "8": "pants",
+        "9": "pants",
+        "11": "pants",
+        "12": "pants",
+        "13": "pants",
+        "14": "pants",
+        "15": "pants",
+        "16": "pants",
+        "17": "pants",
+        "18": "pants",
+        "19": "none",
+        "20": "pants",
+        "21": "none",
+        "22": "none",
+        "53": "helmet",
+        "54": "helmet",
+        "55": "helmet",
+        "56": "helmet",
+        "57": "helmet",
+        "58": "helmet",
+        "59": "helmet",
+        "60": "helmet",
+        "61": "helmet",
+        "62": "helmet",
+        "63": "helmet",
+        "64": "helmet",
+        "65": "helmet",
+        "66": "helmet",
+        "2": "none",
+        "3": "none",
+        "4": "none",
+        "10": "none",
+        "48": "none",
+        "40": "none",
+        "41": "none",
+        "42": "none",
+        "43": "none",
+        "44": "none",
+        "45": "none",
+        "46": "none",
+        "47": "none",
+        "49": "none",
+        "50": "none",
+        "51": "none",
+        "52": "none"
+      },
+      "segmentation": {
+        "segments": 300,
+        "threshold": 5
+      }
+    }
+  }
+}

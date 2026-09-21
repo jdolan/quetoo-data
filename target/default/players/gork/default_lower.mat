@@ -1,5 +1,6 @@
 {
 	diffusemap players/gork/default_lower
-	tintmap.tint_r_default 0.4 0.6 0.28
-	tintmap.tint_g_default 0.35 0.3 0.08
+	tintmap.tint_r_default 0.581 0.585 0.592
+	tintmap.tint_g_default 0.462 0.414 0.345
+	tintmap.tint_b_default 0.403 0.368 0.328
 }
