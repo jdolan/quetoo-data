@@ -1,4 +1,4 @@
-a4699df2f1b7c9d208f59368fac1786c 12532484 maps/claustrophobopolis.bsp
+7614a53a5520b872caa370c25177505e 12539276 maps/claustrophobopolis.bsp
 e88cfc3a5cf855047aef392efc982448 5796 maps/claustrophobopolis.nav
 bc14677052aca2856ead1ddf1c16ddbf 175634 mapshots/claustrophobopolis/quetoo019.jpg
 f761e389cfb3740265d2638084129858 210966 mapshots/claustrophobopolis/quetoo021.jpg
@@ -23,7 +23,7 @@ a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 8e5b6662266c6794a92e4a9c3bba4e4e 420504 textures/effects/sky2-layer0.png
 46ffecb943db52b639208b09fc235e2a 215290 textures/effects/sky2-layer1.png
-667efd3bffce585764fb6c8cb1e499e7 419 textures/effects/sky2.mat
+e3001651aa37b447ea49a70e238ab62a 452 textures/effects/sky2.mat
 8f828ef68b81724c5bb6a2cd403c1c9a 509817 textures/effects/sky2.png
 fd55503494981ac669fe88ff86de166d 20550 textures/quake/altar1_1.jpg
 1556b3813556bcc18f8f93f79a728d75 31 textures/quake/altar1_1.mat
@@ -139,6 +139,7 @@ febf9184d0815ea3ab825181cc47545e 37237 textures/quake/rune2_4_norm.png
 9dfe7a219190eee9285a89eacd017eca 9825 textures/quake/rune2_5.jpg
 7d10dba0e1cc2e5e0e11da5576e1d1b6 239 textures/quake/rune2_5.mat
 020f5df9bd544d388f9c2aff70109116 3461 textures/quake/rune2_5_luma.jpg
+5c4f17249a79ab7948ae991c5c324c3a 11249 textures/quake/sky1_solid.jpg
 54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport.jpg
 bde6b610a9696433425cf8ef9782c0bd 11083 textures/quake/water0.jpg
 dca34352451f07735630ef144b14b3b8 242 textures/quake/water0.mat

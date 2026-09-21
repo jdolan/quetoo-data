@@ -9,7 +9,8 @@
 "message" "Longest Yard of Chaos"
 "sky" "purple_chaos"
 "author" "Skies912"
-"version" "1.6.2"
+"version" "1.6.3"
+"games" "dm duel instagib"
 // brush 0
 {
 ( -560 -336 144 ) ( -560 -335 144 ) ( -560 -336 145 ) trak5/holes1b [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25

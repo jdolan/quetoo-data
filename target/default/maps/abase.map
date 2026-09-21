@@ -9,9 +9,9 @@
 "author" "Skies912 - Remake of DM3 from Quake 1"
 "items" "quake"
 "message" "^7The ^2Abandoned ^3Base^7"
-"model" "*0"
 "sky" "miramar"
 "version" "1.0.15"
+"games" "dm tdm"
 // brush 0
 {
 ( -32 -256 32 ) ( -32 -255 32 ) ( -32 -256 33 ) quake/tyr_09 [ 0 1 0 -64 ] [ 0 0 -1 0 ] 0 0.5 0.5
@@ -16789,7 +16789,6 @@
 "_tb_name" "Sky Brushes"
 "_tb_id" "6"
 "_tb_layer_sort_index" "1"
-"_tb_layer_hidden" "1"
 // brush 0
 {
 ( -352 -32 256 ) ( -352 -31 256 ) ( -352 -32 257 ) common/sky [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -16942,7 +16941,6 @@
 "_tb_name" "Water"
 "_tb_id" "16"
 "_tb_layer_sort_index" "2"
-"_tb_layer_hidden" "1"
 // brush 0
 {
 ( -416 576 -512 ) ( -416 577 -512 ) ( -416 576 -511 ) quake/water0 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5
@@ -17023,7 +17021,6 @@
 "_tb_name" "Light Ents"
 "_tb_id" "34"
 "_tb_layer_sort_index" "3"
-"_tb_layer_hidden" "1"
 }
 // entity 240
 {
@@ -17786,7 +17783,6 @@
 "_tb_name" "Red Spawns"
 "_tb_id" "45"
 "_tb_layer_sort_index" "5"
-"_tb_layer_hidden" "1"
 }
 // entity 342
 {
@@ -17830,7 +17826,6 @@
 "_tb_name" "FX"
 "_tb_id" "58"
 "_tb_layer_sort_index" "7"
-"_tb_layer_hidden" "1"
 // brush 0
 {
 ( -704 -1088 16 ) ( -704 -1088 64 ) ( -784 -1184 64 ) decals/eq2_wires_01 [ 0 1 0 -176 ] [ 0 0 -1 -64 ] 0 0.65 0.35
@@ -18019,7 +18014,6 @@
 "_tb_name" "Blue Spawns"
 "_tb_id" "73"
 "_tb_layer_sort_index" "6"
-"_tb_layer_hidden" "1"
 }
 // entity 349
 {
@@ -18063,7 +18057,6 @@
 "_tb_name" "Light Masters"
 "_tb_id" "80"
 "_tb_layer_sort_index" "4"
-"_tb_layer_hidden" "1"
 }
 // entity 355
 {

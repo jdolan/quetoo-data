@@ -1,4 +1,4 @@
-1b004966d1d10b8bace2223f9bd6e3e1 6312822 maps/cistern.bsp
+0bb9772be8d33b5af05b91d969baa6b0 6333238 maps/cistern.bsp
 da26e484db328ea5eb702d3fdcb922cf 6116 maps/cistern.nav
 21f3c60743c3bece3d35039ed43935b4 258470 mapshots/cistern/quetoo067.jpg
 0a610466b7d9750645a88cf3ff95263b 243433 mapshots/cistern/quetoo068.jpg

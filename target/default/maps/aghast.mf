@@ -1,4 +1,4 @@
-0c7a69a3a541187ae218dac183efb073 6915706 maps/aghast.bsp
+40cf91d4d4cda92488f99f966e172875 6923014 maps/aghast.bsp
 d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 f9f045c1738a99810c1cddc8817599a5 275072 mapshots/aghast/quetoo012.jpg
 9244fe27b99ffb58ff1de02ba94836db 322159 mapshots/aghast/quetoo013.jpg
@@ -21,7 +21,7 @@ d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 85c844a6d07910e8700341be1d4c334e 1988 textures/common/weather.jpg
 8e5b6662266c6794a92e4a9c3bba4e4e 420504 textures/effects/sky2-layer0.png
 46ffecb943db52b639208b09fc235e2a 215290 textures/effects/sky2-layer1.png
-667efd3bffce585764fb6c8cb1e499e7 419 textures/effects/sky2.mat
+e3001651aa37b447ea49a70e238ab62a 452 textures/effects/sky2.mat
 8f828ef68b81724c5bb6a2cd403c1c9a 509817 textures/effects/sky2.png
 deedad35444fcc492dfad13f2f305e07 146455 textures/effects/water6fx.png
 cf959717c754b0672d70aa195b4196f3 44 textures/prototype/grid.mat
@@ -71,6 +71,7 @@ e8208d982e9d247f5455d9d07f85f286 101388 textures/quake/mmetal1_2_norm.png
 1655f6e543f9a0b8c8cbd8b9445282c7 107 textures/quake/rock4_1.mat
 82d0110eb40352078f4aec075e276587 509374 textures/quake/rock4_1_norm.png
 bc79e432b4ed2b5c78dbb770e9bef5a8 73679 textures/quake/rock4_1_spec.jpg
+5c4f17249a79ab7948ae991c5c324c3a 11249 textures/quake/sky1_solid.jpg
 f9c19cfd90c73aeabf0171a0c1d2f867 9974 textures/quake/tele_top.jpg
 946efc3a8f1249427d6eb78a7d644d57 179 textures/quake/tele_top.mat
 0a6816f7954da070b41c0af4c36b9d63 4883 textures/quake/tele_top_luma.jpg
@@ -82,7 +83,7 @@ b69f25a4f19ff3853dacbe86a7ea5595 340 textures/quake/teleport.mat
 c0f3808b248e0aeebb0ff74b127e035b 519 textures/quake/water1.mat
 2225e543b2b03ef1853045b8470ccb30 7802 textures/quake/water1_spec.jpg
 14cb7ee1e44b644679a3340cac862b9f 19647 textures/quake/wizmet1_2.jpg
-1172df9b6247e1d52e5dbe2321b9f12b 175 textures/quake/wizmet1_2.mat
+092135d0843dcdb67cc9a8cf4d84375c 175 textures/quake/wizmet1_2.mat
 bbf64c7da3ebe1e4dd42974292613354 24772 textures/quake/wmet2_4.jpg
 4ea4a1b60ce3a9d4bac0f2259767e0c1 171 textures/quake/wmet2_4.mat
 ba6ef4c4ccc1c4a7f9b21eb544391b80 32891 textures/quake/wswamp1_4.jpg

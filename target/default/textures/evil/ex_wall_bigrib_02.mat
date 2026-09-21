@@ -1,4 +1,6 @@
 {
 	diffusemap evil/ex_wall_bigrib_02_d
-	parallax 1.01
+	hardness 2.99
+	specularity 2.02
+	parallax 0.97
 }

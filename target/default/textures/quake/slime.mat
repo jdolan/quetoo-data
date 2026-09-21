@@ -10,7 +10,7 @@
 	{
 		texture quake/slime
 		blend src_alpha one
-		warp -0.33 0.25
+		warp -0.33 0.33
 		lighting 0.50
 		scale.s 1.5
 		scale.t 1.5
@@ -18,8 +18,8 @@
 	{
 		texture quake/slime0
 		blend src_alpha one
-		color 1 1 1 0.5
-		warp 0.33 -0.25
+		color 1 1 1 0.333
+		warp 0.33 -0.33
 		lighting 1
 	}
 }

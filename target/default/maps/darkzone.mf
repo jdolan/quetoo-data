@@ -1,4 +1,4 @@
-f6a30663cb25b3f42bd3b7a9961b72e6 7642918 maps/darkzone.bsp
+e884f1eee05dc91949c6a5e007392f1e 7632850 maps/darkzone.bsp
 4994859c2940812dd17f7138e11cf6ea 6132 maps/darkzone.nav
 fe66b7e6e8ad9c8a611f79919c8c7f9e 254805 mapshots/darkzone/quetoo014.jpg
 a65dcd0e567bba4a5d49f904b575e525 297171 mapshots/darkzone/quetoo015.jpg

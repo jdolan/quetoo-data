@@ -1,4 +1,7 @@
 {
 	diffusemap evil/ex_trim_baseboard_d
-	parallax 1.01
+	normalmap evil/ex_trim_baseboard_norm
+	parallax 2.50
+	hardness 3.00
+	specularity 2.00
 }
