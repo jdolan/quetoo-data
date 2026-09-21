@@ -1,0 +1,6 @@
+{
+	diffusemap players/nitro/nitro_h
+	tintmap.tint_b_default 0.551 0.450 0.390
+	normalmap players/nitro/nitro_h_norm
+	specularmap players/nitro/nitro_h_spec
+}
