@@ -1,0 +1,17 @@
+{
+  "segmentation": {"segments": 400, "compactness": 10, "threshold": 12, "min_area": 64, "speck_area": 1000},
+  "textures": {
+    "red_upper": {
+      "surfaces": {"l_upper": "shirt", "l_pads": "shirt", "l_claw": "shirt"},
+      "mask": {"hue": 35, "chroma": 25, "spread": 35}
+    },
+    "red_lower": {
+      "surfaces": {"l_lower": "pants"},
+      "mask": {"hue": 35, "chroma": 25, "spread": 35}
+    },
+    "red_head": {
+      "surfaces": {"l_head": "helmet", "h_head": "helmet"},
+      "mask": {"hue": 35, "chroma": 25, "spread": 35}
+    }
+  }
+}
