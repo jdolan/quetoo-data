@@ -1,0 +1,8 @@
+{
+	diffusemap players/cruentus/default
+	tintmap.tint_r_default 0.829 0.476 0.409
+	tintmap.tint_g_default 0.699 0.465 0.378
+	tintmap.tint_b_default 0.998 0.809 0.743
+	normalmap players/cruentus/default_norm
+	specularmap players/cruentus/default_spec
+}
