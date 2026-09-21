@@ -1,0 +1,36 @@
+{
+  "segmentation": {
+    "segments": 400,
+    "compactness": 10,
+    "threshold": 12,
+    "min_area": 64,
+    "speck_area": 1000
+  },
+  "textures": {
+    "default": {
+      "segmentation": {
+        "segments": 900,
+        "threshold": 6,
+        "min_area": 100
+      },
+      "surfaces": {
+        "l_lower": "pants",
+        "u_torso": "shirt"
+      },
+      "regions": {
+        "65": "none",
+        "73": "none",
+        "126": "none",
+        "127": "none",
+        "130": "none",
+        "132": "none",
+        "133": "helmet",
+        "140": "helmet",
+        "142": "none",
+        "143": "helmet",
+        "161": "helmet",
+        "163": "helmet"
+      }
+    }
+  }
+}
