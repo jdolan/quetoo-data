@@ -1,7 +1,7 @@
-5848b998c95a993052fdb7adc952ba19 34493571 maps/rounding.bsp
-d9be304ce19b6d74aeea0580e67190b9 143513 mapshots/rounding/quetoo079.jpg
-37d15de81b47a08c56fe2120a10e5389 99218 mapshots/rounding/quetoo080.jpg
-4a4de84b8dc65ca64e80c3dff3ca18b0 141264 mapshots/rounding/quetoo081.jpg
+8ef0e69f2b5ff13e95d488f9e72a266e 34458075 maps/rounding.bsp
+53f7f6f69185ff8d23886bde1dbf12fd 1022190 mapshots/rounding/shot1.jpg
+207896c68fa878df243d803a83c7291c 799774 mapshots/rounding/shot2.jpg
+6e051a171850a04e38434df3c6b9a079 778196 mapshots/rounding/shot3.jpg
 3c9e6b24410f76aef59c896971c43be2 586383 sky/midnight_silence.jpg
 9a832755b20df1aca0c656a7edfb09e5 34732 sprites/flare_1.png
 649ffcd19896ebe708b38f5dfb8e657c 61888 sprites/flare_2.png

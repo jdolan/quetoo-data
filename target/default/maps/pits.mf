@@ -1,4 +1,4 @@
-6c7cec7a6479763bdb14ba5040051411 12977121 maps/pits.bsp
+f2ca72128d168b3b72edd27b24b9d4c6 12981477 maps/pits.bsp
 0941225f4b0647ca36a5a7b9a6169633 10508 maps/pits.nav
 fe8037ac2e689cc84798186aafc0fd92 186239 mapshots/pits/quetoo031.jpg
 f1b7b56a0295487e7be5cb4a9d7652c7 222611 mapshots/pits/quetoo032.jpg
@@ -128,7 +128,7 @@ fbae669576616fad0e199e77973a34f4 32026 textures/quake2/stn_floor_spec.jpg
 ceaba3427c5e865c29ae48b83b4e90d5 20421 textures/quake2/subslimebotm.jpg
 130e5bf5cff4b5063e467b2c09c57867 135 textures/quake2/subslimebotm.mat
 f3cdfc013a987022e57ea3615e6dc96b 5280 textures/quake2/water6.jpg
-fd10fa4c1ba10b61d0e1075ef3e578c5 443 textures/quake2/water6.mat
+4d1dce09cebafb01032f4b18f6ea176d 543 textures/quake2/water6.mat
 dba487f8eba869f013efec1d609a99b4 12895 textures/quake2/wgroove.jpg
 af279dddedf9d34bb098061f7010ae08 93 textures/quake2/wgroove.mat
 5120f694948c83d723301e5a571eb1c9 14782 textures/quake2/wgroove_dark.jpg

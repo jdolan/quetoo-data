@@ -1,15 +1,20 @@
 {
 	diffusemap quake/water1
-	roughness 0.00
-	hardness 3.61
-	specularity 0.59
-	parallax 0.00
-	shadow 0.00
 	contents "water"
+	surface "material reflect liquid"
+	{
+		reflection
+		color 1 1 1 .33
+		blend src_alpha one
+		warp 0.30 0.30
+		lighting 0.33
+	}
 	{
 		texture effects/water6fx
 		blend src_alpha one
+		color 1.5 1.5 1.5 1.5
 		scroll.s 0.050
+		scroll.t 0.050
 		scale.s 0.500
 		scale.t 0.500
 		warp 0.30 0.30
@@ -18,18 +23,12 @@
 	{
 		texture effects/water6fx
 		blend src_alpha one
+		color 1.5 1.5 1.5 1.5
 		scroll.t -0.050
+		scroll.s -0.050
 		scale.s 0.660
 		scale.t 0.660
 		warp 0.40 0.30
-		lighting 0.33
-	}
-	{
-		texture effects/water6fx
-		blend src_alpha one
-		scale.s 1.000
-		scale.t 1.000
-		warp 0.50 0.30
 		lighting 0.33
 	}
 }

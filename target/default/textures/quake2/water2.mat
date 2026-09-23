@@ -1,36 +1,34 @@
 {
 	diffusemap quake2/water2
-	roughness 0.00
-	hardness 1.65
-	specularity 0.62
-	parallax 0.00
-	shadow 0.00
 	contents "water"
-	surface "blend_33"
+	surface "blend_33 reflect liquid"
 	{
-		texture effects/water2fx
+		reflection
+		color 1 1 1 .33
 		blend src_alpha one
-		scroll.s -0.020
-		scale.s 1.250
-		scale.t 1.250
 		warp 0.30 0.30
-		lighting .5
+		lighting 0.33
 	}
 	{
 		texture effects/water2fx
 		blend src_alpha one
-		scale.s 1.000
-		scale.t 1.000
-		warp 0.40 0.30
-		lighting .5
+		color 1.5 1.5 1.5 1.5
+		scroll.s 0.050
+		scroll.t 0.050
+		scale.s 0.500
+		scale.t 0.500
+		warp 0.30 0.30
+		lighting 0.33
 	}
 	{
 		texture effects/water2fx
 		blend src_alpha one
-		scale.s 1.000
-		scale.t 1.000
-		warp 0.50 0.30
-		lighting .5
+		color 1.5 1.5 1.5 1.5
+		scroll.s -0.050
+		scroll.t -0.050
+		scale.s 0.660
+		scale.t 0.660
+		warp 0.30 0.30
+		lighting 0.33
 	}
-
 }

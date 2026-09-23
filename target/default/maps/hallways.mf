@@ -1,4 +1,4 @@
-646fb41ba3101f3dec67c338a8f808b9 20748051 maps/hallways.bsp
+e56b17261a53d911307259d55fd53c6c 20751739 maps/hallways.bsp
 ddbb2038b24723624bb37d03837e0d7f 11732 maps/hallways.nav
 2d23e8e2cab17325fe31c37e7269a932 158789 mapshots/hallways/quetoo026.jpg
 9f15829fbc437c7e677c2de7ecab1392 154308 mapshots/hallways/quetoo027.jpg
@@ -40,11 +40,11 @@ b218c810b83c0292c712df095ba039ff 3033 textures/quake2/ceil1_28.jpg
 4770915d98757150615bd627d2a21ae6 8213 textures/quake2/ceil1_28fx.png
 e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
-2a85f51bd92b547f94dc027a18ef9430 298 textures/quake2/duckw-open.mat
+730529432d45f2ac351bbd75cdfa5589 398 textures/quake2/duckw-open.mat
 047425094efd2c17a8acf86990b920c1 258139 textures/quake2/duckw-open.png
 19ce0c006cdc9a704fea3c1d9fde0179 211287 textures/quake2/duckw-open_norm.png
 360cbf440d09e4be8375c782de5b0377 23406 textures/quake2/duckw-open_spec.jpg
-cdd10c92f3531f231879c6cc8b9e1fc7 293 textures/quake2/duckw.mat
+6e9492fb4b3452b1968c58f790fca7b6 393 textures/quake2/duckw.mat
 385e0f57544bf2f258c89815489df521 615506 textures/quake2/duckw.png
 8ed0b727acd885b2a4ebbf92eb5fc3f7 613418 textures/quake2/duckw_norm.png
 03b1aea461446046426701dcae6c59a3 97659 textures/quake2/duckw_spec.jpg

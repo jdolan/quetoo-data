@@ -6,7 +6,14 @@
 	parallax 1
 	shadow 0.00
 	contents "water"
-	surface "blend_100"
+	surface "blend_100 reflect"
+	{
+		reflection
+		color 1 1 1 .25
+		blend src_alpha one
+		warp 0.25 0.25
+		lighting 0.33
+	}
 	{
 		texture quake2/duckw
 		blend src_alpha one

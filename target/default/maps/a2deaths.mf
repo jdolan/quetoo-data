@@ -1,5 +1,8 @@
-9535a8f161aa46e689f547b01eb9acdf 14895710 maps/a2deaths.bsp
+b950a3fc62d14dfb28ef66707edb90a7 14896586 maps/a2deaths.bsp
 d5d9134fd5624bc39854565de2d3c064 3708 maps/a2deaths.nav
+2ede90d3886db0740e79bcbe886ebe4a 1301059 mapshots/a2deaths/shot1.jpg
+9a359b7ff3945c3ede21efa9fdbd7ac7 1371287 mapshots/a2deaths/shot2.jpg
+3eef1bb98d15aedc3a27c9f45ce53d48 1283669 mapshots/a2deaths/shot3.jpg
 934bfdf0b76abf133bb510c4bfd39e37 338643 sky/sky1.jpg
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
 ab6846eab04f23e52489df2d2e7dea1b 29 textures/common/caulk.mat

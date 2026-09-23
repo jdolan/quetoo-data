@@ -1,19 +1,16 @@
 {
 	diffusemap quake/teleport
 	contents "mist detail"
-	surface "material blend_66"
+	surface "material portal"
 	{
-		texture quake/teleport
-		blend src_alpha one_minus_src_alpha
-		color 1.00 1.00 1.00 0.666
-		warp 0.33 3.00
-		lighting 0.5 flat
+		portal
+		warp 0.33 0.125
 	}
 	{
 		texture quake/teleport
-		blend src_alpha one
-		color 1.00 1.00 1.00 0.666
-		warp -0.33 -3.00
-		lighting 0.5 flat
+		blend src_alpha one_minus_src_alpha
+		color 1 1 1 .33
+		warp .33 .66
+		lighting flat
 	}
 }

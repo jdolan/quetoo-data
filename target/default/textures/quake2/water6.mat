@@ -6,7 +6,14 @@
 	parallax 0.00
 	shadow 0.00
 	contents "water"
-	surface "blend_66"
+	surface "blend_66 reflect"
+	{
+		reflection
+		color 1 1 1 .33
+		blend src_alpha one
+		warp 0.30 0.30
+		lighting 0.33
+	}
 	{
 		texture quake2/slimefx2
 		blend src_alpha one

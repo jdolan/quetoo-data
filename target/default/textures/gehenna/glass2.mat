@@ -3,7 +3,6 @@
 	hardness 2.50
 	specularity 3.00
 	surface "blend_100"
-	contents "water"
 	{
 		texture gehenna/plasma
 		blend src_alpha one_minus_src_alpha
