@@ -1700,6 +1700,7 @@ ffd2ba30591918147789ef7a7940bd8b 125798 sounds/ambient/frogs_1.wav
 e19ffb0c9feff27628b56f9a8b72f941 1104394 sounds/ambient/gigacor.wav
 34c303e94ccd9e8ba21a299c931f30e5 182706 sounds/ambient/hum.wav
 fa718de8e683dbc0c8e278b121113b20 175306 sounds/ambient/hum2.wav
+955007fad132b0afbd315adc5f23f482 239868 sounds/ambient/hum3.wav
 ec1f1a24735c65bbb9d4dbaa8c4fd87b 107140 sounds/ambient/impact.wav
 1d5de8d1525ad3155df01e795382e09e 85406 sounds/ambient/lava_1.wav
 9b48cbb4eed62b68bb675a66858887e3 83218 sounds/ambient/lava_2.wav
@@ -1714,6 +1715,7 @@ c71c18c62d64acb7ed4fa00730a079c6 33672 sounds/ambient/metal_1.wav
 c6ead2c1cad94273b42af8a277f49279 426350 sounds/ambient/pulse.wav
 69f9ce969eeee2173bfad295a4359c7f 1702094 sounds/ambient/rain.wav
 9809895cca18f3652cef513819493b31 239336 sounds/ambient/rocks.wav
+902f10685a646e643f41dee75d1503f6 152108 sounds/ambient/siren.wav
 d3dbffff0a91792b48abd53226be1fd5 68510 sounds/ambient/sizzle.wav
 3ca759946c896a7488f339a18d74e801 698830 sounds/ambient/slime_1.wav
 ea373df634232e5ad1616b9d1db6312c 923786 sounds/ambient/snow.wav
@@ -3718,6 +3720,7 @@ dfcc10b269bcba29bd8716cef085b7d4 37058 textures/common/notex.jpg
 2a1b49cbfe055dec00b23d65163f56f6 2115 textures/common/origin.jpg
 68c96aad25d1fa26d3e6b8e612a84dfe 30 textures/common/origin.mat
 831be62777965e67a577868ed263f7bb 10843 textures/common/portal.jpg
+668d737f66f3cba3e5a61adee3ea4b91 46 textures/common/portal.mat
 fffcc49d41ecfd1d3e51fec21282f9f5 2142 textures/common/projectile_clip.jpg
 be48a3891c88c5a37c32980212ca8aaa 1846 textures/common/skip.jpg
 9243c7ad7e16a9a96f4a5f89b4212458 1512 textures/common/sky.jpg
@@ -4003,15 +4006,15 @@ d2afa6e5279dd0e84f1222391eaa5a2b 5665 textures/effects/bolt.png
 25cf21922876d73f8f8bd1914672dfdd 99 textures/effects/floorfx.mat
 31ae959fac167e28369bcbe97c519dc4 13480 textures/effects/floorfx.png
 3db057c6ce4d8dad48664c20f193552d 547 textures/effects/flr3_mark.mat
-05de3c79e3905548c72039227b5db080 93 textures/effects/fx-cyan.mat
+138c592d8afef23eb452dade68bb48f5 112 textures/effects/fx-cyan.mat
 0863b229e5ceb7211a510c7166877416 147307 textures/effects/fx-cyan.png
-dcfe7758491bdc4813a541847feb4435 94 textures/effects/fx-green.mat
+e9275d8b6108a13db1371cbf93d3a883 113 textures/effects/fx-green.mat
 8b34ffbadc6233fc624950440b7e1940 156645 textures/effects/fx-green.png
-3a1cfa41e51df61d7ffd83b687acfdb0 96 textures/effects/fx-magenta.mat
+ae254e811b1ec8ef3e2c0e4274415f6c 115 textures/effects/fx-magenta.mat
 20d6eff839481626fab703aa03bd6f9b 158355 textures/effects/fx-magenta.png
-5b5c27eb2c650d3758089484a9ac43ec 92 textures/effects/fx-red.mat
+d2ecce2915e18f618287b00a1248ead2 111 textures/effects/fx-red.mat
 a20e0cdb662f395b4528157cd9da35ad 154473 textures/effects/fx-red.png
-e224edad7a2292f76c69c755362cfbaf 95 textures/effects/fx-yellow.mat
+960bb3c14929ed9ad2bf1001db1dc144 114 textures/effects/fx-yellow.mat
 a6e09ac4c3a56e8d45fbcf1e87029cd8 156815 textures/effects/fx-yellow.png
 d6621c7d564c4bb56e0c970f2b2f8b1e 172 textures/effects/lightbeam.mat
 4da786615b9fe0bc388318430adc5288 8505 textures/effects/lightbeam.png
