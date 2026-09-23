@@ -4,4 +4,5 @@
 	specularity 3
 	shadow 0.00
 	surface "blend_100"
+	contents "detail"
 }
