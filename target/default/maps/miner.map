@@ -4,9 +4,9 @@
 {
 "classname" "worldspawn"
 "_tb_textures" "textures\atlantis;textures\base1;textures\common;textures/decals;textures/effects;textures/fractures;textures/prototype;textures/q4power;textures/quake;textures/quake2;textures/skies912;textures/trak5"
-"ambient" "0.175"
+"ambient" "0.25"
 "sky" "miramar"
-"message" "Miner Difficulty in C#"
+"message" "Miner Difficulty"
 "author" "Skies912"
 "version" "1.0.1"
 // brush 0
