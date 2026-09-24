@@ -6,6 +6,6 @@
 		texture ammo/quake_nails/skin_glow
 		blend src_alpha one
 		color 0.50 0.50 0.00 1.00
-		pulse 1.00 1.000
+		pulse 1.00
 	}
 }

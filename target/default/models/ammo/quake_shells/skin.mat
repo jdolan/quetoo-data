@@ -6,7 +6,7 @@
 	{
 		texture ammo/quake_shells/skin_glow
 		blend src_alpha one
-		pulse 1.5 1
+		pulse 1.5
 		color 1 1 0 1
 	}
 }
