@@ -203,10 +203,10 @@ ed6470caf8bd5858d267456ce2a9473c 8983 maps/lavatomb.mf
 76f47cc073912cca5ef789f0ae03582e 1484147 maps/longyard.map
 41d89822d9780b3f4d79ed1f43dd4a94 10119 maps/longyard.mf
 2582dc7595a72dcf20557bfd595c7f0a 7276 maps/longyard.nav
-c6aab255d9fab36c09e1911ae991a78b 49365272 maps/miner.bsp
+82aff703de9c99b09cb0bb957f5d6269 49365265 maps/miner.bsp
 25145cf0a83be36eb8c21c685bba824b 3121 maps/miner.lin
-ee4049820cc5970357ec32da33dae2dc 3591690 maps/miner.map
-40f70952d569b377e1e794404e456da6 18979 maps/miner.mf
+dbe55d3eaa72ea67511ba375451ce339 3591683 maps/miner.map
+86360afe6dc4ab5c6ce0d96817033b34 18979 maps/miner.mf
 a1cf2d01675c3e4ffd8e852cbe478574 5324 maps/miner.nav
 760c442f63fb63a9f570e405f9dad4ba 8181998 maps/omf.bsp
 adff4ce1bf491ae1137f967df07f4b61 1026197 maps/omf.map
@@ -311,6 +311,9 @@ b81fd46af461370e2277bcbca5c6cfc2 180660 mapshots/lavatomb/quetoo101.jpg
 a6c721a108337deaab4a419443de6e55 76435 mapshots/longyard/longyard02.jpg
 44faaf53746971c74183f2d217bda2d1 77232 mapshots/longyard/longyard03.jpg
 2f02fb2a0eef88e27b43d6252e17203b 71691 mapshots/longyard/longyard04.jpg
+2ce891eae749afd17f715040076a707a 212438 mapshots/miner/miner-01.jpg
+2b923fe63a2b23355d1696568f56ea96 233197 mapshots/miner/miner-02.jpg
+a323d0b24270bda12c551b7048d7da7c 154315 mapshots/miner/miner-03.jpg
 850435dfbb6f762dd7655f0ec3a0a585 257403 mapshots/omf/quetoo073.jpg
 f95e1e30a91651c35b9c49c838035709 245537 mapshots/omf/quetoo074.jpg
 9b1bc02e53e6205277a8d24052980ea6 184649 mapshots/omf/quetoo075.jpg
