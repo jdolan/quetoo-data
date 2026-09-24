@@ -1,4 +1,4 @@
-ac9e04a6cbb29ad29bfe6776d4cdebfb 32765615 maps/campgrounds.bsp
+61878f95a742e878ed495527f2eab0a5 31994407 maps/campgrounds.bsp
 70d4b9e5bdea0e4856f8351bf1e76389 7996 maps/campgrounds.nav
 bf5f522aad13f6d7c741e4dcc6992d20 141879 mapshots/campgrounds/campgrounds01.jpg
 52fa965f6fa95108ba85bcd07764f4c4 251497 mapshots/campgrounds/campgrounds02.jpg

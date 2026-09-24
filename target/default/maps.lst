@@ -59,7 +59,7 @@
 	name gehenna
 }
 {
-	name insta-rounding
+	name rounding
 }
 {
 	name omf
@@ -70,7 +70,6 @@
 {
 	name torn
 }
-#Q3 Remakes
 {
 	name longyard
 }

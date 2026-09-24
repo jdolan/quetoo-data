@@ -1,4 +1,4 @@
-769cca0261a66a61145a50776bd31e3e 47500453 maps/longyard.bsp
+9ee5bbeab2a332b393364a3c3fbaa77f 46769629 maps/longyard.bsp
 2582dc7595a72dcf20557bfd595c7f0a 7276 maps/longyard.nav
 44130708393c1733cbf7b03941609c5a 83295 mapshots/longyard/longyard01.jpg
 a6c721a108337deaab4a419443de6e55 76435 mapshots/longyard/longyard02.jpg
