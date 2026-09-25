@@ -860,6 +860,7 @@ c4cc68c8846b3bc55656fe9ae2a15cd0 3119568 music/jacob_zammit-wretcher.ogg
 4b4b8939cbb922b92ff054ad9f0f9397 3439467 music/zander_noriega-fight_them_until_we_cant.ogg
 0d58d515d8ee8a071395267b9e5a51cc 3137617 music/zander_noriega-oklahoma_motel_larvae.ogg
 224e113522494f5cf10b933ad68a00a3 3845221 music/zander_noriega-the_recon_mission.ogg
+dd5dabe7c83fe519c8b6bbba2b790502 187 pics/add.svg
 1096b6ac6486623d1d0c9f82f7a23588 580 pics/adrenaline.svg
 bf7b602e2fd0394e10d723ddd60f24b6 379 pics/armor_body.svg
 6d2b216ae393cdd544d1ef2d1b1a1baf 379 pics/armor_combat.svg
