@@ -6,6 +6,6 @@
 		texture ammo/quake_bolts/skin_glow
 		blend src_alpha one
 		color 0.88 1.00 0.00 1.00
-		pulse 1.50 1.000
+		pulse 1.50
 	}
 }

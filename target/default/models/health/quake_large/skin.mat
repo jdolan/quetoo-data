@@ -6,6 +6,6 @@
 		texture health/quake_large/skin_glow
 		blend src_alpha one
 		color 1.00 0.00 0.00 1.00
-		pulse 2.00 1.000
+		pulse 2.00
 	}
 }
