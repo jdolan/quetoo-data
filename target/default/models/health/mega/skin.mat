@@ -1,18 +1,18 @@
 {
 	diffusemap health/mega/skin
-	roughness 1
-	hardness 3
-	specularity 2
+	hardness 3.00
+	specularity 2.00
+	shadow 0.00
 	{
-		shell 5
 		texture envmaps/blue
-		envmap
 		blend src_alpha one
-		color 0 1 .333 .333
-		lighting 1 flat
-		scale.s 2
-		scale.t 2
-		scroll.s .5
-		scroll.t .5
+		color 0.00 1.00 0.38 0.82
+		scroll.s 0.500
+		scroll.t 0.500
+		scale.s 2.000
+		scale.t 2.000
+		envmap
+		lighting 1.00 flat
+		shell 3.06
 	}
 }

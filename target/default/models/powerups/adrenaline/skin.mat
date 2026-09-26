@@ -1,21 +1,24 @@
 {
 	diffusemap powerups/adrenaline/skin
-	roughness 3.59184
-	hardness 5.38775
-	specularity 2.04082
+	roughness 3.59
+	hardness 5.39
+	specularity 2.04
+	shadow 0.00
 	{
 		texture powerups/adrenaline/skin_glow
 		blend src_alpha one
-		pulse 1
+		pulse 1.00
 	}
 	{
 		texture quake3/effects/envmapbfg
-		envmap
 		blend src_alpha one
-		color 1 1 1 2
-		lighting 1 flat
-		scale.s 2
-		scale.t 2
-		shell 2
+		color 0.00 1.00 1.33 0.87
+		scroll.s 0.500
+		scroll.t 0.500
+		scale.s 2.000
+		scale.t 2.000
+		envmap
+		lighting 1.00 flat
+		shell 3.04
 	}
 }

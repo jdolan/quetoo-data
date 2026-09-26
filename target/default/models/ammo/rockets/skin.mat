@@ -1,19 +1,20 @@
 {
 	diffusemap ammo/rockets/skin
 	normalmap ammo/bullets/skin_norm
-	roughness 3.91837
-	hardness 8
-	specularity 1.27891
+	roughness 3.92
+	hardness 8.00
+	specularity 1.28
+	shadow 0.00
 	{
-		shell 1
 		texture envmaps/red
-		envmap
 		blend src_alpha one
-		color 1 1 1 .2
-		lighting 1 flat
-		scale.s 2
-		scale.t 2
-		scroll.s .5
-		scroll.t .5
+		color 0.97 0.99 1.05 0.21
+		scroll.s 0.500
+		scroll.t 0.500
+		scale.s 2.000
+		scale.t 2.000
+		envmap 0.26698
+		lighting 0.95 flat
+		shell 1.00
 	}
 }

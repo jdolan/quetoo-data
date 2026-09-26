@@ -1,19 +1,20 @@
 {
 	diffusemap ammo/grenades/skin
 	normalmap ammo/bullets/skin_norm
-	roughness 3.91837
-	hardness 5.38775
-	specularity 1.08844
+	roughness 3.92
+	hardness 5.39
+	specularity 1.09
+	shadow 0.00
 	{
-		shell 1
 		texture envmaps/green
-		envmap
 		blend src_alpha one
-		color 1 1 .5 .25
-		lighting 1 flat
-		scale.s 2
-		scale.t 2
-		scroll.s .5
-		scroll.t .5
+		color 1.00 1.00 1.02 0.35
+		scroll.s 0.500
+		scroll.t 0.500
+		scale.s 2.000
+		scale.t 2.000
+		envmap
+		lighting 2.00 flat
+		shell 1.00
 	}
 }

@@ -1,25 +1,25 @@
 {
 	diffusemap armor/shard/skin
-	roughness 3.59184
-	parallax 5.38775
-	hardness 6.12245
-	specularity 4.2449
-	parallax 5.38775
+	roughness 3.59
+	hardness 6.12
+	specularity 4.24
+	parallax 5.39
+	shadow 0.00
 	{
 		texture armor/shard/skin_glow
 		blend src_alpha one
-		pulse 1.5
+		pulse 1.50
 	}
 	{
-		shell 2
 		texture envmaps/green
-		envmap
 		blend src_alpha one
-		color .2 .4 .2 .15
-		lighting 1 flat
-		scale.s 2
-		scale.t 2
-		scroll.s .5
-		scroll.t .5
+		color 0.98 0.97 1.01 0.21
+		scroll.s 0.500
+		scroll.t 0.500
+		scale.s 2.000
+		scale.t 2.000
+		envmap
+		lighting 0.98 flat
+		shell 2.00
 	}
 }
