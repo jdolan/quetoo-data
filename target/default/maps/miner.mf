@@ -1,5 +1,8 @@
-82aff703de9c99b09cb0bb957f5d6269 49365265 maps/miner.bsp
+898c7042ec0beab910949f031d33c98c 49365541 maps/miner.bsp
 a1cf2d01675c3e4ffd8e852cbe478574 5324 maps/miner.nav
+2ce891eae749afd17f715040076a707a 212438 mapshots/miner/miner-01.jpg
+2b923fe63a2b23355d1696568f56ea96 233197 mapshots/miner/miner-02.jpg
+a323d0b24270bda12c551b7048d7da7c 154315 mapshots/miner/miner-03.jpg
 d08014541d19ab6b5807c5ea8e18ea08 629588 sky/miramar.jpg
 081942a69b06f9e823fd88ec67d11cc4 270702 sounds/ambient/fan_1.wav
 649ffcd19896ebe708b38f5dfb8e657c 61888 sprites/flare_2.png
@@ -265,7 +268,7 @@ c323e7182febdeedf49a8303ed6a4741 116857 textures/quake2/troof4_2_norm.png
 1d4163522586b3be5a8e53332b654236 132 textures/quake2/wndow1dirt.mat
 fe442af173d7f95063339faf765a31c8 185831 textures/quake2/wndow1dirt.png
 d2e7d8a1a3b5a393bf1326927affdd48 60072 textures/skies912/crystal01.jpg
-244a2e67f2cffae0d3f5c3c09d7217c1 391 textures/skies912/crystal01.mat
+32f1240efc41e7076da64cbb821e921b 401 textures/skies912/crystal01.mat
 e6400e478389defaad4baf7018051689 85907 textures/skies912/hex_crystal_spec.jpg
 e7475097f6a5630cb6dfa4d29164c74e 84419 textures/trak5/pipe1_norm.png
 168f4ffe780d0b9928fa7b30c2d2fcfd 11572 textures/trak5/pipe1b.jpg

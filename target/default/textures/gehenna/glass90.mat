@@ -10,9 +10,10 @@
 		color 1 1 1 0.75
 	}
 	{
-		envmap envmaps/envmap_2
+		texture envmaps/envmap_2
+		envmap
 		color 1 1 1 0.2
-		scale.t 0.125
-		scale.s 0.125
+		scale.t 8
+		scale.s 8
 	}
 }

@@ -6,12 +6,13 @@
 	specularity 1.38776
 	{
 		shell 1
-		envmap envmaps/green
+		texture envmaps/green
+		envmap
 		blend src_alpha one
 		color 0 1 1 .2
 		lighting 1 flat
-		scale.s .5
-		scale.t .5
+		scale.s 2
+		scale.t 2
 		scroll.s .5
 		scroll.t .5
 	}

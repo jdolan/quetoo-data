@@ -4,12 +4,13 @@
 	hardness 1.0
 	specularity 1.0
 	{
-		envmap envmaps/gold
+		texture envmaps/gold
+		envmap
 		blend src_alpha one
 		color .33 .33 .33 .5
 		lighting .33 flat
-		scale.s .5
-		scale.t .5
+		scale.s 2
+		scale.t 2
 		scroll.s .5
 		scroll.t .5
 		shell 12

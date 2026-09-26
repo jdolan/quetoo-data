@@ -1,4 +1,4 @@
-fec565d7d7163e6786feb0e5eeb04301 9168024 maps/tokays.bsp
+8ea1313b3dd34690fe229bffc2ec601b 9168456 maps/tokays.bsp
 11c9ca144c4780c952b173798c467d07 5980 maps/tokays.nav
 82c4bd5edf9876726be5628b7c22476e 185671 mapshots/tokays/quetoo018.jpg
 5efa348a845250cfce81ae0552cfc9e1 193044 mapshots/tokays/quetoo019.jpg
@@ -138,7 +138,7 @@ c323e7182febdeedf49a8303ed6a4741 116857 textures/quake2/troof4_2_norm.png
 404935ea96a6aa3a36d581a5e9ea1616 21339 textures/quake2/troof4_5.jpg
 f6ad26ea717d19e6e07b2234a4cb6807 192 textures/quake2/troof4_5.mat
 86f35d8414b8b5fc8115bec341004f10 2974 textures/quake2/water2.jpg
-b2b044edc8ad05154864bdddcc0e0534 533 textures/quake2/water2.mat
+2a7fad79d40e231c525640ac9bcce5c8 530 textures/quake2/water2.mat
 7de527ac027787a9be5bff39c68889c2 2499 textures/quake2/yellow1_4.jpg
 ab2d72f7155edd70866420f461e2e052 110 textures/quake2/yellow1_4.mat
 ed68bcec5588be1fa8d32b6d105d4c09 4601 textures/quake2/yellow1_4_norm.png

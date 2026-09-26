@@ -1,4 +1,4 @@
-21b46a2daea2fa5e5c8a6ff6c8b8cc21 17442413 maps/abase.bsp
+1d5ea017876b6bf9b3114a96e354325d 17445161 maps/abase.bsp
 a96f38decbf7ac420f2bf32a5c50838d 9924 maps/abase.nav
 9bba06fe7223bcd1d20711bdd950d547 127700 mapshots/abase/quetoo001.jpg
 97ef68c5d030e7a0d49e6c9022aad638 170339 mapshots/abase/quetoo002.jpg
@@ -436,7 +436,7 @@ e6ff715fbb1c05e0a7851b25eac6e9d2 14853 textures/quake/tyr_09.jpg
 bfb06ac1ec78b376644340d4496c4a94 31376 textures/quake/tyr_15_norm.png
 473c2523d0035a7ec6a4e735e4621e74 12143 textures/quake/tyr_15_spec.jpg
 bde6b610a9696433425cf8ef9782c0bd 11083 textures/quake/water0.jpg
-9c858b90757ce18d50b27ab23ed85bbd 532 textures/quake/water0.mat
+a59ab8855de2d4a3d3281f13977ea2cf 529 textures/quake/water0.mat
 70350b37ed7b9d3ffd5ad38447de5afe 7647 textures/quake/water0_spec.jpg
 4acecda389fe169b1210a8aebe0042bd 38396 textures/quake/wir_la2.jpg
 23c16b2ef23732bca500fd20de70c11f 107 textures/quake/wir_la2.mat
@@ -447,11 +447,11 @@ ee801d97888923ff9fe0bb7fb5b6a9c7 32396 textures/quake/wir_la2_spec.jpg
 e3a0a45192728e3cafa6e5017d739e0d 4077 textures/quake/wir_la4_luma.jpg
 811d6eee2756e580d6e2306b61d96a1e 138929 textures/quake/wir_la4_norm.png
 68caf2e2fd8af99a123e2d36dedc65b0 33586 textures/quake/wir_la4_spec.jpg
-6e9492fb4b3452b1968c58f790fca7b6 393 textures/quake2/duckw.mat
+4eb0a002dcb3bc709d77198d317ee2af 390 textures/quake2/duckw.mat
 385e0f57544bf2f258c89815489df521 615506 textures/quake2/duckw.png
 8ed0b727acd885b2a4ebbf92eb5fc3f7 613418 textures/quake2/duckw_norm.png
 03b1aea461446046426701dcae6c59a3 97659 textures/quake2/duckw_spec.jpg
-6c392c3775e46047ec2ece2a2b1928e9 198 textures/quake2/wndow1_2.mat
+c66261a9ab5d6c7c9e6212aa996c6dd7 292 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png
 5cc73f0cf72f7c73d27cee755c231a3e 160 textures/quake3/base_floor/pjgrate2.mat
 66c2ac882663804833589240acc771ac 117412 textures/quake3/base_floor/pjgrate2.png
