@@ -268,7 +268,7 @@ c323e7182febdeedf49a8303ed6a4741 116857 textures/quake2/troof4_2_norm.png
 1d4163522586b3be5a8e53332b654236 132 textures/quake2/wndow1dirt.mat
 fe442af173d7f95063339faf765a31c8 185831 textures/quake2/wndow1dirt.png
 d2e7d8a1a3b5a393bf1326927affdd48 60072 textures/skies912/crystal01.jpg
-244a2e67f2cffae0d3f5c3c09d7217c1 391 textures/skies912/crystal01.mat
+32f1240efc41e7076da64cbb821e921b 401 textures/skies912/crystal01.mat
 e6400e478389defaad4baf7018051689 85907 textures/skies912/hex_crystal_spec.jpg
 e7475097f6a5630cb6dfa4d29164c74e 84419 textures/trak5/pipe1_norm.png
 168f4ffe780d0b9928fa7b30c2d2fcfd 11572 textures/trak5/pipe1b.jpg

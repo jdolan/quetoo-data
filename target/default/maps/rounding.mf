@@ -1,4 +1,4 @@
-0637b4e4228f0f35371ecabaff447a6d 33166183 maps/rounding.bsp
+3a8e77b99ab1b4f94dfd288af734df47 33166951 maps/rounding.bsp
 53f7f6f69185ff8d23886bde1dbf12fd 1022190 mapshots/rounding/shot1.jpg
 207896c68fa878df243d803a83c7291c 799774 mapshots/rounding/shot2.jpg
 6e051a171850a04e38434df3c6b9a079 778196 mapshots/rounding/shot3.jpg
@@ -188,5 +188,5 @@ b8f0eac66d84f9f0a152c0e217792e85 3386 textures/quake2/trimmet2_1.jpg
 e37e1a6a99f3c2886707c5669d08e8ce 93 textures/quake2/trimmet2_1.mat
 38c5ff84c9fee5e5b937154ca14e9713 14268 textures/quake2/trimmet2_1_norm.png
 4e26ebce2b110274cca69597610ac7e0 2522 textures/quake2/trimmet2_1_spec.jpg
-6c392c3775e46047ec2ece2a2b1928e9 198 textures/quake2/wndow1_2.mat
+c66261a9ab5d6c7c9e6212aa996c6dd7 292 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png

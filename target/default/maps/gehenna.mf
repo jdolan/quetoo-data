@@ -59,7 +59,7 @@ b21f2dc96466149a52d4a58b285e41ed 64582 textures/evil/exmetalbase03_d.jpg
 08d29f12b3bf0259445b67d1d2b6331b 118 textures/gehenna/clangfloor_01b.mat
 b8225117cda6c9c1d12c7fc8c456a21c 28551 textures/gehenna/clangfloor_01b_d.jpg
 8cbef423087d6ff6d807902ff805b78f 11269 textures/gehenna/clangfloor_01b_norm.png
-286c09041b6e5a31ab86dad6cea3d23a 245 textures/gehenna/glass.mat
+fc69dd79cfab4cb931b59f341755ce40 306 textures/gehenna/glass.mat
 c9c40627c524bbd5136265625cd4200e 10231 textures/gehenna/glass.png
 8bc33e8d3584da79e265bc6553d3ea9d 283 textures/gehenna/glass2.mat
 a2c923e06c940e01a6aa1b91e15d382b 10234 textures/gehenna/glass2.png

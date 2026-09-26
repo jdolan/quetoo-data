@@ -85,7 +85,7 @@ f048c4cd91baa7e45a943d7ce8e15877 184 textures/evil/e6v_light.mat
 59d11759760080f5315201b1f2776137 9812 textures/evil/e6v_light_blend.jpg
 449e145fb5e9aedcacaee52a780c13ad 21890 textures/evil/e8trimlight2.jpg
 9de75963b996ecaaf1f6bf5283b4173f 74 textures/evil/e8trimlight2.mat
-4fccd55dc244e1774fb0f7894e6a37d6 264 textures/gehenna/glass90.mat
+fc683cdbc1b828b12c67c5ad51c8a36f 266 textures/gehenna/glass90.mat
 b5e5284f2fe235e5e8b22df3baf62a95 12308 textures/gehenna/glass90.png
 ae9ba69188fc74e8b7e34ceba19031e8 20713 textures/quake2/metalbase03.jpg
 36424a0777688acb7afca4bee849088a 84 textures/quake2/metalbase03.mat

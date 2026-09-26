@@ -138,7 +138,7 @@ c323e7182febdeedf49a8303ed6a4741 116857 textures/quake2/troof4_2_norm.png
 404935ea96a6aa3a36d581a5e9ea1616 21339 textures/quake2/troof4_5.jpg
 f6ad26ea717d19e6e07b2234a4cb6807 192 textures/quake2/troof4_5.mat
 86f35d8414b8b5fc8115bec341004f10 2974 textures/quake2/water2.jpg
-b2b044edc8ad05154864bdddcc0e0534 533 textures/quake2/water2.mat
+2a7fad79d40e231c525640ac9bcce5c8 530 textures/quake2/water2.mat
 7de527ac027787a9be5bff39c68889c2 2499 textures/quake2/yellow1_4.jpg
 ab2d72f7155edd70866420f461e2e052 110 textures/quake2/yellow1_4.mat
 ed68bcec5588be1fa8d32b6d105d4c09 4601 textures/quake2/yellow1_4_norm.png

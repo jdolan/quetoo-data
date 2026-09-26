@@ -1,4 +1,4 @@
-f80831e63ddbd3eb0da08641e8abe468 19408057 maps/edge.bsp
+c4db25647ef5f5f6d62888e7dde652f9 19408057 maps/edge.bsp
 63f90b4907fda4f189064bfacba265a8 13036 maps/edge.nav
 fc8b5e8534faed21b9be46d1abcc0902 167231 mapshots/edge/quetoo014.jpg
 070eb7d1762f9c3097298daeb1046488 297476 mapshots/edge/quetoo015.jpg
@@ -102,7 +102,7 @@ b85f72131cf4e4f391f712471b849867 278841 textures/quake2/crate512_norm.png
 dc05734ea15bc6a4cef35a3f144de26c 95 textures/quake2/crate_top.mat
 cd5647ae24b27d6ce14b1625384d1b48 90275 textures/quake2/crate_top_norm.png
 8e4c0aaf30ceb29d22f3ddea96a3cec1 10708 textures/quake2/crate_top_spec.jpg
-6e9492fb4b3452b1968c58f790fca7b6 393 textures/quake2/duckw.mat
+4eb0a002dcb3bc709d77198d317ee2af 390 textures/quake2/duckw.mat
 385e0f57544bf2f258c89815489df521 615506 textures/quake2/duckw.png
 8ed0b727acd885b2a4ebbf92eb5fc3f7 613418 textures/quake2/duckw_norm.png
 03b1aea461446046426701dcae6c59a3 97659 textures/quake2/duckw_spec.jpg

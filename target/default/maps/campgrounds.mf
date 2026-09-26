@@ -205,7 +205,7 @@ dd0dd94c9aa612f80202381c77d5471f 82042 textures/trak4/base_concrete4a_norm.png
 a1280db84529777b451284d7b3685599 112873 textures/trak4/base_concrete4b.jpg
 0e0f23a7b00896d89aa850d393d47063 120 textures/trak4/base_concrete4b.mat
 4da529c68c7e5b214c57bba56c5d1e34 122104 textures/trak4/base_concrete5b.jpg
-60a3d7777741815f246085928b073b6e 140 textures/trak4/base_concrete5b.mat
+2a3591d11ac8d2d789dd118b60386790 150 textures/trak4/base_concrete5b.mat
 ce536c7589823372596e68dc26df43da 119680 textures/trak4/base_concrete6.jpg
 41f336f0c9c226fde84dab5be1bf3a90 37 textures/trak4/base_concrete6.mat
 1d928beb276531ce7aaa9902b816f046 594993 textures/trak4/base_concrete6_norm.png

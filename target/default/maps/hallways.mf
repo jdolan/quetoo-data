@@ -40,11 +40,11 @@ b218c810b83c0292c712df095ba039ff 3033 textures/quake2/ceil1_28.jpg
 4770915d98757150615bd627d2a21ae6 8213 textures/quake2/ceil1_28fx.png
 e01df380b678cb4c9aee7b68dfc7e09b 2911 textures/quake2/ceil1_norm.png
 ea4472e920f11a496bd84dea5230887b 2247 textures/quake2/ceil1_spec.jpg
-730529432d45f2ac351bbd75cdfa5589 398 textures/quake2/duckw-open.mat
+fb61f855cef42c6d05f5affbd3e3f45d 395 textures/quake2/duckw-open.mat
 047425094efd2c17a8acf86990b920c1 258139 textures/quake2/duckw-open.png
 19ce0c006cdc9a704fea3c1d9fde0179 211287 textures/quake2/duckw-open_norm.png
 360cbf440d09e4be8375c782de5b0377 23406 textures/quake2/duckw-open_spec.jpg
-6e9492fb4b3452b1968c58f790fca7b6 393 textures/quake2/duckw.mat
+4eb0a002dcb3bc709d77198d317ee2af 390 textures/quake2/duckw.mat
 385e0f57544bf2f258c89815489df521 615506 textures/quake2/duckw.png
 8ed0b727acd885b2a4ebbf92eb5fc3f7 613418 textures/quake2/duckw_norm.png
 03b1aea461446046426701dcae6c59a3 97659 textures/quake2/duckw_spec.jpg
