@@ -1633,11 +1633,11 @@ ac97ca6ba9e61763904cba0d8de87821 47645 players/violator/magic2.jpg
 eb32a4edb32d18690d4c003c3a7c84a2 2462692 players/violator/upper.md3
 db92c107ecdb709c9369adc3fb9c17c7 31 players/violator/world.cfg
 6f7b81da39c358825afcab61ef9c2245 3797 scripts/default_project.proj
-1fc2826adf93ac4d05eb0e07a685966b 117475 scripts/entities.def
+d169d82d8a8ef76ce5561db83d600121 117971 scripts/entities.def
 2dacd278744e75ce3c66a4de9382f029 7 scripts/shaderlist.txt
-6432ba2b55e5dfc6ea9f1ea07731207f 7683 scripts/trenchbroom/Quetoo/GameConfig.cfg
+dd5de463890101626f3b9a7f246b1d1a 7990 scripts/trenchbroom/Quetoo/GameConfig.cfg
 3aa1e0296c8357875feded038afed8f2 1855 scripts/trenchbroom/Quetoo/Icon.png
-7330002b4c599fb63456dbc7ef75be67 57481 scripts/trenchbroom/Quetoo/Quetoo.fgd
+7e205a4f72660e5bc9f6314b7540a659 57781 scripts/trenchbroom/Quetoo/Quetoo.fgd
 60944791079503010618b669a310d51c 128367 sky/acheron.jpg
 1f22ae1dd4222303ab896d151fa61702 110399 sky/aghast.jpg
 c53efff9f3c4fa4c19cd0ffb0135a82f 304070 sky/atsea.jpg
