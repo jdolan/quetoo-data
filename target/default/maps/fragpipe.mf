@@ -1,4 +1,4 @@
-71ad54154ef7ebe55e7749fca8463919 11554545 maps/fragpipe.bsp
+6c6b9b0e47c210ec8aeeec93ed11b610 11555017 maps/fragpipe.bsp
 a2e4df8258fb16bd6200967790355a77 5876 maps/fragpipe.nav
 46c892b195a0e4021ac8084341d4f119 233326 mapshots/fragpipe/quetoo022.jpg
 a5232cbee6f561d75986c39a86399b34 171053 mapshots/fragpipe/quetoo023.jpg
@@ -161,5 +161,5 @@ ceaba3427c5e865c29ae48b83b4e90d5 20421 textures/quake2/subslimebotm.jpg
 cf5061ea5bda5238d587313fe4b39a9f 92 textures/quake2/wbasic1_4.mat
 406b60c8031a53f9acfbc919d8e3afc2 199292 textures/quake2/wbasic1_4_norm.png
 ee6184ae1fe1d35a69c1254381bc91e5 15251 textures/quake2/wbasic1_4_spec.jpg
-6c392c3775e46047ec2ece2a2b1928e9 198 textures/quake2/wndow1_2.mat
+999599408e50e1aef3b48fd0dbfa2c11 240 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png
