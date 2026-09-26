@@ -9,12 +9,13 @@
 		pulse 1
 	}
 	{
-		envmap quake3/effects/envmapbfg
+		texture quake3/effects/envmapbfg
+		envmap
 		blend src_alpha one
 		color 1 1 1 2
 		lighting 1 flat
-		scale.s .5
-		scale.t .5
+		scale.s 2
+		scale.t 2
 		shell 2
 	}
 }

@@ -5,12 +5,13 @@
 	specularity 2
 	{
 		shell 1
-		envmap envmaps/red
+		texture envmaps/red
+		envmap
 		blend src_alpha one
 		color 1 1 1 .2
 		lighting 1 flat
-		scale.s .5
-		scale.t .5
+		scale.s 2
+		scale.t 2
 		scroll.s .5
 		scroll.t .5
 	}

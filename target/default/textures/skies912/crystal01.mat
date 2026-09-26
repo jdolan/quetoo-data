@@ -15,7 +15,8 @@
 		lighting 1
 	}
 	{
-		envmap base1/base1_r01_f02
+		texture base1/base1_r01_f02
+		envmap
 		color 1 1 1 0.175
 		lighting 1
 	}

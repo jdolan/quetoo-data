@@ -10,8 +10,9 @@
 	{
 		blend src_alpha one
 		color 1.00 1.00 1.00 1.00
-		scale.s 0.250
-		scale.t 0.250
-		envmap gehenna/glass
+		scale.s 4
+		scale.t 4
+		texture gehenna/glass
+		envmap
 	}
 }

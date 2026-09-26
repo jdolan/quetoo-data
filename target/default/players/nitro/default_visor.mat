@@ -3,7 +3,8 @@
 	hardness 5
 	specularity 2
 	{
-		envmap envmaps/envmap_2
+		texture envmaps/envmap_2
+		envmap
 		blend one one
 		scroll.t 1
 		color .5 1 .5 .125
