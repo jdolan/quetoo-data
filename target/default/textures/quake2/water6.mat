@@ -9,15 +9,15 @@
 	surface "blend_66 reflect"
 	{
 		reflect
-		color 1 1 1 .33
 		blend src_alpha one
-		warp 0.30 0.30
-		lighting 0.33
+		color 1.00 1.00 1.00 0.27
+		warp 0.30 0.23
+		lighting 2.00 flat
 	}
 	{
 		texture quake2/slimefx2
 		blend src_alpha one
-		color 0.32 0.26 0.22 0.25
+		color 0.32 0.26 0.22 1.00
 		scroll.t 0.010
 		scale.s 1.250
 		scale.t 1.250
@@ -26,7 +26,7 @@
 	{
 		texture effects/water6fx
 		blend src_alpha one
-		color 0.32 0.26 0.22 0.30
+		color 0.32 0.26 0.22 1.00
 		scroll.s -0.020
 		scale.s 1.000
 		scale.t 1.000

@@ -1,18 +1,19 @@
 {
 	diffusemap gehenna/glass
-	roughness 1.0
 	hardness 6.27
-	specularity 1.0
 	parallax 0.00
 	shadow 0.00
 	contents "detail"
-	surface "blend_66"
+	surface "blend_66 reflect"
 	{
+		reflect
+	}
+	{
+		texture gehenna/glass
 		blend src_alpha one
 		color 1.00 1.00 1.00 1.00
-		scale.s 4
-		scale.t 4
-		texture gehenna/glass
+		scale.s 6.000
+		scale.t 6.000
 		envmap
 	}
 }
