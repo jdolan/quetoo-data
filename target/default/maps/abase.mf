@@ -1,4 +1,4 @@
-1d5ea017876b6bf9b3114a96e354325d 17445161 maps/abase.bsp
+2510f45cd2dc1320bdae543479f0da3f 17445161 maps/abase.bsp
 a96f38decbf7ac420f2bf32a5c50838d 9924 maps/abase.nav
 9bba06fe7223bcd1d20711bdd950d547 127700 mapshots/abase/quetoo001.jpg
 97ef68c5d030e7a0d49e6c9022aad638 170339 mapshots/abase/quetoo002.jpg
@@ -436,7 +436,7 @@ e6ff715fbb1c05e0a7851b25eac6e9d2 14853 textures/quake/tyr_09.jpg
 bfb06ac1ec78b376644340d4496c4a94 31376 textures/quake/tyr_15_norm.png
 473c2523d0035a7ec6a4e735e4621e74 12143 textures/quake/tyr_15_spec.jpg
 bde6b610a9696433425cf8ef9782c0bd 11083 textures/quake/water0.jpg
-a59ab8855de2d4a3d3281f13977ea2cf 529 textures/quake/water0.mat
+23cb939383bd3bd51ef4ee6e10605e85 562 textures/quake/water0.mat
 70350b37ed7b9d3ffd5ad38447de5afe 7647 textures/quake/water0_spec.jpg
 4acecda389fe169b1210a8aebe0042bd 38396 textures/quake/wir_la2.jpg
 23c16b2ef23732bca500fd20de70c11f 107 textures/quake/wir_la2.mat
