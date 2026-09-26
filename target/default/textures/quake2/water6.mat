@@ -8,7 +8,7 @@
 	contents "water"
 	surface "blend_66 reflect"
 	{
-		reflection
+		reflect
 		color 1 1 1 .33
 		blend src_alpha one
 		warp 0.30 0.30
