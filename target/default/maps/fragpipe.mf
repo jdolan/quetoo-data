@@ -1,4 +1,4 @@
-af627a2ac72c8766d322a7b22b872d1b 11555017 maps/fragpipe.bsp
+ac5d889fcea7b7ef6f1ba04e5197c365 10749688 maps/fragpipe.bsp
 a2e4df8258fb16bd6200967790355a77 5876 maps/fragpipe.nav
 46c892b195a0e4021ac8084341d4f119 233326 mapshots/fragpipe/quetoo022.jpg
 a5232cbee6f561d75986c39a86399b34 171053 mapshots/fragpipe/quetoo023.jpg
@@ -31,7 +31,7 @@ d6621c7d564c4bb56e0c970f2b2f8b1e 172 textures/effects/lightbeam.mat
 ef052954406f2f784a6a507f121ca591 355 textures/quake2/brlava.mat
 bcca561e00db12163045b0d91175b18f 183685 textures/quake2/brlava1.jpg
 f0f2951fac46049ceb7fd2b88f2a206c 5219 textures/quake2/btactmach0.jpg
-3e614683ddadaf790bb80fc49f4edcd8 169 textures/quake2/btactmach0.mat
+2ed6bba5cd43137f0b11a913090fcea3 185 textures/quake2/btactmach0.mat
 1510b1856c07c577c728b8f8bbee79ed 19971 textures/quake2/btactmach0_norm.png
 95c647956e0cd46dd01b220a98af8d49 3793 textures/quake2/btactmach0_spec.jpg
 bc617e0b5831c8c2ab566f8ca7ef75ec 5081 textures/quake2/btactmach0fx1.png
@@ -75,7 +75,7 @@ f204e5c713174065317355a975ed66b4 13434 textures/quake2/ggrat4_2add.jpg
 c404257fa214d9bccac3bafb63c3290a 82 textures/quake2/ggrat4_2add.mat
 247b110afe888a360edeefa5793941ea 66494 textures/quake2/ggrat4_2add_norm.png
 08b2dcc39b049559390a8d7582739c05 8459 textures/quake2/ggrat4_2add_spec.jpg
-2ad98a6b873287ea20cfc125571f3c74 215 textures/quake2/glassdirt0.mat
+e955961dd2c8e89fef6836a2ac6af9cc 257 textures/quake2/glassdirt0.mat
 05c21dca041672568c450a2e59e7703c 219638 textures/quake2/glassdirt0.png
 4ee6a65433671b89b3b18e6bb654d972 51264 textures/quake2/glowedge256.png
 92581d351d3fcd5adefac257a7aef827 153467 textures/quake2/glowlavadown.png

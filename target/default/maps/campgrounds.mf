@@ -1,4 +1,4 @@
-c340592ae033acdc1c5a42308cf26191 31994759 maps/campgrounds.bsp
+fabb5ceb528e5745ed24760ed5974a36 32274179 maps/campgrounds.bsp
 70d4b9e5bdea0e4856f8351bf1e76389 7996 maps/campgrounds.nav
 bf5f522aad13f6d7c741e4dcc6992d20 141879 mapshots/campgrounds/campgrounds01.jpg
 52fa965f6fa95108ba85bcd07764f4c4 251497 mapshots/campgrounds/campgrounds02.jpg
@@ -89,12 +89,12 @@ e34b594ac001ba4ca1a6d89a34a22a1d 71927 textures/evil/e6cyb0rpipes.jpg
 fe20f785fef322733c41662001ca06c2 4502 textures/evil/e8_rlight.blend.jpg
 988ffe29f4807c4bea22fb0f123d8de4 7610 textures/evil/e8_rlight.jpg
 0f505716f38329c4b8fecbec13a3eb51 294 textures/evil/e8_rlight.mat
-a8e7345221cc4475768b2751db98ae23 32 textures/evil/e8bgrate01.mat
+d2fa0e3d3e91c6fd6940022d48b8c57f 149 textures/evil/e8bgrate01.mat
 dc84b6198968cb3a531746768fea5853 210460 textures/evil/e8bgrate01.png
 e0f7f1410e0837cc2cdd6c0bab40ee40 4434 textures/evil/e8trimfx_b.jpg
 56eb694134ae6e530a7c5ff5742d4b03 110062 textures/evil/ex_cretebase_02_d.jpg
 9d996ab476b41cef5b608963a6ee51d2 98884 textures/evil/ex_cretebase_03_dark_d.jpg
-5d4dbb21f18eb232a7a00afe1da51209 118 textures/evil/ex_cretefloor_01b.mat
+48b7f03c812ee4309c0c25c444281766 100 textures/evil/ex_cretefloor_01b.mat
 46a8cc5f7267d64bf86daa5f970bf7a3 105893 textures/evil/ex_cretefloor_01b_d.jpg
 f519da17f6a71c76ea6dac125a3e4e29 641194 textures/evil/ex_cretefloor_01b_norm.png
 e1bd7404780ca4b84f7fea22f4058dc8 95234 textures/evil/ex_cretefloor_01b_spec.jpg

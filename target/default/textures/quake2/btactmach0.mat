@@ -8,5 +8,6 @@
 		texture quake2/btactmach0fx1
 		blend src_alpha one
 		anim 2 0.00
+		color 3 3 3 1
 	}
 }

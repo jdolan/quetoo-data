@@ -20,7 +20,7 @@ cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 6b90b4a0628db07be8c1f79fe3e6b193 54 textures/decals/alienpuke.mat
 c2e3b395fd3be34955376c201d1cef88 27497 textures/decals/alienpuke.png
 f0f2951fac46049ceb7fd2b88f2a206c 5219 textures/quake2/btactmach0.jpg
-3e614683ddadaf790bb80fc49f4edcd8 169 textures/quake2/btactmach0.mat
+2ed6bba5cd43137f0b11a913090fcea3 185 textures/quake2/btactmach0.mat
 1510b1856c07c577c728b8f8bbee79ed 19971 textures/quake2/btactmach0_norm.png
 95c647956e0cd46dd01b220a98af8d49 3793 textures/quake2/btactmach0_spec.jpg
 bc617e0b5831c8c2ab566f8ca7ef75ec 5081 textures/quake2/btactmach0fx1.png

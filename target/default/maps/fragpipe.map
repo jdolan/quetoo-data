@@ -1,12 +1,12 @@
 // Game: Quetoo
-// Format: Quake3 (Valve)
-// Generator: TrenchBroom 2026.2 (Build v2026.2 Release Win64)
+// Format: Valve220
 // entity 0
 {
 "classname" "worldspawn"
 "_tb_textures" "textures/common;textures/decals;textures/effects;textures/prototype;textures/quake2"
 "ambient" "0.125"
 "message" "^1The ^3Frag ^1Pipe^7"
+"model" "*0"
 "sky" "habp"
 "version" "1.0.6"
 // brush 0
@@ -889,7 +889,7 @@
 // brush 97
 {
 ( 262 1032 102 ) ( 262 1036 66 ) ( 262 1036 102 ) common/caulk [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
-( 320 1032 102 ) ( 262 1032 66 ) ( 262 1032 102 ) common/caulk [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
+( 320 1032 102 ) ( 262 1032 66 ) ( 262 1032 102 ) quake2/wndow1_2 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
 ( 262 1032 66 ) ( 320 1036 66 ) ( 262 1036 66 ) common/caulk [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.25 0.25
 ( 320 1032 102 ) ( 262 1036 102 ) ( 320 1036 102 ) common/caulk [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.25 0.25
 ( 320 1036 66 ) ( 320 1036 102 ) ( 262 1036 102 ) quake2/wndow1_2 [ 1 0 0 32 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -4120,7 +4120,7 @@
 // brush 455
 {
 ( 336 1032 102 ) ( 336 1036 66 ) ( 336 1036 102 ) common/caulk [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
-( 432 1032 102 ) ( 432 1032 66 ) ( 336 1032 66 ) common/caulk [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
+( 432 1032 102 ) ( 432 1032 66 ) ( 336 1032 66 ) quake2/wndow1_2 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
 ( 336 1032 66 ) ( 432 1036 66 ) ( 336 1036 66 ) common/caulk [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.25 0.25
 ( 432 1032 102 ) ( 336 1036 102 ) ( 432 1036 102 ) common/caulk [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.25 0.25
 ( 432 1036 66 ) ( 432 1036 102 ) ( 336 1036 102 ) quake2/wndow1_2 [ 1 0 0 32 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -4129,7 +4129,7 @@
 // brush 456
 {
 ( 448 1032 102 ) ( 448 1036 66 ) ( 448 1036 102 ) common/caulk [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
-( 448 1032 102 ) ( 506 1032 102 ) ( 506 1032 66 ) common/caulk [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
+( 448 1032 102 ) ( 506 1032 102 ) ( 506 1032 66 ) quake2/wndow1_2 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
 ( 448 1032 66 ) ( 506 1036 66 ) ( 448 1036 66 ) common/caulk [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.25 0.25
 ( 506 1032 102 ) ( 448 1036 102 ) ( 506 1036 102 ) common/caulk [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.25 0.25
 ( 506 1036 66 ) ( 506 1036 102 ) ( 448 1036 102 ) quake2/wndow1_2 [ 1 0 0 32 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -11780,7 +11780,7 @@
 {
 "classname" "func_button"
 "angle" "360"
-"model" "*2"
+"model" "*1"
 "speed" "200"
 "target" "button3"
 "wait" "6"
@@ -11800,7 +11800,7 @@
 {
 "classname" "func_button"
 "angle" "180"
-"model" "*3"
+"model" "*2"
 "speed" "200"
 "target" "button1"
 "wait" "6"
@@ -12041,7 +12041,7 @@
 {
 "classname" "func_plat"
 "accel" "500"
-"model" "*4"
+"model" "*3"
 "spawnflags" "1"
 "speed" "180"
 // brush 0
@@ -12347,7 +12347,7 @@
 {
 "classname" "func_button"
 "angle" "-2"
-"model" "*5"
+"model" "*4"
 "speed" "200"
 "target" "button2"
 "wait" "6"
@@ -12369,7 +12369,7 @@
 "angle" "-2"
 "dmg" "1000"
 "lip" "14"
-"model" "*6"
+"model" "*5"
 "spawnflags" "1"
 "speed" "200"
 "targetname" "doors"
@@ -12390,7 +12390,7 @@
 "angle" "-2"
 "dmg" "1000"
 "lip" "14"
-"model" "*7"
+"model" "*6"
 "spawnflags" "1"
 "speed" "200"
 "targetname" "doors"
@@ -12425,10 +12425,11 @@
 // entity 63
 {
 "classname" "func_train"
+"dmg" "105"
+"model" "*7"
 "spawnflags" "1"
 "speed" "60"
 "target" "t10"
-"dmg" "105"
 "team" "slime"
 // brush 0
 {
@@ -12594,7 +12595,7 @@
 {
 "classname" "func_rotating"
 "dmg" "50"
-"model" "*9"
+"model" "*8"
 "origin" "1064 560 524"
 "spawnflags" "19"
 "speed" "100"
@@ -12669,7 +12670,7 @@
 {
 "classname" "func_rotating"
 "dmg" "50"
-"model" "*10"
+"model" "*9"
 "origin" "856 560 524"
 "spawnflags" "19"
 "speed" "120"
@@ -12743,10 +12744,11 @@
 // entity 79
 {
 "classname" "func_train"
+"dmg" "105"
+"model" "*10"
 "spawnflags" "1"
 "speed" "60"
 "target" "t5"
-"dmg" "105"
 "team" "slime"
 // brush 0
 {
@@ -12856,7 +12858,7 @@
 "classname" "func_water"
 "angle" "-1"
 "lip" "64"
-"model" "*12"
+"model" "*11"
 "speed" "50"
 "targetname" "hurtrealbad"
 "wait" "3"
@@ -13004,7 +13006,7 @@
 "classname" "light"
 "color" "1.0 0.7 0.3"
 "intensity" "2"
-"origin" "1856 1416 140"
+"origin" "1856 1404 148"
 "radius" "200"
 "team" "lt_SmOrange_decor"
 "team_master" "1"
@@ -13012,7 +13014,7 @@
 // entity 105
 {
 "classname" "light"
-"origin" "1216 1416 140"
+"origin" "1216 1404 148"
 "team" "lt_SmOrange_decor"
 }
 // entity 106
@@ -13044,7 +13046,7 @@
 "color" "1 0.8 0.4"
 "intensity" "1.5"
 "origin" "1064 568 720"
-"radius" "1024"
+"radius" "800"
 "team" "lt_sky"
 "team_master" "1"
 }
@@ -13138,7 +13140,7 @@
 "color" "1.0 0.3 0.1"
 "intensity" "2"
 "origin" "480.000000 1072.000000 72.000000"
-"radius" "400"
+"radius" "360"
 "style" "zutqrstwxyyzzzzytuvyz"
 "team" "lt_lava"
 "team_master" "1"
@@ -13270,7 +13272,7 @@
 // entity 145
 {
 "classname" "func_wall"
-"model" "*13"
+"model" "*12"
 // brush 0
 {
 ( 280 1283 112 ) ( 280 1283 118 ) ( 280 1272 118 ) quake2/metalbase2 [ 0 1 0 168 ] [ 0 0 -1 249 ] 0 0.5 0.5
@@ -13455,10 +13457,10 @@
 // entity 146
 {
 "classname" "func_group"
-"_tb_type" "_tb_group"
-"_tb_name" "Unnamed"
 "_tb_id" "5"
 "_tb_linked_group_id" "{d7659e62-7446-4d22-827a-1c309b8f2e3a}"
+"_tb_name" "Unnamed"
+"_tb_type" "_tb_group"
 // brush 0
 {
 ( 1344 1552 -24 ) ( 1344 1280 -24 ) ( 1344 1280 -44 ) common/caulk [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -13703,7 +13705,7 @@
 {
 "classname" "light"
 "origin" "-72 944 64"
-"radius" "600"
+"radius" "500"
 "team" "lt_SmOrange_decor"
 }
 // entity 156
@@ -13915,7 +13917,7 @@
 {
 "classname" "light"
 "origin" "-72 1280 64"
-"radius" "600"
+"radius" "500"
 "team" "lt_SmOrange_decor"
 }
 // entity 160
@@ -13924,7 +13926,7 @@
 "color" "1 0.69803923 0.29803923"
 "intensity" "2"
 "origin" "960 168 400"
-"radius" "350"
+"radius" "280"
 "team" "lt_SmOrange_area"
 "team_master" "1"
 }
@@ -14103,13 +14105,14 @@
 {
 "classname" "light"
 "origin" "312 816 64"
-"radius" "600"
+"radius" "500"
 "team" "lt_SmOrange_decor"
 }
 // entity 187
 {
 "classname" "light"
 "origin" "312 752 64"
+"radius" "500"
 "team" "lt_SmOrange_decor"
 }
 // entity 188
@@ -14213,8 +14216,9 @@
 // entity 204
 {
 "classname" "func_bob"
-"targetname" "quad_express"
+"model" "*13"
 "speed" "90"
+"targetname" "quad_express"
 "velocity" "0 -368 0"
 // brush 0
 {
@@ -14368,10 +14372,10 @@
 // entity 205
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Clip Brushes"
 "_tb_id" "1"
 "_tb_layer_sort_index" "0"
+"_tb_name" "Clip Brushes"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( 1504 640 544 ) ( 1504 896 544 ) ( 1504 640 560 ) common/clip [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -14765,10 +14769,10 @@
 // entity 208
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Sky Brushes"
 "_tb_id" "2"
 "_tb_layer_sort_index" "1"
+"_tb_name" "Sky Brushes"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( 976 -40 72 ) ( 976 -16 72 ) ( 976 -40 528 ) common/sky [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -15340,22 +15344,22 @@
 // entity 209
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Dust"
 "_tb_id" "4"
-"_tb_layer_sort_index" "2"
 "_tb_layer_hidden" "1"
+"_tb_layer_sort_index" "2"
+"_tb_name" "Dust"
+"_tb_type" "_tb_layer"
 }
 // entity 210
 {
 "classname" "misc_dust"
+"_tb_layer" "4"
 "acceleration_spread" "2 2 0"
 "color" "0.4 1 0.066"
 "end_color" "0.72 1 0.55"
 "lighting" "0"
 "type" "fizz"
 "velocity" "0 0 10"
-"_tb_layer" "4"
 // brush 0
 {
 ( 1344 1216 0 ) ( 1344 1392 84 ) ( 1344 1216 84 ) common/dust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -15369,8 +15373,8 @@
 // entity 211
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "4"
+"type" "embers"
 // brush 0
 {
 ( 640 1040 40 ) ( 640 928 40 ) ( 640 928 16 ) common/dust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -15540,11 +15544,11 @@
 // entity 212
 {
 "classname" "misc_dust"
+"_tb_layer" "4"
 "density" "0.33"
 "lifetime" "1"
 "size" "1.5"
 "velocity" "0 0 -20"
-"_tb_layer" "4"
 // brush 0
 {
 ( 800 576 496 ) ( 800 544 496 ) ( 800 544 448 ) common/dust [ 0 1 0 0 ] [ 0 0 -1 -32 ] 0 0.25 0.5

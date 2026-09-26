@@ -7,6 +7,8 @@
 	surface "blend_66 reflect"
 	{
 		reflect
+		color 1.02 1.01 1.01 0.24
+		lighting 1.33 flat
 	}
 	{
 		texture gehenna/glass

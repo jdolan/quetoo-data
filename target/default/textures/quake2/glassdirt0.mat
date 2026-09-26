@@ -5,7 +5,11 @@
 	specularity 0.99
 	parallax 0.00
 	shadow 0.00
-	surface "blend_33"
+	surface "blend_33 reflect"
+	{
+		reflect
+		color 1 1 1 .33
+	}
 	{
 		texture envmaps/envmap_1
 		envmap
