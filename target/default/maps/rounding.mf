@@ -1,4 +1,5 @@
 3a8e77b99ab1b4f94dfd288af734df47 33166951 maps/rounding.bsp
+7e773fe2959f51d76470910916af6784 13604 maps/rounding.nav
 53f7f6f69185ff8d23886bde1dbf12fd 1022190 mapshots/rounding/shot1.jpg
 207896c68fa878df243d803a83c7291c 799774 mapshots/rounding/shot2.jpg
 6e051a171850a04e38434df3c6b9a079 778196 mapshots/rounding/shot3.jpg
