@@ -381,7 +381,7 @@
 
 @SolidClass base(Phong) color(0 128 204) = misc_portal : "A brush entity showing the world as seen from the point it names. Give the face the player looks at a material declaring surface portal; the remaining faces are drawn normally. A portal face may be put on any brush entity, not only this one, which is why the viewpoint is named by a portal key rather than target: a func_train already owes target to the first path_corner of its route. The portal is not solid: to let players travel through it, place a trigger_teleporter behind the portal face, so that they cross the face before the trigger fires."
 [
-	portal(target_destination) : "The info_null this portal views the world from"
+	portal(target_destination) : "The info_null or misc_teleporter_dest this portal views the world from. A misc_teleporter_dest is viewed from its origin and angles, raised to standing eye height"
 ]
 
 @PointClass color(40 120 40) size(-8 -8 -8, 8 8 8) = misc_sound : "Client-side emission of ambient sounds."
@@ -849,53 +849,39 @@
 
 @SolidClass base(Phong, Target) color(0 255 40) = trigger_teleporter : "Touching this will warp players to the targeted misc_teleporter_dest entity. This is the brush form of misc_teleporter." []
 
-@SolidClass base(Phong) = worldspawn : "The worldspawn entity defines global conditions and behavior for the entire level. All brushes not belonging to an explicit entity implicitly belong to worldspawn."
+@SolidClass base(Phong) = worldspawn : "The worldspawn entity defines global conditions and behavior for the entire level. All brushes not belonging to an explicit entity implicitly belong to worldspawn. The map list's entry for the level, and the server's own settings, take precedence over the gameplay, movement, gravity, limits and music given here."
 [
 	message(string) : "The map title"
 	games(string) : "Space-delimited games this map is made for, shown as badges in the Create Server map browser: dm tdm duel ctf instagib race" : "dm"
 	sky(string) : "The sky environment map" : "template"
-	ambient(float) : "The ambient light level" : "0"
-	gravity(integer) : "Gravity" : 800
+	ambient(string) : "The ambient light level, as one scalar or as three to tint it (e.g. 0.14 0.11 0.12)"
+	gravity(integer) : "Gravity for the level; unset, the movement's applies, 800 for most"
 	gameplay(choices) : "The gameplay mode" : "deathmatch" =
 	[
 		"deathmatch" : "Deathmatch"
+		"team_deathmatch" : "Team Deathmatch"
 		"instagib" : "Instagib"
-		"arena" : "Rocket Arena"
+		"team_instagib" : "Team Instagib"
+		"arena" : "Arena"
+		"team_arena" : "Team Arena"
 	]
-	hook(choices) : "Enables the grappling hook" : 0 =
-	[
-		0 : "Disabled"
-		1 : "Enabled"
-	]
-	teams(choices) : "Enables teams play" : 0 =
-	[
-		0 : "Disabled"
-		1 : "Enabled"
-		2 : "Auto-balanced"
-	]
-	num_teams(choices) : "Specifies the number of teams for teams and CTF play" : 0 =
-	[
-		0 : "Disabled"
-		2 : "2"
-		3 : "3"
-		4 : "4"
-	]
-	ctf(choices) : "Enables CTF play" : 0 =
-	[
-		0 : "Disabled"
-		1 : "Enabled"
-		2 : "Auto-balanced"
-	]
-	fraglimit(integer) : "The frag limit" : 20
-	roundlimit(integer) : "The round limit" : 20
-	capturelimit(integer) : "The capture limit" : 8
-	timelimit(integer) : "The time limit in minutes" : 20
-	items(choices) : "The item set for this map" : "quetoo" =
+	movement(choices) : "The player movement" : "quetoo" =
 	[
 		"quetoo" : "Quetoo"
+		"race" : "Quetoo Race"
+		"quake" : "Quake"
+		"quake2" : "Quake2"
+		"quake3" : "Quake3"
+	]
+	items(choices) : "The item set for this map" : "default" =
+	[
+		"default" : "Quetoo"
 		"quake" : "Quake"
 	]
-	give(string) : "A comma-delimited item string to give each player on spawn"
-	author(string) : "Creator of this map and other misc info"
-	version(string) : "Version string in 'major.minor.build' format"
+	frag_limit(integer) : "The frag limit; unset, g_fragLimit applies"
+	capture_limit(integer) : "The capture limit, in CTF; unset, g_captureLimit applies"
+	time_limit(float) : "The time limit in minutes; unset, g_timeLimit applies"
+	music(string) : "A comma-delimited list of music tracks; unset, all tracks are shuffled"
+	author(string) : "The creator of the map, and any other credits (metadata only)"
+	version(string) : "The version of the map, as major.minor.build (metadata only)"
 ]
