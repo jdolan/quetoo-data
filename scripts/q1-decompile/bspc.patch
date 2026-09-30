@@ -1,0 +1,67 @@
+diff --git a/deps/qcommon/q_platform.h b/deps/qcommon/q_platform.h
+index ab9b790..aa64244 100644
+--- a/deps/qcommon/q_platform.h
++++ b/deps/qcommon/q_platform.h
+@@ -152,6 +152,9 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ #elif defined __x86_64__
+ #define ARCH_STRING "x86_64"
+ #define Q3_LITTLE_ENDIAN
++#elif defined __aarch64__
++#define ARCH_STRING "arm64"
++#define Q3_LITTLE_ENDIAN
+ #endif
+ 
+ #define DLL_EXT ".dylib"
+diff --git a/l_bsp_q1.h b/l_bsp_q1.h
+index 7cf459c..60b963b 100644
+--- a/l_bsp_q1.h
++++ b/l_bsp_q1.h
+@@ -30,7 +30,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ #define	Q1_MAX_MAP_ENTITIES	1024
+ #define	Q1_MAX_MAP_ENTSTRING	65536
+ 
+-#define	Q1_MAX_MAP_PLANES		8192
++#define	Q1_MAX_MAP_PLANES		32767
+ #define	Q1_MAX_MAP_NODES		32767		// because negative shorts are contents
+ #define	Q1_MAX_MAP_CLIPNODES	32767		//
+ #define	Q1_MAX_MAP_LEAFS		32767		// 
+diff --git a/map.c b/map.c
+index 42d69ff..d5b1f8e 100644
+--- a/map.c
++++ b/map.c
+@@ -652,7 +652,7 @@ int BrushExists(mapbrush_t *brush)
+ //===========================================================================
+ qboolean WriteMapBrush(FILE *fp, mapbrush_t *brush, vec3_t origin)
+ {
+-	int sn, rotate, shift[2], sv, tv, planenum, p1, i, j;
++	int sn, rotate, shift[2], sv, tv, planenum, p1;
+ 	float scale[2], originshift[2], ang1, ang2, newdist;
+ 	vec3_t vecs[2], axis[2];
+ 	map_texinfo_t *ti;
+@@ -692,22 +692,13 @@ qboolean WriteMapBrush(FILE *fp, mapbrush_t *brush, vec3_t origin)
+ 			//always take the first plane, then flip the points if necesary
+ 			plane = &mapplanes[planenum & ~1];
+ 			w = BaseWindingForPlane(plane->normal, plane->dist);
+-			//
+-			for (i = 0; i < 3; i++)
+-			{
+-				for (j = 0; j < 3; j++)
+-				{
+-					if (fabs(w->p[i][j]) < 0.2) w->p[i][j] = 0;
+-					else if (fabs((int)w->p[i][j] - w->p[i][j]) < 0.3) w->p[i][j] = (int) w->p[i][j];
+-					//w->p[i][j] = (int) (w->p[i][j] + 0.2);
+-				} //end for
+-			} //end for
+ 			//three non-colinear points to define the plane
+ 			if (planenum & 1) p1 = 1;
+ 			else p1 = 0;
+-			if (fprintf(fp,"  ( %5i %5i %5i ) ", (int)w->p[p1][0], (int)w->p[p1][1], (int)w->p[p1][2]) < 0) return false;
+-			if (fprintf(fp,"( %5i %5i %5i ) ", (int)w->p[!p1][0], (int)w->p[!p1][1], (int)w->p[!p1][2]) < 0) return false;
+-			if (fprintf(fp,"( %5i %5i %5i ) ", (int)w->p[2][0], (int)w->p[2][1], (int)w->p[2][2]) < 0) return false;
++			//integer points on a 65535 unit winding tilt non-axial planes and open cracks
++			if (fprintf(fp,"  ( %.4f %.4f %.4f ) ", w->p[p1][0], w->p[p1][1], w->p[p1][2]) < 0) return false;
++			if (fprintf(fp,"( %.4f %.4f %.4f ) ", w->p[!p1][0], w->p[!p1][1], w->p[!p1][2]) < 0) return false;
++			if (fprintf(fp,"( %.4f %.4f %.4f ) ", w->p[2][0], w->p[2][1], w->p[2][2]) < 0) return false;
+ 			//free the winding
+ 			FreeWinding(w);
+ 			//
