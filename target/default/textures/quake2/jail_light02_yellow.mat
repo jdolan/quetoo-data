@@ -1,0 +1,16 @@
+{
+	diffusemap quake2/jail_light02
+	normalmap quake2/jail_light02_norm
+	parallax 3.33
+	hardness 2
+	specularity 1.25
+	{
+		texture quake2/jail_light02_yellow
+		blend src_alpha one
+		color 1.333 1.333 1.333 0.9
+	}
+	{
+		flare flare_2
+		color 1 1 0.12
+	}
+}

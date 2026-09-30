@@ -1,0 +1,7 @@
+{
+	diffusemap quake2/jail_light02
+	normalmap quake2/jail_light02_norm
+	parallax 3.33
+	hardness 2
+	specularity 1.25
+}
