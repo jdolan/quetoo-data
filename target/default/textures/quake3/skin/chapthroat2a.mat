@@ -1,0 +1,5 @@
+{
+	diffusemap quake3/skin/chapthroat2a
+	surface alpha_test
+	alpha_test 0.5
+}

@@ -1,0 +1,12 @@
+{
+	diffusemap quake/teleport
+	contents "mist detail"
+	surface "material"
+	{
+		texture quake/teleport
+		blend src_alpha one_minus_src_alpha
+		color 1 1 1 0.85
+		warp .33 .66
+		lighting flat
+	}
+}
