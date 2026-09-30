@@ -807,8 +807,8 @@
   model="models/armor/quake_jacket/tris.obj"
   */
 
-/*QUAKED item_quake_pentagram (.8 .1 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
-  Pentagram of Protection. Grants full invulnerability for 30 seconds.
+/*QUAKED item_invulnerability (.8 .1 .1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+  Invulnerability. Grants full invulnerability for 30 seconds.
 
   -------- Keys --------
   team : The team name for alternating item spawns.
@@ -820,11 +820,11 @@
  hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
-  model="models/powerups/quake_pentagram/tris.obj"
+  model="models/powerups/invulnerability/tris.obj"
   */
 
-/*QUAKED item_quake_shadows (.2 .2 .4) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
-  Ring of Shadows. Makes the player nearly invisible for 30 seconds.
+/*QUAKED item_invisibility (.2 .2 .4) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+  Invisibility. Makes the player nearly invisible for 30 seconds.
 
   -------- Keys --------
   team : The team name for alternating item spawns.
@@ -836,7 +836,7 @@
  hazard_respawn : Item will return to where it was placed in the map if it ends up in lava or slime.
 
   -------- Radiant config --------
-  model="models/powerups/quake_shadows/tris.obj"
+  model="models/powerups/invisibility/tris.obj"
   */
 
 /*QUAKED light (0 1 0) (-8 -8 -8) (8 8 8)

@@ -22,9 +22,9 @@ REPLACEMENTS = {
     "weapon_grenadelauncher": "weapon_quake_grenadelauncher",
     "weapon_rocketlauncher":  "weapon_quake_rocketlauncher",
     "weapon_hyperblaster":    "weapon_quake_supernailgun",
-    "weapon_lightning":       "weapon_quake_lightning",
-    "weapon_railgun":         "weapon_quake_lightning",
-    "weapon_bfg":             "weapon_quake_lightning",
+    "weapon_lightning":       "weapon_quake_thunderbolt",
+    "weapon_railgun":         "weapon_quake_thunderbolt",
+    "weapon_bfg":             "weapon_quake_thunderbolt",
 
     # Ammo
     "ammo_shells":   "ammo_quake_shells",
