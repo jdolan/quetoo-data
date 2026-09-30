@@ -7434,6 +7434,8 @@ c5c2488841d218a2b2b71a2bf63a9a04 5662 textures/quake/teleport2_glow.jpg
 2af8078ef99341947dada523435b7db7 7176 textures/quake/teleport2_luma.jpg
 11a24ee02ffcd9dfa5202fbd41055cf1 36462 textures/quake/teleport2_norm.png
 d732a2670d93d6ebd80e75bcf0a800df 5409 textures/quake/teleport2_spec.jpg
+54b57b26a88aa6ede72ee78ad79651a2 20889 textures/quake/teleport_no_portal.jpg
+b822291f9ce81a867af96a2aff7ea869 194 textures/quake/teleport_no_portal.mat
 ac1aa63aeb3c3f138c1f403060135217 2890 textures/quake/tlight01.jpg
 f58e07939e7b4dcfdbaae2e4eaea20de 248 textures/quake/tlight01.mat
 f0b2a4ecde5c06350ea9ff0a7b67ad74 978 textures/quake/tlight01_luma.jpg
@@ -9883,6 +9885,8 @@ e9179692adf21fb6353b64f6f92a53e6 24713 textures/quake3/skies/killsky_2.jpg
 c7ab4ab913c7c8694b2708b29320d914 35561 textures/quake3/skies/topclouds.jpg
 44dbd7920d62cacb66eaaa5b779b9bd3 34938 textures/quake3/skin/chapthroat.jpg
 44845270dff7228c6defc2c4e77083eb 36490 textures/quake3/skin/chapthroat2.jpg
+19156ddbb86778fa3edb606331f50211 76 textures/quake3/skin/chapthroat2a.mat
+a9e76c43384143a6f0aefc2401a02523 144745 textures/quake3/skin/chapthroat2a.png
 077fed9dc848ae108cac8f3d033c5698 193795 textures/quake3/skin/chapthroatooz.png
 dd0a9858738ea5fcb094cc6245680a58 343584 textures/quake3/skin/nibbles.png
 040713e027a9b66edfe4ab81e9514bb9 52408 textures/quake3/skin/pjwal2k.jpg
