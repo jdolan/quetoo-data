@@ -3,8 +3,7 @@
 	roughness 2.69
 	hardness 3.02
 	specularity 1.71
-	parallax 1.96
-	shadow 0.00
+	parallax 0.00
 	{
 		texture quake2/wlighttallfx
 		blend src_alpha one

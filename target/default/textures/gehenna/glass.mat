@@ -2,7 +2,6 @@
 	diffusemap gehenna/glass
 	hardness 6.27
 	parallax 0.00
-	shadow 0.00
 	contents "detail"
 	surface "blend_66 reflect"
 	{

@@ -1,6 +1,6 @@
 {
 	diffusemap trak5/dirscreen1
-	shadow 0
+	parallax 0.00
 	{
 		texture trak5/dirscreen1_glo
 		blend src_alpha one

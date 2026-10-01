@@ -2,8 +2,7 @@
 	diffusemap decals/quetoo-ctf_logo
 	hardness 4.00
 	specularity 2.00
-	parallax 3.00
-	shadow 0.00
+	parallax 0.00
 	contents "mist detail"
 	surface "alpha_test blend_100"
 }

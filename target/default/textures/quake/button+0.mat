@@ -3,7 +3,6 @@
 	roughness 2.00
 	hardness 5.00
 	parallax 2.75
-	shadow 8.00
 	{
 		texture quake/button+0_luma
 		blend src_alpha one

@@ -4,7 +4,6 @@
 	hardness 6.12
 	specularity 4.24
 	parallax 5.39
-	shadow 0.00
 	{
 		texture armor/shard/skin_glow
 		blend src_alpha one

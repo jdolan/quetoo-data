@@ -1,6 +1,6 @@
 {
 	diffusemap q4power/light_fifty2
-	shadow 0
+	parallax 0.00
 	{
 		scale.s 1.25
 		scale.t 1.25

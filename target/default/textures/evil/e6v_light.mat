@@ -1,7 +1,7 @@
 {
 	diffusemap evil/e6v_light
 	roughness 0.99
-	shadow 0.00
+	parallax 0.00
 	{
 		scale.s 1.250
 		scale.t 1.250

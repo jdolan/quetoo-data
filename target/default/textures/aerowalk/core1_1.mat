@@ -3,8 +3,7 @@
 	roughness 1.96
 	hardness 8.00
 	specularity 2.01
-	parallax 1.96
-	shadow 0.00
+	parallax 0.00
 	{
 		texture aerowalk/core1_1scroll
 		blend src_alpha one

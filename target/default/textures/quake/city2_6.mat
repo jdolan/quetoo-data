@@ -4,5 +4,4 @@
 	specularmap quake/city2_1_spec
 	specularity 0.50
 	parallax 4.00
-	shadow 8.00
 }

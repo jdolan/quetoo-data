@@ -4,7 +4,6 @@
 	hardness 4.00
 	specularity 2.50
 	parallax 0.00
-	shadow 0.00
 	contents "slime detail"
 	surface "liquid"
 	{

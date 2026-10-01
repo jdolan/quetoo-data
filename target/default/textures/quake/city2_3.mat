@@ -3,5 +3,4 @@
 	normalmap quake/city2_1_norm
 	specularity 0.33
 	parallax 3.00
-	shadow 8.00
 }

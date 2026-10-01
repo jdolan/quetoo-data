@@ -4,7 +4,6 @@
 	hardness 5.34
 	specularity 2.25
 	parallax 3.00
-	shadow 8.00
 	{
 		texture padbase/padfx-cyan
 		blend src_alpha one

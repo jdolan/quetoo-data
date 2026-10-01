@@ -3,8 +3,7 @@
 	roughness 1.25
 	hardness 3.25
 	specularity 2.50
-	parallax 2.00
-	shadow 0.00
+	parallax 0.00
 	contents "decoration"
 	{
 		texture quake/rune_pad1_glow

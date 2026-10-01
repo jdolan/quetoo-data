@@ -6,7 +6,6 @@
 	hardness 2.67
 	specularity 1.60
 	parallax 3.53
-	shadow 8.00
 	{
 		texture quake2/glowedge256
 		blend src_alpha one

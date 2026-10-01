@@ -2,7 +2,6 @@
 	diffusemap spacectf/u_floor3_pad_7b
 	hardness 1.5
 	parallax 3.25
-	shadow 1.25
 	{
 		scale.s 0.75
 		scale.t 0.75

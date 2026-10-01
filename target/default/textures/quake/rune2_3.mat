@@ -6,7 +6,6 @@
 	hardness 3.98
 	specularity 1.47
 	parallax 2.01
-	shadow 8.00
 	{
 		texture quake/rune2_3_luma
 		blend src_alpha one

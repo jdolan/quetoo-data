@@ -6,7 +6,6 @@
 	hardness 2.00
 	specularity 1.50
 	parallax 3.00
-	shadow 8.00
 	{
 		texture quake2/ceil2_eggshell
 		blend src_alpha one

@@ -2,6 +2,5 @@
 	diffusemap quake/tech04_9
 	hardness 0.85
 	parallax 1.85
-	shadow 8.00
 	footsteps metal
 }

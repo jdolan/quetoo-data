@@ -2,5 +2,5 @@
 	diffusemap quake/metal1_3
 	roughness 1.40
 	hardness 3.50
-	shadow 0.00
+	parallax 0.00
 }

@@ -4,7 +4,6 @@
 	hardness 2.00
 	specularity 1.70
 	parallax 2.03
-	shadow 8.00
 	{
 		texture omf/wlight1fx
 		blend src_alpha one

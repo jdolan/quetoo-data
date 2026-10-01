@@ -2,8 +2,7 @@
 	diffusemap atlantis/light05-strip
 	roughness 0.00
 	hardness 1.46
-	parallax 2.46
-	shadow 0.00
+	parallax 0.00
 	{
 		texture atlantis/light05-strip_glow
 		blend src_alpha one

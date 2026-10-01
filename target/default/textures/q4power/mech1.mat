@@ -4,7 +4,6 @@
 	hardness 8.00
 	specularity 2.97
 	parallax 4.05
-	shadow 8.00
 	{
 		texture q4power/mech1_glow
 		blend src_alpha one

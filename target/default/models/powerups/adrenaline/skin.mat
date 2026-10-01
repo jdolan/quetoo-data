@@ -3,7 +3,6 @@
 	roughness 3.59
 	hardness 5.39
 	specularity 2.04
-	shadow 0.00
 	{
 		texture powerups/adrenaline/skin_glow
 		blend src_alpha one

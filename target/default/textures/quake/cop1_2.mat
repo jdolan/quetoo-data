@@ -6,6 +6,5 @@
 	hardness 3.41
 	specularity 1.47
 	parallax 1.54
-	shadow 8.00
 	surface "phong"
 }

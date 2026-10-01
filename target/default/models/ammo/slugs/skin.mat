@@ -4,7 +4,6 @@
 	roughness 4.24
 	hardness 8.00
 	specularity 1.20
-	shadow 0.00
 	{
 		texture envmaps/blue
 		blend src_alpha one

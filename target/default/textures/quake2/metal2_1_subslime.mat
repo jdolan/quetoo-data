@@ -6,7 +6,6 @@
 	hardness 2.00
 	specularity 2.00
 	parallax 3.67
-	shadow 8.00
 	{
 		texture quake2/metal2_1_glowedge
 		blend src_alpha one

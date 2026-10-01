@@ -5,7 +5,6 @@
 	roughness 1.48
 	hardness 2.87
 	parallax 2.00
-	shadow 2.73
 	{
 		texture quake2/wlight2_160fx
 		pulse 40

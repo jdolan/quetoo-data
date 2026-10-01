@@ -4,7 +4,6 @@
 	surface "blend_100"
 	contents "mist detail"
 	parallax 3.50
-	shadow 4.00
 	{
 		texture decals/flr3_mark_fx-cyan
 		blend src_alpha one

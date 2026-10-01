@@ -2,7 +2,7 @@
     diffusemap pk02/pk02_light02c_d
     normalmap pk02/pk02_light02a_norm
     specularmap pk02/pk02_light02a_spec
-    shadow 0
+    parallax 0.00
     {
         scale.s 1.25
         scale.t 1.25

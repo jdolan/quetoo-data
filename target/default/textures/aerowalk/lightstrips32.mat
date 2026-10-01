@@ -4,7 +4,6 @@
 	hardness 8.00
 	specularity 1.74
 	parallax 0.00
-	shadow 0.00
 	{
 		texture aerowalk/lightstrips32_glow
 		scroll.t 2.000

@@ -4,7 +4,6 @@
 	hardness 2.00
 	specularity 1.50
 	parallax 2.50
-	shadow 4.04
 	{
 		texture quake/comp1_1_luma
 		blend src_alpha one

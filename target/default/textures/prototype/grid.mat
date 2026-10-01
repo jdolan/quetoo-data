@@ -1,4 +1,4 @@
 {
 	diffusemap prototype/grid
-	shadow 0.00
+	parallax 0.00
 }

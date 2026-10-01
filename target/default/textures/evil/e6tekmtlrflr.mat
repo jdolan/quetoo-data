@@ -3,8 +3,7 @@
 	roughness 0.98
 	hardness 8.00
 	specularity 0.95
-	parallax 1.04
-	shadow 0.00
+	parallax 0.00
 	{
 		texture evil/e6tekmtlrflr_h_glow
 		blend src_alpha one

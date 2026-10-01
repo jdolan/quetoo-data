@@ -4,7 +4,6 @@
 	hardness 3.01
 	specularity 1.49
 	parallax 1.98
-	shadow 8.00
 	{
 		texture lun3dm3/lite1fx
 		blend src_alpha one

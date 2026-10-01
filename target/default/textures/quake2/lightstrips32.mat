@@ -4,7 +4,6 @@
 	hardness 4.81
 	specularity 1.30
 	parallax 1.75
-	shadow 1.49
 	{
 		texture quake2/lightstrips32_glow
 		blend src_alpha one

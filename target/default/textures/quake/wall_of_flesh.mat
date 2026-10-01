@@ -4,7 +4,6 @@
 	hardness 4
 	specularity 2
 	parallax 3
-	shadow 8.00
 	{
 		texture quake/exit02_3
 		color 1 1 1 0.666

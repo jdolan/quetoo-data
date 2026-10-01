@@ -3,7 +3,6 @@
 	roughness 1.84
 	hardness 1.87
 	parallax 2.00
-	shadow 0.57
 	{
 		texture quake2/plite1_3_glow
 	}
