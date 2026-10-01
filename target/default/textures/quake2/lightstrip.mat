@@ -1,9 +1,9 @@
 {
 	diffusemap quake2/lightstrip
-	roughness 2.00
+	roughness 2.59
 	hardness 1.50
 	specularity 1.30
-	parallax 0.00
+	parallax 1.01
 	shadow 0.00
 	{
 		texture quake2/lightstripfx

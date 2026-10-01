@@ -1,9 +1,9 @@
 {
 	diffusemap quake/rune2_4
-	roughness 1.48
-	hardness 4.02
-	specularity 1.49
-	parallax 2.00
+	roughness 2.00
+	hardness 4.00
+	specularity 2.00
+	parallax 3.00
 	shadow 8.00
 	{
 		texture quake/rune2_4_luma

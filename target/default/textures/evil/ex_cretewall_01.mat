@@ -1,6 +1,7 @@
 {
 	diffusemap evil/ex_cretewall_01_d
 	roughness 1.46
-	parallax 1.69
-	shadow 2.04
+	hardness 1.43
+	parallax 4.24
+	shadow 4.53
 }

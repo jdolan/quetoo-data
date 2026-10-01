@@ -1,8 +1,8 @@
 {
 	diffusemap quake2/worngrass-noblend
-	roughness 4.73
+	roughness 2.28
 	hardness 0.24
 	specularity 1.47
-	parallax 1.96
+	parallax 2.81
 	shadow 8.00
 }

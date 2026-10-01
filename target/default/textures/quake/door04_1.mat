@@ -1,8 +1,7 @@
 {
 	diffusemap quake/door04_1
-	roughness 1.39
-	hardness 4.04
-	specularity 0.97
-	parallax 3.54
+	roughness 1.50
+	hardness 4.00
+	parallax 3.50
 	shadow 8.00
 }

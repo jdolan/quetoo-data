@@ -1,8 +1,7 @@
 {
 	diffusemap quake/az1_6
 	roughness 1.60
-	hardness 1.00
 	specularity 0.05
-	parallax 4.05
+	parallax 4.00
 	shadow 8.00
 }

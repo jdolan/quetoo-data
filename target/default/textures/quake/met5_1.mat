@@ -1,7 +1,6 @@
 {
 	diffusemap quake/met5_1
-	roughness 0.97
-	hardness 1.96
-	parallax 2.48
+	hardness 2.00
+	parallax 2.50
 	shadow 8.00
 }

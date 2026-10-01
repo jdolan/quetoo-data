@@ -1,7 +1,7 @@
 {
 	diffusemap quake/comp1_4
-	hardness 1.96
-	specularity 1.50
-	parallax 3.02
-	shadow 4.73
+	hardness 6.00
+	specularity 2.00
+	parallax 5.00
+	shadow 8.00
 }

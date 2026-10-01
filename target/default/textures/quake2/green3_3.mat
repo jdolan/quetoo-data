@@ -1,8 +1,8 @@
 {
 	diffusemap quake2/green3_3
-	roughness 1.70
+	roughness 2.08
 	hardness 1.20
 	specularity 1.80
-	parallax 1.96
+	parallax 3.12
 	shadow 8.00
 }
