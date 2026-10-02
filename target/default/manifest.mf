@@ -147,9 +147,9 @@ bdbb6399317db77d27e6685a02ebc365 7059731 maps/aerowalk.bsp
 0663d3b7519bccd7e115c280d6763d2e 696436 maps/aerowalk.map
 4ce9f79170dc931d38457d4fc026cd2f 7889 maps/aerowalk.mf
 38a2ff6abc53603499b5c90e03c5e683 3980 maps/aerowalk.nav
-1bff612f4b783b8f916bbb936931b136 6892465 maps/aghast.bsp
-45cbd071fd7471394663fbdc96197b8d 498158 maps/aghast.map
-76758da61cf95a6bf11efb489d32f16e 6538 maps/aghast.mf
+eb62cb1fe9882cf1317181af1f72e305 6888574 maps/aghast.bsp
+68b20aaf892a9e88519a5ef7ff9d6dd1 499854 maps/aghast.map
+bd05b6e79bb6ebb1a2b546f7859332d0 6538 maps/aghast.mf
 d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 0b9357cee98c8dffb7da2c71c15c1fc7 7879451 maps/badplace.bsp
 659c31345336c07ca733d1765ab8fb73 586476 maps/badplace.map
