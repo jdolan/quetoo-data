@@ -5,9 +5,10 @@
 	parallax 2.00
 	{
 		texture quake2/plite1_3_glow
+		emissive 0.33
 	}
 	{
+		color 0.33 0.33 0.33 1.00
 		flare flare_1
-		color .33 .33 .33
 	}
 }

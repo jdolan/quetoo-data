@@ -1,8 +1,11 @@
 {
 	diffusemap quake/light1_7
+	roughness 1.50
+	hardness 3.50
+	parallax 3.00
 	{
 		texture quake/light1_7_luma
-		blend src_alpha one
-		pulse 0.47
+		pulse 0.05
+		emissive 1.00
 	}
 }

@@ -2,5 +2,5 @@
 	diffusemap quake2/ometal2_1
 	roughness 2.00
 	hardness 1.20
-	parallax 0.50
+	parallax 2.00
 }

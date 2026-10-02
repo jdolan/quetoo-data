@@ -7,6 +7,6 @@
 	{
 		texture aerowalk/lightstrips32_glow
 		scroll.t 2.000
-		fog 0.00
+		emissive 1.00
 	}
 }

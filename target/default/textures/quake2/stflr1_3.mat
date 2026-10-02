@@ -1,8 +1,8 @@
 {
 	diffusemap quake2/stflr1_3
-	roughness 1.27
-	hardness 2.81
-	specularity 2.22
-	parallax 2.04
+	roughness 2.50
+	hardness 4.00
+	specularity 2.75
+	parallax 2.50
 	footsteps metal2
 }

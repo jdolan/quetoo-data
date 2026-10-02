@@ -1,8 +1,7 @@
 {
 	diffusemap quake2/wndow1dirt
-	roughness 1.02
-	hardness 8.00
-	specularity 8.00
+	hardness 2.50
+	specularity 2.50
 	parallax 0.00
 	surface "blend_100"
 }

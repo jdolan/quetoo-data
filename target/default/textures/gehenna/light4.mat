@@ -9,6 +9,7 @@
 		blend src_alpha one
 	}
 	{
+		color 1.00 1.00 1.00 1.00
 		flare flare_2
 	}
 }

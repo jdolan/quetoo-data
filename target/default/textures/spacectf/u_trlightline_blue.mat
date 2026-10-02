@@ -5,11 +5,14 @@
 	{
 		texture spacectf/u_trlightline_blue_blend
 		blend src_alpha one
+		pulse 1.00
+		emissive 1.00
+		light.radius 300.00
+		light.intensity 2.50
 	}
 	{
-		texture spacectf/u_trlightline_blue_blend
+		texture spacectf/u_trlightline_blue
 		blend src_alpha one
-		color 2 2 2 0.75
-		pulse 1
+		lighting 1.00 flat
 	}
 }

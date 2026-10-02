@@ -8,5 +8,7 @@
 		blend one one
 		anim 8 8.00
 		lerp 1
+		lighting 1.00 flat
+		emissive 1.00
 	}
 }

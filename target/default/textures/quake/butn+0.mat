@@ -1,8 +1,16 @@
 {
 	diffusemap quake/butn+0
+	roughness 1.30
+	hardness 2.90
+	specularity 1.70
+	parallax 3.00
 	{
 		texture quake/butn+0_luma
 		blend src_alpha one
-		pulse 0.30
+		pulse 2.00
+		lighting 2.00
+		emissive 1.00
+		light.radius 151.00
+		light.intensity 1.00
 	}
 }

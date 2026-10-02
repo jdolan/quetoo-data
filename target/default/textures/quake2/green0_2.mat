@@ -1,7 +1,7 @@
 {
 	diffusemap quake2/green0_2
-	roughness 2.01
-	hardness 2.12
+	roughness 2.00
+	hardness 2.00
 	specularity 1.14
-	parallax 3.02
+	parallax 2.75
 }

@@ -1,7 +1,7 @@
 {
 	diffusemap quake2/floor1_6
-	roughness 8.00
+	roughness 4.00
 	hardness 2.00
 	specularity 1.22
-	parallax 3.49
+	parallax 5.00
 }

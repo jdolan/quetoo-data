@@ -8,7 +8,6 @@
 	parallax 3.00
 	{
 		texture quake/rune2_5_luma
-		blend src_alpha one
 		pulse 0.40
 	}
 }

@@ -1,7 +1,7 @@
 {
 	diffusemap quake2/fmet2_3
-	roughness 1.20
+	roughness 8.00
 	hardness 2.00
 	specularity 1.50
-	parallax 0.00
+	parallax 2.50
 }

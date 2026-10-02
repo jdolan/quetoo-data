@@ -7,5 +7,6 @@
 	{
 		texture quake2/metal21_2lampfx
 		blend src_alpha one
+		color 2.00 2.00 2.00 1.00
 	}
 }

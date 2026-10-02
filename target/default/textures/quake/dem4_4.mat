@@ -3,4 +3,9 @@
 	hardness 2.50
 	specularity 1.13
 	parallax 2.03
+	{
+		texture quake/dem4_4
+		lighting 2.00
+		emissive 1.00
+	}
 }

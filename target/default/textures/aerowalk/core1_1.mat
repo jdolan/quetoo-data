@@ -7,6 +7,8 @@
 	{
 		texture aerowalk/core1_1scroll
 		blend src_alpha one
+		color 2.00 2.00 2.00 1.00
 		scroll.t 0.250
+		emissive 1.00
 	}
 }

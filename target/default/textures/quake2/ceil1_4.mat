@@ -2,13 +2,14 @@
 	diffusemap quake2/ceil1_4
 	normalmap quake2/ceil2_norm
 	specularmap quake2/ceil1_spec
-	roughness 1.33
+	roughness 2.50
 	hardness 3.00
 	specularity 3.50
-	parallax 0.00
+	parallax 3.50
 	{
 		texture quake2/ceil1_4fx
 		blend src_alpha one
+		emissive 1.00
 	}
 	{
 		color 1.00 0.88 0.00 1.00

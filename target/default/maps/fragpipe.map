@@ -13037,7 +13037,7 @@
 // entity 109
 {
 "classname" "light"
-"origin" "208 560 744"
+"origin" "188 560 704"
 "team" "lt_sky"
 }
 // entity 110
@@ -13071,7 +13071,7 @@
 // entity 114
 {
 "classname" "light"
-"origin" "480 576 744"
+"origin" "480 576 704"
 "team" "lt_sky"
 }
 // entity 115
@@ -13662,31 +13662,31 @@
 // entity 148
 {
 "classname" "light"
-"origin" "256 1352 416"
+"origin" "256 1340 416"
 "team" "lt_SmOrange_decor"
 }
 // entity 149
 {
 "classname" "light"
-"origin" "320 1352 416"
+"origin" "320 1340 416"
 "team" "lt_SmOrange_decor"
 }
 // entity 150
 {
 "classname" "light"
-"origin" "384 1352 416"
+"origin" "384 1340 416"
 "team" "lt_SmOrange_decor"
 }
 // entity 151
 {
 "classname" "light"
-"origin" "448 1352 416"
+"origin" "448 1340 416"
 "team" "lt_SmOrange_decor"
 }
 // entity 152
 {
 "classname" "light"
-"origin" "512 1352 416"
+"origin" "512 1340 416"
 "team" "lt_SmOrange_decor"
 }
 // entity 153

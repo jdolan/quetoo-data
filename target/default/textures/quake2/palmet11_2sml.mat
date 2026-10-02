@@ -1,6 +1,7 @@
 {
 	diffusemap quake2/palmet11_2sml
-	hardness 1.5
-	specularity 1.5
-	parallax 0.00
+	roughness 1.50
+	hardness 1.50
+	specularity 1.50
+	parallax 3.00
 }

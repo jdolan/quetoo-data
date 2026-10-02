@@ -1,8 +1,8 @@
 {
 	diffusemap quake2/color1_1
-	roughness 1.50
+	roughness 2.00
 	hardness 2.50
 	specularity 1.50
-	parallax 3.99
+	parallax 4.00
 	footsteps metal
 }

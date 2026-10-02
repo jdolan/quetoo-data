@@ -7,10 +7,10 @@
 	{
 		texture padbase/padfx-cyan
 		blend src_alpha one
+		emissive 1.00
 	}
 	{
 		color 0.30 0.30 0.30 1.00
 		flare flare_1
-		fog 0.00
 	}
 }

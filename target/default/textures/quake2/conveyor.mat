@@ -3,7 +3,7 @@
 	roughness 3.00
 	hardness 2.00
 	specularity 1.70
-	parallax 2.50
+	parallax 4.00
 	footsteps metal2
 	{
 		texture quake2/conveyor_belt
