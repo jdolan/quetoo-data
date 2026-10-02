@@ -1,6 +1,6 @@
 {
 	diffusemap quake2/sublava
-	shadow 0
+	parallax 0.00
 	{
 		texture quake2/sublava-glow
 		blend src_alpha one

@@ -4,7 +4,6 @@
 	hardness 8.00
 	specularity 1.97
 	parallax 2.96
-	shadow 4.04
 	contents "mist detail"
 	surface "blend_100 alpha_test"
 	alpha_test 0.477

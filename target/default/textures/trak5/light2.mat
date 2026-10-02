@@ -4,7 +4,6 @@
 	hardness 1.74
 	specularity 1.68
 	parallax 2.99
-	shadow 8.00
 	{
 		texture trak5/light2_fx
 		blend src_alpha one

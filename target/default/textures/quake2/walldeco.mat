@@ -1,10 +1,9 @@
 {
 	diffusemap quake2/walldeco
-	roughness 3.43
+	roughness 3.50
 	hardness 1.40
 	specularity 1.50
-	parallax 1.96
-	shadow 8.00
+	parallax 3.00
 	{
 		texture quake2/walldeco_fx
 		blend src_alpha one

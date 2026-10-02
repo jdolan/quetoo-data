@@ -1,4 +1,7 @@
 {
 	diffusemap evil/ex_cretewall_02_d
-	parallax 1.04
+	roughness 2.50
+	hardness 2.00
+	specularity 1.05
+	parallax 2.00
 }

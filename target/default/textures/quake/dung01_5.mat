@@ -4,5 +4,4 @@
 	specularmap quake/dung01_4_spec
 	roughness 1.95
 	parallax 2.04
-	shadow 8.00
 }

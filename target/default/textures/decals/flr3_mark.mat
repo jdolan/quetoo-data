@@ -3,5 +3,4 @@
 	surface "blend_100"
 	contents "mist detail"
 	parallax 3.50
-	shadow 4.00
 }

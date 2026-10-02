@@ -2,7 +2,6 @@
 	diffusemap health/large/skin
 	hardness 3.00
 	specularity 2.00
-	shadow 0.00
 	{
 		texture envmaps/red
 		blend src_alpha one

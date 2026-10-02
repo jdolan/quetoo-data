@@ -3,7 +3,7 @@
 	roughness 2.00
 	hardness 2.00
 	specularity 1.50
-	shadow 0.00
+	parallax 0.00
 	{
 		texture quake2/btactmach0fx1
 		blend src_alpha one

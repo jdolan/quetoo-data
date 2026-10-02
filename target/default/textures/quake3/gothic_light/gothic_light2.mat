@@ -1,6 +1,6 @@
 {
 	diffusemap quake3/gothic_light/gothic_light2
-	shadow 0.00
+	parallax 0.00
 	{
 		texture quake3/gothic_light/gothic_light2_blend
 		blend src_alpha one

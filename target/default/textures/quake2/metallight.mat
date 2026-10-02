@@ -1,10 +1,9 @@
 {
 	diffusemap quake2/metallight
-	roughness 1.50
+	roughness 3.61
 	hardness 1.60
 	specularity 1.80
-	parallax 1.96
-	shadow 8.00
+	parallax 3.33
 	{
 		texture quake2/metallightfx
 		blend src_alpha one

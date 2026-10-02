@@ -1,6 +1,6 @@
 {
 	diffusemap trak6/light_light1
-	shadow 0
+	parallax 0.00
 	{
 		scale.s 1.25
 		scale.t 1.25

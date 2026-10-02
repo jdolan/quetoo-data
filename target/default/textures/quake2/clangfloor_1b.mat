@@ -3,7 +3,6 @@
 	roughness 3.43
 	hardness 3.84
 	specularity 2.12
-	parallax 0.75
-	shadow 0.99
+	parallax 1.60
 	footsteps metal
 }

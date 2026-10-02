@@ -3,7 +3,6 @@
 	roughness 3.04
 	hardness 2.47
 	parallax 1.00
-	shadow 0.96
 	{
 		texture health/quake_mega/skin_glow
 		blend src_alpha one

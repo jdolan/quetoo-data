@@ -4,7 +4,6 @@
 	hardness 0.98
 	specularity 7.10
 	parallax 0.00
-	shadow 0.00
 	contents "water"
 	surface "blend_66 reflect"
 	{

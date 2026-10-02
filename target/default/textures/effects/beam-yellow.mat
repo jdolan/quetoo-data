@@ -1,6 +1,6 @@
 {
 	diffusemap effects/beam-yellow
-	shadow 0.00
+	parallax 0.00
 	contents "mist detail"
 	surface "blend_100"
 }

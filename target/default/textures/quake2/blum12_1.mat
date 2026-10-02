@@ -1,8 +1,7 @@
 {
 	diffusemap quake2/blum12_1
-	roughness 2.12
+	roughness 3.00
 	hardness 1.50
 	specularity 2.00
-	parallax 1.96
-	shadow 8.00
+	parallax 3.50
 }

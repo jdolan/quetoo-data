@@ -4,7 +4,6 @@
 	hardness 1.04
 	specularity 2.54
 	parallax 2.50
-	shadow 4.00
 	{
 		texture quake/light_rail01_luma
 		blend src_alpha one

@@ -3,7 +3,7 @@
 	roughness 1.50
 	hardness 1.50
 	specularity 1.60
-	shadow 0.00
+	parallax 0.00
 	{
 		texture quake2/glowlavalow
 		blend src_alpha one

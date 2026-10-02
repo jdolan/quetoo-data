@@ -2,14 +2,14 @@
 	diffusemap quake2/wlight1_160
 	roughness 1.48
 	hardness 2.87
-	parallax 2.00
-	shadow 2.73
+	parallax 4.00
 	{
 		texture quake2/wlight1_160fx
-		pulse 60
+		pulse 60.00
+		emissive 0.10
 	}
 	{
+		color 0.33 0.33 0.33 1.00
 		flare flare_2
-		color .33 .33 .33
 	}
 }

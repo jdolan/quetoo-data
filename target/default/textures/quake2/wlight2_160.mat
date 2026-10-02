@@ -4,14 +4,13 @@
 	specularmap quake2/wlight1_160_spec
 	roughness 1.48
 	hardness 2.87
-	parallax 2.00
-	shadow 2.73
+	parallax 3.50
 	{
 		texture quake2/wlight2_160fx
-		pulse 40
+		pulse 40.00
 	}
 	{
+		color 0.33 0.33 0.33 1.00
 		flare flare_2
-		color .33 .33 .33
 	}
 }

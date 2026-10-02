@@ -3,8 +3,7 @@
 	roughness 0.5
 	hardness 4
 	specularity 1
-	parallax 1
-	shadow 0.00
+	parallax 0.00
 	contents "water"
 	surface "blend_100 reflect"
 	{

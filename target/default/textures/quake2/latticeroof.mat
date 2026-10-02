@@ -1,8 +1,7 @@
 {
 	diffusemap quake2/latticeroof
-	roughness 1.31
+	roughness 2.06
 	hardness 1.14
 	specularity 2.61
-	parallax 1.88
-	shadow 0.00
+	parallax 1.99
 }

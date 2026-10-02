@@ -5,5 +5,9 @@
 	roughness 0.99
 	hardness 2.50
 	parallax 2.02
-	shadow 8.00
+	{
+		texture quake/dem4_1
+		lighting 1.50
+		emissive 1.00
+	}
 }

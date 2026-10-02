@@ -2,7 +2,6 @@
 	diffusemap quake/lunflr1
 	roughness 1.10
 	parallax 1.50
-	shadow 2.00
 	hardness 2.50
 	specularity 1.5
 }

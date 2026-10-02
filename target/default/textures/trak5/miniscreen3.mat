@@ -1,4 +1,4 @@
 {
 	diffusemap trak5/miniscreen3
-	shadow 0
+	parallax 0.00
 }

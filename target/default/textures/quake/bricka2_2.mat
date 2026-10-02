@@ -1,8 +1,7 @@
 {
 	diffusemap quake/bricka2_2
-	roughness 0.68
-	hardness 1.18
+	roughness 0.75
+	hardness 1.20
 	specularity 0.51
 	parallax 4.00
-	shadow 8.00
 }

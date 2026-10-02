@@ -1,8 +1,7 @@
 {
 	diffusemap quake2/pyramids
-	roughness 2.53
-	hardness 6.12
-	specularity 1.71
-	shadow 1
-	parallax 4
+	roughness 4.00
+	hardness 8.00
+	specularity 1.25
+	parallax 4.00
 }

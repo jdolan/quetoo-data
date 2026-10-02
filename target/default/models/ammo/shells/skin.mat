@@ -4,7 +4,6 @@
 	roughness 4.24
 	hardness 8.00
 	specularity 1.52
-	shadow 0.00
 	{
 		texture envmaps/gold
 		blend src_alpha one

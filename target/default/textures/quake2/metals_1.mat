@@ -1,8 +1,7 @@
 {
 	diffusemap quake2/metals_1
-	roughness 1.63
-	hardness 4.65
-	specularity 4.73
-	parallax 2.04
-	shadow 8.00
+	roughness 3.00
+	hardness 4.00
+	specularity 4.00
+	parallax 3.00
 }

@@ -1,8 +1,7 @@
 {
 	diffusemap quake/tech02_6
-	roughness 1.51
-	hardness 1.04
+	roughness 0.80
+	hardness 1.00
 	specularity 2.00
-	parallax 1.46
-	shadow 3.00
+	parallax 2.25
 }

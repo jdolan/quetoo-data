@@ -1,6 +1,6 @@
 {
 	diffusemap quake2/mine10_1heat-low
-	shadow 0.00
+	parallax 0.00
 	{
 		texture quake2/mine10_1heat-low-glow
 		blend src_alpha one

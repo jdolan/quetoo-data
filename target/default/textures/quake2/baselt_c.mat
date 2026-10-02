@@ -3,11 +3,11 @@
 	roughness 4.00
 	hardness 4.00
 	specularity 3.00
-	parallax 3.04
-	shadow 0.00
+	parallax 2.00
 	{
 		texture quake2/baselt_cfx
 		blend src_alpha one
+		emissive 0.50
 	}
 	{
 		color 1.00 0.21 0.11 1.00

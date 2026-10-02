@@ -4,7 +4,6 @@
 	hardness 2.97
 	specularity 1.50
 	parallax 4.01
-	shadow 8.00
 	{
 		color 1.00 0.84 0.35 1.00
 		scale.s 0.750
@@ -14,5 +13,6 @@
 	{
 		texture quake/light1_1_luma
 		blend src_alpha one
+		emissive 1.00
 	}
 }

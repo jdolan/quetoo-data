@@ -1,14 +1,14 @@
 // Game: Quetoo
-// Format: Quake3 (Valve)
+// Format: Valve220
 // entity 0
 {
 "classname" "worldspawn"
+"_tb_layer_hidden" "1"
 "_tb_textures" "textures/common;textures/quake2"
 "ambient" "0.33"
 "message" "Lava Tomb"
 "model" "*0"
 "sky" "dragonheart"
-"_tb_layer_hidden" "1"
 // brush 0
 {
 ( 320 0 -240 ) ( 272 -64 -248 ) ( 320 0 -248 ) common/caulk [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25 1 0 0
@@ -18058,16 +18058,16 @@
 // entity 243
 {
 "classname" "func_group"
-"_tb_type" "_tb_group"
-"_tb_name" "Unnamed"
 "_tb_id" "4"
 "_tb_linked_group_id" "{1c03e3ca-20a3-4295-9a62-0bb6e51ac1c7}"
+"_tb_name" "Unnamed"
+"_tb_type" "_tb_group"
 }
 // entity 244
 {
 "classname" "func_wall"
-"model" "*17"
 "_tb_group" "4"
+"model" "*17"
 // brush 0
 {
 ( -32 960 48 ) ( -8 1088 128 ) ( -8 960 128 ) quake2/rockies [ 0 1 0 493 ] [ 0 0 -1 -63 ] 0 0.75 0.75 134217729 2048 0
@@ -18467,11 +18467,11 @@
 // entity 246
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Clip"
 "_tb_id" "1"
-"_tb_layer_sort_index" "0"
 "_tb_layer_hidden" "1"
+"_tb_layer_sort_index" "0"
+"_tb_name" "Clip"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( 352 8448 8064 ) ( 352 -7936 8064 ) ( 352 8448 -8320 ) common/clip [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25 536870912 128 0
@@ -18768,11 +18768,11 @@
 // entity 247
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Sky"
 "_tb_id" "2"
-"_tb_layer_sort_index" "1"
 "_tb_layer_hidden" "1"
+"_tb_layer_sort_index" "1"
+"_tb_name" "Sky"
+"_tb_type" "_tb_layer"
 // brush 0
 {
 ( -480 -992 -128 ) ( -480 -1064 -192 ) ( -480 -992 -304 ) common/sky [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5
@@ -19191,25 +19191,25 @@
 // entity 248
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Fog"
 "_tb_id" "3"
 "_tb_layer_sort_index" "2"
+"_tb_name" "Fog"
+"_tb_type" "_tb_layer"
 }
-// entity 258
+// entity 249
 {
 "classname" "func_group"
-"_tb_type" "_tb_layer"
-"_tb_name" "Dust"
 "_tb_id" "5"
-"_tb_layer_sort_index" "3"
 "_tb_layer_hidden" "1"
+"_tb_layer_sort_index" "3"
+"_tb_name" "Dust"
+"_tb_type" "_tb_layer"
 }
-// entity 259
+// entity 250
 {
 "classname" "misc_dust"
-"type" "embers"
 "_tb_layer" "5"
+"type" "embers"
 // brush 0
 {
 ( 0 -736 -448 ) ( 0 -735 -448 ) ( 0 -736 -447 ) common/dust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25

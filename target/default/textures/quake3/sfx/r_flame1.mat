@@ -1,6 +1,6 @@
 {
 	diffusemap quake3/sfx/r_flame1
-	shadow 0.00
+	parallax 0.00
 	contents "mist detail"
 	surface "material"
 	{
@@ -8,5 +8,7 @@
 		blend one one
 		anim 8 8.00
 		lerp 1
+		lighting 1.00 flat
+		emissive 1.00
 	}
 }

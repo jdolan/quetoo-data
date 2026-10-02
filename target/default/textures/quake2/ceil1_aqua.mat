@@ -5,8 +5,7 @@
 	roughness 1.33
 	hardness 3.00
 	specularity 3.50
-	parallax 4.00
-	shadow 0.00
+	parallax 0.00
 	{
 		texture quake2/ceil1_aquafx
 		blend src_alpha one

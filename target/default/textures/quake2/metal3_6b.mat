@@ -3,6 +3,6 @@
 	normalmap quake2/metal3_6_norm
 	specularmap quake2/metal3_6_spec
 	roughness 1.45
-	parallax 1.59
-	shadow 2.65
+	hardness 2.70
+	parallax 3.00
 }

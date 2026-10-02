@@ -2,7 +2,6 @@
 	diffusemap catfight/u_lamplong1b
 	specularity 1.5
 	parallax 1.5
-	shadow 0.5
 	{
 		scale.s 1.25
 		scale.t 1.25

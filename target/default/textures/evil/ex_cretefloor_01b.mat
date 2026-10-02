@@ -1,7 +1,6 @@
 {
 	diffusemap evil/ex_cretefloor_01b_d
-	roughness 1.54
+	roughness 2.97
 	hardness 1.12
-	parallax 1.31
-	shadow 1.50
+	parallax 1.04
 }

@@ -1,6 +1,5 @@
 {
 	diffusemap quake/twall2_3
-	hardness 0.54
-	specularity 1.96
-	parallax 3.51
+	specularity 2.00
+	parallax 3.50
 }

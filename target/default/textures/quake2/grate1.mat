@@ -2,5 +2,6 @@
 	diffusemap quake2/grate1
 	roughness 3.00
 	hardness 6.00
-	parallax 1.53
+	specularity 1.35
+	parallax 2.90
 }

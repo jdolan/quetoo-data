@@ -3,10 +3,10 @@
 	roughness 1.20
 	hardness 2.00
 	specularity 2.00
-	parallax 1.50
-	shadow 0.00
+	parallax 0.00
 	{
 		texture quake2/metal21_2lampfx
 		blend src_alpha one
+		color 2.00 2.00 2.00 1.00
 	}
 }

@@ -1,3 +1,7 @@
 {
+	diffusemap evil/exmetalbase03_d
 	specularmap evil/exmetalbase01_spec
+	roughness 3.00
+	hardness 1.51
+	parallax 2.12
 }

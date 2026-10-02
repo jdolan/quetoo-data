@@ -2,7 +2,7 @@
 	diffusemap effects/fx-magenta
 	hardness 5
 	specularity 3
-	shadow 0.00
+	parallax 0.00
 	surface "blend_100"
 	contents "detail"
 }

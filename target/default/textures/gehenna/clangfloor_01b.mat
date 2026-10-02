@@ -1,8 +1,7 @@
 {
 	diffusemap gehenna/clangfloor_01b_d
-	roughness 2.36
+	roughness 3.00
 	hardness 3.18
 	specularity 1.96
-	parallax 1.46
-	shadow 1.99
+	parallax 2.00
 }

@@ -1,8 +1,6 @@
 {
 	diffusemap quake2/grate_red
-	roughness 1.44
-	hardness 1.01
-	specularity 1.54
-	parallax 2.27
-	shadow 1.84
+	roughness 2.00
+	hardness 3.00
+	parallax 1.50
 }

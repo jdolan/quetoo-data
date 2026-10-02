@@ -1,7 +1,6 @@
 {
 	diffusemap quake/adoor03_6
-	roughness 1.46
-	hardness 1.46
+	roughness 1.50
+	hardness 1.50
 	parallax 1.50
-	shadow 2.50
 }

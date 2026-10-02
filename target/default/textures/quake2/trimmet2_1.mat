@@ -1,7 +1,6 @@
 {
 	diffusemap quake2/trimmet2_1
-	roughness 1.44
+	roughness 2.50
 	hardness 1.40
-	parallax 0.98
-	shadow 3.96
+	parallax 2.00
 }

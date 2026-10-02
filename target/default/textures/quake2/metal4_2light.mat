@@ -4,7 +4,6 @@
 	hardness 1.50
 	specularity 1.70
 	parallax 4.50
-	shadow 8.00
 	{
 		texture quake2/metal4_2lightfx
 		blend src_alpha one

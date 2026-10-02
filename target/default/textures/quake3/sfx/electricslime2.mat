@@ -1,6 +1,6 @@
 {
 	diffusemap quake3/sfx/electricslime2
-	shadow 0.00
+	parallax 0.00
 	contents "detail"
 	surface "material"
 	{

@@ -1,8 +1,7 @@
 {
 	diffusemap quake2/liftgirder
-	roughness 1.47
+	roughness 3.00
 	hardness 1.59
 	specularity 1.36
-	parallax 1.58
-	shadow 8.00
+	parallax 4.00
 }

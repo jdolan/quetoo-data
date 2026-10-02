@@ -2,10 +2,9 @@
 	diffusemap spacectf/u_floor3_pad_6
 	roughness 1.62
 	parallax 2.50
-	shadow 6.93
 	{
 		texture spacectf/u_floor3_pad_7b_blend
-		blend src_alpha one
-		pulse 0.50
+		lighting 2.00
+		emissive 1.00
 	}
 }

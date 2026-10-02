@@ -1,5 +1,5 @@
 // Game: Quetoo
-// Format: Quake3 (Valve)
+// Format: Valve220
 // entity 0
 {
 "classname" "worldspawn"

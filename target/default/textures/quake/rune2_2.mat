@@ -1,10 +1,9 @@
 {
 	diffusemap quake/rune2_2
-	roughness 1.51
-	hardness 3.99
-	specularity 1.50
-	parallax 1.98
-	shadow 8.00
+	roughness 2.00
+	hardness 4.00
+	specularity 2.00
+	parallax 3.00
 	{
 		texture quake/rune2_2_luma
 		blend src_alpha one

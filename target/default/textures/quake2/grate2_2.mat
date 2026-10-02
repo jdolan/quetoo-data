@@ -2,6 +2,5 @@
 	diffusemap quake2/grate2_2
 	roughness 3.50
 	hardness 1.61
-	parallax 2.52
-	shadow 6.69
+	parallax 3.00
 }

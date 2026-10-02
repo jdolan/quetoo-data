@@ -4,7 +4,6 @@
 	hardness 0.97
 	specularity 0.99
 	parallax 0.00
-	shadow 0.00
 	surface "blend_33 reflect"
 	{
 		reflect
