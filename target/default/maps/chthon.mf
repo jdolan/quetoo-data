@@ -1,4 +1,4 @@
-505f8d1c22d538238d3f9ce2dc4328d5 26647903 maps/chthon.bsp
+bd481f35a3fb1ea2db832db827216f22 26647903 maps/chthon.bsp
 608349b1004dad0284cb6e27b748523e 6020 maps/chthon.nav
 eb01a62943d8de39d1cc71ec86080492 167477 mapshots/chthon/quetoo084.jpg
 d577d529b30c0b40a30ed234498f7c36 166484 mapshots/chthon/quetoo085.jpg

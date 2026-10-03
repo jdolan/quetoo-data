@@ -1,4 +1,4 @@
-898c7042ec0beab910949f031d33c98c 49365541 maps/miner.bsp
+f345ff423ae4ef28d58e7339a404bc32 50361541 maps/miner.bsp
 a1cf2d01675c3e4ffd8e852cbe478574 5324 maps/miner.nav
 2ce891eae749afd17f715040076a707a 212438 mapshots/miner/miner-01.jpg
 2b923fe63a2b23355d1696568f56ea96 233197 mapshots/miner/miner-02.jpg
