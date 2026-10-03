@@ -1725,6 +1725,7 @@ ea373df634232e5ad1616b9d1db6312c 923786 sounds/ambient/snow.wav
 f3169e9530089e8621967ada12998641 220546 sounds/ambient/steam_1.wav
 419de818564670215aab7123a9eb255d 76880 sounds/ambient/steam_2.wav
 d44a68cd5468895d057c6ceedd0f186e 220546 sounds/ambient/steam_3.wav
+2e99e4d1fe1501d5191c8157d3063cb6 110392 sounds/ambient/suck1.wav
 b6ef8b3c337f0f3e2789909000169f36 7372 sounds/ambient/target.wav
 fce10959894c3804011b2dc9f2ac9ffb 84630 sounds/ambient/thud.wav
 11463b663bf5bfd4d68db32d7932646b 882044 sounds/ambient/thunder_1.wav
@@ -1744,6 +1745,7 @@ fe2ddbc6270bfb5c83d07cb66d51c550 90090 sounds/ambient/wind_2.wav
 87a728a08e42b15c98a78f5525e38e49 360692 sounds/ambient/wind_7.wav
 3ffd3cf8e26b1d654f1d1a7c28804322 408898 sounds/ambient/wind_8.wav
 a585cb23aecb761e892a05aea03b2af2 221824 sounds/ambient/wind_9.wav
+c7be01e6d324e66883f70aa0072a99b0 22140 sounds/ambient/windfly.wav
 1b0e516c74d6a84444c151e9093eae6a 82784 sounds/ammo/common/pickup.wav
 58c367d2c690c8ecc03b270f74220ab4 489908 sounds/ammo/common/pickup_alt.wav
 55dc5307984e3aed65119cf8e423692c 48172 sounds/ammo/common/pickup_large.wav
@@ -1825,6 +1827,8 @@ d2a7fc12c5dc86baf3f055b9b38c91ab 176444 sounds/misc/teleport_hum.wav
 c359ddd6047e951d1bb346ad09250783 23068 sounds/projectiles/quake_grenade/hit.wav
 ba0deb5b23f95dc2bf1134237b4d7fc3 8850 sounds/projectiles/quake_nail/hit.wav
 cbb4f2b4c3282572983d21261a709c2d 150564 sounds/projectiles/rocket/fly.wav
+f2e0a8297e901e88325b14142e0ad9a1 84170 sounds/quake/boss2_hurt.wav
+9eb0eed494b879033c6145f8be74dc5d 225484 sounds/quake/boss2_sight.wav
 ed340f7396675b7b29e253accb6d01ec 67366 sounds/techs/haste/haste.wav
 56af8118083f954e31215c6a1eb42079 94546 sounds/techs/regen/regen.wav
 c2b0022674fc61a780c0b6b9832c34d7 66194 sounds/techs/resist/resist.wav
@@ -6690,6 +6694,10 @@ c28768dafb7462aa10cd17805714b5b5 24042 textures/quake/met5_2_blue.jpg
 f74521d11aa6ef144a1f2a7f9e5b60a9 19812 textures/quake/metal1_2.jpg
 f2efc97c7e2e83bf2d478237072b09c6 87 textures/quake/metal1_2.mat
 7aea1aaa7b05cfc5ba36ae0252a10954 21857 textures/quake/metal1_2_spec.jpg
+39bfdd4961e61cf66655b700b693307f 124083 textures/quake/metal1_3-rune2_3.jpg
+50f6a968672ce8581125b2aabff8117b 256 textures/quake/metal1_3-rune2_3.mat
+18f368d401432f672a6a409860fe0bcc 15787 textures/quake/metal1_3-rune2_3_glow.png
+d8e64f7e512e70e7c112e9546381b889 46557 textures/quake/metal1_3-rune2_3_norm.png
 a1601ef78c2aadd7e88022fdfb458fbe 20639 textures/quake/metal1_3.jpg
 0ba9dc30a6ee36060e17d261832c978e 77 textures/quake/metal1_3.mat
 9a69758dca031542f5bd988c1c150219 17148 textures/quake/metal1_3_spec.jpg
