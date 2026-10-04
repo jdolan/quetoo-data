@@ -159,9 +159,9 @@ fabb5ceb528e5745ed24760ed5974a36 32274179 maps/campgrounds.bsp
 aaac3f945c49957170e86576443f69f3 2389389 maps/campgrounds.map
 13a22c65ac7b36b1ba86b2f40dd4e152 16211 maps/campgrounds.mf
 70d4b9e5bdea0e4856f8351bf1e76389 7996 maps/campgrounds.nav
-bd481f35a3fb1ea2db832db827216f22 26647903 maps/chthon.bsp
-699ae09005a7f20aef2e850079a5bcd9 1831981 maps/chthon.map
-99c0f46f6f7e4189a20a019bdb35a116 20766 maps/chthon.mf
+003c2cb70f97703d1886240338953125 28178801 maps/chthon.bsp
+e61480b2d9540e51716ab4e3483a2628 1910658 maps/chthon.map
+93d059b8b583641577710c66727bcdfd 20853 maps/chthon.mf
 608349b1004dad0284cb6e27b748523e 6020 maps/chthon.nav
 9ca3b3e22dcdb651e02a379aefc6f445 6130756 maps/cistern.bsp
 f39f88791cd31f97329837eded6f82dc 531745 maps/cistern.map
@@ -179,9 +179,9 @@ b2eccb51a131c734bba23195c80b1302 3876 maps/darkzone.mf
 606525403653abfae3514abc2520ef90 1655522 maps/edge.map
 519237481651da279734d7e62ec54d70 15322 maps/edge.mf
 63f90b4907fda4f189064bfacba265a8 13036 maps/edge.nav
-bf63632047de2285fb641d65f35ea1ab 33415695 maps/fraggin.bsp
-a07d23962a0dbfa5b5d540c717c2d053 2176126 maps/fraggin.map
-9cb080a33e6ffe153248e28ab7a7abca 14595 maps/fraggin.mf
+d87c015727b13d0fabfc6fc67f41f4c6 33478642 maps/fraggin.bsp
+4100be1c29bd3ba776c9fdf5411b9a4a 2167107 maps/fraggin.map
+820387ca5d9ebbd9e00dfac8f57bbfd2 14595 maps/fraggin.mf
 079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
 b69694c950beaaca3cea4ddc7a28238b 10742004 maps/fragpipe.bsp
 b22926c39431e33974da2e01bd5fc72a 1027954 maps/fragpipe.map
@@ -1714,6 +1714,7 @@ a32a347f93db6e1e71aeba36360ff4d9 216620 sounds/ambient/lava_flow_3.wav
 c71c18c62d64acb7ed4fa00730a079c6 33672 sounds/ambient/metal_1.wav
 056d89c8c1f12d5824a674fefcf93e0d 39816 sounds/ambient/metal_2.wav
 c6ead2c1cad94273b42af8a277f49279 426350 sounds/ambient/pulse.wav
+486bfa737c35b0c9dda57cbee2a540af 40166 sounds/ambient/q_tele_hum.wav
 69f9ce969eeee2173bfad295a4359c7f 1702094 sounds/ambient/rain.wav
 9809895cca18f3652cef513819493b31 239336 sounds/ambient/rocks.wav
 902f10685a646e643f41dee75d1503f6 152108 sounds/ambient/siren.wav
@@ -1731,7 +1732,6 @@ fce10959894c3804011b2dc9f2ac9ffb 84630 sounds/ambient/thud.wav
 11463b663bf5bfd4d68db32d7932646b 882044 sounds/ambient/thunder_1.wav
 1e73cbeb9c59c65db544d56133772644 572674 sounds/ambient/thunder_2.ogg
 1939b6fb07d277eec1f138cbf354c3f4 698062 sounds/ambient/thunder_3.wav
-1e73cbeb9c59c65db544d56133772644 572674 sounds/ambient/thunder_4.ogg
 e7db1ae1f719403b62a08191ce1eb6a0 283630 sounds/ambient/underwater.wav
 93a193c6297f052781a4e02051aa4fd7 747312 sounds/ambient/water_1.wav
 01a3009417ffcacc75069643bc626589 110314 sounds/ambient/water_2.wav
@@ -6041,7 +6041,7 @@ b46487ba8260f66d27d7b803c9f5f8a5 26670 textures/quake/bricka2_6.jpg
 e2be2806ae8c841984b767104a13a258 64 textures/quake/bricka2_6.mat
 9525a9b256cb97a68cb746ceb03060f7 25005 textures/quake/bricka2_6_spec.jpg
 7dbc56326525b850615e87b12299184d 7620 textures/quake/butn+0.jpg
-40558910c5aac92f999086b1fd01da5b 239 textures/quake/butn+0.mat
+a7b8f1a0b3ede6e1e6a495b9c16e6ce7 239 textures/quake/butn+0.mat
 a59fe2d5bd205b7aa0a5975cbabb86e9 1613 textures/quake/butn+0_luma.jpg
 18bfb4ddf74f2b69707d3a7f34e366a0 43749 textures/quake/butn+0_norm.png
 b8cd0b82bec69ef32bb5affd547df524 4176 textures/quake/butn+0_spec.jpg
@@ -6695,7 +6695,7 @@ f74521d11aa6ef144a1f2a7f9e5b60a9 19812 textures/quake/metal1_2.jpg
 f2efc97c7e2e83bf2d478237072b09c6 87 textures/quake/metal1_2.mat
 7aea1aaa7b05cfc5ba36ae0252a10954 21857 textures/quake/metal1_2_spec.jpg
 39bfdd4961e61cf66655b700b693307f 124083 textures/quake/metal1_3-rune2_3.jpg
-50f6a968672ce8581125b2aabff8117b 256 textures/quake/metal1_3-rune2_3.mat
+74aee4bc3fb3874dded6ae8855a26a19 256 textures/quake/metal1_3-rune2_3.mat
 18f368d401432f672a6a409860fe0bcc 15787 textures/quake/metal1_3-rune2_3_glow.png
 d8e64f7e512e70e7c112e9546381b889 46557 textures/quake/metal1_3-rune2_3_norm.png
 a1601ef78c2aadd7e88022fdfb458fbe 20639 textures/quake/metal1_3.jpg
