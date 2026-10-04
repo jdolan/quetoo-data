@@ -10,6 +10,6 @@
 		emissive 1.00
 		light.radius 128.00
 		light.color 1.00 0.00 0.00
-		light.intensity 2.00
+		light.intensity 3.50
 	}
 }
