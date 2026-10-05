@@ -1,0 +1,10 @@
+{
+	diffusemap quake/window03_2
+	normalmap quake/window03_2_norm
+	specularmap quake/window03_2_spec
+	roughness 1.33
+	hardness 3.0
+	specularity 6.0
+	parallax 5.0
+	surface "blend_100"
+}
