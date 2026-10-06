@@ -751,6 +751,14 @@ afb16f368df4fc6857213c257b73f654 27 models/weapons/machinegun/tris.mtl
 20fa9a17608ffc50549531ccb74572b2 72922 models/weapons/machinegun/tris.obj
 11a05559e56026e272bbfdc2f6cabc43 56 models/weapons/machinegun/view.cfg
 5d3376335df27ff6fe8ce32a8f9c568c 59 models/weapons/machinegun/world.cfg
+b0d47d59cb54f339cf509d421b5cfd19 38 models/weapons/quake_axe/link.cfg
+d273113a9d15506ab10507cb3ea246db 22515 models/weapons/quake_axe/skin.jpg
+350c21c5ae8f7536df5934c859d659f3 85 models/weapons/quake_axe/skin.mat
+482a1da6978011656ba1eb75b8b02ac4 95472 models/weapons/quake_axe/skin_norm.png
+80375917b5eddb0b085c266130e5b535 20763 models/weapons/quake_axe/skin_spec.jpg
+2d134369d476292c05cf6a9999c249cb 26676 models/weapons/quake_axe/tris.md3
+8d4b4a31c249a932c5a33575fd8c159d 38 models/weapons/quake_axe/view.cfg
+ab570b4995a11be708b8b013ba3ee428 26 models/weapons/quake_axe/world.cfg
 2b2ea1660876262ecdebd2050fdd151e 55 models/weapons/quake_grenadelauncher/link.cfg
 0915649df9b6c312838d0f61cba7341c 12123 models/weapons/quake_grenadelauncher/skin.jpg
 aa2cac2f5a64ebe1d0b7a0344f54a3df 97 models/weapons/quake_grenadelauncher/skin.mat
