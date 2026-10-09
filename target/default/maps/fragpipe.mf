@@ -161,5 +161,5 @@ ceaba3427c5e865c29ae48b83b4e90d5 20421 textures/quake2/subslimebotm.jpg
 bf5859edaf2ec1c664915a74b49f6e87 79 textures/quake2/wbasic1_4.mat
 406b60c8031a53f9acfbc919d8e3afc2 199292 textures/quake2/wbasic1_4_norm.png
 ee6184ae1fe1d35a69c1254381bc91e5 15251 textures/quake2/wbasic1_4_spec.jpg
-9ea362515c6faf29eb5210a050e6d820 279 textures/quake2/wndow1_2.mat
+acf6110c5d43911f33d931c826a02068 152 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png

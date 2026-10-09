@@ -1,4 +1,4 @@
-2510f45cd2dc1320bdae543479f0da3f 17445161 maps/abase.bsp
+1e8a624e1d05e560d9605f9a848ee253 17433961 maps/abase.bsp
 a96f38decbf7ac420f2bf32a5c50838d 9924 maps/abase.nav
 9bba06fe7223bcd1d20711bdd950d547 127700 mapshots/abase/quetoo001.jpg
 97ef68c5d030e7a0d49e6c9022aad638 170339 mapshots/abase/quetoo002.jpg
@@ -58,7 +58,7 @@ b7f9a37e49826266f5ac8ac7f1feb934 290 textures/effects/black.png
 8df6b10cdc62b528f55e7165279ca66e 413 textures/effects/sky1.mat
 d20862d28e97f0a9426f072795b86e2f 536000 textures/effects/sky1.png
 e2b767ca608390c6a6c6fd5f145302b8 88418 textures/effects/water2fx.png
-0c15ecca50d058e338d6e250d1a2241b 57594 textures/envmaps/envmap_1.jpg
+d67b222574925d1edd7f21124b52f693 78 textures/padbase/padbase.mat
 318a6ccdc992bacd45ca6079e6e0c221 163522 textures/padbase/padbase.png
 59f417af38fd6830821430e5aeb48d10 105839 textures/padbase/padbase_norm.png
 139f7559b4cbefa02af5ca889a783d25 46 textures/prototype/grid.mat
@@ -385,7 +385,8 @@ b052b4bba2a43b32e14101e30c0d8901 2381 textures/quake/tek_la32.jpg
 1bfbdbc5732aea16d7c4bdcefd5bf1bf 31 textures/quake/tek_la32.mat
 1bb5dc249e6394a04f96436da40524bc 8563 textures/quake/tek_la32_norm.png
 5b67ebe61dcc0e364fe1fff32b5b131c 2514 textures/quake/tek_la32_quad.jpg
-4e97b54b380ff14559a480414798c1b3 36 textures/quake/tek_la32_quad.mat
+a8a46566c779409741d8fba7e0287aa3 212 textures/quake/tek_la32_quad.mat
+eced6bad3c97951ffc094d48a582dae1 3851 textures/quake/tek_la32_quad_luma.png
 244d3649317272dfde18bf2b197fdc2b 1688 textures/quake/tek_la32_quad_spec.jpg
 8cbb7477432172675fc67b2882ef4cce 1757 textures/quake/tek_la32_spec.jpg
 c85191c2523c1b86033a4f0d2ab3e5ae 7469 textures/quake/tek_la9b.jpg
@@ -451,7 +452,7 @@ e3a0a45192728e3cafa6e5017d739e0d 4077 textures/quake/wir_la4_luma.jpg
 385e0f57544bf2f258c89815489df521 615506 textures/quake2/duckw.png
 8ed0b727acd885b2a4ebbf92eb5fc3f7 613418 textures/quake2/duckw_norm.png
 03b1aea461446046426701dcae6c59a3 97659 textures/quake2/duckw_spec.jpg
-9ea362515c6faf29eb5210a050e6d820 279 textures/quake2/wndow1_2.mat
+acf6110c5d43911f33d931c826a02068 152 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png
 c2206dd9ef7fc905f997d349e0e02fb9 147 textures/quake3/base_floor/pjgrate2.mat
 66c2ac882663804833589240acc771ac 117412 textures/quake3/base_floor/pjgrate2.png

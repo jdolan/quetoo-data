@@ -1,3 +1,13 @@
 {
 	diffusemap quake/tek_la32_quad
+	normalmap quake/tek_la32_norm
+	roughness 3.80
+	hardness 2.40
+	parallax 2.50
+	{
+		texture quake/tek_la32_quad_luma
+		pulse 2.00
+		light.radius 100.00
+		light.intensity 2.00
+	}
 }

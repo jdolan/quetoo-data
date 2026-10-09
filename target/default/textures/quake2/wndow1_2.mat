@@ -8,12 +8,4 @@
 		reflect
 		color 1.00 1.00 1.00 0.39
 	}
-	{
-		texture envmaps/envmap_1
-		color 1.00 1.00 1.00 0.45
-		scale.s 2.000
-		scale.t 2.000
-		envmap 0.5
-		lighting 1.00 flat
-	}
 }

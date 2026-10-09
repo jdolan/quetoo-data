@@ -6,7 +6,6 @@ cccca2095d99897d571aa4cb5304b4c8 218881 mapshots/aerowalk/quetoo080.jpg
 9573f3e6c29a51c784df1d75fb86f63d 240583 mapshots/aerowalk/quetoo083.jpg
 c53efff9f3c4fa4c19cd0ffb0135a82f 304070 sky/atsea.jpg
 3c8d67b598c0ebcd6cd6ed150547a550 45856 sounds/ambient/energy.wav
-1e73cbeb9c59c65db544d56133772644 572674 sounds/ambient/thunder_4.ogg
 38bb016d3b85c77377be752c5797bce9 322470 sounds/ambient/wind_3.wav
 8e6e6b9b5459b96038421ac0465aeff3 287784 sounds/ambient/wind_4.wav
 9a832755b20df1aca0c656a7edfb09e5 34732 sprites/flare_1.png

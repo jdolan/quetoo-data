@@ -1,0 +1,6 @@
+{
+	diffusemap padbase/padbase
+	roughness 2.50
+	hardness 4.00
+	parallax 4.00
+}

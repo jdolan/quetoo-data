@@ -22,7 +22,6 @@ cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
-0c15ecca50d058e338d6e250d1a2241b 57594 textures/envmaps/envmap_1.jpg
 16e69851c6e37b91d765a7a3bfc6abc8 11511 textures/omf/metal3_6b.jpg
 95c971286400603cbbf84bd46c7d9eef 94 textures/omf/metal3_6b.mat
 8828dd2303f70413daf52ab9e660ee22 55616 textures/omf/metal3_6b_norm.png
@@ -189,5 +188,5 @@ b8f0eac66d84f9f0a152c0e217792e85 3386 textures/quake2/trimmet2_1.jpg
 f9767f6df6041afed2bf3168e104b706 80 textures/quake2/trimmet2_1.mat
 38c5ff84c9fee5e5b937154ca14e9713 14268 textures/quake2/trimmet2_1_norm.png
 4e26ebce2b110274cca69597610ac7e0 2522 textures/quake2/trimmet2_1_spec.jpg
-9ea362515c6faf29eb5210a050e6d820 279 textures/quake2/wndow1_2.mat
+acf6110c5d43911f33d931c826a02068 152 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png
