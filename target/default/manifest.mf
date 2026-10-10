@@ -139,9 +139,9 @@ ae953d880fe03aabd9dac0735745c9fa 14250907 maps/2deaths.bsp
 ab292800c6f6e143048e1aecd09bf528 1452826 maps/2deaths.map
 24c34944cec63d5ea7c5f3ab069318e4 11020 maps/2deaths.mf
 d5d9134fd5624bc39854565de2d3c064 3708 maps/2deaths.nav
-1e8a624e1d05e560d9605f9a848ee253 17433961 maps/abase.bsp
-d55d129fa752c587cebdd7eabb43a2a7 1156297 maps/abase.map
-e74652841d88a719cb9ab3412f6c6d17 31471 maps/abase.mf
+bcc5f33cf71477adf63303fa7c809a2a 20058008 maps/abase.bsp
+2c0a82f91ee306401fa257750a0deb3f 1352823 maps/abase.map
+7ef937573074fa2c16a95bf23907f248 32387 maps/abase.mf
 a96f38decbf7ac420f2bf32a5c50838d 9924 maps/abase.nav
 bdbb6399317db77d27e6685a02ebc365 7059731 maps/aerowalk.bsp
 0663d3b7519bccd7e115c280d6763d2e 696436 maps/aerowalk.map
@@ -179,9 +179,9 @@ b2eccb51a131c734bba23195c80b1302 3876 maps/darkzone.mf
 606525403653abfae3514abc2520ef90 1655522 maps/edge.map
 519237481651da279734d7e62ec54d70 15322 maps/edge.mf
 63f90b4907fda4f189064bfacba265a8 13036 maps/edge.nav
-8fdf92f4f1055dc07669d975fbc191c3 33460730 maps/fraggin.bsp
-76499ea8cc0e29b44a66cc46bce67db3 2167106 maps/fraggin.map
-cb127c5c9d8d1a54b8aee8fc5163fb05 14595 maps/fraggin.mf
+76259eb88a84350ccd9f8ec03cfbce33 34265106 maps/fraggin.bsp
+e15bbb0190cb949c80aecc933babc08f 2300055 maps/fraggin.map
+a7cc8c4c1917a177f0cdcaa2752700a3 14808 maps/fraggin.mf
 079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
 b69694c950beaaca3cea4ddc7a28238b 10742004 maps/fragpipe.bsp
 b22926c39431e33974da2e01bd5fc72a 1027954 maps/fragpipe.map
@@ -4436,6 +4436,7 @@ daa3dd5052fe8ed36bfcabbca8f91246 64 textures/evil/e8trimlight2.mat
 07e2ae17b36afbbc326eca7c0329af37 21719 textures/evil/e8trimlight2_blue.jpg
 433c1459ecf88c6a2bc7a1538634dfb3 10023 textures/evil/e8trimlight2_red.blend.jpg
 6fa0e07c8e3df2fa590934109830c523 18679 textures/evil/e8trimlight2_red.jpg
+0b116978f9f2945e7858955157792bff 240 textures/evil/e8trimlight2_red.mat
 7c6c6bb2b683ceafc0eaf346a051ccfb 5471 textures/evil/e8trimlight_fx.jpg
 1dba781b86a3f7bdbdecd13b77c0d4f2 5514 textures/evil/e8warn2steplight.blend.jpg
 5b37691f15694e71b1a425332d110e17 7985 textures/evil/e8warn2steplight.jpg
@@ -6452,7 +6453,7 @@ c4a4215e7764d0e64c3f4f67eaf91ba1 180388 textures/quake/dung02_1_norm.png
 92c4eae7763518af59794bf3170293ec 174034 textures/quake/dung02_5_norm.png
 8fc2555dea4504b578a4d367010f79e1 29376 textures/quake/dung02_5_spec.jpg
 35d4d9d42ca5f8ed2f3532e8a3ce21fe 49265 textures/quake/edoor01_1.jpg
-445d0da23a752a3e15ce2733f4f6a914 96 textures/quake/edoor01_1.mat
+54376e8dc5ecf7bae179c7b5f9f0a532 109 textures/quake/edoor01_1.mat
 3a1d18612131403dfa013824d4661c96 156263 textures/quake/edoor01_1_norm.png
 6a4b82a95521c6da947597fb2ff67a28 26331 textures/quake/edoor01_1_spec.jpg
 b05f00e4c27f266cc047424fbf51f91f 30166 textures/quake/elwall1_1.jpg
@@ -7379,6 +7380,7 @@ f1473397136eacdf218285c8caa9d646 94352 textures/quake/tech11_1_norm.png
 069340b34eb812ea6a9ad9e7f7ec88ac 118418 textures/quake/tech11_2_norm.png
 867cd96c4610b26d3840aeb148e5e30e 27266 textures/quake/tech11_2_spec.jpg
 c88eec6dc3f9f088afcdbe54e0567af7 31935 textures/quake/tech12_1.jpg
+c9f5e4248bf2247aeb5ecffa266c94f6 95 textures/quake/tech12_1.mat
 287b822c7a0aa4abacece57bfefd76bb 101832 textures/quake/tech12_1_norm.png
 8efa47c1b7d95ff7dbf2bd51f1f597e9 26974 textures/quake/tech12_1_spec.jpg
 223c19eaa121b16790e8fe80fe606c8f 24615 textures/quake/tech13_2.jpg
