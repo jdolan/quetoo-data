@@ -1,4 +1,4 @@
-8fdf92f4f1055dc07669d975fbc191c3 33460730 maps/fraggin.bsp
+76259eb88a84350ccd9f8ec03cfbce33 34265106 maps/fraggin.bsp
 079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
 1f65f3c6ecf8313f34e2508c38fb25db 84548 mapshots/fraggin/fraggin01.jpg
 3fcbee2ddf3ce8de0b59980de1c21a03 109776 mapshots/fraggin/fraggin02.jpg
@@ -83,10 +83,10 @@ ee5cc53082b58167b2b9e828de67056f 30072 textures/quake/city4_7.jpg
 a76f4887e49ac9ef11b5eb69ee854294 138 textures/quake/city4_7.mat
 2bee6eabe237856624e42e26bd28dfac 32150 textures/quake/city4_8.jpg
 2d8a45075766a3a8b10afce2ec30d48e 122 textures/quake/city4_8.mat
-499453770b42f11dfcfd4bdeb404f357 29511 textures/quake/city5_3.jpg
-c3d0be8d05f8b53414bceb89441e7a31 30 textures/quake/city5_3.mat
-a75d214152337bb5757b4a33bdd4dc20 167912 textures/quake/city5_3_norm.png
-2fcce72e4403a7b50339e064b06a3e3a 20700 textures/quake/city5_3_spec.jpg
+19df2b55096b39ce49b09d879acb275f 159915 textures/quake/city6_7_norm.png
+81495de65c386ece6d400f553b8d88c6 19817 textures/quake/city6_7_spec.jpg
+f9976497d8e689ec53ede8ad39727085 18929 textures/quake/city6_8.jpg
+d530345d16896109595f04f33f46330b 138 textures/quake/city6_8.mat
 0143d25a94f2f58fedeacce1d8283b52 26632 textures/quake/cop1_1.jpg
 fc7f2a952d5b587e40656841662f5a67 127 textures/quake/cop1_1.mat
 252a0fdd70f8409f9f83d7129ac26f42 187569 textures/quake/cop1_1_norm.png
@@ -97,6 +97,9 @@ dc49c9cbf695ae50592c3c80d459b02c 170 textures/quake/cop1_2.mat
 9d4d9c33faad2e6bfb6789f52da613f5 92 textures/quake/cop1_8.mat
 686a035ae0f4ddc5c5c9c54e6472da70 152097 textures/quake/cop1_8_norm.png
 80e1dbb53e276c5400c0bc213f2200e7 29224 textures/quake/cop1_8_spec.jpg
+50b9588f73c41a4f448248dcf695ec27 17138 textures/quake/cop1_trim1a.jpg
+fbd7373ea75b22e2a105a5b6e34a0fea 98 textures/quake/cop1_trim1a.mat
+cab14cff5c15c9e81527972c0ed922ec 44171 textures/quake/cop1_trim1a_norm.png
 715548edec247bf68d0c9628981d87cc 37230 textures/quake/cop2_2.jpg
 296cc07f15a9177c2fcd8ce933b6d0be 187 textures/quake/cop2_2.mat
 bfc17f7525a85b0a02583c718fd7e336 30835 textures/quake/cop2_5.jpg
