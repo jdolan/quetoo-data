@@ -1,40 +1,47 @@
 {
   "segmentation": {
-    "segments": 900,
+    "segments": 400,
     "compactness": 10,
-    "threshold": 6,
-    "min_area": 200,
-    "speck_area": 1500
+    "threshold": 12,
+    "min_area": 64,
+    "speck_area": 1000
   },
   "textures": {
     "default_body": {
-      "examples": {
-        "auto": [
-          48,
-          87
-        ],
-        "none": [
-          3,
-          6,
-          8,
-          24,
-          25,
-          31,
-          32,
-          81,
-          85,
-          95,
-          96,
-          109,
-          120,
-          150,
-          152
-        ]
-      },
-      "regions": {
-        "137": "helmet",
-        "121": "helmet",
-        "150": "helmet"
+      "surfaces": {
+        "l_legs": {
+          "channel": "pants",
+          "mask": {
+            "image": "default_body_team.png", "min_area": 150
+          }
+        },
+        "u_torso": {
+          "channel": "shirt",
+          "mask": {
+            "image": "default_body_team.png", "min_area": 150
+          }
+        },
+        "u_larm": {
+          "channel": "shirt",
+          "mask": {
+            "image": "default_body_team.png", "min_area": 150
+          }
+        },
+        "u_rarm": {
+          "channel": "shirt",
+          "mask": {
+            "image": "default_body_team.png", "min_area": 150
+          }
+        },
+        "h_head": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 65,
+            "chroma": 8,
+            "spread": 22,
+            "min_area": 400
+          }
+        }
       }
     }
   }

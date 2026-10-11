@@ -1,8 +1,8 @@
 {
 	diffusemap players/caustic/default_body
-	tintmap.tint_r_default 0.427 0.425 0.344
-	tintmap.tint_g_default 0.344 0.338 0.265
-	tintmap.tint_b_default 0.603 0.504 0.439
+	tintmap.tint_r_default 0.737 0.585 0.410
+	tintmap.tint_g_default 0.360 0.355 0.280
+	tintmap.tint_b_default 0.823 0.647 0.549
 	normalmap players/caustic/default_body_norm
 	specularmap players/caustic/default_body_spec
 }
