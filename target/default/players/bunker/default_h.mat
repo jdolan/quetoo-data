@@ -1,5 +1,6 @@
 {
 	diffusemap players/bunker/default_h
+	tintmap.tint_b_default 0.261 0.226 0.181
 	{
 		texture players/bunker/rustee_fx
 		blend one one
