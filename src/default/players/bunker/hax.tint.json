@@ -1,0 +1,160 @@
+{
+  "segmentation": {
+    "segments": 900,
+    "compactness": 10,
+    "threshold": 6,
+    "min_area": 200,
+    "speck_area": 1000
+  },
+  "textures": {
+    "hax": {
+      "surfaces": {
+        "l_legs": [
+          {
+            "channel": "pants",
+            "alpha": 0.66
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "hue": 190,
+              "chroma": 10,
+              "spread": 40
+            }
+          }
+        ]
+      },
+      "regions": {
+        "1": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "3": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "7": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "8": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "12": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "13": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "14": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "15": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "84": "none",
+        "85": "none",
+        "86": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "88": "none",
+        "91": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "96": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "97": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "98": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "99": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "101": "none",
+        "103": {
+          "channel": "shirt",
+          "alpha": 0.66
+        },
+        "105": "none",
+        "106": "none",
+        "107": "none",
+        "108": "none",
+        "110": "none",
+        "115": "none",
+        "116": "none",
+        "118": "none",
+        "119": "none",
+        "122": "none",
+        "123": "none",
+        "124": "none",
+        "132": "none"
+      }
+    },
+    "hax_h": {
+      "regions": {
+        "3": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "4": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "5": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "6": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "7": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "8": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "9": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "49": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "59": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "62": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "63": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "64": {
+          "channel": "helmet",
+          "alpha": 0.5
+        }
+      }
+    }
+  }
+}
