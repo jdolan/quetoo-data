@@ -8,50 +8,46 @@
   },
   "textures": {
     "default": {
-      "examples": {
-        "auto": [
-          1,
-          10,
-          12,
-          25,
-          31,
-          32,
-          37,
-          43,
-          44,
-          45,
-          46
-        ],
-        "none": [
-          2,
-          6,
-          8,
-          11,
-          14,
-          15,
-          16,
-          17,
-          18,
-          19,
-          20,
-          21,
-          23,
-          24,
-          26,
-          28,
-          29,
-          30,
-          33,
-          34,
-          36,
-          38,
-          39,
-          41,
-          47,
-          48,
-          51,
-          52
-        ]
+      "surfaces": {
+        "l_legs": {
+          "channel": "pants",
+          "mask": {
+            "image": "default_team.png",
+            "min_area": 150
+          }
+        },
+        "u_torso": {
+          "channel": "shirt",
+          "mask": {
+            "image": "default_team.png",
+            "min_area": 150
+          }
+        },
+        "u_larm": {
+          "channel": "shirt",
+          "mask": {
+            "image": "default_team.png",
+            "min_area": 150
+          }
+        },
+        "u_rarm": {
+          "channel": "shirt",
+          "mask": {
+            "image": "default_team.png",
+            "min_area": 150
+          }
+        }
+      }
+    },
+    "default_h": {
+      "surfaces": {
+        "h_head": {
+          "channel": "helmet",
+          "mask": {
+            "image": "default_h_team.png",
+            "min_area": 60
+          }
+        }
       }
     }
   }
