@@ -8,67 +8,193 @@
   },
   "textures": {
     "default": {
-      "examples": {
-        "auto": [
-          8,
-          9,
-          15,
-          44,
-          39,
-          1
+      "surfaces": {
+        "l_lower": [
+          {
+            "channel": "pants",
+            "alpha": 0.75
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "image": "default_bone.png"
+            }
+          }
         ],
-        "none": [
-          3,
-          10,
-          19,
-          20,
-          23,
-          25,
-          26,
-          28,
-          31,
-          33,
-          35,
-          37,
-          41,
-          43,
-          17,
-          18,
-          21,
-          22
+        "u_torso": [
+          {
+            "channel": "shirt",
+            "alpha": 0.75
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "image": "default_bone.png"
+            }
+          },
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_spikes.png"
+            }
+          },
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_brain.png"
+            }
+          }
         ]
       },
       "regions": {
-        "1": "helmet",
-        "2": "helmet",
-        "3": "helmet",
-        "10": "helmet",
-        "14": "helmet",
-        "4": "helmet",
-        "5": "helmet",
-        "6": "helmet",
-        "7": "helmet",
-        "11": "helmet",
-        "12": "helmet",
-        "17": "helmet",
-        "18": "helmet",
-        "21": "helmet",
-        "22": "helmet",
-        "24": "helmet",
-        "27": "helmet",
-        "30": "helmet",
-        "32": "helmet",
-        "28": "helmet",
-        "31": "helmet",
-        "33": "helmet",
-        "35": "helmet",
-        "36": "helmet",
-        "37": "helmet",
-        "38": "helmet",
-        "40": "helmet",
-        "41": "helmet",
-        "42": "helmet",
-        "43": "helmet"
+        "17": [
+          {
+            "channel": "pants",
+            "alpha": 0.75
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "image": "default_toenails.png"
+            }
+          }
+        ],
+        "18": [
+          {
+            "channel": "pants",
+            "alpha": 0.75
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "image": "default_toenails.png"
+            }
+          }
+        ],
+        "21": [
+          {
+            "channel": "pants",
+            "alpha": 0.75
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "image": "default_toenails.png"
+            }
+          }
+        ],
+        "22": [
+          {
+            "channel": "pants",
+            "alpha": 0.75
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "image": "default_toenails.png"
+            }
+          }
+        ],
+        "24": [
+          {
+            "channel": "pants",
+            "alpha": 0.75
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "image": "default_toenails.png"
+            }
+          }
+        ],
+        "27": [
+          {
+            "channel": "pants",
+            "alpha": 0.75
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "image": "default_toenails.png"
+            }
+          }
+        ],
+        "30": [
+          {
+            "channel": "pants",
+            "alpha": 0.75
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "image": "default_toenails.png"
+            }
+          }
+        ],
+        "32": [
+          {
+            "channel": "pants",
+            "alpha": 0.75
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "image": "default_toenails.png"
+            }
+          }
+        ],
+        "44": {
+          "channel": "pants",
+          "alpha": 0.75
+        },
+        "45": {
+          "channel": "pants",
+          "alpha": 0.75
+        },
+        "46": {
+          "channel": "pants",
+          "alpha": 0.75
+        },
+        "47": {
+          "channel": "pants",
+          "alpha": 0.75
+        },
+        "49": {
+          "channel": "pants",
+          "alpha": 0.75
+        },
+        "50": {
+          "channel": "pants",
+          "alpha": 0.75
+        },
+        "52": {
+          "channel": "pants",
+          "alpha": 0.75
+        },
+        "54": [
+          {
+            "channel": "pants",
+            "alpha": 0.75
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "image": "default_toenails.png"
+            }
+          }
+        ],
+        "55": [
+          {
+            "channel": "pants",
+            "alpha": 0.75
+          },
+          {
+            "channel": "none",
+            "mask": {
+              "image": "default_toenails.png"
+            }
+          }
+        ]
       }
     }
   }
