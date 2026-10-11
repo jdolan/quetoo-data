@@ -1,0 +1,6 @@
+{
+  "segmentation": {"segments": 400, "compactness": 10, "threshold": 12, "min_area": 64, "speck_area": 1000},
+  "textures": {
+    "sggrd_h": {"surfaces": {"h_helmet": "none", "h_face": "none"}, "regions": {"4": "helmet", "5": "helmet"}}
+  }
+}
