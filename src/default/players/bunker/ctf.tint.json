@@ -1,0 +1,158 @@
+{
+  "segmentation": {
+    "segments": 900,
+    "compactness": 10,
+    "threshold": 6,
+    "min_area": 200,
+    "speck_area": 1000
+  },
+  "textures": {
+    "ctf": {
+      "surfaces": {
+        "u_torso": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 35,
+            "chroma": 25,
+            "spread": 25
+          }
+        },
+        "l_legs": {
+          "channel": "pants",
+          "mask": {
+            "hue": 35,
+            "chroma": 25,
+            "spread": 25
+          }
+        },
+        "l_pouch": {
+          "channel": "pants",
+          "mask": {
+            "hue": 35,
+            "chroma": 25,
+            "spread": 25
+          }
+        }
+      },
+      "regions": {
+        "1": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "93": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "66": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "70": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "58": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "72": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "85": {
+          "channel": "shirt",
+          "alpha": 0.5
+        }
+      }
+    },
+    "ctf_h": {
+      "surfaces": {
+        "h_head": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 35,
+            "chroma": 25,
+            "spread": 25
+          }
+        },
+        "l_bpouch": {
+          "channel": "pants",
+          "mask": {
+            "hue": 35,
+            "chroma": 25,
+            "spread": 25
+          }
+        }
+      },
+      "regions": {
+        "1": "none",
+        "2": "none",
+        "3": "none",
+        "4": "none",
+        "5": "none",
+        "8": "none",
+        "9": "none",
+        "10": "none",
+        "11": "none",
+        "12": "none",
+        "15": "none",
+        "16": "none",
+        "17": "none",
+        "19": "none",
+        "20": "none",
+        "22": "none",
+        "23": "none",
+        "24": "none",
+        "25": "none",
+        "26": "none",
+        "27": "none",
+        "28": "none",
+        "29": "none",
+        "30": "none",
+        "31": "none",
+        "32": "none",
+        "33": "none",
+        "34": "none",
+        "35": "none",
+        "36": "none",
+        "37": "none",
+        "38": "none",
+        "39": "none",
+        "40": "none",
+        "41": "none",
+        "42": "none",
+        "43": "none",
+        "44": "none",
+        "45": "none",
+        "46": "none",
+        "48": "none",
+        "49": "none",
+        "50": "none",
+        "51": "none",
+        "52": "none",
+        "53": "none",
+        "54": "none",
+        "55": "none",
+        "56": "none",
+        "57": "none",
+        "58": "none",
+        "59": "none",
+        "60": "none",
+        "61": "none",
+        "62": "none",
+        "63": "none",
+        "64": "none",
+        "65": "none",
+        "66": "none",
+        "67": "none",
+        "68": "none",
+        "69": "none",
+        "70": "none",
+        "71": "none",
+        "72": "none",
+        "73": "none",
+        "75": "none"
+      }
+    }
+  }
+}
