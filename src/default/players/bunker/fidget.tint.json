@@ -1,0 +1,421 @@
+{
+  "segmentation": {
+    "segments": 900,
+    "compactness": 10,
+    "threshold": 6,
+    "min_area": 200,
+    "speck_area": 1000
+  },
+  "textures": {
+    "fidget": {
+      "surfaces": {
+        "l_legs": {
+          "channel": "pants",
+          "alpha": 0.5
+        }
+      },
+      "regions": {
+        "1": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "3": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "4": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "5": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "10": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "11": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "12": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "14": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "17": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "18": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "19": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "23": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "24": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "25": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "26": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "27": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "28": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "30": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "33": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "34": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "35": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "36": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "40": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "41": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "42": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "46": "none",
+        "47": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "53": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "56": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "57": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "58": "none",
+        "59": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "60": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "61": "none",
+        "62": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "66": "none"
+      }
+    },
+    "fidget_h": {
+      "regions": {
+        "3": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "52": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "58": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "59": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "60": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "61": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "62": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "63": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "64": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "65": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "66": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "67": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "68": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "69": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "70": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "71": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "72": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "73": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "74": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "75": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "76": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "77": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "78": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        },
+        "79": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 38,
+            "chroma": 17,
+            "spread": 8
+          }
+        }
+      }
+    }
+  }
+}
