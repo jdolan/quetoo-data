@@ -39,8 +39,8 @@
         "l_sash": {
           "channel": "pants",
           "mask": {
-            "hue": 38,
-            "chroma": 20,
+            "hue": 30,
+            "chroma": 5,
             "spread": 25,
             "min_area": 150
           }

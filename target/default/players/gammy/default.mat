@@ -1,7 +1,9 @@
 {
 	diffusemap players/gammy/default
 	tintmap.tint_r_default 0.834 0.070 0.069
-	tintmap.tint_g_default 0.681 0.038 0.037
+	tintmap.tint_g_default 0.635 0.040 0.040
+	surface alpha_test
+	alpha_test .5
 	normalmap players/gammy/default_norm
 	specularmap players/gammy/default_spec
 }
