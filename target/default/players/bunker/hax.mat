@@ -4,4 +4,9 @@
 	tintmap.tint_g_default 0.481 0.392 0.287
 	normalmap players/bunker/hax_norm
 	specularmap players/bunker/hax_spec
+	{
+		texture players/bunker/hax_fx
+		blend one one
+		pulse .5
+	}
 }
