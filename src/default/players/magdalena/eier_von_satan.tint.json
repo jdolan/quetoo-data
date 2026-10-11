@@ -9,29 +9,227 @@
   "textures": {
     "eier_von_satan_body": {
       "surfaces": {
-        "l_body": "pants",
-        "l_legs": "pants"
+        "l_body": {
+          "channel": "pants",
+          "alpha": 0.5
+        },
+        "l_legs": {
+          "channel": "pants",
+          "alpha": 0.5
+        }
       },
       "regions": {
-        "32": "none",
-        "69": "none",
-        "109": "none",
-        "116": "none",
-        "117": "none",
-        "118": "none",
-        "130": "none"
+        "8": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "17": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "22": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "23": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "24": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "25": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "33": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "34": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "38": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "39": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "47": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "51": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "54": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "56": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "59": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "146": "none",
+        "187": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "191": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "195": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "196": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "197": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "199": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "200": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "202": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "203": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "205": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "209": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "212": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "214": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "217": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "269": "none",
+        "273": "none",
+        "277": "none",
+        "377": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "385": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "387": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "398": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "402": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "404": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "413": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "421": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "426": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "427": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "429": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "443": {
+          "channel": "pants",
+          "alpha": 0.2
+        },
+        "461": "none",
+        "478": "none",
+        "482": "none",
+        "488": "none",
+        "490": "none",
+        "492": "none",
+        "494": "none",
+        "495": "none",
+        "497": "none",
+        "500": "none",
+        "508": "none",
+        "518": "none",
+        "521": "none",
+        "526": "none"
+      },
+      "segmentation": {
+        "segments": 2500,
+        "threshold": 4,
+        "min_area": 100
       }
     },
     "eier_von_satan_head": {
       "surfaces": {
-        "l_head": "pants",
-        "h_head": "helmet"
+        "l_head": {
+          "channel": "pants",
+          "alpha": 0.5
+        },
+        "h_head": {
+          "channel": "helmet",
+          "alpha": 0.5
+        }
       }
     },
     "eier_von_satan_gear": {
       "surfaces": {
-        "u_upper": "shirt",
-        "u_hydrolic": "shirt"
+        "u_upper": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "u_hydrolic": {
+          "channel": "shirt",
+          "alpha": 0.5
+        }
       }
     }
   }
