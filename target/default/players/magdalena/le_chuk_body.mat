@@ -1,0 +1,8 @@
+{
+	diffusemap players/magdalena/le_chuk_body
+	tintmap.tint_r_default 0.539 0.486 0.448
+	tintmap.tint_g_default 0.563 0.508 0.477
+	tintmap.tint_b_default 0.371 0.463 0.437
+	normalmap players/magdalena/le_chuk_body_norm
+	specularmap players/magdalena/le_chuk_body_spec
+}

@@ -1,0 +1,7906 @@
+{
+  "segmentation": {
+    "segments": 900,
+    "compactness": 10,
+    "threshold": 6,
+    "min_area": 200,
+    "speck_area": 1000
+  },
+  "textures": {
+    "le_chuk_body": {
+      "segmentation": {
+        "segments": 2500,
+        "compactness": 3,
+        "threshold": 2,
+        "min_area": 100
+      },
+      "surfaces": {
+        "l_body": {
+          "channel": "pants",
+          "alpha": 0.5
+        },
+        "l_legs": {
+          "channel": "pants",
+          "alpha": 0.5
+        }
+      },
+      "regions": {
+        "14": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "15": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "16": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "17": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "18": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "19": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "20": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "21": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "22": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "23": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "24": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "25": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "26": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "27": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "28": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "29": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "30": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "31": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "32": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "36": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "39": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "40": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "41": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "42": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "43": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "44": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "47": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "48": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "50": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "51": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "52": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "53": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "54": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "57": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "58": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "59": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "60": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "61": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "62": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "64": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "65": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "66": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "67": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "68": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "69": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "70": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "71": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "72": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "73": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "74": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "75": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "76": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "77": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "78": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "79": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "80": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "81": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "82": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "83": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "84": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "85": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "86": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "87": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "88": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "89": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "90": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "91": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "92": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "93": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "94": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "95": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "96": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "97": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "98": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "99": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "100": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "101": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "102": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "103": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "104": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "105": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "106": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "107": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "108": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "109": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "110": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "111": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "112": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "113": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "114": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "115": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "116": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "117": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "118": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "119": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "120": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "121": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "122": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "123": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "124": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "125": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "126": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "127": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "128": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "129": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "130": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "131": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "132": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "133": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "134": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "136": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "137": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "138": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "139": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "140": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "141": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "142": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "143": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "144": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "145": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "146": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "147": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "148": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "150": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "151": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "152": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "153": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "154": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "155": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "156": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "157": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "158": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "159": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "160": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "161": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "162": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "164": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "166": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "167": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "168": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "169": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "170": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "171": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "173": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "174": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "175": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "176": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "177": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "178": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "179": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "180": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "181": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "182": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "183": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "184": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "185": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "186": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "187": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "188": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "189": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "190": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "191": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "192": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "193": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "194": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "195": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "196": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "197": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "198": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "199": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "200": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "202": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "203": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "204": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "205": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "206": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "207": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "208": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "209": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "210": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "211": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "212": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "213": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "214": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "215": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "216": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "217": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "218": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "219": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "220": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "221": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "222": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "223": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "224": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "225": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "226": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "227": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "228": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "229": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "230": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "231": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "232": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "233": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "234": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "235": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "237": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "238": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "239": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "240": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "241": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "242": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "243": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "244": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "245": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "246": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "247": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "248": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "249": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "250": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "251": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "252": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "253": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "254": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "255": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "256": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "257": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "258": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "259": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "260": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "261": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "262": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "263": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "264": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "265": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "266": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "267": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "268": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "269": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "270": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "271": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "272": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "273": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "274": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "275": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "276": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "277": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "278": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "279": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "280": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "281": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "282": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "283": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "284": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "285": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "286": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "287": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "288": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "289": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "290": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "291": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "292": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "293": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "294": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "295": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "296": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "297": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "298": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "299": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "300": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "301": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "302": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "303": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "304": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "305": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "306": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "307": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "308": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "309": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "310": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "311": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "312": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "313": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "314": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "315": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "316": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "317": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "318": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "319": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "320": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "321": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "322": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "323": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "324": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "325": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "326": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "327": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "328": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "329": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "330": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "331": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "333": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "334": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "335": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "337": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "338": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "339": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "340": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "341": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "342": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "343": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "344": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "345": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "346": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "347": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "348": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "352": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "353": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "354": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "355": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "356": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "357": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "358": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "359": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "361": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "362": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "363": "none",
+        "364": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "365": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "366": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "367": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "368": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "369": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "370": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "371": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "372": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "374": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "375": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "376": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "377": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "378": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "381": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "382": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "383": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "384": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "385": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "386": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "387": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "389": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "390": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "391": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "392": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "393": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "395": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "396": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "397": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "398": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "399": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "400": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "401": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "402": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "403": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "404": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "405": "none",
+        "406": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "407": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "408": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "409": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "410": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "411": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "412": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "413": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "414": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "415": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "416": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "417": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "418": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "419": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "420": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "421": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "422": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "423": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "424": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "425": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "426": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "427": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "428": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "429": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "430": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "431": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "432": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "433": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "434": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "435": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "436": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "437": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "438": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "439": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "440": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "441": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "442": "none",
+        "443": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "444": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "445": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "446": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "447": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "448": "none",
+        "449": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "450": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "451": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "452": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "453": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "454": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "455": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "456": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "457": "none",
+        "458": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "459": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "460": "none",
+        "461": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "462": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "463": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "464": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "465": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "466": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "467": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "468": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "469": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "470": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "471": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "472": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "473": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "474": "none",
+        "475": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "476": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "477": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "478": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "479": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "480": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "481": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "482": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "483": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "484": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "485": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "486": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "487": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "488": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "489": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "490": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "491": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "492": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "493": "none",
+        "494": "none",
+        "495": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "496": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "497": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "498": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "499": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "500": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "501": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "502": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "503": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "504": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "505": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "506": "none",
+        "507": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "508": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "509": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "510": "none",
+        "511": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "512": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "513": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "514": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "515": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "516": "none",
+        "517": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "518": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "519": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "521": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "522": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "523": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "524": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "525": "none",
+        "526": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "529": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "532": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "533": "none",
+        "534": "none",
+        "535": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "537": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "540": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "541": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "542": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "544": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "545": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "546": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "547": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "548": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "549": "none",
+        "554": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "555": "none",
+        "558": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "559": "none",
+        "561": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "562": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "563": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "564": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "565": "none",
+        "568": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "571": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "572": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "574": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "575": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "577": "none",
+        "578": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "579": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "583": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "584": "none",
+        "588": "none",
+        "589": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "591": "none",
+        "594": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "596": "none",
+        "599": "none",
+        "600": "none",
+        "601": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "603": "none",
+        "606": "none",
+        "607": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "608": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "610": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "615": "none",
+        "616": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "617": "none",
+        "622": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "624": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "626": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "629": "none",
+        "636": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "637": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "638": "none",
+        "639": "none",
+        "640": "none",
+        "641": "none",
+        "642": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "644": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "646": "none",
+        "653": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "helmet",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 180,
+              "chroma": 1.0,
+              "spread": 50
+            }
+          }
+        ],
+        "655": "none",
+        "660": "none",
+        "662": "none",
+        "665": "none",
+        "669": "none",
+        "672": "none",
+        "677": "none",
+        "687": "none",
+        "688": "none",
+        "695": "none",
+        "697": "none",
+        "708": "none",
+        "713": "none",
+        "714": "none",
+        "718": "none",
+        "721": "none",
+        "730": "none",
+        "732": "none",
+        "735": "none",
+        "739": "none",
+        "743": "none",
+        "756": "none",
+        "759": "none",
+        "760": "none",
+        "767": "none",
+        "771": "none",
+        "783": "none",
+        "788": "none",
+        "800": "none",
+        "811": "none",
+        "814": "none",
+        "819": "none",
+        "830": "none",
+        "835": "none",
+        "838": "none",
+        "845": "none",
+        "846": "none",
+        "853": "none",
+        "863": "none",
+        "864": "none",
+        "865": "none",
+        "867": "none",
+        "868": "none",
+        "885": "none",
+        "886": "none",
+        "890": "none",
+        "893": "none",
+        "898": "none",
+        "902": "none",
+        "912": "none",
+        "918": "none",
+        "919": "none",
+        "927": "none",
+        "933": "none",
+        "937": "none",
+        "947": "none",
+        "948": "none",
+        "1007": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1009": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1011": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1013": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1015": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1017": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1021": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1022": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1023": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1024": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1026": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1027": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1028": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1029": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1030": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1033": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1036": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1037": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1038": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1039": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1041": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1042": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1046": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1047": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1049": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1051": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1053": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1054": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1055": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1056": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1060": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1061": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1062": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1063": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1067": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1068": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1069": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1071": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1072": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1073": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1075": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1076": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1079": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1081": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1085": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1086": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1089": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1090": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1091": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1095": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1096": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1097": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1098": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1099": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1101": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1102": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1103": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1106": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1109": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1114": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1120": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1121": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1122": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1123": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1124": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1126": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1127": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1128": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1129": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1130": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1135": "none",
+        "1136": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1137": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1138": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1140": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1141": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1142": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1146": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1147": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1148": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1151": "none",
+        "1152": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1154": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1156": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1158": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1159": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1161": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1164": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1165": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1167": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1174": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1176": "none",
+        "1177": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1179": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1180": "none",
+        "1184": "none",
+        "1187": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1190": "none",
+        "1191": "none",
+        "1194": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1196": "none",
+        "1197": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1200": "none",
+        "1201": "none",
+        "1202": "none",
+        "1204": "none",
+        "1205": "none",
+        "1207": {
+          "channel": "pants",
+          "alpha": 0.2,
+          "mask": {
+            "hue": 68,
+            "chroma": 10,
+            "spread": 20
+          }
+        },
+        "1209": "none",
+        "1212": "none",
+        "1214": "none",
+        "1215": "none",
+        "1218": "none",
+        "1219": "none",
+        "1221": "none",
+        "1222": "none",
+        "1223": "none",
+        "1224": "none",
+        "1225": "none",
+        "1226": "none",
+        "1228": "none",
+        "1230": "none",
+        "1231": "none",
+        "1232": "none",
+        "1233": "none",
+        "1234": "none",
+        "1235": "none",
+        "1236": "none",
+        "1237": "none",
+        "1238": "none",
+        "1239": "none",
+        "1240": "none",
+        "1242": "none",
+        "1245": "none",
+        "1247": "none",
+        "1249": "none",
+        "1256": "none",
+        "1258": "none",
+        "1262": "none",
+        "1265": "none",
+        "1268": "none",
+        "1272": "none",
+        "1278": "none",
+        "1281": "none",
+        "1283": "none",
+        "1286": "none",
+        "1291": "none",
+        "1293": "none",
+        "1302": "none",
+        "1305": "none",
+        "1308": "none",
+        "1309": "none",
+        "1313": "none",
+        "1320": "none",
+        "1323": "none",
+        "1324": "none",
+        "1341": "none",
+        "1344": "none",
+        "1346": "none",
+        "1347": "none",
+        "1348": "none"
+      }
+    },
+    "le_chuk_head": {
+      "surfaces": {
+        "l_head": {
+          "channel": "pants",
+          "alpha": 0.5
+        },
+        "h_head": {
+          "channel": "pants",
+          "alpha": 0.5
+        }
+      }
+    },
+    "le_chuk_gear": {
+      "surfaces": {
+        "u_upper": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "u_hydrolic": {
+          "channel": "shirt",
+          "alpha": 0.5
+        }
+      }
+    }
+  }
+}

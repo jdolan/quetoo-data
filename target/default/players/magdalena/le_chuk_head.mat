@@ -1,0 +1,6 @@
+{
+	diffusemap players/magdalena/le_chuk_head
+	tintmap.tint_g_default 0.499 0.445 0.411
+	normalmap players/magdalena/le_chuk_head_norm
+	specularmap players/magdalena/le_chuk_head_spec
+}

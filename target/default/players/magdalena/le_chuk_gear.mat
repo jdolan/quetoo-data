@@ -1,0 +1,6 @@
+{
+	diffusemap players/magdalena/le_chuk_gear
+	tintmap.tint_r_default 0.487 0.398 0.333
+	normalmap players/magdalena/le_chuk_gear_norm
+	specularmap players/magdalena/le_chuk_gear_spec
+}
