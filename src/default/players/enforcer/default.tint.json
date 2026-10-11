@@ -20,20 +20,10 @@
         "l_legs": "none"
       },
       "regions": {
-        "1": "none",
         "2": "none",
         "9": "none",
         "15": "none",
         "18": "none",
-        "24": "none",
-        "34": "none",
-        "36": "none",
-        "40": "none",
-        "45": "none",
-        "48": "none",
-        "49": "none",
-        "54": "none",
-        "62": "none",
         "64": "pants",
         "68": "pants",
         "70": "pants",
@@ -70,16 +60,12 @@
         "106": "pants",
         "109": "pants",
         "110": "pants",
-        "111": "none",
         "112": "pants",
-        "113": "none",
         "114": "pants",
         "116": "pants",
         "117": "pants",
-        "118": "none",
         "119": "pants",
         "120": "pants",
-        "121": "none",
         "122": "pants",
         "123": "pants",
         "124": "pants",
@@ -136,74 +122,538 @@
         "187": "none",
         "188": "none",
         "190": "none",
-        "191": "none",
-        "192": "none",
-        "193": "helmet",
-        "194": "helmet",
+        "191": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "192": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "193": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "194": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
         "195": "none",
         "196": "none",
-        "198": "none",
-        "199": "none",
+        "198": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "199": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
         "200": "none",
-        "201": "none",
-        "202": "none",
-        "203": "none",
+        "201": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "202": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "203": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
         "204": "none",
-        "205": "none",
-        "206": "none",
-        "207": "none",
-        "208": "none",
-        "209": "none",
-        "210": "none",
+        "205": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "206": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "207": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "208": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "209": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "210": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
         "211": "none",
-        "213": "none",
-        "214": "none",
-        "215": "none",
-        "216": "none",
-        "217": "none",
-        "218": "none",
-        "220": "none",
+        "213": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "214": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "215": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "216": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "217": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "218": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "220": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
         "221": "none",
         "222": "none",
         "223": "none",
-        "224": "none",
-        "225": "none",
-        "226": "none",
-        "227": "none",
-        "228": "none",
-        "230": "none",
-        "231": "none",
-        "233": "none",
-        "234": "none",
-        "235": "none",
-        "236": "none",
-        "237": "none",
+        "224": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "225": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "226": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "227": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "228": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "230": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "231": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "233": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "234": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "235": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "236": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "237": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
         "238": "none",
-        "239": "none",
+        "239": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
         "240": "none",
-        "242": "none",
-        "243": "none",
-        "244": "none",
-        "245": "none",
-        "246": "helmet",
-        "247": "none",
-        "248": "none",
-        "249": "helmet",
-        "250": "none",
-        "251": "helmet",
-        "253": "helmet",
-        "254": "helmet",
-        "255": "helmet",
-        "256": "helmet",
-        "257": "helmet",
-        "259": "helmet",
-        "260": "helmet",
-        "261": "helmet",
-        "262": "helmet",
-        "263": "helmet",
-        "264": "helmet",
-        "266": "helmet",
-        "268": "helmet",
+        "242": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "243": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "244": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "245": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "246": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "247": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "248": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "249": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "250": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "251": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "253": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "254": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "255": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "256": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "257": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "259": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "260": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "261": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "262": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "263": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "264": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "266": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
+        "268": [
+          "none",
+          {
+            "channel": "helmet",
+            "mask": {
+              "image": "default_gauntlets.png"
+            }
+          }
+        ],
         "269": "none",
         "270": "none"
       }
