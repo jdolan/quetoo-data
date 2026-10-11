@@ -579,6 +579,1998 @@
           "channel": "helmet",
           "alpha": 0.5
         }
+      },
+      "segmentation": {
+        "segments": 2500,
+        "compactness": 3,
+        "threshold": 2,
+        "min_area": 100
+      },
+      "regions": {
+        "155": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "165": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "172": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "178": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "190": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "195": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "206": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "207": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "214": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "216": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "218": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "219": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "221": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "229": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "232": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "234": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "235": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "238": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "242": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "243": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "244": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "245": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "246": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "248": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "249": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "251": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "253": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "254": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "255": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "256": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "257": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "258": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "259": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "261": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "262": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "263": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "264": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "265": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "266": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "267": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "268": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "269": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "270": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "272": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "273": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "274": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "277": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "279": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "280": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "281": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "282": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "283": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "284": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "285": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "286": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "288": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "289": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "290": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "291": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "292": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "293": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "294": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "295": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "296": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "298": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "300": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "302": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "303": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "304": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "305": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "306": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "307": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "308": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "310": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "311": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "314": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "315": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "316": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "319": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "321": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "322": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "324": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "325": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "326": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "328": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "329": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "330": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "331": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "332": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "333": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "334": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "335": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "336": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "337": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "339": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "340": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "341": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "343": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "344": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "345": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "348": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "349": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "351": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "352": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "353": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "355": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "356": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "358": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "359": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "360": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "361": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "362": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "364": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "365": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "366": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "367": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "368": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "369": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "370": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "371": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "372": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "375": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "376": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "377": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "379": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "381": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "382": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "383": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "384": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "386": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "387": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "388": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "389": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "393": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "397": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "398": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "399": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "400": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "401": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "402": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "404": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "405": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "406": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "408": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "410": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "411": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "412": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "414": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "415": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "416": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "417": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "418": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "419": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "420": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "421": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "422": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "424": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "427": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "428": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "430": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "431": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "432": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "433": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "434": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "436": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "438": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "439": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "440": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "441": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "442": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "443": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "444": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "446": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "447": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "450": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "451": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "452": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "453": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "455": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "456": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "457": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "458": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "460": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "461": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "462": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "463": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "465": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "466": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "468": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "469": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "470": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "471": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "472": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "473": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "475": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "476": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "477": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "478": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "479": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "480": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "482": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "483": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "485": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "486": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "488": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "489": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "490": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "491": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "493": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "494": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "495": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "497": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "498": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "499": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "500": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "501": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "503": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "505": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "506": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "507": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "508": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "509": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "510": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "511": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "512": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "513": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "514": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "515": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "516": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "519": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "520": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "522": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "524": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "525": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "526": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "527": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "528": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "530": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "531": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "532": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "533": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "534": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "536": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "539": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "540": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "541": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "542": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "543": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "544": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "546": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "548": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "549": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "552": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "554": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "555": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "556": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "558": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "560": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "563": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "564": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "565": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "566": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "567": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "568": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "569": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "571": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "572": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "573": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "574": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "575": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "576": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "577": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "578": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "579": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "581": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "582": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "583": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "584": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "589": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "590": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "591": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "592": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "593": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "595": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "596": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "597": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "598": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "599": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "600": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "601": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "602": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "603": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "604": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "605": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "606": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "608": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "609": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "610": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "611": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "616": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "617": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "629": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "630": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "632": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "635": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "638": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "639": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "640": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "641": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "642": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "643": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "644": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "645": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "647": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "648": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "650": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "651": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "652": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "653": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "654": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "656": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "657": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "658": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "659": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "660": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "661": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "663": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "664": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "665": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "666": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "667": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "668": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "670": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "671": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "672": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "673": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "674": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "675": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "676": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "678": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "679": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "680": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "681": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "682": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "683": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "684": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "685": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "686": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "687": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "688": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "689": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "690": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "691": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "692": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "693": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "694": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "695": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "696": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "697": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "698": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "699": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "700": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "701": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "702": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "703": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "705": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "706": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "707": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "708": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "735": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "737": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "738": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "740": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "742": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "744": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "745": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "746": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "747": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "749": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "754": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "759": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "761": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "762": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "764": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "765": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "766": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "769": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "771": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "772": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "773": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "774": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "776": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "779": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "780": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "781": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "783": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "784": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "785": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "787": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "788": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "791": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "792": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "796": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "797": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "800": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "802": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "803": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "804": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "805": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "806": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "808": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "810": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "814": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "815": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "816": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "817": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "818": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "820": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "821": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "823": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "827": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "830": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "831": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "832": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "834": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "835": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "836": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "837": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "841": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "842": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "844": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "846": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "847": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "850": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "852": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "853": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "854": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "856": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "857": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "858": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "859": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "861": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "862": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "863": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "864": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "865": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "866": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "867": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "870": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "871": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "872": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "875": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "876": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "877": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "878": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "879": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "880": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "881": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "882": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "883": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "884": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "885": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "886": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "887": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "889": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "890": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "891": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "892": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "893": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "894": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "895": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "896": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "897": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "898": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "899": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "900": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "901": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "902": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "903": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "904": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "905": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "906": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "907": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "908": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "909": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "910": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "911": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "912": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "913": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "914": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "915": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "916": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "917": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "918": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "919": {
+          "channel": "helmet",
+          "alpha": 0.2
+        },
+        "920": {
+          "channel": "helmet",
+          "alpha": 0.2
+        }
       }
     }
   }

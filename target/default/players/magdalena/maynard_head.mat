@@ -1,6 +1,6 @@
 {
 	diffusemap players/magdalena/maynard_head
-	tintmap.tint_b_default 0.775 0.796 0.849
+	tintmap.tint_b_default 0.779 0.803 0.852
 	normalmap players/magdalena/maynard_head_norm
 	specularmap players/magdalena/maynard_head_spec
 }
