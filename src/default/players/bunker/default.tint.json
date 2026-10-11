@@ -15,6 +15,10 @@
         }
       },
       "regions": {
+        "1": {
+          "channel": "shirt",
+          "alpha": 0.25
+        },
         "5": {
           "channel": "shirt",
           "alpha": 0.5
@@ -79,6 +83,10 @@
           "channel": "shirt",
           "alpha": 0.5
         },
+        "43": {
+          "channel": "shirt",
+          "alpha": 0.25
+        },
         "44": {
           "channel": "shirt",
           "alpha": 0.5
@@ -107,6 +115,7 @@
           "channel": "shirt",
           "alpha": 0.5
         },
+        "51": "none",
         "52": {
           "channel": "shirt",
           "alpha": 0.5
@@ -115,9 +124,21 @@
           "channel": "shirt",
           "alpha": 0.5
         },
+        "54": {
+          "channel": "shirt",
+          "alpha": 0.25
+        },
         "55": {
           "channel": "shirt",
           "alpha": 0.5
+        },
+        "56": {
+          "channel": "shirt",
+          "alpha": 0.25
+        },
+        "57": {
+          "channel": "shirt",
+          "alpha": 0.25
         },
         "58": {
           "channel": "shirt",
@@ -135,14 +156,32 @@
           "channel": "shirt",
           "alpha": 0.5
         },
+        "64": "none",
+        "65": {
+          "channel": "shirt",
+          "alpha": 0.25
+        },
+        "66": "none",
         "68": {
           "channel": "shirt",
           "alpha": 0.5
+        },
+        "71": "none",
+        "72": {
+          "channel": "shirt",
+          "alpha": 0.25
+        },
+        "75": {
+          "channel": "shirt",
+          "alpha": 0.25
         },
         "79": {
           "channel": "shirt",
           "alpha": 0.5
         },
+        "80": "none",
+        "82": "none",
+        "83": "none",
         "84": {
           "channel": "shirt",
           "alpha": 0.5
@@ -151,10 +190,15 @@
           "channel": "shirt",
           "alpha": 0.5
         },
+        "86": "none",
         "87": {
           "channel": "shirt",
           "alpha": 0.5
         },
+        "88": "none",
+        "90": "none",
+        "91": "none",
+        "92": "none",
         "94": {
           "channel": "shirt",
           "alpha": 0.5
@@ -163,46 +207,7 @@
           "channel": "shirt",
           "alpha": 0.5
         },
-        "71": "none",
-        "80": "none",
-        "82": "none",
-        "83": "none",
-        "86": "none",
-        "88": "none",
-        "90": "none",
-        "91": "none",
-        "1": {
-          "channel": "shirt",
-          "alpha": 0.25
-        },
-        "43": {
-          "channel": "shirt",
-          "alpha": 0.25
-        },
-        "54": {
-          "channel": "shirt",
-          "alpha": 0.25
-        },
-        "56": {
-          "channel": "shirt",
-          "alpha": 0.25
-        },
-        "57": {
-          "channel": "shirt",
-          "alpha": 0.25
-        },
-        "65": {
-          "channel": "shirt",
-          "alpha": 0.25
-        },
-        "72": {
-          "channel": "shirt",
-          "alpha": 0.25
-        },
-        "75": {
-          "channel": "shirt",
-          "alpha": 0.25
-        }
+        "98": "none"
       }
     },
     "default_h": {
