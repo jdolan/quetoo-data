@@ -9,26 +9,84 @@
   "textures": {
     "default_body": {
       "surfaces": {
-        "u_hair01": "helmet",
-        "u_hair02": "helmet",
-        "u_hair03": "helmet",
-        "u_hair04": "helmet",
-        "u_hair05": "helmet",
-        "u_hair06": "helmet",
-        "u_hair07": "helmet",
-        "u_hair08": "helmet"
-      },
-      "regions": {
-        "1": "shirt",
-        "3": "shirt",
-        "4": "shirt",
-        "12": "shirt"
+        "l_lower": {
+          "channel": "pants",
+          "alpha": 0.5
+        },
+        "u_hair01": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "u_hair02": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "u_hair03": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "u_hair04": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "u_hair05": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "u_hair06": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "u_hair07": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "u_hair08": {
+          "channel": "helmet",
+          "alpha": 0.5
+        }
       }
     },
     "default_hands": {
       "surfaces": {
-        "l_bootl": "pants",
-        "l_bootr": "pants"
+        "l_bootl": {
+          "channel": "pants",
+          "alpha": 0.5
+        },
+        "l_bootr": {
+          "channel": "pants",
+          "alpha": 0.5
+        }
+      },
+      "regions": {
+        "1": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "4": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "5": "none",
+        "6": "none",
+        "7": "none",
+        "8": "none",
+        "11": "none",
+        "12": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "13": "none",
+        "14": "none",
+        "15": "none",
+        "17": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "18": {
+          "channel": "shirt",
+          "alpha": 0.5
+        }
       }
     }
   }
