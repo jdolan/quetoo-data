@@ -1,6 +1,6 @@
 {
 	diffusemap players/violator/default_head
-	tintmap.tint_b_default 0.675 0.685 0.747
+	tintmap.tint_b_default 0.568 0.581 0.652
 	normalmap players/violator/default_head_norm
 	specularmap players/violator/default_head_spec
 }
