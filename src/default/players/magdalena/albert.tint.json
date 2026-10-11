@@ -1,0 +1,87 @@
+{
+  "segmentation": {
+    "segments": 900,
+    "compactness": 10,
+    "threshold": 6,
+    "min_area": 200,
+    "speck_area": 1000
+  },
+  "textures": {
+    "albert_body": {
+      "examples": {
+        "helmet": [
+          18,
+          21,
+          24,
+          42,
+          52,
+          56,
+          64,
+          90,
+          93,
+          100,
+          111,
+          120,
+          123
+        ],
+        "pants": [
+          5,
+          6,
+          60,
+          107,
+          134,
+          138,
+          173,
+          199,
+          231
+        ]
+      },
+      "regions": {
+        "1": "none",
+        "2": "none",
+        "3": "none",
+        "4": "none",
+        "10": "none",
+        "11": "none",
+        "61": "none",
+        "63": "none",
+        "70": "none",
+        "73": "none",
+        "81": "none",
+        "83": "none",
+        "86": "none",
+        "97": "none",
+        "99": "none",
+        "103": "none",
+        "106": "none",
+        "109": "none",
+        "110": "none",
+        "131": "none",
+        "139": "none",
+        "149": "none",
+        "151": "none",
+        "165": "none",
+        "170": "none",
+        "220": "none",
+        "238": "none",
+        "244": "none",
+        "248": "none",
+        "251": "none",
+        "253": "none",
+        "254": "none",
+        "262": "none",
+        "265": "none",
+        "273": "none"
+      }
+    },
+    "albert_head": {
+      "surfaces": {
+        "l_head": "shirt",
+        "h_head": "shirt"
+      },
+      "regions": {
+        "52": "none"
+      }
+    }
+  }
+}

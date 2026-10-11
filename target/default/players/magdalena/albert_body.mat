@@ -1,0 +1,6 @@
+{
+	diffusemap players/magdalena/albert_body
+	tintmap.tint_g_default 0.735 0.664 0.573
+	tintmap.tint_b_default 0.858 0.701 0.579
+	normalmap players/magdalena/albert_body_norm
+}
