@@ -1,7 +1,7 @@
 {
 	diffusemap players/bunker/ctf
 	tintmap.tint_r_default 0.630 0.023 0.014
-	tintmap.tint_g_default 0.807 0.014 0.020
+	tintmap.tint_g_default 0.787 0.023 0.026
 	normalmap players/bunker/ctf_norm
 	specularmap players/bunker/ctf_spec
 }

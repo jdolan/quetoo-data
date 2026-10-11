@@ -39,10 +39,11 @@
           "channel": "shirt",
           "alpha": 0.5
         },
-        "93": {
+        "58": {
           "channel": "shirt",
           "alpha": 0.5
         },
+        "65": "pants",
         "66": {
           "channel": "shirt",
           "alpha": 0.5
@@ -51,15 +52,16 @@
           "channel": "shirt",
           "alpha": 0.5
         },
-        "58": {
-          "channel": "shirt",
-          "alpha": 0.5
-        },
         "72": {
           "channel": "shirt",
           "alpha": 0.5
         },
+        "81": "pants",
         "85": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "93": {
           "channel": "shirt",
           "alpha": 0.5
         }

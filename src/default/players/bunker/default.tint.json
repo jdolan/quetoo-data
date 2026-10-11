@@ -115,7 +115,6 @@
           "channel": "shirt",
           "alpha": 0.5
         },
-        "51": "none",
         "52": {
           "channel": "shirt",
           "alpha": 0.5
@@ -156,12 +155,10 @@
           "channel": "shirt",
           "alpha": 0.5
         },
-        "64": "none",
         "65": {
           "channel": "shirt",
           "alpha": 0.25
         },
-        "66": "none",
         "68": {
           "channel": "shirt",
           "alpha": 0.5
@@ -206,8 +203,7 @@
         "95": {
           "channel": "shirt",
           "alpha": 0.5
-        },
-        "98": "none"
+        }
       }
     },
     "default_h": {
