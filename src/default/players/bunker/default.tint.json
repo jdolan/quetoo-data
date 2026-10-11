@@ -11,47 +11,158 @@
       "surfaces": {
         "l_legs": {
           "channel": "pants",
-          "alpha": 0.6
+          "alpha": 0.5
         }
       },
       "regions": {
-        "5": "shirt",
-        "11": "shirt",
-        "14": "shirt",
-        "26": "shirt",
-        "27": "shirt",
-        "28": "shirt",
-        "30": "shirt",
-        "31": "shirt",
-        "32": "shirt",
-        "33": "shirt",
-        "34": "shirt",
-        "36": "shirt",
-        "37": "shirt",
-        "38": "shirt",
-        "41": "shirt",
-        "42": "shirt",
-        "44": "shirt",
-        "45": "shirt",
-        "46": "shirt",
-        "47": "shirt",
-        "48": "shirt",
-        "49": "shirt",
-        "50": "shirt",
-        "52": "shirt",
-        "53": "shirt",
-        "55": "shirt",
-        "58": "shirt",
-        "59": "shirt",
-        "61": "shirt",
-        "63": "shirt",
-        "68": "shirt",
-        "79": "shirt",
-        "84": "shirt",
-        "85": "shirt",
-        "87": "shirt",
-        "94": "shirt",
-        "95": "shirt",
+        "5": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "11": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "14": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "26": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "27": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "28": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "30": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "31": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "32": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "33": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "34": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "36": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "37": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "38": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "41": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "42": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "44": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "45": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "46": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "47": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "48": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "49": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "50": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "52": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "53": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "55": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "58": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "59": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "61": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "63": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "68": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "79": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "84": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "85": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "87": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "94": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "95": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
         "71": "none",
         "80": "none",
         "82": "none",
@@ -64,9 +175,18 @@
     },
     "default_h": {
       "regions": {
-        "3": "helmet",
-        "29": "helmet",
-        "32": "helmet"
+        "3": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "29": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "32": {
+          "channel": "helmet",
+          "alpha": 0.5
+        }
       }
     }
   }
