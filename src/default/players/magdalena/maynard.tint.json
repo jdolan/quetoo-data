@@ -1,0 +1,585 @@
+{
+  "segmentation": {
+    "segments": 900,
+    "compactness": 10,
+    "threshold": 6,
+    "min_area": 200,
+    "speck_area": 1000
+  },
+  "textures": {
+    "maynard_body": {
+      "surfaces": {
+        "l_body": {
+          "channel": "shirt",
+          "alpha": 0.5
+        },
+        "l_legs": {
+          "channel": "shirt",
+          "alpha": 0.5
+        }
+      },
+      "regions": {
+        "8": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "11": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "12": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "16": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "20": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "21": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "25": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "32": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "36": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "51": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "57": "none",
+        "65": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "68": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "70": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "71": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "72": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "73": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "83": "none",
+        "84": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "pants",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "89": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "pants",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "90": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "pants",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "91": "none",
+        "92": "none",
+        "93": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "pants",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "95": "none",
+        "97": "none",
+        "98": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "pants",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "103": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "pants",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "109": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "pants",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "111": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "pants",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "113": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "pants",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "114": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "pants",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "117": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "pants",
+            "alpha": 0.5,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "121": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "122": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "123": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "124": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "128": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "129": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "131": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "132": "none",
+        "133": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "135": [
+          {
+            "channel": "shirt",
+            "alpha": 0.5
+          },
+          {
+            "channel": "shirt",
+            "alpha": 0.2,
+            "mask": {
+              "hue": 65,
+              "chroma": 1.5,
+              "spread": 40
+            }
+          }
+        ],
+        "136": "none"
+      }
+    },
+    "maynard_head": {
+      "surfaces": {
+        "l_head": {
+          "channel": "helmet",
+          "alpha": 0.5
+        },
+        "h_head": {
+          "channel": "helmet",
+          "alpha": 0.5
+        }
+      }
+    }
+  }
+}

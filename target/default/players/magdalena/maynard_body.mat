@@ -1,0 +1,7 @@
+{
+	diffusemap players/magdalena/maynard_body
+	tintmap.tint_r_default 0.618 0.647 0.708
+	tintmap.tint_g_default 0.370 0.298 0.252
+	normalmap players/magdalena/maynard_body_norm
+	specularmap players/magdalena/maynard_body_spec
+}
