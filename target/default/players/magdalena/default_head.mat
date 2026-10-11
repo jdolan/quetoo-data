@@ -1,0 +1,6 @@
+{
+	diffusemap players/magdalena/default_head
+	tintmap.tint_b_default 0.903 0.657 0.594
+	normalmap players/magdalena/default_head_norm
+	specularmap players/magdalena/default_head_spec
+}
