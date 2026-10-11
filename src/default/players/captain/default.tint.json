@@ -1,0 +1,1609 @@
+{
+  "segmentation": {
+    "segments": 400,
+    "compactness": 10,
+    "threshold": 12,
+    "min_area": 64,
+    "speck_area": 1000
+  },
+  "textures": {
+    "default": {
+      "segmentation": {
+        "segments": 900,
+        "threshold": 6,
+        "min_area": 100
+      },
+      "surfaces": {
+        "l_lower": "none",
+        "u_torso": "none"
+      },
+      "regions": {
+        "1": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "2": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "3": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "4": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "5": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "6": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "7": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "8": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "9": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "10": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "11": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "12": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "13": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "14": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "15": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "16": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "17": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "18": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "19": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "20": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "21": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "22": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "23": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "24": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "25": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "26": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "27": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "28": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "29": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "30": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "31": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "32": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "33": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "34": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "35": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "36": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "37": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "38": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "39": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "40": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "41": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "42": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "43": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "44": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "45": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "46": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "47": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "48": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "49": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "50": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "51": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "52": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "53": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "54": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "55": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "56": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "57": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "58": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "59": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "60": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "61": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "62": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "63": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "64": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "65": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "66": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "67": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "68": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "69": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "70": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "71": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "72": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "73": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "74": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "75": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "76": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "77": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "78": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "79": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "80": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "81": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "82": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "83": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "84": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "85": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "86": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "87": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "88": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "89": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "90": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "91": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "92": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "93": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "94": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "95": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "96": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "97": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "98": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "99": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "100": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "101": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "102": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "103": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "104": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "105": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "106": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "107": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "108": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "109": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "110": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "111": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "112": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "113": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "114": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "115": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "116": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "117": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "118": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "119": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "120": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "121": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "122": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "123": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "124": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "125": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "126": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "127": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "129": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "130": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "132": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "133": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "134": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "135": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "136": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "137": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "138": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "139": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "140": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "143": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "154": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "155": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "157": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "158": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "159": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "161": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "162": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "163": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "165": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "166": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            },
+            "alpha": 0.25
+          }
+        ],
+        "168": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "169": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "171": [
+          "none",
+          {
+            "channel": "shirt",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ],
+        "172": [
+          "none",
+          {
+            "channel": "pants",
+            "mask": {
+              "image": "default_team.png",
+              "min_area": 80
+            }
+          }
+        ]
+      }
+    }
+  }
+}
