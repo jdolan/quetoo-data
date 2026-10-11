@@ -9,23 +9,51 @@
   "textures": {
     "default": {
       "surfaces": {
-        "u_torso": "shirt",
-        "u_shoulders": "shirt",
-        "l_legs": "pants",
-        "l_sash": "pants",
-        "l_tail": "pants"
-      },
-      "regions": {
-        "69": "none",
-        "70": "none",
-        "73": "none",
-        "77": "none",
-        "83": "none",
-        "97": "none",
-        "102": "none",
-        "56": "none",
-        "59": "none",
-        "61": "none"
+        "u_torso": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 20,
+            "spread": 25,
+            "min_area": 150
+          }
+        },
+        "u_shoulders": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 38,
+            "chroma": 20,
+            "spread": 25,
+            "min_area": 150
+          }
+        },
+        "l_legs": {
+          "channel": "pants",
+          "mask": {
+            "hue": 38,
+            "chroma": 20,
+            "spread": 25,
+            "min_area": 150
+          }
+        },
+        "l_sash": {
+          "channel": "pants",
+          "mask": {
+            "hue": 38,
+            "chroma": 20,
+            "spread": 25,
+            "min_area": 150
+          }
+        },
+        "l_tail": {
+          "channel": "pants",
+          "mask": {
+            "hue": 38,
+            "chroma": 20,
+            "spread": 25,
+            "min_area": 150
+          }
+        }
       }
     }
   }
