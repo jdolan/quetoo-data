@@ -1,0 +1,38 @@
+{
+  "segmentation": {
+    "segments": 900,
+    "compactness": 10,
+    "threshold": 6,
+    "min_area": 200,
+    "speck_area": 1000
+  },
+  "textures": {
+    "eier_von_satan_body": {
+      "surfaces": {
+        "l_body": "pants",
+        "l_legs": "pants"
+      },
+      "regions": {
+        "32": "none",
+        "69": "none",
+        "109": "none",
+        "116": "none",
+        "117": "none",
+        "118": "none",
+        "130": "none"
+      }
+    },
+    "eier_von_satan_head": {
+      "surfaces": {
+        "l_head": "pants",
+        "h_head": "helmet"
+      }
+    },
+    "eier_von_satan_gear": {
+      "surfaces": {
+        "u_upper": "shirt",
+        "u_hydrolic": "shirt"
+      }
+    }
+  }
+}

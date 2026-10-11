@@ -1,0 +1,6 @@
+{
+	diffusemap players/magdalena/eier_von_satan_gear
+	tintmap.tint_r_default 0.483 0.538 0.607
+	normalmap players/magdalena/eier_von_satan_gear_norm
+	specularmap players/magdalena/eier_von_satan_gear_spec
+}

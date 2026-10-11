@@ -1,0 +1,7 @@
+{
+	diffusemap players/magdalena/eier_von_satan_head
+	tintmap.tint_g_default 0.402 0.473 0.549
+	tintmap.tint_b_default 0.727 0.815 0.923
+	normalmap players/magdalena/eier_von_satan_head_norm
+	specularmap players/magdalena/eier_von_satan_head_spec
+}
