@@ -1,6 +1,6 @@
 {
 	diffusemap players/merc/default_head
-	tintmap.tint_b_default 0.316 0.397 0.205
+	tintmap.tint_b_default 0.304 0.388 0.198
 	normalmap players/merc/default_head_norm
 	specularmap players/merc/default_head_spec
 }

@@ -9,63 +9,99 @@
   "textures": {
     "default": {
       "surfaces": {
-        "l_lower": "pants",
-        "u_torso": "shirt"
-      },
-      "regions": {
-        "2": "none",
-        "3": "none",
-        "7": "none",
-        "9": "none",
-        "11": "none",
-        "13": "none",
-        "16": "none",
-        "18": "none",
-        "19": "none",
-        "23": "none",
-        "25": "none",
-        "27": "none",
-        "28": "none",
-        "32": "none",
-        "33": "none",
-        "36": "none",
-        "42": "none",
-        "50": "none",
-        "52": "none",
-        "53": "none",
-        "57": "none",
-        "58": "none",
-        "60": "none",
-        "12": "none",
-        "15": "none",
-        "22": "none",
-        "24": "none",
-        "26": "none",
-        "29": "none",
-        "30": "none",
-        "35": "none",
-        "6": "shirt",
-        "47": "shirt",
-        "4": "shirt",
-        "5": "shirt"
+        "l_lower": {
+          "channel": "pants",
+          "mask": {
+            "hue": 120,
+            "chroma": 4,
+            "spread": 25,
+            "min_area": 200
+          }
+        },
+        "u_torso": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 120,
+            "chroma": 4,
+            "spread": 25,
+            "min_area": 200
+          }
+        },
+        "u_Rhand": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 120,
+            "chroma": 4,
+            "spread": 25,
+            "min_area": 200
+          }
+        },
+        "u_Lhand": {
+          "channel": "shirt",
+          "mask": {
+            "hue": 120,
+            "chroma": 4,
+            "spread": 25,
+            "min_area": 200
+          }
+        }
       }
     },
     "default_head": {
-      "segmentation": {
-        "segments": 300,
-        "threshold": 6
-      },
       "surfaces": {
-        "h_head": "none",
-        "u_neck": "none"
+        "h_head": {
+          "channel": "helmet",
+          "mask": {
+            "hue": 120,
+            "chroma": 4,
+            "spread": 25,
+            "min_area": 200
+          }
+        }
+      },
+      "segmentation": {
+        "segments": 1500,
+        "threshold": 4,
+        "min_area": 100
       },
       "regions": {
-        "1": "helmet",
-        "2": "helmet",
-        "3": "helmet",
-        "4": "helmet",
-        "5": "helmet",
-        "6": "helmet"
+        "66": "none",
+        "67": "none",
+        "69": "none",
+        "70": "none",
+        "71": "none",
+        "72": "none",
+        "73": "none",
+        "75": "none",
+        "76": "none",
+        "79": "none",
+        "82": "none",
+        "83": "none",
+        "84": "none",
+        "85": "none",
+        "86": "none",
+        "87": "none",
+        "91": "none",
+        "94": "none",
+        "95": "none",
+        "96": "none",
+        "97": "none",
+        "99": "none",
+        "103": "none",
+        "105": "none",
+        "106": "none",
+        "107": "none",
+        "108": "none",
+        "109": "none",
+        "110": "none",
+        "112": "none",
+        "113": "none",
+        "116": "none",
+        "118": "none",
+        "120": "none",
+        "121": "none",
+        "122": "none",
+        "124": "none"
       }
     }
   }
