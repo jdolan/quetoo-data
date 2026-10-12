@@ -1,10 +1,10 @@
-bcc5f33cf71477adf63303fa7c809a2a 20058008 maps/abase.bsp
+b0d317c884f2939e40410d4de2ce3ffe 19672704 maps/abase.bsp
 a96f38decbf7ac420f2bf32a5c50838d 9924 maps/abase.nav
 9bba06fe7223bcd1d20711bdd950d547 127700 mapshots/abase/quetoo001.jpg
 97ef68c5d030e7a0d49e6c9022aad638 170339 mapshots/abase/quetoo002.jpg
 813d9338cfcf1ef90e0963faa59b803c 202442 mapshots/abase/quetoo003.jpg
 1c6c92ccd65292817edbc58ea0bd9b28 138250 mapshots/abase/quetoo004.jpg
-39a5a7e63446e62d860df457ba5ffd5b 12471 models/mapobjects/fern/fern.obj
+291b149e5ec04d489b52ac44848a1f92 12037 models/mapobjects/fern/fern.obj
 5362fa11da0a19f1dfcd27b524b9c0e9 147 models/mapobjects/fern/skin.mat
 639c77d8181df5cd142d01b36d01d643 226318 models/mapobjects/fern/skin.png
 d08014541d19ab6b5807c5ea8e18ea08 629588 sky/miramar.jpg
@@ -50,7 +50,7 @@ d9927518940fdd7236bea834edc120c8 2259438 textures/decals/vines01.png
 35b0008e0de2e30a2eda5306b92e5475 108 textures/decals/vines512.mat
 bc736aaa9645193513f72c5d0f68b6ec 346586 textures/decals/vines512.png
 f170034fbd13bdcb580c80e0fadb0f56 355995 textures/decals/vines512_norm.png
-cb92fc28ce3355e8bea000d498bc2482 187 textures/effects/beam-yellow.mat
+f654aea3d801333be20fc02fc14e5f47 95 textures/effects/beam-yellow.mat
 ef399efff2f4846c617d5fc00740ab5c 3995 textures/effects/beam-yellow.png
 b7f9a37e49826266f5ac8ac7f1feb934 290 textures/effects/black.png
 388ee293c4a048fc55835af87fd6efe2 497462 textures/effects/sky1-layer0.png
@@ -58,7 +58,6 @@ b7f9a37e49826266f5ac8ac7f1feb934 290 textures/effects/black.png
 8df6b10cdc62b528f55e7165279ca66e 413 textures/effects/sky1.mat
 d20862d28e97f0a9426f072795b86e2f 536000 textures/effects/sky1.png
 e2b767ca608390c6a6c6fd5f145302b8 88418 textures/effects/water2fx.png
-0c15ecca50d058e338d6e250d1a2241b 57594 textures/envmaps/envmap_1.jpg
 75a05712f32417ffcfac2040e5383fad 35814 textures/evil/e6bmetal.jpg
 e6381909f5429a87d49f58213d2ccca9 34278 textures/evil/e6brnmetal.jpg
 4780ce010d11b0e251ad5495b7395a20 57159 textures/evil/e7brnmetal.jpg
@@ -147,9 +146,8 @@ a6136ded1baf3a65fd993f32b4026e60 174 textures/quake/light_rail01.mat
 ec8575807fb8c348938f0eaf022a9f2d 4087 textures/quake/light_rail01_luma.jpg
 51fe4b82c0fcfb050ada68890579bb26 60003 textures/quake/light_rail01_norm.png
 95cd953e19bfde4c8ecc4cf5fbb9776c 11545 textures/quake/light_rail01_spec.jpg
-8405cb6105363491d21a1b9f8075c9b0 19633 textures/quake/lightv.jpg
-f1017f2f0f71a7492c9eccf84333a4e1 132 textures/quake/lightv.mat
-2f9b92bb59f672bb55f9a082061a548d 15396 textures/quake/lightv_glow.png
+e563d08244e226f6607b2ffc1db0d89a 8227 textures/quake/lightv.jpg
+fe9de78fdd2568db20d8edb62b07a915 77 textures/quake/lightv.mat
 fcad2b1091af2d090ade3ef46f8e11e3 38659 textures/quake/lightv_norm.png
 cb500054c356dbc0ed4c2685ce8e4833 5373 textures/quake/lightv_spec.jpg
 89302b33bb05cf34503bef9dd68273b1 3602 textures/quake/lite_fart3.jpg
@@ -465,7 +463,7 @@ e3a0a45192728e3cafa6e5017d739e0d 4077 textures/quake/wir_la4_luma.jpg
 385e0f57544bf2f258c89815489df521 615506 textures/quake2/duckw.png
 8ed0b727acd885b2a4ebbf92eb5fc3f7 613418 textures/quake2/duckw_norm.png
 03b1aea461446046426701dcae6c59a3 97659 textures/quake2/duckw_spec.jpg
-1aee727c5bbcbf858dfa7618a1220f5f 292 textures/quake2/wndow1_2.mat
+acf6110c5d43911f33d931c826a02068 152 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png
 c2206dd9ef7fc905f997d349e0e02fb9 147 textures/quake3/base_floor/pjgrate2.mat
 66c2ac882663804833589240acc771ac 117412 textures/quake3/base_floor/pjgrate2.png
