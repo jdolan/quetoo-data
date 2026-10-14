@@ -1,5 +1,6 @@
 // Game: Quetoo
 // Format: Quake3 (Valve)
+// Generator: TrenchBroom 2026.2 (Build v2026.2 Release macOS)
 // entity 0
 {
 "classname" "worldspawn"
@@ -12996,6 +12997,7 @@
 "speed" "250"
 "targetname" "t1"
 "team" "lava_doors"
+"ai_hint" "trap"
 // brush 0
 {
 ( -768 8 0 ) ( -768 -160 0 ) ( -768 8 -16 ) quake/mmetal1_2 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -13015,6 +13017,7 @@
 "speed" "250"
 "targetname" "t1"
 "team" "lava_doors"
+"ai_hint" "trap"
 // brush 0
 {
 ( -476 64 -4 ) ( -476 -384 -4 ) ( -476 -384 -16 ) quake/mmetal1_2 [ 0 1 0 0 ] [ 0 0 -1 -12 ] 0 0.25 0.25
@@ -13051,6 +13054,7 @@
 "speed" "250"
 "targetname" "t1"
 "team" "lava_doors2"
+"ai_hint" "trap"
 "wait" "4"
 // brush 0
 {
@@ -13072,6 +13076,7 @@
 "speed" "250"
 "targetname" "t1"
 "team" "lava_doors2"
+"ai_hint" "trap"
 "wait" "4"
 // brush 0
 {
@@ -13115,6 +13120,7 @@
 "spawnflags" "4"
 "speed" "200"
 "targetname" "t3"
+"ai_hint" "trap"
 // brush 0
 {
 ( -1064 128 0 ) ( -1064 -112 0 ) ( -1064 -112 -144 ) quake/metalt2_1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -13152,6 +13158,7 @@
 "spawnflags" "4"
 "speed" "200"
 "targetname" "t3"
+"ai_hint" "trap"
 // brush 0
 {
 ( -24 64 256 ) ( -24 -160 256 ) ( -24 -160 0 ) quake/altar1_1 [ 0 1 0 110.875 ] [ 0 0 -1 0.375 ] 0 0.439293 0.436813
@@ -13215,6 +13222,7 @@
 {
 "classname" "item_quake_armor_jacket"
 "origin" "624 864 -80"
+"ai_access_by" "t6"
 }
 // entity 17
 {
@@ -13817,6 +13825,7 @@
 "classname" "trigger_teleporter"
 "model" "*31"
 "target" "t7"
+"ai_access_by" "t6"
 // brush 0
 {
 ( 720 896 0 ) ( 720 832 0 ) ( 720 832 -96 ) common/trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5
@@ -13903,11 +13912,13 @@
 {
 "classname" "item_quake_armor_body"
 "origin" "304 -1096 112"
+"ai_access_by" "t10"
 }
 // entity 91
 {
 "classname" "item_quake_armor_body"
 "origin" "240 256 48"
+"ai_access_by" "t18"
 }
 // entity 92
 {
@@ -14828,6 +14839,7 @@
 "classname" "weapon_quake_supernailgun"
 "angle" "270"
 "origin" "864 -1040 112"
+"ai_access_by" "t9"
 }
 // entity 239
 {
