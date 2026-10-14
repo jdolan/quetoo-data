@@ -1,11 +1,12 @@
 {
 	diffusemap padbase/padbase
-	roughness 2.00
-	hardness 2.50
-	specularity 1.50
-	parallax 2.00
+	normalmap padbase/padbase_norm
+	roughness 2.50
+	hardness 4.00
+	parallax 4.00
 	contents "mist detail"
-	surface "blend_100"
+	surface "alpha_test"
+	alpha_test 0.5
 	{
 		texture padbase/padfx-iris-cyan
 		blend src_alpha one

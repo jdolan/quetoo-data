@@ -10,4 +10,12 @@
 		blend src_alpha one
 		emissive 1.00
 	}
+	{
+		texture quake/rune_pad1_glow
+		blend src_alpha one
+		pulse 1.50
+		emissive 1.00
+		light.radius 40.00
+		light.intensity 4.00
+	}
 }
