@@ -13222,7 +13222,6 @@
 {
 "classname" "item_quake_armor_jacket"
 "origin" "624 864 -80"
-"ai_access_by" "t6"
 }
 // entity 17
 {
@@ -13825,7 +13824,6 @@
 "classname" "trigger_teleporter"
 "model" "*31"
 "target" "t7"
-"ai_access_by" "t6"
 // brush 0
 {
 ( 720 896 0 ) ( 720 832 0 ) ( 720 832 -96 ) common/trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5
@@ -13912,13 +13910,11 @@
 {
 "classname" "item_quake_armor_body"
 "origin" "304 -1096 112"
-"ai_access_by" "t10"
 }
 // entity 91
 {
 "classname" "item_quake_armor_body"
 "origin" "240 256 48"
-"ai_access_by" "t18"
 }
 // entity 92
 {
@@ -14839,7 +14835,6 @@
 "classname" "weapon_quake_supernailgun"
 "angle" "270"
 "origin" "864 -1040 112"
-"ai_access_by" "t9"
 }
 // entity 239
 {
