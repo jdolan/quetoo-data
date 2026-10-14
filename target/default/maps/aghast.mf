@@ -1,5 +1,4 @@
 eb62cb1fe9882cf1317181af1f72e305 6888574 maps/aghast.bsp
-d13ab1144ca3b85d5c5d0b668cf16d17 10628 maps/aghast.nav
 f9f045c1738a99810c1cddc8817599a5 275072 mapshots/aghast/quetoo012.jpg
 9244fe27b99ffb58ff1de02ba94836db 322159 mapshots/aghast/quetoo013.jpg
 5c26c8c36c62d66c030da9df01edbdd1 300993 mapshots/aghast/quetoo014.jpg

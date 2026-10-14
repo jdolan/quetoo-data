@@ -1,5 +1,4 @@
 b8500ab219f7f12e5396554b62aad700 29985695 maps/gehenna.bsp
-39b59b9a524298160edb037b74ac1b52 5732 maps/gehenna.nav
 5c920da0cfc3871f720d8594ab55a8eb 223189 mapshots/gehenna/quetoo106.jpg
 af34f46aac080a3a6ad6e68a97dbc4e2 242852 mapshots/gehenna/quetoo107.jpg
 0b99620e3fef61d86471a582497553f0 295076 mapshots/gehenna/quetoo108.jpg

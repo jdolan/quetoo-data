@@ -1,5 +1,4 @@
 371cdf128af7f2a553961aa6e0091833 9168456 maps/tokays.bsp
-11c9ca144c4780c952b173798c467d07 5980 maps/tokays.nav
 82c4bd5edf9876726be5628b7c22476e 185671 mapshots/tokays/quetoo018.jpg
 5efa348a845250cfce81ae0552cfc9e1 193044 mapshots/tokays/quetoo019.jpg
 2441736655aec00f947c302cb541b8ba 200994 mapshots/tokays/quetoo020.jpg

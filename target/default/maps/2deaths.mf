@@ -1,5 +1,4 @@
 ae953d880fe03aabd9dac0735745c9fa 14250907 maps/2deaths.bsp
-d5d9134fd5624bc39854565de2d3c064 3708 maps/2deaths.nav
 9008535dd81e400c4dff83e643fa6bae 216659 mapshots/2deaths/quetoo003.jpg
 49034947a1767fdda10c6303a855ac71 334483 mapshots/2deaths/quetoo004.jpg
 c1d38a738283c1a42b0625e82f43bcb2 366899 mapshots/2deaths/quetoo005.jpg
