@@ -1,10 +1,11 @@
-91c16e277ce2d514e1d7570755533fcf 6854021 maps/slimyplace.bsp
+9539e5d3d78b609983fbf538f3fb1135 6909150 maps/slimyplace.bsp
 8467d6a7679bed3761216ca0640ecb2e 179261 mapshots/slimyplace/quetoo036.jpg
 6b87681e37cb245aab34e7e303a7b8dc 197170 mapshots/slimyplace/quetoo037.jpg
 8749416809f0a36a2f9f40e1e985dcea 168346 mapshots/slimyplace/quetoo038.jpg
 2cdb723ff41ac78a04e0d2c4d73ba7a6 196512 mapshots/slimyplace/quetoo039.jpg
 8fbcec86d74c7a15eb13ad858f0503f6 122795 mapshots/slimyplace/quetoo040.jpg
 2929fbbc0696fde86322f5550205a527 1663 sky/white.jpg
+34cc929a3844a970b99fdb37c323b836 3394276 sounds/ambient/flow_2.wav
 3ca759946c896a7488f339a18d74e801 698830 sounds/ambient/slime_1.wav
 93a193c6297f052781a4e02051aa4fd7 747312 sounds/ambient/water_1.wav
 4b1146f6da1472b65b2f6ffdbdfe8a64 23409 sprites/flare_0.png
@@ -16,6 +17,7 @@ cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 4495dd84862adc3bbcf3e0006e16b545 1627 textures/common/dust.jpg
 8f12552545ad2657743357b89cb4c72f 28 textures/common/dust.mat
 91dd63875eb668f99b05c86c0572c13f 1757 textures/common/ladder.jpg
+5289b2965b1d8acec2544e8f67d8dc7a 2183 textures/common/monster_clip.jpg
 6b90b4a0628db07be8c1f79fe3e6b193 54 textures/decals/alienpuke.mat
 c2e3b395fd3be34955376c201d1cef88 27497 textures/decals/alienpuke.png
 f0f2951fac46049ceb7fd2b88f2a206c 5219 textures/quake2/btactmach0.jpg

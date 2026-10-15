@@ -1,4 +1,4 @@
-b3be028a3c6335479a14d028701eb874 28163989 maps/chthon.bsp
+c382bead1e624b5a8625b2d95e6f068b 28373741 maps/chthon.bsp
 eb01a62943d8de39d1cc71ec86080492 167477 mapshots/chthon/quetoo084.jpg
 d577d529b30c0b40a30ed234498f7c36 166484 mapshots/chthon/quetoo085.jpg
 49c3ebd4aa76cfd88292e3d13e14eb91 180052 mapshots/chthon/quetoo086.jpg
@@ -22,6 +22,7 @@ c3c95e362ae53ceec4571095fd470c91 28 textures/common/clip.mat
 cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 4495dd84862adc3bbcf3e0006e16b545 1627 textures/common/dust.jpg
 8f12552545ad2657743357b89cb4c72f 28 textures/common/dust.mat
+91dd63875eb668f99b05c86c0572c13f 1757 textures/common/ladder.jpg
 2a1b49cbfe055dec00b23d65163f56f6 2115 textures/common/origin.jpg
 68c96aad25d1fa26d3e6b8e612a84dfe 30 textures/common/origin.mat
 be48a3891c88c5a37c32980212ca8aaa 1846 textures/common/skip.jpg

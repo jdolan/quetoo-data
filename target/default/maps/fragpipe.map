@@ -1,5 +1,6 @@
 // Game: Quetoo
-// Format: Valve220
+// Format: Quake3 (Valve)
+// Generator: TrenchBroom 2026.2 (Build v2026.2 Release macOS)
 // entity 0
 {
 "classname" "worldspawn"
@@ -13457,10 +13458,10 @@
 // entity 146
 {
 "classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Unnamed"
 "_tb_id" "5"
 "_tb_linked_group_id" "{d7659e62-7446-4d22-827a-1c309b8f2e3a}"
-"_tb_name" "Unnamed"
-"_tb_type" "_tb_group"
 // brush 0
 {
 ( 1344 1552 -24 ) ( 1344 1280 -24 ) ( 1344 1280 -44 ) common/caulk [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -14372,10 +14373,10 @@
 // entity 205
 {
 "classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "Clip Brushes"
 "_tb_id" "1"
 "_tb_layer_sort_index" "0"
-"_tb_name" "Clip Brushes"
-"_tb_type" "_tb_layer"
 // brush 0
 {
 ( 1504 640 544 ) ( 1504 896 544 ) ( 1504 640 560 ) common/clip [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -14390,7 +14391,7 @@
 ( 596 172 432 ) ( 596 116 432 ) ( 596 116 312 ) common/ladder [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
 ( 596 116 312 ) ( 596 116 440 ) ( 608 112 440 ) common/ladder [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
 ( 596 172 440 ) ( 596 172 312 ) ( 608 176 312 ) common/ladder [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
-( 608 156 312 ) ( 592 156 312 ) ( 592 92 312 ) common/ladder [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.25 0.25
+( 608 156 288 ) ( 592 156 288 ) ( 592 92 288 ) common/ladder [ 1 0 0 0 ] [ 0 -1 0 0 ] 90 0.25 0.25
 ( 596 116 432 ) ( 596 172 432 ) ( 608 176 432 ) common/ladder [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 0.25 0.25
 ( 608 112 432 ) ( 608 176 432 ) ( 608 176 312 ) common/ladder [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
 }
@@ -14769,10 +14770,10 @@
 // entity 208
 {
 "classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "Sky Brushes"
 "_tb_id" "2"
 "_tb_layer_sort_index" "1"
-"_tb_name" "Sky Brushes"
-"_tb_type" "_tb_layer"
 // brush 0
 {
 ( 976 -40 72 ) ( 976 -16 72 ) ( 976 -40 528 ) common/sky [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -15344,22 +15345,22 @@
 // entity 209
 {
 "classname" "func_group"
-"_tb_id" "4"
-"_tb_layer_hidden" "1"
-"_tb_layer_sort_index" "2"
-"_tb_name" "Dust"
 "_tb_type" "_tb_layer"
+"_tb_name" "Dust"
+"_tb_id" "4"
+"_tb_layer_sort_index" "2"
+"_tb_layer_hidden" "1"
 }
 // entity 210
 {
 "classname" "misc_dust"
-"_tb_layer" "4"
 "acceleration_spread" "2 2 0"
 "color" "0.4 1 0.066"
 "end_color" "0.72 1 0.55"
 "lighting" "0"
 "type" "fizz"
 "velocity" "0 0 10"
+"_tb_layer" "4"
 // brush 0
 {
 ( 1344 1216 0 ) ( 1344 1392 84 ) ( 1344 1216 84 ) common/dust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -15373,8 +15374,8 @@
 // entity 211
 {
 "classname" "misc_dust"
-"_tb_layer" "4"
 "type" "embers"
+"_tb_layer" "4"
 // brush 0
 {
 ( 640 1040 40 ) ( 640 928 40 ) ( 640 928 16 ) common/dust [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.25 0.25
@@ -15544,11 +15545,11 @@
 // entity 212
 {
 "classname" "misc_dust"
-"_tb_layer" "4"
 "density" "0.33"
 "lifetime" "1"
 "size" "1.5"
 "velocity" "0 0 -20"
+"_tb_layer" "4"
 // brush 0
 {
 ( 800 576 496 ) ( 800 544 496 ) ( 800 544 448 ) common/dust [ 0 1 0 0 ] [ 0 0 -1 -32 ] 0 0.25 0.5
