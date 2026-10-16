@@ -3,4 +3,6 @@
 	roughness 2.50
 	hardness 4.00
 	parallax 4.00
+	surface alpha_test
+	alpha_test 0.5
 }

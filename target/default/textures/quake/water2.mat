@@ -1,5 +1,10 @@
 {
 	diffusemap quake/water2
 	contents "slime detail"
-	surface "liquid"
+	surface "liquid material"
+	{
+		texture quake/water2
+		warp 0.10 0.25
+		lighting 1 flat
+	}
 }
