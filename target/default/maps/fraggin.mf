@@ -1,5 +1,4 @@
-d89556a9a9e63da6582dc8a4875b91cc 34247340 maps/fraggin.bsp
-079594d90e5a97e79f581de2726f17af 8116 maps/fraggin.nav
+036bb6bbf9f67c4e4d355ccae347c9c9 34247554 maps/fraggin.bsp
 1f65f3c6ecf8313f34e2508c38fb25db 84548 mapshots/fraggin/fraggin01.jpg
 3fcbee2ddf3ce8de0b59980de1c21a03 109776 mapshots/fraggin/fraggin02.jpg
 a674d8de82935bc9a8d50bafa821554e 107384 mapshots/fraggin/fraggin03.jpg
@@ -8,7 +7,7 @@ a674d8de82935bc9a8d50bafa821554e 107384 mapshots/fraggin/fraggin03.jpg
 9480665830c42ed6ec58c303b160b3d0 224250 sky/dustball2.jpg
 7c1c7a676986c214894620e8f0124d76 533698 sounds/ambient/100hz.wav
 3c8d67b598c0ebcd6cd6ed150547a550 45856 sounds/ambient/energy.wav
-ff7dbdd64e8a874461500c4df67f1b55 52270 sounds/ambient/flow.wav
+ff7dbdd64e8a874461500c4df67f1b55 52270 sounds/ambient/flow_1.wav
 9a832755b20df1aca0c656a7edfb09e5 34732 sprites/flare_1.png
 beb7b099e54dd3eb86d44f308e2c41ed 54562 sprites/flare_3.png
 96e43f4fcf96e3b5fe22977953c6181d 138 textures/chastity/clanggrate.mat
@@ -43,11 +42,10 @@ cd4dd7487c00ec8d08eedf8f1e1fedd8 175 textures/decals/tampon2.mat
 84616ace82d3c22e2b08e2e2bf7cf66c 3114 textures/effects/wpadg.jpg
 49bffdfbb69f727ae8e95bf5e7fdefc3 288 textures/effects/wpadg.mat
 a7252ab539fc5b0464bc79d6e0ed27ac 4829 textures/effects/wpadg_fx.png
-2df641d5c817c353683da999c9a32465 111131 textures/padbase/padbase.png
-59f417af38fd6830821430e5aeb48d10 105839 textures/padbase/padbase_norm.png
+318a6ccdc992bacd45ca6079e6e0c221 163522 textures/padbase/padbase.png
 7b4ad4a5f9a2ac08fa684d831b4f1e49 49192 textures/padbase/padfx-iris-red.png
 9ed110fe54fdb2ca7f7fcc4c765cd1a8 6925 textures/padbase/padfx-red.jpg
-b48bcba41354555de5df700d5aa99c0e 411 textures/padbase/padfx-red.mat
+3c86095c53ac685d520f8997044ee4ef 380 textures/padbase/padfx-red.mat
 755ad7d793efd5ce94787de48b2bb8a0 33182 textures/quake/afloor1_4.jpg
 c43d4eefcb4229d0342f00a766b1d923 80 textures/quake/afloor1_4.mat
 5e7b2aebc6e9fdcef2ed7f21a52585d0 167232 textures/quake/afloor1_4_norm.png
@@ -166,7 +164,6 @@ aca15877f01d0522b475d38fda2f2a72 130164 textures/quake/rock3_8_norm.png
 caccc3311446a1dc56ad3aab0bc9bdb5 94 textures/quake/rock4_1.mat
 82d0110eb40352078f4aec075e276587 509374 textures/quake/rock4_1_norm.png
 bc79e432b4ed2b5c78dbb770e9bef5a8 73679 textures/quake/rock4_1_spec.jpg
-9c7c4cece173bcab6aedcb1ea20a6060 11825 textures/quake/rune_pad.jpg
 8a60636f27ea29ed47e32276e2cc8d76 184778 textures/quake/sfloor4_1_norm.png
 3e93e0c955e85fbf5b9722fd13fae905 25211 textures/quake/sfloor4_1_spec.jpg
 00e26ad9d6dfc3440b04d4208f2540e7 29566 textures/quake/sfloor4_6.jpg
@@ -197,7 +194,7 @@ e6ff715fbb1c05e0a7851b25eac6e9d2 14853 textures/quake/tyr_09.jpg
 bfb06ac1ec78b376644340d4496c4a94 31376 textures/quake/tyr_15_norm.png
 473c2523d0035a7ec6a4e735e4621e74 12143 textures/quake/tyr_15_spec.jpg
 008e9ad3358d5b3393fe971363f56230 11830 textures/quake/water2.jpg
-e6da9da3e8d1442e6a32722e51a2b673 145 textures/quake/water2.mat
+6091fcf173bb5d5d21ea27337470b5c3 72 textures/quake/water2.mat
 03c6671261cc897babd6a808ab9c050c 7844 textures/quake/water2_spec.jpg
 ea7f2cf79404d2e3ec3d0cb1d6afb9d5 34296 textures/quake/wbrick1_3.jpg
 720aa18e4d3118bcd27bb7d7b7c3ebbc 63 textures/quake/wbrick1_3.mat

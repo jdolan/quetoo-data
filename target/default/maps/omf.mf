@@ -1,5 +1,4 @@
 2dfcf6fbd00fc6a5606f289e310b1c4b 8588038 maps/omf.bsp
-e2fcc8a4a3892b4f0b27379f12f763fe 5156 maps/omf.nav
 850435dfbb6f762dd7655f0ec3a0a585 257403 mapshots/omf/quetoo073.jpg
 f95e1e30a91651c35b9c49c838035709 245537 mapshots/omf/quetoo074.jpg
 9b1bc02e53e6205277a8d24052980ea6 184649 mapshots/omf/quetoo075.jpg

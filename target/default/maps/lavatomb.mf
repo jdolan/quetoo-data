@@ -1,5 +1,4 @@
-affc0e12e4b1f0b44aa750ef386d3a05 16485413 maps/lavatomb.bsp
-524607c434dac43c53d5ba82cc000dcd 6180 maps/lavatomb.nav
+e9b2e64734b607ba047b8119653b65b4 16519379 maps/lavatomb.bsp
 80336c0e6be6ee6a5f49f3a38c9d551d 281252 mapshots/lavatomb/quetoo098.jpg
 7f83c172324cb082a471ce0a81ac0ddc 217367 mapshots/lavatomb/quetoo099.jpg
 b81fd46af461370e2277bcbca5c6cfc2 180660 mapshots/lavatomb/quetoo101.jpg
@@ -16,6 +15,7 @@ c3c95e362ae53ceec4571095fd470c91 28 textures/common/clip.mat
 cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 4495dd84862adc3bbcf3e0006e16b545 1627 textures/common/dust.jpg
 8f12552545ad2657743357b89cb4c72f 28 textures/common/dust.mat
+91dd63875eb668f99b05c86c0572c13f 1757 textures/common/ladder.jpg
 2a1b49cbfe055dec00b23d65163f56f6 2115 textures/common/origin.jpg
 68c96aad25d1fa26d3e6b8e612a84dfe 30 textures/common/origin.mat
 9243c7ad7e16a9a96f4a5f89b4212458 1512 textures/common/sky.jpg

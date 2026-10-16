@@ -1,5 +1,4 @@
-b69694c950beaaca3cea4ddc7a28238b 10742004 maps/fragpipe.bsp
-a2e4df8258fb16bd6200967790355a77 5876 maps/fragpipe.nav
+ef7ee97b3553ef2bcd0430fc4bbd9629 10712214 maps/fragpipe.bsp
 46c892b195a0e4021ac8084341d4f119 233326 mapshots/fragpipe/quetoo022.jpg
 a5232cbee6f561d75986c39a86399b34 171053 mapshots/fragpipe/quetoo023.jpg
 f4e28ceea7dd8fb9aea5b024b7e0763e 310221 mapshots/fragpipe/quetoo024.jpg
@@ -19,6 +18,7 @@ cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 4495dd84862adc3bbcf3e0006e16b545 1627 textures/common/dust.jpg
 8f12552545ad2657743357b89cb4c72f 28 textures/common/dust.mat
 91dd63875eb668f99b05c86c0572c13f 1757 textures/common/ladder.jpg
+5289b2965b1d8acec2544e8f67d8dc7a 2183 textures/common/monster_clip.jpg
 2a1b49cbfe055dec00b23d65163f56f6 2115 textures/common/origin.jpg
 68c96aad25d1fa26d3e6b8e612a84dfe 30 textures/common/origin.mat
 9243c7ad7e16a9a96f4a5f89b4212458 1512 textures/common/sky.jpg

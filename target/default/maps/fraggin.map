@@ -25463,28 +25463,28 @@
 "classname" "misc_sound"
 "atten" "1"
 "origin" "-192 0 -576"
-"sound" "ambient/flow"
+"sound" "ambient/flow_1"
 }
 // entity 155
 {
 "classname" "misc_sound"
 "atten" "1"
 "origin" "0 1216 -448"
-"sound" "ambient/flow"
+"sound" "ambient/flow_1"
 }
 // entity 156
 {
 "classname" "misc_sound"
 "atten" "1"
 "origin" "944 384 -88"
-"sound" "ambient/flow"
+"sound" "ambient/flow_1"
 }
 // entity 157
 {
 "classname" "misc_sound"
 "atten" "1"
 "origin" "-992 0 -664"
-"sound" "ambient/flow"
+"sound" "ambient/flow_1"
 }
 // entity 158
 {
