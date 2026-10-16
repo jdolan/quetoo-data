@@ -847,7 +847,7 @@
 
 @SolidClass base(Phong, Target) color(0 255 40) = trigger_teleporter : "Touching this will warp players to the targeted misc_teleporter_dest entity. This is the brush form of misc_teleporter." []
 
-@SolidClass base(Phong) = worldspawn : "The worldspawn entity defines global conditions and behavior for the entire level. All brushes not belonging to an explicit entity implicitly belong to worldspawn. The map list's entry for the level, and the server's own settings, take precedence over the gameplay, movement, gravity, limits and music given here."
+@SolidClass base(Phong) = worldspawn : "The worldspawn entity defines global conditions and behavior for the entire level. All brushes not belonging to an explicit entity implicitly belong to worldspawn. The map list's entry for the level takes precedence over the keys given here. A server setting other than 'default' takes precedence over both."
 [
 	message(string) : "The map title"
 	games(string) : "Space-delimited games this map is made for, shown as badges in the Create Server map browser: dm tdm duel ctf instagib race" : "dm"
@@ -876,9 +876,10 @@
 		"default" : "Quetoo"
 		"quake" : "Quake"
 	]
-	frag_limit(integer) : "The frag limit; unset, g_fragLimit applies"
-	capture_limit(integer) : "The capture limit, in CTF; unset, g_captureLimit applies"
-	time_limit(float) : "The time limit in minutes; unset, g_timeLimit applies"
+	min_clients(integer) : "The number of clients, humans and AI, the game fills to; unset, 0"
+	frag_limit(integer) : "The frag limit; unset, 30"
+	capture_limit(integer) : "The capture limit, in CTF; unset, 8"
+	time_limit(float) : "The time limit in minutes; unset, 20"
 	music(string) : "A comma-delimited list of music tracks; unset, all tracks are shuffled"
 	author(string) : "The creator of the map, and any other credits (metadata only)"
 	version(string) : "The version of the map, as major.minor.build (metadata only)"

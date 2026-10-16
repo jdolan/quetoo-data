@@ -2508,7 +2508,7 @@
 /*QUAKED worldspawn (0 0 0) ?
  The worldspawn entity defines global conditions and behavior for the entire level. All brushes not belonging to an explicit entity implicitly belong to worldspawn.
 
- The map list's entry for the level, and the server's own settings, take precedence over the gameplay, movement, gravity, limits and music given here.
+ The map list's entry for the level takes precedence over the keys given here. A server setting other than "default" takes precedence over both.
  -------- KEYS --------
  message : The map title.
  games : Space-delimited games this map is made for, one or more of dm, tdm, duel, ctf, instagib, race (default dm). Shown and filtered in the Create Server map browser.
@@ -2518,9 +2518,10 @@
  gameplay : The gameplay mode, one of deathmatch, team_deathmatch, instagib, team_instagib, arena, team_arena (default deathmatch).
  movement : The player movement, one of quetoo, race, quake, quake2, quake3 (default quetoo, or race in the race module).
  items : The item set for this map: "default" (Quetoo weapons) or "quake" (Quake weapons).
- frag_limit : The frag limit (default g_fragLimit).
- capture_limit : The capture limit, in CTF (default g_captureLimit).
- time_limit : The time limit in minutes (default g_timeLimit).
+ min_clients : The number of clients, humans and AI, the game fills to; unset, 0.
+ frag_limit : The frag limit; unset, 30.
+ capture_limit : The capture limit, in CTF; unset, 8.
+ time_limit : The time limit in minutes; unset, 20.
  music : A comma-delimited list of music tracks; unset, all tracks are shuffled.
  author : The creator of the map, and any other credits. Metadata only: the game does not read it.
  version : The version of the map, as major.minor.build. Metadata only: the game does not read it.
