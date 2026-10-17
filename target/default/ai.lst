@@ -15,7 +15,7 @@
 	name Bldseekr
 	skin bloodseeker/default
 	guid 928314d3-7eff-463a-ba7b-a0e5348034df
-	skill .65
+	skill .60
 	aggression .80
 	awareness .70
 	color 165
@@ -27,7 +27,7 @@
 	name Bunker
 	skin bunker/default
 	guid c83474c1-422c-44cd-a93b-918390435187
-	skill .60
+	skill .45
 	aggression .40
 	awareness .65
 	color 120
@@ -39,7 +39,7 @@
 	name Fidget
 	skin bunker/fidget
 	guid cbbe6216-801e-4c53-84bc-f2de6fcc3e1c
-	skill .55
+	skill .37
 	aggression .65
 	awareness .40
 	color 150
@@ -51,7 +51,7 @@
 	name Hax
 	skin bunker/hax
 	guid a66cc25d-e234-4f8d-98b5-7cc4d34ea067
-	skill .35
+	skill .10
 	aggression .80
 	awareness .35
 	color 135
@@ -63,7 +63,7 @@
 	name Captain
 	skin captain/default
 	guid f1867a5c-75cd-4825-be08-2f036d2325d5
-	skill .50
+	skill .33
 	aggression .70
 	awareness .45
 	color 330
@@ -75,7 +75,7 @@
 	name Caustic
 	skin caustic/default
 	guid 44e9f329-78b8-48cf-82b2-6b2deab9a7e2
-	skill .60
+	skill .49
 	aggression .40
 	awareness .80
 	color 180
@@ -87,7 +87,7 @@
 	name Creech
 	skin creech/default
 	guid 5c314256-99bc-4acf-a1aa-cca6c8628504
-	skill .40
+	skill .18
 	aggression .75
 	awareness .35
 	color 195
@@ -99,7 +99,7 @@
 	name Cruentus
 	skin cruentus/default
 	guid 9c28ccc7-485c-4f64-9114-e1b3fbf5a927
-	skill .50
+	skill .29
 	aggression .85
 	awareness .30
 	color 210
@@ -111,7 +111,7 @@
 	name Baron
 	skin dragoon/baron
 	guid 1ba330d3-6ee3-473c-9d18-bd21d29ec262
-	skill .80
+	skill .91
 	aggression .75
 	awareness .60
 	color 90
@@ -135,7 +135,7 @@
 	name Dragoon
 	skin dragoon/default
 	guid c4ad0a99-5251-42fc-bc63-2f705ce6f363
-	skill .55
+	skill .41
 	aggression .70
 	awareness .45
 	color 75
@@ -147,7 +147,7 @@
 	name Enforcer
 	skin enforcer/default
 	guid ccbb7ca1-03af-448d-b0ab-b9a496472d86
-	skill .75
+	skill .87
 	aggression .75
 	awareness .75
 	color 0
@@ -159,7 +159,7 @@
 	name Gammy
 	skin gammy/default
 	guid 62b66b49-3413-4551-8a78-31b829d3d9c0
-	skill .65
+	skill .64
 	aggression .55
 	awareness .80
 	color 225
@@ -171,7 +171,7 @@
 	name Gaunt
 	skin gaunt/default
 	guid c302fa4a-5e87-44ba-ad2f-bb5c7c4c3d56
-	skill .65
+	skill .68
 	aggression .70
 	awareness .85
 	color 240
@@ -183,7 +183,7 @@
 	name Gladiator
 	skin gladiator/default
 	guid b905851b-c639-4535-aaa6-cb6360ac8633
-	skill .65
+	skill .53
 	aggression .65
 	awareness .55
 	color 255
@@ -195,7 +195,7 @@
 	name Gork
 	skin gork/default
 	guid 9fa691aa-dc2d-49b4-a4b4-0c0fad4d755b
-	skill .40
+	skill .14
 	aggression .85
 	awareness .30
 	color 60
@@ -207,7 +207,7 @@
 	name Guard
 	skin guard/default
 	guid 19d4d35d-e19c-43b7-9bbf-cd3ecbbf88d4
-	skill .65
+	skill .56
 	aggression .60
 	awareness .55
 	color 15
@@ -219,7 +219,7 @@
 	name Gunner
 	skin guard/mgss
 	guid 42a7c448-4c4a-434a-9274-69f700b2f8b6
-	skill .70
+	skill .76
 	aggression .45
 	awareness .70
 	color 30
@@ -231,7 +231,7 @@
 	name Stroggo
 	skin guard/sggrd
 	guid 80baa7ff-2ea6-4d8e-b111-caaaf2147e8b
-	skill .45
+	skill .25
 	aggression .30
 	awareness .75
 	color 45
@@ -243,7 +243,7 @@
 	name Magdalena
 	skin magdalena/default
 	guid 2feaddd0-47f6-4457-9311-745774913ea4
-	skill .70
+	skill .80
 	aggression .45
 	awareness .75
 	color 270
@@ -255,7 +255,7 @@
 	name Mantis
 	skin mantis/default
 	guid c1100255-64db-4e34-aec7-bffc0c772a19
-	skill .70
+	skill .72
 	aggression .70
 	awareness .50
 	color 285
@@ -267,7 +267,7 @@
 	name Merc
 	skin merc/default
 	guid 9a25c51a-7b1b-496b-8316-e506b6122ec3
-	skill .75
+	skill .84
 	aggression .55
 	awareness .70
 	color 300
@@ -279,7 +279,7 @@
 	name Nitro
 	skin nitro/default
 	guid f8fdb0a8-b25c-411a-b2c2-b59b4933eea2
-	skill .45
+	skill .22
 	aggression .90
 	awareness .25
 	color 315
@@ -291,7 +291,7 @@
 	name Violator
 	skin violator/default
 	guid 17a3bcbb-e622-4736-a0c0-6c6ce64a9ee4
-	skill .80
+	skill .95
 	aggression .60
 	awareness .65
 	color 345
