@@ -241,11 +241,12 @@
  angle : Determines the opening direction of the door (up = -1, down = -2).
  health : If set, door must take damage to open.
  speed : The speed with which the door opens (default 100).
- wait : wait before returning (3 default, -1 = never return).
+ wait : Seconds before the door returns (3 default, -1 = never return). Ignored when toggle is set.
  lip : The lip remaining at end of move (default 8 units).
  sounds : The sound set for the door (0 default, 1 stone, -1 silent).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
  targetname : The target name of this entity if it is to be triggered.
+ ai_hint : Set to "trap" to mark the door as a trap, such as a floor that slides away over lava, or a crusher. The door needs a targetname. A bot in a fight walks into a touched func_button that targets it while its enemy stands on the door. A bot never opens a trap door to get past it.
 
  -------- Spawn flags --------
  start_open : The door to moves to its destination when spawned, and operates in reverse.
@@ -260,10 +261,11 @@
  health : If set, door must take damage to open.
  speed : The speed with which the door opens (default 100).
  rotation : The rotation the door will open, in degrees (default 90).
- wait : wait before returning (3 default, -1 = never return).
+ wait : Seconds before the door returns (3 default, -1 = never return). Ignored when toggle is set.
  sounds : The sound set for the door (0 default, 1 stone, -1 silent).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
  targetname : The target name of this entity if it is to be triggered.
+ ai_hint : Set to "trap" to mark the door as a trap, such as a floor that slides away over lava, or a crusher. The door needs a targetname. A bot in a fight walks into a touched func_button that targets it while its enemy stands on the door. A bot never opens a trap door to get past it.
 
  -------- Spawn flags --------
  start_open : The door to moves to its destination when spawned, and operates in reverse.
@@ -282,7 +284,7 @@
  message : An optional string printed when the door is first touched.
  health : If set, door must take damage to open.
  speed : The speed with which the door opens (default 100).
- wait : wait before returning (3 default, -1 = never return).
+ wait : Seconds before the door returns (3 default, -1 = never return).
  lip : The lip remaining at end of move (default 8 units).
  sounds : The sound set for the door (0 default, 1 stone, -1 silent).
  dmg : The damage inflicted on players who block the door as it closes (default 2).
@@ -848,6 +850,8 @@
  intensity : Light intensity as a positive scalar value (default 1).
  radius : Light radius in units (default 300).
  style : The light style, a string of characters a-z that modulate the light intensity over time (default 'zzz').
+ team : The team this light takes unset keys from: radius, color, intensity, style and drift come from the light on the same team that has team_master.
+ team_master : Makes this light the master of its team. Any value.
 */
 
 /*QUAKED misc_dust (.8 .8 .7)
@@ -856,10 +860,11 @@
  -------- Keys --------
  acceleration : The sprite acceleration (default 0 0 0).
  acceleration_spread : Per-particle random acceleration range, applied symmetrically on each axis (default 0 0 0).
- color : The sprite HSVA color as 4 decimal values (default 0 0 1 1).
+ bounce : The share of its speed a sprite keeps when it bounces off the world; 0 passes through the world (default 0). Requires cg_spritePhysics.
+ color : The sprite RGB color as 3 decimal values (default 1 1 1).
  density : The sprite density (default 1).
  dir : The sprite directional axis (0 0 0 is billboard).
- end_color : The sprite HSVA end color as 4 decimal values (default 0 0 0 0).
+ end_color : The sprite RGB end color as 3 decimal values (default 0 0 0).
  height : The sprite height. Setting this will cause size to be ignored (default 0).
  hz : The emission rate, in events-per-second (default 10).
  lifetime : The sprite lifetime in seconds (default 10).
@@ -871,9 +876,9 @@
  size_spread : Per-particle random size spread as a +/- fraction of size (default 0.1).
   size_acceleration : The sprite size acceleration (default 0).
   size_velocity : The sprite size velocity (default 0).
-  softness : The sprite softness scalar (default 1).
-  sprite : The sprite image name (default "particle1").
+  sprite : The sprite image name (default "particle").
   velocity : The sprite velocity (default 0 0 0).
+  type : A preset for the other keys, which any key set here overrides: bubbles, embers, fizz, flame or steam (default none, plain dust).
  velocity_spread : Per-particle random velocity spread, applied symmetrically on each axis (default 1 1 1).
   width : The sprite width. Setting this will cause size to be ignored (default 0).
 */
@@ -912,13 +917,11 @@
 /*QUAKED misc_portal (0 .5 .8) ?
  A brush entity showing the world as seen from the point it names. Give the face the player looks at a material declaring surface "portal"; the remaining faces are drawn normally.
 
- A portal face may be put on any brush entity, not only this one, which is why the viewpoint is named by a "portal" key rather than "target": a func_train already owes "target" to the first path_corner of its route, and a func_button to whatever it fires.
-
  The portal is not solid. To let players travel through it, place a trigger_teleporter behind the portal face, so that they cross the face before the trigger fires.
 
  -------- Keys --------
  phong : The Phong shading threshold for this model, in degrees (default 60).
- portal : The info_null or misc_teleporter_dest this portal views the world from. Required. A misc_teleporter_dest is viewed from its origin and angles, raised to standing eye height.
+ portal : The info_null or misc_teleporter_dest this portal views the world from. Required. A misc_teleporter_dest is viewed from its origin and angles, raised to standing eye height, so a portal beside a teleporter shows where it leads without a second entity. Named portal rather than target so that a portal face may be put on an entity that already owes target to its own class, such as a func_train or a func_button.
 */
 
 /*QUAKED misc_sound (1 0 1) (-8 -8 -8) (8 8 8)
@@ -946,11 +949,12 @@
 
  -------- Keys --------
  acceleration : The sprite acceleration (default 0 0 0).
- color : The sprite HSVA color as 4 decimal values (default 0 0 1 1).
+ bounce : The share of its speed a sprite keeps when it bounces off the world; 0 passes through the world (default 0). Requires cg_spritePhysics.
+ color : The sprite RGB color as 3 decimal values (default 1 1 1).
  count : The count of sprites to emit per emission (default 1).
  dir : The sprite directional axis (0 0 0 is billboard).
  drift : The factor of randomized drift applied to the emission rate (default 3).
- end_color : The sprite HSVA end color as 4 decimal values (default 0 0 0 0).
+ end_color : The sprite RGB end color as 3 decimal values (default 0 0 0).
  height : The sprite height. Setting this will cause size to be ignored (default 0).
  hz : The emission rate, in events-per-second (default 0.5).
  lifetime : The sprite lifetime in seconds (default 10).
@@ -960,8 +964,7 @@
  size : The sprite size (default 1).
  size_acceleration : The sprite size acceleration (default 0).
  size_velocity : The sprite size velocity (default 0).
- softness : The sprite softness scalar (default 1).
- sprite : The sprite image name (default "particle1").
+ sprite : The sprite image name (default "particle").
  team : The team name. Mixes this entity's sprite properties with the next misc_sprite sharing the same team key (chain order, not a full group). The last entity in the chain has no successor and emits unmixed.
  velocity : The sprite velocity (default 0 0 0).
  width : The sprite width. Setting this will cause size to be ignored (default 0).
@@ -985,7 +988,7 @@
 
  -------- Keys --------
  target : The misc_teleporter_dest to warp players to. Required.
- sound : Sound to play at the teleporter and destination on use (default "misc/teleport").
+ sound : The sound to play at the teleporter and destination on use (default "misc/teleport").
 
  -------- Spawn flags --------
  no_effects : Suppress the default teleporter particle effects.
@@ -1027,8 +1030,8 @@
  and the train faces the leg it travelled to get here, which is usually what you want.
 
  -------- Spawn flags --------
- teleport : The train jumps to this corner rather than travelling to it, and carries straight on
- to this corner's own target. Combine with a looping route to send a train back to its start:
+ teleport : The train jumps to this corner rather than travelling to it, taking the corner's angles
+ if it has them, or else facing its next corner, and carries straight on to this corner's own target. Combine with a looping route to send a train back to its start:
  flag the first corner teleport and no_effects, and give the last corner a wait and a target back
  to it. Riders are not carried through the jump, and the mapper is responsible for hiding both
  corners from view.
@@ -2126,7 +2129,7 @@
 
  -------- Keys --------
  angles : The direction to push the player in "pitch yaw roll" notation (e.g. -80 270 0).
- sound : The sound effect to play when the player is pushed (default "common/jumppad").
+ sound : The sound effect to play when the player is pushed (default "trigger/push").
  speed : The speed with which to push the player (default 100).
  targetname : The target name of this entity, if it is to be triggered.
 
