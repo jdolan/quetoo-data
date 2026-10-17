@@ -1,0 +1,5 @@
+{
+	diffusemap players/brianna/default_h
+	tintmap.tint_b_default 0.743 0.713 0.787
+	normalmap players/brianna/default_h_norm
+}
