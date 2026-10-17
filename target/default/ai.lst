@@ -12,100 +12,16 @@
 # pants       The pants tint, as six hex digits. Unset, it is random.
 
 {
-	name Enforcer
-	skin enforcer/default
-	guid ccbb7ca1-03af-448d-b0ab-b9a496472d86
-	skill .75
-	aggression .75
-	awareness .75
-	color 0
-	helmet f2b6b6
-	shirt d93636
-	pants 388c8c
-}
-{
-	name Guard
-	skin guard/default
-	guid 19d4d35d-e19c-43b7-9bbf-cd3ecbbf88d4
+	name Bldseekr
+	skin bloodseeker/default
+	guid 928314d3-7eff-463a-ba7b-a0e5348034df
 	skill .65
-	aggression .60
-	awareness .55
-	color 15
-	helmet f2c5b6
-	shirt d95f36
-	pants 38778c
-}
-{
-	name Gunner
-	skin guard/mgss
-	guid 42a7c448-4c4a-434a-9274-69f700b2f8b6
-	skill .70
-	aggression .45
+	aggression .80
 	awareness .70
-	color 30
-	helmet f2d4b6
-	shirt d98736
-	pants 38628c
-}
-{
-	name Stroggo
-	skin guard/sggrd
-	guid 80baa7ff-2ea6-4d8e-b111-caaaf2147e8b
-	skill .45
-	aggression .30
-	awareness .75
-	color 45
-	helmet f2e3b6
-	shirt d9b036
-	pants 384d8c
-}
-{
-	name Gork
-	skin gork/default
-	guid 9fa691aa-dc2d-49b4-a4b4-0c0fad4d755b
-	skill .40
-	aggression .85
-	awareness .30
-	color 60
-	helmet f2f2b6
-	shirt d9d936
-	pants 38388c
-}
-{
-	name Dragoon
-	skin dragoon/default
-	guid c4ad0a99-5251-42fc-bc63-2f705ce6f363
-	skill .55
-	aggression .70
-	awareness .45
-	color 75
-	helmet e3f2b6
-	shirt b0d936
-	pants 4d388c
-}
-{
-	name Baron
-	skin dragoon/baron
-	guid 1ba330d3-6ee3-473c-9d18-bd21d29ec262
-	skill .80
-	aggression .75
-	awareness .60
-	color 90
-	helmet d4f2b6
-	shirt 87d936
-	pants 62388c
-}
-{
-	name Bastard
-	skin dragoon/bastard
-	guid cbb2fb55-72fc-4242-aa5b-ff9d5f056883
-	skill .99
-	aggression .99
-	awareness .99
-	color 105
-	helmet c5f2b6
-	shirt 5fd936
-	pants 77388c
+	color 165
+	helmet b6f2e3
+	shirt 36d9b0
+	pants 8c384d
 }
 {
 	name Bunker
@@ -120,18 +36,6 @@
 	pants 8c388c
 }
 {
-	name Hax
-	skin bunker/hax
-	guid a66cc25d-e234-4f8d-98b5-7cc4d34ea067
-	skill .35
-	aggression .80
-	awareness .35
-	color 135
-	helmet b6f2c5
-	shirt 36d95f
-	pants 8c3877
-}
-{
 	name Fidget
 	skin bunker/fidget
 	guid cbbe6216-801e-4c53-84bc-f2de6fcc3e1c
@@ -144,16 +48,28 @@
 	pants 8c3862
 }
 {
-	name Bldseekr
-	skin bloodseeker/default
-	guid 928314d3-7eff-463a-ba7b-a0e5348034df
-	skill .65
+	name Hax
+	skin bunker/hax
+	guid a66cc25d-e234-4f8d-98b5-7cc4d34ea067
+	skill .35
 	aggression .80
-	awareness .70
-	color 165
-	helmet b6f2e3
-	shirt 36d9b0
-	pants 8c384d
+	awareness .35
+	color 135
+	helmet b6f2c5
+	shirt 36d95f
+	pants 8c3877
+}
+{
+	name Captain
+	skin captain/default
+	guid f1867a5c-75cd-4825-be08-2f036d2325d5
+	skill .50
+	aggression .70
+	awareness .45
+	color 330
+	helmet f2b6d4
+	shirt d93687
+	pants 388c62
 }
 {
 	name Caustic
@@ -192,6 +108,54 @@
 	pants 8c6238
 }
 {
+	name Baron
+	skin dragoon/baron
+	guid 1ba330d3-6ee3-473c-9d18-bd21d29ec262
+	skill .80
+	aggression .75
+	awareness .60
+	color 90
+	helmet d4f2b6
+	shirt 87d936
+	pants 62388c
+}
+{
+	name Bastard
+	skin dragoon/bastard
+	guid cbb2fb55-72fc-4242-aa5b-ff9d5f056883
+	skill .99
+	aggression .99
+	awareness .99
+	color 105
+	helmet c5f2b6
+	shirt 5fd936
+	pants 77388c
+}
+{
+	name Dragoon
+	skin dragoon/default
+	guid c4ad0a99-5251-42fc-bc63-2f705ce6f363
+	skill .55
+	aggression .70
+	awareness .45
+	color 75
+	helmet e3f2b6
+	shirt b0d936
+	pants 4d388c
+}
+{
+	name Enforcer
+	skin enforcer/default
+	guid ccbb7ca1-03af-448d-b0ab-b9a496472d86
+	skill .75
+	aggression .75
+	awareness .75
+	color 0
+	helmet f2b6b6
+	shirt d93636
+	pants 388c8c
+}
+{
 	name Gammy
 	skin gammy/default
 	guid 62b66b49-3413-4551-8a78-31b829d3d9c0
@@ -226,6 +190,54 @@
 	helmet c5b6f2
 	shirt 5f36d9
 	pants 778c38
+}
+{
+	name Gork
+	skin gork/default
+	guid 9fa691aa-dc2d-49b4-a4b4-0c0fad4d755b
+	skill .40
+	aggression .85
+	awareness .30
+	color 60
+	helmet f2f2b6
+	shirt d9d936
+	pants 38388c
+}
+{
+	name Guard
+	skin guard/default
+	guid 19d4d35d-e19c-43b7-9bbf-cd3ecbbf88d4
+	skill .65
+	aggression .60
+	awareness .55
+	color 15
+	helmet f2c5b6
+	shirt d95f36
+	pants 38778c
+}
+{
+	name Gunner
+	skin guard/mgss
+	guid 42a7c448-4c4a-434a-9274-69f700b2f8b6
+	skill .70
+	aggression .45
+	awareness .70
+	color 30
+	helmet f2d4b6
+	shirt d98736
+	pants 38628c
+}
+{
+	name Stroggo
+	skin guard/sggrd
+	guid 80baa7ff-2ea6-4d8e-b111-caaaf2147e8b
+	skill .45
+	aggression .30
+	awareness .75
+	color 45
+	helmet f2e3b6
+	shirt d9b036
+	pants 384d8c
 }
 {
 	name Magdalena
@@ -274,18 +286,6 @@
 	helmet f2b6e3
 	shirt d936b0
 	pants 388c4d
-}
-{
-	name Captain
-	skin captain/default
-	guid f1867a5c-75cd-4825-be08-2f036d2325d5
-	skill .50
-	aggression .70
-	awareness .45
-	color 330
-	helmet f2b6d4
-	shirt d93687
-	pants 388c62
 }
 {
 	name Violator
