@@ -7,6 +7,7 @@
 "_tb_textures" "textures/common;textures/quake2"
 "ambient" "0.2"
 "message" "^3The Pits^7"
+"min_clients" "8"
 "model" "*0"
 "sky" "khaki"
 "version" "1.0.2"

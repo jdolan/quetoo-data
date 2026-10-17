@@ -7,6 +7,7 @@
 "_tb_textures" "textures/common;textures/decals;textures/effects;textures/prototype;textures/quake2"
 "ambient" "0.125"
 "message" "^1The ^3Frag ^1Pipe^7"
+"min_clients" "6"
 "model" "*0"
 "sky" "habp"
 "version" "1.0.6"

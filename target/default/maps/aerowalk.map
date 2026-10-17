@@ -6,6 +6,7 @@
 "_tb_textures" "textures/aerowalk;textures/common;textures/effects;textures/padbase;textures/q4power;textures/quake2"
 "ambient" ".5"
 "message" "Aerowalk"
+"min_clients" "4"
 "model" "*0"
 "sky" "atsea"
 // brush 0

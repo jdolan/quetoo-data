@@ -9,6 +9,7 @@
 "items" "quake"
 "message" "^1T^7he ^1D^7arker ^1Z^7one"
 "author" "Remake by jdolan"
+"min_clients" "4"
 "sky" "sky1"
 "version" "1.0.6"
 // brush 0

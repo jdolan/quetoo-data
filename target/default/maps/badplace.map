@@ -7,6 +7,7 @@
 "_tb_textures" "textures/common;textures/prototype;textures/quake"
 "ambient" "0.25"
 "message" "^7The ^4Bad ^8Place^7"
+"min_clients" "4"
 "model" "*0"
 "sky" "nebula1"
 "author" "Remake by jdolan"

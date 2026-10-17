@@ -10,6 +10,7 @@
 "hook" "1"
 "items" "quake"
 "message" "Chthon's House of Madness"
+"min_clients" "8"
 "sky" "dragonheart"
 "version" "1.0.28"
 // brush 0

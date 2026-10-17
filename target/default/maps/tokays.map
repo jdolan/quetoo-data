@@ -5,6 +5,7 @@
 "classname" "worldspawn"
 "ambient" "1"
 "message" "^4T^7okay's ^4T^7owers"
+"min_clients" "6"
 "model" "*0"
 "sky" "acheron"
 "version" "1.0.1"

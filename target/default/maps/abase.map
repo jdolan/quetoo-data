@@ -10,6 +10,7 @@
 "games" "dm tdm"
 "items" "quake"
 "message" "^7The ^2Abandoned ^3Base^7"
+"min_clients" "8"
 "sky" "miramar"
 "version" "1.0.16"
 // brush 0

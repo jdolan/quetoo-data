@@ -1,4 +1,4 @@
-eb62cb1fe9882cf1317181af1f72e305 6888574 maps/aghast.bsp
+2098fdf165dd3e55bce89033255d3af9 6888593 maps/aghast.bsp
 864dd5e948e5c8008f0cb655b94eeb57 4885000 mapshots/aghast/aghast1.jpg
 53307bf18e0b9b4dac02bb3ac2cf639e 5544237 mapshots/aghast/aghast2.jpg
 271aaad3dea14d8b1c273ac9161d833d 4112409 mapshots/aghast/aghast3.jpg

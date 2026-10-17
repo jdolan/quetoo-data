@@ -9,6 +9,7 @@
 "gameplay" "instagib"
 "hook" "1"
 "message" "Rounding Error"
+"min_clients" "6"
 "sky" "midnight_silence"
 "version" "1.0.13"
 "games" "instagib"

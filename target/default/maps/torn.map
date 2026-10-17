@@ -6,6 +6,7 @@
 "_tb_textures" "textures;textures/comm;textures/common;textures/decals;textures/effects;textures/lun3dm3;textures/q4power;textures/quake2"
 "ambient" "0.3"
 "message" "^2T^7orn ^2G^7lory"
+"min_clients" "5"
 "sky" "phobos"
 "weather" "rain"
 "version" "1.0.10"

@@ -10,6 +10,7 @@
 "items" "quake"
 "mapversion" "220"
 "message" "Another Place of Two Deaths"
+"min_clients" "4"
 "model" "*0"
 "sky" "sky1"
 "version" "1.0.4"

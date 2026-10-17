@@ -9,6 +9,7 @@
 "author" "Skies912"
 "games" "dm duel instagib"
 "message" "Longest Yard of Chaos"
+"min_clients" "8"
 "model" "*0"
 "sky" "purple_chaos"
 "version" "1.6.3"

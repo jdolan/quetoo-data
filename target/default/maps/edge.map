@@ -7,6 +7,7 @@
 "_tb_textures" "textures/common;textures/decals;textures/effects;textures/quake2"
 "ambient" "0.6"
 "message" "The Edge"
+"min_clients" "8"
 "model" "*0"
 "sky" "dragonheart"
 "version" "1.0.9"

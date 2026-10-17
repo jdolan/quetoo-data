@@ -6,6 +6,7 @@
 "_tb_textures" "textures/common;textures/decals;textures/effects;textures/prototype;textures/quake2"
 "ambient" "0.15"
 "message" "The WareHouse"
+"min_clients" "8"
 "model" "*0"
 "sky" "atsea"
 "version" "1.0.5"

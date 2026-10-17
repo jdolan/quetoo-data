@@ -6,6 +6,7 @@
 "classname" "worldspawn"
 "_tb_textures" "textures/common;textures/ctf;textures/decals;textures/diesirae;textures/effects;textures/evil;textures/padbase;textures/pk01;textures/pk02;textures/prototype;textures/quake2;textures/quake3/base_trim;textures/quake3/effects;textures/quake3/gothic_block;textures/quake3/gothic_trim;textures/trak4;textures/trak5;textures/trak6;textures/trak7"
 "message" "Campgrounds"
+"min_clients" "8"
 "sky" "acheron"
 "author" "Q3DM6 Remake by Skies912"
 "version" "1.0.0"

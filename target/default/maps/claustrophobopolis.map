@@ -9,6 +9,7 @@
 "author" "Remake by jdolan"
 "items" "quake"
 "message" "^1Claustro^8phobopolis^7"
+"min_clients" "6"
 "model" "*0"
 "sky" "sky1"
 "version" "1.0.12"

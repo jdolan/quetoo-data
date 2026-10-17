@@ -9,6 +9,7 @@
 "author" "Skies912"
 "give" "shotgun"
 "message" "Fraggin Bricks"
+"min_clients" "8"
 "sky" "dustball2"
 "version" "1.1.11"
 // brush 0

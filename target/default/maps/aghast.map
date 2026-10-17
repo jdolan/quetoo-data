@@ -9,6 +9,7 @@
 "author" "Vondur"
 "items" "quake"
 "message" "^3Aghast^7 by ^1Vondur^7"
+"min_clients" "5"
 "model" "*0"
 "sky" "aghast"
 "version" "1.0.1"

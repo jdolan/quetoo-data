@@ -1,4 +1,4 @@
-27da912242cc1d9161900a2495f811cb 19665598 maps/abase.bsp
+c42f275ceeedad6e337ad9592a503db5 19665617 maps/abase.bsp
 3b5abc96ed5330eb7478c3e7912d101b 2660462 mapshots/abase/quetoo001.jpg
 97ef68c5d030e7a0d49e6c9022aad638 170339 mapshots/abase/quetoo002.jpg
 f52f54b81409d80ac5fbbcdeec1e56af 5023871 mapshots/abase/quetoo003.jpg

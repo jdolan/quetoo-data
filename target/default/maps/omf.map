@@ -7,6 +7,7 @@
 "ambient" "0.333"
 "author" "Panjoo"
 "message" "^3O^2ne ^3M^2ust ^3F^2all^7 by ^3P^2anjoo"
+"min_clients" "4"
 "model" "*0"
 "sky" "acheron"
 "version" "1.0.4"

@@ -7,6 +7,7 @@
 "ambient" "0.5"
 "items" "quake"
 "message" "^3The ^8Cistern^7"
+"min_clients" "5"
 "model" "*0"
 "sky" "nebula2"
 "version" "1.0.6"

@@ -7,6 +7,7 @@
 "_tb_textures" "textures/common;textures/quake2"
 "ambient" "0.5"
 "message" "^1L^7ost ^1H^7allways"
+"min_clients" "8"
 "model" "*0"
 "sky" "violentdays"
 // brush 0

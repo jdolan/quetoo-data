@@ -6,6 +6,7 @@
 "_tb_textures" "textures/common;textures/ctf;textures/decals;textures/effects;textures/quake2"
 "ambient" "0.333"
 "message" "^1The Rage^7 by ^2ztn^7"
+"min_clients" "4"
 "model" "*0"
 "sky" "moonfull"
 // brush 0
