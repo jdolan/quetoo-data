@@ -1,4 +1,4 @@
-f9127f3047fcf59cd768870d5f60e493 4991 ai.lst
+de913cc4ca48ff484f8d13d06925cefc 4991 ai.lst
 46315d3c415338d8cb384e7fd00e569c 14507 decals/blood_0.png
 50cb144360a2d11a10657de63587fb0a 13172 decals/blood_1.png
 08960da8c149d3a4d87d97de646853d4 8709 decals/blood_2.png
@@ -1729,11 +1729,11 @@ ac97ca6ba9e61763904cba0d8de87821 47645 players/violator/magic2.jpg
 eb32a4edb32d18690d4c003c3a7c84a2 2462692 players/violator/upper.md3
 db92c107ecdb709c9369adc3fb9c17c7 31 players/violator/world.cfg
 6f7b81da39c358825afcab61ef9c2245 3797 scripts/default_project.proj
-348c0d886f973c8cbe8614c9ad3bcaea 120974 scripts/entities.def
+96b986cc5268bd14234595ec4a453bc7 121015 scripts/entities.def
 2dacd278744e75ce3c66a4de9382f029 7 scripts/shaderlist.txt
 ab3beeb78f54f1c8eeb22f5217bf30d1 8179 scripts/trenchbroom/Quetoo/GameConfig.cfg
 3aa1e0296c8357875feded038afed8f2 1855 scripts/trenchbroom/Quetoo/Icon.png
-456792487f3f747e0060a7f133608420 59564 scripts/trenchbroom/Quetoo/Quetoo.fgd
+103eccd078693ed1c4cdb083367b86d4 59605 scripts/trenchbroom/Quetoo/Quetoo.fgd
 60944791079503010618b669a310d51c 128367 sky/acheron.jpg
 1f22ae1dd4222303ab896d151fa61702 110399 sky/aghast.jpg
 c53efff9f3c4fa4c19cd0ffb0135a82f 304070 sky/atsea.jpg
