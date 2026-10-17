@@ -1,0 +1,48 @@
+# The Quake practice ladder: every practice match, one entity of keys each, in the map list
+# format. The Practice tab shows one row of tiles for each tier, in the order of this file.
+#
+# tier        The tier, from 1, which groups entries into rows (required).
+# name        The map (required).
+# ai          The AI players, by name and separated by spaces (required).
+# frag_limit  The frag limit. Unset, the level's applies. Every entry sets 20, so that a match
+#             is short and players advance quickly.
+# time_limit  The time limit in minutes. Unset, the level's applies.
+#
+# Three tiers: eight players in tier 1, four in tier 2, and 1v1 in tier 3.
+
+{
+	tier 1
+	name 2deaths
+	frag_limit 20
+	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
+}
+{
+	tier 1
+	name cistern
+	frag_limit 20
+	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
+}
+{
+	tier 2
+	name abase
+	frag_limit 20
+	ai "Gaunt Magdalena Merc"
+}
+{
+	tier 2
+	name claustrophobopolis
+	frag_limit 20
+	ai "Gaunt Magdalena Merc"
+}
+{
+	tier 3
+	name badplace
+	frag_limit 20
+	ai "Violator"
+}
+{
+	tier 3
+	name darkzone
+	frag_limit 20
+	ai "Bastard"
+}

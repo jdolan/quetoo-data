@@ -1,5 +1,5 @@
-# The practice ladder: every practice match, one entity of keys each, in the map list format.
-# The Practice tab shows one row of tiles for each tier, in the order of this file.
+# The default practice ladder: every practice match, one entity of keys each, in the map list
+# format. The Practice tab shows one row of tiles for each tier, in the order of this file.
 #
 # tier        The tier, from 1, which groups entries into rows (required).
 # name        The map (required).
