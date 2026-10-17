@@ -8204,6 +8204,7 @@
 "model" "*1"
 "speed" "350"
 "targetname" "itsatrap"
+"ai_hint" "trap"
 // brush 0
 {
 ( -808 380 -312 ) ( -808 388 -144 ) ( -808 380 -144 ) quake2/lead1_3 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 0.5 0.5
