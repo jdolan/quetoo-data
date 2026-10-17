@@ -1744,9 +1744,9 @@ ac97ca6ba9e61763904cba0d8de87821 47645 players/violator/magic2.jpg
 2fa49034cd668a892f506d3272aa4ff4 134 players/violator/magic2.mat
 eb32a4edb32d18690d4c003c3a7c84a2 2462692 players/violator/upper.md3
 db92c107ecdb709c9369adc3fb9c17c7 31 players/violator/world.cfg
-ab49b1834761ca4e28f59e41d510bcf0 2622 practice-default.lst
-bbfa93165d417f67116bcf34e62d6460 1109 practice-quake.lst
-8ebe5d02332f8e0f681e97d04a393e67 1311 practice-quake2.lst
+e31e3aba6b34cf7c2f1de5115a255e30 2720 practice-default.lst
+cacdcf29defb7158bedce71552164ca6 1206 practice-quake.lst
+9938bda457c0f5f1749dcba0477fed4c 1411 practice-quake2.lst
 6f7b81da39c358825afcab61ef9c2245 3797 scripts/default_project.proj
 96b986cc5268bd14234595ec4a453bc7 121015 scripts/entities.def
 2dacd278744e75ce3c66a4de9382f029 7 scripts/shaderlist.txt
