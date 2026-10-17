@@ -1,6 +1,7 @@
 # The default practice ladder: every practice match, one entity of keys each, in the map list
 # format. The Practice tab shows one row of tiles for each tier, in the order of this file.
 #
+# title       The ladder's name in the Practice tab, in an entity of its own.
 # tier        The tier, from 1, which groups entries into rows (required).
 # name        The map (required).
 # ai          The AI players, by name and separated by spaces (required).
@@ -11,6 +12,9 @@
 # The lower tiers play larger maps against more, weaker AI players: eight in tier 1, then six,
 # four and two. Each AI player belongs to one tier. The top tier is 1v1.
 
+{
+	title "Quetoo"
+}
 {
 	tier 1
 	name fraggin

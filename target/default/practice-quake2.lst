@@ -1,6 +1,7 @@
 # The Quake II practice ladder: every practice match, one entity of keys each, in the map list
 # format. The Practice tab shows one row of tiles for each tier, in the order of this file.
 #
+# title       The ladder's name in the Practice tab, in an entity of its own.
 # tier        The tier, from 1, which groups entries into rows (required).
 # name        The map (required).
 # ai          The AI players, by name and separated by spaces (required).
@@ -10,6 +11,9 @@
 #
 # Three tiers: eight players in tier 1, four in tier 2, and 1v1 in tier 3.
 
+{
+	title "Quake II"
+}
 {
 	tier 1
 	name hallways
