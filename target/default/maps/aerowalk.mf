@@ -1,4 +1,4 @@
-bdbb6399317db77d27e6685a02ebc365 7059731 maps/aerowalk.bsp
+75cff82c94338ed0266676cc3d2a8162 7059823 maps/aerowalk.bsp
 cccca2095d99897d571aa4cb5304b4c8 218881 mapshots/aerowalk/quetoo080.jpg
 4cdfd52234f37f9f698c846929ab24df 229670 mapshots/aerowalk/quetoo081.jpg
 10c47326b7ec01ce803a2f2c24eebfd1 290835 mapshots/aerowalk/quetoo082.jpg
@@ -54,10 +54,11 @@ cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
-318a6ccdc992bacd45ca6079e6e0c221 163522 textures/padbase/padbase.png
+2df641d5c817c353683da999c9a32465 111131 textures/padbase/padbase.png
+59f417af38fd6830821430e5aeb48d10 105839 textures/padbase/padbase_norm.png
 f9b471dcb96cdd2a15c68b6afc4ea24e 9521 textures/padbase/padfx-cyan.jpg
-c0c358f566b37b4a8687c8936671fbe6 380 textures/padbase/padfx-cyan.mat
-4d60ab72cc80140fdc23ac7b1b75a67a 24432 textures/padbase/padfx-iris-cyan.png
+b506bb3333e728f476c419f769ebd0b5 411 textures/padbase/padfx-cyan.mat
+086ea395bb33025d408224373a786216 37614 textures/padbase/padfx-iris-cyan.png
 139f7559b4cbefa02af5ca889a783d25 46 textures/prototype/grid.mat
 5ab934b4234ebfe0396313e425cdb356 3584 textures/prototype/grid.png
 699cc6c8ff40bb006eb8ea166d6f86a8 857 textures/prototype/grid_norm.png

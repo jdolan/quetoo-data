@@ -1,7 +1,7 @@
 eb62cb1fe9882cf1317181af1f72e305 6888574 maps/aghast.bsp
-f9f045c1738a99810c1cddc8817599a5 275072 mapshots/aghast/quetoo012.jpg
-9244fe27b99ffb58ff1de02ba94836db 322159 mapshots/aghast/quetoo013.jpg
-5c26c8c36c62d66c030da9df01edbdd1 300993 mapshots/aghast/quetoo014.jpg
+864dd5e948e5c8008f0cb655b94eeb57 4885000 mapshots/aghast/aghast1.jpg
+53307bf18e0b9b4dac02bb3ac2cf639e 5544237 mapshots/aghast/aghast2.jpg
+271aaad3dea14d8b1c273ac9161d833d 4112409 mapshots/aghast/aghast3.jpg
 1f22ae1dd4222303ab896d151fa61702 110399 sky/aghast.jpg
 41e29703e6f00946fa59b22c88f083cf 420602 sounds/ambient/drip_1.wav
 4e78bf1ce12c937109afaf5e0cc8e66e 41496 sounds/ambient/drip_2.wav

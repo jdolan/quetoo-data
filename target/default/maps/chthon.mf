@@ -1,4 +1,4 @@
-2a99610681abd0ba223fdf3bbbcfebd1 28378589 maps/chthon.bsp
+8b51139446673f3b25c781b8d9c21f0d 28487401 maps/chthon.bsp
 eb01a62943d8de39d1cc71ec86080492 167477 mapshots/chthon/quetoo084.jpg
 d577d529b30c0b40a30ed234498f7c36 166484 mapshots/chthon/quetoo085.jpg
 49c3ebd4aa76cfd88292e3d13e14eb91 180052 mapshots/chthon/quetoo086.jpg
@@ -265,12 +265,12 @@ c42c76885913962cde122beabb0477c1 204 textures/quake/rune2_5.mat
 020f5df9bd544d388f9c2aff70109116 3461 textures/quake/rune2_5_luma.jpg
 9c7c4cece173bcab6aedcb1ea20a6060 11825 textures/quake/rune_pad.jpg
 3e2acd74b3745a76ab45a8bf24780574 12024 textures/quake/rune_pad1.jpg
-e77080e6f94acb6c5be983b0d5ef5b43 194 textures/quake/rune_pad1.mat
+8a4b01d5a65f7bef18c0d5f4632f17e0 326 textures/quake/rune_pad1.mat
 d2255ca098ffe23cd907ae10c030cac6 7648 textures/quake/rune_pad1_glow.png
 2f8f6c2a71d0e1a9c56de0443be93219 20986 textures/quake/rune_pad1_norm.png
 7679e2395605f0d89f40ff7f02c34d82 12094 textures/quake/rune_pad1_spec.jpg
 f3c119fefdaa6581f79d49155f379a67 11988 textures/quake/rune_pad2.jpg
-2ba9e602e6817676afbc7d5523d11088 194 textures/quake/rune_pad2.mat
+77eeb464a755b2cdebc131ece953c914 326 textures/quake/rune_pad2.mat
 41ef1dbbea3cbefa73b5a1d099b7b227 8398 textures/quake/rune_pad2_glow.png
 3d27c2f23ef72f2fb9e320bed3f81eef 20524 textures/quake/rune_pad2_norm.png
 f8d3df8c0d4e392649dca8dde93c9d12 12112 textures/quake/rune_pad2_spec.jpg

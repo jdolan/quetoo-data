@@ -1,8 +1,8 @@
-b670a3eb17255bdf367eb74405022dfc 19657756 maps/abase.bsp
-9bba06fe7223bcd1d20711bdd950d547 127700 mapshots/abase/quetoo001.jpg
+27da912242cc1d9161900a2495f811cb 19665598 maps/abase.bsp
+3b5abc96ed5330eb7478c3e7912d101b 2660462 mapshots/abase/quetoo001.jpg
 97ef68c5d030e7a0d49e6c9022aad638 170339 mapshots/abase/quetoo002.jpg
-813d9338cfcf1ef90e0963faa59b803c 202442 mapshots/abase/quetoo003.jpg
-1c6c92ccd65292817edbc58ea0bd9b28 138250 mapshots/abase/quetoo004.jpg
+f52f54b81409d80ac5fbbcdeec1e56af 5023871 mapshots/abase/quetoo003.jpg
+ed9849965032db1f2907757b7e354286 3882959 mapshots/abase/quetoo004.jpg
 291b149e5ec04d489b52ac44848a1f92 12037 models/mapobjects/fern/fern.obj
 5362fa11da0a19f1dfcd27b524b9c0e9 147 models/mapobjects/fern/skin.mat
 639c77d8181df5cd142d01b36d01d643 226318 models/mapobjects/fern/skin.png
@@ -64,9 +64,11 @@ ca07af76aa4073cc7161b872c9fbe69d 88189 textures/evil/e8_mtlwall1.jpg
 433c1459ecf88c6a2bc7a1538634dfb3 10023 textures/evil/e8trimlight2_red.blend.jpg
 6fa0e07c8e3df2fa590934109830c523 18679 textures/evil/e8trimlight2_red.jpg
 0b116978f9f2945e7858955157792bff 240 textures/evil/e8trimlight2_red.mat
-d67b222574925d1edd7f21124b52f693 78 textures/padbase/padbase.mat
-318a6ccdc992bacd45ca6079e6e0c221 163522 textures/padbase/padbase.png
+2df641d5c817c353683da999c9a32465 111131 textures/padbase/padbase.png
 59f417af38fd6830821430e5aeb48d10 105839 textures/padbase/padbase_norm.png
+f9b471dcb96cdd2a15c68b6afc4ea24e 9521 textures/padbase/padfx-cyan.jpg
+b506bb3333e728f476c419f769ebd0b5 411 textures/padbase/padfx-cyan.mat
+086ea395bb33025d408224373a786216 37614 textures/padbase/padfx-iris-cyan.png
 139f7559b4cbefa02af5ca889a783d25 46 textures/prototype/grid.mat
 5ab934b4234ebfe0396313e425cdb356 3584 textures/prototype/grid.png
 699cc6c8ff40bb006eb8ea166d6f86a8 857 textures/prototype/grid_norm.png
