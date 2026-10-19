@@ -46,6 +46,12 @@
 	ai "Gaunt Magdalena Merc"
 }
 {
+	tier 2
+	name aghast
+	frag_limit 20
+	ai "Gaunt Magdalena Merc"
+}
+{
 	tier 3
 	name badplace
 	frag_limit 20
