@@ -1,0 +1,65 @@
+# The Duel practice ladder: every practice match, one entity of keys each, in the map list
+# format. The Practice tab shows one row of tiles for each tier, in the order of this file.
+#
+# title       The ladder's name in the Practice tab, in an entity of its own.
+# gameplay    The gameplay of every match, in the title entity. Unset, the player chooses.
+# tier        The tier, 1 to 3, which groups entries into rows of at most 4 (required).
+# name        The map (required).
+# ai          The AI players, by name and separated by spaces (required).
+# frag_limit  The frag limit. Unset, the level's applies. Every entry sets 20, so that a match
+#             is short and players advance quickly.
+# time_limit  The time limit in minutes. Unset, the level's applies.
+#
+# Every match is 1v1, against one AI player for each tier.
+
+{
+	title "Duel"
+}
+{
+	tier 1
+	name 2deaths
+	frag_limit 20
+	ai Enforcer
+}
+{
+	tier 1
+	name badplace
+	frag_limit 20
+	ai Enforcer
+}
+{
+	tier 1
+	name darkzone
+	frag_limit 20
+	ai Enforcer
+}
+{
+	tier 2
+	name edge
+	frag_limit 20
+	ai Guard
+}
+{
+	tier 2
+	name fragpipe
+	frag_limit 20
+	ai Guard
+}
+{
+	tier 2
+	name rage
+	frag_limit 20
+	ai Guard
+}
+{
+	tier 3
+	name omf
+	frag_limit 20
+	ai Bastard
+}
+{
+	tier 3
+	name aerowalk
+	frag_limit 20
+	ai Bastard
+}
