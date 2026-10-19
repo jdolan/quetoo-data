@@ -1,0 +1,54 @@
+# The Instagib practice ladder: every practice match, one entity of keys each, in the map list
+# format. The Practice tab shows one row of tiles for each tier, in the order of this file.
+#
+# title       The ladder's name in the Practice tab, in an entity of its own.
+# gameplay    The gameplay of every match, in the title entity. Unset, the player chooses.
+# tier        The tier, 1 to 3, which groups entries into rows of at most 4 (required).
+# name        The map (required).
+# ai          The AI players, by name and separated by spaces (required).
+# frag_limit  The frag limit. Unset, the level's applies. Every entry sets 20, so that a match
+#             is short and players advance quickly.
+# time_limit  The time limit in minutes. Unset, the level's applies.
+#
+# Three tiers: eight players in tier 1, four in tier 2, and 1v1 in tier 3.
+
+{
+	title "Instagib"
+	gameplay instagib
+}
+{
+	tier 1
+	name chthon
+	frag_limit 20
+	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
+}
+{
+	tier 1
+	name omf
+	frag_limit 20
+	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
+}
+{
+	tier 1
+	name miner
+	frag_limit 20
+	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
+}
+{
+	tier 2
+	name rounding
+	frag_limit 20
+	ai "Caustic Gaunt Mantis"
+}
+{
+	tier 2
+	name rage
+	frag_limit 20
+	ai "Caustic Gaunt Mantis"
+}
+{
+	tier 3
+	name longyard
+	frag_limit 20
+	ai Enforcer
+}
