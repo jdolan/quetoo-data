@@ -3,7 +3,7 @@
 #
 # title       The ladder's name in the Practice tab, in an entity of its own.
 # gameplay    The gameplay of every match, in the title entity. Unset, the player chooses.
-# tier        The tier, 1 to 3, which groups entries into rows of at most 4 (required).
+# tier        The tier, 1 to 3, which groups entries into rows of at most 3 (required).
 # name        The map (required).
 # ai          The AI players, by name and separated by spaces (required).
 # frag_limit  The frag limit. Unset, the level's applies. Every entry sets 20, so that a match

@@ -3,15 +3,14 @@
 #
 # title       The ladder's name in the Practice tab, in an entity of its own.
 # gameplay    The gameplay of every match, in the title entity. Unset, the player chooses.
-# tier        The tier, 1 to 3, which groups entries into rows of at most 4 (required).
+# tier        The tier, 1 to 3, which groups entries into rows of at most 3 (required).
 # name        The map (required).
 # ai          The AI players, by name and separated by spaces (required).
 # frag_limit  The frag limit. Unset, the level's applies. Every entry sets 20, so that a match
 #             is short and players advance quickly.
 # time_limit  The time limit in minutes. Unset, the level's applies.
 #
-# The maps are those of neither the Quake nor the Quake II ladder. Three tiers: eight players in
-# tier 1, four in tier 2, and 1v1 in tier 3.
+# Three tiers: seven players in tier 1, four in tier 2, and 1v1 in tier 3.
 
 {
 	title "Quetoo"
@@ -20,25 +19,19 @@
 	tier 1
 	name fraggin
 	frag_limit 20
-	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
+	ai "Hax Gork Creech Nitro Stroggo Cruentus"
 }
 {
 	tier 1
 	name campgrounds
 	frag_limit 20
-	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
+	ai "Hax Gork Creech Nitro Stroggo Cruentus"
 }
 {
 	tier 1
 	name chthon
 	frag_limit 20
-	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
-}
-{
-	tier 1
-	name miner
-	frag_limit 20
-	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
+	ai "Hax Gork Creech Nitro Stroggo Cruentus"
 }
 {
 	tier 2
@@ -49,12 +42,6 @@
 {
 	tier 2
 	name torn
-	frag_limit 20
-	ai "Guard Bldseekr Gammy"
-}
-{
-	tier 2
-	name aghast
 	frag_limit 20
 	ai "Guard Bldseekr Gammy"
 }
