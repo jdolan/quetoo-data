@@ -1747,7 +1747,7 @@ db92c107ecdb709c9369adc3fb9c17c7 31 players/violator/world.cfg
 7cc211ddc4d4ad35002cd9a89ea9aacd 1482 practice-default.lst
 cda3290a4c3c8af876cded1f58d058bc 1264 practice-duel.lst
 1d0c2ff11d474488a706f1fcbaf5e310 1385 practice-instagib.lst
-4e248948600cde81f21289c1997428e0 1376 practice-quake.lst
+58cf02ed3e7346af2cffc1f1883587ee 1443 practice-quake.lst
 fedb8db38e8f81af8b427c3619d34851 1504 practice-quake2.lst
 6f7b81da39c358825afcab61ef9c2245 3797 scripts/default_project.proj
 96b986cc5268bd14234595ec4a453bc7 121015 scripts/entities.def
