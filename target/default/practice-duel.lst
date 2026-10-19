@@ -37,19 +37,19 @@
 	tier 2
 	name edge
 	frag_limit 20
-	ai Guard
+	ai Gunner
 }
 {
 	tier 2
 	name fragpipe
 	frag_limit 20
-	ai Guard
+	ai Gunner
 }
 {
 	tier 2
 	name rage
 	frag_limit 20
-	ai Guard
+	ai Gunner
 }
 {
 	tier 3
