@@ -2,7 +2,7 @@
 # format. The Practice tab shows one row of tiles for each tier, in the order of this file.
 #
 # title       The ladder's name in the Practice tab, in an entity of its own.
-# tier        The tier, from 1, which groups entries into rows (required).
+# tier        The tier, 1 to 3, which groups entries into rows of at most 4 (required).
 # name        The map (required).
 # ai          The AI players, by name and separated by spaces (required).
 # frag_limit  The frag limit. Unset, the level's applies. Every entry sets 20, so that a match
