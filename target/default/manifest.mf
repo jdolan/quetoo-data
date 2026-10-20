@@ -184,9 +184,9 @@ ad017965491f4f4c30dee916c8ebb5c5 9678 maps/hallways.mf
 adfd896591064fd899d2618189ce65c4 16519398 maps/lavatomb.bsp
 92081a9fba954b28bea101e48b00f315 1398703 maps/lavatomb.map
 2d26b7d7a835e6506063521b15a888b7 8984 maps/lavatomb.mf
-26d554a20fc32afd8a64676fbf2d8286 56566268 maps/longyard.bsp
-68123eb589146272e3ce030a2167bd73 1486111 maps/longyard.map
-61cf43696006122766136efa97663fef 10130 maps/longyard.mf
+3de9b2a81638fbac84738360f1023e67 51196833 maps/longyard.bsp
+bb2bf21faf00a78e092ad884c8085f7c 1563017 maps/longyard.map
+19d024411531dd4bcc8c7cc94c461270 10288 maps/longyard.mf
 53b3287a8341668ebf91740949642483 50361726 maps/miner.bsp
 25145cf0a83be36eb8c21c685bba824b 3121 maps/miner.lin
 a6fb55e3a21dfc2c7c86926d32bd4604 3591701 maps/miner.map
@@ -3683,14 +3683,14 @@ a0ad635d207eeb67715626a8bad24ea9 115 textures/catfight/u_floor.mat
 3910aa2ab2a36f71f3fe418032c01fcc 4005 textures/catfight/u_lamp3.jpg
 fe0741249f739ae78f7ed4f114ede15f 2845 textures/catfight/u_lamp3_norm.png
 bd2e959b9a27d1877d34914bd33a95f3 2566 textures/catfight/u_lamp4.jpg
-5240020981f52c6087127d8abfd5e9b4 235 textures/catfight/u_lamp4.mat
+b796a9bcc405e851c81e7c4348ae50a5 220 textures/catfight/u_lamp4.mat
 8f35babe8e7c936759716d35d265f83c 4382 textures/catfight/u_lamp4_blend.png
 f2a3e1b8f7614923c24af8338fc67b06 2450 textures/catfight/u_lamp4_blue.jpg
 75fa04351c81572e3aa9791126b5392c 1589 textures/catfight/u_lamp4_blue_norm.png
 75fa04351c81572e3aa9791126b5392c 1589 textures/catfight/u_lamp4_norm.png
 d2b7ae6604981119a0cd4da090fb2ab0 2170 textures/catfight/u_lamp_blend.jpg
 d22e175a4e16dc932c27cd406c0e0ee5 9278 textures/catfight/u_lamplong1b.jpg
-adfb1d1852c8be66be3bf118f45dba77 184 textures/catfight/u_lamplong1b.mat
+0ffb572c3c68ec999d39a71073cfff3d 236 textures/catfight/u_lamplong1b.mat
 878716247902a981b1f916fa5899ae8a 30429 textures/catfight/u_lamplong1b_fx.png
 878716247902a981b1f916fa5899ae8a 30429 textures/catfight/u_lamplong1b_fx_1.png
 00336f06f6f029a7963f9ae99c5fee57 1995 textures/catfight/u_lamplong1b_nm_1.png
@@ -4856,7 +4856,7 @@ c9c40627c524bbd5136265625cd4200e 10231 textures/gehenna/glass.png
 8bc33e8d3584da79e265bc6553d3ea9d 283 textures/gehenna/glass2.mat
 a2c923e06c940e01a6aa1b91e15d382b 10234 textures/gehenna/glass2.png
 e9a79bf19d750ca1a3dbd5960c96bd6c 4427 textures/gehenna/glass2_1.png
-fc683cdbc1b828b12c67c5ad51c8a36f 266 textures/gehenna/glass90.mat
+d90dcaecb40bdcc92a30aac92d9b86b5 182 textures/gehenna/glass90.mat
 b5e5284f2fe235e5e8b22df3baf62a95 12308 textures/gehenna/glass90.png
 e7a95871d755327ceda6db8f66f02a78 12859 textures/gehenna/light4.jpg
 9c58e1cc3a789aaedbcb9bebe2fc9676 201 textures/gehenna/light4.mat
@@ -10664,7 +10664,7 @@ b3e2a7177a237578e434ec0000046c69 31544 textures/spacectf/u_floor3_pad_6_red.jpg
 c3d6059ac3f4371853eb7a3e87754aef 44 textures/spacectf/u_floor3_pad_6_red.mat
 bd69a22587ec1f0fadd7d3d4d1d24b0b 5803 textures/spacectf/u_floor3_pad_6_red_blend.png
 959111d21a24669c6f3ef4741bdba1ac 33191 textures/spacectf/u_floor3_pad_7b.jpg
-574362f499b388c75fab1a5b14357c11 201 textures/spacectf/u_floor3_pad_7b.mat
+1b917711f710473deb64dbdb2b6ed1df 153 textures/spacectf/u_floor3_pad_7b.mat
 2c95435625e109ae013113c3394fb5c0 5665 textures/spacectf/u_floor3_pad_7b_blend.png
 56f12fb4f2162d40d89a43b6edfb675f 163173 textures/spacectf/u_floor3_pad_7b_norm.png
 50a58a530f3f1d5edd23464d47854544 33152 textures/spacectf/u_floor3_pad_7b_red.jpg
@@ -10690,7 +10690,7 @@ d7cc9ebd5ecd072523666071dc94ae3b 7844 textures/spacectf/u_lamplong1b_blue_blend.
 53a3aa7a0e46df02ddd7e117d9200361 7430 textures/spacectf/u_thinline1.jpg
 eb861b06d50dcd3f32d367cf86954185 23559 textures/spacectf/u_thinline1_norm.png
 5f3e5bb71c437bb38c08e3d1dcf59058 9221 textures/spacectf/u_trlightline_blue.jpg
-a7401cc203b6a0c108b5161040551d3d 335 textures/spacectf/u_trlightline_blue.mat
+ac7899812fd6c0f0f1c86222e5826449 335 textures/spacectf/u_trlightline_blue.mat
 9b44675f58ceb5e1f0df033c478fb90f 11987 textures/spacectf/u_trlightline_blue_blend.png
 cda6e15e8a2302bc3c05bdeeb3f6e24a 9355 textures/spacectf/u_trlightline_red.jpg
 9305135fde4bc26eeca1e6b8564f5d02 12238 textures/spacectf/u_trlightline_red_blend.png
