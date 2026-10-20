@@ -4,14 +4,12 @@
 	specularity 2.42
 	parallax 1.98
 	{
-		scale.s 1.250
-		scale.t 1.250
-		flare flare_1
-		fog 0.00
-	}
-	{
 		texture catfight/u_lamp4_blend
 		blend src_alpha one
 		color 1.00 1.00 1.00 0.85
+	}
+	{
+		color 1.00 0.85 1.00 0.75
+		flare flare_0
 	}
 }

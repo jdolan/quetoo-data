@@ -1,14 +1,13 @@
 {
 	diffusemap catfight/u_lamplong1b
-	specularity 1.5
-	parallax 1.5
-	{
-		scale.s 1.25
-		scale.t 1.25
-		flare flare_1
-	}
+	specularity 1.50
+	parallax 1.50
 	{
 		texture catfight/u_lamplong1b_fx
 		blend src_alpha one
+		color 1.00 0.76 1.00 1.00
+		light.radius 370.00
+		light.color 0.75 0.65 1.00
+		light.intensity 2.46
 	}
 }

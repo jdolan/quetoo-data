@@ -1,15 +1,10 @@
 {
 	diffusemap spacectf/u_floor3_pad_7b
-	hardness 1.5
+	hardness 1.50
 	parallax 3.25
-	{
-		scale.s 0.75
-		scale.t 0.75
-		flare flare_3
-	}
 	{
 		texture spacectf/u_floor3_pad_7b_blend
 		blend src_alpha one
-		pulse 1
+		pulse 1.00
 	}
 }

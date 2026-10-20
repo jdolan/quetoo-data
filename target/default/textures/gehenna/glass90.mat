@@ -9,11 +9,4 @@
 		blend src_alpha one
 		color 1 1 1 0.75
 	}
-	{
-		texture envmaps/envmap_2
-		envmap
-		color 1 1 1 0.2
-		scale.t 8
-		scale.s 8
-	}
 }
