@@ -7,8 +7,8 @@
 		blend src_alpha one
 		pulse 1.00
 		emissive 1.00
-		light.radius 100.00
-		light.intensity 2.50
+		light.radius 128.00
+		light.intensity 2.75
 	}
 	{
 		texture spacectf/u_trlightline_blue
