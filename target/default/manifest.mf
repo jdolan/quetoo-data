@@ -184,9 +184,9 @@ ad017965491f4f4c30dee916c8ebb5c5 9678 maps/hallways.mf
 adfd896591064fd899d2618189ce65c4 16519398 maps/lavatomb.bsp
 92081a9fba954b28bea101e48b00f315 1398703 maps/lavatomb.map
 2d26b7d7a835e6506063521b15a888b7 8984 maps/lavatomb.mf
-3de9b2a81638fbac84738360f1023e67 51196833 maps/longyard.bsp
-bb2bf21faf00a78e092ad884c8085f7c 1563017 maps/longyard.map
-19d024411531dd4bcc8c7cc94c461270 10288 maps/longyard.mf
+8963b3a405c78e93342452811a3e0daf 51744011 maps/longyard.bsp
+12356cf882ec197460c1a59eef2c015b 1675559 maps/longyard.map
+66802adac7aac21fbc1bcc7496c261e4 10352 maps/longyard.mf
 53b3287a8341668ebf91740949642483 50361726 maps/miner.bsp
 25145cf0a83be36eb8c21c685bba824b 3121 maps/miner.lin
 a6fb55e3a21dfc2c7c86926d32bd4604 3591701 maps/miner.map
@@ -10690,7 +10690,7 @@ d7cc9ebd5ecd072523666071dc94ae3b 7844 textures/spacectf/u_lamplong1b_blue_blend.
 53a3aa7a0e46df02ddd7e117d9200361 7430 textures/spacectf/u_thinline1.jpg
 eb861b06d50dcd3f32d367cf86954185 23559 textures/spacectf/u_thinline1_norm.png
 5f3e5bb71c437bb38c08e3d1dcf59058 9221 textures/spacectf/u_trlightline_blue.jpg
-ac7899812fd6c0f0f1c86222e5826449 335 textures/spacectf/u_trlightline_blue.mat
+06053ee5f9286199814535960bb8c1b8 335 textures/spacectf/u_trlightline_blue.mat
 9b44675f58ceb5e1f0df033c478fb90f 11987 textures/spacectf/u_trlightline_blue_blend.png
 cda6e15e8a2302bc3c05bdeeb3f6e24a 9355 textures/spacectf/u_trlightline_red.jpg
 9305135fde4bc26eeca1e6b8564f5d02 12238 textures/spacectf/u_trlightline_red_blend.png
