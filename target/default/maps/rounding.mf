@@ -1,7 +1,7 @@
-43f7f524bbb88c97baa6a74a0b8ee519 33166970 maps/rounding.bsp
-53f7f6f69185ff8d23886bde1dbf12fd 1022190 mapshots/rounding/shot1.jpg
-207896c68fa878df243d803a83c7291c 799774 mapshots/rounding/shot2.jpg
-6e051a171850a04e38434df3c6b9a079 778196 mapshots/rounding/shot3.jpg
+208460cc42b8eae90fce1662cc44ef42 33153094 maps/rounding.bsp
+5be7aa7c74184a57e95b398992a7bc46 123514 mapshots/rounding/rounding01.jpg
+9fe99b15d0f947e54b99cf7b3fea9cdb 112120 mapshots/rounding/rounding02.jpg
+77abaabf731edc8c493f6500597f588a 99668 mapshots/rounding/rounding03.jpg
 3c9e6b24410f76aef59c896971c43be2 586383 sky/midnight_silence.jpg
 9a832755b20df1aca0c656a7edfb09e5 34732 sprites/flare_1.png
 649ffcd19896ebe708b38f5dfb8e657c 61888 sprites/flare_2.png
@@ -21,6 +21,7 @@ cca5a3baac61dd922ba6ac6dfbc19fae 1761 textures/common/clip.png
 c330dc68ef54d8ed52f31a7e66e3ab02 27 textures/common/sky.mat
 a0feeecfbbb5815c43cfbdec4a7936d4 1972 textures/common/trigger.jpg
 d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
+0c15ecca50d058e338d6e250d1a2241b 57594 textures/envmaps/envmap_1.jpg
 16e69851c6e37b91d765a7a3bfc6abc8 11511 textures/omf/metal3_6b.jpg
 95c971286400603cbbf84bd46c7d9eef 94 textures/omf/metal3_6b.mat
 8828dd2303f70413daf52ab9e660ee22 55616 textures/omf/metal3_6b_norm.png
@@ -187,5 +188,5 @@ b8f0eac66d84f9f0a152c0e217792e85 3386 textures/quake2/trimmet2_1.jpg
 f9767f6df6041afed2bf3168e104b706 80 textures/quake2/trimmet2_1.mat
 38c5ff84c9fee5e5b937154ca14e9713 14268 textures/quake2/trimmet2_1_norm.png
 4e26ebce2b110274cca69597610ac7e0 2522 textures/quake2/trimmet2_1_spec.jpg
-acf6110c5d43911f33d931c826a02068 152 textures/quake2/wndow1_2.mat
+1aee727c5bbcbf858dfa7618a1220f5f 292 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png

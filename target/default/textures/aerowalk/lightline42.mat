@@ -1,0 +1,14 @@
+{
+	diffusemap aerowalk/lightline42
+	roughness 2.00
+	hardness 3.00
+	specularity 2.00
+	parallax 0.00
+	{
+		texture aerowalk/lightline42_glow
+		blend src_alpha one
+		color 1.50 1.50 1.50 1.00
+		pulse 1.00
+		emissive 1.00
+	}
+}

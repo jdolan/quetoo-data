@@ -1,8 +1,8 @@
-6a584ea1edaf161224b73fede5c7361b 13052085 maps/torn.bsp
-93ae2ece3072be66e19652510b10fc3c 215003 mapshots/torn/quetoo021.jpg
-8f87a1a3140a1dd9be0e1cc1fcaf501e 256261 mapshots/torn/quetoo022.jpg
-3cc6eadaf4becf5dd6a92e278ab1767a 269317 mapshots/torn/quetoo023.jpg
-64b89d09c5873e5c8099ca7b35d8c7cc 276259 mapshots/torn/quetoo024.jpg
+6d0bcaadecde4b80ede5a0eddff8fa11 13124345 maps/torn.bsp
+2716445124ce96fa5851029f0ebad5d2 172020 mapshots/torn/torn01.jpg
+350616b6f31a54ee83490946a8be763c 188252 mapshots/torn/torn02.jpg
+4c809e134e7e6c2671d165373a199e0a 182905 mapshots/torn/torn03.jpg
+7d51f5634f2584600ea7e645064c1010 155845 mapshots/torn/torn04.jpg
 2e840d775f75a0314f16966d7182927e 92710 sky/phobos.jpg
 7c1c7a676986c214894620e8f0124d76 533698 sounds/ambient/100hz.wav
 3784aebe7537ba24b08a4c9bd5f6deac 296290 sounds/ambient/amb_1.wav

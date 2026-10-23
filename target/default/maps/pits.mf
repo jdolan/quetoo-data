@@ -1,9 +1,8 @@
-a9c078ab0c290417d47064cc528c7e88 12893826 maps/pits.bsp
-fe8037ac2e689cc84798186aafc0fd92 186239 mapshots/pits/quetoo031.jpg
-f1b7b56a0295487e7be5cb4a9d7652c7 222611 mapshots/pits/quetoo032.jpg
-1ab007aba3248ff37a250ed251c52c57 184993 mapshots/pits/quetoo033.jpg
-3c5c434c28a6fc4df1bde9ecc0a8e29b 212418 mapshots/pits/quetoo034.jpg
-21f3e52dec060e329c7d6acd67dda9f7 260843 mapshots/pits/quetoo035.jpg
+40307b65cd67836297dc1b95daebb7a7 12962103 maps/pits.bsp
+a8e741baa66dff6baad7ca12fdea9b21 194295 mapshots/pits/pits01.jpg
+f53f7362802da6fb2748dfb1fbf150bc 165202 mapshots/pits/pits02.jpg
+9445c63a394c5036e51dd4c5a45812ef 184585 mapshots/pits/pits03.jpg
+223ab305cddb97a4df8fb3307f58500a 124715 mapshots/pits/pits04.jpg
 f81dd582c8a3148e826395481c9b1ef5 33959 sky/khaki.jpg
 41e29703e6f00946fa59b22c88f083cf 420602 sounds/ambient/drip_1.wav
 97c29e0cfecbbe2a200b341dd312e6f1 160412 sounds/ambient/drone_3.wav

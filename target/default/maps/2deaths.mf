@@ -1,7 +1,8 @@
-e7850551000834b5d2919cdbaf949a16 14250926 maps/2deaths.bsp
-9008535dd81e400c4dff83e643fa6bae 216659 mapshots/2deaths/quetoo003.jpg
-49034947a1767fdda10c6303a855ac71 334483 mapshots/2deaths/quetoo004.jpg
-c1d38a738283c1a42b0625e82f43bcb2 366899 mapshots/2deaths/quetoo005.jpg
+21f1d941f2f58ea759d996c64cf3fda3 14290078 maps/2deaths.bsp
+633daad02ac460d3f48d43f4667be17f 179295 mapshots/2deaths/2deaths01.jpg
+b56e464ff2ef8b759b29315ba44f57f1 170442 mapshots/2deaths/2deaths02.jpg
+e70140e71316e8be511064d428c79175 183321 mapshots/2deaths/2deaths03.jpg
+2ece49157777ec9214d64342afc19be2 155044 mapshots/2deaths/2deaths04.jpg
 934bfdf0b76abf133bb510c4bfd39e37 338643 sky/sky1.jpg
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
 ab6846eab04f23e52489df2d2e7dea1b 29 textures/common/caulk.mat
@@ -17,9 +18,9 @@ b6864410a2c073b48654e76e7a3cc868 92 textures/decals/flr3_mark.mat
 2d77da7b64413c1bd078d8a76a1d37e0 356905 textures/decals/flr3_mark.png
 f7728200d9d48be2803ba448beb13155 198 textures/decals/flr3_mark_fx-cyan.mat
 9d2c328847dfb26db530e536a4cdc53e 92330 textures/decals/flr3_mark_fx-cyan.png
-acc5cf5dd3cf27cc6c9dc12d0006d100 199 textures/decals/flr3_mark_fx-green.mat
+25cf9f011c5c5df34accd20d94fadd0c 272 textures/decals/flr3_mark_fx-green.mat
 dc5ec3ceb14c5d34b3df435059c50110 83725 textures/decals/flr3_mark_fx-green.png
-8e5bdb02b6026227914c7dc6093954bd 200 textures/decals/flr3_mark_fx-yellow.mat
+3baa56a436b8e6b651aada14a2dba150 274 textures/decals/flr3_mark_fx-yellow.mat
 47a81a9182d99e2ff99e585043c2230b 83566 textures/decals/flr3_mark_fx-yellow.png
 3a09dba6ccf8a4105d72881e1e6f7370 253413 textures/decals/flr3_mark_norm.png
 8e5b6662266c6794a92e4a9c3bba4e4e 420504 textures/effects/sky2-layer0.png
@@ -100,9 +101,9 @@ bec1c4297d5bd65a62cb9fdddb93c091 89 textures/quake/cop2_3.mat
 acdcce9f5bc9bd25f7b6084f0129ded9 174998 textures/quake/cop3_4_norm.png
 f53e222bf018d055e4847567c3bfd5cf 29101 textures/quake/cop3_4_spec.jpg
 e84063586aaffcd15adef7321f7ee69f 13268 textures/quake/dem4_1.jpg
-39914d484752c831117c40c4c953e075 196 textures/quake/dem4_1.mat
-fe8a89bd180a4f0439f5cb1cf7af5af1 72405 textures/quake/dem4_4_norm.png
+78c2d00f3bbd566b50e2f05629209879 164 textures/quake/dem4_1.mat
 515aafa81e23f69e5be9c406d234e242 6813 textures/quake/dem4_4_spec.jpg
+03763d14d13c9d67502cd7321f1ef086 106051 textures/quake/dem4_norm.png
 5c0d18000badb5c9f1ff409f8e02fbc4 2673 textures/quake/door02_3.jpg
 71bef9b55188345cb43d68fef23a4e12 12563 textures/quake/door02_3_norm.png
 78706d33850ff478ee5c427a055e80e6 1975 textures/quake/door02_3_spec.jpg

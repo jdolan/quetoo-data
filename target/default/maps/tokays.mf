@@ -1,8 +1,8 @@
-f425977240808229ab49db61450dc501 9168475 maps/tokays.bsp
-82c4bd5edf9876726be5628b7c22476e 185671 mapshots/tokays/quetoo018.jpg
-5efa348a845250cfce81ae0552cfc9e1 193044 mapshots/tokays/quetoo019.jpg
-2441736655aec00f947c302cb541b8ba 200994 mapshots/tokays/quetoo020.jpg
-31beb2788e88589e2479a1ea45dafb2f 177514 mapshots/tokays/quetoo021.jpg
+2b1f5613b22cb1d45f6e2d8c3add0118 9151951 maps/tokays.bsp
+778dadc0282c7e3fcb9f29c9065a6c2d 178001 mapshots/tokays/tokays01.jpg
+bb679bff5e9671234b92f611a2c389e7 172383 mapshots/tokays/tokays02.jpg
+c3cc7201b458f969a36ddb283b1edce3 143853 mapshots/tokays/tokays03.jpg
+68268e53ecac1bc8f8f55a55a6cb439e 151884 mapshots/tokays/tokays04.jpg
 60944791079503010618b669a310d51c 128367 sky/acheron.jpg
 7c1c7a676986c214894620e8f0124d76 533698 sounds/ambient/100hz.wav
 3784aebe7537ba24b08a4c9bd5f6deac 296290 sounds/ambient/amb_1.wav

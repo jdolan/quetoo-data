@@ -1,9 +1,7 @@
-04a5b615f1405ad4c06be6c0508dfd05 7482204 maps/darkzone.bsp
-fe66b7e6e8ad9c8a611f79919c8c7f9e 254805 mapshots/darkzone/quetoo014.jpg
-a65dcd0e567bba4a5d49f904b575e525 297171 mapshots/darkzone/quetoo015.jpg
-3736d12030c99f6beaf62b252a4b5afd 5941306 mapshots/darkzone/quetoo02.jpg
-11a5c76183b883771b1150a9fb4e3fa1 5509227 mapshots/darkzone/quetoo04.jpg
-b226f0e67f39aaeeceb0feb89e7d1066 4535799 mapshots/darkzone/quetoo06.jpg
+f9135ae4af1447a5f6e97c78bca34288 7461648 maps/darkzone.bsp
+b4c52c7824a5134b29c5efb1102749f3 183714 mapshots/darkzone/darkzone01.jpg
+aed0aa3ddb6d34e246384e96a3a839b8 168364 mapshots/darkzone/darkzone02.jpg
+46c31bf9372eb29ae260fc3f06bee96a 201017 mapshots/darkzone/darkzone03.jpg
 934bfdf0b76abf133bb510c4bfd39e37 338643 sky/sky1.jpg
 38bb016d3b85c77377be752c5797bce9 322470 sounds/ambient/wind_3.wav
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg

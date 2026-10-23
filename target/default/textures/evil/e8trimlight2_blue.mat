@@ -1,0 +1,15 @@
+{
+	diffusemap evil/e8trimlight2_blue
+	parallax 1.50
+	{
+		texture evil/e8trimlight2_blue.blend
+		blend src_alpha src_alpha
+		color 0.00 0.15 1.00 1.00
+		lighting 1.00 flat
+		emissive 1.00
+	}
+	{
+		color 0.00 0.15 1.00 1.00
+		flare flare_1
+	}
+}

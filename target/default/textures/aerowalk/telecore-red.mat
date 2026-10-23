@@ -1,0 +1,14 @@
+{
+	diffusemap aerowalk/telecore-red
+	roughness 1.02
+	hardness 8.00
+	specularity 0.24
+	{
+		texture aerowalk/telecore-red_fx
+		pulse .5
+	}
+	{
+		texture aerowalk/telecore-red_fx2
+		scroll.t .3
+	}
+}

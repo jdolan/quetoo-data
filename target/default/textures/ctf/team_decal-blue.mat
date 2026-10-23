@@ -1,0 +1,5 @@
+{
+	diffusemap ctf/team_decal-blue
+	contents "mist detail"
+	surface "blend_100"
+}

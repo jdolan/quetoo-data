@@ -1,8 +1,8 @@
-1f09574b0892c92a93215152ef9d5806 32274877 maps/campgrounds.bsp
-bf5f522aad13f6d7c741e4dcc6992d20 141879 mapshots/campgrounds/campgrounds01.jpg
-52fa965f6fa95108ba85bcd07764f4c4 251497 mapshots/campgrounds/campgrounds02.jpg
-ebd4ddb81208a964fa9583f5cb45e823 237287 mapshots/campgrounds/campgrounds03.jpg
-add8f549fed3d8b3cdba309a70413594 240897 mapshots/campgrounds/campgrounds04.jpg
+c6ff33b9da17b266942db53be9516669 32288305 maps/campgrounds.bsp
+ae7b82fa7980ca9514070ec3cde079d4 117580 mapshots/campgrounds/campgrounds01.jpg
+c5cafe280905524b9d5e1d1e73dbaa96 185681 mapshots/campgrounds/campgrounds02.jpg
+22d63b9c19790d495737e41cb4d566f1 140733 mapshots/campgrounds/campgrounds03.jpg
+2aac9adf739d6574c316be41d5f62547 176961 mapshots/campgrounds/campgrounds04.jpg
 60944791079503010618b669a310d51c 128367 sky/acheron.jpg
 7c1c7a676986c214894620e8f0124d76 533698 sounds/ambient/100hz.wav
 fa718de8e683dbc0c8e278b121113b20 175306 sounds/ambient/hum2.wav
@@ -25,9 +25,9 @@ c18d2d11b4f4c92e8bb4a6d7f9270bb6 344318 textures/ctf/ctf_banner3-blue.png
 c0687b4a46825b814bc5cc1543827d43 10559 textures/ctf/ctf_banner3-blue_norm.png
 b6864410a2c073b48654e76e7a3cc868 92 textures/decals/flr3_mark.mat
 2d77da7b64413c1bd078d8a76a1d37e0 356905 textures/decals/flr3_mark.png
-4a96df842bb729e1b7f7b202e44f50b1 197 textures/decals/flr3_mark_fx-red.mat
+615301c6febc036f220d037cc2e67a10 268 textures/decals/flr3_mark_fx-red.mat
 661e3841370167d58ffc5c6f79370337 80003 textures/decals/flr3_mark_fx-red.png
-8e5bdb02b6026227914c7dc6093954bd 200 textures/decals/flr3_mark_fx-yellow.mat
+3baa56a436b8e6b651aada14a2dba150 274 textures/decals/flr3_mark_fx-yellow.mat
 47a81a9182d99e2ff99e585043c2230b 83566 textures/decals/flr3_mark_fx-yellow.png
 3a09dba6ccf8a4105d72881e1e6f7370 253413 textures/decals/flr3_mark_norm.png
 9726620a0a1b6a13783c675e233b2c38 108727 textures/decals/quetoologo_glow.png
@@ -139,7 +139,7 @@ e46ea1b2142333895fb346ab07550304 46008 textures/evil/ex_trim_psimple_05_d.jpg
 fcb35a8ab16f88ef3ec177b175c13542 139831 textures/evil/ex_trim_psimple_05_norm.png
 f09d4133a5d36cfb5e6184c7d77492d9 61851 textures/evil/ex_trim_psimple_05_spec.jpg
 8274761dd6ed5b7fc1d3ec659f9c05f7 19254 textures/evil/ex_trim_simple03_d.jpg
-804d6693592d078c30522fb4b95bfbec 336 textures/evil/ex_trim_simple03_e.mat
+4a813b071d61d407d012b298f9530e05 354 textures/evil/ex_trim_simple03_e.mat
 7bd1c021284cbbe2525276e7af2dcb77 91675 textures/evil/ex_trim_simple03_e.png
 b95ddadc0bae73355f52562f95f05580 97801 textures/evil/ex_trim_simple03_norm.png
 a4605110339451dcee796325714af997 15218 textures/evil/ex_trim_simple03_spec.jpg

@@ -1,9 +1,8 @@
-4ac2f4baed3b9347c57d235c83beb0a3 29994006 maps/gehenna.bsp
-5c920da0cfc3871f720d8594ab55a8eb 223189 mapshots/gehenna/quetoo106.jpg
-af34f46aac080a3a6ad6e68a97dbc4e2 242852 mapshots/gehenna/quetoo107.jpg
-0b99620e3fef61d86471a582497553f0 295076 mapshots/gehenna/quetoo108.jpg
-e1dd6dabcb63d6718e89180bb549415d 308477 mapshots/gehenna/quetoo109.jpg
-93b035c6cfa7aecbb640a71ea673ece7 242330 mapshots/gehenna/quetoo110.jpg
+eb5f7094be9129a2ea4acacb2e962ccd 29903255 maps/gehenna.bsp
+6d2ceea73818f150770d9a822b320088 187415 mapshots/gehenna/gehenna01.jpg
+3805a3cf0a09249b9f8f87b4b12dc306 185661 mapshots/gehenna/gehenna02.jpg
+e77bdacaf25f1b31be82fd76f9f3d927 177198 mapshots/gehenna/gehenna03.jpg
+b1a3ca015b5187d582002c5b6325e598 193707 mapshots/gehenna/gehenna04.jpg
 e46ff62ab8c6f23f1253636b4f6320da 415824 sky/gehenna.jpg
 2950deca29cc80f6226b92eb9afdf528 316468 sounds/ambient/amb_4.wav
 54b94f5df048b3de6d0627334e24db86 108914 sounds/ambient/drill.wav

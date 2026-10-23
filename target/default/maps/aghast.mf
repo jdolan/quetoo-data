@@ -1,7 +1,8 @@
-2098fdf165dd3e55bce89033255d3af9 6888593 maps/aghast.bsp
-864dd5e948e5c8008f0cb655b94eeb57 4885000 mapshots/aghast/aghast1.jpg
-53307bf18e0b9b4dac02bb3ac2cf639e 5544237 mapshots/aghast/aghast2.jpg
-271aaad3dea14d8b1c273ac9161d833d 4112409 mapshots/aghast/aghast3.jpg
+6f09f4aa4b561bd55d81f1407a2640d3 6890093 maps/aghast.bsp
+3a0c4ff87b6cd721dc71135d24be2bc1 204197 mapshots/aghast/aghast01.jpg
+62979a7fbed3563273ffaf230ef045ef 187782 mapshots/aghast/aghast02.jpg
+2ad94f86aa08c5b38fe3fc6662762544 172069 mapshots/aghast/aghast03.jpg
+9ec4fdedfd26cdd7f385db026e7decf7 142283 mapshots/aghast/aghast04.jpg
 1f22ae1dd4222303ab896d151fa61702 110399 sky/aghast.jpg
 41e29703e6f00946fa59b22c88f083cf 420602 sounds/ambient/drip_1.wav
 4e78bf1ce12c937109afaf5e0cc8e66e 41496 sounds/ambient/drip_2.wav

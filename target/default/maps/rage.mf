@@ -1,8 +1,8 @@
-95e46b6e4675083e1492df215ddddb7d 7928787 maps/rage.bsp
-339a2d91dbfb6ccbdd0ec3cdcb34a38e 181861 mapshots/rage/quetoo072.jpg
-e460c74429553de74b6e4f58d868410d 197551 mapshots/rage/quetoo075.jpg
-749eaa57b05e8c9f2a06543a8b432a0c 206317 mapshots/rage/quetoo076.jpg
-b391d23e0317751a8cae770e0798c844 179894 mapshots/rage/quetoo077.jpg
+f7694655861cd9655ec6f487cdb6b01c 7928295 maps/rage.bsp
+96f23b29d6531ee3e773638226c5b3d3 159411 mapshots/rage/rage01.jpg
+483948f775adbb6a36bfacfb1ad7ca20 160789 mapshots/rage/rage02.jpg
+cbc671463e33085343e46f0a8b31dd86 149741 mapshots/rage/rage03.jpg
+49507f0a644a7e7af8120a4d0dc8e8ff 129746 mapshots/rage/rage04.jpg
 0e602b1d6a6deff094e40ab1b2a50900 395135 sky/moonfull.jpg
 3784aebe7537ba24b08a4c9bd5f6deac 296290 sounds/ambient/amb_1.wav
 1caa2cdb896e5d24fea04713734f21cf 241006 sounds/ambient/amb_3.wav
