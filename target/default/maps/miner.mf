@@ -1,7 +1,9 @@
-53b3287a8341668ebf91740949642483 50361726 maps/miner.bsp
-2ce891eae749afd17f715040076a707a 212438 mapshots/miner/miner-01.jpg
-2b923fe63a2b23355d1696568f56ea96 233197 mapshots/miner/miner-02.jpg
-a323d0b24270bda12c551b7048d7da7c 154315 mapshots/miner/miner-03.jpg
+637baf26418d8c10329d7aab6e12eebf 46501912 maps/miner.bsp
+12025140366af21de5ff8440d80d2868 135149 mapshots/miner/miner01.jpg
+355926c18f33f6d4818d8c49b96cfcc1 125962 mapshots/miner/miner02.jpg
+5e47bb1925ff017dce12ac8574d7be77 192891 mapshots/miner/miner03.jpg
+def9a41a70b4346aab3cfdda94fae750 181296 mapshots/miner/miner04.jpg
+10d29ed7a2b5cf0c3f8d709cb6716cb0 195724 mapshots/miner/miner05.jpg
 d08014541d19ab6b5807c5ea8e18ea08 629588 sky/miramar.jpg
 081942a69b06f9e823fd88ec67d11cc4 270702 sounds/ambient/fan_1.wav
 649ffcd19896ebe708b38f5dfb8e657c 61888 sprites/flare_2.png

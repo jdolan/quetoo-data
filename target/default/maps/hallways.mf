@@ -1,9 +1,8 @@
-ebe898f401820de12c16c89386c2d4cc 20609194 maps/hallways.bsp
-2d23e8e2cab17325fe31c37e7269a932 158789 mapshots/hallways/quetoo026.jpg
-9f15829fbc437c7e677c2de7ecab1392 154308 mapshots/hallways/quetoo027.jpg
-5787b8ad5572fcc005aff2603163138f 167857 mapshots/hallways/quetoo028.jpg
-cfa52ff65cfa9ecdbf03455bcc34c2f9 158041 mapshots/hallways/quetoo029.jpg
-782405c2c981143ab8f87d92fc1c5458 239445 mapshots/hallways/quetoo030.jpg
+a99a6303f86c5adf88a941feaafcf594 20607290 maps/hallways.bsp
+d2cf0c9ff9984664ee74d085130e5978 123355 mapshots/hallways/hallways01.jpg
+06c1ef29ce3a085510e65572119af475 110451 mapshots/hallways/hallways02.jpg
+c20a897724a47f8d89ca0b587a731f8f 139620 mapshots/hallways/hallways03.jpg
+0d45c9a54171122312a706ae21ecd869 189358 mapshots/hallways/hallways04.jpg
 aa3e3e1cdfb72b91be4bb9b65231aef1 293500 sky/violentdays.jpg
 df868c8b950d239ea7b2c8fcf788e379 113152 sounds/ambient/lava_flow_2.wav
 93a193c6297f052781a4e02051aa4fd7 747312 sounds/ambient/water_1.wav

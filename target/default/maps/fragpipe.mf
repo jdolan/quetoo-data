@@ -1,8 +1,8 @@
-750495e91cc34355d242e0a618a9cbc0 10712233 maps/fragpipe.bsp
-46c892b195a0e4021ac8084341d4f119 233326 mapshots/fragpipe/quetoo022.jpg
-a5232cbee6f561d75986c39a86399b34 171053 mapshots/fragpipe/quetoo023.jpg
-f4e28ceea7dd8fb9aea5b024b7e0763e 310221 mapshots/fragpipe/quetoo024.jpg
-72f99318baa9d0e2c4205dca99f29d91 262254 mapshots/fragpipe/quetoo025.jpg
+3e636657e7d53d3bdae3ad162516b03d 10693497 maps/fragpipe.bsp
+4b9fe4d1d5d93d383a596fbae3f4862c 143339 mapshots/fragpipe/fragpipe01.jpg
+181e15eaaecf9d5c794cd74a0526c924 142436 mapshots/fragpipe/fragpipe02.jpg
+cac31de99c1a31bd545ed97564a1e37f 173920 mapshots/fragpipe/fragpipe03.jpg
+e692c2c6c0cebd77a568d1381c27167f 124057 mapshots/fragpipe/fragpipe04.jpg
 6eb5c119c139c2a0c126a836c402d294 374248 sky/habp.jpg
 1d5de8d1525ad3155df01e795382e09e 85406 sounds/ambient/lava_1.wav
 9b48cbb4eed62b68bb675a66858887e3 83218 sounds/ambient/lava_2.wav
@@ -161,5 +161,5 @@ ceaba3427c5e865c29ae48b83b4e90d5 20421 textures/quake2/subslimebotm.jpg
 bf5859edaf2ec1c664915a74b49f6e87 79 textures/quake2/wbasic1_4.mat
 406b60c8031a53f9acfbc919d8e3afc2 199292 textures/quake2/wbasic1_4_norm.png
 ee6184ae1fe1d35a69c1254381bc91e5 15251 textures/quake2/wbasic1_4_spec.jpg
-acf6110c5d43911f33d931c826a02068 152 textures/quake2/wndow1_2.mat
+1aee727c5bbcbf858dfa7618a1220f5f 292 textures/quake2/wndow1_2.mat
 578cb3af2f37b85109c4a4fd007f1a94 75982 textures/quake2/wndow1_2.png

@@ -1,8 +1,8 @@
-4a8553de0e2e6c1aa3a346b2cfeb8b5a 7059842 maps/aerowalk.bsp
-cccca2095d99897d571aa4cb5304b4c8 218881 mapshots/aerowalk/quetoo080.jpg
-4cdfd52234f37f9f698c846929ab24df 229670 mapshots/aerowalk/quetoo081.jpg
-10c47326b7ec01ce803a2f2c24eebfd1 290835 mapshots/aerowalk/quetoo082.jpg
-9573f3e6c29a51c784df1d75fb86f63d 240583 mapshots/aerowalk/quetoo083.jpg
+24d14694b8b1473bcadb339d29ca31df 7058366 maps/aerowalk.bsp
+7d3743654243c1f21727eca2dcc4d998 193362 mapshots/aerowalk/aerowalk01.jpg
+258fcefea5d3b04943ad1bf4e394da2f 185761 mapshots/aerowalk/aerowalk02.jpg
+1ac9c9d30b56dc28acd2a8f0f69af828 202585 mapshots/aerowalk/aerowalk03.jpg
+5675d87ce658759cf5c28404f3328d42 183614 mapshots/aerowalk/aerowalk04.jpg
 c53efff9f3c4fa4c19cd0ffb0135a82f 304070 sky/atsea.jpg
 3c8d67b598c0ebcd6cd6ed150547a550 45856 sounds/ambient/energy.wav
 38bb016d3b85c77377be752c5797bce9 322470 sounds/ambient/wind_3.wav

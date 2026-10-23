@@ -1,9 +1,8 @@
-baa09c9c81fa682030d98f66668673a4 34116732 maps/fraggin.bsp
-1f65f3c6ecf8313f34e2508c38fb25db 84548 mapshots/fraggin/fraggin01.jpg
-3fcbee2ddf3ce8de0b59980de1c21a03 109776 mapshots/fraggin/fraggin02.jpg
-a674d8de82935bc9a8d50bafa821554e 107384 mapshots/fraggin/fraggin03.jpg
-3d192b8561ac1b9eb306ead7122ba264 118276 mapshots/fraggin/fraggin04.jpg
-33301bd3cf5106b677a2afb699d346b3 119007 mapshots/fraggin/fraggin05.jpg
+6cf4878f313f204fe9720430768229d7 34166972 maps/fraggin.bsp
+7a9ba5b7b9cb98ca0a781fe54418cf85 190342 mapshots/fraggin/fraggin01.jpg
+97c9628b5404e769a353c12557134e14 184888 mapshots/fraggin/fraggin02.jpg
+99c8352719754733430c3ec183bafd2b 173346 mapshots/fraggin/fraggin03.jpg
+a39fd7ec22f069c1ba0c6cd214b57061 174622 mapshots/fraggin/fraggin04.jpg
 9480665830c42ed6ec58c303b160b3d0 224250 sky/dustball2.jpg
 7c1c7a676986c214894620e8f0124d76 533698 sounds/ambient/100hz.wav
 3c8d67b598c0ebcd6cd6ed150547a550 45856 sounds/ambient/energy.wav
@@ -28,9 +27,9 @@ db17a56995aa2f9665778e7a6c9b4f1c 130 textures/ctf/eq2_banner.mat
 2d77da7b64413c1bd078d8a76a1d37e0 356905 textures/decals/flr3_mark.png
 f7728200d9d48be2803ba448beb13155 198 textures/decals/flr3_mark_fx-cyan.mat
 9d2c328847dfb26db530e536a4cdc53e 92330 textures/decals/flr3_mark_fx-cyan.png
-acc5cf5dd3cf27cc6c9dc12d0006d100 199 textures/decals/flr3_mark_fx-green.mat
+25cf9f011c5c5df34accd20d94fadd0c 272 textures/decals/flr3_mark_fx-green.mat
 dc5ec3ceb14c5d34b3df435059c50110 83725 textures/decals/flr3_mark_fx-green.png
-8e5bdb02b6026227914c7dc6093954bd 200 textures/decals/flr3_mark_fx-yellow.mat
+3baa56a436b8e6b651aada14a2dba150 274 textures/decals/flr3_mark_fx-yellow.mat
 47a81a9182d99e2ff99e585043c2230b 83566 textures/decals/flr3_mark_fx-yellow.png
 3a09dba6ccf8a4105d72881e1e6f7370 253413 textures/decals/flr3_mark_norm.png
 18f27b1909452104da131dd8daef4be1 261 textures/decals/quetoologo.mat

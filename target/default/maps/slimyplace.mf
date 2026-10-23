@@ -1,9 +1,8 @@
-048582e3b68862034adc7ea0e2ce13fc 6867863 maps/slimyplace.bsp
-8467d6a7679bed3761216ca0640ecb2e 179261 mapshots/slimyplace/quetoo036.jpg
-6b87681e37cb245aab34e7e303a7b8dc 197170 mapshots/slimyplace/quetoo037.jpg
-8749416809f0a36a2f9f40e1e985dcea 168346 mapshots/slimyplace/quetoo038.jpg
-2cdb723ff41ac78a04e0d2c4d73ba7a6 196512 mapshots/slimyplace/quetoo039.jpg
-8fbcec86d74c7a15eb13ad858f0503f6 122795 mapshots/slimyplace/quetoo040.jpg
+a3bd834df4cf7b965db06d586fc3afab 6880259 maps/slimyplace.bsp
+c9a8b2a4ff8cd02685b08750721a78b5 126690 mapshots/slimyplace/slimyplace01.jpg
+2fbd8eacd92c71804f1673e454da890b 174363 mapshots/slimyplace/slimyplace02.jpg
+a643227b55b7dca0a48f21c82f361bde 156483 mapshots/slimyplace/slimyplace03.jpg
+75ee3efa7688a6cdafaa041ddae52301 170365 mapshots/slimyplace/slimyplace04.jpg
 2929fbbc0696fde86322f5550205a527 1663 sky/white.jpg
 34cc929a3844a970b99fdb37c323b836 3394276 sounds/ambient/flow_2.wav
 3ca759946c896a7488f339a18d74e801 698830 sounds/ambient/slime_1.wav

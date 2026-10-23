@@ -1,8 +1,7 @@
 e40e6f694c3adfee89a7f2b486e23e2f 51329444 maps/longyard.bsp
-44130708393c1733cbf7b03941609c5a 83295 mapshots/longyard/longyard01.jpg
-a6c721a108337deaab4a419443de6e55 76435 mapshots/longyard/longyard02.jpg
-1172d4d6179085946da2111a9a3b1aab 2856044 mapshots/longyard/longyard03.jpg
-b5f9c8f674fd5c0b762425b18d5bd458 3031132 mapshots/longyard/longyard04.jpg
+b705b9a5f4020133912c3675e0367a46 95884 mapshots/longyard/longyard01.jpg
+591d8e6bdb2398c4b748061cfdf9a4d2 91592 mapshots/longyard/longyard02.jpg
+7e5b872b199fdca03b2575afec34c61a 87443 mapshots/longyard/longyard03.jpg
 758ffcb331d014c10e1e90f03fd63862 179409 sky/purple_chaos.jpg
 955007fad132b0afbd315adc5f23f482 239868 sounds/ambient/hum3.wav
 4b1146f6da1472b65b2f6ffdbdfe8a64 23409 sprites/flare_0.png

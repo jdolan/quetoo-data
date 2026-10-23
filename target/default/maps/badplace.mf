@@ -1,8 +1,8 @@
-2e87041d5cf0b38000a50c2845a76fa1 7879470 maps/badplace.bsp
-d8d1928af2743e7a26bdb37cc3530636 254474 mapshots/badplace/quetoo068.jpg
-041b2a6541ec36f1694d2a4a6d94fdb9 222683 mapshots/badplace/quetoo069.jpg
-39fb100e68f8aa44810d99767838825a 170955 mapshots/badplace/quetoo070.jpg
-22636a93d2eaa0d4a45ff41d15dc7da8 201452 mapshots/badplace/quetoo071.jpg
+39c43f11dd1ce8f101ec6fd51a40ade1 7900762 maps/badplace.bsp
+335b809f7e04fbb64247f7e79481b612 194334 mapshots/badplace/badplace01.jpg
+aba6fa70b001e804d28aa3cefe2c85a0 191237 mapshots/badplace/badplace02.jpg
+15534b8de817423c4f236ef472d7a07c 188934 mapshots/badplace/badplace03.jpg
+e74f7605ba2fc8a2a13ee960d6fd8172 177000 mapshots/badplace/badplace04.jpg
 713ae8b6f9912af637d7f7d9eb2d1654 4142599 sky/nebula1.jpg
 9a832755b20df1aca0c656a7edfb09e5 34732 sprites/flare_1.png
 9ea6e8e60c8cf57062db09c12386f065 2028 textures/common/caulk.jpg
