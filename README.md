@@ -41,19 +41,23 @@ The `src/` tree contains the original editable assets. The `target/` tree is wha
 
 ## Maps
 
-There are over 20 multiplayer maps, including high-quality remakes of classic id Software levels and original designs. Map sources live in `target/default/maps/*.map` and are compiled to `*.bsp` using `quemap`.
+There are over 20 multiplayer maps, including high-quality remakes of classic id Software levels and original designs. Map sources live in `target/<game>/maps/*.map`, where `<game>` is `default` or a game module such as `ctf`. `quemap -g <game>` compiles each one to a `.bsp` under `build/<game>/`, which is not committed, then packs the `.bsp` and its `.mf` into `target/<game>/map-<mapname>.pk3`. Only the pk3 ships. Each map's docs and mapshots stay loose files in `target/`. A new game directory with a `maps/` directory needs no change to the `Makefile`.
 
-To compile all maps that have a newer `.map` than `.bsp`:
+To compile and pack all maps that have a newer `.map` than `.bsp`:
 
 ```sh
 make
 ```
 
-To compile a single map:
+To compile and pack a single map:
 
 ```sh
-quemap -w target/default -bsp maps/<mapname>.map
+make target/<game>/map-<mapname>.pk3
 ```
+
+A loose `maps/<mapname>.bsp` or `maps/<mapname>.mf` anywhere on the search path, including `target/<game>/maps/` and the user dir, shadows the one under `build/`.
+
+`quemap` leaves out of each pk3 the assets that resolve into its data dir. The data dir (for example `/usr/local/share/quetoo`) MUST resolve to this repository's `target/`, normally through a symbolic link. If it is not, every texture, sound and model that a map uses goes into its pk3.
 
 Map sources use the Quake3 `.map` format, fully supporting Bézier patches. The `src/default/maps/` directory holds additional work-in-progress sources that are not yet part of the distributable.
 

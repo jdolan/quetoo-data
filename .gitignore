@@ -1,5 +1,6 @@
 .DS_Store
 .settings
+build/
 target/default/maps/autosave/*
 **/gitignore/
 *.bak

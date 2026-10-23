@@ -1,17 +1,43 @@
 # Makefile for Quetoo Data distributable, requires awscli.
 
 TARGET = target
+BUILD = build
 
-MAPS = $(wildcard $(TARGET)/default/maps/*.map)
-BSPS = $(MAPS:.map=.bsp)
+# Every game directory that holds maps, e.g. default and ctf.
+GAMES = $(patsubst $(TARGET)/%/maps,%,$(wildcard $(TARGET)/*/maps))
 
-default: $(BSPS)
+default: maps
 
-$(TARGET)/default/maps/%.bsp: $(TARGET)/default/maps/%.map
-	python3 scripts/map-fu/map_fu.py $< && quemap -w $(TARGET)/default -bsp maps/$*.map
+# BSPs are intermediates, built outside $(TARGET) so that only the pk3 ships.
+# A loose maps/*.bsp anywhere on the search path shadows the one built here.
+#
+# Each pk3 holds only the map's .bsp and .mf. quemap skips assets that resolve into
+# its data dir, so that dir (e.g. /usr/local/share/quetoo) must resolve to this
+# $(TARGET), or every texture, sound and model is packed too. quemap names the pk3
+# map-<name>-<pid>.pk3, so the glob assumes that no map in a game is named another
+# map's name in that game plus a dash.
+define GAME_MAPS
+$(1)_MAPS = $$(wildcard $(TARGET)/$(1)/maps/*.map)
+BSPS += $$(patsubst $(TARGET)/$(1)/maps/%.map,$(BUILD)/$(1)/maps/%.bsp,$$($(1)_MAPS))
+PK3S += $$(patsubst $(TARGET)/$(1)/maps/%.map,$(TARGET)/$(1)/map-%.pk3,$$($(1)_MAPS))
+
+$(BUILD)/$(1)/maps/%.bsp: $(TARGET)/$(1)/maps/%.map
+	@mkdir -p $(BUILD)/$(1)/maps
+	python3 scripts/map-fu/map_fu.py $$< && \
+		quemap -g $(1) -p $(CURDIR)/$(TARGET) -w $(CURDIR)/$(BUILD)/$(1) -bsp maps/$$*.map
+
+$(TARGET)/$(1)/map-%.pk3: $(BUILD)/$(1)/maps/%.bsp
+	@rm -f $(BUILD)/$(1)/map-$$*-*.pk3
+	quemap -g $(1) -p $(CURDIR)/$(TARGET) -w $(CURDIR)/$(BUILD)/$(1) -zip maps/$$*.bsp
+	mv $(BUILD)/$(1)/map-$$*-*.pk3 $$@
+endef
+
+$(foreach game,$(GAMES),$(eval $(call GAME_MAPS,$(game))))
+
+.SECONDARY: $(BSPS)
 
 .PHONY: maps
-maps: $(BSPS)
+maps: $(PK3S)
 
 QUETOO_DATA_S3_BUCKET = s3://quetoo-data
 MANIFEST = $(TARGET)/default/manifest.mf
@@ -41,7 +67,7 @@ ZIP = quetoo-data.zip
 zip: manifest
 	@echo "Writing $(ZIP)..."
 	@rm -f $(ZIP)
-	@cd $(TARGET) && zip -r -q -n .jpg:.png:.ogg ../$(ZIP) default -x '*/.DS_Store'
+	@cd $(TARGET) && zip -r -q -n .jpg:.png:.ogg:.pk3 ../$(ZIP) default -x '*/.DS_Store'
 	@echo "Wrote $$(du -h $(ZIP) | cut -f1 | tr -d ' \t') to $(ZIP)."
 
 
