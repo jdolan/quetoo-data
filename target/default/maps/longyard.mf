@@ -1,4 +1,4 @@
-8963b3a405c78e93342452811a3e0daf 51744011 maps/longyard.bsp
+e40e6f694c3adfee89a7f2b486e23e2f 51329444 maps/longyard.bsp
 44130708393c1733cbf7b03941609c5a 83295 mapshots/longyard/longyard01.jpg
 a6c721a108337deaab4a419443de6e55 76435 mapshots/longyard/longyard02.jpg
 1172d4d6179085946da2111a9a3b1aab 2856044 mapshots/longyard/longyard03.jpg
@@ -63,6 +63,8 @@ d01cc0d7dd7fc37e18c6051d3d9e4ce3 31 textures/common/trigger.mat
 2d77da7b64413c1bd078d8a76a1d37e0 356905 textures/decals/flr3_mark.png
 f7728200d9d48be2803ba448beb13155 198 textures/decals/flr3_mark_fx-cyan.mat
 9d2c328847dfb26db530e536a4cdc53e 92330 textures/decals/flr3_mark_fx-cyan.png
+615301c6febc036f220d037cc2e67a10 268 textures/decals/flr3_mark_fx-red.mat
+661e3841370167d58ffc5c6f79370337 80003 textures/decals/flr3_mark_fx-red.png
 3a09dba6ccf8a4105d72881e1e6f7370 253413 textures/decals/flr3_mark_norm.png
 18f27b1909452104da131dd8daef4be1 261 textures/decals/quetoologo.mat
 f148d1d3b95bb838d5d5a541d28c103f 125461 textures/decals/quetoologo.png
@@ -85,9 +87,12 @@ ea00fd30fe4e686e88dec503ab6f0fa6 8674 textures/evil/e6trim_ltb.jpg
 59d11759760080f5315201b1f2776137 9812 textures/evil/e6v_light_blend.jpg
 449e145fb5e9aedcacaee52a780c13ad 21890 textures/evil/e8trimlight2.jpg
 daa3dd5052fe8ed36bfcabbca8f91246 64 textures/evil/e8trimlight2.mat
+43f4ae00f79f54462b04b91d12ac0ede 10323 textures/evil/e8trimlight2_blue.blend.jpg
+07e2ae17b36afbbc326eca7c0329af37 21719 textures/evil/e8trimlight2_blue.jpg
+307a0ef3e79bb8b82fbfaa684e6a88dd 242 textures/evil/e8trimlight2_blue.mat
 433c1459ecf88c6a2bc7a1538634dfb3 10023 textures/evil/e8trimlight2_red.blend.jpg
 6fa0e07c8e3df2fa590934109830c523 18679 textures/evil/e8trimlight2_red.jpg
-0b116978f9f2945e7858955157792bff 240 textures/evil/e8trimlight2_red.mat
+f64c6a576fcf662a25a9d6ebeb5fd117 240 textures/evil/e8trimlight2_red.mat
 d90dcaecb40bdcc92a30aac92d9b86b5 182 textures/gehenna/glass90.mat
 b5e5284f2fe235e5e8b22df3baf62a95 12308 textures/gehenna/glass90.png
 ae9ba69188fc74e8b7e34ceba19031e8 20713 textures/quake2/metalbase03.jpg
@@ -100,12 +105,13 @@ c0e025cd26d1c792f62e01b038c8c83b 186 textures/quake3/sfx/electricslime2.mat
 20653f6a914f95d18abc30e6439fbfa3 81 textures/spacectf/r_trim_17.mat
 1c2a0aaac60e61dbcdf77c4399cf237a 1155 textures/spacectf/r_trim_17_norm.png
 ca853a4d1985df13a49f1364542e5ef7 31541 textures/spacectf/u_floor3_pad_6.jpg
-870ee2a189e711d5ac3e586f7949e273 237 textures/spacectf/u_floor3_pad_6.mat
+e5cec1f360bed7653981f4901252d511 236 textures/spacectf/u_floor3_pad_6.mat
 7d88aa44bb7395584ce26401d18242f0 109262 textures/spacectf/u_floor3_pad_6_norm.png
 959111d21a24669c6f3ef4741bdba1ac 33191 textures/spacectf/u_floor3_pad_7b.jpg
 1b917711f710473deb64dbdb2b6ed1df 153 textures/spacectf/u_floor3_pad_7b.mat
 2c95435625e109ae013113c3394fb5c0 5665 textures/spacectf/u_floor3_pad_7b_blend.png
 56f12fb4f2162d40d89a43b6edfb675f 163173 textures/spacectf/u_floor3_pad_7b_norm.png
+1ebf7aa128a5805170398850d32849a8 7083 textures/spacectf/u_floor_pan4_l_blend.png
 5f3e5bb71c437bb38c08e3d1dcf59058 9221 textures/spacectf/u_trlightline_blue.jpg
 06053ee5f9286199814535960bb8c1b8 335 textures/spacectf/u_trlightline_blue.mat
 9b44675f58ceb5e1f0df033c478fb90f 11987 textures/spacectf/u_trlightline_blue_blend.png
