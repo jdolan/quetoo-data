@@ -61,8 +61,12 @@ After a rebake, check one pk3: `unzip -l target/default/map-<name>.pk3` MUST lis
   `target/default/scripts/trenchbroom/Quetoo/Quetoo.fgd`, and TrenchBroom's own copy of that
   `.fgd`. Changes drift in both directions, including from TrenchBroom back to this repository.
   Compare all four before you conclude that one is wrong.
-- **The installer reads one game's manifest.** At start-up it fetches only
-  `<game>/manifest.mf` for the game that is active, and CI writes only `default`'s.
+- **The installer syncs a fixed list of games.** At start-up it syncs each game in
+  `syncedGames` (`../quetoo/src/common/installer.c`), and no other. `make manifest` writes a
+  `manifest.mf` for every directory in `target/`. A new game directory reaches players only after
+  it is added to `syncedGames` in an engine release.
+- **Linux packages have no installer.** A package-managed install turns the installer off, so
+  `linux/Makefile` MUST package every game directory.
 
 ## Conventions
 

@@ -40,13 +40,19 @@ $(foreach game,$(GAMES),$(eval $(call GAME_MAPS,$(game))))
 maps: $(PK3S)
 
 QUETOO_DATA_S3_BUCKET = s3://quetoo-data
-MANIFEST = $(TARGET)/default/manifest.mf
+
+# Every game directory, with or without maps. The installer reads each one's
+# manifest.mf, so every game directory MUST have one.
+GAME_DIRS = $(patsubst $(TARGET)/%/,%,$(wildcard $(TARGET)/*/))
 
 .PHONY: manifest
 manifest:
-	@echo "Writing $(MANIFEST)..."
-	@python3 manifest.py $(TARGET)/default > $(MANIFEST)
-	@echo "Wrote $$(wc -l < $(MANIFEST) | tr -d ' ') entries to $(MANIFEST)."
+	@for game in $(GAME_DIRS); do \
+		mf=$(TARGET)/$$game/manifest.mf; \
+		echo "Writing $$mf..."; \
+		python3 manifest.py $(TARGET)/$$game > $$mf || exit 1; \
+		echo "Wrote $$(wc -l < $$mf | tr -d ' ') entries to $$mf."; \
+	done
 
 s3: manifest
 	aws s3 sync --delete $(TARGET) $(QUETOO_DATA_S3_BUCKET)
@@ -67,7 +73,7 @@ ZIP = quetoo-data.zip
 zip: manifest
 	@echo "Writing $(ZIP)..."
 	@rm -f $(ZIP)
-	@cd $(TARGET) && zip -r -q -n .jpg:.png:.ogg:.pk3 ../$(ZIP) default -x '*/.DS_Store'
+	@cd $(TARGET) && zip -r -q -n .jpg:.png:.ogg:.pk3 ../$(ZIP) $(GAME_DIRS) -x '*/.DS_Store'
 	@echo "Wrote $$(du -h $(ZIP) | cut -f1 | tr -d ' \t') to $(ZIP)."
 
 

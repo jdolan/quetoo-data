@@ -10,22 +10,27 @@ VERSION := $(shell cd .. && git rev-list --count HEAD 2>/dev/null || echo 0)
 # Install path must match the data_dir the engine derives at runtime for
 # a package-managed install: binary at /usr/lib/quetoo/bin/quetoo →
 # base_dir = /usr/lib/quetoo → data_dir = /usr/lib/quetoo/share/quetoo.
-DATADIR = $(PKGDIR)/usr/lib/quetoo/share/quetoo/default
+# Each game directory (default, ctf, ...) is installed beneath it. A package-
+# managed install has no installer, so every game MUST be in the package.
+DATADIR = $(PKGDIR)/usr/lib/quetoo/share/quetoo
+GAME_DIRS = $(wildcard ../target/*/)
+STAGED = $(TARGET)/staged
 
 DEB = $(TARGET)/quetoo-data_$(VERSION)_all.deb
 RPM = $(TARGET)/quetoo-data-$(VERSION)-1.noarch.rpm
 
 all: deb rpm
 
-$(DATADIR): ../target/default
+$(STAGED): $(GAME_DIRS)
 	rm -rf $(PKGDIR)
 	install -d $(DATADIR)
-	cp -r ../target/default/. $(DATADIR)/
+	cp -r $(GAME_DIRS:/=) $(DATADIR)/
+	touch $@
 
 # ---------------------------------------------------------------------------
 # .deb
 
-deb: $(DATADIR)
+deb: $(STAGED)
 	fpm -s dir -t deb \
 		-n quetoo-data -v $(VERSION) \
 		--architecture all \
@@ -39,7 +44,7 @@ deb: $(DATADIR)
 # ---------------------------------------------------------------------------
 # .rpm
 
-rpm: $(DATADIR)
+rpm: $(STAGED)
 	fpm -s dir -t rpm \
 		-n quetoo-data -v $(VERSION) \
 		--architecture noarch \
