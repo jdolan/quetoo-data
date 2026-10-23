@@ -1,3 +1,15 @@
 {
+	diffusemap spacectf/u_floor3_pad_6_red
 	normalmap spacectf/u_floor3_pad_6_norm
+	roughness 1.62
+	parallax 2.50
+	{
+		texture spacectf/u_floor_pan4_l_red_blend
+		pulse 1.00
+		lighting 2.00
+		emissive 1.00
+		light.radius 150.00
+		light.color 0.62 0.39 0.00
+		light.intensity 3.00
+	}
 }

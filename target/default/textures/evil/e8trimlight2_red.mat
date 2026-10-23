@@ -4,12 +4,12 @@
 	{
 		texture evil/e8trimlight2_red.blend
 		blend src_alpha src_alpha
-		color 1.00 0.00 0.00 1.00
+		color 1.00 0.15 0.00 1.00
 		lighting 1.00 flat
 		emissive 1.00
 	}
 	{
-		color 1.00 0.00 0.00 1.00
+		color 1.00 0.15 0.00 1.00
 		flare flare_1
 	}
 }
