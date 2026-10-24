@@ -2,6 +2,8 @@
 # list format. The Practice tab shows one row of tiles for each tier, in the order of this file.
 #
 # title          The ladder's name in the Practice tab, in an entity of its own.
+# games          The games that the ladder is made for, in the title entity, as a map's worldspawn
+#                names them. Unset, dm. The ctf module loads only a ladder made for ctf.
 # num_teams      The number of teams, in the title entity or in an entry. A ladder that sets it
 #                lets the player choose a team gameplay: the ctf module offers team_deathmatch
 #                and team_instagib. The game keeps it within the teams that the map has flags for.
@@ -17,6 +19,7 @@
 {
 	title "Capture the Flag"
 	num_teams 2
+	games ctf
 }
 {
 	tier 1

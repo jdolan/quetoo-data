@@ -1,0 +1,76 @@
+# The team practice ladder: every practice match, one entity of keys each, in the map list format.
+# The Practice tab shows one row of tiles for each tier, in the order of this file.
+#
+# title       The ladder's name in the Practice tab, in an entity of its own.
+# games       The games that the ladder is made for, in the title entity, as a map's worldspawn
+#             names them. Unset, dm. tdm keeps the ladder out of the ctf module.
+# num_teams   The number of teams, in the title entity or in an entry. A ladder that sets it lets
+#             the player choose a team gameplay: team_deathmatch, team_instagib or team_arena.
+# tier        The tier, 1 to 3, which groups entries into rows of at most 3 (required).
+# name        The map (required).
+# ai          The AI players, by name and separated by spaces (required).
+# frag_limit  The frag limit. Unset, the level's applies.
+# time_limit  The time limit in minutes. Unset, the level's applies.
+#
+# Three tiers: 4v4 against the weakest AI players in tier 1, 3v3 against mid AI players in tier
+# 2, and 2v2 against the strongest in tier 3. The team with the most frags wins.
+
+{
+	title "Teams"
+	num_teams 2
+	games tdm
+}
+{
+	tier 1
+	name fraggin
+	time_limit 10
+	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
+}
+{
+	tier 1
+	name campgrounds
+	time_limit 10
+	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
+}
+{
+	tier 1
+	name chthon
+	time_limit 10
+	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
+}
+{
+	tier 2
+	name abase
+	time_limit 10
+	ai "Bunker Caustic Gladiator Guard Bldseekr"
+}
+{
+	tier 2
+	name gehenna
+	time_limit 10
+	ai "Bunker Caustic Gladiator Guard Bldseekr"
+}
+{
+	tier 2
+	name torn
+	time_limit 10
+	ai "Bunker Caustic Gladiator Guard Bldseekr"
+}
+{
+	tier 3
+	name omf
+	time_limit 10
+	ai "Enforcer Baron Violator"
+}
+{
+	tier 3
+	name rage
+	time_limit 10
+	ai "Enforcer Baron Violator"
+}
+{
+	tier 3
+	name aerowalk
+	time_limit 10
+	ai "Enforcer Baron Violator"
+}
