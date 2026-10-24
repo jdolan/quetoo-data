@@ -1,0 +1,36 @@
+# The Capture the Flag practice ladder: every practice match, one entity of keys each, in the map
+# list format. The Practice tab shows one row of tiles for each tier, in the order of this file.
+#
+# title       The ladder's name in the Practice tab, in an entity of its own.
+# gameplay    The gameplay of every match, in the title entity. The ctf module offers only
+#             team_deathmatch, which it plays for captures.
+# tier        The tier, 1 to 3, which groups entries into rows of at most 3 (required).
+# name        The map (required).
+# ai          The AI players, by name and separated by spaces (required).
+# time_limit  The time limit in minutes. Unset, the level's applies.
+#
+# Three tiers: 4v4 against the weakest AI players in tier 1, 3v3 against mid AI players in tier
+# 2, and 2v2 against the strongest in tier 3. The team with the most captures wins.
+
+{
+	title "Capture the Flag"
+	gameplay team_deathmatch
+}
+{
+	tier 1
+	name longyard-ctf
+	time_limit 10
+	ai "Hax Gork Creech Nitro Stroggo Cruentus Captain"
+}
+{
+	tier 2
+	name longyard-ctf
+	time_limit 10
+	ai "Bunker Caustic Gladiator Guard Bldseekr"
+}
+{
+	tier 3
+	name longyard-ctf
+	time_limit 10
+	ai "Enforcer Baron Violator"
+}
