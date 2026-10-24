@@ -3648,7 +3648,7 @@ b18b512c05ebbbcd9810286272044a4f 37130 textures/catfight/u_floor.jpg
 a0ad635d207eeb67715626a8bad24ea9 115 textures/catfight/u_floor.mat
 63d1021d3554be9346cb1d2b9b162807 126926 textures/catfight/u_floor_nm_1.png
 63d1021d3554be9346cb1d2b9b162807 126926 textures/catfight/u_floor_norm.png
-71004d8d8e5223259e768377771900cc 98 textures/catfight/u_gr8_6.mat
+4057e18a6364fcb2237251ce1c392278 89 textures/catfight/u_gr8_6.mat
 680f5ebc9bc2ba68a9e1b1525191cc1e 121193 textures/catfight/u_gr8_6.png
 1051c63d3bc5929b76ee5aad32cefec9 8361 textures/catfight/u_lamp1.jpg
 52c95576a04b0e3ee19f1214ba9ab689 79 textures/catfight/u_lamp1.mat
