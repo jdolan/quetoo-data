@@ -1,5 +1,10 @@
 05e8f1fbe67e8ead902a8840524c6db8 18835034 map-longyard-ctf.pk3
 2b8c75c32eb02355e65f3ff38c7e2ebf 3357776 maps/longyard-ctf.map
+f6a9a26c1c5b5c633cc9e97502a8fdb1 588 pics/ctf.svg
+fd4ca950ee6f16e679336b0c9a71d41c 504 pics/flag1.svg
+6d2bf5300b5aed351e30757f28d2ee9a 504 pics/flag2.svg
+30539f6e709c8e5e7cb5bd3ecbf2c563 504 pics/flag3.svg
+02b450cffbe094301b2df70adb7fe046 504 pics/flag4.svg
 9790c36216e8e5568819675bc26b5656 1601 practice-ctf.lst
 3b31fa66ab980706111f86bdad1ce1c7 220544 sounds/ctf/capture.wav
 044a4d0538efef32ed69d9b4a1ffc9ee 125172 sounds/ctf/return.wav

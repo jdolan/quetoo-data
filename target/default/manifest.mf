@@ -826,7 +826,6 @@ ec7b59fd6fdc81cd91959b701136c612 300 pics/ch3.svg
 15f3c35f56f32c4557db9875048baf8e 346 pics/ch4.svg
 20adfec00ae2d41e61996806256d5640 186 pics/ch5.svg
 b361bd98e88ece3046fc50750dbe3ed0 157 pics/ch6.svg
-f6a9a26c1c5b5c633cc9e97502a8fdb1 588 pics/ctf.svg
 9cc4ec649c870677e78f2c99066ef790 27057 pics/damage.png
 a1cd25a03ca93f6eabaa0c1c82a21a35 389 pics/emoji/actofgod.svg
 cb62795acfc765f57c0d42c66f34b5b6 552 pics/emoji/adrenaline.svg
@@ -882,10 +881,6 @@ effb3d0d76d1dd7116b2492ae85e4503 391 pics/emoji/strength.svg
 c378b63457733fc0b427f88feb805bc8 647 pics/emoji/thinq.svg
 c7eaf036fec0103ab55b0473252378c0 462 pics/emoji/vampire.svg
 8f5a602a5a4892f38f313bbfa963954e 256 pics/fast_forward.svg
-2809ded7b5e96060dae9c77ad7daa5db 484 pics/flag1.svg
-834477b380d9c39bbc81c20cc531ebb5 484 pics/flag2.svg
-5139b9a6d638da040d05fbb4c1bbb806 484 pics/flag3.svg
-c7f55fb85f508a593a648cd94cad55b6 484 pics/flag4.svg
 36ecb4ce13d2c25f08e21361cbf86d51 179 pics/game_ctf.svg
 58b1a38ad83a48d74235a2138c023eb8 434 pics/game_dm.svg
 c1276bfde951132f267a8a44b60a4b13 444 pics/game_duel.svg
