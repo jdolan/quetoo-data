@@ -24,6 +24,18 @@
 	pants 8c384d
 }
 {
+	name Brianna
+	skin brianna/default
+	guid d8a1c46b-47f5-49eb-b5b1-8c745054ac66
+	skill .55
+	aggression .25
+	awareness .66
+	color 160
+	helmet b6f2b6
+	shirt 8c388c 
+	pants 36d936
+}
+{
 	name Bunker
 	skin bunker/default
 	guid c83474c1-422c-44cd-a93b-918390435187
