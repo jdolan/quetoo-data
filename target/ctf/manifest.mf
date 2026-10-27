@@ -9,3 +9,4 @@ fd4ca950ee6f16e679336b0c9a71d41c 504 pics/flag1.svg
 3b31fa66ab980706111f86bdad1ce1c7 220544 sounds/ctf/capture.wav
 044a4d0538efef32ed69d9b4a1ffc9ee 125172 sounds/ctf/return.wav
 aa729e2612853cad7e62a3523d90280a 176444 sounds/ctf/steal.wav
+ba00f1e2e5d62ba43970940a62997267 132968 ui/logo.png
