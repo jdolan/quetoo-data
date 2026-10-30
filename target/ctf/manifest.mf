@@ -1,5 +1,5 @@
-05e8f1fbe67e8ead902a8840524c6db8 18835034 map-longyard-ctf.pk3
-2b8c75c32eb02355e65f3ff38c7e2ebf 3357776 maps/longyard-ctf.map
+433c9123c5cd174d06d222378a537f19 19274279 map-longyard-ctf.pk3
+bb9d873f65cf242f2a52d3afaef2d63c 3369272 maps/longyard-ctf.map
 f6a9a26c1c5b5c633cc9e97502a8fdb1 588 pics/ctf.svg
 fd4ca950ee6f16e679336b0c9a71d41c 504 pics/flag1.svg
 6d2bf5300b5aed351e30757f28d2ee9a 504 pics/flag2.svg
