@@ -1,7 +1,7 @@
 {
 	diffusemap spacectf/u_trlightline_red
-	normalmap spacectf/u_trlightline_red_norm
-	parallax 0.00
+	normalmap spacectf/u_trlightline_norm
+	parallax 3.50
 	{
 		texture spacectf/u_trlightline_red_blend
 		blend src_alpha one
@@ -9,10 +9,5 @@
 		emissive 1.00
 		light.radius 128.00
 		light.intensity 2.75
-	}
-	{
-		texture spacectf/u_trlightline_red
-		blend src_alpha one
-		lighting 1.00 flat
 	}
 }
