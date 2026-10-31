@@ -7324,12 +7324,12 @@
 }
 // entity 125
 {
-"classname" "ammo_bolts"
+"classname" "ammo_quake_bolts"
 "origin" "352 496 32"
 }
 // entity 126
 {
-"classname" "ammo_bolts"
+"classname" "ammo_quake_bolts"
 "origin" "352 544 32"
 }
 // entity 127
