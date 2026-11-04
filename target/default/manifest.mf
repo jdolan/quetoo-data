@@ -1811,6 +1811,8 @@ fce10959894c3804011b2dc9f2ac9ffb 84630 sounds/ambient/thud.wav
 e7db1ae1f719403b62a08191ce1eb6a0 283630 sounds/ambient/underwater.wav
 93a193c6297f052781a4e02051aa4fd7 747312 sounds/ambient/water_1.wav
 01a3009417ffcacc75069643bc626589 110314 sounds/ambient/water_2.wav
+f8eb3ee60513d058d479e68daec9bccf 5050408 sounds/ambient/waterfall1.wav
+89f9e83fbe9f1a7b1eb0fab8ed2d54b8 2876512 sounds/ambient/waterfall2.wav
 4ca344374b0feff43d6c9491ef497953 490874 sounds/ambient/wind_1.wav
 bd2fe171e0245ab1ac0ee20d79729ad3 322470 sounds/ambient/wind_10.wav
 fe2ddbc6270bfb5c83d07cb66d51c550 90090 sounds/ambient/wind_2.wav
@@ -7696,6 +7698,8 @@ bde6b610a9696433425cf8ef9782c0bd 11083 textures/quake/water0.jpg
 70350b37ed7b9d3ffd5ad38447de5afe 7647 textures/quake/water0_spec.jpg
 73d81c5eeb8b75ebf9667a462ff33ce6 11375 textures/quake/water1.jpg
 0410198fc0636dc17f408e6a342d98d7 562 textures/quake/water1.mat
+1395d2c4f7d2bb6338b6e00b4772c06c 58506 textures/quake/water1_flow.jpg
+4039bc599712fcd04fb3929443c3eebe 347 textures/quake/water1_flow.mat
 2225e543b2b03ef1853045b8470ccb30 7802 textures/quake/water1_spec.jpg
 008e9ad3358d5b3393fe971363f56230 11830 textures/quake/water2.jpg
 e6da9da3e8d1442e6a32722e51a2b673 145 textures/quake/water2.mat
