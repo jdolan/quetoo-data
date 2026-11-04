@@ -1,0 +1,21 @@
+{
+	diffusemap quake/water1_flow
+	contents "water"
+	surface "liquid blend_66 material"
+	{
+		texture quake/water1_flow
+		warp 1.00 0.33
+		lighting 1.00 flat
+		scroll.t -0.333
+	}
+	{
+		texture effects/water6fx
+		blend src_alpha one
+		color 1.00 1.00 1.00 0.5
+		scroll.t -0.25
+		scale.s 0.500
+		scale.t 0.500
+		warp 0.30 1.00
+		lighting 0.50 flat
+	}
+}
