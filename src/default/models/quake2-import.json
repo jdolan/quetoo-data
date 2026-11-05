@@ -70,7 +70,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/powerups/quake2_adrenaline/diffuse-baseline/adrenaline.jpg",
+          "brightening_baseline_sha256": "b71a93e89dcc2b9ada74b09cb4a2d743f791c38f0d84be22057f4a2683b4020c",
+          "brightened_sha256": "db9344e6f51f357e0c8f2b85843dd031021280910dbdd8670c27839173874a34"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -99,7 +102,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_bullets/diffuse-baseline/bullets.jpg",
+          "brightening_baseline_sha256": "eb0efc2bf04fd66b8caf3becb4081b66b7524dad278340053315a9567eb432c7",
+          "brightened_sha256": "08321461e21203d1c024ac6563dba7da5ff2b410f2e5cdb42ad810323e1e33fb"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -138,7 +144,10 @@
             1024,
             1024
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_cells/diffuse-baseline/cells.jpg",
+          "brightening_baseline_sha256": "ddd98948362f89d3b6547c4e84b4d4be5306e971fb92946c7f3d7648ae6ef1ea",
+          "brightened_sha256": "85d78bb7a65392adfb9cb9700ea09b13a72ee6d0a3f59f152b3b1d916709a930"
         },
         {
           "original": "core.png",
@@ -148,7 +157,10 @@
             1024,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_cells/diffuse-baseline/core.jpg",
+          "brightening_baseline_sha256": "64b80cc53a599771b25b36261fa90d71deb4882b34abaeb6b308d4245e48fe78",
+          "brightened_sha256": "523843731dc4e15b50bd6b68b7f46027ab0e7eee5e466ff3d1f151cebd5e92ea"
         },
         {
           "original": "glass.png",
@@ -158,7 +170,10 @@
             256,
             128
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_cells/diffuse-baseline/glass.jpg",
+          "brightening_baseline_sha256": "59a903730355ad0e959e8ff3122bd28af0c35a7dbeb5307249425e4320831160",
+          "brightened_sha256": "43f23023009e89232cf625a50a2100e417d3334fc4cdf43b5863818575501653"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -187,7 +202,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_grenades/diffuse-baseline/strogg_grenade.jpg",
+          "brightening_baseline_sha256": "5ebdd8e58ecd4683a1fdb472cf95b7da94a42faa14674ed0b61c337798ff7c40",
+          "brightened_sha256": "532ef21204b1d11323b4e1a7182eab8f0af6e1626cdcd1300cad5d2d1af7863d"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -216,7 +234,10 @@
             1024,
             1024
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_rockets/diffuse-baseline/rockets.jpg",
+          "brightening_baseline_sha256": "812ec38eba265d15112bf561d1091cf82059934e294946c6215c521ef5eff8a8",
+          "brightened_sha256": "e5a97eb31debf4c947d2354cf47f5cfb2a306fa819d9aed636637c634c603d81"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -245,7 +266,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_shells/diffuse-baseline/strogg_shells.jpg",
+          "brightening_baseline_sha256": "4e4d263668330b892a3dfdb546cf7fcf4c5b85b2873bb86da99b7643bf13bf42",
+          "brightened_sha256": "0d179a721dda6801eb3b3173898d3231e8c8f1c9b7299824f03a890e0bbf4f6c"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -274,7 +298,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_slugs/diffuse-baseline/strogg_slugs.jpg",
+          "brightening_baseline_sha256": "7beae30effe3e2836d075de9dd97484530099d1c52bd7988f0cbf1bbca367ecf",
+          "brightened_sha256": "e7d5236e7f4d1942aea9e2202b08b58c3161cc950249342f676b18905a052a2b"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -303,7 +330,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/armor/quake2_body/diffuse-baseline/strogg_body_armor.jpg",
+          "brightening_baseline_sha256": "9d43d90d9f5d89f42dbdceaeb4a6c0056b7b54058405835d82b4cf20ce38a36c",
+          "brightened_sha256": "5f048684e3b3f0398be8ae543669a5c2a59c212ed54099c65993199f7a319a99"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -332,7 +362,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/armor/quake2_combat/diffuse-baseline/strogg_combat_armor.jpg",
+          "brightening_baseline_sha256": "ae00c21d2402a24dba6a0118e0346dcdd5f56cce8fa9d50a5eec75529e7f56d1",
+          "brightened_sha256": "19ccaf77732249e06d7244bc58a7be540e66e4a8087e8f3ff4f1df8f4005570d"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -361,7 +394,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/armor/quake2_jacket/diffuse-baseline/strogg_jacket_armor.jpg",
+          "brightening_baseline_sha256": "4ba6b02995f5c2f5e2256d10f7f4e5544014e2f82dfc58b027a20eea6ebe9d14",
+          "brightened_sha256": "cb3036fe0f7b083c089dd820d6adc5d351e46eaa99a2456ab63a40bd99de142b"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -395,7 +431,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/armor/quake2_shard/diffuse-baseline/metal.jpg",
+          "brightening_baseline_sha256": "3dca82cca68a2a401cfd99262e9fe1c5a06451a9b99e0e2e6a35e5687b92c47e",
+          "brightened_sha256": "d3f80ae982c789bf3af37827bae9921b3ff1d9c99d0f9a61d94758cb99c5958c"
         },
         {
           "original": "Orange.png",
@@ -405,7 +444,10 @@
             256,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/armor/quake2_shard/diffuse-baseline/orange.jpg",
+          "brightening_baseline_sha256": "d1564bb9ac161cc2c5eac80029f30cfeaaf44436f768707f7fad8361abb17859",
+          "brightened_sha256": "085ef623db55a85279d081e2edd2d6cb148e332955039b709e9c919a7c744ce5"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -444,7 +486,10 @@
             64,
             128
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_large/diffuse-baseline/blood.jpg",
+          "brightening_baseline_sha256": "492577de7a06572ee5331cbe8a0d5ccd6fdf53dafff0b79c4620a9ed8f13c376",
+          "brightened_sha256": "908a66d616705b8f8f83aa4ba12731c2a2ba968f770c08ebf2e6e17d142125b5"
         },
         {
           "original": "large.png",
@@ -454,7 +499,10 @@
             1024,
             1024
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_large/diffuse-baseline/large.jpg",
+          "brightening_baseline_sha256": "3f6a245de9184cda1f983a35f654191b3f88b582dc65ac211a24ef33350077a1",
+          "brightened_sha256": "a4d3230a03ca6655d2d3211f0deb751354128a53bdc7378fc0be9fbc6a7b381a"
         },
         {
           "original": "tube.png",
@@ -464,7 +512,10 @@
             128,
             256
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_large/diffuse-baseline/tube.jpg",
+          "brightening_baseline_sha256": "b0e2ccb14749095932181adf2544b62c0029f58196a656ab3ea667f5860a2726",
+          "brightened_sha256": "d3e4f2ab84e202146c5435a151b0dd1eda90b2bfd6dd8060b817535128e4cd48"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -508,7 +559,10 @@
             128,
             128
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_medium/diffuse-baseline/liquid.jpg",
+          "brightening_baseline_sha256": "2943ca430b2ed8033eb438ada6276f71104e6586da3adaafdd98debc45514e60",
+          "brightened_sha256": "3bcaa5492c6ae2bc68f60494e9c143dcce9f7d46317493b86b4aa2f0a7e72cd3"
         },
         {
           "original": "medium.png",
@@ -518,7 +572,10 @@
             1024,
             1024
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_medium/diffuse-baseline/medium.jpg",
+          "brightening_baseline_sha256": "b77c816f6fbbc10660d9ca94dd2bb4afabe91c4c0cde048c9d63c585b10a3832",
+          "brightened_sha256": "a8898b58d4e4ebb49be9b7e473eaba9d2b646d35198a7508349acd5aa8f8dbb0"
         },
         {
           "original": "syringe.png",
@@ -528,7 +585,10 @@
             512,
             256
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_medium/diffuse-baseline/syringe.jpg",
+          "brightening_baseline_sha256": "0ad2e94335e8463cd5dbdbb8c2467803c2392a44418f5763cb4b3b69782046b4",
+          "brightened_sha256": "deb44c70986c25f7e83fc352e6e1fe34e1ddf99ad1dc006ce17769eec7efe0d8"
         },
         {
           "original": "tube.png",
@@ -538,7 +598,10 @@
             256,
             256
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_medium/diffuse-baseline/tube.jpg",
+          "brightening_baseline_sha256": "b18d056cf00a8032addfed59d9eb1923012a0c9bb3c40cdf93a8e0ef5f38c906",
+          "brightened_sha256": "ef157e38815e04190dd9e2c01385bde2ba6a26c20b2ebd12f09741536202c148"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -567,7 +630,10 @@
             1024,
             1024
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_small/diffuse-baseline/stimpack.jpg",
+          "brightening_baseline_sha256": "9d9e8187c9559eea633ae189cf3d260256ccfd649550dd5afd96631a44a2431f",
+          "brightened_sha256": "0e1a967fd962218ab5739a92d5579bb22b4ad582fbf46bc646372df0b963cb0e"
         },
         {
           "original": "stimpack_fluid.png",
@@ -577,7 +643,10 @@
             256,
             256
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_small/diffuse-baseline/stimpack_fluid.jpg",
+          "brightening_baseline_sha256": "bfac6599baf1d947e617f9a8185b433d82211a61419325aa43f8614a840c8a9c",
+          "brightened_sha256": "895b2a49482d4ee14d0b7a3e705e7d8319b3db0395fad6664faae1db0a89b1f2"
         },
         {
           "original": "stimpack_glow.png",
@@ -587,7 +656,10 @@
             1024,
             1024
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_small/diffuse-baseline/stimpack_glow.jpg",
+          "brightening_baseline_sha256": "627dfbcd4a2e0b4625d8e2345c92bf71443c888059cfc2675c5e2321e81b9176",
+          "brightened_sha256": "01a3f5aac8b80cf128cc6b8c64572ddb508f47a29bbe34a626b3b1fee89afc91"
         },
         {
           "original": "stimpack_pulse.png",
@@ -597,7 +669,10 @@
             128,
             128
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_small/diffuse-baseline/stimpack_pulse.jpg",
+          "brightening_baseline_sha256": "745a213e822c28fed18e6d59fd357aa8b76541dd873bf8f6b1887cecf2b61911",
+          "brightened_sha256": "4e1e5de0389748d3a3fb8641fc5f94ec749cb2a9cfbb07af5e844962a2bcf9fe"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -631,7 +706,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/powerups/quake2_invulnerability/diffuse-baseline/skull.jpg",
+          "brightening_baseline_sha256": "1468bd7394fdd55f7cc1a4fbed57e4acf8f13c799abff914278f1fac0199e78e",
+          "brightened_sha256": "41d9d2aa5d118cc1ecbf1cc88dbd10459527247fb139d31f2779370b7c4a02a7"
         },
         {
           "original": "wings.png",
@@ -641,7 +719,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/powerups/quake2_invulnerability/diffuse-baseline/wings.jpg",
+          "brightening_baseline_sha256": "62ca30ea970e41859895cba80e310eeead9d2b224123168c4ed105ee5b569fae",
+          "brightened_sha256": "126d5fbdc2c65cdb8090294a4b30c917cf54a9f4c481af4349566fa5ee86fff3"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -670,7 +751,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_mega/diffuse-baseline/strogg_megahealth.jpg",
+          "brightening_baseline_sha256": "d49afe4409378850efdbc63549643349a17f22c74af0068a5b56155ef5268f62",
+          "brightened_sha256": "a77f164e97a9aca95cca3704f8311885cc396a10f891293b52dc7bfa72380a53"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -699,7 +783,10 @@
             200,
             200
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/powerups/quake2_backpack/diffuse-baseline/backpack.jpg",
+          "brightening_baseline_sha256": "893b71afda1401a6c91ead7e014ab6c91c406f70c7c3929bc9d0a47d2c4726c5",
+          "brightened_sha256": "67f6a3ce92c394e51fb466bc21b3d4714fa6bf3a296ac261463a61b3f568ecb9"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -728,7 +815,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/powerups/quake2_quad/diffuse-baseline/quaddama.jpg",
+          "brightening_baseline_sha256": "5688d3d253c008cafb42b2027686ae6b1361e83a6ac04b84ee0baf0509e20cf5",
+          "brightened_sha256": "eb78840f777dd2b64f392c1ba3129502c38383ae24cadb913dc1a28833577c0c"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -757,7 +847,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/powerups/quake2_silencer/diffuse-baseline/silencer.jpg",
+          "brightening_baseline_sha256": "a828671bd548a1a1238249f5be81761a7dbf14eb2ba7f55d6751b5f2db934c2d",
+          "brightened_sha256": "1afd32f348d52bff730b13e1481da99a8e85b885e20df8d6e1060e27fa28f0c6"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -821,7 +914,10 @@
             32,
             32
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_back_glass.jpg",
+          "brightening_baseline_sha256": "134a5317fbe2301715b839136d9334ca32537a62fbe793fe6aebb841103858d0",
+          "brightened_sha256": "10a7319cd4a7c4992de34e05fb48bf07f11baf7b050d001a023ed4ebcd19c7f2"
         },
         {
           "original": "10k_body.png",
@@ -831,7 +927,10 @@
             800,
             600
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_body.jpg",
+          "brightening_baseline_sha256": "645b5d021c23fd523cbd258c7d59059be5f0ef28d4489dba4a5d0fdafbf839da",
+          "brightened_sha256": "1090ef09810bdc2e75a12ad09f22edc1da735f516cbc273373fefb926b54924b"
         },
         {
           "original": "10k_drums.png",
@@ -841,7 +940,10 @@
             112,
             320
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_drums.jpg",
+          "brightening_baseline_sha256": "ee135c7976665e1b2afa7eacaee621b6ef1cf92a4fef81a10ca8bfc431fd59ca",
+          "brightened_sha256": "be62fb36f75d168bfa410d13eef032fdb140bf117e86ff732bbf08991c82cc8a"
         },
         {
           "original": "10k_energy.png",
@@ -851,7 +953,10 @@
             64,
             40
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_energy.jpg",
+          "brightening_baseline_sha256": "7c6cd786f952a43a21ead4155ed7c590b664cf4536cc8d66392585bcf8c30138",
+          "brightened_sha256": "495a24e10c385d2ee3080889f67c9b5f04089d823d78e3c74d89db823ac5f0a5"
         },
         {
           "original": "10k_energy_grill.png",
@@ -861,7 +966,10 @@
             128,
             80
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_energy_grill.jpg",
+          "brightening_baseline_sha256": "f13c9f2b812e73bf1e0b719f8ce1bbaf4e7d3d6c80e251357b0005ff11ea358f",
+          "brightened_sha256": "3b59a0b69b37f7cc54dcd70be0e76f965b8ec01d4520652982fb6b718915e3a6"
         },
         {
           "original": "10k_front_glass.png",
@@ -871,7 +979,10 @@
             64,
             64
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_front_glass.jpg",
+          "brightening_baseline_sha256": "7e59fd49134e9be8e246e0bd72bbc3cca91861993e97dead1d8794d3f788182b",
+          "brightened_sha256": "556fb682f9e3181401f7031c3374f7565be8b360ab853b314e894de559cc30b9"
         },
         {
           "original": "10k_glass.png",
@@ -881,7 +992,10 @@
             32,
             128
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_glass.jpg",
+          "brightening_baseline_sha256": "6dcb34e090d06304404b10a634011aa3a6e07db3d3a022a9f62c538ec57e1de0",
+          "brightened_sha256": "5a76f1c02a1340e11bf9ae5234fa0eafe8bad161f6bf7e300333ebd5e1ae81a7"
         },
         {
           "original": "10k_parts.png",
@@ -891,7 +1005,10 @@
             356,
             356
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_parts.jpg",
+          "brightening_baseline_sha256": "0c147a6b720ba35c282d46d095445752549ecc2b4e3609764b20f32664b38f14",
+          "brightened_sha256": "8d273ea83ab1b43eefc03faf2480ff8b0bbcee49bdcdab86352044cd609bfaf3"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -930,7 +1047,10 @@
             640,
             640
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_chaingun/diffuse-baseline/chaingun.jpg",
+          "brightening_baseline_sha256": "4481bbcc6f8fc509e4e08e39da37ea39c33a6694a85cd89162e6119c1f6e36d4",
+          "brightened_sha256": "05e7704855b841bbe49fc8052ebf0b0a9e367fe7683cd147b6824451b6512e08"
         },
         {
           "original": "chaingun_barrel.png",
@@ -940,7 +1060,10 @@
             320,
             320
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_chaingun/diffuse-baseline/chaingun_barrel.jpg",
+          "brightening_baseline_sha256": "ce188922a6d1c983b3efdf5f1f944fc90f1c3d72a44b7029ec055b04eb9e8c4d",
+          "brightened_sha256": "fb770e5cf194e893784251c310dee75bd2a5af82010592b3b6049ec1a75ab419"
         },
         {
           "original": "sidelight.png",
@@ -950,7 +1073,10 @@
             32,
             32
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_chaingun/diffuse-baseline/sidelight.jpg",
+          "brightening_baseline_sha256": "d72a19e0e869a736e41924e24eef0db7852029f4d01d617d16dba79414c8c4d5",
+          "brightened_sha256": "0bd47d8f3772545e0121e44824696a770d383348223380675dbfef786da75816"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -999,7 +1125,10 @@
             600,
             600
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_hyperblaster/diffuse-baseline/hyper.jpg",
+          "brightening_baseline_sha256": "942355b929911561fd0be0b86bf868117840344b39ab3a7305b897023e37c2d4",
+          "brightened_sha256": "9ccc4e75605039b5d1295f3254192866e4156e65722322ea5a2228fa1fcbca88"
         },
         {
           "original": "hyperparts.png",
@@ -1009,7 +1138,10 @@
             256,
             256
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_hyperblaster/diffuse-baseline/hyperparts.jpg",
+          "brightening_baseline_sha256": "004923d93bb9fa465b3f8e6782a0fc6280f04ab9508570bab74b27382dccdfb7",
+          "brightened_sha256": "ee30209d94ebbaed0346911339c0cba81a5141f2286d3ef339e70364fd1a7903"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -1053,7 +1185,10 @@
             500,
             500
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_grenadelauncher/diffuse-baseline/glauncher.jpg",
+          "brightening_baseline_sha256": "46f4d1db439a08d6108e2b465cc87120e25e6af5d5dc20e27cdf8ec58ea8508a",
+          "brightened_sha256": "ca08df91668cdc57c2edc6e1edae5c8c6a56c4b9b6f57c3275f734fc74acf910"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -1087,7 +1222,10 @@
             1024,
             1024
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_machinegun/diffuse-baseline/skin1.jpg",
+          "brightening_baseline_sha256": "28f037b427b97adfb4324d162255d8289feb5a86af5e45c864db34fd4b006e32",
+          "brightened_sha256": "cbe147aaa8e3ae77faeb7686052213dd11d4f6dda5deb568b16f37e888ba3955"
         },
         {
           "original": "skin2.png",
@@ -1097,7 +1235,10 @@
             256,
             256
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_machinegun/diffuse-baseline/skin2.jpg",
+          "brightening_baseline_sha256": "887ff31f868ae1c9e5e010caf41d7830405b963652573baa6eb204997c1e2de6",
+          "brightened_sha256": "fb1477b7ce473345a033a93d262034f544257201dc5d5e67f2505740ce6dcc6a"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -1166,7 +1307,10 @@
             32,
             64
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/attachment.jpg",
+          "brightening_baseline_sha256": "fcfe41533cea19f3e2fab5a915aa6138d9136875a6d4e524663b6c5c288c3868",
+          "brightened_sha256": "dd1f8aeeb94a3b6433c24e54e110f0ec13cc79411e68d7c6f7be97551948cc81"
         },
         {
           "original": "bigtubes.png",
@@ -1176,7 +1320,10 @@
             256,
             256
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/bigtubes.jpg",
+          "brightening_baseline_sha256": "bf82c40071cb14ac6e6273676f2b315ff9d2cf5d2a38681c2f7f18b1b20d8296",
+          "brightened_sha256": "e17c76d9270f3c427f9aef5864d5177aaca3dbadd4ae56e39ab7cc8071a553a6"
         },
         {
           "original": "bigtubes_gun.png",
@@ -1186,7 +1333,10 @@
             256,
             256
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/bigtubes_gun.jpg",
+          "brightening_baseline_sha256": "bf82c40071cb14ac6e6273676f2b315ff9d2cf5d2a38681c2f7f18b1b20d8296",
+          "brightened_sha256": "e17c76d9270f3c427f9aef5864d5177aaca3dbadd4ae56e39ab7cc8071a553a6"
         },
         {
           "original": "body.png",
@@ -1196,7 +1346,10 @@
             800,
             600
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/body.jpg",
+          "brightening_baseline_sha256": "a71fd9885e667079b34e3b7b3943a535da0df38bf3020b889f775c633de740c6",
+          "brightened_sha256": "267ab6bcdb381e5cc8027ad64d12054e5ff461ccad5cfa7a13fc527967dc5c39"
         },
         {
           "original": "hexrod.png",
@@ -1206,7 +1359,10 @@
             128,
             64
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/hexrod.jpg",
+          "brightening_baseline_sha256": "01b32be5afac8b90e2317986e50d2006b93e3108aed038d081ac7317ff504011",
+          "brightened_sha256": "44de01286aa7de826b4f60f862ffa12d5c58e7d5a4998a197242f780bf8db29d"
         },
         {
           "original": "innertube.png",
@@ -1216,7 +1372,10 @@
             256,
             200
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/innertube.jpg",
+          "brightening_baseline_sha256": "c51ff2db11c958c4a4aa28d7d599ff141d68d228cfa37f19b53d802fdcc821f6",
+          "brightened_sha256": "a73d09ae8cdca8cbdb5416dd91dc1ce37235139d9eee951d0b64174acba4f702"
         },
         {
           "original": "lights.png",
@@ -1226,7 +1385,10 @@
             32,
             32
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/lights.jpg",
+          "brightening_baseline_sha256": "4f885db029dc6d463f5eacd56ea268bdae0efe25f7a53972b71b7dc5b5938b9f",
+          "brightened_sha256": "8a9cec8d90a0d999e9ec79f313db105b9a90d5621e32ffdbdd18875872beb4e9"
         },
         {
           "original": "outertube.png",
@@ -1236,7 +1398,10 @@
             256,
             200
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/outertube.jpg",
+          "brightening_baseline_sha256": "be57b356cea7c75bba0648f672555156ebaa11d38fd393c853fe004e4bd00824",
+          "brightened_sha256": "9c2c7802e6516337f344b54387cb9dc592fde7af2f9e377dd346b5400c96a439"
         },
         {
           "original": "smalltubes.png",
@@ -1246,7 +1411,10 @@
             64,
             64
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/smalltubes.jpg",
+          "brightening_baseline_sha256": "eb863c8419373434e5e43afe1c52c04891a5a11e8b7b40bf84dc3616fd1be806",
+          "brightened_sha256": "2245c5de65c8ab6921d33a29d6dfacf29362e25b32ea138aa03d3dcc8807768c"
         },
         {
           "original": "smalltubes_gun.png",
@@ -1256,7 +1424,10 @@
             64,
             64
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/smalltubes_gun.jpg",
+          "brightening_baseline_sha256": "eb863c8419373434e5e43afe1c52c04891a5a11e8b7b40bf84dc3616fd1be806",
+          "brightened_sha256": "2245c5de65c8ab6921d33a29d6dfacf29362e25b32ea138aa03d3dcc8807768c"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -1300,7 +1471,10 @@
             128,
             128
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_rocketlauncher/diffuse-baseline/rl_rocket.jpg",
+          "brightening_baseline_sha256": "7b00df3f374832bb12286878d3b5f198d7f93cea30daa651c36650d193526e08",
+          "brightened_sha256": "116b876121bb0a9a563e9e8bf6f3f0c90cec4fa6bb6fadb7f596c7ef84f7a756"
         },
         {
           "original": "rlauncher.png",
@@ -1310,7 +1484,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_rocketlauncher/diffuse-baseline/rlauncher.jpg",
+          "brightening_baseline_sha256": "ee021e9628c6702b621f2213cee434da6ac1f9a6bbb3d2ae806980f346f52df7",
+          "brightened_sha256": "a45fe9091492fa4755c5987a955f3a8d35273821bf2c91889f50ca5a199e3635"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -1339,7 +1516,10 @@
             1024,
             1024
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_shotgun/diffuse-baseline/shotg.jpg",
+          "brightening_baseline_sha256": "46b290682bbba64d406edd71d13cc9f337020e32c7f5f7038333bfb3d3862aac",
+          "brightened_sha256": "8c6f273c26b3eeaa73571f729a80bac3116bd7ce7e8e26ff0c612ed4b79d14da"
         },
         {
           "original": "shotg_glow.png",
@@ -1349,7 +1529,10 @@
             256,
             256
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_shotgun/diffuse-baseline/shotg_glow.jpg",
+          "brightening_baseline_sha256": "25e16b58ea9e165475f5bbeaa9e6eaea2f1f22731ef85a79585fe401b530310d",
+          "brightened_sha256": "14276db5813b9150679ea4bee1ffbf5c7057735f8d4d86251a8aa3e8fde5fc42"
         },
         {
           "original": "shotg_glow2.png",
@@ -1359,7 +1542,10 @@
             64,
             64
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_shotgun/diffuse-baseline/shotg_glow2.jpg",
+          "brightening_baseline_sha256": "175e592fa67ec0f530d41ddb404b494aa567ac6fab68ccd718d892a4931fdb76",
+          "brightened_sha256": "63ce67306b090f43bc8f43b08cfa148c798b6eb74da052d9a375a30f1e1fab84"
         },
         {
           "original": "shotg_glowpulse.png",
@@ -1369,7 +1555,10 @@
             64,
             128
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_shotgun/diffuse-baseline/shotg_glowpulse.jpg",
+          "brightening_baseline_sha256": "f8344c31df66fc1b2e7ef00010d610debe212e22abb50578421a87843b59ade6",
+          "brightened_sha256": "9e6855264d8c3899a3535db2dd09b8473298240200527f7ddaa7606d42dfa5b1"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -1408,7 +1597,10 @@
             512,
             512
           ],
-          "alpha_preserved": false
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_supershotgun/diffuse-baseline/ssg.jpg",
+          "brightening_baseline_sha256": "e58edcd674bf12f481d4232409eed04d1e03394bd5f39fafdf13b90f23fe017d",
+          "brightened_sha256": "3955d843510861f5a996e6be7f8710df6b833d95b81c114cff3ef65c5c8bdc7b"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -1433,5 +1625,13 @@
       "equipment"
     ],
     "behavior_reference": "id-Software/Quake-2 GPL game/p_weapon.c and game/g_weapon.c"
+  },
+  "diffuse_brightening": {
+    "gamma_exponent": 0.75,
+    "formula": "For each sRGB byte independently: round(255 * (input / 255) ** 0.75)",
+    "input": "Preserved pre-brightening JPEG at each texture's brightening_baseline path; always regenerate from this baseline, never compound",
+    "output": "RGB JPEG, original dimensions, Pillow quality=95, subsampling=0",
+    "scope": "64 imported diffuse skins across 28 Q2 models; no normalmaps, materials, configs or source originals changed",
+    "status": "User-approved moderate first pass; needs in-game review. Diffuse-derived specular fallback will also reflect brighter diffuse."
   }
 }
