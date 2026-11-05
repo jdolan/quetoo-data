@@ -1,0 +1,6 @@
+{
+	diffusemap health/quake2_mega/strogg_megahealth
+	roughness 3.50
+	hardness 4.00
+	specularity 1.50
+}

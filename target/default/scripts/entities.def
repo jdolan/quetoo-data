@@ -2524,7 +2524,7 @@
  gravity : Gravity for the level; unset, the movement's applies, 800 for most.
  gameplay : The gameplay mode, one of deathmatch, team_deathmatch, instagib, team_instagib, arena, team_arena (default deathmatch).
  movement : The player movement, one of quetoo, race, quake, quake2, quake3 (default quetoo, or race in the race module).
- items : The item set for this map: "default" (Quetoo weapons) or "quake" (Quake weapons).
+ items : The item set: "default" (Quetoo), "quake" (Quake), or "quake2" (Quake II). Independent of movement.
  min_clients : The number of clients, humans and AI, the game fills to; unset, 0.
  ai : The AI players, by name and separated by spaces, that join the level first. They always join, even beyond min_clients; any others that min_clients asks for are picked at random.
  num_teams : The number of teams, 2 to 4, in team gameplays; unset, the teams that the map has spawn points or flags for. In CTF, at most the teams that the map has flags for.
@@ -2534,4 +2534,221 @@
  music : A comma-delimited list of music tracks; unset, all tracks are shuffled.
  author : The creator of the map, and any other credits. Metadata only: the game does not read it.
  version : The version of the map, as major.minor.build. Metadata only: the game does not read it.
+*/
+
+
+/*QUAKED weapon_quake2_blaster (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Blaster. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED weapon_quake2_shotgun (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Shotgun. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED weapon_quake2_supershotgun (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Super Shotgun. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED weapon_quake2_machinegun (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Machinegun. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED weapon_quake2_chaingun (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Chaingun. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED weapon_quake2_handgrenades (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Hand Grenades. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED weapon_quake2_grenadelauncher (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Grenade Launcher. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED weapon_quake2_rocketlauncher (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Rocket Launcher. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED weapon_quake2_hyperblaster (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Hyperblaster. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED weapon_quake2_railgun (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Railgun. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED ammo_quake2_shells (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Shells (+10). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED ammo_quake2_bullets (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Bullets (+50). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED ammo_quake2_grenades (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Grenades (+5). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED ammo_quake2_rockets (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Rockets (+5). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED ammo_quake2_cells (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Cells (+50). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED ammo_quake2_slugs (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Slugs (+10). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED item_quake2_armor_shard (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Armor Shard (+2). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED item_quake2_armor_jacket (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Jacket Armor (+25). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED item_quake2_armor_combat (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Combat Armor (+50). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED item_quake2_armor_body (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Body Armor (+100). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED item_quake2_health_small (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Small Health (+2). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED item_quake2_health_medium (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Medium Health (+10). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED item_quake2_health_large (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Large Health (+25). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED item_quake2_health_mega (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Mega Health (+100). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
 */

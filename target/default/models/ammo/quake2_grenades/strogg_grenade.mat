@@ -1,0 +1,6 @@
+{
+	diffusemap ammo/quake2_grenades/strogg_grenade
+	roughness 4.00
+	hardness 2.50
+	specularity 1.50
+}

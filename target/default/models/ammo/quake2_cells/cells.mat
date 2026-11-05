@@ -1,0 +1,6 @@
+{
+	diffusemap ammo/quake2_cells/cells
+	roughness 3.00
+	hardness 8.00
+	specularity 1.50
+}

@@ -1,0 +1,6 @@
+{
+	diffusemap weapons/quake2_grenadelauncher/glauncher
+	roughness 5.00
+	hardness 4.00
+	specularity 2.00
+}
