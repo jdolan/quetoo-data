@@ -2627,6 +2627,15 @@
  hazard_respawn : Return to spawn after entering lava or slime.
 */
 
+/*QUAKED weapon_quake2_bfg (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II BFG10K. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
 /*QUAKED ammo_quake2_shells (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Quake II Shells (+10). Uses the Quake II inventory, independently of movement.
  team : The team name for alternating item spawns.

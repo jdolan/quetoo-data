@@ -18,7 +18,7 @@
       "Super shotgun"
     ],
     "status": "All nine weapon candidates retained and visually accepted by the user; no further individual review required. Permissions, original shader behavior, and final in-game placement remain pending.",
-    "placement_strawman": "User-tuned shotgun and super shotgun transforms retained. Remaining seven weapon candidates use super shotgun world translation 0 0 0 / scale 1, link translation 4 0 -12 / scale 0.65, view translation 12 0 -24 / scale 0.75. Existing model-specific muzzle coordinates rounded to integers; BFG muzzle 32 0 23 is a provisional bounds-based estimate. These are local starting values for in-game review, not final placements or BFG gameplay support."
+    "placement_strawman": "User-tuned shotgun and super shotgun transforms retained. Remaining seven weapon candidates use super shotgun world translation 0 0 0 / scale 1, link translation 4 0 -12 / scale 0.65, view translation 12 0 -24 / scale 0.75. Existing model-specific muzzle coordinates rounded to integers; BFG muzzle 32 0 23 is a provisional bounds-based estimate. These are local starting values for in-game review, not final placements."
   },
   "normalmap_recipe": {
     "tool": "src/tools/matfu.py batch --preset src/default/models/quake2-matfu.json --from-diffuse --save normal",
@@ -1577,7 +1577,6 @@
       "placement": "Initial bounds-derived world/view/link configurations, not final hand-authored tuning"
     },
     "deferred_entities": [
-      "BFG9000",
       "powerups",
       "equipment"
     ],
@@ -1820,6 +1819,26 @@
         "destination": "target/default/sounds/projectiles/quake2_handgrenade/hit_2.wav",
         "source": "baseq2/pak0.pak:sound/weapons/HGRENB2A.WAV",
         "sha256": "d6422e2ca7ae3609a8ad111daf73e349ac1eaac6e3ce814e08f395cf4079fe28"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_bfg/fire.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Bfg__f1y.wav",
+        "sha256": "0bf1ab2b49d9e8fd1b0b3e08c25f87dc7038a30d59cad521fdad26c0a23a8606"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_bfg/hum.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/bfg_hum.wav",
+        "sha256": "9b176927b35f055b5524979088498a75b0ad58b64c61ba630dcaa8e33be48802"
+      },
+      {
+        "destination": "target/default/sounds/projectiles/quake2_bfg/fly.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Bfg__l1a.wav",
+        "sha256": "0d3cc6c7c1911aeab5c051264d08229e874352458eeda7008ee1881447a7d519"
+      },
+      {
+        "destination": "target/default/sounds/projectiles/quake2_bfg/explode.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Bfg__x1b.wav",
+        "sha256": "6e9b853cbf0b6ed1b2cb8f51a99ed2de88033794db7d33a1ee4874a151d9ac02"
       }
     ],
     "rejected": "Generations Arena 0.99e Strogg sounds: auditioned and dropped; they do not sound like Quake II",

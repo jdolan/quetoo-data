@@ -95,6 +95,7 @@
 @PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_rocketlauncher : "Quake II Rocket Launcher" []
 @PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_hyperblaster : "Quake II Hyperblaster" []
 @PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_railgun : "Quake II Railgun" []
+@PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_bfg : "Quake II BFG10K" []
 @PointClass base(Ammo) color(180 180 80) studio("") = ammo_quake2_shells : "Quake II Shells (+10)" []
 @PointClass base(Ammo) color(180 180 80) studio("") = ammo_quake2_bullets : "Quake II Bullets (+50)" []
 @PointClass base(Ammo) color(180 180 80) studio("") = ammo_quake2_grenades : "Quake II Grenades (+5)" []
