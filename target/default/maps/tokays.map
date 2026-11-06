@@ -11358,7 +11358,7 @@
 }
 // entity 19
 {
-"classname" "weapon_bfg"
+"classname" "weapon_quake2_bfg"
 "origin" "672.000000 96.000000 784.000000"
 "team" "dapowaz"
 }
@@ -11566,12 +11566,12 @@
 }
 // entity 60
 {
-"classname" "ammo_nukes"
+"classname" "ammo_quake2_cells"
 "origin" "1376 -896 784"
 }
 // entity 61
 {
-"classname" "ammo_nukes"
+"classname" "ammo_quake2_cells"
 "origin" "1504 304 272"
 }
 // entity 62
@@ -11638,7 +11638,7 @@
 }
 // entity 74
 {
-"classname" "ammo_nukes"
+"classname" "ammo_quake2_cells"
 "origin" "640.000000 -528.000000 144.000000"
 }
 // entity 75

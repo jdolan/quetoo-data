@@ -15099,7 +15099,7 @@
 }
 // entity 86
 {
-"classname" "weapon_bfg"
+"classname" "weapon_quake2_bfg"
 "origin" "1056.000000 -1056.000000 592.000000"
 }
 // entity 87
@@ -15792,7 +15792,7 @@
 }
 // entity 91
 {
-"classname" "ammo_nukes"
+"classname" "ammo_quake2_cells"
 "origin" "448.000000 -832.000000 480.000000"
 }
 // entity 92
@@ -15807,7 +15807,7 @@
 }
 // entity 94
 {
-"classname" "ammo_nukes"
+"classname" "ammo_quake2_cells"
 "origin" "960.000000 576.000000 208.000000"
 }
 // entity 95
@@ -15818,7 +15818,7 @@
 }
 // entity 96
 {
-"classname" "ammo_nukes"
+"classname" "ammo_quake2_cells"
 "origin" "384.000000 0.000000 464.000000"
 }
 // entity 97

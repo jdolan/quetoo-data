@@ -16884,7 +16884,7 @@
 }
 // entity 40
 {
-"classname" "weapon_bfg"
+"classname" "weapon_quake2_bfg"
 "origin" "-864.000000 608.000000 -112.000000"
 }
 // entity 41
@@ -17124,7 +17124,7 @@
 }
 // entity 85
 {
-"classname" "ammo_nukes"
+"classname" "ammo_quake2_cells"
 "origin" "576.000000 1408.000000 -296.000000"
 }
 // entity 86

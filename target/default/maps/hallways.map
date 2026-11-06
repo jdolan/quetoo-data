@@ -25972,7 +25972,7 @@
 }
 // entity 237
 {
-"classname" "weapon_bfg"
+"classname" "weapon_quake2_bfg"
 "origin" "0 64 160"
 "_tb_layer" "8"
 }
@@ -26021,13 +26021,13 @@
 }
 // entity 245
 {
-"classname" "ammo_nukes"
+"classname" "ammo_quake2_cells"
 "origin" "-264.000000 468.000000 160.000000"
 "_tb_layer" "8"
 }
 // entity 246
 {
-"classname" "ammo_nukes"
+"classname" "ammo_quake2_cells"
 "origin" "-1032.000000 -1280.000000 160.000000"
 "_tb_layer" "8"
 }
@@ -26045,7 +26045,7 @@
 }
 // entity 249
 {
-"classname" "ammo_nukes"
+"classname" "ammo_quake2_cells"
 "origin" "1296.000000 1488.000000 0.000000"
 "spawnflags" "4"
 "_tb_layer" "8"
