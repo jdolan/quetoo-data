@@ -1572,7 +1572,7 @@
       "blaster": "Quetoo blaster model and materials",
       "hand_grenades": "Q2 grenade ammo pickup model; Quetoo thrown grenade",
       "icons": "Corresponding Quetoo weapon/ammo/health/armor icons",
-      "sounds": "Quetoo pickup, fire, flight, impact and grenade timer sounds",
+      "sounds": "Quetoo sounds copied to the quake2_* sound paths; silent spin/hum loops",
       "projectiles": "Quetoo blaster/grenade/rocket/rail effects; no hyperblaster climb mechanic",
       "placement": "Initial bounds-derived world/view/link configurations, not final hand-authored tuning"
     },
@@ -1606,7 +1606,7 @@
       "weapons/quake2_machinegun/skin1_glow",
       "weapons/quake2_rocketlauncher/rlauncher_glow"
     ],
-    "self_emissive": "Surfaces whose skin is already a light (stimpack glow/pulse/fluid, large health blood, shotgun glow/glow2/glowpulse, chaingun sidelight, railgun lights, machinegun screen, BFG energy) use their own diffuse as the glow stage texture.",
+    "self_emissive": "Surfaces whose skin is already a light (stimpack glow/pulse/fluid, large health blood, shotgun glow/glow2/glowpulse, chaingun sidelight, railgun lights, machinegun screen, BFG energy) use their own diffuse as the glow stage texture. The stimpack and shotgun glows are material stages.",
     "naming": "stimpack uses _fx because stimpack_glow is an existing surface skin.",
     "material_stage": "blend src_alpha one, pulse 2 for health, 1 for megahealth/cells/armor/quad, 1.5 for adrenaline, 0.5-1.25 for weapons",
     "status": "First pass; needs in-game review."
@@ -1657,5 +1657,18 @@
       "quake2_small/stimpack_pulse.jpg"
     ],
     "reason": "No surface of the imported mesh uses them (the railgun uses identical *_gun copies). Originals remain under each model's src original/ directory."
+  },
+  "sounds": {
+    "status": "Placeholders: copies of the corresponding Quetoo sounds, wired under weapons/quake2_* and projectiles/quake2_*",
+    "silent_placeholders": [
+      "weapons/quake2_chaingun/spinup",
+      "weapons/quake2_chaingun/hum",
+      "weapons/quake2_chaingun/spindown",
+      "weapons/quake2_hyperblaster/hum",
+      "weapons/quake2_hyperblaster/spindown",
+      "weapons/quake2_railgun/hum"
+    ],
+    "rejected": "Generations Arena 0.99e Strogg sounds: auditioned and dropped; they do not sound like Quake II",
+    "next": "Audition retail Quake II shareware pak0.pak sounds over the placeholders"
   }
 }
