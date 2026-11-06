@@ -1572,7 +1572,7 @@
       "blaster": "Quetoo blaster model and materials",
       "hand_grenades": "Q2 grenade ammo pickup model; Quetoo thrown grenade",
       "icons": "Corresponding Quetoo weapon/ammo/health/armor icons",
-      "sounds": "Quetoo sounds copied to the quake2_* sound paths; silent spin/hum loops",
+      "sounds": "Quake II shareware weapon sounds on trial; Quetoo pickup sounds",
       "projectiles": "Quetoo blaster/grenade/rocket/rail effects; no hyperblaster climb mechanic",
       "placement": "Initial bounds-derived world/view/link configurations, not final hand-authored tuning"
     },
@@ -1659,16 +1659,170 @@
     "reason": "No surface of the imported mesh uses them (the railgun uses identical *_gun copies). Originals remain under each model's src original/ directory."
   },
   "sounds": {
-    "status": "Placeholders: copies of the corresponding Quetoo sounds, wired under weapons/quake2_* and projectiles/quake2_*",
-    "silent_placeholders": [
-      "weapons/quake2_chaingun/spinup",
-      "weapons/quake2_chaingun/hum",
-      "weapons/quake2_chaingun/spindown",
-      "weapons/quake2_hyperblaster/hum",
-      "weapons/quake2_hyperblaster/spindown",
-      "weapons/quake2_railgun/hum"
+    "status": "Trial: id Software Quake II shareware demo sounds, overlaid on the Quetoo placeholders for audition",
+    "source": "Quake II demo q2-314-demo-x86.exe (ftp.idsoftware.com/idstuff/quake2 mirror at ftp.gwdg.de), Install/Data/baseq2/pak0.pak, sha256 cae257182f34d3913f3d663e1d7cf865d668feda6af393d4ecf3e9e408b48d09",
+    "conversion": "Byte-identical copies, except the shotgun, grenade launcher and rocket launcher fire sounds, which have their reload mixed in (see each file). All 41 sound/weapons files in the demo are byte-identical to retail Quake II.",
+    "mapping_reference": "Quake II GPL source: game/p_weapon.c, client/cl_fx.c, client/cl_tent.c",
+    "files": [
+      {
+        "destination": "target/default/sounds/weapons/quake2_blaster/fire.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/BLASTF1A.WAV",
+        "sha256": "e402d0e217f466d2ffa93408f8ee6741a544b469982307a4db285c70edd3ccb9"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_blaster/hit.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/lashit.wav",
+        "sha256": "4bc5e49e2ce9943a7cb5250fe451b94359757b5390c300a1d01354754c31c86d"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_shotgun/fire.wav",
+        "source": [
+          "baseq2/pak0.pak:sound/weapons/Shotgf1b.wav",
+          "baseq2/pak0.pak:sound/weapons/Shotgr1b.wav"
+        ],
+        "sha256": "bd7f69d7dbd94de99840bd48565bab281be37a8ae837198df0dce5a708f8fb58",
+        "conversion": "Fire mixed with the reload starting 2205 samples (0.1 s) later, as Quake II's CL_ParseMuzzleFlash plays it with timeofs 0.1; samples summed, clamped to 16 bits"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_supershotgun/fire.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Sshotf1b.wav",
+        "sha256": "05d4e0ff4ccda8f41f1fd50d8a2271f8a706f2144b8643e4a8e143bed29d11f2"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_machinegun/fire_1.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Machgf1b.wav",
+        "sha256": "ba7680e9e37e910afcbab51b5860c35e3de0a0682b7cec7f1fce008a5e90cd86"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_machinegun/fire_2.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Machgf2b.wav",
+        "sha256": "daf525c8c2d1ad95647b8de06b50b1cbe99bdf5dfb1540c95de063440f6feec3"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_machinegun/fire_3.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Machgf3b.wav",
+        "sha256": "6b917d84145fc91331dd56192d608bc606c791cb6d236c0384e243dff9ed0ea9"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_machinegun/fire_4.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Machgf4b.wav",
+        "sha256": "225d093cfdb5f08805cd7698a36d32e98743c506ea043aae1cf562121b305e73"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_machinegun/fire_5.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Machgf5b.wav",
+        "sha256": "dd90aa8e791657c4e2f3aa088845c3abbfd809ccd20e22b18e2bb090fb812a82"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_chaingun/spinup.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Chngnu1a.wav",
+        "sha256": "8a97382d2780c73a26304196a760e5656617b801843845c53457eeba8da76b37"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_chaingun/hum.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Chngnl1a.wav",
+        "sha256": "5179eee1ad2cf4a6d0e1412890b0bbd7b9406fb5126e0d419a972fb28094e184"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_chaingun/spindown.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Chngnd1a.wav",
+        "sha256": "9f3d1e07f8a2aaff1582c3664bd0b5c86ca8d447e613cb2612ec62e31af99fe9"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_handgrenades/pin.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Hgrena1b.wav",
+        "sha256": "9f9d824a1d4add7aedbf37504a04d97f7b1dd37a8269613c0da4df53dbec7f18"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_handgrenades/throw.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/HGRENT1A.WAV",
+        "sha256": "08201ed239b2d55479a5e772d01e54c6742cc99b190da5cc04ae088e5589c15e"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_handgrenades/tick.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Hgrenc1b.wav",
+        "sha256": "b0b3f63cb5b337cae0b553155ab3c678bd64f6f21b9030eb4fdaa29deb024cbf"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_grenadelauncher/fire.wav",
+        "source": [
+          "baseq2/pak0.pak:sound/weapons/GRENLF1A.WAV",
+          "baseq2/pak0.pak:sound/weapons/Grenlr1b.wav"
+        ],
+        "sha256": "cf84325eaf4910894d8756071ca5467c0f96c195238b308640e942d9a88216b0",
+        "conversion": "Fire mixed with the reload starting 2205 samples (0.1 s) later, as Quake II's CL_ParseMuzzleFlash plays it with timeofs 0.1; samples summed, clamped to 16 bits"
+      },
+      {
+        "destination": "target/default/sounds/projectiles/quake2_grenade/explode.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/GRENLX1A.WAV",
+        "sha256": "abd5b47635b9f19839fd03cff0d6cec2664ad0d35fe289ae676bedf9a73a4afd"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_rocketlauncher/fire.wav",
+        "source": [
+          "baseq2/pak0.pak:sound/weapons/ROCKLF1A.WAV",
+          "baseq2/pak0.pak:sound/weapons/Rocklr1b.wav"
+        ],
+        "sha256": "357d8b89eeed77c01a845012cf454032ca81040ed1f66ed59d3f86b4f376c5c3",
+        "conversion": "Fire mixed with the reload starting 2205 samples (0.1 s) later, as Quake II's CL_ParseMuzzleFlash plays it with timeofs 0.1; samples summed, clamped to 16 bits"
+      },
+      {
+        "destination": "target/default/sounds/projectiles/quake2_rocket/explode.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/ROCKLX1A.WAV",
+        "sha256": "976385005539b80728a7c13713044896aacdcd7bbab74648c4e08659c2284f2a"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_hyperblaster/fire.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Hyprbf1a.wav",
+        "sha256": "e6532b6759ae881f82bc9fded07f644dfa4a0ab83852022f3ed1987852cbfc38"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_hyperblaster/hum.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Hyprbl1a.wav",
+        "sha256": "39d13acabf9440cc6360c55c326888ab36ef8770377b0f99237f0180a0198ac6"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_hyperblaster/spindown.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Hyprbd1a.wav",
+        "sha256": "3ac7edc0fa3477581b5a87c73b5bf8c024493e3395d5c3b64871b0dbaa315b62"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_hyperblaster/hit.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/lashit.wav",
+        "sha256": "4bc5e49e2ce9943a7cb5250fe451b94359757b5390c300a1d01354754c31c86d"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_railgun/fire.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/RAILGF1A.WAV",
+        "sha256": "a3a7edd9c470077682bde595f95d88546d416f300202ae96bd6c6371ec19cf09"
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_railgun/hum.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/rg_hum.wav",
+        "sha256": "84b348b10921b5f7c6539a20ead4de132e0f7988ab8f1464669fbe6ce0a20c2e"
+      },
+      {
+        "destination": "target/default/sounds/projectiles/quake2_rocket/fly.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/rockfly.wav",
+        "sha256": "d922cc5e24e1304dfbc6a83a396934239f47673b6888eb17d179be8d1aeadfba"
+      },
+      {
+        "destination": "target/default/sounds/projectiles/quake2_grenade/hit.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/Grenlb1b.wav",
+        "sha256": "696d5e83aa82a478f6b1521b20973d5608945cf8829f549b1eb415209fe7d9b6"
+      },
+      {
+        "destination": "target/default/sounds/projectiles/quake2_handgrenade/hit_1.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/HGRENB1A.WAV",
+        "sha256": "802dd63aca7f3c590ff886195d0c57e11d2190678ceeb414382f5a4be638b3ca"
+      },
+      {
+        "destination": "target/default/sounds/projectiles/quake2_handgrenade/hit_2.wav",
+        "source": "baseq2/pak0.pak:sound/weapons/HGRENB2A.WAV",
+        "sha256": "d6422e2ca7ae3609a8ad111daf73e349ac1eaac6e3ce814e08f395cf4079fe28"
+      }
     ],
     "rejected": "Generations Arena 0.99e Strogg sounds: auditioned and dropped; they do not sound like Quake II",
-    "next": "Audition retail Quake II shareware pak0.pak sounds over the placeholders"
+    "permission": "Pending: redistribution of id Software shareware audio is unresolved"
   }
 }
