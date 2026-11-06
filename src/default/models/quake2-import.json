@@ -40,6 +40,8 @@
     "sounds",
     "HUD icons"
   ],
+    "silencer": "Single-player stealth powerup against monster AI; not featured in deathmatch. Model and skins removed; no entity is defined."
+  },
   "models": [
     {
       "source_model": "pak97_models/models/items/adrenal/tris.md2",
@@ -824,38 +826,6 @@
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
     },
     {
-      "source_model": "pak97_models/models/items/silencer/tris.md2",
-      "source_sha256": "7417b65bd64e522f8d311c10f1ff5b068004dffa644e43dfd8c46ea2da2e9a29",
-      "destination": "target/default/models/powerups/quake2_silencer/tris.obj",
-      "source_frames": 1,
-      "static": true,
-      "frames_identical_including_normals_and_tags": true,
-      "pose": 0,
-      "surfaces": [
-        {
-          "name": "silencer",
-          "material": "powerups/quake2_silencer/silencer",
-          "triangles": 488
-        }
-      ],
-      "textures": [
-        {
-          "original": "silencer.png",
-          "sha256": "624094ec65718b0209e255ee67af58a122388c8ab58e75f5d699d7db1f319b13",
-          "output": "silencer.jpg",
-          "size": [
-            512,
-            512
-          ],
-          "alpha_preserved": false,
-          "brightening_baseline": "src/default/models/powerups/quake2_silencer/diffuse-baseline/silencer.jpg",
-          "brightening_baseline_sha256": "a828671bd548a1a1238249f5be81761a7dbf14eb2ba7f55d6751b5f2db934c2d",
-          "brightened_sha256": "1afd32f348d52bff730b13e1481da99a8e85b885e20df8d6e1060e27fa28f0c6"
-        }
-      ],
-      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
-    },
-    {
       "source_model": "pak97_models/models/weapons/g_bfg/tris.md2",
       "source_sha256": "8e2931dbc19b0bb332d046e3f5e8ce01f9085238d5691f516e4a570a6eb8a8e9",
       "destination": "target/default/models/weapons/quake2_bfg/tris.obj",
@@ -1631,7 +1601,7 @@
     "formula": "For each sRGB byte independently: round(255 * (input / 255) ** 0.75)",
     "input": "Preserved pre-brightening JPEG at each texture's brightening_baseline path; always regenerate from this baseline, never compound",
     "output": "RGB JPEG, original dimensions, Pillow quality=95, subsampling=0",
-    "scope": "64 imported diffuse skins across 28 Q2 models; no normalmaps, materials, configs or source originals changed",
+    "scope": "63 imported diffuse skins across 27 Q2 models; no normalmaps, materials, configs or source originals changed",
     "status": "User-approved moderate first pass; needs in-game review. Diffuse-derived specular fallback will also reflect brighter diffuse."
   }
 }
