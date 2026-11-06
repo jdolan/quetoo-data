@@ -3,4 +3,10 @@
 	roughness 4.00
 	hardness 5.00
 	specularity 1.50
+	{
+		texture weapons/quake2_shotgun/shotg_glow
+		blend src_alpha one
+		pulse 0.75
+		emissive 2
+	}
 }

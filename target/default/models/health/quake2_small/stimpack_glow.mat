@@ -1,9 +1,0 @@
-{
-	diffusemap health/quake2_small/stimpack_glow
-	{
-		texture health/quake2_small/stimpack_glow
-		blend src_alpha one
-		pulse 2
-		emissive 1
-	}
-}

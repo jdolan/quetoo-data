@@ -8,4 +8,10 @@
 		pulse 2
 		emissive 1
 	}
+	{
+		texture health/quake2_small/stimpack_glow
+		blend src_alpha one
+		pulse 2.00
+		emissive 1.00
+	}
 }
