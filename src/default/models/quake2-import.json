@@ -639,19 +639,6 @@
           "brightened_sha256": "0e1a967fd962218ab5739a92d5579bb22b4ad582fbf46bc646372df0b963cb0e"
         },
         {
-          "original": "stimpack_fluid.png",
-          "sha256": "516c93922a0e7c9f2cdd741eafe0eff53f6293f5cbd52bcff55edcb9517376c1",
-          "output": "stimpack_fluid.jpg",
-          "size": [
-            256,
-            256
-          ],
-          "alpha_preserved": false,
-          "brightening_baseline": "src/default/models/health/quake2_small/diffuse-baseline/stimpack_fluid.jpg",
-          "brightening_baseline_sha256": "bfac6599baf1d947e617f9a8185b433d82211a61419325aa43f8614a840c8a9c",
-          "brightened_sha256": "895b2a49482d4ee14d0b7a3e705e7d8319b3db0395fad6664faae1db0a89b1f2"
-        },
-        {
           "original": "stimpack_glow.png",
           "sha256": "88fdb8c88b0a3a1283e81ea54c0636f0424bbe6ff6b7f44222fda96d6f9fea51",
           "output": "stimpack_glow.jpg",
@@ -663,19 +650,6 @@
           "brightening_baseline": "src/default/models/health/quake2_small/diffuse-baseline/stimpack_glow.jpg",
           "brightening_baseline_sha256": "627dfbcd4a2e0b4625d8e2345c92bf71443c888059cfc2675c5e2321e81b9176",
           "brightened_sha256": "01a3f5aac8b80cf128cc6b8c64572ddb508f47a29bbe34a626b3b1fee89afc91"
-        },
-        {
-          "original": "stimpack_pulse.png",
-          "sha256": "22ff15a87fad59644206dc986f0042b4d7eba9f1aa52d16b6a8628a99c5bb4b9",
-          "output": "stimpack_pulse.jpg",
-          "size": [
-            128,
-            128
-          ],
-          "alpha_preserved": false,
-          "brightening_baseline": "src/default/models/health/quake2_small/diffuse-baseline/stimpack_pulse.jpg",
-          "brightening_baseline_sha256": "745a213e822c28fed18e6d59fd357aa8b76541dd873bf8f6b1887cecf2b61911",
-          "brightened_sha256": "4e1e5de0389748d3a3fb8641fc5f94ec749cb2a9cfbb07af5e844962a2bcf9fe"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -1284,19 +1258,6 @@
           "brightened_sha256": "dd1f8aeeb94a3b6433c24e54e110f0ec13cc79411e68d7c6f7be97551948cc81"
         },
         {
-          "original": "bigtubes.png",
-          "sha256": "bf68bdeeb83bd8404f95413c4482fd750b657fd4a8e31f20ea5c117ffa82be2d",
-          "output": "bigtubes.jpg",
-          "size": [
-            256,
-            256
-          ],
-          "alpha_preserved": false,
-          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/bigtubes.jpg",
-          "brightening_baseline_sha256": "bf82c40071cb14ac6e6273676f2b315ff9d2cf5d2a38681c2f7f18b1b20d8296",
-          "brightened_sha256": "e17c76d9270f3c427f9aef5864d5177aaca3dbadd4ae56e39ab7cc8071a553a6"
-        },
-        {
           "original": "bigtubes_gun.png",
           "sha256": "bf68bdeeb83bd8404f95413c4482fd750b657fd4a8e31f20ea5c117ffa82be2d",
           "output": "bigtubes_gun.jpg",
@@ -1373,19 +1334,6 @@
           "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/outertube.jpg",
           "brightening_baseline_sha256": "be57b356cea7c75bba0648f672555156ebaa11d38fd393c853fe004e4bd00824",
           "brightened_sha256": "9c2c7802e6516337f344b54387cb9dc592fde7af2f9e377dd346b5400c96a439"
-        },
-        {
-          "original": "smalltubes.png",
-          "sha256": "f4b74948222989fe1c268cb595b3be62577b963e9999f66798536083078b6ae9",
-          "output": "smalltubes.jpg",
-          "size": [
-            64,
-            64
-          ],
-          "alpha_preserved": false,
-          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/smalltubes.jpg",
-          "brightening_baseline_sha256": "eb863c8419373434e5e43afe1c52c04891a5a11e8b7b40bf84dc3616fd1be806",
-          "brightened_sha256": "2245c5de65c8ab6921d33a29d6dfacf29362e25b32ea138aa03d3dcc8807768c"
         },
         {
           "original": "smalltubes_gun.png",
@@ -1504,32 +1452,6 @@
           "brightening_baseline": "src/default/models/weapons/quake2_shotgun/diffuse-baseline/shotg_glow.jpg",
           "brightening_baseline_sha256": "25e16b58ea9e165475f5bbeaa9e6eaea2f1f22731ef85a79585fe401b530310d",
           "brightened_sha256": "14276db5813b9150679ea4bee1ffbf5c7057735f8d4d86251a8aa3e8fde5fc42"
-        },
-        {
-          "original": "shotg_glow2.png",
-          "sha256": "fdaaee3ec7871aa205a0f1902eeea71b02549f0f8245a25eda68d5ab61fdb2ae",
-          "output": "shotg_glow2.jpg",
-          "size": [
-            64,
-            64
-          ],
-          "alpha_preserved": false,
-          "brightening_baseline": "src/default/models/weapons/quake2_shotgun/diffuse-baseline/shotg_glow2.jpg",
-          "brightening_baseline_sha256": "175e592fa67ec0f530d41ddb404b494aa567ac6fab68ccd718d892a4931fdb76",
-          "brightened_sha256": "63ce67306b090f43bc8f43b08cfa148c798b6eb74da052d9a375a30f1e1fab84"
-        },
-        {
-          "original": "shotg_glowpulse.png",
-          "sha256": "d1d1e72772cfd2c88fffdc9f708c31792659283002c588e950f95ebd50db758c",
-          "output": "shotg_glowpulse.jpg",
-          "size": [
-            64,
-            128
-          ],
-          "alpha_preserved": false,
-          "brightening_baseline": "src/default/models/weapons/quake2_shotgun/diffuse-baseline/shotg_glowpulse.jpg",
-          "brightening_baseline_sha256": "f8344c31df66fc1b2e7ef00010d610debe212e22abb50578421a87843b59ade6",
-          "brightened_sha256": "9e6855264d8c3899a3535db2dd09b8473298240200527f7ddaa7606d42dfa5b1"
         }
       ],
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
@@ -1644,5 +1566,16 @@
       "output_sha256": "7b4b1ee294cab7da80be7c0b44336b4417af2ba99f306670b2de51f733556179",
       "notes": "Cross-sections follow a closed Catmull-Rom curve through the original corners; the axial coordinate (the curved muzzle crown) is linear between corners, so bounds are unchanged. Every original corner keeps its position and UV. Face plates and the cap take UVs from an affine fit of the originals and keep their normals. All other surfaces are unchanged."
     }
+  },
+  "removed_textures": {
+    "textures": [
+      "quake2_railgun/bigtubes.jpg",
+      "quake2_railgun/smalltubes.jpg",
+      "quake2_shotgun/shotg_glow2.jpg",
+      "quake2_shotgun/shotg_glowpulse.jpg",
+      "quake2_small/stimpack_fluid.jpg",
+      "quake2_small/stimpack_pulse.jpg"
+    ],
+    "reason": "No surface of the imported mesh uses them (the railgun uses identical *_gun copies). Originals remain under each model's src original/ directory."
   }
 }
