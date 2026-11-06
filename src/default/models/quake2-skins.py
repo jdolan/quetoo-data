@@ -117,7 +117,14 @@ def main():
       else:
         mode = "delit"
         rgb = delight(rgb, mask, **DELIGHT)
-      Image.fromarray(rgb).save(target, quality=95, subsampling=0)
+      if "alpha" in texture:
+        # A blended surface: alpha from the brightest channel, smoothstep between low and high.
+        lo, hi = texture["alpha"]["low"], texture["alpha"]["high"]
+        t = np.clip((rgb.max(2).astype(float) - lo) / (hi - lo), 0, 1)
+        alpha = np.round(t * t * (3 - 2 * t) * 255).astype(np.uint8)
+        Image.fromarray(np.dstack([rgb, alpha]), "RGBA").save(target, optimize=True)
+      else:
+        Image.fromarray(rgb).save(target, quality=95, subsampling=0)
       texture["specular_removal"] = mode
       texture["output_sha256"] = hashlib.sha256(target.read_bytes()).hexdigest()
       texture.pop("brightened_sha256", None)
@@ -129,7 +136,8 @@ def main():
     "steps": [f"Brighten: round(255 * (input / 255) ** {GAMMA}) per sRGB byte",
               f"Remove baked specular (strong) with {DELIGHT}, only within texels used by the mesh"],
     "skipped": "Lights/glow sources (specular_removal: light) and textures no surface uses (unused) are only brightened",
-    "output": "RGB JPEG, original dimensions, Pillow quality=95, subsampling=0",
+    "output": "RGB JPEG, original dimensions, Pillow quality=95, subsampling=0; "
+              "RGBA PNG where a texture specifies alpha (smoothstep of the brightest channel)",
     "counts": counts,
     "status": "User chose strong removal for all Q2 item skins, without brightness compensation; needs in-game review"}
   REPORT.write_text(json.dumps(report, indent=2) + "\n")
