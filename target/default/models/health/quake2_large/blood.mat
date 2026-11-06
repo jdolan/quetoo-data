@@ -3,7 +3,7 @@
 	{
 		texture health/quake2_large/blood
 		blend src_alpha one
-		pulse 2
-		emissive 1
+		pulse 2.00
+		emissive 1.00
 	}
 }

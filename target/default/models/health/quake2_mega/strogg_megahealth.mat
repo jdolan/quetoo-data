@@ -1,12 +1,12 @@
 {
 	diffusemap health/quake2_mega/strogg_megahealth
-	roughness 3.50
+	roughness 5.50
 	hardness 4.00
 	specularity 1.50
 	{
 		texture health/quake2_mega/strogg_megahealth_glow
 		blend src_alpha one
-		pulse 1
-		emissive 1
+		pulse 1.00
+		emissive 1.00
 	}
 }

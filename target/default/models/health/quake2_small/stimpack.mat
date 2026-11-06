@@ -1,12 +1,13 @@
 {
 	diffusemap health/quake2_small/stimpack
-	roughness 5.00
+	roughness 0.60
 	hardness 5.00
+	specularity 0.60
 	{
 		texture health/quake2_small/stimpack_fx
 		blend src_alpha one
-		pulse 2
-		emissive 1
+		pulse 2.00
+		emissive 1.00
 	}
 	{
 		texture health/quake2_small/stimpack_glow
