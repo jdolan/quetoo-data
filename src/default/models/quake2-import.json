@@ -1624,5 +1624,25 @@
     "naming": "stimpack uses _fx because stimpack_glow is an existing surface skin.",
     "material_stage": "blend src_alpha one, pulse 2 for health, 1 for megahealth/cells/armor/quad, 1.5 for adrenaline, 0.5-1.25 for weapons",
     "status": "First pass; needs in-game review."
+  },
+  "mesh_edits": {
+    "weapons/quake2_chaingun": {
+      "operation": "Rebuilt the six 8-sided barrel tubes and muzzle caps with 24 sides; subdivided the two 12-sided clamp rings and their side discs to 36 sides",
+      "script": "src/default/models/weapons/quake2_chaingun/tessellate_q2_barrels.py",
+      "command": "python3 tessellate_q2_barrels.py mesh-baseline/tris.obj tris.obj 24 3",
+      "baseline": "src/default/models/weapons/quake2_chaingun/mesh-baseline/tris.obj",
+      "baseline_sha256": "92944e68b29a280413611c3c0a74dca2081f750c6cb4e5d61e2d05ad57f7a1f9",
+      "output_sha256": "7d5406a5022de5b9cefd149baf956b539c6bb9b05682fd0756a7c63a04c857ea",
+      "notes": "Barrels: per-end center and mean corner radius are kept, so bounds are unchanged. Tube U is interpolated by angle between the original corners from each end's texture seam; caps use an affine fit of the original cap UVs. Clamps: a closed Catmull-Rom curve through the original (irregular) corners adds two points per edge, keeping every original corner position and UV; band V is interpolated along each edge; side discs use an affine fit of the original disc UVs (residual within 1/320 source quantization). Tube and band normals follow the new surface; cap and disc normals, and all windings, follow the original. All other surfaces are unchanged."
+    },
+    "weapons/quake2_supershotgun": {
+      "operation": "Subdivided the two 10-sided barrels (outer shells, inner bores, muzzle face plates and the one closed bore breech cap) 3x to 30 sides",
+      "script": "src/default/models/weapons/quake2_supershotgun/tessellate_q2_barrels.py",
+      "command": "python3 tessellate_q2_barrels.py mesh-baseline/tris.obj tris.obj 3",
+      "baseline": "src/default/models/weapons/quake2_supershotgun/mesh-baseline/tris.obj",
+      "baseline_sha256": "9c4822facccf934e550d30e0794ab9de50ba2060cf69d7ed31143b4313f50afd",
+      "output_sha256": "7b4b1ee294cab7da80be7c0b44336b4417af2ba99f306670b2de51f733556179",
+      "notes": "Cross-sections follow a closed Catmull-Rom curve through the original corners; the axial coordinate (the curved muzzle crown) is linear between corners, so bounds are unchanged. Every original corner keeps its position and UV. Face plates and the cap take UVs from an affine fit of the originals and keep their normals. All other surfaces are unchanged."
+    }
   }
 }
