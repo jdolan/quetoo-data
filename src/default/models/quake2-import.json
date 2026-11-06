@@ -40,6 +40,7 @@
     "sounds",
     "HUD icons"
   ],
+  "excluded": {
     "silencer": "Single-player stealth powerup against monster AI; not featured in deathmatch. Model and skins removed; no entity is defined."
   },
   "models": [
@@ -1603,5 +1604,25 @@
     "output": "RGB JPEG, original dimensions, Pillow quality=95, subsampling=0",
     "scope": "63 imported diffuse skins across 27 Q2 models; no normalmaps, materials, configs or source originals changed",
     "status": "User-approved moderate first pass; needs in-game review. Diffuse-derived specular fallback will also reflect brighter diffuse."
+  },
+  "emissive_glow": {
+    "method": "Glow textures keep only the lit features of the brightened diffuse skin, in their own colour on black: a hue-dominance, saturation or brightness mask, optionally limited to hand-picked UV regions, scaled by a gain and given a small Gaussian halo. RGB JPEG, quality 95, subsampling 0.",
+    "generated": [
+      "powerups/quake2_adrenaline/adrenaline_glow",
+      "health/quake2_mega/strogg_megahealth_glow",
+      "health/quake2_small/stimpack_fx",
+      "health/quake2_medium/medium_glow",
+      "health/quake2_large/large_glow",
+      "ammo/quake2_cells/core_glow",
+      "armor/quake2_body/strogg_body_armor_glow",
+      "powerups/quake2_quad/quaddama_glow",
+      "weapons/quake2_railgun/hexrod_glow",
+      "weapons/quake2_machinegun/skin1_glow",
+      "weapons/quake2_rocketlauncher/rlauncher_glow"
+    ],
+    "self_emissive": "Surfaces whose skin is already a light (stimpack glow/pulse/fluid, large health blood, shotgun glow/glow2/glowpulse, chaingun sidelight, railgun lights, machinegun screen, BFG energy) use their own diffuse as the glow stage texture.",
+    "naming": "stimpack uses _fx because stimpack_glow is an existing surface skin.",
+    "material_stage": "blend src_alpha one, pulse 2 for health, 1 for megahealth/cells/armor/quad, 1.5 for adrenaline, 0.5-1.25 for weapons",
+    "status": "First pass; needs in-game review."
   }
 }

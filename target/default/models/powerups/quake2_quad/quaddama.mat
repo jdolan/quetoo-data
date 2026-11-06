@@ -1,3 +1,9 @@
 {
 	diffusemap powerups/quake2_quad/quaddama
+	{
+		texture powerups/quake2_quad/quaddama_glow
+		blend src_alpha one
+		pulse 1
+		emissive 2
+	}
 }

@@ -1,3 +1,9 @@
 {
 	diffusemap health/quake2_large/blood
+	{
+		texture health/quake2_large/blood
+		blend src_alpha one
+		pulse 2
+		emissive 1
+	}
 }

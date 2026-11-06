@@ -1,3 +1,9 @@
 {
 	diffusemap weapons/quake2_railgun/hexrod
+	{
+		texture weapons/quake2_railgun/hexrod_glow
+		blend src_alpha one
+		pulse 0.75
+		emissive 2
+	}
 }

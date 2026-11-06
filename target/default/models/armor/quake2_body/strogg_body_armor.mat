@@ -1,3 +1,9 @@
 {
 	diffusemap armor/quake2_body/strogg_body_armor
+	{
+		texture armor/quake2_body/strogg_body_armor_glow
+		blend src_alpha one
+		pulse 1
+		emissive 2
+	}
 }
