@@ -1,3 +1,10 @@
 {
 	diffusemap weapons/quake2_bfg/10k_body
+	{
+		texture weapons/quake2_bfg/10k_body_glow
+		blend src_alpha one
+		pulse .5
+		emissive 2
+	}
+
 }

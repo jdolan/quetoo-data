@@ -1,3 +1,5 @@
 {
 	diffusemap weapons/quake2_bfg/10k_energy_grill
+	surface alpha_test
+	alpha_test .1
 }
