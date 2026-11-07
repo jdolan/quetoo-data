@@ -1,0 +1,12 @@
+{
+	diffusemap weapons/quake2_shotgun/shotg
+	roughness 0.50
+	hardness 4.00
+	specularity 3.00
+	{
+		texture weapons/quake2_shotgun/shotg_glow
+		blend src_alpha one
+		pulse 0.75
+		emissive 2
+	}
+}

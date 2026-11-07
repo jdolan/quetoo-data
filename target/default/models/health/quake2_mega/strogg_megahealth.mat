@@ -1,0 +1,9 @@
+{
+	diffusemap health/quake2_mega/strogg_megahealth
+	{
+		texture health/quake2_mega/strogg_megahealth_glow
+		blend src_alpha one
+		pulse 1.00
+		emissive 0.50
+	}
+}

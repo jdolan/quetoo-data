@@ -1,0 +1,10 @@
+{
+	diffusemap ammo/quake2_cells/core
+	surface "blend_100"
+	{
+		texture ammo/quake2_cells/core_glow
+		blend src_alpha one
+		emissive .666
+		pulse 1
+	}
+}

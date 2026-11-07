@@ -1,0 +1,10 @@
+{
+	diffusemap health/quake2_large/large
+	
+	{
+		texture health/quake2_large/large_glow
+		blend src_alpha one
+		pulse 2
+		emissive 1
+	}
+}

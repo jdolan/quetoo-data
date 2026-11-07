@@ -1,0 +1,6 @@
+{
+	diffusemap weapons/quake2_hyperblaster/hyper
+	roughness 0.80
+	hardness 3.50
+	specularity 1.50
+}

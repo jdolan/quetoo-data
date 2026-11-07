@@ -1,0 +1,6 @@
+{
+	diffusemap weapons/quake2_chaingun/chaingun
+	roughness 4
+	hardness 2
+	specularity 0.60
+}

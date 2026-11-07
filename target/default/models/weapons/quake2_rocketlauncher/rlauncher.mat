@@ -1,0 +1,12 @@
+{
+	diffusemap weapons/quake2_rocketlauncher/rlauncher
+	roughness 0.90
+	hardness 2.00
+	specularity 2.40
+	{
+		texture weapons/quake2_rocketlauncher/rlauncher_glow
+		blend src_alpha one
+		pulse 3
+		emissive 2.00
+	}
+}

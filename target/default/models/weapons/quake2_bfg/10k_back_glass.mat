@@ -1,0 +1,7 @@
+{
+	diffusemap weapons/quake2_bfg/10k_back_glass
+	{
+		texture weapons/quake2_bfg/10k_back_glass
+		emissive 2
+	}
+}

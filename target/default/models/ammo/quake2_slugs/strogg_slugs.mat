@@ -1,0 +1,6 @@
+{
+	diffusemap ammo/quake2_slugs/strogg_slugs
+	roughness 4.50
+	hardness 3.00
+	specularity 2.00
+}

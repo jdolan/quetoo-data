@@ -1,0 +1,6 @@
+{
+	diffusemap ammo/quake2_shells/strogg_shells
+	roughness 0.50
+	hardness 3.00
+	specularity 2.50
+}

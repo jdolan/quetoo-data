@@ -1,0 +1,9 @@
+{
+	diffusemap powerups/quake2_adrenaline/adrenaline
+	{
+		texture powerups/quake2_adrenaline/adrenaline_glow
+		blend src_alpha one
+		pulse 1.5
+		emissive 2
+	}
+}

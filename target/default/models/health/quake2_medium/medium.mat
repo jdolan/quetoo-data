@@ -1,0 +1,9 @@
+{
+	diffusemap health/quake2_medium/medium
+	{
+		texture health/quake2_medium/medium_glow
+		blend src_alpha one
+		pulse 2
+		emissive 1
+	}
+}

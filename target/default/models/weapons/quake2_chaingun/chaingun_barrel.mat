@@ -1,0 +1,6 @@
+{
+	diffusemap weapons/quake2_chaingun/chaingun_barrel
+	roughness 1
+	hardness 3
+	specularity 2
+}

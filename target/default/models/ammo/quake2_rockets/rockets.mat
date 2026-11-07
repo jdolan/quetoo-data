@@ -1,0 +1,6 @@
+{
+	diffusemap ammo/quake2_rockets/rockets
+	roughness 0.90
+	hardness 2.50
+	specularity 1.50
+}

@@ -1,0 +1,9 @@
+{
+	diffusemap armor/quake2_shard/orange
+	{
+		texture armor/quake2_shard/orange_glow
+		blend src_alpha one
+		pulse 1
+		emissive .01
+	}
+}

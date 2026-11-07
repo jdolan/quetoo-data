@@ -1,0 +1,22 @@
+{
+  "normal_convention": "DirectX",
+  "height_convention": "Heightmap",
+  "generate_height": false,
+  "params": {
+    "normal_strength": 1.0885881492318947,
+    "n_freq_cutoff": 0.06386247256766643,
+    "n_freq_low_gain": 3.0,
+    "n_freq_high_gain": 0.0,
+    "n_denoise": 30.76079005120702,
+    "n_slope_gate": 0.0,
+    "h_strength": 1.0,
+    "h_freq_cutoff": 0.3,
+    "h_freq_low_gain": 1.0,
+    "h_freq_high_gain": 1.0,
+    "s_input_black": 0.0,
+    "s_input_white": 1.0,
+    "s_output_black": 0.0,
+    "s_output_white": 1.0,
+    "s_cavity_strength": 0.5
+  }
+}

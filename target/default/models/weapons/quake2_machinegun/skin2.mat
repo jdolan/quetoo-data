@@ -1,0 +1,9 @@
+{
+	diffusemap weapons/quake2_machinegun/skin2
+	{
+		texture weapons/quake2_machinegun/skin2
+		blend src_alpha one
+		pulse 0.5
+		emissive 2
+	}
+}

@@ -1,0 +1,8 @@
+{
+	diffusemap weapons/quake2_bfg/10k_energy
+	{
+		texture weapons/quake2_bfg/10k_energy
+		blend src_alpha one
+		emissive 2
+	}
+}

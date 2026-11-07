@@ -1,5 +1,5 @@
 {
-	diffusemap models/armor/quake_body/skin
+	diffusemap armor/quake_body/skin
 	roughness 1.04
 	hardness 2.97
 	specularity 2.46

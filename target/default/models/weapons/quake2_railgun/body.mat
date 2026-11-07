@@ -1,0 +1,9 @@
+{
+	diffusemap weapons/quake2_railgun/body
+	{
+		texture weapons/quake2_railgun/body_glow
+		blend src_alpha one
+		pulse .5
+		emissive 2
+	}
+}

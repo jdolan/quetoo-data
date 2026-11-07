@@ -22,6 +22,9 @@
 		8 : "hazard_respawn" : 0
 	]
 	team(string) : "The team name for alternating item spawns"
+	quetoo(string) : "Replacement item classname in quetoo mode; absent uses table, empty suppresses"
+	quake(string) : "Replacement item classname in quake mode; absent uses table, empty suppresses"
+	quake2(string) : "Replacement item classname in quake2 mode; absent uses table, empty suppresses"
 ]
 
 @PointClass base(Item) color(0 255 0) size(-4 -4 -6, 4 4 6) studio("") = item_armor_shard : "Shard armor (+3)" []
@@ -84,6 +87,32 @@
 @PointClass base(Ammo) color(153 153 26) studio("") = ammo_quake_nails : "Nails for the Quake Nailgun and Super Nailgun." []
 @PointClass base(Ammo) color(204 51 51) studio("") = ammo_quake_rockets : "Rockets for the Quake Grenade Launcher and Rocket Launcher." []
 @PointClass base(Ammo) color(153 153 26) studio("") = ammo_quake_shells : "Shells for the Quake Super Shotgun." []
+
+@PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_blaster : "Quake II Blaster" []
+@PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_shotgun : "Quake II Shotgun" []
+@PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_supershotgun : "Quake II Super Shotgun" []
+@PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_machinegun : "Quake II Machinegun" []
+@PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_chaingun : "Quake II Chaingun" []
+@PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_handgrenades : "Quake II Hand Grenades" []
+@PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_grenadelauncher : "Quake II Grenade Launcher" []
+@PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_rocketlauncher : "Quake II Rocket Launcher" []
+@PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_hyperblaster : "Quake II Hyperblaster" []
+@PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_railgun : "Quake II Railgun" []
+@PointClass base(Weapon) color(180 180 80) studio("") = weapon_quake2_bfg : "Quake II BFG10K" []
+@PointClass base(Ammo) color(180 180 80) studio("") = ammo_quake2_shells : "Quake II Shells (+10)" []
+@PointClass base(Ammo) color(180 180 80) studio("") = ammo_quake2_bullets : "Quake II Bullets (+50)" []
+@PointClass base(Ammo) color(180 180 80) studio("") = ammo_quake2_grenades : "Quake II Grenades (+5)" []
+@PointClass base(Ammo) color(180 180 80) studio("") = ammo_quake2_rockets : "Quake II Rockets (+5)" []
+@PointClass base(Ammo) color(180 180 80) studio("") = ammo_quake2_cells : "Quake II Cells (+50)" []
+@PointClass base(Ammo) color(180 180 80) studio("") = ammo_quake2_slugs : "Quake II Slugs (+10)" []
+@PointClass base(Item) color(180 180 80) studio("") = item_quake2_armor_shard : "Quake II Armor Shard (+2)" []
+@PointClass base(Item) color(180 180 80) studio("") = item_quake2_armor_jacket : "Quake II Jacket Armor (+25)" []
+@PointClass base(Item) color(180 180 80) studio("") = item_quake2_armor_combat : "Quake II Combat Armor (+50)" []
+@PointClass base(Item) color(180 180 80) studio("") = item_quake2_armor_body : "Quake II Body Armor (+100)" []
+@PointClass base(Item) color(180 180 80) studio("") = item_quake2_health_small : "Quake II Small Health (+2)" []
+@PointClass base(Item) color(180 180 80) studio("") = item_quake2_health_medium : "Quake II Medium Health (+10)" []
+@PointClass base(Item) color(180 180 80) studio("") = item_quake2_health_large : "Quake II Large Health (+25)" []
+@PointClass base(Item) color(180 180 80) studio("") = item_quake2_health_mega : "Quake II Mega Health (+100)" []
 
 @SolidClass base(Phong, Targetname) color(0 255 255) = func_bob : "A solid brush that bobs continuously back and forth along a vector. Unlike func_train, no path_corners or triggers are required, making it cheap to place in quantity (e.g. an array of small ambient platforms)."
 [
@@ -900,10 +929,12 @@
 		"quake2" : "Quake2"
 		"quake3" : "Quake3"
 	]
-	items(choices) : "The item set for this map" : "default" =
+	items(choices) : "Item conversion; overridden by map-list items and a named g_items" : "default" =
 	[
-		"default" : "Quetoo"
+		"default" : "As authored (no conversion)"
+		"quetoo" : "Convert to Quetoo"
 		"quake" : "Quake"
+		"quake2" : "Quake II"
 	]
 	min_clients(integer) : "The number of clients, humans and AI, the game fills to; unset, 0"
 	ai(string) : "The AI players, by name and separated by spaces, that join the level first. They always join, even beyond min_clients; any others that min_clients asks for are picked at random"

@@ -1,0 +1,12 @@
+{
+	diffusemap weapons/quake2_machinegun/skin1
+	roughness 0.60
+	hardness 2.50
+	specularity 1.50
+	{
+		texture weapons/quake2_machinegun/skin1_glow
+		blend src_alpha one
+		pulse 0.75
+		emissive 2.00
+	}
+}

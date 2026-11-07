@@ -1,0 +1,1713 @@
+{
+  "source": "https://github.com/tosher/q2textures",
+  "revision": "d897af16fa5561e6d97aad72ce2ac1a245f6800d",
+  "permission": "Pending original-author confirmation; local curation only, do not publish",
+  "weapon_curation": {
+    "visually_approved_in_objfu": [
+      "Chaingun"
+    ],
+    "retained_candidates": [
+      "BFG",
+      "Chaingun",
+      "Hyperblaster",
+      "Grenade launcher",
+      "Machinegun",
+      "Railgun",
+      "Rocket launcher",
+      "Shotgun",
+      "Super shotgun"
+    ],
+    "status": "All nine weapon candidates retained and visually accepted by the user; no further individual review required. Permissions, original shader behavior, and final in-game placement remain pending.",
+    "placement_strawman": "User-tuned shotgun and super shotgun transforms retained. Remaining seven weapon candidates use super shotgun world translation 0 0 0 / scale 1, link translation 4 0 -12 / scale 0.65, view translation 12 0 -24 / scale 0.75. Existing model-specific muzzle coordinates rounded to integers; BFG muzzle 32 0 23 is a provisional bounds-based estimate. These are local starting values for in-game review, not final placements."
+  },
+  "normalmap_recipe": {
+    "tool": "../quetoo/src/tools/matfu.py batch --preset src/default/models/quake2/quake2-matfu.json --from-diffuse --save normal",
+    "preset": "src/default/models/quake2/quake2-matfu.json",
+    "inputs": "Every *_norm.png under target/default/models/*/quake2_*, regenerated from its diffuse",
+    "output": "RGB, DirectX convention, no packed height, same size as the diffuse",
+    "reproducible": "Equivalent to the matfu GUI's Generate from diffuse then Save with this preset; rerunning does not compound",
+    "status": "Diffuse-derived relief; no parallax height"
+  },
+  "missing": [
+    "blaster",
+    "projectiles",
+    "power_screen",
+    "power_shield",
+    "bandolier",
+    "rebreather",
+    "environment_suit",
+    "ancient_head",
+    "sounds",
+    "HUD icons"
+  ],
+  "excluded": {
+    "silencer": "Single-player stealth powerup against monster AI; not featured in deathmatch. Model and skins removed; no entity is defined."
+  },
+  "models": [
+    {
+      "source_model": "pak97_models/models/items/adrenal/tris.md2",
+      "source_sha256": "f53d6595cef26014f67f10950775b85fe6a8c8ffe1c07710d04c58e68b36ff46",
+      "destination": "target/default/models/powerups/quake2_adrenaline/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "Adrenaline",
+          "material": "powerups/quake2_adrenaline/adrenaline",
+          "triangles": 200
+        },
+        {
+          "name": "Glowarea",
+          "material": "powerups/quake2_adrenaline/adrenaline",
+          "triangles": 12
+        }
+      ],
+      "textures": [
+        {
+          "original": "adrenaline.png",
+          "sha256": "da47194fdc2004ddb2c1a49803117baae2694fca23564378382cbf7d38e2bd82",
+          "output": "adrenaline.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/powerups/quake2_adrenaline/diffuse-baseline/adrenaline.jpg",
+          "brightening_baseline_sha256": "b71a93e89dcc2b9ada74b09cb4a2d743f791c38f0d84be22057f4a2683b4020c",
+          "specular_removal": "delit",
+          "output_sha256": "52cf54ee62e7ba02b216826a9b3b953653f50ea8f5280a165cddf2fdc21e7aab"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/ammo/bullets/medium/tris.md2",
+      "source_sha256": "1e7ecde54a12317a6b86f6530e9b54486be0dbf50b38d1dcc58483526032d7f7",
+      "destination": "target/default/models/ammo/quake2_bullets/tris.obj",
+      "source_frames": 1,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "UVmap",
+          "material": "ammo/quake2_bullets/bullets",
+          "triangles": 468
+        }
+      ],
+      "textures": [
+        {
+          "original": "bullets.png",
+          "sha256": "6a9f31c498aed7f8f23afe11712de7cf5bedff71bbf7afc74f04bd0e2a2cdf5f",
+          "output": "bullets.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_bullets/diffuse-baseline/bullets.jpg",
+          "brightening_baseline_sha256": "eb0efc2bf04fd66b8caf3becb4081b66b7524dad278340053315a9567eb432c7",
+          "specular_removal": "delit",
+          "output_sha256": "a4640b19e9d86d4246670402ec6d9cd608308861f93162226b670820750064a2"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/ammo/cells/medium/tris.md2",
+      "source_sha256": "2544721a570bb8ed486b78239bb26574b4e2245d4dcd1456989ae903b628b092",
+      "destination": "target/default/models/ammo/quake2_cells/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "Cells",
+          "material": "ammo/quake2_cells/cells",
+          "triangles": 354
+        },
+        {
+          "name": "Glass",
+          "material": "ammo/quake2_cells/core",
+          "triangles": 12
+        },
+        {
+          "name": "Glow",
+          "material": "ammo/quake2_cells/glass",
+          "triangles": 12
+        }
+      ],
+      "textures": [
+        {
+          "original": "cells.png",
+          "sha256": "88d6ffbcd42c973ac2332ccf0b22b1f4e7aa405b6c15259d3bd7a98405dea60b",
+          "output": "cells.jpg",
+          "size": [
+            1024,
+            1024
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_cells/diffuse-baseline/cells.jpg",
+          "brightening_baseline_sha256": "ddd98948362f89d3b6547c4e84b4d4be5306e971fb92946c7f3d7648ae6ef1ea",
+          "specular_removal": "delit",
+          "output_sha256": "36dff8d3ca936353e78d0d929beffdfda0c836d6c75cd397ec296837a1db37fa"
+        },
+        {
+          "original": "core.png",
+          "sha256": "bc9c8e1d5372e21204b0775f5477e47261f9af56182bbde301731dc8a4acf27c",
+          "output": "core.png",
+          "size": [
+            1024,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_cells/diffuse-baseline/core.jpg",
+          "brightening_baseline_sha256": "64b80cc53a599771b25b36261fa90d71deb4882b34abaeb6b308d4245e48fe78",
+          "specular_removal": "delit",
+          "output_sha256": "5ff11c6c3a103b99e5647ab16e1980558f742f1ca57e8a22dcd6755820918da4",
+          "alpha": {
+            "low": 8,
+            "high": 60,
+            "reason": "The honeycomb draws blended over the nested glass box (surface blend_100); its black background is transparent"
+          }
+        },
+        {
+          "original": "glass.png",
+          "sha256": "f1b976a328ae233ae81f3a80970fe4472944329c8b6d820afccb1a2a7b30b2c9",
+          "output": "glass.jpg",
+          "size": [
+            256,
+            128
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_cells/diffuse-baseline/glass.jpg",
+          "brightening_baseline_sha256": "59a903730355ad0e959e8ff3122bd28af0c35a7dbeb5307249425e4320831160",
+          "specular_removal": "delit",
+          "output_sha256": "589878e2eb1ecfa2f2fd4820fc8feeb50c899c739113879e9fb8eb90504e3646"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/ammo/grenades/medium/tris.md2",
+      "source_sha256": "d9f368901cc8e3014be2ad2bcd84e6ba0c030b7d53061dc216963aaaa7c8502c",
+      "destination": "target/default/models/ammo/quake2_grenades/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "Grenade",
+          "material": "ammo/quake2_grenades/strogg_grenade",
+          "triangles": 342
+        }
+      ],
+      "textures": [
+        {
+          "original": "strogg_grenade.png",
+          "sha256": "dcf1ab78f00d0b11ffd99bd7eee71fb36f3b619b612c9adda8f027fd6bc89643",
+          "output": "strogg_grenade.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_grenades/diffuse-baseline/strogg_grenade.jpg",
+          "brightening_baseline_sha256": "5ebdd8e58ecd4683a1fdb472cf95b7da94a42faa14674ed0b61c337798ff7c40",
+          "specular_removal": "delit",
+          "output_sha256": "da6a3b5b2ae11507a616764b51ba06e1325fbe350788d6dd305d584588f13633"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/ammo/rockets/medium/tris.md2",
+      "source_sha256": "d52c1ead49e0ae5bd3842ccea9e838e05708b9d7f840dba44014359864dab57d",
+      "destination": "target/default/models/ammo/quake2_rockets/tris.obj",
+      "source_frames": 1,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "rockets",
+          "material": "ammo/quake2_rockets/rockets",
+          "triangles": 668
+        }
+      ],
+      "textures": [
+        {
+          "original": "rockets.png",
+          "sha256": "f4e43f8dc6ce7e06bdbe81d6d5e46d74bcdc4d737dcbeb096c86f19a8429db4f",
+          "output": "rockets.jpg",
+          "size": [
+            1024,
+            1024
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_rockets/diffuse-baseline/rockets.jpg",
+          "brightening_baseline_sha256": "812ec38eba265d15112bf561d1091cf82059934e294946c6215c521ef5eff8a8",
+          "specular_removal": "delit",
+          "output_sha256": "8661619d59da8c1b992453f46215278db4831f8f9a4a6c26b7d405bab46f94f3"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/ammo/shells/medium/tris.md2",
+      "source_sha256": "5615817167cad030b73c64aed5bcdd7d414e99161d884db4627fbe7c41abe781",
+      "destination": "target/default/models/ammo/quake2_shells/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "Box",
+          "material": "ammo/quake2_shells/strogg_shells",
+          "triangles": 240
+        }
+      ],
+      "textures": [
+        {
+          "original": "strogg_shells.png",
+          "sha256": "16720c8ce43b1afe9e0f7fb2fbfde51a30c7a81c2ef42849ee37a47f30c9a24c",
+          "output": "strogg_shells.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_shells/diffuse-baseline/strogg_shells.jpg",
+          "brightening_baseline_sha256": "4e4d263668330b892a3dfdb546cf7fcf4c5b85b2873bb86da99b7643bf13bf42",
+          "specular_removal": "delit",
+          "output_sha256": "e79b77f2c2af35e95c35f9922ef64a2023f194b06374d1e4fbc3407db8093ddb"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/ammo/slugs/medium/tris.md2",
+      "source_sha256": "691f4e50816b38cec2c72ca82f46e86c48ba9df77b5035d40b77d42d2424fd0c",
+      "destination": "target/default/models/ammo/quake2_slugs/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "SlugBox",
+          "material": "ammo/quake2_slugs/strogg_slugs",
+          "triangles": 426
+        }
+      ],
+      "textures": [
+        {
+          "original": "strogg_slugs.png",
+          "sha256": "a95ff611cacd56e390bb95b425e6878f84ba1686a1ddd4410756714f326919a0",
+          "output": "strogg_slugs.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/ammo/quake2_slugs/diffuse-baseline/strogg_slugs.jpg",
+          "brightening_baseline_sha256": "7beae30effe3e2836d075de9dd97484530099d1c52bd7988f0cbf1bbca367ecf",
+          "specular_removal": "delit",
+          "output_sha256": "39324bd149ed1bcf3302f308745639d337c138f08bf4ef1cf7b7a95ee4f58fe3"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/armor/body/tris.md2",
+      "source_sha256": "ce4b4a5665c70e57b703891aa4bcdfce3d8606a168f7b89644dd9083bd7bdf4f",
+      "destination": "target/default/models/armor/quake2_body/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "body",
+          "material": "armor/quake2_body/strogg_body_armor",
+          "triangles": 778
+        }
+      ],
+      "textures": [
+        {
+          "original": "strogg_body_armor.png",
+          "sha256": "27078ced15146624cce856eef489c26bbd54cf43ebc03ea828eed19ef6aa1c3c",
+          "output": "strogg_body_armor.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/armor/quake2_body/diffuse-baseline/strogg_body_armor.jpg",
+          "brightening_baseline_sha256": "9d43d90d9f5d89f42dbdceaeb4a6c0056b7b54058405835d82b4cf20ce38a36c",
+          "specular_removal": "delit",
+          "output_sha256": "fd9b1d90fc62358426f5314a31ad278f879b00b7731123d2ab6f96c9ebf61eaf"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/armor/combat/tris.md2",
+      "source_sha256": "b2b119b1c8a4c0ffbafaaaa291d61a3859e894d87ebfda7f482ff955d550213e",
+      "destination": "target/default/models/armor/quake2_combat/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "yellow",
+          "material": "armor/quake2_combat/strogg_combat_armor",
+          "triangles": 376
+        }
+      ],
+      "textures": [
+        {
+          "original": "strogg_combat_armor.png",
+          "sha256": "369308e7cbca4c0f960c57e14faff3e5d29721530a2e5bd6b366dd0bd252eb40",
+          "output": "strogg_combat_armor.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/armor/quake2_combat/diffuse-baseline/strogg_combat_armor.jpg",
+          "brightening_baseline_sha256": "ae00c21d2402a24dba6a0118e0346dcdd5f56cce8fa9d50a5eec75529e7f56d1",
+          "specular_removal": "delit",
+          "output_sha256": "2bfc76214b487a174e9887132480fb00e220a106b6e0f88ce70962de1e545fed"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/armor/jacket/tris.md2",
+      "source_sha256": "722698710c3c01b1dd2a834bbad95d50749bd6e6c01c5f7a7df29a61b03cd9cb",
+      "destination": "target/default/models/armor/quake2_jacket/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "yellow",
+          "material": "armor/quake2_jacket/strogg_jacket_armor",
+          "triangles": 376
+        }
+      ],
+      "textures": [
+        {
+          "original": "strogg_jacket_armor.png",
+          "sha256": "f296e282b8fdbc7e45eae4d7ccce7b294b641733f0d2a75bf574c38793aff036",
+          "output": "strogg_jacket_armor.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/armor/quake2_jacket/diffuse-baseline/strogg_jacket_armor.jpg",
+          "brightening_baseline_sha256": "4ba6b02995f5c2f5e2256d10f7f4e5544014e2f82dfc58b027a20eea6ebe9d14",
+          "specular_removal": "delit",
+          "output_sha256": "a4a8d42835b016ebc6b01a6ac16b4ed43f60fb156fcdf15e5aa08e47fb21cd7f"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/armor/shard/tris.md2",
+      "source_sha256": "1073f2aaad01585dbd11b1b2e9b5da9185da8da2a0b1ec57e61e7b8231624c6e",
+      "destination": "target/default/models/armor/quake2_shard/tris.obj",
+      "source_frames": 1,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "Metal",
+          "material": "armor/quake2_shard/metal",
+          "triangles": 44
+        },
+        {
+          "name": "Orange",
+          "material": "armor/quake2_shard/orange",
+          "triangles": 30
+        }
+      ],
+      "textures": [
+        {
+          "original": "metal.png",
+          "sha256": "abaf2f2e7b9153d80cfa6b0f67e6bf69229fca8282c8b0043e80c5356db7551e",
+          "output": "metal.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/armor/quake2_shard/diffuse-baseline/metal.jpg",
+          "brightening_baseline_sha256": "3dca82cca68a2a401cfd99262e9fe1c5a06451a9b99e0e2e6a35e5687b92c47e",
+          "specular_removal": "delit",
+          "output_sha256": "5aa6496b50f1143de4020d088d11694bd88d0c9ec26634f00eb6433e1b5e8b48"
+        },
+        {
+          "original": "Orange.png",
+          "sha256": "7b5ca51c16fb54928e646e8f613676f0af41c850d7c969af6c65e4d3c6336971",
+          "output": "orange.jpg",
+          "size": [
+            256,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/armor/quake2_shard/diffuse-baseline/orange.jpg",
+          "brightening_baseline_sha256": "d1564bb9ac161cc2c5eac80029f30cfeaaf44436f768707f7fad8361abb17859",
+          "specular_removal": "delit",
+          "output_sha256": "b103a48f1f6acb28ff48d26ec1ed7eaa49f426359a1271a77880f407e9b8e2c3"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/healing/large/tris.md2",
+      "source_sha256": "5f1bdb7784ef6cfc50e83451ff0372e0ccfacc04ef1e820fcbeab8ec053bd644",
+      "destination": "target/default/models/health/quake2_large/tris.obj",
+      "source_frames": 1,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "Blood",
+          "material": "health/quake2_large/blood",
+          "triangles": 16
+        },
+        {
+          "name": "Large",
+          "material": "health/quake2_large/large",
+          "triangles": 327
+        },
+        {
+          "name": "Tube",
+          "material": "health/quake2_large/tube",
+          "triangles": 8
+        }
+      ],
+      "textures": [
+        {
+          "original": "blood.png",
+          "sha256": "8e4d07c03558812be135ac744272feacb551243b869ad4b71c8a45b8576f5ceb",
+          "output": "blood.jpg",
+          "size": [
+            64,
+            128
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_large/diffuse-baseline/blood.jpg",
+          "brightening_baseline_sha256": "492577de7a06572ee5331cbe8a0d5ccd6fdf53dafff0b79c4620a9ed8f13c376",
+          "specular_removal": "light",
+          "output_sha256": "908a66d616705b8f8f83aa4ba12731c2a2ba968f770c08ebf2e6e17d142125b5"
+        },
+        {
+          "original": "large.png",
+          "sha256": "1792a83d5ad0b802cc4ab62d017c95e8f6186251ee43c4675ed932d33236e723",
+          "output": "large.jpg",
+          "size": [
+            1024,
+            1024
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_large/diffuse-baseline/large.jpg",
+          "brightening_baseline_sha256": "3f6a245de9184cda1f983a35f654191b3f88b582dc65ac211a24ef33350077a1",
+          "specular_removal": "delit",
+          "output_sha256": "522f614c013c31afffcc1ec2cc57140405068b72f1a9c427e2c8d3f705895b14"
+        },
+        {
+          "original": "tube.png",
+          "sha256": "ef483a56f26108a40f1c2cbf9f68fed40e0d118588df43376adae031ebde3f0d",
+          "output": "tube.jpg",
+          "size": [
+            128,
+            256
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_large/diffuse-baseline/tube.jpg",
+          "brightening_baseline_sha256": "b0e2ccb14749095932181adf2544b62c0029f58196a656ab3ea667f5860a2726",
+          "specular_removal": "delit",
+          "output_sha256": "2c434a1300902970483debd576ef2aa4407292681084f7445c2686dedc3819a8"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/healing/medium/tris.md2",
+      "source_sha256": "bd7be456094f37e9583aa4469111610304f345be8f2d98128af2282c35e5cdc5",
+      "destination": "target/default/models/health/quake2_medium/tris.obj",
+      "source_frames": 1,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "Liquid",
+          "material": "health/quake2_medium/liquid",
+          "triangles": 28
+        },
+        {
+          "name": "Medium",
+          "material": "health/quake2_medium/medium",
+          "triangles": 140
+        },
+        {
+          "name": "Syringe",
+          "material": "health/quake2_medium/syringe",
+          "triangles": 194
+        },
+        {
+          "name": "Tube",
+          "material": "health/quake2_medium/tube",
+          "triangles": 24
+        }
+      ],
+      "textures": [
+        {
+          "original": "liquid.png",
+          "sha256": "597ab86f7e24e0101cd61b2575eb4fc1a42d1780f0b73f082e56e6288c8eb6f3",
+          "output": "liquid.jpg",
+          "size": [
+            128,
+            128
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_medium/diffuse-baseline/liquid.jpg",
+          "brightening_baseline_sha256": "2943ca430b2ed8033eb438ada6276f71104e6586da3adaafdd98debc45514e60",
+          "specular_removal": "delit",
+          "output_sha256": "238d5bcc51e445e438e542e7f75f86e50f15a031d700495876aedd73cdc28296"
+        },
+        {
+          "original": "medium.png",
+          "sha256": "81459a90f0d969bd66b5747403c12c55cf9f71f9a9e4e4aa69b2a283db9f9f0b",
+          "output": "medium.jpg",
+          "size": [
+            1024,
+            1024
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_medium/diffuse-baseline/medium.jpg",
+          "brightening_baseline_sha256": "b77c816f6fbbc10660d9ca94dd2bb4afabe91c4c0cde048c9d63c585b10a3832",
+          "specular_removal": "delit",
+          "output_sha256": "ee75be35a1fbd4d515fb70a4fd5776e8b1ec169954e2f18548d8950472f08d3f"
+        },
+        {
+          "original": "syringe.png",
+          "sha256": "711f955f949ce5d8e74da0d1f1ee682fe1f4fbb792a5ded74bf2d220ff41d169",
+          "output": "syringe.jpg",
+          "size": [
+            512,
+            256
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_medium/diffuse-baseline/syringe.jpg",
+          "brightening_baseline_sha256": "0ad2e94335e8463cd5dbdbb8c2467803c2392a44418f5763cb4b3b69782046b4",
+          "specular_removal": "delit",
+          "output_sha256": "09902a1b00409519190e26c19d93476407877bda7fe65a5d2a002825abbbda9b"
+        },
+        {
+          "original": "tube.png",
+          "sha256": "43c1c1452042ae4935b18fb3dac76f1fecfe122460431e97dc7ff5ba8a302a40",
+          "output": "tube.jpg",
+          "size": [
+            256,
+            256
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_medium/diffuse-baseline/tube.jpg",
+          "brightening_baseline_sha256": "b18d056cf00a8032addfed59d9eb1923012a0c9bb3c40cdf93a8e0ef5f38c906",
+          "specular_removal": "delit",
+          "output_sha256": "1206ee1ef480d7d05802dacf95343bed5edd90cb5f4c0b959586e5138fd219ae"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/healing/stimpack/tris.md2",
+      "source_sha256": "9b50c63b99079e8101e8c32070ef58a1e4588e71bfcd5e2cabba103bfae18c35",
+      "destination": "target/default/models/health/quake2_small/tris.obj",
+      "source_frames": 1,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "Stimpack",
+          "material": "health/quake2_small/stimpack",
+          "triangles": 142
+        }
+      ],
+      "textures": [
+        {
+          "original": "stimpack.png",
+          "sha256": "c5d0079a3fc86660eae3f6bbf4288e71cdea0d1d5c1f3380d248cee0b1ee2b9e",
+          "output": "stimpack.jpg",
+          "size": [
+            1024,
+            1024
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_small/diffuse-baseline/stimpack.jpg",
+          "brightening_baseline_sha256": "9d9e8187c9559eea633ae189cf3d260256ccfd649550dd5afd96631a44a2431f",
+          "specular_removal": "delit",
+          "output_sha256": "51d4346b5836d5361597e679a3f10c0cb79ec93080e33b6f5e1571b598d7287d"
+        },
+        {
+          "original": "stimpack_glow.png",
+          "sha256": "88fdb8c88b0a3a1283e81ea54c0636f0424bbe6ff6b7f44222fda96d6f9fea51",
+          "output": "stimpack_glow.jpg",
+          "size": [
+            1024,
+            1024
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_small/diffuse-baseline/stimpack_glow.jpg",
+          "brightening_baseline_sha256": "627dfbcd4a2e0b4625d8e2345c92bf71443c888059cfc2675c5e2321e81b9176",
+          "specular_removal": "light",
+          "output_sha256": "01a3f5aac8b80cf128cc6b8c64572ddb508f47a29bbe34a626b3b1fee89afc91"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/invulner/tris.md2",
+      "source_sha256": "c07321a201cca29476a6f6f5798ce53973da019991a431e7aa747719024b12f3",
+      "destination": "target/default/models/powerups/quake2_invulnerability/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "Skull",
+          "material": "powerups/quake2_invulnerability/skull",
+          "triangles": 368
+        },
+        {
+          "name": "Wings",
+          "material": "powerups/quake2_invulnerability/wings",
+          "triangles": 392
+        }
+      ],
+      "textures": [
+        {
+          "original": "skull.png",
+          "sha256": "4c34d5cb541b4731b7342df234d375de3217fcf21a837b934cfd3083e01117eb",
+          "output": "skull.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/powerups/quake2_invulnerability/diffuse-baseline/skull.jpg",
+          "brightening_baseline_sha256": "1468bd7394fdd55f7cc1a4fbed57e4acf8f13c799abff914278f1fac0199e78e",
+          "specular_removal": "delit",
+          "output_sha256": "562e34c2276e934021126516e7738d196d1adddf953ddb6ca542d85985063e51"
+        },
+        {
+          "original": "wings.png",
+          "sha256": "5384b974e43578bb2758fd6ee2315ab049a688071259cad0d8ef15b578c4d4b7",
+          "output": "wings.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/powerups/quake2_invulnerability/diffuse-baseline/wings.jpg",
+          "brightening_baseline_sha256": "62ca30ea970e41859895cba80e310eeead9d2b224123168c4ed105ee5b569fae",
+          "specular_removal": "delit",
+          "output_sha256": "126d5fbdc2c65cdb8090294a4b30c917cf54a9f4c481af4349566fa5ee86fff3"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/mega_h/tris.md2",
+      "source_sha256": "c1f8a08a3c7d97c2395e0c3dc1762b20bebc128ee813dd285323352de71b4cb5",
+      "destination": "target/default/models/health/quake2_mega/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "megahealth",
+          "material": "health/quake2_mega/strogg_megahealth",
+          "triangles": 160
+        }
+      ],
+      "textures": [
+        {
+          "original": "strogg_megahealth.png",
+          "sha256": "774d6318a667ef75b757c6965380fa444a644d797388eb5200880563585e2544",
+          "output": "strogg_megahealth.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/health/quake2_mega/diffuse-baseline/strogg_megahealth.jpg",
+          "brightening_baseline_sha256": "d49afe4409378850efdbc63549643349a17f22c74af0068a5b56155ef5268f62",
+          "specular_removal": "delit",
+          "output_sha256": "a04a21f3e2c8fe0ef893e830aa09a9599292c2de182463ab2c44d5f077677c2d"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/items/pack/tris.md2",
+      "source_sha256": "8ae2761acc5c7d0ff8ed8a045b4e8ab19929059d8f899c8da89e626271bcfd48",
+      "destination": "target/default/models/powerups/quake2_backpack/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "backpack",
+          "material": "powerups/quake2_backpack/backpack",
+          "triangles": 224
+        }
+      ],
+      "textures": [
+        {
+          "original": "backpack.png",
+          "sha256": "5ccac63b9bf1c57bcec5ddc485b789a53c24b6dc334851122c39a4dd7a75174d",
+          "output": "backpack.jpg",
+          "size": [
+            200,
+            200
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/powerups/quake2_backpack/diffuse-baseline/backpack.jpg",
+          "brightening_baseline_sha256": "893b71afda1401a6c91ead7e014ab6c91c406f70c7c3929bc9d0a47d2c4726c5",
+          "specular_removal": "delit",
+          "output_sha256": "d4e4b94d9085ba1b2e7ffe63e172ade1e1683582c77410bdacf6f400d4541354"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/weapons/g_bfg/tris.md2",
+      "source_sha256": "8e2931dbc19b0bb332d046e3f5e8ce01f9085238d5691f516e4a570a6eb8a8e9",
+      "destination": "target/default/models/weapons/quake2_bfg/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "10kbody",
+          "material": "weapons/quake2_bfg/10k_body",
+          "triangles": 898
+        },
+        {
+          "name": "10kparts",
+          "material": "weapons/quake2_bfg/10k_parts",
+          "triangles": 470
+        },
+        {
+          "name": "drums",
+          "material": "weapons/quake2_bfg/10k_drums",
+          "triangles": 440
+        },
+        {
+          "name": "front glass",
+          "material": "weapons/quake2_bfg/10k_front_glass",
+          "triangles": 6
+        },
+        {
+          "name": "energy",
+          "material": "weapons/quake2_bfg/10k_energy",
+          "triangles": 2
+        },
+        {
+          "name": "grill",
+          "material": "weapons/quake2_bfg/10k_energy_grill",
+          "triangles": 2
+        },
+        {
+          "name": "glass",
+          "material": "weapons/quake2_bfg/10k_glass",
+          "triangles": 16
+        },
+        {
+          "name": "display",
+          "material": "weapons/quake2_bfg/10k_back_glass",
+          "triangles": 2
+        }
+      ],
+      "textures": [
+        {
+          "original": "10k_back_glass.png",
+          "sha256": "bf9f8e041f61a05c2c7b829c138ce6146c93ced3da902aeba4af5cd4461694a4",
+          "output": "10k_back_glass.jpg",
+          "size": [
+            32,
+            32
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_back_glass.jpg",
+          "brightening_baseline_sha256": "134a5317fbe2301715b839136d9334ca32537a62fbe793fe6aebb841103858d0",
+          "specular_removal": "delit",
+          "output_sha256": "2892d234182eddba350a4aa539ec4435483c7d6702bd6bc3ccb03ad3ecf478ed"
+        },
+        {
+          "original": "10k_body.png",
+          "sha256": "8f6fb72b204534f6ae937207ec5d39d194d4fefd85c778a1038daae17f58ab2a",
+          "output": "10k_body.jpg",
+          "size": [
+            800,
+            600
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_body.jpg",
+          "brightening_baseline_sha256": "645b5d021c23fd523cbd258c7d59059be5f0ef28d4489dba4a5d0fdafbf839da",
+          "specular_removal": "delit",
+          "output_sha256": "28e25fcd4fd6d433bf06d7d3bf97fb3fc2e2638d84485436dd0e998b15880bf7"
+        },
+        {
+          "original": "10k_drums.png",
+          "sha256": "04e9f4723aa1b38901ba81ac77586959c2a012ef3d1a57fdafdd0c3c90d19872",
+          "output": "10k_drums.jpg",
+          "size": [
+            112,
+            320
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_drums.jpg",
+          "brightening_baseline_sha256": "ee135c7976665e1b2afa7eacaee621b6ef1cf92a4fef81a10ca8bfc431fd59ca",
+          "specular_removal": "delit",
+          "output_sha256": "f758350490bfd26ca2cf59d7f0711dbc6254ad7b08009e4145cc0a6650fb591b"
+        },
+        {
+          "original": "10k_energy.png",
+          "sha256": "e1829aa4e7026038a71401c1a7d9cdbfe37e1cb3db205d1840b4399bce0251c6",
+          "output": "10k_energy.jpg",
+          "size": [
+            64,
+            40
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_energy.jpg",
+          "brightening_baseline_sha256": "7c6cd786f952a43a21ead4155ed7c590b664cf4536cc8d66392585bcf8c30138",
+          "specular_removal": "light",
+          "output_sha256": "495a24e10c385d2ee3080889f67c9b5f04089d823d78e3c74d89db823ac5f0a5"
+        },
+        {
+          "original": "10k_energy_grill.png",
+          "sha256": "3559c77c98366a6e78fe45e478f82cb44d9dfc40d6df6f6c617e7ac93c99fe75",
+          "output": "10k_energy_grill.jpg",
+          "size": [
+            128,
+            80
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_energy_grill.jpg",
+          "brightening_baseline_sha256": "f13c9f2b812e73bf1e0b719f8ce1bbaf4e7d3d6c80e251357b0005ff11ea358f",
+          "specular_removal": "delit",
+          "output_sha256": "d8891f890405ad52921810ef001dd98c45a9c534ed07fd01136d5d553a18ace0"
+        },
+        {
+          "original": "10k_front_glass.png",
+          "sha256": "9a0d0d5b2ecd1d98804919281231d6768be88c3d759eb9b57a7a2049f9f0b9c6",
+          "output": "10k_front_glass.jpg",
+          "size": [
+            64,
+            64
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_front_glass.jpg",
+          "brightening_baseline_sha256": "7e59fd49134e9be8e246e0bd72bbc3cca91861993e97dead1d8794d3f788182b",
+          "specular_removal": "delit",
+          "output_sha256": "26bb6da6857d3240e6e5d64e87ce64f9ca3017d0c3f824f1c69b13a290d6caeb"
+        },
+        {
+          "original": "10k_glass.png",
+          "sha256": "4cabc1e20d6e891685dfe791efc561d6b1335e9cc8c583647b4969f21593ba29",
+          "output": "10k_glass.jpg",
+          "size": [
+            32,
+            128
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_glass.jpg",
+          "brightening_baseline_sha256": "6dcb34e090d06304404b10a634011aa3a6e07db3d3a022a9f62c538ec57e1de0",
+          "specular_removal": "delit",
+          "output_sha256": "1e0a95d384d293d089ca8d719fe64878d1ce631c2bfd361e13f2a2759bbf3e0f"
+        },
+        {
+          "original": "10k_parts.png",
+          "sha256": "f205f84a6cf5acfff0a8cd505799c20bb89f0cbde63cf1e98a20733dc05989c3",
+          "output": "10k_parts.jpg",
+          "size": [
+            356,
+            356
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_bfg/diffuse-baseline/10k_parts.jpg",
+          "brightening_baseline_sha256": "0c147a6b720ba35c282d46d095445752549ecc2b4e3609764b20f32664b38f14",
+          "specular_removal": "delit",
+          "output_sha256": "f6f0ef5613c6e3a7a5110939e36e6accb89ff14b685cc335abce51006b906d76"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/weapons/g_chain/tris.md2",
+      "source_sha256": "8356241af9a9c11a9fd0f7ec10d5b2f9f050a5b3119779ca8cee694739bfc638",
+      "destination": "target/default/models/weapons/quake2_chaingun/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "chaingun_body",
+          "material": "weapons/quake2_chaingun/chaingun",
+          "triangles": 450
+        },
+        {
+          "name": "chaingun_barrel",
+          "material": "weapons/quake2_chaingun/chaingun_barrel",
+          "triangles": 220
+        },
+        {
+          "name": "chaingun_light",
+          "material": "weapons/quake2_chaingun/sidelight",
+          "triangles": 8
+        }
+      ],
+      "textures": [
+        {
+          "original": "chaingun.png",
+          "sha256": "8497d75fd5404baca3b892f3f7982880aeeb7b29e8b2294a9fedce566056ee8d",
+          "output": "chaingun.jpg",
+          "size": [
+            640,
+            640
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_chaingun/diffuse-baseline/chaingun.jpg",
+          "brightening_baseline_sha256": "4481bbcc6f8fc509e4e08e39da37ea39c33a6694a85cd89162e6119c1f6e36d4",
+          "specular_removal": "delit",
+          "output_sha256": "8c162ba43f95a71cbbf713e64a3f1a7fbfa92973410a9703e47e1aea51cb5cf9"
+        },
+        {
+          "original": "chaingun_barrel.png",
+          "sha256": "d0810e2e918faa8cd61062f48ebe0c12b67872da6c591c37a0cf3c9dd1b9e9ae",
+          "output": "chaingun_barrel.jpg",
+          "size": [
+            320,
+            320
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_chaingun/diffuse-baseline/chaingun_barrel.jpg",
+          "brightening_baseline_sha256": "ce188922a6d1c983b3efdf5f1f944fc90f1c3d72a44b7029ec055b04eb9e8c4d",
+          "specular_removal": "delit",
+          "output_sha256": "10d33b4301dca638c575b161fbc6febbc86bbefa81523d2aeff47d10aa74fe0c"
+        },
+        {
+          "original": "sidelight.png",
+          "sha256": "abadd9de63d7321c7aed4c9e0e34c01d60de107bc6373d48adb7dd610a523447",
+          "output": "sidelight.jpg",
+          "size": [
+            32,
+            32
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_chaingun/diffuse-baseline/sidelight.jpg",
+          "brightening_baseline_sha256": "d72a19e0e869a736e41924e24eef0db7852029f4d01d617d16dba79414c8c4d5",
+          "specular_removal": "light",
+          "output_sha256": "0bd47d8f3772545e0121e44824696a770d383348223380675dbfef786da75816"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/weapons/g_hyperb/tris.md2",
+      "source_sha256": "ffd5c174215115d36e9882f2ae873e1feea835b668d7d3c0f6682eb770926b97",
+      "destination": "target/default/models/weapons/quake2_hyperblaster/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "hyperbody",
+          "material": "weapons/quake2_hyperblaster/hyper",
+          "triangles": 538
+        },
+        {
+          "name": "hyperbarrel",
+          "material": "weapons/quake2_hyperblaster/hyper",
+          "triangles": 360
+        },
+        {
+          "name": "hyperparts",
+          "material": "weapons/quake2_hyperblaster/hyperparts",
+          "triangles": 384
+        },
+        {
+          "name": "lowerlight",
+          "material": "weapons/quake2_hyperblaster/hyperparts",
+          "triangles": 8
+        },
+        {
+          "name": "upperlight",
+          "material": "weapons/quake2_hyperblaster/hyperparts",
+          "triangles": 8
+        }
+      ],
+      "textures": [
+        {
+          "original": "hyper.png",
+          "sha256": "974ef1abbcbcc70b65b26f281c0dc80cbf661fb5627784fabf97d81259364835",
+          "output": "hyper.jpg",
+          "size": [
+            600,
+            600
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_hyperblaster/diffuse-baseline/hyper.jpg",
+          "brightening_baseline_sha256": "942355b929911561fd0be0b86bf868117840344b39ab3a7305b897023e37c2d4",
+          "specular_removal": "delit",
+          "output_sha256": "d827ad7d47bf076bfb9ec3e66bb98fe35ece48672040ab15c17354ea3f785717"
+        },
+        {
+          "original": "hyperparts.png",
+          "sha256": "f8e52efe8e1047eb1004ed5798cfc82123cfc00a956580387d301cd312fb808d",
+          "output": "hyperparts.jpg",
+          "size": [
+            256,
+            256
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_hyperblaster/diffuse-baseline/hyperparts.jpg",
+          "brightening_baseline_sha256": "004923d93bb9fa465b3f8e6782a0fc6280f04ab9508570bab74b27382dccdfb7",
+          "specular_removal": "delit",
+          "output_sha256": "8bc811ebebcb22bb6e72783e1e79b0e2b4f84d98425c90b9bfd7961c1f85e2fa"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/weapons/g_launch/tris.md2",
+      "source_sha256": "84776d7e2b62b5ce41c18d6f40faa2d1b603dbef0243186fa1d4858a6fcec0bc",
+      "destination": "target/default/models/weapons/quake2_grenadelauncher/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "Body",
+          "material": "weapons/quake2_grenadelauncher/glauncher",
+          "triangles": 341
+        },
+        {
+          "name": "Cylinder",
+          "material": "weapons/quake2_grenadelauncher/glauncher",
+          "triangles": 80
+        },
+        {
+          "name": "Bomb",
+          "material": "weapons/quake2_grenadelauncher/glauncher",
+          "triangles": 60
+        },
+        {
+          "name": "Trigger",
+          "material": "weapons/quake2_grenadelauncher/glauncher",
+          "triangles": 11
+        }
+      ],
+      "textures": [
+        {
+          "original": "glauncher.png",
+          "sha256": "f44508c462c98f23a5eca4e79e77c0c1d272f0e5fd11d60d498b26d1185292f5",
+          "output": "glauncher.jpg",
+          "size": [
+            500,
+            500
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_grenadelauncher/diffuse-baseline/glauncher.jpg",
+          "brightening_baseline_sha256": "46f4d1db439a08d6108e2b465cc87120e25e6af5d5dc20e27cdf8ec58ea8508a",
+          "specular_removal": "delit",
+          "output_sha256": "7ee67a922b77b9a00f65f2af2eee49ef02caf2e314166eacfccd342c08ab11c0"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/weapons/g_machn/tris.md2",
+      "source_sha256": "93ea7a339c8685df86f0a3d2982f4eedca7c709a5effa9a1e8acb7610a85e1c0",
+      "destination": "target/default/models/weapons/quake2_machinegun/tris.obj",
+      "source_frames": 1,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "Skin1",
+          "material": "weapons/quake2_machinegun/skin1",
+          "triangles": 1116
+        },
+        {
+          "name": "Skin2",
+          "material": "weapons/quake2_machinegun/skin2",
+          "triangles": 6
+        }
+      ],
+      "textures": [
+        {
+          "original": "skin1.png",
+          "sha256": "eedb8eb95a2edd0f5d21bdcf1d90a9e1dc7a8252f347bec1d8e2a521542e31c8",
+          "output": "skin1.jpg",
+          "size": [
+            1024,
+            1024
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_machinegun/diffuse-baseline/skin1.jpg",
+          "brightening_baseline_sha256": "28f037b427b97adfb4324d162255d8289feb5a86af5e45c864db34fd4b006e32",
+          "specular_removal": "delit",
+          "output_sha256": "9de9970a8a4b36b68fbcaebe57694ab0939468bdbc6567c80e376b4c84231960"
+        },
+        {
+          "original": "skin2.png",
+          "sha256": "bc86821218b914b52b81ff3c507958e6bccbf545d3bd90646c32e34030b86b19",
+          "output": "skin2.jpg",
+          "size": [
+            256,
+            256
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_machinegun/diffuse-baseline/skin2.jpg",
+          "brightening_baseline_sha256": "887ff31f868ae1c9e5e010caf41d7830405b963652573baa6eb204997c1e2de6",
+          "specular_removal": "light",
+          "output_sha256": "fb1477b7ce473345a033a93d262034f544257201dc5d5e67f2505740ce6dcc6a"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/weapons/g_rail/tris.md2",
+      "source_sha256": "21e1b92fee21e9788ab3b8be90c72b177f68870fa3b22238789670da009ac9d9",
+      "destination": "target/default/models/weapons/quake2_railgun/tris.obj",
+      "source_frames": 1,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "attachment",
+          "material": "weapons/quake2_railgun/attachment",
+          "triangles": 60
+        },
+        {
+          "name": "body",
+          "material": "weapons/quake2_railgun/body",
+          "triangles": 758
+        },
+        {
+          "name": "hexrod",
+          "material": "weapons/quake2_railgun/hexrod",
+          "triangles": 36
+        },
+        {
+          "name": "innertube",
+          "material": "weapons/quake2_railgun/innertube",
+          "triangles": 192
+        },
+        {
+          "name": "outertube",
+          "material": "weapons/quake2_railgun/outertube",
+          "triangles": 192
+        },
+        {
+          "name": "outertube_effects",
+          "material": "weapons/quake2_railgun/outertube",
+          "triangles": 192
+        },
+        {
+          "name": "bigtubes_gun",
+          "material": "weapons/quake2_railgun/bigtubes_gun",
+          "triangles": 36
+        },
+        {
+          "name": "smalltubes_gun",
+          "material": "weapons/quake2_railgun/smalltubes_gun",
+          "triangles": 24
+        },
+        {
+          "name": "lights",
+          "material": "weapons/quake2_railgun/lights",
+          "triangles": 20
+        }
+      ],
+      "textures": [
+        {
+          "original": "attachment.png",
+          "sha256": "f60d78dd1557d8efac2509db0019f15d44f4b14072b8f2faa6c6cf92860353ea",
+          "output": "attachment.jpg",
+          "size": [
+            32,
+            64
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/attachment.jpg",
+          "brightening_baseline_sha256": "fcfe41533cea19f3e2fab5a915aa6138d9136875a6d4e524663b6c5c288c3868",
+          "specular_removal": "delit",
+          "output_sha256": "6ec50a1292f63ad067b5f06cfae566c17dfcb5fddf4505335ce8318562a86470"
+        },
+        {
+          "original": "bigtubes_gun.png",
+          "sha256": "bf68bdeeb83bd8404f95413c4482fd750b657fd4a8e31f20ea5c117ffa82be2d",
+          "output": "bigtubes_gun.jpg",
+          "size": [
+            256,
+            256
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/bigtubes_gun.jpg",
+          "brightening_baseline_sha256": "bf82c40071cb14ac6e6273676f2b315ff9d2cf5d2a38681c2f7f18b1b20d8296",
+          "specular_removal": "delit",
+          "output_sha256": "15d3143cf5d202eee73f17f25c8ba2b03e05c40428cb8ff4436c62eadadc9659"
+        },
+        {
+          "original": "body.png",
+          "sha256": "1d9d06b97cc074a93466b0df902b7d9ff68e57a5fcf226ec22a22248117b971f",
+          "output": "body.jpg",
+          "size": [
+            800,
+            600
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/body.jpg",
+          "brightening_baseline_sha256": "a71fd9885e667079b34e3b7b3943a535da0df38bf3020b889f775c633de740c6",
+          "specular_removal": "delit",
+          "output_sha256": "604f7269dabb7c9e90f5aeb648f24bbd56e7bc5feaf5a79a3bdf48a00a05c7ab"
+        },
+        {
+          "original": "hexrod.png",
+          "sha256": "8b712ab70b4c733b5cd41796b6321beba5ddf18d75ab4cb16d0110b4e66dba93",
+          "output": "hexrod.jpg",
+          "size": [
+            128,
+            64
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/hexrod.jpg",
+          "brightening_baseline_sha256": "01b32be5afac8b90e2317986e50d2006b93e3108aed038d081ac7317ff504011",
+          "specular_removal": "delit",
+          "output_sha256": "9a71a0fa51b473be972723dfcdea08475bf972bdf0079010959e037825c51c5c"
+        },
+        {
+          "original": "innertube.png",
+          "sha256": "1433d22f683955374e61d38c4f0c0eff4f6916e751d8325a2d33df9d01a2b33e",
+          "output": "innertube.jpg",
+          "size": [
+            256,
+            200
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/innertube.jpg",
+          "brightening_baseline_sha256": "c51ff2db11c958c4a4aa28d7d599ff141d68d228cfa37f19b53d802fdcc821f6",
+          "specular_removal": "delit",
+          "output_sha256": "e0805219cf44e016096372a5161685032724dfa2f9b1fa225d4ec0ca3eb16ec8"
+        },
+        {
+          "original": "lights.png",
+          "sha256": "8e9216db90c4d56b01b4ebb911a4d5e46fd81bc4a6453f64ac084a75e9475ff7",
+          "output": "lights.jpg",
+          "size": [
+            32,
+            32
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/lights.jpg",
+          "brightening_baseline_sha256": "4f885db029dc6d463f5eacd56ea268bdae0efe25f7a53972b71b7dc5b5938b9f",
+          "specular_removal": "light",
+          "output_sha256": "8a9cec8d90a0d999e9ec79f313db105b9a90d5621e32ffdbdd18875872beb4e9"
+        },
+        {
+          "original": "outertube.png",
+          "sha256": "8370f28ed6efcb827e1725d84d8c6e225ed5fc013a1c0409754830ffcff691bc",
+          "output": "outertube.jpg",
+          "size": [
+            256,
+            200
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/outertube.jpg",
+          "brightening_baseline_sha256": "be57b356cea7c75bba0648f672555156ebaa11d38fd393c853fe004e4bd00824",
+          "specular_removal": "delit",
+          "output_sha256": "89f4313fed687430773589719f7e02b92e67a42eba0e1cbebf52346963c4f25b"
+        },
+        {
+          "original": "smalltubes_gun.png",
+          "sha256": "f4b74948222989fe1c268cb595b3be62577b963e9999f66798536083078b6ae9",
+          "output": "smalltubes_gun.jpg",
+          "size": [
+            64,
+            64
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_railgun/diffuse-baseline/smalltubes_gun.jpg",
+          "brightening_baseline_sha256": "eb863c8419373434e5e43afe1c52c04891a5a11e8b7b40bf84dc3616fd1be806",
+          "specular_removal": "delit",
+          "output_sha256": "fbddabe5b8106fc11a67be34e63922c7dacb294801d683b4106f19eb47e811e6"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/weapons/g_rocket/tris.md2",
+      "source_sha256": "cc1726a513a46945eb13ff5295668055563eb53e376ce2f11d53809b9f5a87e2",
+      "destination": "target/default/models/weapons/quake2_rocketlauncher/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "RL",
+          "material": "weapons/quake2_rocketlauncher/rlauncher",
+          "triangles": 435
+        },
+        {
+          "name": "Cylinder01",
+          "material": "weapons/quake2_rocketlauncher/rl_rocket",
+          "triangles": 80
+        },
+        {
+          "name": "Cylinder02",
+          "material": "weapons/quake2_rocketlauncher/rl_rocket",
+          "triangles": 80
+        },
+        {
+          "name": "Cylinder03",
+          "material": "weapons/quake2_rocketlauncher/rl_rocket",
+          "triangles": 80
+        }
+      ],
+      "textures": [
+        {
+          "original": "rl_rocket.png",
+          "sha256": "18acd64f462c910a3040e2458fd55d906c2fd61e7665711bd84a27481a4fadc8",
+          "output": "rl_rocket.jpg",
+          "size": [
+            128,
+            128
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_rocketlauncher/diffuse-baseline/rl_rocket.jpg",
+          "brightening_baseline_sha256": "7b00df3f374832bb12286878d3b5f198d7f93cea30daa651c36650d193526e08",
+          "specular_removal": "delit",
+          "output_sha256": "ccda218162db1527600dcf67dca9269955eec6c878068ac247ffc8df7a4827d9"
+        },
+        {
+          "original": "rlauncher.png",
+          "sha256": "837be1044c516cddb917522839af81711503d4724ac649fa244e7f54eff0f43d",
+          "output": "rlauncher.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_rocketlauncher/diffuse-baseline/rlauncher.jpg",
+          "brightening_baseline_sha256": "ee021e9628c6702b621f2213cee434da6ac1f9a6bbb3d2ae806980f346f52df7",
+          "specular_removal": "delit",
+          "output_sha256": "79ac37824b187a3edd43a290af5d9673fc36b2ce52c30ccbcb0bbd74bba420ef"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/weapons/g_shotg/tris.md2",
+      "source_sha256": "7ce50aeaadf8acacb0fe143458a3527720ef48cd6e910fb80c35bc80c2f77a5b",
+      "destination": "target/default/models/weapons/quake2_shotgun/tris.obj",
+      "source_frames": 1,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "shotg",
+          "material": "weapons/quake2_shotgun/shotg",
+          "triangles": 1164
+        }
+      ],
+      "textures": [
+        {
+          "original": "shotg.png",
+          "sha256": "fed4b8e860ceee3585252a33f2503466f5e4622acac971f55622a55629095a0f",
+          "output": "shotg.jpg",
+          "size": [
+            1024,
+            1024
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_shotgun/diffuse-baseline/shotg.jpg",
+          "brightening_baseline_sha256": "46b290682bbba64d406edd71d13cc9f337020e32c7f5f7038333bfb3d3862aac",
+          "specular_removal": "delit",
+          "output_sha256": "01a0344ec00417f9002fa86f8c846008237c03be6beee2f13edf6452099927f3"
+        },
+        {
+          "original": "shotg_glow.png",
+          "sha256": "683deef66355ab8f8a239bd721e803f8369a6cf5ad7693ffeff692049f21267d",
+          "output": "shotg_glow.jpg",
+          "size": [
+            256,
+            256
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_shotgun/diffuse-baseline/shotg_glow.jpg",
+          "brightening_baseline_sha256": "25e16b58ea9e165475f5bbeaa9e6eaea2f1f22731ef85a79585fe401b530310d",
+          "specular_removal": "light",
+          "output_sha256": "14276db5813b9150679ea4bee1ffbf5c7057735f8d4d86251a8aa3e8fde5fc42"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    },
+    {
+      "source_model": "pak97_models/models/weapons/g_shotg2/tris.md2",
+      "source_sha256": "48299a257c0c88260bafef6daa8c6f78cbb00fd4c78bad21ce32137cc1c37af5",
+      "destination": "target/default/models/weapons/quake2_supershotgun/tris.obj",
+      "source_frames": 30,
+      "static": true,
+      "frames_identical_including_normals_and_tags": true,
+      "pose": 0,
+      "surfaces": [
+        {
+          "name": "Body",
+          "material": "weapons/quake2_supershotgun/ssg",
+          "triangles": 669
+        },
+        {
+          "name": "Grip",
+          "material": "weapons/quake2_supershotgun/ssg",
+          "triangles": 88
+        },
+        {
+          "name": "Trigger",
+          "material": "weapons/quake2_supershotgun/ssg",
+          "triangles": 11
+        }
+      ],
+      "textures": [
+        {
+          "original": "ssg.png",
+          "sha256": "b4dedd44b7395cd902ff4571e3b4090b0f4fcdd7ee8cc08e04573bbb210e39b1",
+          "output": "ssg.jpg",
+          "size": [
+            512,
+            512
+          ],
+          "alpha_preserved": false,
+          "brightening_baseline": "src/default/models/weapons/quake2_supershotgun/diffuse-baseline/ssg.jpg",
+          "brightening_baseline_sha256": "e58edcd674bf12f481d4232409eed04d1e03394bd5f39fafdf13b90f23fe017d",
+          "specular_removal": "delit",
+          "output_sha256": "9db2a9439a918ccb9174777460af164cc1acf54c08d73e4798d12c34beddd0ea"
+        }
+      ],
+      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
+    }
+  ],
+  "playable_slice": {
+    "map": "edge",
+    "items": "quake2",
+    "movement": "Unchanged",
+    "replacement": "Lightning -> chaingun; bolts -> bullets; pickup locations unchanged",
+    "temporary_media": {
+      "blaster": "Quetoo blaster model and materials",
+      "hand_grenades": "Q2 grenade ammo pickup model; Quetoo thrown grenade",
+      "quad_damage": "Quetoo quad model and item_quad entity; Quake II logo model excluded",
+      "icons": "Corresponding Quetoo weapon/ammo/health/armor icons",
+      "sounds": "Quake II shareware weapon sounds on trial; Quetoo pickup sounds",
+      "projectiles": "Quetoo blaster/grenade/rocket/rail effects; no hyperblaster climb mechanic",
+      "placement": "Initial bounds-derived world/view/link configurations, not final hand-authored tuning"
+    },
+    "deferred_entities": [
+      "powerups",
+      "equipment"
+    ],
+    "behavior_reference": "id-Software/Quake-2 GPL game/p_weapon.c and game/g_weapon.c"
+  },
+  "diffuse_brightening": {
+    "gamma_exponent": 0.75,
+    "formula": "For each sRGB byte independently: round(255 * (input / 255) ** 0.75)",
+    "input": "Preserved pre-brightening JPEG at each texture's brightening_baseline path; always regenerate from this baseline, never compound",
+    "output": "RGB JPEG, original dimensions, Pillow quality=95, subsampling=0",
+    "scope": "63 imported diffuse skins across 27 Q2 models; no normalmaps, materials, configs or source originals changed",
+    "status": "Superseded by diffuse_regeneration"
+  },
+  "emissive_glow": {
+    "method": "Glow textures keep only the lit features of the brightened diffuse skin, in their own colour on black: a hue-dominance, saturation or brightness mask, optionally limited to hand-picked UV regions, scaled by a gain and given a small Gaussian halo. RGB JPEG, quality 95, subsampling 0.",
+    "generated": [
+      "powerups/quake2_adrenaline/adrenaline_glow",
+      "health/quake2_mega/strogg_megahealth_glow",
+      "health/quake2_small/stimpack_fx",
+      "health/quake2_medium/medium_glow",
+      "health/quake2_large/large_glow",
+      "ammo/quake2_cells/core_glow",
+      "armor/quake2_body/strogg_body_armor_glow",
+      "weapons/quake2_railgun/hexrod_glow",
+      "weapons/quake2_machinegun/skin1_glow",
+      "weapons/quake2_rocketlauncher/rlauncher_glow"
+    ],
+    "self_emissive": "Surfaces whose skin is already a light (stimpack glow/pulse/fluid, large health blood, shotgun glow/glow2/glowpulse, chaingun sidelight, railgun lights, machinegun screen, BFG energy) use their own diffuse as the glow stage texture. The stimpack and shotgun glows are material stages.",
+    "naming": "stimpack uses _fx because stimpack_glow is an existing surface skin.",
+    "material_stage": "blend src_alpha one, pulse 2 for health, 1 for megahealth/cells/armor, 1.5 for adrenaline, 0.5-1.25 for weapons",
+    "status": "First pass; needs in-game review."
+  },
+  "mesh_edits": {
+    "weapons/quake2_chaingun": {
+      "operation": "Rebuilt the six 8-sided barrel tubes and muzzle caps with 24 sides; subdivided the two 12-sided clamp rings and their side discs to 36 sides",
+      "script": "src/default/models/weapons/quake2_chaingun/tessellate_q2_barrels.py",
+      "command": "python3 tessellate_q2_barrels.py mesh-baseline/tris.obj tris.obj 24 3",
+      "baseline": "src/default/models/weapons/quake2_chaingun/mesh-baseline/tris.obj",
+      "baseline_sha256": "92944e68b29a280413611c3c0a74dca2081f750c6cb4e5d61e2d05ad57f7a1f9",
+      "output_sha256": "7d5406a5022de5b9cefd149baf956b539c6bb9b05682fd0756a7c63a04c857ea",
+      "notes": "Barrels: per-end center and mean corner radius are kept, so bounds are unchanged. Tube U is interpolated by angle between the original corners from each end's texture seam; caps use an affine fit of the original cap UVs. Clamps: a closed Catmull-Rom curve through the original (irregular) corners adds two points per edge, keeping every original corner position and UV; band V is interpolated along each edge; side discs use an affine fit of the original disc UVs (residual within 1/320 source quantization). Tube and band normals follow the new surface; cap and disc normals, and all windings, follow the original. All other surfaces are unchanged."
+    },
+    "weapons/quake2_supershotgun": {
+      "operation": "Subdivided the two 10-sided barrels (outer shells, inner bores, muzzle face plates and the one closed bore breech cap) 3x to 30 sides",
+      "script": "src/default/models/weapons/quake2_supershotgun/tessellate_q2_barrels.py",
+      "command": "python3 tessellate_q2_barrels.py mesh-baseline/tris.obj tris.obj 3",
+      "baseline": "src/default/models/weapons/quake2_supershotgun/mesh-baseline/tris.obj",
+      "baseline_sha256": "9c4822facccf934e550d30e0794ab9de50ba2060cf69d7ed31143b4313f50afd",
+      "output_sha256": "7b4b1ee294cab7da80be7c0b44336b4417af2ba99f306670b2de51f733556179",
+      "notes": "Cross-sections follow a closed Catmull-Rom curve through the original corners; the axial coordinate (the curved muzzle crown) is linear between corners, so bounds are unchanged. Every original corner keeps its position and UV. Face plates and the cap take UVs from an affine fit of the originals and keep their normals. All other surfaces are unchanged."
+    }
+  },
+  "diffuse_regeneration": {
+    "script": "src/default/models/quake2/quake2-skins.py",
+    "input": "Each texture's brightening_baseline, or its edited_baseline when hand edited after brightening; never compound",
+    "steps": [
+      "Brighten: round(255 * (input / 255) ** 0.75) per sRGB byte",
+      "Remove baked specular (strong) with {'glint_size': 0.03, 'streak': 0.2, 'percentile': 25, 'keep': 0.0, 'saturation': 0.35}, only within texels used by the mesh"
+    ],
+    "skipped": "Lights/glow sources (specular_removal: light) and textures no surface uses (unused) are only brightened",
+    "output": "RGB JPEG, original dimensions, Pillow quality=95, subsampling=0; RGBA PNG where a texture specifies alpha (smoothstep of the brightest channel)",
+    "counts": {
+      "delit": 50,
+      "light": 7,
+      "unused": 0
+    },
+    "status": "User chose strong removal for all Q2 item skins, without brightness compensation; needs in-game review"
+  },
+  "removed_textures": {
+    "textures": [
+      "quake2_railgun/bigtubes.jpg",
+      "quake2_railgun/smalltubes.jpg",
+      "quake2_shotgun/shotg_glow2.jpg",
+      "quake2_shotgun/shotg_glowpulse.jpg",
+      "quake2_small/stimpack_fluid.jpg",
+      "quake2_small/stimpack_pulse.jpg"
+    ],
+    "reason": "No surface of the imported mesh uses them (the railgun uses identical *_gun copies). Originals remain under each model's src original/ directory."
+  },
+  "sounds": {
+    "status": "Quetoo originals, generated for the Quake II item set",
+    "generator": "src/default/sounds/quake2/make_quake2_sounds.py",
+    "method": "The chaingun, hyperblaster and machinegun sounds, the shotgun fire sound and the railgun hum are Quetoo originals. Each is synthesized, or reshaped and layered from the Quetoo sounds listed as its sources, to the timing of the Quake II weapon code (GPL). Quake II's own sounds were only listened to and measured, for duration, envelope and spectral balance; none is read by the generator or mixed into its output.",
+    "excluded_sources": "Quetoo sounds that are copies of Quake or Quake II sounds are not used as sources (weapons/handgrenades/hg_throw.wav is Quake II's HGRENT1A.WAV).",
+    "files": [
+      {
+        "destination": "target/default/sounds/weapons/quake2_machinegun/fire_1.wav",
+        "sha256": "3ac558d299403c1188b6a3137440ae80903aa75f9357a9ea6c373240583c877d",
+        "sources": [
+          "target/default/sounds/weapons/machinegun/fire_1.wav"
+        ]
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_machinegun/fire_2.wav",
+        "sha256": "2e5fdbf08e1958ed9abce63f94efe24b41ead2ab1ddaf3e239c212bbe0927f60",
+        "sources": [
+          "target/default/sounds/weapons/machinegun/fire_2.wav"
+        ]
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_machinegun/fire_3.wav",
+        "sha256": "69a9525e1bdd8e28ade3968951d767ff76ebce0a47d764adec71f65a6baaee60",
+        "sources": [
+          "target/default/sounds/weapons/machinegun/fire_3.wav"
+        ]
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_machinegun/fire_4.wav",
+        "sha256": "cc23613bc8567ed03238db9fde9488b6b25c56fdc5ac853be105ebffbacf1604",
+        "sources": [
+          "target/default/sounds/weapons/machinegun/fire_1.wav"
+        ]
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_machinegun/fire_5.wav",
+        "sha256": "12dd1720f0a6828df1e79cdb7d7026c788a8e70ed80ab7b5e120b33f46e8146a",
+        "sources": [
+          "target/default/sounds/weapons/machinegun/fire_2.wav"
+        ]
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_shotgun/fire.wav",
+        "sha256": "24daebed5c52e9530df54659b17bacb7cbb8cc2fe13938773f1418243687543d",
+        "sources": [
+          "target/default/sounds/weapons/shotgun/fire.wav"
+        ]
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_hyperblaster/fire.wav",
+        "sha256": "5375610dbfc128f8dc9c6e2b63c29eca1255f51dc22f7062b775c8fe8718aea0",
+        "sources": [
+          "target/default/sounds/weapons/blaster/fire.wav"
+        ]
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_hyperblaster/hum.wav",
+        "sha256": "6a167e3ce03ede791650acf89b7221725a68a2149a36ab735378bee4ee8f7772",
+        "sources": []
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_hyperblaster/spindown.wav",
+        "sha256": "9e0524689e977fa5d1ac8d699fc1cc1961d90a0e83e3d3461c525b26490a1216",
+        "sources": []
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_chaingun/spinup.wav",
+        "sha256": "a648c27e5aa96828ab8568f605a1255eb7b9e4d4892f1507954d92d4241975c9",
+        "sources": []
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_chaingun/hum.wav",
+        "sha256": "6704266624da019528cc5ff0dafb57877132618e5f4580f8ede163c50e50639a",
+        "sources": []
+      },
+      {
+        "destination": "target/default/sounds/weapons/quake2_chaingun/spindown.wav",
+        "sha256": "dd830cccc24a377f446733c8b20b84024f6c9e4fea58bc98843b549010f7c6f8",
+        "sources": []
+      },
+      {
+        "destination": "target/default/sounds/weapons/railgun/hum.wav",
+        "sha256": "0d77fd391f9d1789e79c8b1257414b5bc861a91e87af726204044e62dfb3493a",
+        "sources": []
+      }
+    ],
+    "shared": "The other Quake II weapons use Quetoo's own sounds, referenced directly by the game and client game: super shotgun fire, blaster fire and hit, hyperblaster hit, grenade launcher fire, grenades (bounce, throw, timer), rocket launcher fire, rocket flight, explosions, railgun fire, and the BFG10K's prime, fire and hit. The Quake II BFG has no hum or flight sound. weapons/railgun/hum.wav is generated here and shared by both railguns."
+  }
+}
