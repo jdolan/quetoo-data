@@ -801,41 +801,6 @@
       "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
     },
     {
-      "source_model": "pak97_models/models/items/quaddama/tris.md2",
-      "source_sha256": "be1d098a098c851e222189fd381d4ea94cfcf2ebcab53e1c18d50f383ce76be5",
-      "destination": "target/default/models/powerups/quake2_quad/tris.obj",
-      "source_frames": 1,
-      "static": true,
-      "frames_identical_including_normals_and_tags": true,
-      "pose": 0,
-      "surfaces": [
-        {
-          "name": "quaddama",
-          "material": "powerups/quake2_quad/quaddama",
-          "triangles": 468
-        }
-      ],
-      "textures": [
-        {
-          "original": "quaddama.png",
-          "sha256": "75a5e59ba82589645a4ae4fe647d1b2cd9293eb6490efe856e5d1279844852f2",
-          "output": "quaddama.jpg",
-          "size": [
-            512,
-            512
-          ],
-          "alpha_preserved": false,
-          "brightening_baseline": "src/default/models/powerups/quake2_quad/diffuse-baseline/quaddama.jpg",
-          "brightening_baseline_sha256": "5688d3d253c008cafb42b2027686ae6b1361e83a6ac04b84ee0baf0509e20cf5",
-          "edited_baseline": "src/default/models/powerups/quake2_quad/diffuse-baseline/quaddama-edited.jpg",
-          "edit": "Hand recolour of the brightened skin (green raised, blue lowered), 2026-11-05",
-          "specular_removal": "delit",
-          "output_sha256": "a875c8f658da3a6fbfea7937897eef3c1a06dd73a5f1ea34676f5d7cdae60d8e"
-        }
-      ],
-      "review": "Uncurated: verify identity, authored shading/glow/glass, scale and placement"
-    },
-    {
       "source_model": "pak97_models/models/weapons/g_bfg/tris.md2",
       "source_sha256": "8e2931dbc19b0bb332d046e3f5e8ce01f9085238d5691f516e4a570a6eb8a8e9",
       "destination": "target/default/models/weapons/quake2_bfg/tris.obj",
@@ -1571,6 +1536,7 @@
     "temporary_media": {
       "blaster": "Quetoo blaster model and materials",
       "hand_grenades": "Q2 grenade ammo pickup model; Quetoo thrown grenade",
+      "quad_damage": "Quetoo quad model and item_quad entity; Quake II logo model excluded",
       "icons": "Corresponding Quetoo weapon/ammo/health/armor icons",
       "sounds": "Quake II shareware weapon sounds on trial; Quetoo pickup sounds",
       "projectiles": "Quetoo blaster/grenade/rocket/rail effects; no hyperblaster climb mechanic",
@@ -1600,14 +1566,13 @@
       "health/quake2_large/large_glow",
       "ammo/quake2_cells/core_glow",
       "armor/quake2_body/strogg_body_armor_glow",
-      "powerups/quake2_quad/quaddama_glow",
       "weapons/quake2_railgun/hexrod_glow",
       "weapons/quake2_machinegun/skin1_glow",
       "weapons/quake2_rocketlauncher/rlauncher_glow"
     ],
     "self_emissive": "Surfaces whose skin is already a light (stimpack glow/pulse/fluid, large health blood, shotgun glow/glow2/glowpulse, chaingun sidelight, railgun lights, machinegun screen, BFG energy) use their own diffuse as the glow stage texture. The stimpack and shotgun glows are material stages.",
     "naming": "stimpack uses _fx because stimpack_glow is an existing surface skin.",
-    "material_stage": "blend src_alpha one, pulse 2 for health, 1 for megahealth/cells/armor/quad, 1.5 for adrenaline, 0.5-1.25 for weapons",
+    "material_stage": "blend src_alpha one, pulse 2 for health, 1 for megahealth/cells/armor, 1.5 for adrenaline, 0.5-1.25 for weapons",
     "status": "First pass; needs in-game review."
   },
   "mesh_edits": {
