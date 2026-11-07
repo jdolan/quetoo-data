@@ -1,6 +1,6 @@
 {
 	diffusemap weapons/quake2_supershotgun/ssg
-	roughness 4.00
-	hardness 5.00
+	roughness 3.00
+	hardness 3.00
 	specularity 2.00
 }
