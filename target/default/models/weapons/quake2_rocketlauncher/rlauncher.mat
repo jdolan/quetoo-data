@@ -6,7 +6,7 @@
 	{
 		texture weapons/quake2_rocketlauncher/rlauncher_glow
 		blend src_alpha one
-		pulse 0.75
+		pulse 3
 		emissive 2.00
 	}
 }
