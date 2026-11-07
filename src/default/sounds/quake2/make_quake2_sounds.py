@@ -262,21 +262,6 @@ def shotgun(r):
     return trim(mix(0.5 + len(tail) / SR, (0, 1.0, x), (0.48, 1.0, tail)), 0.5 + len(tail) / SR)
 
 
-@sound('weapons/quake2_supershotgun/fire.wav')
-def supershotgun(r):
-    # both barrels at once: a long, heavily compressed blast with a deep thud under it
-    blast = peak_eq(peak_eq(highpass(load('weapons/supershotgun/fire.wav'), 60), 280, 12, 0.5), 600, 5, 0.8)
-    blast = shelf_high(blast, 2500, 2)
-    blast = decay(fit(blast, secs(0.68)), 0.4, hold=0.22)
-    n = secs(0.5)
-    thud = np.sin(2 * np.pi * np.cumsum(80 * (1.6 * np.exp(-t(n) / 0.04) + 1)) / SR) * np.exp(-t(n) / 0.16)
-    crack = bandpass(noise(r, 0.15), 1200, 8000) * np.exp(-t(secs(0.15)) / 0.035)
-    x = mix(0.68, (0, 1.0, normalize(blast)), (0, 0.45, thud), (0.0, 0.35, crack), (0.012, 0.25, crack))
-    x = normalize(drive(normalize(x), 3.0))
-    tail = reload_tail('weapons/supershotgun/fire.wav')
-    return trim(mix(0.68 + len(tail) / SR, (0, 1.0, x), (0.66, 1.0, tail)), 0.68 + len(tail) / SR)
-
-
 @sound('weapons/quake2_hyperblaster/fire.wav')
 def hyperblaster(r):
     # Quetoo's blaster, a fifth lower and played twice as fast, with a heavier low end
