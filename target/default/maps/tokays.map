@@ -11575,6 +11575,7 @@
 {
 "classname" "ammo_quake2_cells"
 "origin" "1504 304 272"
+"quetoo" "ammo_nukes"
 }
 // entity 62
 {
@@ -11642,6 +11643,7 @@
 {
 "classname" "ammo_quake2_cells"
 "origin" "640.000000 -528.000000 144.000000"
+"quetoo" "ammo_nukes"
 }
 // entity 75
 {

@@ -19477,6 +19477,7 @@
 {
 "classname" "weapon_quake2_chaingun"
 "origin" "384 504 152"
+"quake" "weapon_quake_supernailgun"
 }
 // entity 22
 {
@@ -19694,11 +19695,15 @@
 {
 "classname" "ammo_quake2_bullets"
 "origin" "320 560 144"
+"quetoo" "ammo_bolts"
+"quake" "ammo_quake_nails"
 }
 // entity 65
 {
 "classname" "ammo_quake2_bullets"
 "origin" "320 520 144"
+"quetoo" "ammo_bolts"
+"quake" "ammo_quake_nails"
 }
 // entity 66
 {
@@ -19719,6 +19724,7 @@
 {
 "classname" "ammo_quake2_bullets"
 "origin" "-424 -388 160"
+"quetoo" "ammo_bolts"
 }
 // entity 70
 {
@@ -19830,6 +19836,7 @@
 {
 "classname" "ammo_quake2_bullets"
 "origin" "-444 -344 160"
+"quetoo" "ammo_bolts"
 }
 // entity 88
 {

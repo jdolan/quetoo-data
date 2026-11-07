@@ -26029,6 +26029,7 @@
 {
 "classname" "ammo_quake2_cells"
 "origin" "-1032.000000 -1280.000000 160.000000"
+"quetoo" "ammo_nukes"
 "_tb_layer" "8"
 }
 // entity 247
@@ -26078,6 +26079,7 @@
 {
 "classname" "ammo_quake2_bullets"
 "origin" "1120 56 -48"
+"quetoo" "ammo_bolts"
 "_tb_layer" "8"
 }
 // entity 255
