@@ -22,6 +22,9 @@
 		8 : "hazard_respawn" : 0
 	]
 	team(string) : "The team name for alternating item spawns"
+	quetoo(string) : "Replacement item classname in quetoo mode; absent uses table, empty suppresses"
+	quake(string) : "Replacement item classname in quake mode; absent uses table, empty suppresses"
+	quake2(string) : "Replacement item classname in quake2 mode; absent uses table, empty suppresses"
 ]
 
 @PointClass base(Item) color(0 255 0) size(-4 -4 -6, 4 4 6) studio("") = item_armor_shard : "Shard armor (+3)" []
