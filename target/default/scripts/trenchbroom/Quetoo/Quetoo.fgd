@@ -926,9 +926,10 @@
 		"quake2" : "Quake2"
 		"quake3" : "Quake3"
 	]
-	items(choices) : "The item set for this map" : "default" =
+	items(choices) : "Item conversion; overridden by map-list items and a named g_items" : "default" =
 	[
-		"default" : "Quetoo"
+		"default" : "As authored (no conversion)"
+		"quetoo" : "Convert to Quetoo"
 		"quake" : "Quake"
 		"quake2" : "Quake II"
 	]
