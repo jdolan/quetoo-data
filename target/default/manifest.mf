@@ -6220,6 +6220,7 @@ c5b92fba8dd3d7c5d70c45fe1d5ab4e7 25605 textures/quake/church1_2_spec.jpg
 b8922396bc4d46fd8c73fb6c180ec971 162803 textures/quake/city1_4_norm.png
 f61d0e3ddb2b3cdc929531ae3c279463 26894 textures/quake/city1_4_spec.jpg
 9e8844fbc1c0da86b3a1c85c1f84eced 29309 textures/quake/city1_7.jpg
+82a5c9351230bc5c0bd8b1bc99167079 94 textures/quake/city1_7.mat
 3f48fdadbe36c67bc6f2345a7ff2e01b 135468 textures/quake/city1_7_norm.png
 9e50a0de22ff77b84ef642f2ba5c42df 25970 textures/quake/city1_7_spec.jpg
 135898b37e5c6642e324373af0fa674c 34717 textures/quake/city2_1.jpg
@@ -6299,13 +6300,17 @@ a263c6a81cd42e1228c5d1fd178f1dd4 183428 textures/quake/city5_7_norm.png
 758ab9aca207a99231daa5439254ba97 19797 textures/quake/city6_3_spec.jpg
 6615dc2852285f76dee84d392663e708 29137 textures/quake/city6_4.jpg
 c3082fcfce89016394721b5193a80e0b 92 textures/quake/city6_4.mat
+b32fcfbccd2ff4ee254d4081ddfd1624 39145 textures/quake/city6_6.jpg
+ea5e37c15de2a4d60700dbf480b532d1 61 textures/quake/city6_6.mat
+a022e31072f51c6ac4c3df9e9f22f658 178675 textures/quake/city6_6_norm.png
+39a41e4ae83c91470c938e57617bc108 34235 textures/quake/city6_6_spec.jpg
 aae8d209ba4e04860e2de6e5d97fe18c 30204 textures/quake/city6_7.jpg
 19df2b55096b39ce49b09d879acb275f 159915 textures/quake/city6_7_norm.png
 81495de65c386ece6d400f553b8d88c6 19817 textures/quake/city6_7_spec.jpg
 f9976497d8e689ec53ede8ad39727085 18929 textures/quake/city6_8.jpg
 d530345d16896109595f04f33f46330b 138 textures/quake/city6_8.mat
 1de73c5589478658399a8f6d972b98c6 22839 textures/quake/city8_2.jpg
-e4c4c58ece7c9cd92380d757f7a5f625 92 textures/quake/city8_2.mat
+4e4d3b4bf732723d3e530ce486fbb884 138 textures/quake/city8_2.mat
 fcc23d4096392c519d9136f690b4d0c2 190313 textures/quake/citya1_1_norm.png
 5ac3edb91f79a1e7e1ffafc0ad03e8d8 30240 textures/quake/column01_3.jpg
 a16c253eb912099a3e554815d4026003 120912 textures/quake/column01_3_norm.png
@@ -7731,6 +7736,7 @@ d351c0599c3431d520401522fc149fa5 38689 textures/quake/wexit01.jpg
 c2ad29f7f5a7aab46cc79cbdb4522061 151269 textures/quake/wgrass1_1_norm.png
 01e3ccecf7a35783814a9af268c64fb9 34257 textures/quake/wgrass1_1_spec.jpg
 387e124e4b680f350f03421f11ed8c62 31871 textures/quake/wgrnd1_5.jpg
+967fb4c53ee5c104438f32d816c8c951 77 textures/quake/wgrnd1_5.mat
 d1896a8f74f6a5eaff65f69435f4feec 121715 textures/quake/wgrnd1_5_norm.png
 bb84215201d1cdcdc14b300cf930ed53 27317 textures/quake/wgrnd1_5_spec.jpg
 feadbb69b7d13f9b0002bcf8e8d33959 30582 textures/quake/window01_1.jpg
@@ -7807,7 +7813,7 @@ c80b23c44d308f155718634de42c32e0 98 textures/quake/wizmet1_8.mat
 19b617776ef2a31c764f78feefdfd1dc 125115 textures/quake/wizwin1_8_norm.png
 9d97c6ab96fa9b8167fe9c838531c428 23776 textures/quake/wizwin1_8_spec.jpg
 9da7c9c2f5420798730b327b6666c057 25027 textures/quake/wizwood1_2.jpg
-19851a15d9bd9392856fe66324caad88 101 textures/quake/wizwood1_2.mat
+27a2fd33046df04cc79fa7d808da6e52 132 textures/quake/wizwood1_2.mat
 1c2293493fb015560bfab29adb8c15cd 19003 textures/quake/wizwood1_2_spec.jpg
 afc8b51c40ddaed835ff096422b95a34 23787 textures/quake/wizwood1_3.jpg
 28f3dfb966c529ee6cc420d5388a478a 160026 textures/quake/wizwood1_3_norm.png
@@ -9012,6 +9018,7 @@ fa15adbd045ea2da61013ffff17e91d8 135532 textures/quake3/base_floor/metalbridge04
 19447cf9d256d37ec8997dbfac096b72 143346 textures/quake3/base_floor/metalbridge06.jpg
 5a71995705e3975a25b40ff4d15f91e6 108249 textures/quake3/base_floor/metaltechfloor01final.jpg
 8af6201004719672e9cab44dfdf875a0 4113 textures/quake3/base_floor/metfloor1.jpg
+020c7dbb8aaaf126d01c37b0044160c6 147 textures/quake3/base_floor/pjgrate1.mat
 7f4fc7cc2db38d28d2ed3c7123faa6ae 102363 textures/quake3/base_floor/pjgrate1.png
 835dbcfd6982c5d9f62391dba2f93b8f 477584 textures/quake3/base_floor/pjgrate2.kra
 c2206dd9ef7fc905f997d349e0e02fb9 147 textures/quake3/base_floor/pjgrate2.mat

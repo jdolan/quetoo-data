@@ -1,0 +1,6 @@
+{
+	diffusemap quake/wgrnd1_5
+	roughness 2.00
+	hardness 0.20
+	parallax 2.50
+}

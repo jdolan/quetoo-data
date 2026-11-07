@@ -2,4 +2,6 @@
 	diffusemap quake/wizwood1_2
 	normalmap quake/wizwood1_3_norm
 	specularmap quake/wizwood1_3_spec
+	roughness 1.50
+	parallax 2.50
 }
