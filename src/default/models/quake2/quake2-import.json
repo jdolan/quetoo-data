@@ -21,8 +21,8 @@
     "placement_strawman": "User-tuned shotgun and super shotgun transforms retained. Remaining seven weapon candidates use super shotgun world translation 0 0 0 / scale 1, link translation 4 0 -12 / scale 0.65, view translation 12 0 -24 / scale 0.75. Existing model-specific muzzle coordinates rounded to integers; BFG muzzle 32 0 23 is a provisional bounds-based estimate. These are local starting values for in-game review, not final placements."
   },
   "normalmap_recipe": {
-    "tool": "src/tools/matfu.py batch --preset src/default/models/quake2-matfu.json --from-diffuse --save normal",
-    "preset": "src/default/models/quake2-matfu.json",
+    "tool": "../quetoo/src/tools/matfu.py batch --preset src/default/models/quake2/quake2-matfu.json --from-diffuse --save normal",
+    "preset": "src/default/models/quake2/quake2-matfu.json",
     "inputs": "Every *_norm.png under target/default/models/*/quake2_*, regenerated from its diffuse",
     "output": "RGB, DirectX convention, no packed height, same size as the diffuse",
     "reproducible": "Equivalent to the matfu GUI's Generate from diffuse then Save with this preset; rerunning does not compound",
@@ -1596,7 +1596,7 @@
     }
   },
   "diffuse_regeneration": {
-    "script": "src/default/models/quake2-skins.py",
+    "script": "src/default/models/quake2/quake2-skins.py",
     "input": "Each texture's brightening_baseline, or its edited_baseline when hand edited after brightening; never compound",
     "steps": [
       "Brighten: round(255 * (input / 255) ** 0.75) per sRGB byte",

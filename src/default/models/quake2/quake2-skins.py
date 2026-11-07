@@ -23,9 +23,9 @@ import numpy as np
 from PIL import Image, ImageDraw
 from scipy import ndimage
 
-DATA = Path(__file__).resolve().parents[3]
+DATA = Path(__file__).resolve().parents[4]
 TARGET = DATA / "target/default"
-REPORT = DATA / "src/default/models/quake2-import.json"
+REPORT = Path(__file__).with_name("quake2-import.json")
 
 GAMMA = 0.75
 DELIGHT = {"glint_size": 0.03, "streak": 0.2, "percentile": 25, "keep": 0.0, "saturation": 0.35}
@@ -131,7 +131,7 @@ def main():
       counts[mode] += 1
   report["diffuse_brightening"]["status"] = "Superseded by diffuse_regeneration"
   report["diffuse_regeneration"] = {
-    "script": "src/default/models/quake2-skins.py",
+    "script": "src/default/models/quake2/quake2-skins.py",
     "input": "Each texture's brightening_baseline, or its edited_baseline when hand edited after brightening; never compound",
     "steps": [f"Brighten: round(255 * (input / 255) ** {GAMMA}) per sRGB byte",
               f"Remove baked specular (strong) with {DELIGHT}, only within texels used by the mesh"],
