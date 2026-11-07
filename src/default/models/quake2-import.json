@@ -1625,7 +1625,7 @@
   "sounds": {
     "status": "Quetoo originals, generated for the Quake II item set",
     "generator": "src/default/sounds/quake2/make_quake2_sounds.py",
-    "method": "The chaingun, hyperblaster and machinegun sounds, the shotgun fire sounds and the railgun hum are Quetoo originals. Each is synthesized, or reshaped and layered from the Quetoo sounds listed as its sources, to the timing of the Quake II weapon code (GPL). Quake II's own sounds were only listened to and measured, for duration, envelope and spectral balance; none is read by the generator or mixed into its output.",
+    "method": "The chaingun, hyperblaster and machinegun sounds, the shotgun fire sound and the railgun hum are Quetoo originals. Each is synthesized, or reshaped and layered from the Quetoo sounds listed as its sources, to the timing of the Quake II weapon code (GPL). Quake II's own sounds were only listened to and measured, for duration, envelope and spectral balance; none is read by the generator or mixed into its output.",
     "excluded_sources": "Quetoo sounds that are copies of Quake or Quake II sounds are not used as sources (weapons/handgrenades/hg_throw.wav is Quake II's HGRENT1A.WAV).",
     "files": [
       {
@@ -1671,13 +1671,6 @@
         ]
       },
       {
-        "destination": "target/default/sounds/weapons/quake2_supershotgun/fire.wav",
-        "sha256": "c7425d0b13582905189586a3d264ac673b68ece7cbcaa4467d027c031b08a543",
-        "sources": [
-          "target/default/sounds/weapons/supershotgun/fire.wav"
-        ]
-      },
-      {
         "destination": "target/default/sounds/weapons/quake2_hyperblaster/fire.wav",
         "sha256": "5375610dbfc128f8dc9c6e2b63c29eca1255f51dc22f7062b775c8fe8718aea0",
         "sources": [
@@ -1715,6 +1708,6 @@
         "sources": []
       }
     ],
-    "shared": "The other Quake II weapons use Quetoo's own sounds, referenced directly by the game and client game: blaster fire and hit, hyperblaster hit, grenade launcher fire, grenades (bounce, throw, timer), rocket launcher fire, rocket flight, explosions, railgun fire, and the BFG10K's prime, fire and hit. The Quake II BFG has no hum or flight sound. weapons/railgun/hum.wav is generated here and shared by both railguns."
+    "shared": "The other Quake II weapons use Quetoo's own sounds, referenced directly by the game and client game: super shotgun fire, blaster fire and hit, hyperblaster hit, grenade launcher fire, grenades (bounce, throw, timer), rocket launcher fire, rocket flight, explosions, railgun fire, and the BFG10K's prime, fire and hit. The Quake II BFG has no hum or flight sound. weapons/railgun/hum.wav is generated here and shared by both railguns."
   }
 }
