@@ -10,7 +10,7 @@
 "items" "quake"
 "version" "1.0.0"
 "sky" "sky1"
-"ambient" "0.55"
+"ambient" "0.85"
 "message" "The Cistern Reloaded"
 "min_clients" "2"
 "_tb_textures" "textures/common;textures/decals;textures/effects;textures/prototype;textures/quake;textures/quake3/base_floor"
