@@ -8111,14 +8111,14 @@
 }
 // entity 128
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "_tb_layer" "21"
 "origin" "736 504 216"
 "spawnflags" "1"
 }
 // entity 129
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "_tb_layer" "21"
 "origin" "792 504 216"
 "spawnflags" "1"
@@ -8131,7 +8131,7 @@
 }
 // entity 131
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "_tb_layer" "21"
 "origin" "288 1000 120"
 }
@@ -8179,14 +8179,14 @@
 }
 // entity 139
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "_tb_layer" "21"
 "origin" "256 -256 208"
 "spawnflags" "1"
 }
 // entity 140
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "_tb_layer" "21"
 "origin" "200 -256 208"
 "spawnflags" "1"
@@ -8217,7 +8217,7 @@
 }
 // entity 145
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "_tb_layer" "21"
 "origin" "1016 -680 208"
 }
@@ -8229,7 +8229,7 @@
 }
 // entity 147
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "_tb_layer" "21"
 "origin" "512 -240 -120"
 "spawnflags" "1"
@@ -8254,7 +8254,7 @@
 }
 // entity 151
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "_tb_layer" "21"
 "origin" "-120 376 208"
 }
@@ -8272,7 +8272,7 @@
 }
 // entity 154
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "_tb_layer" "21"
 "origin" "64 -432 32"
 }

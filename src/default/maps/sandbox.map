@@ -4557,7 +4557,7 @@
 }
 // entity 106
 {
-"classname" "item_health_quake_mega"
+"classname" "item_quake_health_mega"
 "origin" "-960 128 -400"
 }
 // entity 107
@@ -4584,12 +4584,12 @@
 }
 // entity 108
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "-864 160 -432"
 }
 // entity 109
 {
-"classname" "item_health_quake_large"
+"classname" "item_quake_health_large"
 "origin" "-1056 160 -432"
 }
 // entity 110

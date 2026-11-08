@@ -17035,7 +17035,7 @@
 }
 // entity 68
 {
-"classname" "item_quake2_health_medium"
+"classname" "ammo_quake2_health_medium"
 "origin" "-144.000000 24.000000 -272.000000"
 }
 // entity 69
@@ -17135,13 +17135,13 @@
 }
 // entity 87
 {
-"classname" "item_quake2_health_medium"
-"origin" "-144.000000 -152.000000 -272.000000"
+"classname" "item_quake2_backpack"
+"origin" "-144 -64 -272"
 }
 // entity 88
 {
-"classname" "ammo_quake2_bullets"
-"origin" "-144.000000 -64.000000 -272.000000"
+"classname" "ammo_quake2_health_medium"
+"origin" "-144 -152 -272"
 }
 // entity 89
 {

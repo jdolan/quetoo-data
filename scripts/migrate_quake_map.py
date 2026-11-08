@@ -43,9 +43,9 @@ REPLACEMENTS = {
     "item_armor_shard":   "REMOVE",
 
     # Health
-    "item_health":       "item_health_quake_medium",
-    "item_health_large": "item_health_quake_large",
-    "item_health_mega":  "item_health_quake_mega",
+    "item_health":       "item_quake_health_medium",
+    "item_health_large": "item_quake_health_large",
+    "item_health_mega":  "item_quake_health_mega",
     "item_health_small": "REMOVE",
 }
 

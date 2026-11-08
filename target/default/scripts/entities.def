@@ -546,7 +546,7 @@
 */
 
 /*QUAKED item_adrenaline (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
- Adrenaline (=100).
+ Adrenaline. Boosts health to 1.2 times the maximum, decaying back to the maximum over time.
 
  -------- Keys --------
  team : The team name for alternating item spawns.
@@ -765,7 +765,7 @@
  model="models/health/mega/tris.obj"
 */
 
-/*QUAKED item_health_quake_large (1 0 0) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+/*QUAKED item_quake_health_large (1 0 0) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Large Health (+25).
 
   -------- Keys --------
@@ -784,7 +784,7 @@
   model="models/health/quake_large/tris.obj"
   */
 
-/*QUAKED item_health_quake_medium (.8 .8 0) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+/*QUAKED item_quake_health_medium (.8 .8 0) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Health (+15).
 
   -------- Keys --------
@@ -803,7 +803,7 @@
   model="models/health/quake_medium/tris.obj"
   */
 
-/*QUAKED item_health_quake_mega (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+/*QUAKED item_quake_health_mega (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Mega Health (+100).
 
   -------- Keys --------
@@ -2991,6 +2991,42 @@
 
 /*QUAKED item_quake2_health_mega (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
  Quake II Mega Health (+100). Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ quetoo : Exact replacement item classname in quetoo mode; absent uses the table, empty suppresses.
+ quake : Exact replacement item classname in quake mode; absent uses the table, empty suppresses.
+ quake2 : Exact replacement item classname in quake2 mode; absent uses the table, empty suppresses.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED item_quake2_adrenaline (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Adrenaline. Boosts health to 1.2 times the maximum, decaying back to the maximum over time. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ quetoo : Exact replacement item classname in quetoo mode; absent uses the table, empty suppresses.
+ quake : Exact replacement item classname in quake mode; absent uses the table, empty suppresses.
+ quake2 : Exact replacement item classname in quake2 mode; absent uses the table, empty suppresses.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED item_quake2_invulnerability (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Invulnerability. Grants full invulnerability for 30 seconds. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ quetoo : Exact replacement item classname in quetoo mode; absent uses the table, empty suppresses.
+ quake : Exact replacement item classname in quake mode; absent uses the table, empty suppresses.
+ quake2 : Exact replacement item classname in quake2 mode; absent uses the table, empty suppresses.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
+
+/*QUAKED item_quake2_backpack (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Ammo Pack. Raises ammo capacity until the carrier dies, and adds some ammo. Uses the Quake II inventory, independently of movement.
  team : The team name for alternating item spawns.
  quetoo : Exact replacement item classname in quetoo mode; absent uses the table, empty suppresses.
  quake : Exact replacement item classname in quake mode; absent uses the table, empty suppresses.

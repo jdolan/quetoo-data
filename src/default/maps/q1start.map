@@ -27582,7 +27582,7 @@
 }
 // entity 185
 {
-"classname" "item_health_quake_mega"
+"classname" "item_quake_health_mega"
 "origin" "-704 408 -160"
 }
 // entity 186

@@ -7368,12 +7368,12 @@
 }
 // entity 1
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "160 536 -128"
 }
 // entity 2
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "208 536 -128"
 }
 // entity 3
@@ -7466,22 +7466,22 @@
 }
 // entity 19
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "24 192 16"
 }
 // entity 20
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "-24 192 16"
 }
 // entity 21
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "-896 288 16"
 }
 // entity 22
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "-896 328 16"
 }
 // entity 23
@@ -7491,12 +7491,12 @@
 }
 // entity 24
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "688 -120 8"
 }
 // entity 25
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "688 -32 8"
 }
 // entity 26
@@ -7511,12 +7511,12 @@
 }
 // entity 28
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "-496 12 -128"
 }
 // entity 29
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "-548 12 -128"
 }
 // entity 30
@@ -12092,7 +12092,7 @@
 }
 // entity 91
 {
-"classname" "item_health_quake_mega"
+"classname" "item_quake_health_mega"
 "origin" "208 -272 16"
 }
 // entity 92

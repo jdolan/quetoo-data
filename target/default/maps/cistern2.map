@@ -22303,7 +22303,7 @@
 }
 // entity 280
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "560 464 304"
 }
 // entity 281
@@ -24159,7 +24159,7 @@
 }
 // entity 313
 {
-"classname" "item_health_quake_mega"
+"classname" "item_quake_health_mega"
 "origin" "32 1696 304"
 "_tb_layer" "3326"
 }
@@ -24171,31 +24171,31 @@
 }
 // entity 315
 {
-"classname" "item_health_quake_large"
+"classname" "item_quake_health_large"
 "origin" "1136 560 80"
 "_tb_layer" "3326"
 }
 // entity 316
 {
-"classname" "item_health_quake_large"
+"classname" "item_quake_health_large"
 "origin" "1136 336 80"
 "_tb_layer" "3326"
 }
 // entity 317
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "336 1648 16"
 "_tb_layer" "3326"
 }
 // entity 318
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "336 1712 16"
 "_tb_layer" "3326"
 }
 // entity 319
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "336 1776 16"
 "_tb_layer" "3326"
 }
@@ -24207,37 +24207,37 @@
 }
 // entity 321
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "32 -256 16"
 "_tb_layer" "3326"
 }
 // entity 322
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "-32 -256 16"
 "_tb_layer" "3326"
 }
 // entity 323
 {
-"classname" "item_health_quake_large"
+"classname" "item_quake_health_large"
 "origin" "304 2000 208"
 "_tb_layer" "3326"
 }
 // entity 324
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "-800 896 128"
 "_tb_layer" "3326"
 }
 // entity 325
 {
-"classname" "item_health_quake_medium"
+"classname" "item_quake_health_medium"
 "origin" "-800 1056 128"
 "_tb_layer" "3326"
 }
 // entity 326
 {
-"classname" "item_health_quake_large"
+"classname" "item_quake_health_large"
 "origin" "0 0 176"
 "_tb_layer" "3326"
 }
