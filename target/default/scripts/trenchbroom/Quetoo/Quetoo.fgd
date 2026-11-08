@@ -39,9 +39,9 @@
 @PointClass base(Item) color(220 180 0) studio("") = item_health : "Health (+15)" []
 @PointClass base(Item) color(240 60 40) studio("") = item_health_large : "Large health (+25)" []
 @PointClass base(Item) color(30 100 200) studio("") = item_health_mega : "Megahealth (+75)" []
-@PointClass base(Item) color(255 0 0) studio("") = item_health_quake_large : "Quake Large Health (+25)." []
-@PointClass base(Item) color(204 204 0) studio("") = item_health_quake_medium : "Quake Health (+15)." []
-@PointClass base(Item) color(76 76 255) studio("") = item_health_quake_mega : "Quake Mega Health (+100)." []
+@PointClass base(Item) color(255 0 0) studio("") = item_quake_health_large : "Quake Large Health (+25)." []
+@PointClass base(Item) color(204 204 0) studio("") = item_quake_health_medium : "Quake Health (+15)." []
+@PointClass base(Item) color(76 76 255) studio("") = item_quake_health_mega : "Quake Mega Health (+100)." []
 
 @PointClass base(Item) color(80 100 255) studio("") = item_adrenaline : "Adrenaline. Boosts health to 120% of max, decaying back over time." []
 @PointClass base(Item) color(20 180 180) studio("") = item_quad : "Quad damage" []

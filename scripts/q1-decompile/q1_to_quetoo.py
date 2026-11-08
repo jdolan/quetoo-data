@@ -604,11 +604,11 @@ def convert_entity(keys, brushes, report):
         spawnflags = 0
     elif classname == "item_health":
         if spawnflags & 1:
-            classname = "item_health_quake_medium"
+            classname = "item_quake_health_medium"
         elif spawnflags & 2:
-            classname = "item_health_quake_mega"
+            classname = "item_quake_health_mega"
         else:
-            classname = "item_health_quake_large"
+            classname = "item_quake_health_large"
         spawnflags = 0
     elif classname in RENAME:
         classname = RENAME[classname]

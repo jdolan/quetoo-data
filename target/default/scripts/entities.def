@@ -765,7 +765,7 @@
  model="models/health/mega/tris.obj"
 */
 
-/*QUAKED item_health_quake_large (1 0 0) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+/*QUAKED item_quake_health_large (1 0 0) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Large Health (+25).
 
   -------- Keys --------
@@ -784,7 +784,7 @@
   model="models/health/quake_large/tris.obj"
   */
 
-/*QUAKED item_health_quake_medium (.8 .8 0) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+/*QUAKED item_quake_health_medium (.8 .8 0) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Health (+15).
 
   -------- Keys --------
@@ -803,7 +803,7 @@
   model="models/health/quake_medium/tris.obj"
   */
 
-/*QUAKED item_health_quake_mega (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+/*QUAKED item_quake_health_mega (.3 .3 1) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
   Quake Mega Health (+100).
 
   -------- Keys --------
