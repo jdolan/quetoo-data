@@ -115,6 +115,7 @@
 @PointClass base(Item) color(180 180 80) studio("") = item_quake2_health_mega : "Quake II Mega Health (+100)" []
 @PointClass base(Item) color(180 180 80) studio("") = item_quake2_backpack : "Quake II Ammo Pack (raises ammo capacity)" []
 @PointClass base(Item) color(180 180 80) studio("") = item_quake2_adrenaline : "Quake II Adrenaline (health to 120%)" []
+@PointClass base(Item) color(180 180 80) studio("") = item_quake2_invulnerability : "Quake II Invulnerability (30 seconds)" []
 
 @SolidClass base(Phong, Targetname) color(0 255 255) = func_bob : "A solid brush that bobs continuously back and forth along a vector. Unlike func_train, no path_corners or triggers are required, making it cheap to place in quantity (e.g. an array of small ambient platforms)."
 [
