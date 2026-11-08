@@ -142,7 +142,7 @@ c28ddc9daaf5d2812f49f22d58ac9b5b 1322707 map-aghast.pk3
 c19c0280583e9d647bafb7bbd18d4443 1486021 map-badplace.pk3
 e013e2b600bbf2d98111340c78058fe3 6894690 map-campgrounds.pk3
 ab8d2312c7e5de90ebdb8ade2079cedd 5594193 map-chthon.pk3
-8c2ddd1cd7913daabce103dca3043a43 4060152 map-cistern.pk3
+40139bcfe7c838eff03cb951dd9a01fb 4060244 map-cistern.pk3
 fdb2befecd64b5dcddb83a2d15370df5 2446256 map-claustrophobopolis.pk3
 a6b7e9f5f2d1c5842554ce506e79806b 1601661 map-darkzone.pk3
 57ee2274855958b233a3d5e54b5d86c5 4170782 map-edge.pk3
@@ -159,7 +159,7 @@ b9d249f063bae97f0f26fa8856b6cd1e 1397253 map-rage.pk3
 8e18e525821c65eda7a10ef09b14f744 7261605 map-rounding.pk3
 b44dce2b942de828e52671c6a9eb12e7 1336239 map-slimyplace.pk3
 2bb9156ca17d629b95f4fe44cc5c99cf 1824797 map-tokays.pk3
-54d678d52fd588cd0d0416e03b20ceff 2564446 map-torn.pk3
+3539dbae3e4f572d5e3bf4df364248a5 2564442 map-torn.pk3
 f8e917d75bba2630f38ade1dfa3b3926 3580563 map-warehouse.pk3
 8224dac30cce44bec4d60e45dce4f345 589 maps.lst
 a4c1bb1b795ccc5bcb7d38a473289fb3 1452844 maps/2deaths.map
@@ -169,7 +169,7 @@ a0d05991bc9fc43ce28499fbd3995eef 499872 maps/aghast.map
 8736e9f7ca10b53271b28e956cd1e3ae 586494 maps/badplace.map
 fbedd6ae03dabe1397ca87a62d2edaa7 2389407 maps/campgrounds.map
 3873b625a9b2e88f38d7b4b1b6c26124 1942414 maps/chthon.map
-4e99290bc618d98eb111917e9737e8d1 1744599 maps/cistern.map
+fbe82f0b0f7672a49de2a2f3a67c8586 1744599 maps/cistern.map
 5ff86e8a12d782f95c54f5b3c71b9553 1051607 maps/claustrophobopolis.map
 136b62ae9f586b3b84ec7b9561dc5014 563690 maps/darkzone.map
 97b130a086d62879c09d18ead392bfb2 1678671 maps/edge.map
@@ -186,7 +186,7 @@ b42ccadd508ed7608d15849338daf4c8 1026146 maps/omf.map
 0c54cfd51779c431dadcb09d43edd8c2 1395268 maps/rounding.map
 ead8ad394610a5297e86bf722b86c9dd 748032 maps/slimyplace.map
 23a74f19a283d10cea4334165746961c 964114 maps/tokays.map
-b6b074979d4d67603bfe39a41d876251 1927479 maps/torn.map
+a9f3ea6e4c6b4029a98770851ec914dd 1927479 maps/torn.map
 a02b7c253bec7051f6e1ab9010d58b53 1230444 maps/warehouse.map
 633daad02ac460d3f48d43f4667be17f 179295 mapshots/2deaths/2deaths01.jpg
 b56e464ff2ef8b759b29315ba44f57f1 170442 mapshots/2deaths/2deaths02.jpg
