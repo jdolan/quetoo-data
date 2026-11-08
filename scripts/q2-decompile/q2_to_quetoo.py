@@ -271,10 +271,7 @@ class Textures:
                 qw, qh = q1.image_size(found[1])
                 result = (found[0], qw / size[0], qh / size[1])
             else:
-                if found:
-                    self.missing[lower] = "no WAL to read the size from"
-                else:
-                    self.missing[lower] = "no Quetoo texture"
+                self.missing[lower] = bool(found)
                 result = (found[0] if found else f"{dirs[0]}/{name}", 1.0, 1.0)
 
         self.cache[q2name] = result
@@ -431,8 +428,9 @@ def main():
         f.write("\n".join(lines) + "\n")
 
     print(f"{dst}: {len(out)} entities")
-    for name, why in sorted(textures.missing.items()):
-        print(f"  missing {name} ({why})")
+    if textures.missing:
+        print(f"  {len(textures.missing)} textures are missing from Quetoo, and keep their Quake 2 scale:")
+        print("    " + " ".join(sorted(textures.missing)))
     if stats.get("light"):
         print(f"  {stats['light']} light emitting surfaces lost their light, which Quetoo takes from materials")
     counts = {}
