@@ -3000,3 +3000,15 @@
  hover : Do not drop to the floor.
  hazard_respawn : Return to spawn after entering lava or slime.
 */
+
+/*QUAKED item_quake2_backpack (.7 .7 .3) (-16 -16 -16) (16 16 16) triggered no_touch hover hazard_respawn
+ Quake II Ammo Pack. Raises ammo capacity until the carrier dies, and adds some ammo. Uses the Quake II inventory, independently of movement.
+ team : The team name for alternating item spawns.
+ quetoo : Exact replacement item classname in quetoo mode; absent uses the table, empty suppresses.
+ quake : Exact replacement item classname in quake mode; absent uses the table, empty suppresses.
+ quake2 : Exact replacement item classname in quake2 mode; absent uses the table, empty suppresses.
+ triggered : Appears when triggered.
+ no_touch : Solid instead of touch-pickup.
+ hover : Do not drop to the floor.
+ hazard_respawn : Return to spawn after entering lava or slime.
+*/
