@@ -1,3 +1,6 @@
 {
 	diffusemap powerups/quake2_backpack/backpack
+	roughness 1.10
+	hardness 0.10
+	specularity 0.70
 }
