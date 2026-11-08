@@ -217,9 +217,12 @@ a690956bb0e0b7dba967014472394124 161261 mapshots/chthon/chthon01.jpg
 50c665da530d9ed4af8713c0e9d92cd0 113795 mapshots/chthon/chthon02.jpg
 0827a76411e785fe1c199e004ab38031 175959 mapshots/chthon/chthon03.jpg
 3b9a0bb55f115e038711f9bf616d0c6c 176982 mapshots/chthon/chthon04.jpg
-cf149c3f04613ce626dda49ee6748f4e 179634 mapshots/cistern/cistern01.jpg
-aa5e1fa839ef0bb6f2a8e55ca270f48e 168506 mapshots/cistern/cistern02.jpg
-2c8d59c6cfcf31bb729c548f013eae72 188737 mapshots/cistern/cistern03.jpg
+0b34e712f5024235978a9e5d8bd012b9 176759 mapshots/cistern/cistern01.jpg
+255b1c2991f95f0f2d9859adf72c6157 221953 mapshots/cistern/cistern02.jpg
+136ad9e2b21fcfaf791f8795929bc843 169489 mapshots/cistern/cistern03.jpg
+228d35ebb93d95289ea72db384c3f80d 256356 mapshots/cistern/cistern04.jpg
+2affbd651b462948ba049b96d8f45f98 218141 mapshots/cistern/cistern05.jpg
+0eaecc963c87d437bae31a0dd68c7509 221028 mapshots/cistern/cistern06.jpg
 6d9af7e601763eac1736138ad0007dc5 129178 mapshots/claustrophobopolis/claustrophobopolis01.jpg
 a5bd57b99258353841ec18203be27287 132296 mapshots/claustrophobopolis/claustrophobopolis02.jpg
 b4c52c7824a5134b29c5efb1102749f3 183714 mapshots/darkzone/darkzone01.jpg
