@@ -9355,7 +9355,7 @@
 }
 // entity 31
 {
-"classname" "item_adrenaline"
+"classname" "item_quake2_adrenaline"
 "origin" "64 392 -228"
 }
 // entity 32
