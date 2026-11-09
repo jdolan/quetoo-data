@@ -1977,7 +1977,7 @@ fedb8db38e8f81af8b427c3619d34851 1504 practice-quake2.lst
 6f7b81da39c358825afcab61ef9c2245 3797 scripts/default_project.proj
 a62b322ab111a5fb1639ac790ad91b27 157514 scripts/entities.def
 2dacd278744e75ce3c66a4de9382f029 7 scripts/shaderlist.txt
-ab3beeb78f54f1c8eeb22f5217bf30d1 8179 scripts/trenchbroom/Quetoo/GameConfig.cfg
+8960554d3cef3a6caca4a65f1299fddd 8371 scripts/trenchbroom/Quetoo/GameConfig.cfg
 3aa1e0296c8357875feded038afed8f2 1855 scripts/trenchbroom/Quetoo/Icon.png
 7e52bf2e977f74a2322876ce77984b10 63450 scripts/trenchbroom/Quetoo/Quetoo.fgd
 60944791079503010618b669a310d51c 128367 sky/acheron.jpg
