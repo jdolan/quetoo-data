@@ -1,0 +1,8 @@
+Steps to make announcer clips
+- Each Track is it's own language
+- Each track segment is another announcer clip
+
+1) After recording, trim audio segment to around 500ms before and after speech
+2) Apply reverb filter (25-30% seems to work well)
+3) Apply Bass boost of 10db
+4) Amplify to around 75% of total amplitude. Max +10db
