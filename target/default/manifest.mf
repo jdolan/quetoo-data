@@ -142,7 +142,7 @@ c28ddc9daaf5d2812f49f22d58ac9b5b 1322707 map-aghast.pk3
 c19c0280583e9d647bafb7bbd18d4443 1486021 map-badplace.pk3
 e013e2b600bbf2d98111340c78058fe3 6894690 map-campgrounds.pk3
 ab8d2312c7e5de90ebdb8ade2079cedd 5594193 map-chthon.pk3
-40139bcfe7c838eff03cb951dd9a01fb 4060244 map-cistern.pk3
+bd565ef61b75917ac5b913d3e8859362 4195237 map-cistern.pk3
 fdb2befecd64b5dcddb83a2d15370df5 2446256 map-claustrophobopolis.pk3
 a6b7e9f5f2d1c5842554ce506e79806b 1601661 map-darkzone.pk3
 57ee2274855958b233a3d5e54b5d86c5 4170782 map-edge.pk3
@@ -169,7 +169,7 @@ a0d05991bc9fc43ce28499fbd3995eef 499872 maps/aghast.map
 8736e9f7ca10b53271b28e956cd1e3ae 586494 maps/badplace.map
 fbedd6ae03dabe1397ca87a62d2edaa7 2389407 maps/campgrounds.map
 3873b625a9b2e88f38d7b4b1b6c26124 1942414 maps/chthon.map
-fbe82f0b0f7672a49de2a2f3a67c8586 1744599 maps/cistern.map
+346a088db636bc51a306249744790d8b 1839816 maps/cistern.map
 5ff86e8a12d782f95c54f5b3c71b9553 1051607 maps/claustrophobopolis.map
 136b62ae9f586b3b84ec7b9561dc5014 563690 maps/darkzone.map
 97b130a086d62879c09d18ead392bfb2 1678671 maps/edge.map
