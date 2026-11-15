@@ -1,0 +1,12 @@
+{
+	diffusemap decals/icicles_1
+	contents decoration
+	surface "material"
+	parallax 2.00
+	{
+		texture decals/icicles_1
+		blend src_alpha one
+		color 1.1 1.1 1.1 0.95
+		lighting 0.5
+	}
+}

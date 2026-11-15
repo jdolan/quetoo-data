@@ -1,0 +1,12 @@
+{
+	diffusemap fractures/light4_1
+	{
+		texture fractures/light4_1_glow
+		blend src_alpha one
+		lighting 1.00 flat
+		emissive 0.51
+	}
+	{
+		flare flare_2
+	}
+}

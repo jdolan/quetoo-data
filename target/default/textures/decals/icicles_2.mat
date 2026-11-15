@@ -1,0 +1,6 @@
+{
+	diffusemap decals/icicles_2
+	contents decoration
+	surface alpha_test
+	alpha_test 0.5
+}

@@ -1,3 +1,7 @@
 {
+	diffusemap fractures/wall1_6
 	normalmap fractures/wall1_5_norm
+	hardness 2.00
+	specularity 2.00
+	parallax 3.20
 }

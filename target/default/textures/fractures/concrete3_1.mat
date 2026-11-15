@@ -1,4 +1,5 @@
 {
 	diffusemap fractures/concrete3_1
 	normalmap fractures/concrete1_1_norm
+	parallax 1.50
 }

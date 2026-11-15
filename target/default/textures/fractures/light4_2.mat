@@ -1,0 +1,14 @@
+{
+	diffusemap fractures/light4_2
+	parallax 3.50
+	{
+		texture fractures/light4_2_glow
+		blend src_alpha one
+		lighting 1.00 flat
+		emissive 0.51
+	}
+	{
+		color 0.40 0.72 0.90 1.00
+		flare flare_1
+	}
+}

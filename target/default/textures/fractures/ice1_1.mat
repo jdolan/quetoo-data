@@ -1,0 +1,22 @@
+{
+	diffusemap fractures/ice1_1
+	normalmap fractures/ice1_norm
+	specularmap fractures/ice1_spec
+	roughness 0.50
+	hardness 2.50
+	specularity 1.25
+	parallax 2.20
+	surface "slick reflect material"
+	footsteps ice
+	{
+		reflect
+		blend src_alpha one
+		color 1 1 1 0.05
+	}
+	{
+		texture fractures/ice1_1
+		blend src_alpha one
+		color 1 1 1 0.85
+		lighting 1
+	}
+}
