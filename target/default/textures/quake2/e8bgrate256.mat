@@ -2,4 +2,5 @@
 	diffusemap quake2/e8bgrate256
 	surface "alpha_test"
 	alpha_test 0.310
+	footsteps grate
 }
