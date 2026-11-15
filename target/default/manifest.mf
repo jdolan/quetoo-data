@@ -8397,7 +8397,7 @@ feb824dbfaf6e94718b4ede9aa456836 385 textures/quake2/duckw-open.mat
 385e0f57544bf2f258c89815489df521 615506 textures/quake2/duckw.png
 8ed0b727acd885b2a4ebbf92eb5fc3f7 613418 textures/quake2/duckw_norm.png
 03b1aea461446046426701dcae6c59a3 97659 textures/quake2/duckw_spec.jpg
-30106043809d4a7bb69ee94a23e40c15 75 textures/quake2/e8bgrate256.mat
+319c1df0644366adbb61d952c74ec87a 92 textures/quake2/e8bgrate256.mat
 86ae2410c2e52c00cd78a892b049fa4e 157825 textures/quake2/e8bgrate256.png
 4a270046fdcb6d1f46e9ae4012e434b7 179279 textures/quake2/e8bgrate256_norm.png
 bbc8b6d8de86f8b998fd3ff0f9603a67 19646 textures/quake2/e8bgrate256_spec.jpg
